@@ -1,5 +1,9 @@
 # models
 
-A collection of deep valuation models and related theories, tools, and applications.
+A collection of deep valuation models.
 
-Not Financial Advice.
+These models are highly subject to change overtime and may be automated.
+
+> **Warning**
+>
+> Not Financial Advice.
