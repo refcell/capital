@@ -1,11 +1,9 @@
 /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•*/
 /*                                                                                                            */
-/*  Models                                                                                                    */
+/*  Refcell Capital                                                                                           */
 /*                                                                                                            */
-/*  WARNING: Not Financial Advice.                                                                            */
+/*  Deep Valuation Models.                                                                                    */
 /*                                                                                                            */
-/*  A Collection of Deep Value Security and Commodity Models.                                                 */
-/*                                                                                                            */
-/*  All models are highly subject to change overtime.                                                         */
+/*  Not Financial Advice.                                                                                     */
 /*                                                                                                            */
 /*´:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•.°+.*•´.*:°•.°+.*•´.*:˚.°*.˚•´.°:°•.°•.*•´.*:˚.°*.˚•´.°:°•*/
