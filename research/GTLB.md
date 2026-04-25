@@ -188,15 +188,114 @@ cohort under pressure.
 is driven by $222M in stock-based compensation. Non-GAAP margins are solidly profitable and
 expanding, though FY2027 guide implies ~5pt margin compression from AI investments.
 
-### Balance Sheet
+### Balance Sheet (10-K, filed March 17, 2026)
 
-| Item | Value |
-|------|-------|
-| Cash & Short-Term Investments | ~$1.26B |
-| Debt | $0 |
-| Net Cash | $1.26B ($7.41/share) |
-| Shareholder Equity | $968M |
-| Buyback Authorization | $400M |
+#### Consolidated Balance Sheet (in thousands)
+
+**Assets:**
+
+| Item | Jan 31, 2026 | Jan 31, 2025 |
+|------|-------------|-------------|
+| Cash and cash equivalents | $229,576 | $227,649 |
+| Short-term investments | $1,030,327 | $764,728 |
+| Accounts receivable, net | $304,301 | $264,565 |
+| Deferred contract acquisition costs (current) | $42,676 | $38,964 |
+| Prepaid expenses and other current assets | $48,899 | $40,411 |
+| **Total current assets** | **$1,655,779** | **$1,336,317** |
+| Property and equipment, net | $11,815 | $4,013 |
+| Goodwill | $17,379 | $16,139 |
+| Intangible assets, net | $9,774 | $17,834 |
+| Deferred contract acquisition costs (non-current) | $23,705 | $20,142 |
+| Other non-current assets | $4,295 | $4,818 |
+| **Total assets** | **$1,722,747** | **$1,399,263** |
+
+**Liabilities:**
+
+| Item | Jan 31, 2026 | Jan 31, 2025 |
+|------|-------------|-------------|
+| Accounts payable | $9,205 | $7,519 |
+| Accrued expenses and other current liabilities | $58,185 | $54,680 |
+| Accrued compensation and benefits | $39,657 | $40,233 |
+| Deferred revenue (current) | $545,096 | $442,599 |
+| **Total current liabilities** | **$652,143** | **$545,031** |
+| Deferred revenue (non-current) | $26,994 | $26,369 |
+| Other non-current liabilities | $7,362 | $6,557 |
+| **Total liabilities** | **$686,499** | **$577,957** |
+
+**Stockholders' Equity:**
+
+| Item | Jan 31, 2026 | Jan 31, 2025 |
+|------|-------------|-------------|
+| Additional paid-in capital | $2,207,361 | $1,952,031 |
+| Accumulated deficit | ($1,223,570) | ($1,167,614) |
+| Accumulated other comprehensive income (loss) | $6,877 | ($8,508) |
+| **Total GitLab stockholders' equity** | **$990,668** | **$775,909** |
+| Noncontrolling interests (JiHu VIE) | $45,580 | $45,397 |
+| **Total stockholders' equity** | **$1,036,248** | **$821,306** |
+
+Shares outstanding: 153.3M Class A + 16.7M Class B = 170.1M total.
+
+#### Short-Term Investments Breakdown (Note 4)
+
+| Type | Fair Value | % of Portfolio |
+|------|-----------|----------------|
+| U.S. Treasury securities | $633,246 | 61% |
+| Corporate debt securities | $295,572 | 29% |
+| U.S. Agency securities | $94,056 | 9% |
+| Commercial paper | $7,453 | <1% |
+| **Total** | **$1,030,327** | 100% |
+
+Net unrealized gain: $1.4M ($1.5M gains, $84K losses).
+All unrealized losses are <12 months old. All Level 1 or Level 2
+fair value -- no illiquid holdings.
+
+**Maturities:**
+- Due within 1 year: $611M (59%)
+- Due in 1-2 years: $419M (41%)
+
+All classified as current (available-for-sale) based on
+management's ability to use in current operations.
+
+#### Cash & Equivalents Composition ($230M)
+
+- Bank cash: ~$76.8M (33%)
+- Money market funds: ~$152.7M (67%)
+
+**Total liquidity (cash + investments): $1,259.9M**
+(+$267.5M YoY, driven by $232.9M operating cash flow)
+
+#### Deferred Revenue
+
+| | Jan 31, 2026 | Jan 31, 2025 |
+|---|-------------|-------------|
+| Current | $545,096 | $442,599 |
+| Non-current | $26,994 | $26,369 |
+| **Total** | **$572,090** | **$468,968** |
+
+95.3% of deferred revenue is current. $395.9M of prior-year
+opening balance was recognized as revenue in FY2026.
+
+**RPO:** $1,135.8M total. ~63% recognized within 12 months,
+~89% within 24 months.
+
+#### Other Notable Items
+
+- **Zero debt.** No borrowings of any kind.
+- **Zero operating leases.** All-remote = no offices, no ROU assets.
+  PP&E ($11.8M) is entirely computer equipment + capitalized
+  internal-use software.
+- **Purchase commitments:** $228M total (mostly hosting infra --
+  likely GCP/AWS). $99M due within 1 year.
+- **JiHu VIE:** $41M assets, $7.1M liabilities, ~$5.7M annual
+  net loss. Ring-fenced -- no recourse to GitLab.
+- **Accumulated deficit:** ($1.22B) but narrowing; FY2026 GAAP
+  net loss was only ~$56M vs. much larger prior-year losses.
+- **Litigation resolved:** Dolly securities class action
+  **dismissed with prejudice** Jan 26, 2026. All derivative
+  suits also voluntarily dismissed. No material pending litigation.
+- **$400M buyback** authorized March 2, 2026 (subsequent event).
+  ~11% of market cap at current prices.
+- **Interest income:** $45.7M in FY2026 from cash/investments.
 
 ### Q4 FY2026 Results vs. Estimates
 
