@@ -645,23 +645,35 @@ fears and AI disruption concerns.
 
 ## XIII. Risks & Controversies
 
-### Securities Fraud Litigation
+### Securities Fraud Litigation (Resolved)
 
-Class action lawsuit filed covering June 6, 2023 to March 4, 2024, alleging "false and misleading
-statements" about AI development capabilities. Multiple law firms pursuing. No resolution reported.
+The Dolly securities class action (filed Sep 2024, alleging
+misrepresentations about AI monetization) was **dismissed with
+prejudice** on January 26, 2026 after the court granted GitLab's
+motion to dismiss. Three derivative suits (Preciado, Jones,
+Lianto) were all voluntarily dismissed the same day. No material
+pending litigation remains.
 
 ### JiHu (China) Exposure
 
-GitLab operates in China through the JiHu joint venture. A former architect publicly alleged a
-coercive "Endgame Plan" and concealed American capital raising national security concerns. JiHu
-non-GAAP expenses are small (~$3.1M/quarter) but reputational/regulatory risk is outsized. GitLab
-aims to deconsolidate but "cannot predict the timing."
+GitLab operates in China through the JiHu VIE (~54% equity).
+JiHu is the exclusive seller in mainland China, Hong Kong, and
+Macau. Per the 10-K: revenue $9.3M (up from $7.6M), operating
+loss $6.4M (improved from $7.4M), cash $37.2M. GitLab is
+transitioning users resident in China to JiHu for PIPL
+compliance. IP enforcement in China remains a stated risk. A
+former architect publicly alleged a coercive "Endgame Plan" and
+concealed American capital. GitLab aims to deconsolidate but
+"cannot predict the timing."
 
 ### Open-Source Business Model Risk
 
-The open-core model creates inherent tension: giving away too much limits monetization, restricting
-too much pushes users to competitors. Usage-based AI credits could cannibalize traditional
-subscription revenue.
+The open-core model creates inherent tension: giving away too
+much limits monetization, restricting too much pushes users to
+competitors. Proprietary code is "source-available" (publicly
+viewable but not open-source-licensed), making it vulnerable to
+unauthorized distribution. Usage-based AI credits could
+cannibalize traditional subscription revenue.
 
 ---
 
@@ -725,21 +737,238 @@ regulated industries requiring self-hosted or air-gapped deployments.
 
 ---
 
-## XVII. Key Monitorables
+## XVII. FY2026 10-K Deep Dive
 
-1. **Q1 FY2027 results (June 8)**: Does growth stabilize or further decelerate?
-2. **Duo AI adoption metrics**: Is it generating material revenue?
-3. **M&A developments**: Does a Datadog, Google, or Oracle bid materialize?
-4. **Net retention trajectory**: 118% and falling -- does it stabilize?
-5. **OpenAI code-hosting platform**: Internal-only or productized?
-6. **Insider activity**: Does CEO buying accelerate, or does selling continue?
-7. **Buyback execution pace**: How quickly is the $400M deployed?
-8. **FedRAMP pipeline**: Government deal flow momentum
+*Source: 10-K filed March 17, 2026, accession 0001628280-26-018731*
+
+### Revenue by Geography (contracting entity location)
+
+| Region | FY2026 | % Rev | FY2025 | YoY |
+|--------|--------|-------|--------|-----|
+| United States | $787.3M | 82% | $618.7M | 27% |
+| Europe | $145.6M | 15% | $122.7M | 19% |
+| Asia Pacific | $22.2M | 2% | $17.9M | 24% |
+| **Total** | **$955.2M** | | **$759.2M** | 26% |
+
+No individual country besides the US exceeds 10% of revenue.
+JiHu (China) contributed $9.3M (<1%), consolidated into APAC.
+82% US concentration is high -- Europe is growing slower (19%
+vs 27% US).
+
+### Revenue by Product Type
+
+| Component | FY2026 | % | FY2025 | YoY |
+|-----------|--------|---|--------|-----|
+| Self-managed subscription | $568.5M | 59% | $458.9M | 24% |
+| SaaS subscription | $296.2M | 32% | $216.3M | 37% |
+| Self-managed license | $68.9M | 7% | $68.4M | +0.7% |
+| Professional services | $21.7M | 2% | $15.7M | 38% |
+
+Self-managed license is essentially flat -- the upfront
+component is mature. SaaS is the growth engine at 37% YoY,
+now 32% of total revenue (up from 28%).
+
+### Cost of Revenue Breakdown ($120.7M, +42% YoY)
+
+The $35.6M COGS increase breaks down as:
+- **+$18.4M**: Third-party hosting (SaaS + cloud) -- largest
+  single driver of gross margin compression
+- **+$9.0M**: Personnel (customer support, professional services)
+- **+$3.7M**: Professional services delivery fees
+- **+$2.4M**: Stock-based compensation
+- **+$1.7M**: Marketplace transaction processing fees
+
+AI inference costs are not separately broken out but are
+included in the $18.4M hosting increase.
+
+### Operating Expenses ($ in thousands)
+
+| | FY2026 | % Rev | FY2025 | % Rev | YoY |
+|---|--------|-------|--------|-------|-----|
+| Sales & Marketing | $434,725 | 46% | $384,295 | 51% | +13% |
+| Research & Development | $274,574 | 29% | $239,652 | 32% | +15% |
+| General & Administrative | $195,663 | 20% | $192,877 | 25% | +1% |
+| **Total OpEx** | **$904,962** | **95%** | **$816,824** | **108%** | +11% |
+
+Total OpEx as % of revenue dropped from 108% to 95% --
+13pp of operating leverage in one year.
+
+### Stock-Based Compensation by Function
+
+| Function | FY2026 | FY2025 | YoY |
+|----------|--------|--------|-----|
+| Cost of Revenue | $10.3M | $7.9M | +30% |
+| Sales & Marketing | $79.0M | $73.0M | +8% |
+| Research & Development | $63.8M | $58.3M | +9% |
+| General & Administrative | $61.9M | $46.7M | +33% |
+| **Total** | **$215.0M** | **$185.9M** | +16% |
+
+G&A SBC grew fastest (+33%), likely driven by new executive
+grants (CEO Staples, CFO Ross, CTO Padisetty). By instrument:
+RSUs $181.8M, stock options $16.9M, ESPP $13.9M.
+
+### Cash Flow Detail
+
+| | FY2026 | FY2025 |
+|---|--------|--------|
+| Net loss | ($58.6M) | ($9.1M) |
+| SBC add-back | $215.0M | $185.9M |
+| Deferred revenue change | +$93.3M | +$108.7M |
+| AR change | ($35.7M) | ($99.6M) |
+| Unrealized FX loss/(gain) | $18.8M | ($9.5M) |
+| Other working capital & non-cash | $0.0M | ($303.4M) |
+| **Operating Cash Flow** | **$232.9M** | **($64.0M)** |
+| Capex | ($10.8M) | ($3.8M) |
+| Net ST investment purchases | ($256.5M) | $0.7M |
+| **Adjusted Free Cash Flow** | **$219.6M** | **$120.0M** |
+
+FY2025 OCF was distorted by a **$187.7M BAPA tax payment**
+to the Dutch Tax Authority (bilateral advanced pricing
+agreement with IRS/DTA). Excluding that, underlying FCF
+improved ~$100M YoY driven by revenue growth, operating
+leverage, and lower AR build.
+
+### Tax Situation
+
+**Net Operating Losses (as of Jan 31, 2026):**
+- Federal NOLs: ~$284.8M (do not expire)
+- State NOLs: ~$265.0M (begin expiring FY2031)
+- Foreign NOLs: ~$38.3M (begin expiring 2032)
+- **Total NOLs: ~$588M**
+- R&D tax credits: $27.7M (federal + state)
+- Foreign tax credits: $7.4M
+
+**Valuation allowance: $330M** against $356M gross DTA --
+essentially the full amount. The company does not expect to
+realize these tax assets in the near term. The OBBBA (enacted
+July 4, 2025) restored immediate R&D expensing, reducing US
+taxable income to a loss position.
+
+### Dual-Class Voting Structure
+
+- **Class A**: 1 vote/share (153.4M shares, publicly traded)
+- **Class B**: 10 votes/share (16.7M shares, not traded)
+- Total voting power: 320.4M votes. **Class B holders
+  collectively control 52.1% of votes.**
+- Sijbrandij is the dominant Class B holder. He has a 10b5-1
+  plan (entered Dec 19, 2025) to sell ~1.4M shares (Class B
+  converting to A) between April 2026 and March 2027.
+- **Sunset provision**: Dual-class terminates at the earliest
+  of: (i) October 14, 2031, (ii) Sijbrandij's death/disability,
+  (iii) 2/3 vote of Class B holders, (iv) Class B falls below
+  5% of total outstanding.
+
+### CISO Departure (Red Flag)
+
+The CISO vacated the role on **February 26, 2026** -- just
+weeks after fiscal year-end. An interim CISO (VP of Security
+Operations, 25+ years experience) is in place while they
+search for a permanent replacement. This is notable for a
+company that **executes customer code on its infrastructure**,
+creating heightened attack surface vs. standard SaaS providers.
+Security team is 120+ practitioners globally.
+
+### Kilo Code ROFR (Undisclosed M&A Signal)
+
+GitLab entered a **Right of First Refusal Agreement** with
+**Kilo Code, Inc.** (Delaware) on November 25, 2025, for $1K
+consideration. ROFR period runs through August 24, 2026.
+Terms are heavily redacted in the 10-K exhibit (Exhibit 10.9).
+GitLab has 10 business days to respond to any acquisition
+proposal. Kilo Code appears to be an AI coding company.
+This signals active M&A interest in AI-native dev tools.
+
+### Arch/Meltano Write-Off
+
+Arch Data, Inc. (formerly Meltano) -- originally an internal
+GitLab data integration project spun off April 2021 -- **ceased
+operations in November 2025**. GitLab had already written down
+its $8.9M investment to zero in FY2024. No distributions
+received from liquidation.
+
+### Channel Concentration in AR
+
+Two channel partners (distributors) represented **17% and 13%
+of accounts receivable** as of Jan 31, 2026 (up from 11% and
+12% prior year). No end customer exceeds 10% of revenue or AR.
+
+### FX Impact
+
+Foreign exchange losses of **$19.5M** in FY2026 vs. $9.4M
+gain in FY2025 -- a **$28.9M adverse swing**. This is material
+relative to the $56M GAAP net loss.
+
+### Intellectual Property
+
+16 issued patents (expiring 2034-2043), 25 pending applications.
+24 US trademark registrations, 52 international. Modest patent
+portfolio for a company this size -- the moat is platform/data,
+not IP.
+
+### Community Metrics (from 10-K)
+
+- 50M+ registered users
+- 5,200+ contributors to the GitLab platform
+- 6,500+ merge requests from external users in calendar 2025
+- 275+ code contributions/month average since January 2021
+- 172 consecutive monthly releases as of January 31, 2026
+
+### Other 10-K Disclosures
+
+- **Seasonality**: Q3/Q4 heavy due to enterprise annual budget
+  cycles. Expected to become more pronounced as enterprise
+  mix grows.
+- **Purchase commitments**: $228M total, of which $131M is to
+  two hosting infrastructure vendors (likely GCP and AWS).
+  $99M due within 1 year.
+- **EU Digital Services Act**: New compliance obligation as a
+  hosting provider. Penalties up to 6% of global annual
+  turnover for non-compliance.
+- **Transparency as risk**: The public Handbook gives
+  competitors operational details. Regulation FD risk from
+  the transparency culture.
+- **Code execution as unique risk**: "Because code is executed
+  on our infrastructure on behalf of customers, we face
+  heightened security risks beyond those of standard SaaS
+  providers."
+- **No material cybersecurity incidents** disclosed as of the
+  filing date.
+- **Labor contingency**: $0.9M accrued for contractor usage
+  in certain foreign countries (down from $1.4M).
+- **GitLab Foundation**: Related party. $7.1M in charitable
+  stock donations in FY2026 (down from $11.8M).
+
+---
+
+## XVIII. Key Monitorables
+
+1. **Q1 FY2027 results (June 8)**: Does growth stabilize or
+   further decelerate? Is FY27 guide conservative as usual?
+2. **Duo AI adoption metrics**: Any quantification? The 10-K
+   discloses zero AI-specific financial metrics.
+3. **M&A developments**: Datadog rumors, Kilo Code ROFR
+   (expires Aug 2026), Google deepening partnership.
+4. **Net retention trajectory**: 118% and falling -- does it
+   stabilize? Below 115% is a red flag.
+5. **CISO hire**: Interim since Feb 26 -- permanent hire needed
+   given code-execution attack surface.
+6. **Gross margin trajectory**: 87% and guided to 85-87% --
+   AI hosting costs are the key variable.
+7. **Buyback execution pace**: How quickly is $400M deployed?
+   At current price, could retire ~11% of shares.
+8. **Sijbrandij Class B sales**: 10b5-1 plan for ~1.4M shares
+   through March 2027. Voting power erosion pace.
+9. **FX impact**: $19.5M loss in FY26 was material. Monitor
+   EUR/USD and GBP/USD exposure.
+10. **OpenAI code-hosting platform**: Internal-only or
+    productized?
 
 ---
 
 ## Sources
 
+- GitLab FY2026 10-K (SEC EDGAR, accession 0001628280-26-018731,
+  filed March 17, 2026)
 - GitLab Q4 FY2026 Earnings Press Release (ir.gitlab.com)
 - GitLab Q4 2026 Earnings Call Transcript (Motley Fool)
 - GitLab FY2027 Revenue Guidance (Seeking Alpha)
@@ -750,11 +979,11 @@ regulated industries requiring self-hosted or air-gapped deployments.
 - GitLab Duo Documentation (docs.gitlab.com/user/gitlab_duo)
 - Gartner Magic Quadrant for DevOps Platforms (2025)
 - Grand View Research, IndustryARC -- DevSecOps Market Forecasts
-- Datadog Acquisition Rumors (Reuters, Yahoo Finance, Investing.com)
-- Wolfe Research, Guggenheim, BofA, Morgan Stanley, Piper Sandler analyst notes
-- GitLab + Google Cloud Partnership (about.gitlab.com/press/releases/2026-04-14)
+- Datadog Acquisition Rumors (Reuters, Yahoo Finance)
+- Wolfe Research, Guggenheim, BofA, Morgan Stanley, Piper Sandler
+- GitLab + Google Cloud Partnership (about.gitlab.com, Apr 2026)
 - GitLab FedRAMP Authorization (ir.gitlab.com, May 2025)
-- Goldman Sachs Case Study (about.gitlab.com/customers/goldman-sachs)
+- Goldman Sachs Case Study (about.gitlab.com/customers)
 - TIKR Analysis (tikr.com/blog -- GTLB at 74% off highs)
 - Glassdoor Reviews (glassdoor.com/Reviews/GitLab)
 - SEC Form 4 Insider Filings (stocktitan.net, marketbeat.com)
