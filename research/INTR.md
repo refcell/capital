@@ -1,433 +1,481 @@
-# Inter & Co (INTR) Investment Research
+# Inter & Co (NASDAQ: INTR) Investment Research
 
-Date: 2026-05-18
+Date: 2026-05-24
 Ticker: NASDAQ: INTR
+Company: Inter & Co, Inc.
+Sector / industry: Brazilian digital banking / consumer finance / financial super-app
+Research status: Post-Q1 2026 refresh
+Primary valuation lens: P/B and ROE, P/E, residual income, credit-cycle scenario analysis
+Current stance: Watch / constructive if credit quality stabilizes
 
-Price snapshot: INTR closed at $5.85 on 2026-05-15, the latest regular-market close before this report. StockAnalysis showed 441.49 million shares outstanding and a market capitalization of roughly $2.58 billion. Inter reports in Brazilian reais. Using an approximate R$5.25/USD exchange rate, that market cap is about R$13.6 billion. Inter reported R$10.4 billion of shareholders' equity at 2026-03-31, so the stock trades around 1.3x book value, roughly 9.5x TTM earnings, and about 7x forward earnings based on data-provider consensus.
+Price snapshot: INTR closed at $6.16 on 2026-05-22. StockAnalysis showed market capitalization of approximately $2.72 billion at that close. Inter reports in Brazilian reais; using a May 22 USD/BRL rate around R$5.02 per USD, market capitalization was roughly R$13.6 billion. Inter reported R$10.4 billion of shareholders' equity at 2026-03-31, so the stock trades around 1.3x book value. TTM net income was roughly R$1.42 billion, putting the stock around 9.5x to 10.0x trailing earnings depending on FX and data-provider share count.
 
 This is investment research, not personalized financial advice.
 
-## Executive Summary
+## 1. Thesis In One Page
 
-Inter is a Brazilian digital bank and financial super-app with a much cleaner setup than the chart suggests. The stock is down near its 52-week low, but the operating business is still compounding: Q1 2026 net revenue increased 33% year over year to R$2.44 billion, net income attributable to controlling shareholders increased 38% to R$395 million, ROE reached 15.5%, total clients reached 44.0 million, active clients reached 25.8 million, funding reached R$74.1 billion, and the gross credit portfolio reached almost R$50 billion.
+### The Setup
 
-The market is not debating whether Inter can grow. It is debating what kind of growth this is. Bulls see a scaled, low-cost, branchless Brazilian bank with a large customer funnel, improving activation, cheap digital funding, credit penetration runway, and operating leverage. Bears see a small Brazilian bank competing against Nubank, Mercado Pago, PicPay, XP, and the incumbent banks while expanding credit quickly late in a high-rate cycle, with NPLs rising and regulatory capital moving lower.
+Inter is a Brazilian digital bank and financial super-app that looks optically cheap because the market is worried about the right thing. The operating story is strong: Q1 2026 net revenue increased 33% year over year to R$2.44 billion, net income attributable to controlling shareholders increased 38% to R$395 million, ROE reached 15.5%, total clients reached 44.0 million, active clients reached 25.8 million, funding reached R$74.1 billion, and the gross loan portfolio reached almost R$50 billion.
 
-At $5.85, the valuation is no longer demanding if Inter can sustain even mid-teens ROE. The stock trades at roughly 1.3x book and under 10x TTM earnings while management is explicitly aiming for a "Rule of 50" framework: net revenue growth plus ROE totaling 50% over the next three years. Management has also discussed a longer-term path toward roughly 28%-30% ROE by 2029. If that is even directionally right, the current multiple is too low.
+The chart tells a different story. INTR is down sharply from recent highs because investors are questioning credit quality, capital intensity, competition, Brazil macro, and whether management's new "Rule of 50" target is a disciplined underwriting framework or a promotional target for a fast-growing bank.
 
-The bear case is that the Rule of 50 target is aspirational. Q1 2026 NPLs over 90 days rose to 5.1%, NPLs 15-90 days rose to 4.6%, coverage fell to 137%, Basel ratio declined to 14.0%, and credit growth was running far ahead of the Brazilian market. Inter says the portfolio is becoming more secured and more profitable, helped by private payroll loans, home equity, FGTS loans, credit card installments, Pix financing, and better data. That may be true, but bank investors should distrust rapid loan growth until cohorts season.
+The core debate is not whether Inter can grow. It is whether Inter can grow credit, deposits, ARPAC, and ROE without letting NPLs and capital consumption outrun earnings.
 
-My read is constructive but not uncritical. Inter looks mispriced if it is a credible 18%-plus ROE bank with 20%-plus net revenue growth and stable credit quality. A base-case residual-income / justified price-to-book framework points to roughly $7 to $8 per share, while a bull case can support $12 to $14 if ROE moves into the low-to-mid 20s without a capital raise. The downside is real: if credit costs normalize higher and ROE stalls around 10%-12%, fair value can fall toward $4. The thesis therefore hinges less on headline client growth and more on credit quality, capital, funding cost, and whether Inter turns clients into primary banking relationships.
+### The Core Debate
 
-## Company Overview
+| Question | Bull Answer | Bear Answer | My Current Read |
+|---|---|---|---|
+| What is the business becoming? | A scaled, low-cost, branchless Brazilian bank with improving activation and ROE. | A small digital bank competing against Nubank, incumbents, Mercado Pago, XP, and PicPay while growing credit quickly. | A real digital bank, but still a credit-underwriting story. |
+| What is the market pricing in? | Skepticism that growth converts to through-cycle ROE. | Correct discount for Brazil, credit risk, governance, and capital needs. | The price embeds skepticism, but not enough to ignore credit risk. |
+| What metric settles the debate? | NPLs, cost of risk, funding cost, Basel ratio, ROE, ARPAC, active clients. | Headline client growth does not matter if credit costs rise. | Credit quality and capital are the fulcrum. |
+| What can go seriously wrong? | Rapid loan growth seasons poorly; capital ratios drift lower; BRL weakens; Nubank / incumbents pressure economics. | A cheap P/E becomes a value trap if provisions absorb operating leverage. | This is the main risk. |
+
+### Thesis Snapshot
+
+| Factor | Current Evidence | Signal | Why It Matters |
+|---|---|---|---|
+| Valuation | About 1.3x book and about 9.5x-10.0x TTM earnings at $6.16. | Bullish / Mixed | Cheap if ROE moves above high teens; fair if ROE stalls. |
+| Growth | Q1 net revenue +33%; clients 44.0M; active clients 25.8M. | Bullish | Scale and monetization are still improving. |
+| Margins | Efficiency ratio improved to 43.8%; ROE reached 15.5%. | Bullish / Mixed | Operating leverage visible, but credit costs matter. |
+| Balance sheet | Funding R$74.1B; gross loans R$49.8B; Basel ratio 14.0%. | Mixed | Growth consumes capital. |
+| Competitive position | Strong Pix/card activity, deposits, AUC, credit products, digital cost base. | Mixed / Bullish | Inter has scale but competes with larger and deeper platforms. |
+| Management / governance | Founder/family control through Class B high-vote shares. | Mixed | Long-term control helps strategy but limits minority leverage. |
+| Estimate revisions | Citi cut target to $6.50 after Q1 / investor day; StockAnalysis target $9.74; MarketBeat target $10.23. | Mixed | Street target dispersion reflects credit/growth uncertainty. |
+| Technical / sentiment setup | Stock closed $6.16 after a post-Q1 selloff. | Mixed / Bullish | Sentiment reset, but the risk is not imaginary. |
+
+### Current View
+
+INTR is interesting because the stock does not require Inter to become Nubank. It only requires Inter to prove that mid/high-teens ROE can coexist with fast but disciplined credit growth. My base-case fair value is roughly $8 to $10, with a bear case around $4 to $5 and a bull case around $13 to $16. I am constructive, but this is a bank-investor thesis: the report should be updated every quarter around NPLs, cost of risk, coverage, capital, funding cost, and ROE.
+
+## 2. Company Story
+
+### Origin And Evolution
 
 Inter & Co, Inc. is a Cayman Islands holding company whose main operating asset is Banco Inter S.A., a Brazilian digital bank. The company is listed on Nasdaq under ticker INTR, has BDRs in Brazil, and reports under IFRS in Brazilian reais.
 
-The business started as Banco Inter and has evolved into a digital financial platform. It combines checking accounts, Pix transfers, deposits, debit and credit cards, payroll loans, home equity, mortgages, FGTS-backed loans, personal loans, investments, insurance brokerage, shopping/marketplace services, global accounts, remittances, and small U.S. banking ambitions. Inter describes itself as a super app; that phrase is promotional, but the product breadth is real.
+Inter started as Banco Inter and evolved into a digital financial platform. It now combines checking accounts, Pix transfers, deposits, debit and credit cards, payroll loans, home equity, mortgages, FGTS-backed loans, personal loans, investments, insurance brokerage, shopping / marketplace services, global accounts, remittances, and early U.S. banking ambitions. The "super app" language is promotional, but the product breadth is real.
 
-The operating scale at Q1 2026 was meaningful:
+### Why The Company Matters
 
-| Metric | Q1 2025 | Q4 2025 | Q1 2026 |
-|---|---:|---:|---:|
-| Total clients | 37.7M | 43.1M | 44.0M |
-| Active clients | 21.6M | 25.0M | 25.8M |
-| Activation rate | 57.3% | 58.0% | 58.6% |
-| Gross ARPAC, monthly | R$50.0 | R$58.5 | R$57.0 |
-| Cost to serve, monthly | R$13.1 | R$13.8 | R$13.1 |
-| Funding | R$59.1B | R$72.9B | R$74.1B |
-| Gross loan portfolio | R$37.4B | R$48.3B | R$49.8B |
-| Assets under custody | R$146B | R$180B | R$184B |
-| Cards + Pix TPV | R$342B | R$462B | R$427B |
+Brazil is an unusually fertile market for digital financial platforms: high incumbent bank profitability, historically poor consumer banking experiences, high mobile adoption, Pix as a modern payment rail, and meaningful room for underbanked or under-monetized customers. Inter matters because it has already crossed the line from account-growth story to profitable bank.
 
-The key change from the earlier digital-bank story is profitability. Inter is no longer only an account-growth story. It is a profitable bank with R$395 million of quarterly net income, 15.5% ROE, 43.8% efficiency ratio, and growing net interest income.
+The underwriting issue is that profitable digital banking is still banking. Customer counts and app logins are useful only if Inter can convert them into cheap deposits, sound credit, recurring financial products, and attractive returns on regulatory capital.
 
-## Business Model
+### Key Milestones
 
-Inter's economics are built around three loops: client acquisition, low-cost funding, and credit/investment monetization.
-
-### Banking and Funding
-
-Inter's core funding advantage is digital distribution. It gathers low-cost customer balances through checking accounts, savings, time deposits, and securities issued through the platform. Q1 2026 funding was R$74.1 billion, up 25% year over year, and management reported a cost of funding equal to 64% of CDI.
-
-That is valuable in Brazil because the policy-rate environment is high. Cheap funding lets Inter offer credit at attractive spreads, hold securities, and compete while still paying less for funding than a traditional high-cost branch network might. The risk is that digital deposits can be more rate-sensitive and less sticky than mature incumbent banking relationships. Deposit growth is a strength only if it remains cheap and stable in stress.
-
-### Credit
-
-Credit is the main earnings engine and the main risk. Inter's gross loan portfolio reached roughly R$49.8 billion in Q1 2026, up 33% year over year. The company says growth is diversified across payroll loans, real estate financing, credit cards, and other products.
-
-The portfolio is not one homogeneous credit book:
-
-| Product / exposure | Strategic role | Main risk |
+| Year / Date | Event | Why It Matters |
 |---|---|---|
-| Payroll / private payroll loans | Secured or salary-linked credit with attractive scale potential. | Product seasoning, employer/channel quality, regulatory terms. |
-| Home equity and mortgages | Collateralized lending, larger balances, lower loss severity. | Housing prices, legal collection timelines, duration mismatch. |
-| Credit cards | Engagement and high-yield receivables. | Revolving risk, delinquency, charge-offs, competition. |
-| Pix-financed transactions / installments | Monetizes daily payment usage. | Consumer credit-cycle sensitivity and underwriting precision. |
-| FGTS-backed loans | Secured by Brazilian severance-fund withdrawal rights. | Regulatory/product changes and pricing pressure. |
+| 1994 | Banco Inter predecessor founded. | Banking roots before the digital-bank story. |
+| 2010s | Inter built a branchless digital banking model. | Lower-cost challenger model. |
+| 2022 | Inter & Co listed on Nasdaq. | U.S.-listed equity access. |
+| 2024 | Profitability and ROE improved. | Shift away from pure growth narrative. |
+| 2025 | Net income reached R$1.312B; ROAE reached 14.4%. | Earnings base became material. |
+| 2026-05 | Q1 2026 results: R$395M net income and 15.5% ROE. | Current profitability anchor. |
+| 2026-05 | Owners' Day introduced Rule of 50 framework. | New management target: revenue growth plus ROE. |
 
-Bulls should like the mix shift toward collateralized and salary-linked assets. Bears should still watch the aggregate book. The best bank blowups often start with the sentence "credit quality is fine because the new product is different."
+## 3. Business Model
 
-### Investments, Insurance, Shopping, and Services
+### How The Company Makes Money
 
-Inter also monetizes through investment products, insurance brokerage, commerce/shopping GMV, account services, cards, and other fees. Q1 2026 assets under custody were R$184 billion, up 26% year over year. Gross merchandise volume was R$1.2 billion in the quarter, down 5% year over year, so the commerce layer is not the main reason to own the stock today.
+Inter earns money through banking spreads, credit, cards, investments, insurance, marketplace / shopping services, account services, and treasury / securities activity. The main economic loop is simple: acquire digital clients -> activate them into primary account users -> gather low-cost funding -> extend credit and sell financial products -> use low cost to serve and data to improve returns -> retain earnings to support growth.
 
-The investment and insurance products matter because they can increase account primacy. A customer who uses Inter only for a free account is low value. A customer who deposits salary, uses Pix and cards, borrows, invests, buys insurance, and keeps savings on platform is much more valuable. Inter's monthly gross ARPAC rose 14% year over year to R$57.0, while cost to serve was flat at R$13.1. That operating leverage is the core unit-economic argument.
+| Revenue Stream | Description | Share / Size | Economics | Risk |
+|---|---|---:|---|---|
+| Net interest / credit | Loans, cards, payroll, home equity, FGTS, mortgages, securities. | Gross loan portfolio R$49.8B. | Main earnings engine. | NPLs, cost of risk, capital. |
+| Deposits / funding | Checking, savings, time deposits, securities. | Funding R$74.1B. | Funding cost 64% of CDI in Q1. | Deposit beta and rate sensitivity. |
+| Cards / Pix | Payments, revolving / installments, interchange, credit monetization. | Cards + Pix TPV R$427B in Q1. | Engagement and credit funnel. | Credit losses and competition. |
+| Investments / wealth | AUC, investment products, brokerage / distribution. | AUC R$184B. | Fee / spread / relationship depth. | Low monetization and competition. |
+| Insurance / shopping / services | Insurance brokerage, commerce, cashback, marketplace. | GMV R$1.2B in Q1. | Engagement and optionality. | Lower strategic importance today. |
 
-### AI and Operating Leverage
+### The Economic Engine
 
-Management is leaning hard into AI. In Q1 2026, Inter introduced Seven, a multi-agent AI tool intended to improve customer interactions, product discovery, decision support, and transactions. The investor-day deck framed technology, AI, and data as central to underwriting, service, sales, and cost efficiency.
+The engine is not client growth by itself. It is active-client growth plus rising ARPAC, stable cost to serve, cheap deposits, disciplined underwriting, and retained earnings. Q1 2026 showed the attractive version: active clients grew, gross ARPAC rose 14% year over year to R$57.0 per month, cost to serve stayed around R$13.1, and ROE improved to 15.5%.
 
-I would not underwrite the stock on the AI story alone. The more sober point is that a branchless bank with 44 million clients can get meaningful margin improvement if technology keeps SG&A growing slower than revenue. Q1 2026 showed that: net revenue grew 33% year over year, while administrative and personnel expenses grew 18%.
+The weak link is credit. A digital bank can look cheap on current earnings if the loan book is growing and not yet fully seasoned. Inter's portfolio mix is more secured and diversified than a pure unsecured-card lender, but the report has to keep credit metrics ahead of the story.
 
-## Products and Platform Assets
+### Unit Economics / Customer Economics
 
-### Digital Account, Pix, and Cards
+| Metric | Current | Trend | Why It Matters |
+|---|---:|---:|---|
+| Total clients | 44.0M in Q1 2026. | +17% YoY. | Funnel size. |
+| Active clients | 25.8M. | +19% YoY. | Better than total accounts. |
+| Activation rate | 58.6%. | Up from 57.3% in Q1 2025. | Shows account relevance. |
+| Gross ARPAC | R$57.0 monthly. | +14% YoY. | Monetization. |
+| Cost to serve | R$13.1 monthly. | Flat YoY. | Operating leverage. |
+| Funding | R$74.1B. | +25% YoY. | Low-cost funding base. |
+| Gross loan portfolio | R$49.8B. | +33% YoY. | Growth and credit exposure. |
+| Assets under custody | R$184B. | +26% YoY. | Wealth relationship. |
 
-The account is the funnel. Inter has a large client base, but activation is what matters. The activation rate reached 58.6% in Q1 2026, and the company disclosed more than 20 million logins per day. Inter also says its Pix market share is about 9%, with cards plus Pix TPV running at roughly R$1.7 trillion annualized.
+## 4. Products, Segments, And Moat
 
-This is important because Pix is a daily-use payment rail in Brazil. A large Pix footprint means Inter is not merely holding dormant accounts acquired through promotions. It has payment data, transaction frequency, and a reason to cross-sell.
+### Product / Segment Breakdown
 
-### Credit
+| Product / Segment | Role In Thesis | Economics | Evidence | Risk |
+|---|---|---|---|---|
+| Digital account / Pix | Primary-account funnel. | Daily engagement and data. | About 9% Pix market share disclosed by management. | Low direct monetization if not primary. |
+| Credit card | Engagement plus high-yield credit. | ARPAC and spread. | Card / Pix TPV large and growing. | NPLs, revolving losses, competition. |
+| Payroll / private payroll | Secured or salary-linked credit. | Attractive risk-adjusted spread if controlled. | Management highlights as growth driver. | Seasoning and regulatory terms. |
+| FGTS loans | Secured by severance-fund withdrawal rights. | Lower risk / lower yield. | Part of secured mix. | Product and policy changes. |
+| Home equity / mortgages | Collateralized credit and larger balances. | Lower loss severity, relationship depth. | Large role in credit mix. | Duration, collateral, legal collection. |
+| Investments / AUC | Wealth and savings relationship. | Fee / spread / asset retention. | R$184B AUC. | Monetization and XP / bank competition. |
+| Insurance / shopping | Cross-sell and engagement. | Fee income / cashback ecosystem. | Shopping GMV down YoY in Q1. | Not core today. |
+| Global / U.S. | Optionality for Brazilians with global needs. | New geography / remittance / account products. | Florida / Fed branch approval cited in prior filings. | Early and execution-heavy. |
 
-Credit penetration is still the largest monetization lever. Compared with mature Brazilian banks, a digital platform with tens of millions of clients should have room to grow loans per active client. Inter's challenge is growing without turning the credit book into a cyclical earnings trap.
+### Competitive Position
 
-The credit portfolio bears close monitoring:
+Brazilian fintech is competitive and sophisticated. Inter competes with Nubank, Mercado Pago, PicPay, XP, BTG, Itau, Bradesco, Santander Brasil, Banco do Brasil, Caixa, Stone, PagBank, and others. Its advantage is a broad bank-led product bundle with a low-cost digital model. Its disadvantage is that several competitors are larger, better capitalized, more specialized, or more deeply trusted in specific verticals.
 
-| Asset-quality metric | Q1 2025 | Q4 2025 | Q1 2026 |
-|---|---:|---:|---:|
-| NPL > 90 days | 4.6% | 4.7% | 5.1% |
-| NPL 15-90 days | 4.3% | 4.0% | 4.6% |
-| Coverage ratio | 143% | 141% | 137% |
-| Cost of risk | 5.0% | 5.2% | 5.1% |
-| Cost of risk ex-private payroll | 4.6% | 4.7% | 5.0% |
-
-Management's explanation is that seasonal effects, credit-cycle dynamics, private payroll expansion, and credit-card mix affected the quarter. That is plausible. It is also exactly the area where the investment case can break.
-
-### Investments and Wealth
-
-Inter's investment platform had R$184 billion of AUC in Q1 2026. Wealth and investments are strategically attractive because they can turn a younger digital client base into a long-duration asset relationship. They also help diversify revenue away from credit spreads and card lending.
-
-The bear view is that large AUC does not automatically mean high monetization. Brazilian customers can hold fixed-income products, government bonds, deposits, and low-margin assets. Inter must prove that AUC growth converts into sustainable fee revenue, spreads, or relationship depth.
-
-### Global and U.S. Expansion
-
-Inter has been pushing global accounts and received regulatory approval from the Florida Office of Financial Regulation and the Federal Reserve to establish a state-licensed international banking branch in Florida. This is strategically interesting because it can serve Brazilians with U.S. financial needs and eventually broaden Inter's geographic footprint.
-
-I treat this as upside optionality, not base-case value. The core thesis is still Brazil: digital banking, funding, credit, investments, and operating leverage.
-
-## Industry and Competitive Position
-
-Brazil is one of the most attractive and competitive fintech markets in the world. The incumbent banks historically earned high returns, customers have been dissatisfied with fees and service, Pix created a modern payment rail, and digital adoption is high. That created room for Nubank, Inter, Mercado Pago, PicPay, XP, Stone, PagBank, and others to attack slices of the profit pool.
-
-Inter's competitors are different by product:
-
-| Competitor type | Examples | Inter advantage | Inter disadvantage |
+| Competitor Type | Examples | Company Advantage | Company Risk |
 |---|---|---|---|
-| Digital banks | Nubank, PicPay, PagBank | Broad banking product suite, secured credit categories, investment/AUC presence. | Nubank's scale, brand, data, and market capitalization. |
-| E-commerce/fintech platforms | Mercado Pago, MercadoLibre | Banking license and broader financial-services bundle. | MercadoLibre's commerce network, merchant data, and ecosystem. |
-| Incumbent banks | Itau, Bradesco, Santander Brasil, Banco do Brasil, Caixa | Lower-cost digital model, younger client base, faster product iteration. | Funding scale, capital depth, trust, payroll/account relationships, distribution. |
-| Investment platforms | XP, BTG, banks | Bank account plus investments in one app. | Specialist wealth brand and advisor networks. |
-| Card/merchant/payment players | Stone, Cielo, PagSeguro, banks | Consumer relationship and Pix/card usage. | Merchant acquiring depth and enterprise relationships. |
+| Digital banks | Nubank, PicPay, PagBank | Broad suite, secured credit categories, AUC, deposits. | Nubank's scale, brand, and data. |
+| Commerce / fintech | Mercado Pago, MercadoLibre | Bank license and financial suite. | Commerce network and merchant data. |
+| Incumbent banks | Itau, Bradesco, Santander Brasil, Banco do Brasil, Caixa | Lower-cost digital model and faster product iteration. | Funding scale, trust, payroll relationships, capital. |
+| Investment platforms | XP, BTG, banks | Account plus investments in one app. | Specialist wealth brand and advisor depth. |
+| Payment / acquiring players | Stone, Cielo, PagSeguro | Consumer relationship and Pix/card data. | Merchant acquiring scale. |
 
-The moat is not "an app." Digital banking interfaces are copyable. The possible moat is a combination of client scale, account frequency, Pix/card data, low cost to serve, low funding cost, credit underwriting, product breadth, and brand. Inter has enough evidence to be taken seriously, but not enough to assume Nubank-like economics by default.
+### Moat Assessment
 
-Brazil macro is also part of the industry structure. High SELIC rates help nominal spreads and investment income, but they also pressure borrowers and raise required equity returns. Inflation, unemployment, household debt, currency depreciation, and political/regulatory shifts can all affect Inter's earnings multiple.
+| Possible Moat | Evidence For | Evidence Against | Current Read |
+|---|---|---|---|
+| Brand | 44M clients and strong digital presence. | Nubank brand is much stronger. | Useful but secondary. |
+| Scale | 25.8M active clients, R$74B funding, R$184B AUC. | Still smaller than incumbent and NU scale. | Real but not dominant. |
+| Data | Pix, card, deposits, credit, investments. | Data edge only matters if losses stay controlled. | Potentially important. |
+| Distribution | Low-cost digital acquisition / cross-sell. | Digital competitors can bid for customers. | Positive. |
+| Switching costs | Deposits, salary, credit, investments can create stickiness. | Free accounts are portable. | Building. |
+| Cost advantage | Branchless model and flat cost to serve. | Marketing, compliance, and credit collection costs can rise. | Real if scale persists. |
+| Regulation / licenses | Bank license and funding franchise. | Higher capital and compliance burden. | Mixed. |
 
-## Financial Snapshot
+## 5. Financial Snapshot
 
-Inter's financials have improved materially since 2023.
+### Historical Financials
 
-| R$ millions except per-share / ratio | 2023 | 2024 | 2025 | TTM Q1 2026 |
+Inter's financial profile improved materially from 2023 through Q1 2026. The company is no longer a speculative account-growth story; it is producing material earnings. That makes valuation more tangible, but it also means credit and capital need to be analyzed like a bank.
+
+| R$ millions except per-share / ratio data | FY2023 | FY2024 | FY2025 | TTM / Latest |
 |---|---:|---:|---:|---:|
-| Revenue / gross profit, data-provider standardized | 4,753 | 6,400 | 8,401 | 9,004 |
+| Net sales / revenue, data-provider standardized | 4,753 | 6,400 | 8,401 | 9,004 |
 | Operating income | 504 | 1,211 | 1,624 | 1,744 |
 | Net income | 302 | 907 | 1,312 | 1,420 |
 | Diluted EPS, R$ | 0.75 | 2.07 | 2.96 | 3.18 |
-| Shares outstanding, diluted | 402M | 439M | 444M | 443M |
-| ROAE, company 20-F | 4.8% | 11.7% | 14.4% | n/a |
+| Diluted shares | 402M | 439M | 444M | 443M |
+| ROAE, company 20-F / latest | 4.8% | 11.7% | 14.4% | 15.5% Q1 2026 |
 
-The company-specific quarterly table is more useful for the current thesis:
+### Latest Period
 
-| R$ millions except KPIs | Q1 2025 | Q4 2025 | Q1 2026 | YoY |
-|---|---:|---:|---:|---:|
-| Total gross revenue | 3,162 | 4,294 | 4,346 | +37.5% |
-| Net revenue | 1,838 | 2,398 | 2,441 | +32.8% |
-| Earnings before tax | 358 | 465 | 477 | +33.4% |
-| Net income incl. minority interest | 307 | 402 | 418 | +36.1% |
-| Net income attributable to controlling shareholders | 287 | 374 | 395 | +37.8% |
-| Efficiency ratio | 48.3% | 45.5% | 43.8% | -4.5 pp |
-| ROE | 12.9% | 15.1% | 15.5% | +2.6 pp |
+| Metric | Q1 2025 | Q1 2026 | Change | Interpretation |
+|---|---:|---:|---:|---|
+| Total gross revenue | R$3.162B | R$4.346B | +37.5% | Strong top-line growth. |
+| Net revenue | R$1.838B | R$2.441B | +32.8% | Core growth remains high. |
+| Earnings before tax | R$358M | R$477M | +33.4% | Profit growth with revenue. |
+| Net income incl. minority interest | R$307M | R$418M | +36.1% | Earnings power improving. |
+| Net income attributable to controlling shareholders | R$287M | R$395M | +37.8% | Per-share earnings anchor. |
+| Efficiency ratio | 48.3% | 43.8% | -4.5 pp | Operating leverage visible. |
+| ROE | 12.9% | 15.5% | +2.6 pp | Better returns, still below long-term target. |
 
-This is a strong quarter on growth and operating leverage. The less clean part is asset quality and capital:
+### Balance Sheet And Capital Structure
 
-| Balance sheet / capital | Q1 2025 | Q4 2025 | Q1 2026 |
-|---|---:|---:|---:|
-| Funding | R$59.1B | R$72.9B | R$74.1B |
-| Shareholders' equity | R$9.0B | R$10.4B | R$10.4B |
-| Basel ratio | 14.7% | 14.4% | 14.0% |
-| Tier 1 capital ratio | 14.7% | 12.6% | 12.1% |
-| Risk-weighted assets | R$37.6B | R$44.6B | R$45.2B |
+| R$ millions except per-share / ratio data | Latest | Notes |
+|---|---:|---|
+| Funding | 74,100 | Q1 2026; +25% YoY. |
+| Gross loan portfolio | 49,800 | Q1 2026; +33% YoY. |
+| Assets under custody | 184,000 | Q1 2026. |
+| Shareholders' equity | 10,400 | Q1 2026. |
+| Basel ratio | 14.0% | Down from 14.7% in Q1 2025. |
+| Tier 1 capital ratio | 12.1% | Down from 14.7% in Q1 2025. |
+| Risk-weighted assets | 45,200 | Q1 2026. |
+| Market cap | About R$13,600 | At $6.16 and about R$5.02/USD. |
+| Price / book | About 1.3x | Modest if ROE rises, fair if credit worsens. |
 
-The balance sheet is not distressed, but this is a regulated bank. Growth consumes capital. Inter had R$6.3 billion of regulatory capital at Banco Inter level against R$45.2 billion of RWA at Q1 2026. If the company wants to keep growing loans at a much faster rate than the market, retained earnings must fund that growth or the company may eventually need slower growth, more capital, or balance-sheet optimization.
+## 6. Quality Of Earnings
 
-### Cash Flow and Owner Earnings
+For Inter, earnings quality is credit quality. Generic free cash flow is not useful because deposits, securities, loans, receivables, regulatory capital, and funding flows dominate bank cash-flow statements. The better question is whether current net income approximates sustainable through-cycle earnings after provisions and capital retention.
 
-For a bank, generic free cash flow is not the right valuation base. Deposit growth, securities purchases, loans, credit-card receivables, regulatory balances, and funding flows make operating cash flow noisy. I do not treat data-provider free cash flow as distributable owner earnings.
+| Issue | Evidence | Why It Matters | Current Read |
+|---|---|---|---|
+| NPLs > 90 days | Rose from 4.6% in Q1 2025 to 5.1% in Q1 2026. | Main bear signal. | Monitor closely. |
+| Early NPLs | NPL 15-90 days rose to 4.6% in Q1 2026. | Leading credit indicator. | Negative unless seasonal / mix-driven. |
+| Coverage | Coverage ratio fell from 143% to 137%. | Less cushion if losses rise. | Watch. |
+| Cost of risk | Around 5.1% in Q1 2026. | Determines ROE durability. | Manageable but high. |
+| Funding cost | 64% of CDI. | Low-cost funding is a core advantage. | Positive. |
+| Capital | Basel ratio 14.0%; Tier 1 12.1%. | Growth consumes capital. | Adequate, trending lower. |
+| Operating leverage | Revenue +33%; admin/personnel growth lower in prior report. | Digital model can scale. | Positive. |
+| Governance | Class B control with high voting power. | Minority-shareholder discount. | Mixed. |
 
-The better lens is sustainable earnings after credit costs and regulatory capital needs. For Inter, the underwriting question is:
+## 7. Forward Projections And Scenario Model
 
-1. What ROE can the bank earn through a full credit cycle?
-2. How much equity must be retained to support asset growth?
-3. What cost of equity should investors demand for a Brazilian digital bank?
-4. Does the market price imply conservative or heroic answers?
+### Analyst Expectations
 
-At 1.3x book, the market is not pricing in a 28%-30% ROE bank. It is pricing in either lower sustainable ROE, higher risk, or skepticism that the growth can be funded safely.
+Consensus expects Inter to keep compounding revenue and earnings, but the Q1 miss versus some USD revenue estimates and Citi's May 18 downgrade show that the street is not uniformly comfortable with the pace of credit growth. MarketScreener shows net sales rising from R$10.647 billion in 2026 to R$12.945 billion in 2027 and R$15.528 billion in 2028, with net income rising from R$1.838 billion to R$2.380 billion and R$2.992 billion. StockAnalysis shows FY2026 EPS of R$3.93 and FY2027 EPS of R$4.97. MarketBeat translates the same idea into USD EPS growth from about $0.77 in 2026 to $0.95 in 2027.
 
-## Management, Governance, and Capital Allocation
+Consensus source(s): MarketScreener, StockAnalysis, MarketBeat, Yahoo Finance.
+Consensus date: 2026-05-24.
+Fiscal year basis: Calendar year ending December.
+Estimate basis: IFRS net sales / EBIT / net income in BRL; EPS basis varies by provider and FX.
+
+| Fiscal Year | Revenue Consensus | YoY Growth | EBITDA / EBIT Consensus | Margin | EPS Consensus | FCF Consensus |
+|---|---:|---:|---:|---:|---:|---:|
+| FY2026E | R$10.6B | +26%-27% | MarketScreener EBIT R$2.055B | EBIT margin about 19% | R$3.93 / about $0.77-$0.78 | Not useful for bank model |
+| FY2027E | R$12.8B-R$12.9B | +21%-22% | MarketScreener EBIT R$2.718B | EBIT margin about 21% | R$4.97 / about $0.95-$0.99 | Not useful for bank model |
+| FY2028E | R$15.5B | +20% | MarketScreener EBIT R$3.137B | EBIT margin about 20% | Not consistently public | Not useful for bank model |
+
+StockAnalysis shows 10 S&P Global-polled analysts with a Buy consensus, average target of $9.74, median target of $10.17, low target of $4.80, and high target of $12.50. MarketBeat shows a Moderate Buy consensus and $10.23 average target. Citi downgraded INTR on 2026-05-18 and cut its target from $12 to $6.50.
+
+### Estimate Revision Trend
+
+| Metric | 90 Days Ago | 30 Days Ago | Current | Direction |
+|---|---:|---:|---:|---|
+| FY2026 revenue | Around R$10B+ | Around R$10B+ | R$10.6B | Stable / positive |
+| FY2026 EPS | Around R$4 | Around R$4 | R$3.93 | Stable / slight pressure |
+| FY2027 revenue | Around R$12B+ | Around R$12B+ | R$12.8B-R$12.9B | Stable |
+| Target prices | Higher pre-Q1 for some brokers | Post-Q1 dispersion | $6.50 Citi to $12.50 high target | Mixed / more cautious |
+
+### Management Guidance
+
+| Metric | Guidance | Implied Growth / Margin | Notes |
+|---|---:|---:|---|
+| Rule of 50 | Annual net revenue growth percentage plus ROE percentage totaling 50%. | If revenue grows 25%, ROE needs 25%; if revenue grows 30%, ROE needs 20%. | New three-year north star. |
+| Long-term ROE ambition | Quartr summary cites 28%-30% ROE by 2029. | Substantial expansion from 15.5% Q1 2026 ROE. | Aspirational unless credit stabilizes. |
+| Growth drivers | Credit penetration, deposits, principality, primary-bank usage. | More revenue per active client. | Requires underwriting discipline. |
+| Technology / AI | Seven AI assistant and automated service / risk tools. | Lower cost to serve and better cross-sell. | Do not underwrite without hard evidence. |
+
+### Historical Anchor
+
+| Metric | 3-Year CAGR / Avg | 5-Year CAGR / Avg | Latest | Forecast Relevance |
+|---|---:|---:|---:|---|
+| Net sales / revenue | FY2023-FY2025 CAGR about 33% | High but model has changed | Q1 2026 net revenue +33% | Consensus growth is plausible. |
+| Net income | FY2023-FY2025 grew from R$302M to R$1.312B | Rapid profitability ramp | Q1 2026 R$395M | Earnings base real. |
+| ROE | Improved from 4.8% in 2023 to 15.5% Q1 2026 | Rising | 15.5% | Key valuation driver. |
+| Efficiency ratio | Improved to 43.8% | Improving | 43.8% Q1 2026 | Operating leverage. |
+| NPLs > 90 days | Around mid-single digits | Credit-cycle sensitive | 5.1% | Main risk. |
+| Basel ratio | Adequate but down | Capital consumed by growth | 14.0% | Growth limiter. |
+
+### Key Forecast Drivers
+
+| Driver | Current Evidence | Bear Case | Base Case | Bull Case |
+|---|---|---:|---:|---:|
+| Active clients | 25.8M active clients; activation 58.6%. | Account growth slows or activity is shallow. | Steady activation and primary-account gains. | Inter becomes primary bank for more clients. |
+| ARPAC / cost to serve | R$57.0 ARPAC and R$13.1 cost to serve. | Monetization stalls. | ARPAC rises faster than cost. | Strong operating leverage. |
+| Funding | R$74.1B at 64% of CDI. | Funding reprices higher. | Funding stays cheap enough. | Low-cost deposits compound. |
+| Credit growth | Loan book R$49.8B, +33% YoY. | Seasoning drives losses higher. | Credit grows but slows to fund safely. | Secured / payroll mix supports strong risk-adjusted growth. |
+| ROE | 15.5% in Q1 2026. | Stalls at 10%-13%. | Moves to 18%-20%. | Moves above 24%. |
+| Capital | Basel 14.0%, Tier 1 12.1%. | Capital constrains growth. | Retained earnings fund growth. | High ROE funds growth internally. |
+
+### Scenario Projections
+
+These scenarios use FY2026 consensus net sales around R$10.6 billion as the starting point and value Inter like a bank, not a generic FCF business. The implied values are present fair-value ranges, not undiscounted 2030 price targets.
+
+| Scenario | Revenue CAGR | Terminal Revenue | Earnings / FCF Margin | Terminal EPS / FCF | Exit Multiple | Implied Value / Share | Implied IRR |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bear | 10% from FY2026 to FY2030 | ~R$15.6B | ROE 10%-13%; net margin pressured by provisions | ~R$2.0B-R$2.4B net income | 0.8x-1.0x P/B or 7x-8x EPS | ~$4 to $5 | Negative to low single digit |
+| Base | 18% from FY2026 to FY2030 | ~R$20.6B | ROE 18%-20%; controlled credit cost | ~R$3.5B-R$4.0B net income | 1.6x-1.8x P/B or 10x-11x EPS | ~$8 to $10 | High single digit to mid teens |
+| Bull | 24% from FY2026 to FY2030 | ~R$25.0B | ROE 24%-26%; Rule of 50 credibility | ~R$5.0B-R$6.0B net income | 2.3x-2.7x P/B or 12x-14x EPS | ~$13 to $16 | 20%+ |
+
+### What The Current Price Implies
+
+At today's price, the market appears to be underwriting approximately:
+
+- Revenue CAGR: below management's Rule of 50 ambition or a meaningful credit-risk haircut to that growth.
+- Long-term margin / ROE: sustainable ROE in the mid-teens, not a clean path to 28%-30%.
+- EPS power: FY2026 EPS around $0.77-$0.78 and FY2027 EPS around $0.95-$1.00 with a discounted multiple.
+- Exit multiple: bank / emerging-market discount rather than digital-platform premium.
+- Implied execution hurdle: stabilize NPLs, keep funding cheap, hold Basel comfortably above requirements, and prove ROE can move toward 18%+ without raising capital.
+
+### Projection Takeaway
+
+INTR works if Inter can compound revenue around 20% while ROE moves into the high teens and credit remains controlled. It fails if the next few quarters show that the Q1 NPL increase was not seasonal or mix-driven but the beginning of worse credit seasoning. Consensus is not heroic on valuation, but it assumes that the current credit debate resolves without a major provision cycle.
+
+### Business-Model Specific Projection Notes
+
+For INTR, the right model drivers are active clients, activation, ARPAC, cost to serve, funding cost as a percent of CDI, deposit growth, credit portfolio growth, secured versus unsecured mix, NPLs 15-90 days, NPLs >90 days, coverage ratio, cost of risk, Basel / Tier 1 capital, ROE, book value per share, BRL/USD, and dividend / interest-on-equity policy.
+
+## 8. Management, Governance, And Capital Allocation
 
 Joao Vitor Menin is Global CEO. Inter remains founder/family-controlled. The 2025 20-F states that the controlling shareholder owns all Class B common shares, that Class B shares carry ten votes per share, and that this structure represented approximately 78% of voting power. Class A holders own the listed economic instrument but have limited practical control.
 
-This cuts both ways. Founder/family control can support long-term investment, product integration, and patience through cycles. It can also reduce minority-shareholder influence, especially if management prioritizes growth, strategic ambition, or control over per-share value.
+Capital allocation is mostly internal reinvestment: credit growth, technology, AI tooling, investments, global accounts, product cross-sell, and regulated expansion. For a bank, the key capital-allocation question is how fast to grow risk-weighted assets versus retained earnings.
 
-Capital allocation is mostly internal reinvestment. Inter is growing its loan book, technology stack, investment platform, global account, AI tooling, and U.S. branch optionality. The company also pays interest on equity / dividends under Brazilian conventions, but the real capital-allocation decision is how fast to grow risk-weighted assets versus retained earnings.
+| Topic | Evidence | Why It Matters | Current Read |
+|---|---|---|---|
+| Founder / family control | Class B shares carry voting control. | Long-term strategy but minority-shareholder discount. | Mixed. |
+| Rule of 50 | Revenue growth plus ROE target. | Focuses management on growth and returns. | Useful if not promotional. |
+| Credit growth | Loan book +33% YoY. | Main ROE lever and main risk. | Needs discipline. |
+| Capital ratios | Basel 14.0%, Tier 1 12.1%. | Growth must be funded. | Adequate but trending lower. |
+| AI / Seven | Management cites service, cross-sell, risk, productivity. | Could lower cost and improve underwriting. | Optionality; needs evidence. |
+| Dividends / interest on equity | Brazilian bank capital returns exist. | Competes with growth capital needs. | Retain enough capital first. |
 
-The new strategic target is Rule of 50: annual net revenue growth percentage plus ROE percentage totaling 50%. Management's prior 60-30-30 framework emphasized reaching 60 million clients, 30% efficiency ratio, and 30% ROE. The new framework may be more economically coherent because it ties growth and returns together rather than treating scale as a standalone objective.
+## 9. Market Debate And Variant Perception
 
-The issue is credibility. A 50-style rule is common in software. For a bank, the target must be filtered through credit losses, funding stability, and capital ratios. Revenue growth plus ROE is only valuable if the credit book is not under-reserved and capital is adequate.
+### What Bulls Believe
 
-## Ownership, Insider Activity, Short Interest, and Analyst Sentiment
+Bulls believe Inter is a scaled digital bank with a low-cost branchless model, 44 million clients, cheap funding, improving activation, rising ARPAC, operating leverage, and enough secured / salary-linked credit products to grow ROE without taking irresponsible unsecured risk. At 1.3x book and about 10x trailing earnings, Inter does not need perfection.
 
-Ownership data varies by provider. The company itself is controlled through Class B shares, while the listed Class A float is institutionally owned but not dominated by one obvious U.S. sponsor. MarketBeat showed 22.9% institutional ownership and 147 institutional investors that had held shares during the prior two years. Other data providers show higher institutional ownership depending on float and share-class treatment.
+### What Bears Believe
 
-Dataroma showed INTR as held by two tracked superinvestors, which suggests some value-investor sponsorship but not a broad superinvestor consensus. This is not a widely loved compounder in the style of MercadoLibre or Nubank. It is more of a controversial small/mid-cap emerging-market bank.
+Bears believe INTR is cheap for a reason. It is a small Brazilian bank with fast credit growth, rising NPLs, declining coverage, lower capital ratios, controlled governance, and intense competition from Nubank, incumbents, Mercado Pago, XP, BTG, PicPay, Stone, and others. A digital-bank story does not repeal credit cycles.
 
-Short interest is not the main story. MarketBeat's March 31, 2026 short-interest snapshot showed 10.9 million shares short, about 2.5% of float and 3.6 days to cover. That is enough to show skepticism, but not enough to make a squeeze thesis central.
+### What The Market May Be Missing
 
-Analyst sentiment is generally positive but inconsistent across data providers. MarketBeat showed a Moderate Buy consensus with a $10.23 price target. Yahoo showed a 1-year target estimate of $9.74. StockAnalysis had an anomalous displayed target of $1.92 despite showing a Buy rating; I would not rely on that figure without checking the underlying estimate feed. The useful conclusion is that sell-side targets are above the current price, but the stock has still sold off because investors are questioning the quality and durability of growth.
+The positive variant view is that investors may be over-penalizing Inter for credit risk just as ROE is becoming tangible. If Inter only earns high-teens ROE with controlled capital, the current price is low.
 
-Recent stock reaction matters. INTR was trading near its 52-week low after Q1 results and investor day despite strong reported growth. The market appears to be discounting either Brazilian macro/rate risk, credit-cycle risk, governance, or disappointment that management's long-term targets require more time and capital than investors expected.
+The negative variant view is that investors may be underestimating how quickly a fast-growing bank's earnings can reverse if new vintages season poorly. The Q1 NPL move is not catastrophic, but it is exactly the kind of early signal that has to be tracked.
 
-## Prior Research and Market Debate
+### Prior Research And Public Debate
 
-I did not find an accessible Value Investors Club writeup for INTR during this run. I also did not find an accessible Refcell Capital writeup. That should be treated as a search/access limitation rather than proof that no such writeups exist.
+| Source / Debate | Date | Visible Takeaway | Access Limit / Reliability |
+|---|---|---|---|
+| Q1 2026 earnings release / presentation | 2026-05 | Strong growth and ROE, but NPLs moved worse. | Primary/company source. |
+| Owners' Day / Rule of 50 blog | 2026-05 | Management wants revenue growth plus ROE totaling 50%. | Company source; target needs validation. |
+| MarketBeat / Yahoo coverage | 2026-05 | Rule of 50 and Q1 selloff framed the public debate. | Secondary source. |
+| Citi downgrade | 2026-05-18 | Target cut to $6.50 from $12. | Visible through data-provider summaries. |
+| StockAnalysis / MarketBeat analyst pages | 2026-05 | Targets above spot but wide dispersion. | Market data. |
+| VIC / Refcell searches | 2026-05 | No accessible writeup found in this pass. | Access/search limitation. |
 
-Public debate is available through earnings-call summaries, market-data news, MarketBeat/Simply Wall St. summaries, Zacks-style "buy the dip" notes, and investor-day coverage. The recurring bull points are:
+## 10. Bull Case
 
-1. Inter is a scaled Brazilian digital bank with 44 million clients.
-2. It is already profitable and improving ROE.
-3. Funding cost is low relative to CDI.
-4. Credit penetration is still early.
-5. Operating leverage is visible.
-6. The stock is cheap if ROE keeps rising.
+If Inter is a credible high-teens ROE digital bank, the stock is too cheap. The company has real scale, improving activation, cheap funding, rising ARPAC, flat cost to serve, and a growing credit book that includes secured and salary-linked products. Q1 2026 net revenue growth and ROE show the model can produce earnings, not just accounts.
 
-The recurring bear points are:
+In the bull case, credit losses stabilize, funding remains near current CDI cost, efficiency moves lower, ROE pushes above 20%, and management's Rule of 50 target becomes credible. The market can then value Inter closer to 2.3x-2.7x book or a low/mid-teens earnings multiple, supporting value around $13 to $16.
 
-1. Nubank has a much stronger brand and scale.
-2. Brazil macro and rates can turn quickly.
-3. Inter is growing credit rapidly into a tougher consumer-credit environment.
-4. NPLs and coverage moved in the wrong direction in Q1 2026.
-5. The share structure gives public shareholders limited control.
-6. The Rule of 50 / 28%-30% ROE targets may be promotional.
+## 11. Bear Case
 
-The variant perception is therefore not "Inter is unknown." The variant perception is that investors may be extrapolating credit risk and emerging-market discount too heavily, while underweighting the fact that Inter is already earning mid-teens ROE at a modest price/book multiple.
+If Inter is buying growth through underpriced risk, the stock is not cheap. The loan book grew 33% year over year, NPLs over 90 days rose to 5.1%, early NPLs rose to 4.6%, and coverage fell to 137%. These are not disaster numbers, but they moved in the wrong direction while management is asking investors to underwrite ambitious growth and ROE targets.
 
-## Bull Case
+The bear case does not require a Brazil crisis. It only requires credit costs to absorb operating leverage, capital ratios to keep drifting lower, and the market to apply a discounted bank multiple. In that case, fair value is closer to $4 to $5.
 
-The bull case starts with valuation. A profitable bank with 15.5% ROE, 33% net revenue growth, 38% net income growth, 1.3x book value, and sub-10x earnings is not obviously expensive. If Inter's ROE moves to 18%-22% over the next few years, the current price should look cheap.
+## 12. Base Case
 
-Client scale is real. Inter has 44 million total clients and 25.8 million active clients. Activation is rising, daily logins are high, Pix usage is material, and ARPAC is growing while cost to serve is controlled. That is exactly what a digital-bank bull wants to see: old cohorts becoming more valuable without branch-level cost growth.
+The base case is that Inter keeps growing but falls short of the most aggressive long-term ambition. Net revenue compounds near 18% from the FY2026 consensus base through 2030, ROE moves toward 18%-20%, cost of risk remains elevated but controlled, and retained earnings support growth without a dilutive capital raise.
 
-Funding is a genuine advantage. Funding of R$74.1 billion at 64% of CDI is valuable in a high-rate market. If deposits remain cheap and stable, Inter can profitably grow secured credit and investments while maintaining spreads that would be hard for higher-cost competitors to match.
+That supports value around $8 to $10 per share. The thesis strengthens if NPLs stabilize while ROE moves above 18%. It weakens quickly if early NPLs and 90-day NPLs keep rising, coverage keeps falling, or Basel ratio moves toward uncomfortable levels.
 
-Credit runway is large. Inter is not only issuing unsecured cards. It has home equity, payroll, private payroll, FGTS-backed loans, mortgages, Pix financing, and card installments. If data and collateral keep losses controlled, credit penetration can lift ROE materially.
-
-Operating leverage is already visible. Q1 net revenue grew 33% year over year while administrative and personnel expenses grew 18%. Efficiency improved to 43.8%. If the company moves efficiency into the 30s while credit losses stay stable, earnings power can grow faster than revenue.
-
-The strategic optionality is not zero. U.S. branch approval, global accounts, AI tooling, investments, insurance, and commerce can all deepen the platform. I would not pay much for them separately, but they help explain why Inter may deserve more than a plain bank multiple if account primacy improves.
-
-## Bear Case
-
-The bear case is credit, not app downloads.
-
-Inter's gross credit portfolio grew 33% year over year, more than three times the Brazilian market according to management. Rapid loan growth can look excellent before seasoning. Q1 2026 NPLs over 90 days rose to 5.1%, early NPLs rose to 4.6%, and coverage fell to 137%. These are not disaster numbers, but they moved in the wrong direction.
-
-Capital also needs respect. The Basel ratio fell to 14.0% and Tier 1 fell to 12.1%. Inter has excess capital, but not unlimited capital. If the company grows RWA quickly while paying dividends/interest on equity and absorbing higher provisions, retained earnings may not be enough to support the long-term growth ambition.
-
-Brazil macro can overwhelm company execution. A weaker real, higher-for-longer rates, consumer stress, unemployment, political uncertainty, tax changes, or regulatory shifts can raise the cost of equity and credit losses. Even if Inter performs well in local currency, U.S. shareholders own a dollar-traded share.
-
-Competition is intense. Nubank is a much larger digital-bank competitor. Incumbents still control deep deposit, payroll, corporate, and credit relationships. Mercado Pago has commerce/payment data. XP and BTG are strong in investments. Inter's broad product suite is a strength, but it also means the company competes with specialists in nearly every category.
-
-Governance deserves a discount. Public Class A holders do not control the company. The family/control structure may be fine as long as capital allocation is disciplined, but minority investors have limited recourse if management pursues growth or strategic projects at returns below public-market expectations.
-
-Finally, management targets can be too neat. Rule of 50 sounds elegant, and 28%-30% ROE by 2029 would be very attractive. But a bank cannot software-multiple its way around credit risk. Investors should underwrite realized through-cycle ROE, not the presentation framework.
-
-## Base Case
-
-My base case is that Inter keeps growing, but not at the full investor-day ambition.
-
-I assume net revenue compounds in the high teens to low 20s for several years, then slows as the client base matures. ROE improves from 15.5% toward 18%-20% as ARPAC grows and efficiency improves, but credit costs remain elevated enough to prevent a clean path to 28%-30% ROE in the near term. Capital ratios remain adequate, but growth consumes most retained earnings.
-
-In this case, Inter deserves a price/book multiple around 1.5x-1.7x and a P/E around 10x-12x. That supports a value around $7 to $8 per share on current book value and TTM earnings, with upside if book value compounds quickly.
-
-The thesis weakens if NPLs keep rising faster than revenue, if coverage falls below comfort levels, if Basel ratio trends toward the minimum, if ARPAC stalls, or if deposit costs rise toward the market. The thesis strengthens if Inter can keep NPLs roughly stable while pushing ROE above 18%.
-
-## Valuation
-
-For Inter, I would not use a generic DCF based on operating cash flow. A bank should be valued on earnings, book value, ROE, capital needs, and credit quality.
+## 13. Valuation
 
 ### Current Multiples
 
-| Metric | Value |
-|---|---:|
-| Share price | $5.85 |
-| Shares outstanding | 441.49M |
-| Market cap | $2.58B |
-| Market cap, approximate BRL | R$13.6B |
-| Q1 2026 shareholders' equity | R$10.4B |
-| Price / book | ~1.3x |
-| TTM net income | R$1.42B |
-| TTM P/E | ~9.5x |
-| Forward P/E, data provider | ~7x |
+| Metric | Current | Peer / History Context | Interpretation |
+|---|---:|---|---|
+| Market cap | About $2.72B / R$13.6B | Small versus NU and incumbents. | Emerging growth bank. |
+| Price / book | About 1.3x Q1 2026 equity | Modest for 15%+ ROE. | Attractive if ROE rises. |
+| P/E | About 9.5x-10.0x TTM earnings | Discounted bank multiple. | Cheap if credit is stable. |
+| Forward P/E | About 8x FY2026 EPS and 6x-7x FY2027 EPS by StockAnalysis. | Low for growth. | Market doubts durability. |
+| P/FCF | Not useful. | Bank balance-sheet model. | Avoid. |
+| ROE | 15.5% Q1 2026. | Improving but below target. | Key multiple driver. |
 
-The multiple is modest for a bank still growing net revenue above 30%. It is not absurdly cheap if sustainable ROE is only 10%-12% and credit risk is rising. It is cheap if sustainable ROE is 18%-20%.
+### Primary Valuation Framework
 
-### ROE-Implied Price / Book
+The primary framework is P/B and ROE, supplemented by P/E. A generic DCF based on operating cash flow is misleading for a bank because loans, deposits, securities, and regulatory capital dominate cash flow. The right question is what sustainable ROE Inter can earn through a credit cycle and what cost of equity investors demand for a Brazilian digital bank.
 
-A simple justified P/B framework is:
+### Scenario Valuation
 
-`Fair P/B = (ROE - long-term growth) / (cost of equity - long-term growth)`
+| Scenario | Key Assumptions | Value / Share | Implied Return |
+|---|---|---:|---:|
+| Bear | ROE stalls near 10%-13%, credit costs rise, P/B 0.8x-1.0x. | ~$4 to $5 | Downside. |
+| Base | ROE moves to 18%-20%, credit stabilizes, P/B 1.6x-1.8x or 10x-11x earnings. | ~$8 to $10 | Attractive. |
+| Bull | Rule of 50 credible, ROE 24%+, strong book growth, P/B 2.3x-2.7x. | ~$13 to $16 | High upside. |
 
-This model is sensitive, but useful:
+### Reverse Valuation
 
-| Scenario | Sustainable ROE | Long-term growth | Cost of equity | Implied P/B | Implied value / share |
-|---|---:|---:|---:|---:|---:|
-| Bear | 11% | 5% | 16% | 0.55x | ~$2.50 |
-| Low case | 13% | 5% | 16% | 0.73x | ~$3.30 |
-| Base | 18% | 7% | 15% | 1.38x | ~$6.20 |
-| Better base | 20% | 7% | 14% | 1.86x | ~$8.30 |
-| Bull | 25% | 8% | 14% | 2.83x | ~$12.70 |
+At $6.16, the market appears to be underwriting a mid-teens ROE bank with high perceived cost of equity and real credit skepticism. That is not irrational. The opportunity exists because Inter may not need to hit 28%-30% ROE by 2029 for the stock to work; proving stable 18%-20% ROE with adequate capital could be enough.
 
-The formula breaks down when growth approaches the cost of equity, so I cap practical interpretation. The point is not false precision. The point is that the current price around 1.3x book roughly embeds mid-to-high teens sustainable ROE if investors demand a high emerging-market cost of equity.
+## 14. Catalysts
 
-### P/E Scenario
+| Catalyst | Timing | What It Would Prove |
+|---|---|---|
+| NPL stabilization | Next 2-4 quarters | Q1 deterioration was manageable seasoning. |
+| ROE above 17%-18% | 2026-2027 | Operating leverage and credit monetization are working. |
+| Efficiency ratio below 40% | 2026-2028 | Scale benefits are reaching earnings. |
+| Funding cost remains low | Each quarter | Deposit franchise is valuable. |
+| Basel / Tier 1 stability | Each quarter | Growth can be funded internally. |
+| Better credit disclosure | Ongoing | Product-level risk easier to underwrite. |
+| Rule of 50 progress | Annual / investor day | Management target becomes evidence, not slogan. |
+| BRL stability | Ongoing | USD shareholders capture local compounding. |
 
-Using TTM net income of roughly R$1.42 billion and approximate USD EPS around $0.61:
+## 15. Risks And Red Flags
 
-| Scenario | Earnings power | Multiple | Implied value |
-|---|---:|---:|---:|
-| Bear | $0.45 EPS | 8x | ~$3.60 |
-| Base | $0.70 EPS | 11x | ~$7.70 |
-| Bull | $1.00 EPS | 13x | ~$13.00 |
+| Risk | Type | Probability | Impact | What To Monitor |
+|---|---|---:|---:|---|
+| Credit seasoning worsens | Credit | Medium | High | NPLs, cost of risk, coverage. |
+| Capital ratios decline | Capital | Medium | High | Basel, Tier 1, RWA growth. |
+| Funding reprices | Funding | Medium | Medium / High | Cost of funding as % of CDI. |
+| BRL weakens | FX / macro | Medium | Medium | USD/BRL and local rates. |
+| Competition intensifies | Competitive | High | Medium | Nubank, incumbents, Mercado Pago, XP, PicPay. |
+| Rule of 50 overpromises | Management / expectations | Medium | Medium | Gap between targets and quarterly evidence. |
+| Governance discount widens | Governance | Medium | Medium | Related-party matters, capital allocation, control actions. |
+| Disclosure remains insufficient | Underwriting | Medium | Medium | Cohort, product-level credit, collateral, loss data. |
 
-The bull case does not require a software multiple. It requires EPS to compound through credit penetration and operating leverage while the market pays a normal high-quality bank multiple. The bear case only requires credit costs and macro to stop ROE expansion.
+## 16. What Would Change My Mind
 
-### Reverse DCF / Reverse Bank Valuation
-
-At $5.85, the market seems to imply one of the following:
-
-1. Inter's ROE will not move much above the mid-teens.
-2. Credit costs will rise as the portfolio seasons.
-3. The correct cost of equity for a Brazilian digital bank is very high.
-4. Capital needs will absorb much of the growth.
-5. Governance and liquidity deserve a discount.
-
-Those are not irrational assumptions. The opportunity exists because the company may only need to prove stable mid-to-high teens ROE, not heroic 30% ROE, for the stock to work from here.
-
-## Catalysts
-
-The most important catalyst is boring: several more quarters of profitable credit growth without asset-quality deterioration. If Inter can grow the loan book, keep NPLs stable, maintain coverage, and hold Basel ratio comfortably above requirements, the market should be more willing to capitalize earnings.
-
-Other catalysts:
-
-| Catalyst | Why it matters |
+| Evidence | Impact |
 |---|---|
-| ROE moves above 17%-18% | Validates operating leverage and credit monetization. |
-| Efficiency ratio falls toward 40% or below | Shows scale benefits are reaching earnings. |
-| Funding cost remains near current CDI percentage | Confirms the deposit franchise is valuable. |
-| NPLs stabilize after private-payroll/card mix shift | Reduces the biggest bear argument. |
-| Investor-day targets become quarterly evidence | Turns Rule of 50 from slogan into measurable progress. |
-| U.S. branch / global account traction | Adds optionality and international narrative. |
-| Improved disclosure by cohort/product | Makes credit risk easier to underwrite. |
+| NPLs stabilize while net revenue compounds 20%+ and ROE moves above 18%. | Would make me more bullish |
+| Funding cost remains near current CDI percentage through rate / competitive changes. | Would make me more bullish |
+| Inter provides clearer product-level credit cohorts with stable secured / payroll performance. | Would make me more bullish |
+| NPL 15-90 and NPL >90 keep rising for several quarters while coverage falls. | Would make me more bearish |
+| Basel ratio trends toward regulatory minimums or Inter needs external capital at a low multiple. | Would make me more bearish |
+| Credit losses prove the Rule of 50 target is being funded by underpriced risk. | Would invalidate the thesis |
 
-## Risks and Red Flags
+## 17. Monitoring Checklist
 
-The biggest risk is credit seasoning. The gross loan portfolio has grown quickly, and Q1 2026 delinquency metrics moved worse. If the deterioration continues, Inter's earnings multiple should compress and provisions could absorb the operating leverage.
+| Metric / Event | Bullish Signal | Bearish Signal | Source |
+|---|---|---|---|
+| NPL > 90 days | Stabilizes around current levels or improves. | Moves persistently above 5.5%-6.0%. | Earnings release / presentation. |
+| NPL 15-90 days | Improves after seasonal pressure. | Keeps rising. | Earnings release / presentation. |
+| Coverage ratio | Stabilizes or rises. | Keeps falling while book grows. | Financial statements. |
+| Cost of risk | Flat / improving. | Moves materially above 5% without offsetting yield. | Earnings materials. |
+| Basel / Tier 1 | Stable with growth. | Continues declining. | Financial statements. |
+| Funding cost | Remains around current CDI percentage. | Reprices toward market. | Earnings presentation. |
+| ARPAC | Grows faster than cost to serve. | Stalls. | Earnings presentation. |
+| Efficiency ratio | Moves toward low 40s / high 30s. | Stops improving. | Earnings presentation. |
+| ROE | Moves above 17%-18%. | Stalls around mid-teens or lower. | Earnings release. |
+| Active clients | Growth and activation continue. | Total clients grow but activation stalls. | Earnings presentation. |
+| BRL/USD | Stable or stronger BRL. | Currency weakness offsets local growth. | FX data. |
 
-Capital is the second risk. Basel ratio and Tier 1 ratio declined year over year. A fast-growing bank must retain enough capital. If Inter needs outside capital at a low multiple, per-share upside falls.
+## 18. Conclusion
 
-Funding could reprice. Digital deposits can be rate-sensitive. If Inter has to pay more to retain balances, NIM and ROE will suffer.
+Inter is an interesting setup because the price and operating results are sending different messages. The stock says investors are worried about Brazil, credit, capital, governance, and execution. The business says Inter has scale, profitability, improving ROE, low-cost funding, and visible operating leverage.
 
-Brazil macro and FX matter. U.S. investors own a dollar asset backed by real-denominated earnings. A weaker BRL can offset local growth. High real rates can also pressure borrowers.
+I am constructive, but only with a bank-investor mindset. The upside case is not built on AI or super-app language. It is built on Inter earning high-teens or better ROE on a growing book while keeping funding cheap, credit losses controlled, and capital ratios adequate. If that happens, 1.3x book is too low. If credit deteriorates, the discount is justified.
 
-Competition is not going away. Nubank, Mercado Pago, PicPay, XP, BTG, Itau, Bradesco, Santander Brasil, Caixa, and Banco do Brasil all have reasons to defend or attack Inter's profit pools.
+The clean underwriting statement is: INTR is attractive if Q1 2026 credit deterioration is manageable seasoning inside a profitable growth cycle; it is unattractive if that deterioration is the first sign that Inter is buying growth through underpriced risk.
 
-Governance is controlled. The Class B structure gives the controlling shareholder decisive voting power. Minority investors are underwriting management and controller judgment.
+## 19. Sources
 
-Disclosure is good enough for a public-company report, but product-level credit economics could still be more transparent. Investors should want clearer cohort, collateral, yield, loss, and capital data by major credit product.
-
-## Variant Perception
-
-The market may be treating INTR like a small Brazilian credit-risk story at the same time the financials are starting to look like a profitable digital bank with scale. That disconnect is the opportunity.
-
-The bull variant is that Inter does not need to become Nubank. It only needs to earn high-teens ROE on a growing book with controlled credit risk. At 1.3x book and under 10x earnings, that is enough.
-
-The bear variant is that investors are right to be skeptical because rapid credit growth is arriving before a full credit-cycle test. If NPLs keep rising and capital keeps drifting lower, the stock is not cheap; it is a value trap wearing a fintech story.
-
-My read is that the risk/reward is attractive but conditional. This is not a "buy and forget" compounder. It is a credit-monitoring thesis. The stock works if the next four to eight quarters show that credit growth, funding stability, and ROE improvement can coexist.
-
-## Monitoring Checklist
-
-1. NPL > 90 days: should stabilize around current levels rather than move persistently above 5.5%-6.0%.
-2. NPL 15-90 days: early delinquencies should improve after seasonal Q1 pressure.
-3. Coverage ratio: should not keep falling while the book grows.
-4. Cost of risk: watch reported cost of risk and cost of risk excluding private payroll.
-5. Basel ratio and Tier 1 ratio: capital should remain comfortably above regulatory minimums.
-6. Funding growth and cost of funding as % of CDI: the low-cost funding thesis depends on this.
-7. Net revenue growth versus SG&A growth: operating leverage should remain visible.
-8. ROE / ROTE: the stock needs proof that ROE can move beyond the mid-teens.
-9. ARPAC and cost to serve: customer monetization must keep improving.
-10. Active-client growth and activation rate: total client count alone is not enough.
-11. Product mix in credit cards, private payroll, home equity, FGTS, and mortgages.
-12. FX: BRL depreciation can erase local-currency compounding for U.S. holders.
-13. Management disclosure: look for better cohort and product-level credit detail.
-14. Any capital raise, subordinated issuance, or regulatory-capital action.
-15. Competitive moves from Nubank, incumbents, Mercado Pago, PicPay, XP, and BTG.
-
-## Conclusion
-
-Inter is an interesting setup because the stock price and the operating results are telling different stories. The price says investors are worried about credit, Brazil, governance, and execution. The operating results say the company has scale, profitability, improving ROE, low-cost funding, and visible operating leverage.
-
-I am constructive on the stock at $5.85, but only with a bank-investor mindset. The upside case is not built on AI or super-app language. It is built on Inter earning high-teens or better ROE on a growing book while keeping funding cheap and credit losses controlled. If that happens, 1.3x book is too low. If credit deteriorates or capital becomes constrained, the discount is justified.
-
-The clean underwriting statement is: INTR is attractive if Q1 2026's credit deterioration is manageable seasoning inside a profitable growth cycle; it is unattractive if that deterioration is the first sign that Inter is buying growth through underpriced risk.
-
-## Sources
-
-### Primary / Company Sources
+### Primary / Company
 
 - Inter & Co 2025 Form 20-F, filed 2026-04-30: https://www.sec.gov/Archives/edgar/data/1864163/000207097926000185/intr-20251231.htm
 - Inter & Co Q1 2026 earnings release, filed as 6-K on 2026-05-07: https://www.sec.gov/Archives/edgar/data/1864163/000186416326000048/interco1q26earningsrelea.htm
 - Inter & Co Q1 2026 earnings presentation, filed as 6-K on 2026-05-07: https://www.sec.gov/Archives/edgar/data/1864163/000186416326000048/interco1q26earningsprese.htm
 - Inter & Co Q1 2026 IFRS financial statements, filed as 6-K on 2026-05-07: https://www.sec.gov/Archives/edgar/data/1864163/000207097926000209/a032026_en-isa.htm
 - Inter & Co Owners' Day 2026 presentation, filed as 6-K on 2026-05-11: https://www.sec.gov/Archives/edgar/data/1864163/000186416326000051/enownersday-2026consolid.htm
+- Inter blog post on Rule of 50, 2026-05-12: https://blog-us.inter.co/inter-launches-rule-of-50-to-drive-growth-and-profitability/
 - Inter & Co investor relations financial information page: https://investors.inter.co/en/investor-updates/financial-information-inter-co/
 - Inter & Co ownership breakdown page: https://investors.inter.co/en/ownership-breakdown/
 
-### Market Data and Ownership
+### Market Data / Ownership / Sentiment
 
-- StockAnalysis INTR overview and financials: https://stockanalysis.com/stocks/intr/ and https://stockanalysis.com/stocks/intr/financials/
-- Yahoo Finance INTR quote page: https://finance.yahoo.com/quote/INTR/
-- CNBC INTR quote page: https://www.cnbc.com/quotes/INTR
-- MarketBeat INTR stock, analyst, institutional ownership, and short-interest pages: https://www.marketbeat.com/stocks/NASDAQ/INTR/, https://www.marketbeat.com/stocks/NASDAQ/INTR/institutional-ownership/, and https://www.marketbeat.com/stocks/NASDAQ/INTR/short-interest/
+- StockAnalysis INTR overview, market cap, financials, and forecast pages: https://stockanalysis.com/stocks/intr/ , https://stockanalysis.com/stocks/intr/market-cap/ , https://stockanalysis.com/stocks/intr/financials/ , https://stockanalysis.com/stocks/intr/forecast/
+- MarketScreener INTR financial forecasts and estimates: https://www.marketscreener.com/quote/stock/INTER-CO-INC-139941183/finances/
+- MarketBeat INTR stock, analyst, earnings, institutional ownership, and short-interest pages: https://www.marketbeat.com/stocks/NASDAQ/INTR/ , https://www.marketbeat.com/stocks/NASDAQ/INTR/earnings/ , https://www.marketbeat.com/stocks/NASDAQ/INTR/institutional-ownership/ , https://www.marketbeat.com/stocks/NASDAQ/INTR/short-interest/
+- Yahoo Finance INTR quote and analysis pages: https://finance.yahoo.com/quote/INTR/ and https://finance.yahoo.com/quote/INTR/analysis/
+- Fintel INTR market cap / share-price page: https://fintel.io/s/us/intr
+- YCharts USD/BRL exchange-rate page: https://ycharts.com/indicators/us_dollar_to_brazilian_real_exchange_rate
+- Trading Economics Brazil currency page: https://tradingeconomics.com/brazil/currency
 - Dataroma INTR superinvestor ownership page: https://dataroma.com/m/stock.php?sym=INTR
-- OpenInsider latest-insider-trading search page: https://openinsider.com/latest-insider-trading
 
-### Prior Debate / News / Transcripts
+### Industry / Competition / Regulation
 
-- Inter blog post on Rule of 50 / Owners' Day 2026: https://blog-us.inter.co/inter-launches-rule-of-50-to-drive-growth-and-profitability/
+- Nubank SEC filings and investor relations materials: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001691493
+- MercadoLibre SEC filings and investor relations materials: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001099590
+- Banco Central do Brasil currency conversion page: https://www.bcb.gov.br/en/currencyconversion
+
+### Prior Debate
+
 - MarketBeat coverage of Rule of 50 framework: https://www.marketbeat.com/instant-alerts/inter-co-sets-rule-of-50-target-as-digital-bank-pushes-growth-roe-gains-2026-05-11/
+- Yahoo Finance / MarketBeat repost of Rule of 50 coverage: https://finance.yahoo.com/markets/stocks/articles/inter-co-sets-rule-50-170950174.html
 - Simply Wall St. Q1 2026 / Rule of 50 market-reaction summary: https://simplywall.st/stocks/us/banks/nasdaq-intr/inter-co/news/inter-co-intr-is-down-217-after-embracing-rule-of-50-profita
-- Quartr INTR event summary page: https://quartr.com/events/inter-co-inc-intr-q1-2026_FkpGVPPv
+- Quartr INTR Q1 2026 and Investor Day event summaries: https://quartr.com/events/inter-co-inc-intr-q1-2026_FkpGVPPv
+- Investing.com Q1 2026 transcript summary: https://www.investing.com/news/transcripts/earnings-call-transcript-inter--co-q1-2026-results-show-strong-growth-93CH-4670507
 
 ### Access Limits
 
