@@ -1,353 +1,485 @@
-# MercadoLibre (MELI) Investment Research
+# MercadoLibre (NASDAQ: MELI) Investment Research
 
-Date: 2026-05-09
+Date: 2026-05-24
 Ticker: NASDAQ: MELI
-Price snapshot: MELI closed at $1,632.52 on 2026-05-08, the latest regular-market session before this report. Using 50.697 million shares outstanding, market capitalization was roughly $82.8 billion. StockAnalysis showed enterprise value around $89.5 billion using $12.35 billion of total debt and $5.65 billion of cash and equivalents. MercadoLibre's own non-GAAP net-debt bridge showed $5.75 billion of company-defined net debt at 2026-03-31, which implies an enterprise value closer to $88.5 billion on the same equity price.
+Company: MercadoLibre, Inc.
+Sector / industry: Latin American e-commerce / payments / fintech / logistics / retail media
+Research status: Post-Q1 2026 refresh
+Primary valuation lens: Owner-earnings DCF, adjusted FCF, SOTP, and reverse DCF
+Current stance: Watch / high-quality compounder near base-case value
+
+Price snapshot: MELI closed at $1,664.42 on 2026-05-22. StockAnalysis showed market capitalization of approximately $84.38 billion at that close. Using 50.697 million diluted shares, equity value is roughly $84.4 billion. MercadoLibre reported $3.677 billion of cash and cash equivalents, $3.669 billion of short- and long-term investments, $11.464 billion of restricted cash, $9.927 billion of debt / financial liabilities, and $2.418 billion of operating lease liabilities at 2026-03-31. MercadoLibre's own non-GAAP net-debt bridge showed $5.75 billion of company-defined net debt at Q1 2026, which puts practical enterprise value around $90 billion.
 
 This is investment research, not personalized financial advice.
 
-## Executive Summary
+## 1. Thesis In One Page
 
-MercadoLibre is one of the highest-quality public-market businesses in Latin America, but the stock is no longer a simple "great company at any price" story. The company combines the region's leading e-commerce marketplace, a dense logistics network, a large digital-payments platform, a growing credit business, high-margin retail media, and an increasingly broad financial-services relationship with consumers and merchants. The ecosystem is real, hard to replicate, and still growing quickly.
+### The Setup
 
-The current debate is sharper than the long-term narrative. In Q1 2026, net revenues and financial income grew 49% year over year to $8.845 billion, GMV grew 42% to $19.0 billion, TPV grew 50% to $87.2 billion, and both buyer and fintech-user metrics accelerated. But operating income declined 20% to $611 million, operating margin compressed to 6.9%, net income declined 16%, and company-defined adjusted free cash flow was negative $56 million. Management is deliberately funding lower free-shipping thresholds, credit cards, first-party inventory, cross-border trade, and fulfillment capacity. The question is whether those are high-return reinvestments or the first sign that incremental growth has become structurally more expensive.
+MercadoLibre is one of the best public-market businesses in Latin America, but it is no longer a simple "marketplace growth plus operating leverage" story. The company now combines the region's leading e-commerce marketplace, a dense logistics network, Mercado Pago payments, a large credit book, retail media, first-party inventory, cross-border commerce, loyalty, and financial services.
 
-The bull case is that MercadoLibre is using scale to extend a regional monopoly-like ecosystem. Brazil is the live example: lower free-shipping thresholds helped drive strong GMV, item, and buyer growth while local-currency unit shipping cost fell. Mercado Pago adds a second network, Mercado Ads is still under-monetized versus mature retail-media peers, and credit can deepen retention if underwriting remains controlled. If revenue compounds at a mid-teens rate for a decade and owner-earnings margins normalize toward the high single digits or low double digits, the stock can still work from here.
+Q1 2026 showed the tension. Net revenues and financial income grew 49% year over year to $8.845 billion, GMV grew 42% to $19.0 billion, TPV grew 50% to $87.2 billion, fintech MAUs reached 83 million, and unique active buyers reached 84 million. But operating income declined 20% to $611 million, adjusted EBITDA fell to $857 million, net income declined 16% to $417 million, and company-defined adjusted free cash flow was negative $56 million.
 
-The bear case is not that MercadoLibre is a fraud or a weak business. It is that the market may still be capitalizing MELI like a clean marketplace compounder while the incremental engine increasingly looks like a Latin American credit, logistics, inventory, subsidy, and funding business. Credit revenues were about 23% of Q1 revenue and financial income. Gross loans receivable reached $14.6 billion, provisions doubled year over year, write-offs doubled, NIMAL fell to 17.8%, and Brazil direct contribution margin dropped sharply. The accounting and cash-flow picture is complicated by financial income, loan-sale gains, restricted/customer funds, fintech funding, and credit-book growth.
+The debate is whether the margin compression is deliberate high-return reinvestment or evidence that incremental growth is becoming structurally more capital-intensive.
 
-My read is balanced. MercadoLibre is a better business than the near-term margin print suggests, but the stock price already assumes strong growth and some margin recovery. A base-case owner-earnings DCF lands around the current share price. The idea becomes attractive if one believes the 2025-2026 margin compression is mostly customer-acquisition and density-building spend with measurable payback. It becomes unattractive if Brazil free shipping, first-party inventory, credit cards, and fintech funding are permanent tolls required to defend the moat.
+### The Core Debate
 
-## Company Overview
+| Question | Bull Answer | Bear Answer | My Current Read |
+|---|---|---|---|
+| What is the business becoming? | Latin America's commerce and money operating system, with ads and fintech monetization still early. | A lower-margin blend of marketplace, logistics, inventory, credit, and funding risk. | Still exceptional, but the quality mix is changing. |
+| What is the market pricing in? | Strong revenue growth, partial margin recovery, and durable ecosystem advantages. | Too much trust that current reinvestment earns attractive returns. | The price is near base case, not distressed. |
+| What metric settles the debate? | Brazil unit economics, adjusted FCF, credit quality, NIMAL, ads / GMV, and direct contribution. | Headline revenue can hide weak owner earnings. | Adjusted owner earnings matter more than GAAP OCF. |
+| What can go seriously wrong? | Free shipping, credit cards, 1P, funding, and competition permanently lower returns. | Margin reset plus credit losses can crush the multiple. | Main risk is quality of incremental growth. |
 
-MercadoLibre operates a Latin American commerce and fintech ecosystem. Its core commerce platform is present in 18 countries, while Mercado Pago operates in eight countries. Brazil, Mexico, and Argentina are the most important markets. In FY2025, Brazil generated 52.6% of net revenues and financial income, Mexico 22.4%, Argentina 20.6%, and other countries 4.3%.
+### Thesis Snapshot
 
-The company began as an online marketplace but now looks more like a regional digital operating system. The marketplace brings buyer traffic and merchant supply. Mercado Envios provides fulfillment, shipping, pickup, and returns infrastructure. Mercado Pago processes marketplace payments and also serves off-platform merchants and consumers. Mercado Credito provides merchant, consumer, credit-card, and asset-backed loans. Mercado Ads monetizes high-intent traffic and first-party data. MELI+ and Mercado Play are engagement layers rather than separate profit centers today, but they fit the same strategic logic: increase frequency, retention, and ecosystem usage.
+| Factor | Current Evidence | Signal | Why It Matters |
+|---|---|---|---|
+| Valuation | $84.4B market cap, about 2.1x FY2026 consensus sales, about 40.6x FY2026 EPS. | Mixed | Reasonable for quality, high if margins do not recover. |
+| Growth | Q1 revenue +49%, GMV +42%, TPV +50%. | Bullish | Demand engine remains very strong. |
+| Margins | Q1 operating margin 6.9%, down sharply; adjusted EBITDA down YoY. | Bearish / Mixed | Reinvestment or structural reset is the key debate. |
+| Balance sheet | Practical EV about $90B; credit book and fintech funding are material. | Mixed | Not overlevered, but not asset-light. |
+| Competitive position | Leading integrated marketplace, logistics, Pago, credit, ads ecosystem. | Bullish | Hard to replicate at regional scale. |
+| Management / governance | Founder Marcos Galperin now Executive Chairman; Ariel Szarfsztejn CEO. | Bullish / Monitor | Long-term culture remains, but succession is live. |
+| Estimate revisions | StockAnalysis target $2,230; MarketScreener expects sales to $61.9B in 2028. | Bullish | Street believes growth continues. |
+| Technical / sentiment setup | Shares down from prior highs after Q1 margin disappointment. | Mixed | Sentiment reset, not washed-out valuation. |
 
-The scale is large and still expanding. In FY2025, net revenues and financial income reached $28.9 billion, GMV was $65.0 billion, items sold were 2.43 billion, TPV was $277.8 billion, payment transactions were 15.47 billion, fintech MAUs were 78 million, and unique active buyers were 121 million. In Q1 2026 alone, MercadoLibre reported $19.0 billion of GMV, 722 million items sold, $87.2 billion of TPV, 4.64 billion payment transactions, 83 million fintech MAUs, and 84 million unique active buyers.
+### Current View
 
-The company reports in U.S. dollars, but its economics are local-market economics. FX, inflation, exchange controls, local funding markets, taxes, and country-level regulation all matter. Argentina is especially important because it has historically contributed a disproportionate amount of segment direct contribution while also carrying high inflation, exchange-rate, and cash-mobility risk.
+MELI is a high-quality compounder trading near my base-case value. I would rather own it than short it, but I would not underwrite it on generic free cash flow or headline revenue growth. My base-case fair value is roughly $1,750 to $2,050, with a bear case around $900 to $1,150 and a bull case above $3,200. The stock becomes more attractive if Brazil payback, credit quality, ads monetization, and adjusted FCF improve together.
 
-## Business Model
+## 2. Company Story
 
-MercadoLibre makes money through two broad revenue streams: commerce and fintech.
+### Origin And Evolution
 
-Commerce revenue includes marketplace fees, flat transaction fees, shipping and storage fees, advertising, subscription and loyalty fees, classified fees, and product sales from first-party inventory. Commerce services are the cleaner platform revenue stream. Commerce product sales are lower-quality revenue because they include first-party inventory and related shipping economics.
+MercadoLibre began as a Latin American online marketplace and evolved into a regional commerce and fintech ecosystem. The original marketplace created buyer traffic and seller supply. Mercado Envios added logistics. Mercado Pago added payments and financial accounts. Mercado Credito added consumer and merchant credit. Mercado Ads monetizes purchase intent. Loyalty, streaming, cross-border commerce, and first-party retail add more engagement and selection.
 
-Fintech revenue includes Mercado Pago payment services, acquiring and merchant services, yield-related financial income, debit-card commissions, insurance fees, credit revenues, and POS-device sales. Credit revenues include interest and commissions from merchant loans, consumer loans, and Mercado Pago credit-card transactions.
+The company reports in U.S. dollars, but its economics are local: Brazil, Mexico, Argentina, and other Latin American markets have different inflation, FX, funding, taxation, credit, and regulatory dynamics. Brazil is the biggest market; Mexico is a major growth market; Argentina is economically important but macro-sensitive.
 
-In Q1 2026, the revenue split was:
+### Why The Company Matters
 
-| Q1 2026 revenue stream | Revenue |
-|---|---:|
-| Commerce services | $3.756B |
-| Commerce product sales | $1.112B |
-| Total commerce | $4.868B |
-| Financial services / income | $1.947B |
-| Credit revenues | $2.012B |
-| Fintech product sales | $18M |
-| Total fintech | $3.977B |
-| Total net revenues and financial income | $8.845B |
+MercadoLibre matters because it is one of the few companies in Latin America with the scale and trust to combine commerce, payments, logistics, credit, and advertising. Each layer helps the others: buyer traffic attracts merchants; merchants need logistics and ads; Pago improves conversion and data; credit increases purchasing power and seller liquidity; logistics density improves delivery speed and cost.
 
-This mix matters. A simple marketplace take-rate framework misses the point. Commerce services revenue divided by Q1 GMV implies roughly 19.8% service monetization, but that includes logistics, ads, loyalty, and other services, not only final value fees. Total commerce revenue divided by GMV was 25.7%, but that includes 1P product revenue. Fintech revenue divided by TPV was 4.6%, but that includes credit interest, financial income, AUM-related economics, and card revenue rather than a pure payments take rate.
+That is the story investors love. The hard part is that the flywheel is no longer purely asset-light. The company funds a large credit book, subsidizes shipping, carries inventory, leases logistics assets, manages restricted/customer funds, and finances fintech growth.
 
-The best way to understand the model is by flywheel:
+### Key Milestones
 
-1. More buyers and more frequency attract more sellers.
-2. More sellers and selection improve conversion and price competitiveness.
-3. Better logistics improve trust, conversion, and delivery speed.
-4. Higher marketplace volume strengthens Mercado Pago payment data and merchant relationships.
-5. Payments and credit deepen user retention and increase transaction frequency.
-6. More traffic and transaction data increase the value of Mercado Ads.
-7. Ads, credit, logistics, and payments fund more investment in selection, prices, and delivery.
+| Year / Date | Event | Why It Matters |
+|---|---|---|
+| 1999 | MercadoLibre founded. | Latin American marketplace origin. |
+| 2007 | IPO on Nasdaq. | Public compounder story began. |
+| 2010s | Mercado Pago and Mercado Envios scaled. | Marketplace became an ecosystem. |
+| 2020-2024 | E-commerce, payments, logistics, credit, and ads expanded rapidly. | Multi-engine flywheel strengthened. |
+| 2025 | Net revenue and financial income reached $28.893B. | Scale became enormous. |
+| 2026-01 | Ariel Szarfsztejn became CEO; Marcos Galperin became Executive Chairman. | Succession and continuity. |
+| 2026-05 | Q1 revenue +49%, but operating margin compressed to 6.9%. | Current investment debate. |
 
-The flywheel is powerful, but it is not asset-light. MELI owns or controls meaningful logistics assets, funds a large credit book, supports free shipping, carries 1P inventory, and operates in volatile currencies. That is why owner earnings require more work than subtracting capex from GAAP operating cash flow.
+## 3. Business Model
 
-## Products, Logistics, and Fintech Assets
+### How The Company Makes Money
 
-### Marketplace
+MercadoLibre makes money through commerce and fintech. Commerce revenue includes marketplace fees, transaction fees, shipping and storage fees, advertising, loyalty, classifieds, and first-party product sales. Fintech revenue includes Mercado Pago payment services, acquiring, card economics, yield-related financial income, insurance, POS devices, and credit revenues from merchant, consumer, and card lending.
 
-The marketplace remains third-party-led. The 2025 10-K says 1P accounts for less than 10% of GMV and is used selectively to improve assortment and price competitiveness. That is a sensible strategic use of inventory, but it also changes the margin profile. First-party revenue is less valuable than marketplace fee revenue and introduces inventory, pricing, working-capital, and execution risk.
+| Revenue Stream | Description | Share / Size | Economics | Risk |
+|---|---|---:|---|---|
+| Commerce services | Marketplace fees, logistics services, ads, subscriptions, other services. | Q1 2026 $3.756B. | High-quality ecosystem revenue. | Competition, shipping subsidies, seller economics. |
+| Commerce product sales | First-party inventory. | Q1 2026 $1.112B. | Selection / price tool. | Lower margin, inventory, working capital. |
+| Financial services / income | Payments, accounts, acquiring, yield, financial products. | Q1 2026 $1.947B. | Pago monetization and engagement. | Regulation, funding, take-rate pressure. |
+| Credit revenues | Consumer, merchant, and card credit interest / commissions. | Q1 2026 $2.012B. | Large revenue and retention lever. | Provisions, write-offs, NIMAL compression. |
+| Advertising | Mercado Ads within commerce services. | Q1 ad revenue +73% USD. | High-margin retail media. | Ad load and seller ROI. |
 
-### Mercado Envios
+### The Economic Engine
 
-Mercado Envios is one of the core moat layers. The company operates fulfillment centers, cross-docking, pickup and returns nodes, aircraft, trucks, and last-mile capacity largely through third-party carrier relationships. Fulfillment handled more than half of shipments, and management said Q1 2026 Brazil unit shipping cost declined 17% year over year in local currency despite record free-shipping penetration.
+The engine is: more buyers -> more sellers -> better selection and price -> more logistics density -> faster / cheaper delivery -> more frequency -> more Pago usage -> more credit and ads data -> more merchant and consumer monetization -> more reinvestment.
 
-This is the positive interpretation of current margin pressure. More orders improve route density, warehouse utilization, automation payback, and carrier economics. Those savings can fund lower free-shipping thresholds, which increase conversion and frequency. The risk is that low-ASP shipping subsidies become permanent if competition from Amazon, Shopee, Shein, Temu, or local retailers prevents MELI from recapturing the economics.
+The bull case is that this flywheel compounds for years and current margin pressure is the cost of expanding the network. The bear case is that the incremental engine now requires permanent subsidies, credit risk, inventory, and funding.
 
-### Mercado Pago
+### Unit Economics / Customer Economics
 
-Mercado Pago started as marketplace trust infrastructure and is now a large off-platform payments and financial-services platform. It includes acquiring, QR/POS, digital accounts, debit and credit cards, savings and investment products, insurance, crypto/stablecoin functionality, merchant services, and credit. Q1 2026 fintech MAUs reached 83 million, TPV reached $87.2 billion, acquiring TPV reached $56.0 billion, and AUM was almost $20 billion according to company commentary.
+| Metric | Current | Trend | Why It Matters |
+|---|---:|---:|---|
+| GMV | $19.0B in Q1 2026. | +42% YoY. | Commerce demand. |
+| Items sold | 722M in Q1. | Strong growth. | Frequency and logistics density. |
+| Unique active buyers | 84M in Q1. | Up strongly. | Buyer base. |
+| TPV | $87.2B in Q1. | +50% YoY. | Pago scale. |
+| Payment transactions | 4.64B in Q1. | Large and growing. | Usage frequency. |
+| Fintech MAUs | 83M. | Up from 78M FY2025. | Financial relationship. |
+| Gross loans receivable | $14.555B. | Credit book roughly doubled YoY. | Growth and risk. |
+| NIMAL | 17.8% in Q1. | Down from 22.7% YoY. | Credit profitability pressure. |
 
-Pago is strategically important because it converts occasional marketplace buyers and sellers into financial-services users. The strongest version of the thesis is that MercadoLibre becomes a default commerce and money app for a large share of Latin American consumers and merchants.
+## 4. Products, Segments, And Moat
 
-### Credit
+### Product / Segment Breakdown
 
-Credit is the highest-upside and highest-risk asset. Q1 2026 gross loans receivable were $14.555 billion, up sharply, with a $3.820 billion allowance and $10.735 billion of net loans receivable. The credit-card portfolio was $6.622 billion gross and represented 46% of the portfolio. Credit revenues were $2.012 billion in Q1, about 23% of total net revenues and financial income.
+| Product / Segment | Role In Thesis | Economics | Evidence | Risk |
+|---|---|---|---|---|
+| Marketplace | Core demand / seller network. | Fees, traffic, conversion. | GMV $19.0B Q1. | Amazon, Shopee, Shein, Temu, local retailers. |
+| Mercado Envios | Logistics trust and density. | Shipping fees, conversion, fulfillment. | Brazil unit shipping cost down 17% in local currency. | Permanent subsidy risk. |
+| Mercado Pago | Payments and financial account layer. | TPV, acquiring, cards, accounts, yield. | TPV $87.2B; fintech MAUs 83M. | Pix, banks, fintech competition. |
+| Mercado Credito | Credit monetization and retention. | Interest / fees; higher ARPU. | Credit revenue $2.012B. | Provisions, funding, losses. |
+| Mercado Ads | Retail-media monetization. | High margin. | Q1 ad revenue +73% USD. | Seller ROI and ad load. |
+| 1P inventory / cross-border | Selection and price competitiveness. | Revenue growth and category coverage. | 1P less than 10% of GMV in 2025 10-K. | Lower margin and working capital. |
+| Loyalty / MELI+ / Play | Frequency and retention. | Bundled engagement. | Supports ecosystem usage. | Cost without direct profit. |
 
-The bull case is that MELI has proprietary commerce and payments data, strong distribution, and collection advantages. Merchant loans can be repaid from marketplace and Mercado Pago flows, and credit can increase purchase frequency, seller growth, and user lock-in. The bear case is that credit growth can pull forward revenue while hiding loss recognition, funding cost, and macro sensitivity until cohorts season.
+### Competitive Position
 
-The Q1 2026 credit metrics deserve close monitoring. The 15-90 day NPL ratio was 8.0%, broadly stable year over year, but NIMAL fell to 17.8% from 22.7%. Provision for doubtful accounts doubled to $1.244 billion, and write-offs doubled to $658 million. That does not prove the credit strategy is flawed, but it means credit quality is now central to the MELI thesis.
+MercadoLibre competes in commerce, logistics, payments, credit, and ads at the same time. The moat is the combination, not any single piece. Amazon can compete in commerce; Nubank can compete in fintech; Shopee can compete on low prices; Pix can pressure payments; Google / Meta / TikTok can compete for ad dollars. Matching MELI's regional bundle is harder.
 
-### Mercado Ads
+| Competitor Type | Examples | Company Advantage | Company Risk |
+|---|---|---|---|
+| Global commerce | Amazon, AliExpress, Temu, Shein | Local brand, logistics, Pago, seller tools. | Subsidies and cross-border selection. |
+| Regional commerce / retail | Magalu, Americanas, Via, local specialists | Marketplace scale and integrated logistics. | Local category depth and store footprints. |
+| Fintech / banks | Nubank, banks, Stone, PagBank, Pix ecosystem | Commerce data and merchant flows. | Lower-cost funding, banking scale, payments regulation. |
+| Ads platforms | Google, Meta, TikTok, Amazon, retail media networks | Purchase-intent data. | Budget competition and ad-load limits. |
+| Logistics networks | Postal, local couriers, Amazon logistics | Demand density and fulfillment integration. | Cost inflation and service expectations. |
 
-Mercado Ads is likely the highest-quality incremental profit pool. It monetizes purchase intent, seller competition, brand budgets, attribution data, and marketplace traffic. Q1 2026 ad revenue grew 73% in U.S. dollars and 63% FX-neutral. Public investor writeups have pointed out that Mercado Ads revenue as a percentage of GMV remains below mature retail-media peers, which leaves room for high-margin monetization if seller ROI and buyer experience remain healthy.
+### Moat Assessment
 
-Ads are the cleanest margin-recovery lever in the model. The limit is ad load and seller economics. If ads become too prominent, conversion can suffer; if seller margins are pressured by fees, shipping, and competition, ad budgets may not scale as expected.
+| Possible Moat | Evidence For | Evidence Against | Current Read |
+|---|---|---|---|
+| Brand / trust | Leading regional marketplace and Pago brand. | Trust can be damaged by service / credit issues. | Strong. |
+| Scale | GMV, TPV, buyers, sellers, logistics density. | Scale must translate into margin. | Strong but costly. |
+| Data | Commerce, payments, credit, ads, logistics data. | Credit losses test data advantage. | Important. |
+| Network effects | Buyers attract sellers; sellers improve selection. | Low-ASP commerce can be price-sensitive. | Real. |
+| Logistics density | Fulfillment and managed network. | Subsidies can hide weak economics. | Strong if unit costs keep falling. |
+| Switching costs | Seller tools, Pago, ads, credit, fulfillment. | Multi-homing is common. | Moderate / strong. |
+| Cost advantage | Scale can reduce unit shipping and service costs. | Competition can force savings back to users. | Conditional. |
 
-## Industry and Competitive Position
+## 5. Financial Snapshot
 
-MercadoLibre competes in large, underpenetrated, and increasingly contested markets. Latin American e-commerce penetration remains below mature-market levels, and digital financial-services adoption still has room to expand. The structural runway is real: more online retail, more digital payments, more merchant digitization, more underbanked consumers entering formal financial services, and more retail-media advertising moving online.
+### Historical Financials
 
-The competitive landscape is also real. In commerce, MELI faces Amazon, Shopee/Sea, Shein, Temu, AliExpress, Magalu, Americanas, Via, local retailers, category specialists, and direct-to-consumer sellers. In fintech, it faces Nubank, banks, Stone, PagBank, card networks, Pix and other instant-payment rails, wallets, acquirers, and local fintechs. In ads, it faces Google, Meta, TikTok, Amazon, retailer media networks, and traditional media budgets.
+MercadoLibre's top-line growth is exceptional. The quality question is not whether the company can grow. It is how much owner earnings remain after logistics investment, credit growth, provisions, funding, restricted/customer funds, leases, and first-party inventory.
 
-The moat is not one feature. It is the interaction of buyer traffic, seller supply, brand trust, payments acceptance, logistics density, first-party data, credit underwriting, merchant tools, and ads. A competitor can attack one layer; matching the full stack at regional scale is much harder.
+| USD millions except per-share / ratio data | FY2022 | FY2023 | FY2024 | FY2025 | TTM / Latest |
+|---|---:|---:|---:|---:|---:|
+| Net revenue and financial income | 10,780 | 15,107 | 20,777 | 28,893 | Q1 2026 $8,845 |
+| Gross profit | 5,198 | 7,590 | 9,577 | 12,858 | Q1 2026 $3,862 |
+| Operating income | 1,069 | 2,207 | 2,631 | 3,201 | Q1 2026 $611 |
+| Operating margin | 9.9% | 14.6% | 12.7% | 11.1% | Q1 2026 6.9% |
+| Net income | 482 | 987 | 1,911 | 1,997 | Q1 2026 $417 |
+| Diluted EPS | 9.57 | 19.46 | 37.55 | 39.33 | MarketBeat TTM $37.89 |
+| Operating cash flow | 2,940 | 5,140 | 7,918 | 12,116 | Q1 2026 $2,075 |
+| Capex / productive assets | 454 | 509 | 860 | 1,343 | Q1 2026 $271 |
+| Adjusted free cash flow | Not cited | Not cited | 1,215 | 1,481 | Q1 2026 $(56) |
 
-Brazil is the most important competitive battleground. Q1 2026 showed both sides of the debate. Brazil revenue grew 55% year over year and GMV growth accelerated, helped by the lower free-shipping threshold. But Brazil direct contribution fell from $542 million to $389 million, and direct contribution margin dropped from 17.6% to 8.2%. If this is temporary investment, it may be a great use of scale. If it is the new cost of competing, the consolidated margin framework needs to come down.
+### Latest Period
 
-Mexico is attractive because e-commerce and digital finance are still developing, but Amazon is a serious competitor and fintech penetration is increasingly competitive. Argentina is more favorable for MELI's brand, Pago, and marketplace position, but macro and exchange-rate risk are higher. Argentina contributed $2.481 billion of FY2025 direct contribution on $5.962 billion of revenue, which is economically important and not low-risk.
+| Metric | Q1 2025 | Q1 2026 | Change | Interpretation |
+|---|---:|---:|---:|---|
+| Net revenues and financial income | ~$5.94B | $8.845B | +49% | Excellent growth. |
+| GMV | ~$13.4B | $19.0B | +42% | Commerce accelerated. |
+| TPV | ~$58B | $87.2B | +50% | Pago remains strong. |
+| Operating income | ~$762M | $611M | -20% | Margin pressure. |
+| Adjusted EBITDA | $935M | $857M | -8% | Reinvestment / credit pressure. |
+| Net income | ~$497M | $417M | -16% | EPS miss despite revenue beat. |
+| Provision for doubtful accounts | ~$604M | $1.244B | +106% | Credit risk is central. |
+| Adjusted free cash flow | $58M | $(56)M | Negative swing | Credit / seasonality / reinvestment. |
 
-Regulation can also change the economics. Mexico's COFECE closed its 2025 marketplace investigation without remedies but highlighted concerns around seller mobility, featured-offer transparency, and visibility for sellers using platform logistics. Brazil import-tax changes affect cross-border competitors and any MELI cross-border push. Fintech regulation, consumer lending, AML, data privacy, antitrust/self-preferencing, logistics tying, and tax rules all deserve monitoring.
+### Balance Sheet And Capital Structure
 
-## Financial Snapshot
+| USD millions except per-share / ratio data | Latest | Notes |
+|---|---:|---|
+| Cash and equivalents | 3,677 | Q1 2026. |
+| Short- and long-term investments | 3,669 | Q1 2026. |
+| Restricted cash | 11,464 | Mostly fintech / customer / regulatory context. |
+| Debt / financial liabilities | 9,927 | Includes fintech funding. |
+| Operating leases | 2,418 | Logistics / fulfillment footprint. |
+| Gross loans receivable | 14,555 | Credit book. |
+| Allowance for doubtful accounts | 3,820 | 26% of gross loans. |
+| Company-defined net debt | 5,750 | Q1 2026 non-GAAP bridge. |
+| Market cap | 84,380 | At $1,664.42. |
+| Practical EV | About 90,000 | Market cap plus company-defined net debt. |
 
-MercadoLibre's headline growth over the past five years has been exceptional.
+## 6. Quality Of Earnings
 
-| USD millions except shares | 2021 | 2022 | 2023 | 2024 | 2025 | Q1 2026 |
+MELI's reported operating cash flow is not a clean owner-earnings proxy. The fintech business holds restricted and customer funds, grows loans receivable, sells receivables, issues funding, holds financial liabilities, and generates large working-capital swings. FY2025 simple free cash flow was over $10 billion, but company adjusted free cash flow was $1.481 billion. Q1 2026 adjusted FCF was negative despite positive GAAP OCF.
+
+| Issue | Evidence | Why It Matters | Current Read |
+|---|---|---|---|
+| Credit-book growth | Gross loans receivable $14.555B. | Credit can flatter revenue before losses season. | Main risk. |
+| Provision expense | Q1 provisions $1.244B, more than doubled YoY. | Direct hit to owner earnings. | Bearish / monitor. |
+| NIMAL compression | Q1 NIMAL 17.8%, down from 22.7%. | Lower spread / higher loss / funding pressure. | Negative. |
+| Adjusted FCF | FY2025 $1.481B; Q1 2026 $(56)M. | Better owner-cash proxy than generic FCF. | Tight. |
+| Logistics / shipping | Brazil unit shipping cost down but free-shipping threshold lower. | Could be high-return investment or permanent cost. | Mixed. |
+| First-party inventory | 1P less than 10% of 2025 GMV. | Lower-quality revenue than marketplace services. | Manageable but monitor. |
+| LTRP / compensation | Long-term retention expense is cash-settled and stock-linked. | Real owner cost. | Include in owner earnings. |
+| FX / inflation | Local-market economics reported in USD. | Can distort growth and cash. | Always relevant. |
+
+## 7. Forward Projections And Scenario Model
+
+### Analyst Expectations
+
+Consensus expects very strong growth despite near-term margin compression. MarketScreener shows net sales rising from $40.296 billion in 2026 to $50.578 billion in 2027 and $61.913 billion in 2028. Net income is expected to rise from $2.133 billion to $3.064 billion and $4.250 billion over the same period. MarketBeat shows EPS expected to grow from $40.97 in 2026 to $60.22 in 2027, while StockAnalysis shows 25 S&P Global-polled analysts with a Buy consensus and average target of $2,230.
+
+Consensus source(s): MarketScreener, StockAnalysis, MarketBeat, Yahoo Finance, Seeking Alpha visible estimate page.
+Consensus date: 2026-05-24.
+Fiscal year basis: Calendar year ending December.
+Estimate basis: Revenue / EBITDA / EBIT / GAAP EPS; FCF estimates vary by provider and are less reliable for MELI because of credit / fintech mechanics.
+
+| Fiscal Year | Revenue Consensus | YoY Growth | EBITDA / EBIT Consensus | Margin | EPS Consensus | FCF Consensus |
 |---|---:|---:|---:|---:|---:|---:|
-| Net revenue & financial income | 7,069 | 10,780 | 15,107 | 20,777 | 28,893 | 8,845 |
-| Gross profit | 3,005 | 5,198 | 7,590 | 9,577 | 12,858 | 3,862 |
-| Operating income | 441 | 1,069 | 2,207 | 2,631 | 3,201 | 611 |
-| Net income | 83 | 482 | 987 | 1,911 | 1,997 | 417 |
-| Operating cash flow | 965 | 2,940 | 5,140 | 7,918 | 12,116 | 2,075 |
-| Capex / productive assets | 573 | 454 | 509 | 860 | 1,343 | 271 |
-| Simple FCF | 392 | 2,486 | 4,631 | 7,058 | 10,773 | 1,804 |
-| SBC / LTRP expense | 89 | 84 | 167 | 261 | 303 | n/a |
-| Diluted shares, mm | 49.803 | 51.336 | 51.007 | 50.697 | 50.697 | 50.697 |
+| FY2026E | $40.296B | +39.5% | EBITDA $4.269B / EBIT $3.123B | EBIT margin 7.8% | ~$40.97 | Not primary / provider-specific |
+| FY2027E | $50.578B | +25.5% | EBITDA $5.823B / EBIT $4.496B | EBIT margin 8.9% | ~$60.22 | Not primary / provider-specific |
+| FY2028E | $61.913B | +22.4% | EBITDA $7.698B / EBIT $6.157B | EBIT margin 9.9% | Not separately consistent | Not primary / provider-specific |
 
-The table also shows why MELI is easy to misread. Simple free cash flow, defined as operating cash flow less capex, was $10.8 billion in FY2025. That is not the right owner-earnings number. MercadoLibre's fintech business holds restricted/customer funds, funds loan growth, sells receivables, borrows against financial assets, and generates large working-capital movements. The company-defined adjusted free cash flow measure tries to strip these effects into a more useful discretionary-cash measure.
+### Estimate Revision Trend
 
-On that basis, the cash story is much tighter. FY2025 adjusted free cash flow was $1.481 billion, versus $1.215 billion in FY2024. Q1 2026 adjusted free cash flow was negative $56 million despite $2.075 billion of GAAP operating cash flow. The main reason was credit expansion: changes in loans receivable consumed $1.949 billion in Q1, and capex consumed $271 million.
+| Metric | 90 Days Ago | 30 Days Ago | Current | Direction |
+|---|---:|---:|---:|---|
+| FY2026 revenue | High $30B range | Around $40B | $40.3B | Up / stable |
+| FY2026 EPS | Low/mid $40s before Q1 reset | Around $41 | $40.97 | Slight pressure |
+| FY2027 revenue | Around $50B | Around $50B | $50.6B | Stable |
+| Price target | Higher before Q1 at some firms | Post-Q1 cuts | StockAnalysis avg $2,230; low $1,750 | Still bullish but trimmed |
 
-The credit and margin data are the main issues to watch:
+### Management Guidance
 
-| Metric | 2023 | 2024 | 2025 | Q1 2026 |
-|---|---:|---:|---:|---:|
-| GMV | $44.7B | $51.5B | $65.0B | $19.0B |
-| Items sold | 1.40B | 1.79B | 2.43B | 722M |
-| TPV | $146.7B | $196.7B | $277.8B | $87.2B |
-| Payment transactions | 7.60B | 11.36B | 15.47B | 4.64B |
-| Fintech MAUs | 46M | 61M | 78M | 83M |
-| NIMAL | 36.2% | 28.2% | 22.4% | 17.8% |
+MercadoLibre does not provide a simple annual revenue or EPS guide. Management's effective guidance is capital-allocation behavior: it is deliberately prioritizing long-term ecosystem gains over near-term margin optimization.
 
-NIMAL deterioration is not automatically bad if the mix shift to credit cards creates lifetime value through engagement and cross-sell. But it is the clearest evidence that the fintech business is becoming lower spread and more provision intensive as it scales.
+| Metric | Guidance | Implied Growth / Margin | Notes |
+|---|---:|---:|---|
+| Brazil free shipping | Lower threshold driving demand and frequency. | Near-term margin pressure, potential density payback. | Key 2026 debate. |
+| Credit / cards | Credit-card and consumer credit expansion continuing. | Revenue growth with higher provisions. | Watch NIMAL and cohorts. |
+| Logistics | Unit shipping cost improvement in Brazil. | Can fund lower thresholds if density works. | Need margin recovery evidence. |
+| Ads | Rapid growth and under-monetized GMV. | High-margin offset to logistics / credit. | Cleanest profit lever. |
+| Annual EPS / revenue | No formal guide found. | Consensus is market anchor. | Use scenarios. |
 
-The balance sheet is also more finance-company-like than a simple marketplace balance sheet:
+### Historical Anchor
 
-| USD millions | 2021 | 2022 | 2023 | 2024 | 2025 | Q1 2026 |
-|---|---:|---:|---:|---:|---:|---:|
-| Cash | 2,585 | 1,910 | 2,556 | 2,635 | 3,670 | 3,677 |
-| Restricted cash | 1,063 | 1,453 | 1,292 | 2,064 | 9,867 | 11,464 |
-| ST + LT investments | 899 | 2,661 | 3,642 | 5,688 | 4,393 | 3,669 |
-| Debt / financial liabilities | 3,518 | 4,758 | 4,495 | 5,715 | 9,193 | 9,927 |
-| Operating leases | 464 | 656 | 838 | 1,135 | 2,199 | 2,418 |
+| Metric | 3-Year CAGR / Avg | 5-Year CAGR / Avg | Latest | Forecast Relevance |
+|---|---:|---:|---:|---|
+| Revenue growth | FY2022-FY2025 CAGR about 39% | Strong | Q1 2026 +49% | FY2026 consensus plausible. |
+| Operating margin | FY2023-FY2025 avg about 12.8% | Volatile | Q1 2026 6.9% | Margin recovery is not guaranteed. |
+| Net income | FY2022-FY2025 CAGR about 61% | Strong but uneven | Q1 2026 -16% YoY | Earnings lagged revenue. |
+| Adjusted FCF | $1.215B 2024 to $1.481B 2025 | Limited disclosure | Q1 2026 $(56)M | Owner earnings are much lower than generic FCF. |
+| Credit NIMAL | Fell from 36.2% in 2023 to 17.8% Q1 2026 | Downtrend | 17.8% | Critical credit profitability driver. |
 
-MELI is not overlevered in the way a cyclical industrial company can be overlevered, but funding matters. Q1 2026 loans payable and other financial liabilities included collateralized debt/securitizations, financial bills/deposit certificates, bank loans, and corporate notes. Financing cash flows are large because the fintech balance sheet actively rolls funding.
+### Key Forecast Drivers
 
-## Management, Governance, and Capital Allocation
+| Driver | Current Evidence | Bear Case | Base Case | Bull Case |
+|---|---|---:|---:|---:|
+| Commerce GMV | Q1 GMV +42%. | Growth requires permanent subsidies. | Growth decelerates but stays strong. | Brazil payback drives high frequency. |
+| Logistics density | Brazil unit shipping cost -17% local currency. | Savings returned to users permanently. | Density offsets some shipping threshold cost. | Unit economics improve materially. |
+| Credit | Gross loans $14.6B; NIMAL 17.8%. | Provisions / funding overwhelm revenue. | NIMAL stabilizes in high teens. | Credit returns improve with data / scale. |
+| Ads | Q1 ad revenue +73% USD. | Ad load limited by user / seller economics. | Ads become major margin offset. | Ads / GMV approaches mature retail media. |
+| Owner earnings | Q1 adjusted FCF negative. | Margin stuck mid-single digits. | Owner-earnings margin moves toward 8%-9%. | Margin reaches low double digits. |
+| Capital intensity | Leases, 1P, credit funding, capex. | Higher capital intensity compresses multiple. | Reinvestment normalizes. | Scale improves cash conversion. |
 
-Founder Marcos Galperin transitioned from CEO to Executive Chairman on January 1, 2026. Ariel Szarfsztejn became CEO after holding senior roles across strategy, logistics, and commerce, including Mercado Envios and Commerce President. The transition looks orderly. The proxy states that Galperin remains actively engaged in long-term strategy, culture, product development, capital allocation, and innovation, while the CEO is responsible for day-to-day management and execution.
+### Scenario Projections
 
-This is probably positive for continuity, but it is a governance factor to monitor. MercadoLibre is founder-influenced even after the CEO transition. That has historically been a strength because the company has made long-duration investments ahead of reported profits. It also means outside shareholders are underwriting management's judgment that current margin compression is attractive reinvestment.
+These scenarios start from FY2026 consensus revenue around $40.3 billion and focus on owner earnings rather than generic operating cash flow. The implied values are present fair-value ranges.
 
-Capital allocation is almost entirely reinvestment. The company is funding logistics, fulfillment, credit cards, consumer and merchant loans, 1P assortment, cross-border trade, technology, and ads. The share count has been nearly flat since 2024, so dilution is not the central issue. The economic compensation issue is the cash-settled long-term retention program. The LTRP is paid over six years, with a variable component tied to stock value; accrued LTRP compensation was $303 million in FY2025 and $96 million in Q1 2026.
+| Scenario | Revenue CAGR | Terminal Revenue | Earnings / FCF Margin | Terminal EPS / FCF | Exit Multiple | Implied Value / Share | Implied IRR |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bear | 14% from FY2026 to FY2030 | ~$68B | Owner-earnings margin 5%-6% | ~$3.5B owner earnings | 16x | ~$900 to $1,150 | Negative to low single digit |
+| Base | 19% from FY2026 to FY2030 | ~$81B | Owner-earnings margin 8%-9% | ~$6.8B owner earnings | 20x | ~$1,750 to $2,050 | Mid single digit to low teens |
+| Bull | 24% from FY2026 to FY2030 | ~$95B | Owner-earnings margin 11%-12% | ~$11B owner earnings | 24x | ~$3,200 to $4,000 | Mid/high teens+ |
 
-The board and management incentives are heavily performance-based. That aligns executives with value creation, but the stock-price-linked cash program is not free to shareholders. It should be treated as a real cost when thinking about owner earnings.
+### What The Current Price Implies
 
-## Ownership, Insider Activity, Short Interest, and Analyst Sentiment
+At today's price, the market appears to be underwriting approximately:
 
-Institutional ownership is high, but data providers differ. MarketBeat showed roughly 87.6% institutional ownership; Yahoo/Refinitiv showed about 81.5% held by institutions and 7.3% by insiders; Nasdaq API data showed roughly 75.1% institutional ownership. The exact number is less important than the conclusion: this is widely held by institutions, not a neglected microcap.
+- Revenue CAGR: high teens for several years, then continued healthy growth.
+- Long-term margin: owner-earnings margin around 8%-9%, not mature 15%+ platform margins.
+- EPS / FCF power: recovery from Q1 2026 margin trough and a path toward multi-billion-dollar adjusted owner earnings.
+- Exit multiple: premium compounder multiple, but with a discount for credit / logistics / FX complexity.
+- Implied execution hurdle: Brazil shipping payback, credit quality stabilization, ads scaling, and positive adjusted FCF must appear together.
 
-Baillie Gifford is the most visible updated beneficial holder. Its May 2026 13G/A reported 3.233 million shares, or 6.38% of the company, as of March 31, 2026. The 2026 proxy also listed Galperin Trust-related entities at 3.550 million shares, or about 7.0%, based on earlier proxy ownership data.
+### Projection Takeaway
 
-Value-investor sponsorship exists but is not overwhelming. Dataroma showed six superinvestor holders, including Durable Capital, Maverick Capital, Polen, Markel, Dodge & Cox, and Weitz-related ownership. Durable Capital was the largest listed superinvestor holder, with about 307,932 shares. Dataroma also showed one insider buy and three insider sells over the prior six months.
+MELI works if the current investment cycle produces higher frequency, logistics density, credit retention, and ads monetization without permanently lowering owner-earnings margins. It fails if revenue acceleration is being bought with lower-quality economics. Consensus expects growth to remain strong, but the stock's forward return depends more on margin and adjusted cash conversion than on the next revenue beat.
 
-The insider signal is mixed but not alarming. The latest open-market purchase I found was Marcelo Melamud, SVP and Chief Accounting Officer, buying 57 shares at $1,755.77 for about $100,000 on February 27, 2026. Late-2025 director sales included Henrique Dubugras selling 845 shares for about $1.7 million, Emiliano Calemzuk selling 45 shares, and Stelleo Tolda selling 246 shares. These sales are not large enough to make insider activity a central bear point.
+### Business-Model Specific Projection Notes
 
-Short interest is low. MarketBeat showed 1.02 million shares short as of April 15, 2026, or about 2.0% of float, with roughly 2.6 days to cover. This is not a crowded short or squeeze setup. The debate is fundamental, not technical.
+For MELI, watch GMV, items sold, buyers, frequency, commerce services revenue / GMV, 1P share, managed-network shipments, unit shipping cost, Brazil direct contribution margin, TPV, fintech MAUs, credit portfolio growth, NIMAL, provisions, write-offs, funding cost, ads revenue / GMV, adjusted FCF, capex, leases, restricted/customer funds, and country mix.
 
-Analyst sentiment remains bullish, though recent revisions moved down after the Q1 margin disappointment. StockAnalysis showed 17 analysts, a Strong Buy rating mix, and an average price target of $2,587.06 as of May 8, 2026. The same page showed recent target cuts from firms including Benchmark, Raymond James, UBS, Cantor, Barclays, and BTIG. The Street still likes the long-term story, but the near-term earnings and margin trajectory has become less clean.
+## 8. Management, Governance, And Capital Allocation
 
-## Prior Research and Market Debate
+Founder Marcos Galperin transitioned from CEO to Executive Chairman on 2026-01-01. Ariel Szarfsztejn became CEO after senior roles across strategy, logistics, and commerce, including Mercado Envios and Commerce President. The transition appears orderly, and Galperin remains engaged in long-term strategy, culture, product development, capital allocation, and innovation.
 
-The public debate around MELI has several recurring themes.
+Capital allocation is almost entirely reinvestment: logistics, fulfillment, credit cards, consumer and merchant loans, 1P assortment, cross-border trade, technology, and ads. That is historically how MELI created value. It is also why investors must judge current margin pressure on future payback.
 
-Value Investors Club had at least one visible MELI idea from 2018 by Pluto and another visible MELI idea page, but the full reports were not accessible in this session. The visible VIC theme from the 2018 page was that Amazon and other big-tech entry were the main objection, while the long thesis argued the entry would not be disastrous. That debate remains relevant in updated form: Amazon, Shopee, Shein, Temu, and local retailers are still the commerce bear case, while MELI's localized logistics, payments, and brand remain the bull response.
+| Topic | Evidence | Why It Matters | Current Read |
+|---|---|---|---|
+| Founder continuity | Galperin remains Executive Chairman. | Culture and long-term orientation. | Positive. |
+| CEO transition | Szarfsztejn became CEO in 2026. | Execution during margin reset. | Monitor but credible. |
+| Reinvestment | Free shipping, logistics, credit cards, 1P, cross-border. | Future moat or permanent cost. | Central debate. |
+| LTRP compensation | Cash-settled, stock-linked long-term retention plan. | Real owner cost. | Include in owner earnings. |
+| Share count | Diluted shares roughly stable near 50.7M. | Dilution not central today. | Positive. |
+| Funding / debt | Fintech funding and leases material. | Capital intensity matters. | Monitor. |
 
-I did not find an accessible MELI-specific Refcell Capital writeup. That should be treated as an access/search limitation, not proof that one does not exist.
+## 9. Market Debate And Variant Perception
 
-Other public research is more available. Bristlemoon / Daniel Wu's "MercadoLibre (MELI) - Amazon in the Amazon" frames MELI as the leading Latin American e-commerce and fintech ecosystem. Business Breakdowns' MercadoLibre episode frames the company as an e-commerce empire with an integrated commerce, logistics, and fintech model, though the full transcript was access-limited. Investor-letter summaries from Baron, Lakehouse, Generation, Sands, ClearBridge, Loomis Sayles, and others generally focus on the same split: long runway and ecosystem moat versus competition, margin compression, credit, FX, and valuation.
+### What Bulls Believe
 
-The strongest bull point from prior research is that MELI is not just an online retailer. It is a multi-engine ecosystem with marketplace, payments, credit, logistics, ads, loyalty, and merchant services reinforcing each other. The strongest bear point is that those same engines make reported financials harder to interpret and can turn a clean marketplace story into a capital-intensive finance and logistics story.
+Bulls believe MELI is using scale to strengthen the ecosystem. Lower free-shipping thresholds drive more buyers, frequency, and logistics density. Pago deepens relationships. Credit increases merchant and consumer activity. Ads monetizes purchase intent. If those flywheels compound, Q1 margin pressure is high-return reinvestment.
 
-The recent Q1 2026 selloff sharpened the variant perception. Investors were not selling because revenue growth was weak. They were selling because growth was strong and margins still fell. That is exactly the tension an equity report has to underwrite.
+### What Bears Believe
 
-## Bull Case
+Bears believe investors are still valuing MELI as a clean marketplace when the incremental engine increasingly looks like logistics, inventory, credit, funding, and subsidies. Q1 2026 is their evidence: revenue growth was excellent, but operating income, adjusted EBITDA, net income, and adjusted FCF deteriorated.
 
-The bull case begins with business quality. MercadoLibre has the strongest integrated commerce and fintech ecosystem in Latin America. It has brand trust, buyer traffic, merchant supply, proprietary data, payment acceptance, logistics density, credit underwriting, and a retail-media opportunity. Those assets reinforce each other and are difficult for single-product competitors to replicate.
+### What The Market May Be Missing
 
-The growth runway remains large. Latin American e-commerce penetration is still below mature-market levels, digital payments continue to expand, and many consumers and merchants remain underbanked or poorly served by legacy financial institutions. MercadoLibre can grow through more buyers, more frequency, more categories, more fulfillment penetration, more seller services, more ads, more digital-account usage, more credit cards, and more merchant and consumer credit.
+The positive variant view is that Mercado Ads and logistics density can rebuild margins after an intentional investment period. The negative variant view is that NIMAL compression and provision growth are telling investors the credit engine is lower quality than the headline fintech growth implies.
 
-The margin compression may be offensive. Brazil showed a clear tradeoff: lower free-shipping thresholds pressured margins but accelerated GMV, items sold, unique buyer growth, and frequency. If shipping density keeps improving, then today's subsidy can become tomorrow's scale advantage. Management has made this kind of long-term reinvestment decision before, and the historical outcome has been strong.
+### Prior Research And Public Debate
 
-Fintech can deepen the moat. Mercado Pago increases engagement beyond shopping, gives MELI more data, creates more merchant touchpoints, and expands the profit pool into payments, AUM, cards, credit, and insurance. Credit is risky, but if MELI's proprietary data and collection channels produce superior risk-adjusted returns, the credit book can be a major value driver rather than a value trap.
+| Source / Debate | Date | Visible Takeaway | Access Limit / Reliability |
+|---|---|---|---|
+| Q1 2026 shareholder letter and 10-Q | 2026-05 | Revenue acceleration with margin and credit pressure. | Primary/company source. |
+| Motley Fool Q1 transcript | 2026-05 | Management framed investments as long-term growth drivers. | Public transcript. |
+| StockAnalysis / MarketScreener / MarketBeat | 2026-05 | Street remains bullish, estimates show strong growth. | Market data. |
+| VIC MELI pages | 2018 and later visible pages | Long-running Amazon / competition debate. | Full text login-gated. |
+| Bristlemoon / Daniel Wu | Prior public writeup | Frames MELI as integrated commerce / fintech ecosystem. | Secondary research. |
+| Business Breakdowns / Colossus | Prior podcast | Business model overview. | Full transcript access limited. |
+| Investor-letter summaries | Ongoing | Institutional bulls emphasize runway and ecosystem. | Quality varies by source. |
 
-Ads are under-monetized. Mercado Ads grew rapidly in Q1 and should be margin-accretive because it monetizes existing high-intent traffic. If ad revenue as a percentage of GMV moves toward mature retail-media levels without damaging user experience, consolidated margins can recover even while logistics and credit continue to absorb investment.
+## 10. Bull Case
 
-The bull-case valuation is attractive. If revenue grows at a high-teens CAGR for a decade and owner-earnings margins normalize toward 12%, a DCF can support a value above $4,000 per share. That is not a base case, but it shows why long-term investors remain interested despite near-term margin pressure.
+If MELI's current reinvestment cycle is offensive, then Q1 2026 is not a warning sign; it is the company using scale to widen the moat. Brazil's lower free-shipping threshold drove strong GMV, item, buyer, and frequency growth while unit shipping cost declined. Mercado Pago continues to scale, Mercado Ads is growing rapidly from an under-monetized base, and credit can increase retention if underwriting remains disciplined.
 
-## Bear Case
+In this case, revenue compounds in the low/mid-20s from the FY2026 base, owner-earnings margins move into the low double digits, and the market keeps paying a premium multiple for a rare Latin American compounder. That supports value above $3,200 per share.
 
-The bear case is that MELI is evolving away from a clean high-margin marketplace and toward a more capital-intensive model just as the valuation still requires high-quality compounding.
+## 11. Bear Case
 
-Q1 2026 gives bears a lot to work with. Revenue grew 49%, GMV grew 42%, TPV grew 50%, and payment transactions grew strongly, but operating income fell 20%, net income fell 16%, adjusted EBITDA fell, and operating margin compressed by roughly 600 basis points. Brazil revenue grew sharply, but Brazil direct contribution fell and direct contribution margin dropped from 17.6% to 8.2%.
+If the incremental business is structurally lower quality, MELI has real downside. Free shipping, 1P inventory, cross-border trade, credit cards, consumer lending, and fintech funding could be necessary to defend growth rather than optional investments. Q1 2026 showed provisions more than doubling, NIMAL falling, adjusted EBITDA declining, and adjusted FCF turning negative.
 
-Credit is now too large to ignore. Q1 credit revenues were $2.012 billion, gross loans receivable were $14.555 billion, the allowance was 26.2% of gross loans, provisions doubled, and write-offs doubled. The 15-90 day NPL ratio was stable at 8.0%, but total past-due balances were high and NIMAL fell to 17.8%. A credit bull says MELI is scaling a high-return proprietary book. A credit bear says losses and funding costs are becoming the marginal economics of growth.
+In that case, revenue can keep growing while owner earnings disappoint. The multiple compresses because MELI looks less like an asset-light marketplace and more like a capital-intensive finance and logistics platform. Fair value can fall toward $900 to $1,150.
 
-Cash conversion is more complicated than headline OCF suggests. Q1 GAAP operating cash flow was $2.075 billion, but company adjusted free cash flow was negative $56 million after credit growth, capex, restricted/customer-fund effects, and fintech funding. FY2025 simple FCF was $10.8 billion, but adjusted FCF was only $1.5 billion. If investors value MELI on generic data-provider FCF, they risk materially overstating distributable owner earnings.
+## 12. Base Case
 
-Competition can force permanent margin pressure. Amazon can subsidize Prime and fulfillment. Shopee can compete aggressively in low-ASP categories. Shein, Temu, and AliExpress pressure cross-border pricing. Nubank has enormous scale in digital banking and credit. Pix and local instant-payment rails can pressure payment economics. Local retailers and category specialists can use stores and existing relationships to compete. The moat is strong, but it is not uncontested.
+The base case is that MercadoLibre remains exceptional but not cheap. Revenue compounds around the high teens from the FY2026 consensus base through 2030, margins recover gradually, ads become a material offset, credit stabilizes but remains lower-spread than historical levels, and logistics density pays back part of the free-shipping investment.
 
-Macro and FX risks are not background noise. Argentina is material to direct contribution and operates under highly inflationary accounting. Brazil and Mexico are large and competitive. Local rates, funding spreads, consumer credit cycles, inflation, exchange controls, tax rules, import rules, and political/regulatory changes can all affect reported dollars and intrinsic value.
+That supports fair value around $1,750 to $2,050. The stock can work from $1,664 if evidence improves, but the base case is not a screaming bargain. The upside requires a credible path to higher owner-earnings margins, not only faster revenue.
 
-The bear-case valuation is severe. If revenue growth fades faster, owner-earnings margins only reach the mid-single digits, and the market uses a higher discount rate and lower terminal multiple, the DCF can land below $500 per share. That case is not my base case, but it is credible enough to keep position sizing and underwriting disciplined.
-
-## Base Case
-
-The base case is that MercadoLibre remains an exceptional business but the market is roughly fair after the Q1 selloff. Revenue continues to compound at a strong rate, but not at Q1's 49% pace indefinitely. Commerce remains dominant in Brazil, Mexico, and Argentina. Mercado Pago continues to grow, but NIMAL stays below historical levels as the credit-card mix increases. Mercado Ads becomes a meaningful margin tailwind. Logistics density improves, but free shipping and 1P remain real costs.
-
-In this scenario, 2026 is a deliberate reinvestment year rather than the start of structural impairment. Operating margin does not snap back immediately, but owner-earnings margins gradually improve as ads scale, unit shipping costs fall, credit cohorts season, and marketplace/service revenue keeps growing faster than corporate overhead.
-
-The base case does not require a mature 15% FCF-margin platform. It assumes revenue grows from $28.9 billion in 2025 to roughly $110 billion by 2035, and owner-earnings margin rises from the current low-single-digit adjusted-FCF base to about 8.5% by year 10. Using an 11.5% discount rate and a 20x terminal owner-earnings multiple, this produces a value near $1,650 per share, roughly the current price.
-
-That makes the investment conclusion more nuanced than "cheap after a selloff." At $1,632.52, MELI looks priced for strong execution and moderate margin normalization. The stock is attractive if the probability-weighted bull case is materially higher than the market believes. It is not obviously cheap if the base case is the most likely outcome.
-
-## Valuation
+## 13. Valuation
 
 ### Current Multiples
 
-At the May 8 close, StockAnalysis showed market cap of $82.8 billion, enterprise value of $89.5 billion, TTM revenue of $31.8 billion, TTM net income of $1.92 billion, P/E of 43.1x, forward P/E of 37.8x, EV/Sales of 2.8x, EV/EBITDA of 22.7x, and EV/EBIT of 29.3x.
+| Metric | Current | Peer / History Context | Interpretation |
+|---|---:|---|---|
+| Market cap / FY2026 sales | About 2.1x | Low for quality, but revenue includes lower-quality fintech / 1P. | Needs margin context. |
+| EV / FY2026 sales | About 2.2x | Reasonable for growth. | Sales multiple alone misleading. |
+| EV / FY2026 EBITDA | About 21x | Premium but below pure software. | Depends on margin recovery. |
+| P/E | About 44x trailing EPS; about 41x FY2026 EPS. | Expensive versus mature commerce. | Requires growth and recovery. |
+| P/adjusted FCF | Over 55x FY2025 adjusted FCF. | Much richer than generic FCF screens imply. | Owner cash is tight. |
+| P/FCF | Generic screen values misleading. | Fintech / credit mechanics distort. | Avoid as primary anchor. |
 
-Those multiples are not excessive for a business growing revenue near 40%-50%, but they are demanding if margins do not recover. The generic EV/FCF multiple from market-data sites is not the right anchor because it uses a free-cash-flow definition that does not adequately adjust for credit-book growth, customer funds, restricted cash, and fintech funding. For valuation, I use company adjusted FCF / owner earnings instead.
+### Primary Valuation Framework
 
-On FY2025 adjusted FCF of $1.481 billion, the equity traded at roughly 56x adjusted FCF and the enterprise traded around 60x. On TTM adjusted FCF of roughly $1.367 billion, the multiples are even higher. That is a premium valuation, but it is being applied to a company that is intentionally suppressing current cash generation to fund growth.
+The primary framework is owner-earnings DCF backed by an SOTP sanity check. Owner earnings should start from company adjusted FCF / normalized after-tax operating profit, not generic operating cash flow less capex. The key assumptions are long-term revenue growth, sustainable owner-earnings margin, discount rate, terminal multiple, credit losses, funding, leases, and share count.
 
-### Owner-Earnings DCF
+### Scenario Valuation
 
-The DCF projects revenue for 10 years, applies an owner-earnings margin path, discounts annual owner earnings, adds a terminal value based on year-10 owner earnings, subtracts company-defined net debt, and divides by diluted shares.
+| Scenario | Key Assumptions | Value / Share | Implied Return |
+|---|---|---:|---:|
+| Bear | 14% revenue CAGR to 2030, 5%-6% owner-earnings margin, 16x terminal multiple. | ~$900 to $1,150 | Downside. |
+| Base | 19% revenue CAGR to 2030, 8%-9% owner-earnings margin, 20x terminal multiple. | ~$1,750 to $2,050 | Modest to attractive. |
+| Bull | 24% revenue CAGR to 2030, 11%-12% owner-earnings margin, 24x terminal multiple. | ~$3,200 to $4,000 | Large upside. |
 
-| Case | 2026 growth | 10-year revenue CAGR | Owner-earnings margin path | Discount rate | Terminal multiple | Diluted shares | Equity value/share |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Bear | 20%, fading to 4% | 9.6% | 2.5% to 5.5% | 13.0% | 16x | 52.5M | ~$476 |
-| Base | 30%, fading to 6% | 14.3% | 3.5% to 8.5% | 11.5% | 20x | 52.0M | ~$1,644 |
-| Bull | 38%, fading to 8% | 19.2% | 5.0% to 12.0% | 10.0% | 24x | 51.7M | ~$4,628 |
+### Reverse Valuation
 
-The wide range is appropriate. The key swing variables are not next quarter's revenue growth; they are the long-term margin of a blended marketplace, logistics, ads, payments, and credit platform, and the risk premium investors should apply to Latin American macro, FX, funding, and regulation.
+At $1,664, the market is not pricing MELI for mature 15%+ owner-earnings margins. It is pricing strong growth and a partial recovery toward 8%-9% owner-earnings margins. That is achievable, but not trivial. If adjusted FCF remains weak and credit / logistics absorb most incremental economics, the reverse DCF is too optimistic.
 
-### Reverse DCF
+## 14. Catalysts
 
-At $1,632.52, the market implies roughly $88.5 billion to $89.5 billion of enterprise value depending on the net-debt definition. Using an 11.5% discount rate, a 20x terminal multiple, and the base revenue path, the current price implies a year-10 owner-earnings margin around 8.5%-8.6%.
+| Catalyst | Timing | What It Would Prove |
+|---|---|---|
+| Brazil margin stabilization | 2026-2027 | Free-shipping threshold is earning payback. |
+| Unit shipping cost declines | Each quarter | Logistics density can fund affordability. |
+| Ads revenue / GMV expansion | 2026-2028 | High-margin monetization offsets reinvestment. |
+| NIMAL stabilization | Each quarter | Credit economics are not structurally deteriorating. |
+| Provision / write-off improvement | Each quarter | Credit cohorts are seasoning acceptably. |
+| Adjusted FCF turns positive | 2026-2027 | Owner earnings are catching up with growth. |
+| Better disclosure | Ongoing | Investors can separate marketplace, ads, logistics, and credit economics. |
+| Argentina / Brazil macro improvement | Ongoing | FX / rate pressure eases. |
 
-Alternatively, if MELI can reach a 10% owner-earnings margin by year 10, the current price requires about 13% annual revenue growth from 2025 to 2035. That is achievable for a strong compounder with a large runway, but it is not a distressed or low-expectations setup.
+## 15. Risks And Red Flags
 
-The reverse DCF frames the debate cleanly. The market is not pricing MELI for mature 15%-plus owner-earnings margins. It is pricing strong revenue growth and a partial margin recovery. The long works if that assumption is conservative. The short works if 8%-9% owner-earnings margins are too high for the new credit/logistics/1P reality.
+| Risk | Type | Probability | Impact | What To Monitor |
+|---|---|---:|---:|---|
+| Margin pressure is permanent | Business model | Medium | High | Brazil direct contribution, shipping costs, 1P share. |
+| Credit losses rise | Credit | Medium | High | NIMAL, provisions, write-offs, NPLs. |
+| Adjusted FCF stays weak | Cash conversion | Medium | High | Company adjusted FCF, loan growth, capex, funding. |
+| Competition forces subsidies | Competitive | High | High | Amazon, Shopee, Shein, Temu, local retailers. |
+| Funding costs rise | Fintech / macro | Medium | Medium / High | Financial liabilities, deposit certificates, rates. |
+| FX / macro shocks | Macro | High | Medium / High | Brazil, Mexico, Argentina currencies and rates. |
+| Regulation impairs ecosystem | Regulatory | Medium | Medium / High | Antitrust, fintech, logistics, tax, import rules. |
+| CEO transition execution | Management | Low / Medium | Medium | Strategic consistency and operating delivery. |
 
-### SOTP Cross-Check
+## 16. What Would Change My Mind
 
-The SOTP is rough because MELI does not disclose standalone operating profit for marketplace, logistics, ads, payments, and credit. It is still useful as a sanity check.
+| Evidence | Impact |
+|---|---|
+| Brazil GMV growth remains high while direct contribution margin stabilizes or recovers. | Would make me more bullish |
+| Ads keeps growing much faster than GMV and expands as a percent of GMV without hurting conversion. | Would make me more bullish |
+| NIMAL stabilizes around high teens / low 20s and provisions stop outgrowing credit revenue. | Would make me more bullish |
+| Adjusted FCF remains weak despite revenue growth and management keeps expanding credit aggressively. | Would make me more bearish |
+| Shipping subsidies, 1P, and cross-border spending keep rising without unit-cost / frequency payback. | Would make me more bearish |
+| Credit cohorts deteriorate enough that Mercado Credito becomes a drag rather than a retention engine. | Would invalidate the current bull thesis |
 
-| Segment | Base input | Bear multiple | Base multiple | Bull multiple | Base value |
-|---|---:|---:|---:|---:|---:|
-| Commerce services / marketplace / ads / logistics | $13.8B TTM revenue | 2.5x | 3.5x | 5.0x | $48.3B |
-| 1P commerce product revenue | $4.1B TTM revenue | 0.2x | 0.5x | 1.0x | $2.0B |
-| Fintech services / payments | $7.2B TTM revenue | 2.0x | 3.0x | 4.0x | $21.5B |
-| Credit | $14.6B gross portfolio | 0.5x | 0.8x | 1.2x | $11.7B |
-| Base gross SOTP EV |  |  |  |  | $83.5B |
-| Less company-defined net debt |  |  |  |  | ($5.7B) |
-| Base SOTP equity value/share |  |  |  |  | ~$1,500 |
+## 17. Monitoring Checklist
 
-The SOTP lands slightly below the current price unless one gives more explicit credit for ads, payments optionality, and future scale. The DCF is more generous because it values the future compounding of the integrated platform rather than only applying current-period segment multiples.
+| Metric / Event | Bullish Signal | Bearish Signal | Source |
+|---|---|---|---|
+| Brazil GMV / items / buyers | Strong growth with improving unit economics. | Growth only with margin collapse. | Shareholder letter. |
+| Brazil direct contribution | Stabilizes / recovers. | Stays near high-single digits or worse. | Segment disclosures. |
+| Unit shipping cost | Continues falling. | Stops improving despite scale. | Earnings commentary. |
+| 1P share | Stays disciplined. | Rises materially and pressures margins. | 10-Q / 10-K. |
+| Ads revenue | Grows faster than GMV. | Slows or hurts seller economics. | Earnings materials. |
+| Credit portfolio | Growth with stable cohorts. | Growth plus rising losses. | 10-Q / shareholder letter. |
+| NIMAL | Stabilizes in high teens or improves. | Falls below high teens. | Credit disclosures. |
+| Provisions / write-offs | Normalize versus credit revenue. | Keep outgrowing revenue. | Financial statements. |
+| Adjusted FCF | Turns sustainably positive. | Remains weak while revenue grows. | Company reconciliation. |
+| Funding costs | Stable and diversified. | More expensive or constrained funding. | Balance sheet / cash flow. |
+| FX / country mix | FX supports USD results. | Local growth lost to currency. | SEC filings / market data. |
 
-### Peer Context
+## 18. Conclusion
 
-MELI trades at a premium to mature payments companies and lower-growth commerce businesses, but below asset-light software and pure retail-media-style platforms. The closest strategic comparison is not exact: Amazon has AWS and global scale, Sea has Shopee and fintech but also gaming, Nubank is a digital bank, Shopify is asset-light merchant software, and PayPal is a mature payments network. MELI sits between these categories.
+MercadoLibre is a rare asset: a scaled, founder-influenced, multi-engine commerce and fintech platform in a region with a long digital runway. The business is much stronger than a simple e-commerce label suggests.
 
-The right multiple depends on which business dominates future economics. If ads, marketplace services, and payments scale faster than credit losses and logistics subsidies, MELI deserves a high-quality compounder multiple. If credit, inventory, and shipping absorb most incremental economics, the multiple should compress.
+The stock is also not obviously cheap. At $1,664, MELI trades around my base-case range and requires investors to believe current reinvestment will produce durable growth, logistics density, credit retention, and ads leverage. The upside is large if that is true. The downside is large if free shipping, 1P, credit cards, and funding costs are the permanent price of defending the ecosystem.
 
-## Catalysts
+My research conclusion is cautiously constructive but valuation-disciplined. The next few quarters should be judged on Brazil payback, NIMAL / credit quality, ads monetization, and adjusted FCF, not only revenue growth.
 
-The most important catalyst is evidence that the Brazil free-shipping investment is working. Investors need to see sustained GMV, item, buyer, and frequency growth alongside continued declines in unit shipping cost and stabilization or recovery in Brazil direct contribution margin.
+## 19. Sources
 
-Credit cohort evidence is the second catalyst. NIMAL stabilization, lower provision intensity, stable or improving 15-90 and 90+ day NPLs, seasoning of the 2025-2026 credit-card cohorts, and funding-cost discipline would reduce the biggest bear-case concern.
+### Primary / Company
 
-Ads can be a margin catalyst. Continued rapid ads growth, higher ads revenue as a percentage of GMV, and evidence that seller ROI remains attractive would support the idea that high-margin monetization can offset logistics and credit investment.
+- MercadoLibre Q1 2026 Form 10-Q filed 2026-05-08: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/meli-20260331.htm
+- MercadoLibre Q1 2026 8-K and shareholder-letter exhibit filed 2026-05-07: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000014/meli-20260507xex991.htm
+- MercadoLibre FY2025 Form 10-K filed 2026-02-25: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm
+- MercadoLibre FY2025 / Q4 2025 shareholder-letter exhibit filed 2026-02-24: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000003/meli-20260224xex991.htm
+- MercadoLibre 2026 proxy statement filed 2026-04-23: https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm
+- MercadoLibre investor relations SEC filings page: https://investor.mercadolibre.com/sec-filings
 
-Disclosure could also help. Cleaner separation of marketplace fees, logistics, ads, 1P gross margin, credit revenues, loan-sale gains, funding costs, provisions, and country-level credit metrics would make the story easier to underwrite and could reduce the risk discount.
+### Market Data / Ownership / Sentiment
 
-Other catalysts include improved analyst estimates after the Q1 reset, evidence that Amazon/Shopee/Shein/Temu are not forcing permanent take-rate pressure, continued Mercado Pago primary-account behavior, lower local rates, Argentina stabilization, and any sign that management can keep growth elevated while rebuilding margins.
+- StockAnalysis MELI overview, market cap, statistics, financials, forecast, and ratings pages: https://stockanalysis.com/stocks/meli/ , https://stockanalysis.com/stocks/meli/market-cap/ , https://stockanalysis.com/stocks/meli/statistics/ , https://stockanalysis.com/stocks/meli/financials/ , https://stockanalysis.com/stocks/meli/forecast/ , https://stockanalysis.com/stocks/meli/ratings/
+- MarketScreener MELI financial forecasts and estimates: https://www.marketscreener.com/quote/stock/MERCADOLIBRE-INC-58469/finances/
+- MarketBeat MELI forecast, earnings, ownership, and short-interest pages: https://www.marketbeat.com/stocks/NASDAQ/MELI/forecast/ , https://www.marketbeat.com/stocks/NASDAQ/MELI/earnings/ , https://www.marketbeat.com/stocks/NASDAQ/MELI/institutional-ownership/ , https://www.marketbeat.com/stocks/NASDAQ/MELI/short-interest/
+- Yahoo Finance MELI quote, analysis, and key statistics pages: https://finance.yahoo.com/quote/MELI/ , https://finance.yahoo.com/quote/MELI/analysis/ , https://finance.yahoo.com/quote/MELI/key-statistics/
+- Stooq MELI daily quote data: https://stooq.com/q/l/?s=meli.us&i=d
+- Dataroma MELI superinvestor ownership page: https://www.dataroma.com/m/stock.php?sym=MELI
+- OpenInsider MELI insider transactions: http://openinsider.com/MELI
 
-## Risks and Red Flags
+### Industry / Competition / Regulation
 
-The biggest risk is that Q1 2026 is not a temporary investment trough but the new economics of competition. If lower free-shipping thresholds, higher 1P share, cross-border subsidies, and marketing spend are required just to defend share, old margin expectations are too high.
+- Mexico COFECE e-commerce marketplace investigation materials: https://www.cofece.mx/cofece-concluye-investigacion-en-comercio-electronico-minorista/
+- Nu Holdings FY2025 annual report: https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm
+- Brazil central bank Pix open-data materials: https://www.bcb.gov.br/en/financialstability/pixstatistics
+- Brazil import-tax commentary from Brazil Counsel: https://www.brazilcounsel.com/
 
-Credit risk is the second major risk. Gross loans receivable are large, provisions and write-offs are rising, and the portfolio mix is shifting toward credit cards. Credit growth can flatter revenue before losses fully season. The thesis weakens if NIMAL continues falling, provisions as a percentage of credit revenues rise, charge-offs accelerate, or MELI needs more expensive funding to support growth.
+### Prior Debate
 
-Cash-flow quality is a third risk. GAAP operating cash flow and generic free cash flow are not enough. Adjusted free cash flow after loan growth, fintech funding, customer-fund restrictions, and capex is the more relevant owner-earnings measure. If adjusted FCF remains weak while revenue grows, the market may reclassify MELI from high-quality platform to capital-intensive financial business.
+- Value Investors Club visible MELI idea pages; full texts were login-gated and not used as factual support: https://www.valueinvestorsclub.com/idea/MERCADOLIBRE_INC/0386462543/messages/160744 and https://www.valueinvestorsclub.com/idea/MERCADOLIBRE_INC/2271541732
+- Bristlemoon / Daniel Wu, "MercadoLibre (MELI) - Amazon in the Amazon" mirror, visible through InvestmentMarkets site search: https://www.investmentmarkets.com.au
+- Business Breakdowns / Colossus, "Mercado Libre: E-commerce Empire": https://colossus.com/episode/mercado-libre-e-commerce-empire/
+- Motley Fool Q1 2026 earnings transcript: https://www.fool.com/earnings/call-transcripts/2026/05/07/mercadolibre-meli-q1-2026-earnings-transcript/
+- Quartr Q1 2026 event summary: https://quartr.com/events/mercadolibre-inc-meli-q1-2026_3ePJdbWt
+- Seeking Alpha MELI analysis / earnings estimates index: https://seekingalpha.com/symbol/MELI/analysis and https://seekingalpha.com/symbol/MELI/earnings/estimates
 
-Competition is broad and well funded. Amazon, Shopee, Shein, Temu, local retailers, Nubank, banks, Stone, PagBank, Pix, card networks, and global ad platforms all pressure some part of the ecosystem. MELI's integrated model is a strength, but it also invites regulatory and competitive responses.
+### Access Limits
 
-Macro and FX can overwhelm operating progress. Brazil, Mexico, and Argentina each carry rate, inflation, regulatory, tax, and currency risk. Argentina remains especially important because its direct contribution is large and its macro environment is volatile.
-
-Regulation can impair the integrated model. Antitrust scrutiny around logistics tying, seller visibility, featured offers, self-preferencing, payment rails, data use, credit underwriting, consumer protection, AML, tax, and import rules can all affect long-term economics.
-
-Management succession is another monitoring item. Ariel Szarfsztejn appears well suited to lead the company, and founder continuity remains strong, but a CEO transition during a margin reset increases execution risk.
-
-## Variant Perception
-
-The positive variant view is that investors are mistaking deliberate reinvestment for structural margin degradation. MELI is using scale to pull more commerce into its network, build logistics density, increase credit-card adoption, add cross-border and 1P assortment, and grow ads. If these investments create higher frequency and stronger ecosystem lock-in, current margins are understated.
-
-The negative variant view is that investors are still relying on the old marketplace mental model. In this view, MELI's next dollar of growth increasingly comes from free shipping, inventory, credit, funding, provisions, and regulatory risk. The market sees the quality of the brand and ecosystem but may not fully account for the lower-quality economics of the incremental growth engines.
-
-My variant view is somewhere in the middle. The ecosystem is real, and I would not bet casually against MercadoLibre's management team or competitive position. But the current price does not offer the kind of margin of safety one would get if the market were ignoring the business quality. The stock is most interesting after selloffs if evidence accumulates that Brazil payback, credit quality, and ads monetization are improving at the same time.
-
-## Monitoring Checklist
-
-The next several quarters should be judged on Brazil GMV, items sold, unique buyers, buyer frequency, free-shipping penetration, unit shipping cost, direct contribution margin, and whether the lower free-shipping threshold continues to produce profitable incremental engagement.
-
-For fintech, the critical metrics are fintech MAUs, TPV, acquiring TPV, AUM, credit portfolio size, card issuance, NIMAL, 15-90 and 90+ day NPLs, provision expense, write-offs, funding cost, loan-sale gains, and the mix of consumer, merchant, card, and asset-backed loans.
-
-For cash flow, focus on adjusted free cash flow, not generic free cash flow. Track credit-book growth, changes in loans receivable, proceeds from financial liabilities, restricted/customer funds, capex, operating leases, and available cash/investments after fintech and regulatory restrictions.
-
-For commerce quality, track commerce services revenue / GMV, total commerce revenue / GMV, 1P GMV share, ads revenue growth, ads revenue / GMV if disclosed, fulfillment penetration, managed-network shipments, seller economics, and evidence of competitive price pressure.
-
-For thesis confirmation, look for Brazil margin stabilization, NIMAL above or near 20%, ads continuing to compound faster than GMV, adjusted FCF turning sustainably positive, and management providing a clearer bridge from reinvestment to future margins.
-
-For thesis breakage, look for continued revenue acceleration with falling operating income, Brazil direct contribution margin staying near high-single digits or worse, NIMAL falling below the high teens, rising charge-offs, worsening credit cohorts, increased funding stress, and more aggressive 1P/free-shipping subsidies without unit-cost improvement.
-
-## Conclusion
-
-MercadoLibre is a rare asset: a scaled, founder-influenced, multi-engine commerce and fintech platform in a region with a long digital runway. The business is much stronger than a simple e-commerce label suggests. Its marketplace, logistics, payments, credit, ads, and merchant tools reinforce each other in ways that are hard for competitors to replicate.
-
-The stock is also not obviously cheap. After the Q1 selloff, it trades near a base-case valuation that assumes strong revenue growth and gradual owner-earnings margin recovery. The upside is large if the current investment cycle produces durable share gains, logistics density, credit monetization, and ads leverage. The downside is large if free shipping, 1P, credit cards, and funding costs are the permanent price of defending the ecosystem.
-
-My research conclusion is cautiously constructive but valuation-disciplined. I would rather own MELI than short it, but I would not underwrite it on headline revenue growth or generic free cash flow. The stock works from here if Brazil payback, credit quality, and ads monetization become visible over the next several quarters. It does not work if the company keeps buying growth with lower margins, more credit risk, and weak adjusted free cash flow.
-
-## Sources
-
-Primary/company sources included MercadoLibre Q1 2026 Form 10-Q filed 2026-05-08 at https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/meli-20260331.htm; Q1 2026 8-K and shareholder-letter exhibit filed 2026-05-07 at https://www.sec.gov/Archives/edgar/data/1099590/000109959026000014/meli-20260507xex991.htm; FY2025 Form 10-K filed 2026-02-25 at https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm; FY2025/Q4 2025 shareholder-letter exhibit filed 2026-02-24 at https://www.sec.gov/Archives/edgar/data/1099590/000109959026000003/meli-20260224xex991.htm; 2026 proxy statement filed 2026-04-23 at https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm; SEC submissions feed at https://data.sec.gov/submissions/CIK0001099590.json; SEC companyfacts at https://data.sec.gov/api/xbrl/companyfacts/CIK0001099590.json; and MercadoLibre investor relations at https://investor.mercadolibre.com/sec-filings.
-
-Market data and quote sources included Stooq quote CSV at https://stooq.com/q/l/?s=meli.us&f=sd2t2ohlcv&h&e=csv; StockAnalysis MELI quote, statistics, financials, forecast, and ratings pages at https://stockanalysis.com/stocks/meli/, https://stockanalysis.com/stocks/meli/statistics/, https://stockanalysis.com/stocks/meli/financials/, https://stockanalysis.com/stocks/meli/forecast/, and https://stockanalysis.com/stocks/meli/ratings/; Yahoo Finance MELI quote and key statistics at https://finance.yahoo.com/quote/MELI/ and https://finance.yahoo.com/quote/MELI/key-statistics/; and MarketBeat MELI forecast, earnings, ownership, and short-interest pages at https://www.marketbeat.com/stocks/NASDAQ/MELI/forecast/, https://www.marketbeat.com/stocks/NASDAQ/MELI/earnings/, https://www.marketbeat.com/stocks/NASDAQ/MELI/institutional-ownership/, and https://www.marketbeat.com/stocks/NASDAQ/MELI/short-interest/.
-
-Ownership and insider sources included Baillie Gifford's May 2026 13G/A at https://www.sec.gov/Archives/edgar/data/1099590/000108887526000027/0001088875-26-000027-index.htm; Marcelo Melamud Form 4 at https://www.sec.gov/Archives/edgar/data/1099590/000162828026013343/wk-form4_1772489885.xml; December 2025 director Form 4 filings through the SEC submissions feed; OpenInsider at http://openinsider.com/MELI; Dataroma at https://www.dataroma.com/m/stock.php?sym=MELI; ValueSider ownership pages; Fintel institutional and short-interest pages; and Nasdaq institutional-holdings API data.
-
-Prior research, debate, and industry sources included Value Investors Club visible MELI idea pages at https://www.valueinvestorsclub.com/idea/MERCADOLIBRE_INC/0386462543/messages/160744 and https://www.valueinvestorsclub.com/idea/MERCADOLIBRE_INC/2271541732; Bristlemoon / Daniel Wu's "MercadoLibre (MELI) - Amazon in the Amazon" as mirrored at https://www.investmentmarkets.com.au/articles/investor-education/mercadolibre-meli-amazon-in-the-amazon-299; Business Breakdowns / Colossus "Mercado Libre: E-commerce Empire" at https://colossus.com/episode/mercado-libre-e-commerce-empire/; Seeking Alpha MELI analysis index at https://seekingalpha.com/symbol/MELI/analysis; public summaries of investor letters and Substack analysis from Yahoo Finance, Insider Monkey, FINVIZ, and Business Wire; MarketWatch/Financial Times/Business Wire reproductions of the Q1 2026 release; Brazil import-tax commentary from Brazil Counsel; Mexico COFECE e-commerce marketplace investigation materials at https://www.cofece.mx/cofece-concluye-investigacion-en-comercio-electronico-minorista/; Nu Holdings FY2025 annual report at https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm; and Brazil central-bank Pix open-data materials.
+- Value Investors Club did not expose full MELI idea text without login.
+- Some investor-letter, Substack, transcript, and sell-side sources were available only as summaries, snippets, or subscription-gated pages; I used visible metadata and primary filings rather than inaccessible content.
