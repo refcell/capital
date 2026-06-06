@@ -1,6 +1,6 @@
 # Hims & Hers Health (NYSE: HIMS) Investment Research
 
-Date: 2026-05-24
+Date: 2026-06-06
 Ticker: NYSE: HIMS
 Company: Hims & Hers Health, Inc.
 Sector / industry: Consumer health, telehealth, digital pharmacy
@@ -8,7 +8,7 @@ Research status: Post-Q1 2026 refresh
 Primary valuation lens: Revenue growth, adjusted EBITDA quality, owner free cash flow, and scenario-based terminal FCF
 Current stance: Watch / high-risk long setup
 
-Price snapshot: HIMS closed at $23.75 on 2026-05-22, the latest completed regular-market session before this report. StockAnalysis showed 231.46 million shares outstanding, market capitalization of about $5.50 billion, and enterprise value of about $5.88 billion. Company filings showed 222.3 million Class A shares and 8.4 million Class V shares outstanding at 2026-03-31. At quarter-end, Hims & Hers had $222.3 million of cash and equivalents, $528.6 million of short-term available-for-sale investments, and $974.1 million carrying value of 0% convertible notes due 2030. After quarter-end, the company issued $402.5 million of additional 0% convertible notes due 2032 after the initial purchasers exercised their option in full. A practical enterprise value range is about $5.7 billion to $5.9 billion, depending on treatment of note proceeds, capped calls, debt carrying value, and diluted share count.
+Price snapshot: HIMS closed at $26.19 on 2026-06-05, the latest completed regular-market session before this report. StockAnalysis showed 231.46 million shares outstanding, market capitalization of about $6.06 billion, and enterprise value of about $6.44 billion. The same data provider showed 223.08 million current-share-class shares and about 210.90 million shares of float. Company filings at 2026-03-31 showed 222.3 million Class A shares and 8.4 million Class V shares outstanding, plus $222.3 million of cash and equivalents, $528.6 million of short-term investments, and roughly $1.0 billion of 0% convertible notes due 2030. After quarter-end, the company issued $402.5 million of additional 0% convertible notes due 2032 after the initial purchasers exercised their option in full. A practical enterprise-value range is now about $6.4 billion to $6.8 billion depending on treatment of the post-quarter notes, capped calls, and fully diluted share count.
 
 This is investment research, not personalized financial advice.
 
@@ -16,7 +16,7 @@ This is investment research, not personalized financial advice.
 
 ### The Setup
 
-Hims & Hers looks like a broken GLP-1 trade on the surface. The stock has fallen from a 52-week high above $70 to $23.75, Q1 2026 revenue grew only 4%, gross margin collapsed to 65%, GAAP net income swung to a $92 million loss, and the company issued another convertible note less than a year after raising $1.0 billion of 2030 converts. That is the simple bear story.
+Hims & Hers looks like a broken GLP-1 trade on the surface. The stock has fallen from a 52-week high above $70 to $26.19, Q1 2026 revenue grew only 4%, gross margin collapsed to 65%, GAAP net income swung to a $92 million loss, and the company issued another convertible note less than a year after raising $1.0 billion of 2030 converts. That is the simple bear story.
 
 The more interesting story is that the company is not obviously broken. Subscribers still grew to nearly 2.6 million, management raised FY2026 revenue guidance to $2.8 billion to $3.0 billion, international revenue almost 10x'd from a tiny base, free cash flow was positive in Q1, and the company is still targeting at least $6.5 billion of 2030 revenue and $1.3 billion of adjusted EBITDA. The market is trying to decide whether HIMS is a durable consumer-health platform using weight loss as an accelerant, or a high-beta direct-to-consumer pharmacy business whose best economics came from a temporary compounded-GLP-1 opening.
 
@@ -33,7 +33,7 @@ The more interesting story is that the company is not obviously broken. Subscrib
 
 | Factor | Current Evidence | Signal | Why It Matters |
 |---|---|---|---|
-| Valuation | $5.5B market cap, about $5.9B EV, 1.8x 2026 consensus sales, about 19x midpoint 2026 adjusted EBITDA guidance. | Mixed | Cheaper than in 2025, but not cheap on current GAAP or FCF. |
+| Valuation | $6.06B market cap, about $6.44B EV, roughly 2.2x 2026 forecast sales, and about 20.6x midpoint 2026 adjusted EBITDA guidance. | Mixed | No longer distressed, but still not expensive if revenue durability and cash conversion improve. |
 | Growth | Q1 revenue grew 4%, but FY2026 guidance implies 19%-28% revenue growth. | Mixed | The stock needs Q2/Q3 to prove acceleration after the weight-loss pivot. |
 | Margins | Q1 gross margin fell to 65% from 73%; adjusted EBITDA margin fell to 7%. | Bearish | Branded GLP-1, shorter cadences, international mix, and restructuring pressure margins. |
 | Balance sheet | $750.9M cash and short-term investments at Q1, $974.1M 2030 converts, plus $402.5M 2032 converts after quarter-end. | Mixed | Liquidity is strong, but dilution and debt complexity are real. |
@@ -44,7 +44,7 @@ The more interesting story is that the company is not obviously broken. Subscrib
 
 ### Current View
 
-My read is cautiously constructive at $23.75, but only with a high-risk label. HIMS is no longer priced like a clean hypergrowth platform, and the current price can work if revenue compounds from $2.35 billion in 2025 to roughly $4.5 billion to $5.5 billion by 2030 with low-teens owner FCF margins. That is not mathematically extreme. The problem is that the path now runs through GLP-1 regulatory scrutiny, branded-drug economics, shorter shipping cadences, acquisition integration, convertible dilution, and a controlled-company structure. I would call this an interesting but diligence-heavy watchlist idea rather than a sleep-well compounder.
+My read is still cautiously constructive, but less so than it was in the low-$20s. At $26.19, HIMS is closer to the market's current average price target and no longer offers the same obvious controversy discount it had two weeks ago. The stock can still work if revenue compounds from $2.35 billion in 2025 to roughly $4.5 billion to $5.5 billion by 2030 with low-teens owner free-cash-flow margins. That is still not mathematically extreme. The problem is that the path now runs through GLP-1 regulatory scrutiny, branded-drug economics, shorter shipping cadences, acquisition integration, convertible dilution, and a controlled-company structure. I would still call this an interesting but diligence-heavy watchlist idea rather than a sleep-well compounder.
 
 ## 2. Company Story
 
@@ -223,31 +223,31 @@ HIMS' reported and adjusted earnings need careful treatment. Q1 2026 GAAP net lo
 
 ### Analyst Expectations
 
-Consensus is useful because it shows the market's starting point. It is not intrinsic value. StockAnalysis, using Finnhub forecast data and S&P Global price targets, showed current expectations for HIMS as of 2026-05-24. Historical EPS is GAAP, while forecast EPS may be non-GAAP or adjusted.
+Consensus is useful because it shows the market's starting point. It is not intrinsic value. StockAnalysis, using Finnhub forecast data and S&P Global price targets, showed current expectations for HIMS as of 2026-06-06. Historical EPS is GAAP, while forecast EPS may be non-GAAP or adjusted.
 
 Consensus source(s): StockAnalysis, MarketBeat, company guidance
-Consensus date: 2026-05-24
+Consensus date: 2026-06-06
 Fiscal year basis: Calendar year ending December 31
 Estimate basis: Revenue consensus plus EPS estimates; EPS basis may be adjusted / non-GAAP
 
 | Fiscal Year | Revenue Consensus | YoY Growth | EBITDA / EBIT Consensus | Margin | EPS Consensus | FCF Consensus |
 |---|---:|---:|---:|---:|---:|---:|
-| FY2026E | $2.93B | +24.9% | n/a | n/a | $0.39 | n/a |
-| FY2027E | $3.49B | +19.1% | n/a | n/a | $0.80 | n/a |
+| FY2026E | $2.88B | +22.7% | n/a | n/a | $0.93 | $103.4M provider FCF |
+| FY2027E | $3.38B | +17.2% | n/a | n/a | $1.29 | n/a |
 | FY2028E | Not publicly visible without upgrade | n/a | n/a | n/a | Not publicly visible | n/a |
 
-StockAnalysis showed a Hold consensus from 16 analysts, an average price target of $26.82, a low target of $21, and a high target of $35. MarketBeat showed a Hold consensus and price target of $28.90. The dispersion is narrower than the true business uncertainty, because the stock's long-term value depends less on one-year EPS and more on whether HIMS can sustain growth after the U.S. weight-loss pivot.
+StockAnalysis now shows a Hold consensus from 16 analysts, an average price target of $26.61, a low target of $21, and a high target of $35. That puts the average target only modestly above the current stock price, which means near-term sell-side upside is largely exhausted unless the next few quarters improve confidence. The dispersion is still narrower than the true business uncertainty, because the stock's long-term value depends less on one-year EPS and more on whether HIMS can sustain growth after the U.S. weight-loss pivot.
 
 ### Estimate Revision Trend
 
-Detailed 30-day and 90-day estimate revision tables were not freely accessible. The observable revision signal is mixed: management raised FY2026 revenue guidance after Q1, but Q1 EPS and revenue missed MarketBeat consensus, and several recent analyst target changes clustered around the high-$20s to low-$30s rather than the stock's old 2025 highs.
+Detailed 30-day and 90-day estimate revision tables were not freely accessible. The observable revision signal is mixed: management raised FY2026 revenue guidance after Q1, the public 2026 revenue forecast still points to about $2.88 billion, and the 2027 revenue view still implies mid-to-high teens growth. At the same time, the average price target sits near the current stock price, which suggests analysts are waiting for proof of better margin quality rather than simply underwriting more top-line growth.
 
 | Metric | 90 Days Ago | 30 Days Ago | Current | Direction |
 |---|---:|---:|---:|---|
-| FY2026 revenue | n/a | Prior company guide was $2.7B-$2.9B | Consensus $2.93B; company guide $2.8B-$3.0B | Up versus prior company guide |
-| FY2026 EPS | n/a | n/a | $0.39 consensus | Unclear |
-| FY2027 revenue | n/a | n/a | $3.49B consensus | Unclear |
-| FY2027 EPS | n/a | n/a | $0.80 consensus | Unclear |
+| FY2026 revenue | n/a | Prior company guide was $2.7B-$2.9B | Public forecast $2.88B; company guide $2.8B-$3.0B | Up versus prior company guide |
+| FY2026 EPS | n/a | n/a | $0.93 provider forecast | Up versus old public view, but basis is provider-specific |
+| FY2027 revenue | n/a | n/a | $3.38B provider forecast | Stable / modestly lower than prior refresh |
+| FY2027 EPS | n/a | n/a | $1.29 provider forecast | Positive, but quality depends on adjustment basis |
 
 ### Management Guidance
 
@@ -279,7 +279,7 @@ Detailed 30-day and 90-day estimate revision tables were not freely accessible. 
 | Adjusted EBITDA margin | Q1 7%; FY2026 guide 10%-12%. | Stays near 8%-10%. | Moves to mid-teens. | Approaches 20% 2030 target. |
 | FCF margin | FY2025 2.4%; Q1 2026 8.7%; TTM about 3%. | 4%-6%. | 10%-12%. | 15%-17%. |
 | Share count / dilution | SBC, 2030 converts, 2032 converts, Eucalyptus stock-settlement option. | Diluted shares rise materially. | Dilution partly offset by buybacks. | FCF funds buybacks and dilution is manageable. |
-| Exit multiple / terminal valuation | Current stock about 1.8x 2026 sales and high multiple of current FCF. | 16x-20x FCF. | 22x-26x FCF. | 28x-32x FCF. |
+| Exit multiple / terminal valuation | Current stock about 2.2x 2026 forecast sales and still a very high multiple of current FCF. | 16x-20x FCF. | 22x-26x FCF. | 28x-32x FCF. |
 
 ### Scenario Projections
 
@@ -333,7 +333,7 @@ Bears believe HIMS is a promotional DTC pharmacy business that temporarily benef
 
 ### What The Market May Be Missing
 
-The positive variant view is that HIMS does not need to hit the full $6.5 billion 2030 target for the stock to work from $23.75. A $4.5 billion to $5.0 billion revenue business with low-teens FCF margins can support material upside if the market regains confidence in growth and cash conversion.
+The positive variant view is that HIMS does not need to hit the full $6.5 billion 2030 target for the stock to work from $26.19. A $4.5 billion to $5.0 billion revenue business with low-teens FCF margins can still support attractive upside if the market regains confidence in growth and cash conversion.
 
 The negative variant view is that the 2026 guidance raise may be masking a lower-quality mix shift. If the growth comes from branded or generic GLP-1 access with lower gross margin, higher working capital, supplier concentration, regulatory risk, and less customer retention, revenue can grow while per-share value creation disappoints.
 
@@ -365,12 +365,12 @@ The base case assumes HIMS is a real platform with messy but survivable GLP-1/re
 
 | Metric | Current | Peer / History Context | Interpretation |
 |---|---:|---|---|
-| Market cap / 2026E sales | About 1.9x | Based on $5.5B market cap and $2.93B consensus revenue. | Not expensive if growth persists. |
-| EV / 2026E revenue | About 2.0x | Based on about $5.9B EV and $2.93B revenue. | Reflects controversy and margin uncertainty. |
-| EV / 2026 guided adjusted EBITDA | About 19x | Uses midpoint $312.5M adjusted EBITDA guidance. | Not cheap if adjusted EBITDA quality remains poor. |
-| P/FCF | About 69x TTM | StockAnalysis TTM FCF $79.7M. | Current FCF does not support the valuation alone. |
+| Market cap / 2026E sales | About 2.1x | Based on $6.06B market cap and $2.88B public 2026 revenue forecast. | Reasonable if growth persists, but not a giveaway. |
+| EV / 2026E revenue | About 2.2x | Based on about $6.44B EV and $2.88B revenue. | Reflects controversy, but less discount than in late May. |
+| EV / 2026 guided adjusted EBITDA | About 20.6x | Uses midpoint $312.5M adjusted EBITDA guidance. | Still not cheap if adjusted EBITDA quality remains poor. |
+| P/FCF | About 76x TTM | StockAnalysis TTM FCF $79.7M and current market cap of about $6.06B. | Current FCF does not support the valuation alone. |
 | P/E | n/a | TTM GAAP loss. | EPS is not currently a useful primary lens. |
-| P/B | About 12x | Book value $446.2M at Q1. | Book is not the valuation anchor. |
+| P/B | About 13.5x | StockAnalysis statistics page at current price. | Book is not the valuation anchor. |
 
 ### Primary Valuation Framework
 
@@ -388,7 +388,7 @@ Present values below discount the rough FY2030 terminal value back to today at a
 
 ### Reverse Valuation
 
-At $23.75, the market does not require management's full 2030 roadmap. It likely requires something closer to $4.3 billion to $4.8 billion of 2030 revenue, around 9%-11% FCF margin, and a 20x-24x FCF terminal multiple. That is achievable if HIMS is a durable platform. It is too optimistic if Q1 2026 reflects a permanent reset in U.S. growth and gross margin.
+At $26.19, the market still does not require management's full 2030 roadmap, but it does require more than it did in late May. It likely requires something closer to $4.5 billion to $5.0 billion of 2030 revenue, around 9%-11% free-cash-flow margin, and a 20x-24x FCF terminal multiple. That is achievable if HIMS is a durable platform. It is too optimistic if Q1 2026 reflects a permanent reset in U.S. growth and gross margin.
 
 ## 14. Catalysts
 
@@ -446,9 +446,9 @@ At $23.75, the market does not require management's full 2030 roadmap. It likely
 
 ## 18. Conclusion
 
-HIMS is more interesting at $23.75 than it was above $50, but it is not a clean bargain. The business has real assets: brand, 2.6 million subscribers, category breadth, international expansion, fulfillment investment, and a long-term roadmap. It also has real problems: Q1 U.S. revenue decline, 65% gross margin, a large GAAP loss, heavy adjustments, regulatory scrutiny, controlled-company governance, and two layers of convertible notes.
+HIMS is still more interesting in the mid-$20s than it was above $50, but it is no longer a clean controversy bargain. The business has real assets: brand, 2.6 million subscribers, category breadth, international expansion, fulfillment investment, and a long-term roadmap. It also has real problems: Q1 U.S. revenue decline, 65% gross margin, a large GAAP loss, heavy adjustments, regulatory scrutiny, controlled-company governance, and two layers of convertible notes.
 
-The stock works if Q1 2026 was the messy trough of a strategic pivot and revenue accelerates while gross margin recovers. The stock does not work if Q1 was the normalized model: lower-margin branded-drug distribution, expensive international expansion, and recurring legal/regulatory friction. My base-case fair value is roughly $28-$35 per share, with a wide bear/bull range. I would keep HIMS on the watchlist and update after Q2 2026 results.
+The stock works if Q1 2026 was the messy trough of a strategic pivot and revenue accelerates while gross margin recovers. The stock does not work if Q1 was the normalized model: lower-margin branded-drug distribution, expensive international expansion, and recurring legal/regulatory friction. My base-case fair value is still roughly $28-$35 per share, with a wide bear/bull range, which means the current price is closer to fair value than it was two weeks ago. I would keep HIMS on the watchlist and update after Q2 2026 results.
 
 ## 19. Sources
 
@@ -465,12 +465,12 @@ The stock works if Q1 2026 was the messy trough of a strategic pivot and revenue
 
 ### Market Data / Ownership / Sentiment
 
-- Yahoo Finance HIMS quote, crawled 2026-05-24: https://finance.yahoo.com/quote/HIMS/
-- Hims & Hers investor relations stock-info page, accessed 2026-05-24: https://investors.hims.com/stock-info/default.aspx
-- StockAnalysis HIMS forecast and analyst targets, accessed 2026-05-24: https://stockanalysis.com/stocks/hims/forecast/
-- StockAnalysis HIMS statistics, valuation, short interest, and market data, accessed 2026-05-24: https://stockanalysis.com/stocks/hims/statistics/
-- MarketBeat HIMS earnings estimates and Q1 2026 summary, accessed 2026-05-24: https://www.marketbeat.com/stocks/NYSE/HIMS/earnings/
-- MarketBeat HIMS short interest, accessed 2026-05-24: https://www.marketbeat.com/stocks/NYSE/HIMS/short-interest/
+- Yahoo Finance HIMS quote, accessed 2026-06-06: https://finance.yahoo.com/quote/HIMS/
+- Hims & Hers investor relations stock-info page, accessed 2026-06-06: https://investors.hims.com/stock-info/default.aspx
+- StockAnalysis HIMS forecast and analyst targets, accessed 2026-06-06: https://stockanalysis.com/stocks/hims/forecast/
+- StockAnalysis HIMS statistics, valuation, short interest, and market data, accessed 2026-06-06: https://stockanalysis.com/stocks/hims/statistics/
+- MarketBeat HIMS earnings estimates and Q1 2026 summary, accessed 2026-06-06: https://www.marketbeat.com/stocks/NYSE/HIMS/earnings/
+- MarketBeat HIMS short interest, accessed 2026-06-06: https://www.marketbeat.com/stocks/NYSE/HIMS/short-interest/
 
 ### Industry / Competition / Regulation
 
@@ -481,9 +481,9 @@ The stock works if Q1 2026 was the messy trough of a strategic pivot and revenue
 
 ### Prior Debate
 
-- Motley Fool Q1 2026 earnings-call transcript, 2026-05-11: https://www.fool.com/earnings/call-transcripts/2026/05/11/hims-hims-q1-2026-earnings-call-transcript/
-- StockAnalysis HIMS transcript index, accessed 2026-05-24: https://stockanalysis.com/stocks/hims/transcripts/
-- Seeking Alpha HIMS earnings transcript index, metadata visible, accessed 2026-05-24: https://seekingalpha.com/symbol/HIMS/earnings/transcripts
+- Motley Fool Q1 2026 earnings-call transcript, accessed 2026-06-06: https://www.fool.com/earnings/call-transcripts/2026/05/11/hims-hims-q1-2026-earnings-call-transcript/
+- StockAnalysis HIMS transcript index, accessed 2026-06-06: https://stockanalysis.com/stocks/hims/transcripts/
+- Seeking Alpha HIMS earnings transcript index, metadata visible, accessed 2026-06-06: https://seekingalpha.com/symbol/HIMS/earnings/transcripts
 - Public short-side debates from Hunterbrook, Spruce Point, and related commentary were reviewed previously and remain part of the debate context, but the full reports were not re-read in this refresh unless publicly accessible.
 
 ### Access Limits
