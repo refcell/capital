@@ -71,9 +71,9 @@ debt_weight = total_debt[0] / capital_base
 wacc = equity_weight * cost_of_equity + debt_weight * cost_of_debt * (1 - normalized_tax_rate / 100)
 
 fwd_sales_2026 = 2880.00
-fwd_sales_2027 = 3380.00
+fwd_net_income_2026 = -65.57
+fwd_fcf_2026 = 103.40
 fwd_eps_2026 = 0.93
-fwd_eps_2027 = 1.29
 pt_avg = 26.61
 pt_low = 21.00
 pt_high = 35.00
@@ -87,7 +87,7 @@ sc(ws["A1"], bg=DARK_BG, size=14)
 ws.row_dimensions[1].height = 36
 
 info = [
-    ("Date:", "2026-06-06"),
+    ("Date:", "2026-06-07"),
     ("Ticker:", "NYSE: HIMS"),
     ("Close Price:", "$26.19"),
     ("Shares Outstanding:", "231.46M"),
@@ -109,14 +109,16 @@ sc(ws[f"A{r}"], bg=ACCT_BLUE, size=12)
 
 metrics = [
     ("P/S", "2.56x", "StockAnalysis statistics page at Jun. 5 close."),
-    ("Forward P/S", "2.01x", "Provider forward-sales multiple; FY2026 forecast page implies ~2.10x."),
+    ("Forward P/S", "2.01x", "StockAnalysis FY2026 forecast table."),
     ("EV/Sales", "2.72x", "Based on TTM revenue and provider EV."),
     ("EV / 2026E Sales", f"{enterprise_value / fwd_sales_2026:.2f}x", "Using 2026 revenue forecast of $2.88B."),
-    ("P/FCF", "76.05x", "Current TTM FCF is too small to anchor valuation."),
+    ("P/FCF", "76.05x", "Current TTM FCF remains too small to anchor valuation."),
     ("EV/FCF", "80.83x", "Highlights dependence on future cash conversion."),
     ("EV/EBITDA", "77.24x", "TTM EBITDA is depressed after Q1 2026 reset."),
-    ("EV / 2026 Adj. EBITDA", f"{enterprise_value / 312.5:.1f}x", "Using midpoint of FY2026 adjusted EBITDA guide."),
-    ("Forward EPS", "$0.93", "Financial forecast page; provider forward PE tables conflict."),
+    ("EV / 2026E Revenue Guide", "2.1x-2.3x", "Against FY2026 management revenue guide of $2.8B-$3.0B."),
+    ("2026E Net Income", f"${fwd_net_income_2026:.2f}M", "StockAnalysis FY2026 forecast shows a net loss despite positive EPS display."),
+    ("2026E Free Cash Flow", f"${fwd_fcf_2026:.2f}M", "StockAnalysis FY2026 forecast table."),
+    ("Forward EPS", "$0.93", "StockAnalysis forecast page; treat as provider-specific and inconsistent with forecast net income."),
     ("Price Target Range", "$21 / $26.61 / $35", "Low / average / high S&P Global targets on StockAnalysis.")
 ]
 for i, (k, v, n) in enumerate(metrics, 13):
@@ -249,6 +251,7 @@ audit_rows = [
     ("Shares outstanding", "Current", 231.46, "M", "StockAnalysis overview/statistics", "n/a", "Ties across overview and statistics."),
     ("Market cap", "Current", 6060, "USD mm", "StockAnalysis statistics", "n/a", "Rounded from $6.06B."),
     ("Enterprise value", "Current", 6440, "USD mm", "StockAnalysis statistics", "n/a", "Rounded from $6.44B."),
+    ("10Y Treasury", "2026-06-04", 4.47, "%", "FRED DGS10", "n/a", "Observed on FRED series page."),
     ("Revenue", "FY2025", 2348, "USD mm", "StockAnalysis financials", "research/HIMS.md prior refresh", "Ties."),
     ("Revenue", "Q1 2026", 608.1, "USD mm", "StockAnalysis quarterly income statement", "Company Q1 release", "Ties."),
     ("Gross margin", "Q1 2026", 65.25, "%", "StockAnalysis quarterly income statement", "Company Q1 release", "Ties to quarterly table."),
@@ -257,7 +260,8 @@ audit_rows = [
     ("Cash & ST investments", "Mar. 31, 2026", 750.88, "USD mm", "StockAnalysis balance sheet", "Company Q1 filing", "Ties."),
     ("Total debt", "Mar. 31, 2026", 1132, "USD mm", "StockAnalysis balance sheet", "Company Q1 filing", "Includes convert debt."),
     ("2026 revenue forecast", "FY2026E", 2880, "USD mm", "StockAnalysis forecast", "n/a", "14 analyst forecast page."),
-    ("2027 revenue forecast", "FY2027E", 3380, "USD mm", "StockAnalysis forecast", "n/a", "14 analyst forecast page."),
+    ("2026 net income forecast", "FY2026E", -65.57, "USD mm", "StockAnalysis forecast", "n/a", "Forecast table shows a net loss despite positive EPS field."),
+    ("2026 free cash flow forecast", "FY2026E", 103.40, "USD mm", "StockAnalysis forecast", "n/a", "Forecast table."),
     ("Analyst target avg", "Current", 26.61, "USD/share", "StockAnalysis forecast", "n/a", "16 analyst S&P Global target panel."),
 ]
 for i, row in enumerate(audit_rows, 3):
@@ -320,7 +324,7 @@ for i, s in enumerate(sources, 3):
 ws6.column_dimensions["A"].width = 6
 ws6.column_dimensions["B"].width = 96
 
-path = "/home/refcell/dev/capital/models/[2026-06-06] Hims & Hers Health Model.xlsx"
+path = "/home/refcell/dev/capital/models/[2026-06-07] Hims & Hers Health Model.xlsx"
 wb.save(path)
 
 # Immediate verification after write.
