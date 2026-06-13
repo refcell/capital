@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python test/type/lint caches
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.hypothesis/
+htmlcov/
+
+# Python packaging and virtual environments
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+

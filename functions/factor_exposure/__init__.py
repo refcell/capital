@@ -1,0 +1,2 @@
+"""Factor exposure function."""
+

@@ -1,0 +1,19 @@
+# Recipes for repo-local research functions.
+# Import this module from the root Justfile with:
+#   mod functions 'functions'
+
+# Default to display function commands
+default:
+    @just --justfile {{ source_file() }} --list
+
+# List tickers discovered from research/ and projections/
+tickers:
+    @python3 common/tickers.py
+
+# Run factor_exposure for one ticker
+factor ticker *args:
+    @python3 run.py factor_exposure --ticker {{ ticker }} {{ args }}
+
+# Run factor_exposure for every ticker in the repo
+all *args:
+    @python3 factor_exposure/run_all.py {{ args }}

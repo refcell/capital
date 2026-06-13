@@ -1,0 +1,16 @@
+{
+  "name": "factor_exposure",
+  "description": "Estimate current momentum entry posture and Fama/French factor exposure for a ticker.",
+  "input": {
+    "ticker": "Required ticker symbol, e.g. CRM",
+    "lookback_months": "Optional monthly regression lookback. Default: 36",
+    "as_of": "Optional YYYY-MM-DD cutoff for prices",
+    "price_source": "Optional price source. Supported: nasdaq, yahoo. Default: nasdaq"
+  },
+  "output": {
+    "momentum_timing": "Current momentum entry posture for position sizing/timing discipline",
+    "factor_regression": "Fama/French 5-factor plus momentum regression",
+    "factor_weighting": "Normalized absolute beta shares; not portfolio weights",
+    "source_audit": "Live source metadata"
+  }
+}
