@@ -57,8 +57,8 @@ run_hermes() {
 
 render_prompt() {
   local template="$1"
-  local ticker="$2"
-  printf "$template" "$ticker" "$ticker"
+  shift
+  printf "$template" "$@"
 }
 
 commit_exact() {
