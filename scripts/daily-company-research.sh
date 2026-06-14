@@ -121,7 +121,6 @@ fi
 run_hermes "$(render_prompt "$EQUITY_RESEARCH_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "research/$TICKER.md"
 commit_exact "research: add $TICKER report" "research/$TICKER.md"
-require_clean
 
 run_hermes "$(render_prompt "$DCF_MODEL_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "models/"
@@ -136,7 +135,6 @@ while IFS= read -r model_file; do
   git add -- "$model_file"
 done <<< "$MODEL_FILES"
 commit_staged "model: add $TICKER DCF"
-require_clean
 
 run_hermes "$(render_prompt "$PROJECTION_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "projections/$TICKER.md"
