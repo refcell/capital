@@ -10,12 +10,17 @@ fi
 : "${CAPITAL_REPO_URL:=https://github.com/refcell/capital.git}"
 : "${CAPITAL_REPO_DIR:=$HOME/src/capital}"
 : "${CAPITAL_LOG_DIR:=$HOME/var/log/capital}"
+HERMES_SKILLS_DEFAULT='capital-research'
 : "${CAPITAL_TIMEZONE:=America/New_York}"
-: "${HERMES_TOOLSETS:=web,terminal,skills}"
-: "${HERMES_SKILLS:=equity-research,dcf-model,company-projections}"
+: "${HERMES_TOOLSETS:=browser,terminal,file,skills}"
+: "${HERMES_SKILLS:=$HERMES_SKILLS_DEFAULT}"
 : "${HERMES_PROVIDER:=}"
 : "${HERMES_MODEL:=}"
 : "${DAILY_RESEARCH_DRY_RUN:=1}"
+
+EQUITY_RESEARCH_PROMPT_TEMPLATE='In the capital repo, perform only the research-report step for %s. Use the local capital-research skill, current public sources, and the local research template. Create or update research/%s.md only. Do not modify projections, models, or unrelated files. Do not commit or push; the wrapper script owns commits.'
+DCF_MODEL_PROMPT_TEMPLATE='In the capital repo, perform only the workbook-model step for %s. Use the local capital-research skill and the repo\''s workbook style to create the valuation workbook under models/. Do not modify research, projections, or unrelated files. Do not commit or push; the wrapper script owns commits.'
+PROJECTION_PROMPT_TEMPLATE='In the capital repo, perform only the projection-sheet step for %s. Create or update projections/%s.md using current public estimates, current market data, the local research report, the local workbook, and projections/README.md guidance. Leave unrelated files untouched. Do not commit or push; the wrapper script owns commits.'
 
 export TZ="$CAPITAL_TIMEZONE"
 mkdir -p "$CAPITAL_LOG_DIR" "$CAPITAL_REPO_DIR/automation/state"
@@ -48,6 +53,12 @@ run_hermes() {
   fi
   cmd+=(-q "$prompt")
   "${cmd[@]}"
+}
+
+render_prompt() {
+  local template="$1"
+  local ticker="$2"
+  printf "$template" "$ticker" "$ticker"
 }
 
 commit_exact() {
@@ -107,12 +118,12 @@ if [ "$DAILY_RESEARCH_DRY_RUN" = "1" ]; then
   exit 0
 fi
 
-run_hermes "In the capital repo, use the preloaded equity-research skill for $TICKER end to end. If Hermes exposes installed skills as slash commands, this is the /equity-research workflow. Create or update research/$TICKER.md only. Use current sources, follow the local research template, verify factual claims, and leave unrelated files untouched. Do not commit or push; the wrapper script owns commits."
+run_hermes "$(render_prompt "$EQUITY_RESEARCH_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "research/$TICKER.md"
 commit_exact "research: add $TICKER report" "research/$TICKER.md"
 require_clean
 
-run_hermes "In the capital repo, use the preloaded dcf-model skill for $TICKER end to end. If Hermes exposes installed skills as slash commands, this is the /dcf-model workflow. Create the DCF workbook under models/ using the repo's workbook style. Do not modify research or projections. Leave unrelated files untouched. Do not commit or push; the wrapper script owns commits."
+run_hermes "$(render_prompt "$DCF_MODEL_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "models/"
 MODEL_FILES="$(git status --porcelain | awk '{print substr($0, 4)}' | grep '^models/.*\.xlsx$' || true)"
 if [ -z "$MODEL_FILES" ]; then
@@ -127,7 +138,7 @@ done <<< "$MODEL_FILES"
 commit_staged "model: add $TICKER DCF"
 require_clean
 
-run_hermes "In the capital repo, use the preloaded company-projections skill for $TICKER end to end. If Hermes exposes installed skills as slash commands, this is the /company-projections workflow. Create or update projections/$TICKER.md only, using current analyst estimates, current market data, the local research report, and the new workbook. Leave unrelated files untouched. Do not commit or push; the wrapper script owns commits."
+run_hermes "$(render_prompt "$PROJECTION_PROMPT_TEMPLATE" "$TICKER")"
 assert_only_paths "projections/$TICKER.md"
 commit_exact "projection: add $TICKER projection" "projections/$TICKER.md"
 require_clean

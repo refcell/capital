@@ -396,7 +396,7 @@ def passes_random_filters(row: dict[str, Any], sec_mapping: dict[str, dict[str, 
 
     ipo_year = parse_int_like(row.get("ipoyear"))
     current_year = datetime.now(timezone.utc).year
-    if ipo_year is not None and ipo_year >= current_year - 1:
+    if ipo_year is not None and ipo_year >= current_year:
         return "too little operating history"
 
     return None
