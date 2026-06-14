@@ -21,3 +21,8 @@ dist/
 venv/
 env/
 
+# Local automation runtime state
+automation/state/
+automation/logs/
+*.log
+
