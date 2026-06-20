@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+
 # Python test/type/lint caches
 .coverage
 .coverage.*
