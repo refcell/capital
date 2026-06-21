@@ -65,32 +65,37 @@ ANALYST = {"C": 3449, "D": 4829, "E": 7307, "F": 9500}
 # column-C growth rate drives FY2027 revenue, column-D drives FY2028, etc.
 # Revenue decelerates from the ~70% guided FY26 pace but stays very high; GAAP
 # net margin holds in the mid-40s% on software operating leverage.  PE multiples
-# are exceptionally high, reflecting how PLTR actually trades (bull: sustained
-# hyper-growth + premium multiple; bear: deceleration + multiple compression).
+# start exceptionally high (reflecting how PLTR actually trades today) but COMPRESS
+# every year toward more normal software multiples as revenue growth decelerates
+# into 2030-31 (bull compresses from a higher base / stays richer; bear compresses
+# faster toward mature-software norms).
 CASES = {
     "bull": {
         "base": 4,
         # AIP land-and-expand sustains ~50%/40%+ growth longer
         "rev_g": {"C": 0.52, "D": 0.48, "E": 0.40, "F": 0.33, "G": 0.27, "H": 0.23},
         "margins": {"D": 0.45, "E": 0.47, "F": 0.48, "G": 0.49, "H": 0.50},
-        "pe_low": {c: 100 for c in "CDEFGH"},
-        "pe_high": {c: 150 for c in "CDEFGH"},
+        # multiple compresses with growth: 2026 -> 2031
+        "pe_low": {"C": 110, "D": 95, "E": 78, "F": 62, "G": 52, "H": 45},
+        "pe_high": {"C": 160, "D": 135, "E": 110, "F": 88, "G": 72, "H": 62},
     },
     "base": {
         "base": 28,
         # ties to consensus: FY27 ~$11.2B, FY28 ~$16.0B, then decelerates
         "rev_g": {"C": 0.45, "D": 0.43, "E": 0.35, "F": 0.28, "G": 0.23, "H": 0.20},
         "margins": {"D": 0.43, "E": 0.45, "F": 0.46, "G": 0.47, "H": 0.47},
-        "pe_low": {c: 70 for c in "CDEFGH"},
-        "pe_high": {c: 110 for c in "CDEFGH"},
+        # multiple compresses with growth: 2026 -> 2031
+        "pe_low": {"C": 80, "D": 65, "E": 52, "F": 42, "G": 35, "H": 30},
+        "pe_high": {"C": 115, "D": 95, "E": 75, "F": 60, "G": 50, "H": 42},
     },
     "bear": {
         "base": 52,
         # law of large numbers bites; multiple compresses toward software norms
         "rev_g": {"C": 0.38, "D": 0.32, "E": 0.26, "F": 0.21, "G": 0.18, "H": 0.15},
         "margins": {"D": 0.41, "E": 0.42, "F": 0.42, "G": 0.43, "H": 0.43},
-        "pe_low": {c: 40 for c in "CDEFGH"},
-        "pe_high": {c: 65 for c in "CDEFGH"},
+        # multiple compresses faster toward mature-software norms: 2026 -> 2031
+        "pe_low": {"C": 55, "D": 42, "E": 32, "F": 25, "G": 21, "H": 18},
+        "pe_high": {"C": 80, "D": 62, "E": 48, "F": 38, "G": 31, "H": 26},
     },
 }
 
