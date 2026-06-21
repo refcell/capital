@@ -57,24 +57,24 @@ CASES = {
         # AI/Now Assist monetization sustains low-20s growth longer
         "rev_g": {"C": 0.22, "D": 0.20, "E": 0.19, "F": 0.18, "G": 0.17, "H": 0.16},
         "margins": {"D": 0.28, "E": 0.30, "F": 0.31, "G": 0.32, "H": 0.33},
-        "pe_low": {c: 28 for c in "CDEFGH"},
-        "pe_high": {c: 35 for c in "CDEFGH"},
+        "pe_low": {"C": 30, "D": 29, "E": 28, "F": 27, "G": 26, "H": 25},
+        "pe_high": {"C": 37, "D": 36, "E": 35, "F": 33, "G": 32, "H": 30},
     },
     "base": {
         "base": 28,
         # growth decelerates toward mid-teens as revenue base scales
         "rev_g": {"C": 0.22, "D": 0.18, "E": 0.17, "F": 0.15, "G": 0.14, "H": 0.13},
         "margins": {"D": 0.27, "E": 0.28, "F": 0.29, "G": 0.29, "H": 0.30},
-        "pe_low": {c: 22 for c in "CDEFGH"},
-        "pe_high": {c: 28 for c in "CDEFGH"},
+        "pe_low": {"C": 24, "D": 23, "E": 22, "F": 21, "G": 20, "H": 19},
+        "pe_high": {"C": 30, "D": 29, "E": 28, "F": 26, "G": 25, "H": 24},
     },
     "bear": {
         "base": 52,
         # AI disruption to legacy workflows + competition slow growth
         "rev_g": {"C": 0.22, "D": 0.15, "E": 0.13, "F": 0.11, "G": 0.10, "H": 0.09},
         "margins": {"D": 0.26, "E": 0.26, "F": 0.27, "G": 0.27, "H": 0.27},
-        "pe_low": {c: 16 for c in "CDEFGH"},
-        "pe_high": {c: 22 for c in "CDEFGH"},
+        "pe_low": {"C": 18, "D": 17, "E": 16, "F": 15, "G": 14, "H": 13},
+        "pe_high": {"C": 24, "D": 23, "E": 22, "F": 20, "G": 19, "H": 18},
     },
 }
 

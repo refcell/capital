@@ -69,24 +69,24 @@ CASES = {
         # sustained customer/ARPAC growth + Mexico/US optionality
         "rev_g": {"C": 0.32, "D": 0.28, "E": 0.24, "F": 0.20, "G": 0.17, "H": 0.15},
         "margins": {"D": 0.21, "E": 0.225, "F": 0.24, "G": 0.245, "H": 0.25},
-        "pe_low": {c: 20 for c in "CDEFGH"},
-        "pe_high": {c: 30 for c in "CDEFGH"},
+        "pe_low": {"C": 22, "D": 21, "E": 20, "F": 18, "G": 16, "H": 15},
+        "pe_high": {"C": 32, "D": 30, "E": 28, "F": 25, "G": 22, "H": 20},
     },
     "base": {
         "base": 28,
         # high-teens/20s% growth decelerating; steady margin expansion
         "rev_g": {"C": 0.26, "D": 0.22, "E": 0.19, "F": 0.16, "G": 0.14, "H": 0.12},
         "margins": {"D": 0.19, "E": 0.20, "F": 0.21, "G": 0.21, "H": 0.22},
-        "pe_low": {c: 14 for c in "CDEFGH"},
-        "pe_high": {c: 22 for c in "CDEFGH"},
+        "pe_low": {"C": 16, "D": 15, "E": 14, "F": 13, "G": 12, "H": 11},
+        "pe_high": {"C": 24, "D": 22, "E": 20, "F": 18, "G": 17, "H": 16},
     },
     "bear": {
         "base": 52,
         # Brazil credit-cycle stress + BRL drag cap growth and margins
         "rev_g": {"C": 0.18, "D": 0.15, "E": 0.12, "F": 0.10, "G": 0.09, "H": 0.08},
         "margins": {"D": 0.16, "E": 0.16, "F": 0.165, "G": 0.17, "H": 0.17},
-        "pe_low": {c: 9 for c in "CDEFGH"},
-        "pe_high": {c: 14 for c in "CDEFGH"},
+        "pe_low": {"C": 10, "D": 10, "E": 9, "F": 9, "G": 8, "H": 8},
+        "pe_high": {"C": 16, "D": 15, "E": 14, "F": 13, "G": 12, "H": 11},
     },
 }
 

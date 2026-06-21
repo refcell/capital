@@ -60,24 +60,24 @@ CASES = {
         # aggressive accretive M&A + strong organic/margin execution
         "rev_g": {"C": 0.65, "D": 0.38, "E": 0.28, "F": 0.22, "G": 0.18, "H": 0.16},
         "margins": {"D": 0.055, "E": 0.065, "F": 0.075, "G": 0.08, "H": 0.085},
-        "pe_low": {c: 30 for c in "CDEFGH"},
-        "pe_high": {c: 40 for c in "CDEFGH"},
+        "pe_low": {"C": 34, "D": 30, "E": 27, "F": 24, "G": 21, "H": 19},
+        "pe_high": {"C": 44, "D": 40, "E": 36, "F": 32, "G": 28, "H": 25},
     },
     "base": {
         "base": 28,
         # steady roll-up toward $50B target with gradual margin expansion
         "rev_g": {"C": 0.54, "D": 0.30, "E": 0.22, "F": 0.18, "G": 0.15, "H": 0.13},
         "margins": {"D": 0.05, "E": 0.055, "F": 0.06, "G": 0.065, "H": 0.07},
-        "pe_low": {c: 22 for c in "CDEFGH"},
-        "pe_high": {c: 30 for c in "CDEFGH"},
+        "pe_low": {"C": 24, "D": 22, "E": 20, "F": 18, "G": 16, "H": 15},
+        "pe_high": {"C": 32, "D": 30, "E": 27, "F": 24, "G": 22, "H": 20},
     },
     "bear": {
         "base": 52,
         # slower M&A, integration drag, cyclical building-products weakness
         "rev_g": {"C": 0.40, "D": 0.20, "E": 0.13, "F": 0.10, "G": 0.08, "H": 0.07},
         "margins": {"D": 0.04, "E": 0.04, "F": 0.045, "G": 0.05, "H": 0.05},
-        "pe_low": {c: 14 for c in "CDEFGH"},
-        "pe_high": {c: 22 for c in "CDEFGH"},
+        "pe_low": {"C": 16, "D": 14, "E": 12, "F": 11, "G": 10, "H": 9},
+        "pe_high": {"C": 24, "D": 22, "E": 19, "F": 17, "G": 15, "H": 14},
     },
 }
 

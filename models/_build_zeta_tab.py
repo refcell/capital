@@ -51,8 +51,8 @@ CASES = {
         "rev_g": {"C": 0.37, "D": 0.204, "E": 0.233, "F": 0.264, "G": 0.22, "H": 0.22},
         # normalized net margins -> NI ~387/466/630/.../1065
         "margins": {"D": 0.18, "E": 0.185, "F": 0.19, "G": 0.20, "H": 0.213},
-        "pe_low": {c: 18 for c in "CDEFGH"},
-        "pe_high": {c: 24 for c in "CDEFGH"},
+        "pe_low": {"C": 20, "D": 19, "E": 18, "F": 18, "G": 17, "H": 16},
+        "pe_high": {"C": 26, "D": 25, "E": 24, "F": 23, "G": 22, "H": 21},
     },
     "base": {
         "base": 28,
@@ -60,8 +60,8 @@ CASES = {
         "rev_g": {"C": 0.37, "D": 0.165, "E": 0.159, "F": 0.224, "G": 0.17, "H": 0.17},
         # normalized net margins -> NI ~301/370/475/.../753
         "margins": {"D": 0.145, "E": 0.154, "F": 0.161, "G": 0.173, "H": 0.186},
-        "pe_low": {c: 15 for c in "CDEFGH"},
-        "pe_high": {c: 20 for c in "CDEFGH"},
+        "pe_low": {"C": 17, "D": 16, "E": 15, "F": 15, "G": 14, "H": 13},
+        "pe_high": {"C": 22, "D": 21, "E": 20, "F": 19, "G": 18, "H": 17},
     },
     "bear": {
         "base": 52,
@@ -69,8 +69,8 @@ CASES = {
         "rev_g": {"C": 0.37, "D": 0.143, "E": 0.127, "F": 0.152, "G": 0.13, "H": 0.13},
         # normalized net margins -> NI ~237/286/331/.../469
         "margins": {"D": 0.116, "E": 0.124, "F": 0.125, "G": 0.131, "H": 0.138},
-        "pe_low": {c: 12 for c in "CDEFGH"},
-        "pe_high": {c: 16 for c in "CDEFGH"},
+        "pe_low": {"C": 14, "D": 13, "E": 12, "F": 12, "G": 11, "H": 11},
+        "pe_high": {"C": 18, "D": 17, "E": 16, "F": 16, "G": 15, "H": 14},
     },
 }
 

@@ -67,24 +67,24 @@ CASES = {
         # backlog converts fast; OCI scales above guidance
         "rev_g": {"C": 0.36, "D": 0.45, "E": 0.35, "F": 0.27, "G": 0.21, "H": 0.18},
         "margins": {"D": 0.27, "E": 0.25, "F": 0.25, "G": 0.26, "H": 0.27},
-        "pe_low": {c: 28 for c in "CDEFGH"},
-        "pe_high": {c: 38 for c in "CDEFGH"},
+        "pe_low": {"C": 30, "D": 30, "E": 28, "F": 25, "G": 22, "H": 20},
+        "pe_high": {"C": 40, "D": 40, "E": 38, "F": 34, "G": 30, "H": 27},
     },
     "base": {
         "base": 28,
         # FY27 ~$90B (guidance), FY28 ~$128B (consensus), then decelerates
         "rev_g": {"C": 0.34, "D": 0.42, "E": 0.30, "F": 0.24, "G": 0.18, "H": 0.15},
         "margins": {"D": 0.26, "E": 0.22, "F": 0.22, "G": 0.225, "H": 0.23},
-        "pe_low": {c: 22 for c in "CDEFGH"},
-        "pe_high": {c: 30 for c in "CDEFGH"},
+        "pe_low": {"C": 24, "D": 24, "E": 22, "F": 20, "G": 18, "H": 16},
+        "pe_high": {"C": 32, "D": 32, "E": 30, "F": 27, "G": 24, "H": 22},
     },
     "bear": {
         "base": 52,
         # slower backlog conversion; depreciation drag deepens margin compression
         "rev_g": {"C": 0.30, "D": 0.30, "E": 0.20, "F": 0.15, "G": 0.12, "H": 0.10},
         "margins": {"D": 0.25, "E": 0.20, "F": 0.19, "G": 0.185, "H": 0.18},
-        "pe_low": {c: 14 for c in "CDEFGH"},
-        "pe_high": {c: 20 for c in "CDEFGH"},
+        "pe_low": {"C": 16, "D": 16, "E": 15, "F": 14, "G": 13, "H": 12},
+        "pe_high": {"C": 22, "D": 22, "E": 20, "F": 18, "G": 17, "H": 16},
     },
 }
 
