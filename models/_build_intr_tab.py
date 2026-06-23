@@ -63,27 +63,30 @@ ANALYST = {"C": 335, "D": 430, "E": 540, "F": 650}
 CASES = {
     "bull": {
         "base": 4,
-        # faster client/credit growth + re-rating toward Nu-like multiples
+        # faster client/credit growth + re-rating toward Nu-like multiples;
+        # cheap stock so multiples hold flat rather than compress
         "rev_g": {"C": 0.30, "D": 0.27, "E": 0.23, "F": 0.20, "G": 0.17, "H": 0.15},
         "margins": {"D": 0.24, "E": 0.255, "F": 0.265, "G": 0.27, "H": 0.28},
-        "pe_low": {"C": 13, "D": 12, "E": 12, "F": 11, "G": 10, "H": 10},
-        "pe_high": {"C": 18, "D": 17, "E": 16, "F": 15, "G": 14, "H": 13},
+        "pe_low": {"C": 15, "D": 15, "E": 15, "F": 15, "G": 15, "H": 15},
+        "pe_high": {"C": 20, "D": 20, "E": 20, "F": 20, "G": 20, "H": 20},
     },
     "base": {
         "base": 28,
-        # steady 20s% growth decelerating; gradual margin expansion
+        # steady 20s% growth decelerating; gradual margin expansion;
+        # flat (not compressing) multiples given the depressed starting point
         "rev_g": {"C": 0.24, "D": 0.21, "E": 0.18, "F": 0.16, "G": 0.14, "H": 0.12},
         "margins": {"D": 0.235, "E": 0.245, "F": 0.25, "G": 0.255, "H": 0.26},
-        "pe_low": {"C": 11, "D": 10, "E": 10, "F": 9, "G": 8, "H": 8},
-        "pe_high": {"C": 15, "D": 14, "E": 13, "F": 12, "G": 11, "H": 11},
+        "pe_low": {"C": 13, "D": 13, "E": 13, "F": 13, "G": 13, "H": 13},
+        "pe_high": {"C": 17, "D": 17, "E": 17, "F": 17, "G": 17, "H": 17},
     },
     "bear": {
         "base": 52,
-        # Brazil credit-cycle stress + BRL drag cap growth and margins
+        # Brazil credit-cycle stress + BRL drag cap growth and margins, but
+        # multiples stay reasonable (stock already near 52-wk low / ~9x)
         "rev_g": {"C": 0.17, "D": 0.14, "E": 0.12, "F": 0.10, "G": 0.09, "H": 0.08},
         "margins": {"D": 0.215, "E": 0.215, "F": 0.22, "G": 0.22, "H": 0.225},
-        "pe_low": {"C": 8, "D": 8, "E": 7, "F": 7, "G": 6, "H": 6},
-        "pe_high": {"C": 11, "D": 10, "E": 10, "F": 9, "G": 8, "H": 8},
+        "pe_low": {"C": 10, "D": 10, "E": 10, "F": 10, "G": 10, "H": 10},
+        "pe_high": {"C": 13, "D": 13, "E": 13, "F": 13, "G": 13, "H": 13},
     },
 }
 
