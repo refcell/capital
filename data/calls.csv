@@ -45,7 +45,7 @@ FRSH,2026-09-02,Freshworks Inc.,Technology / application software / customer and
 GENI,2026-08-04,Genius Sports Limited,Communication Services / Internet Content & Information,backfill,initial,watch,neutral,own,pe,8.08,2026-08-04,4.2,0.25,32.0,0.5,78.4,0.25,36.65,stated,0.6553,,,,research/GENI.md,e1ac4c6
 GNW,2026-07-15,"Genworth Financial, Inc.","Financial Services / Insurance — Life, Annuities, Mortgage Insurance",backfill,initial,watch,neutral,watch,pb_roe,9.74,2026-07-15,9.15,0.25,11.44,0.5,16.02,0.25,12.01,stated,0.0723,,,,research/GNW.md,0949670
 GPI,2026-07-06,"Group 1 Automotive, Inc.",Consumer Cyclical / Auto & Truck Dealerships,backfill,initial,watch,positive,own,pe,296.81,2026-07-06,330.0,0.25,468.0,0.5,651.0,0.25,479.0,stated,0.1730,434.5,10.2,,research/GPI.md,d359dec
-GTLB,2026-04-25,GitLab Inc,,backfill,,watch,negative,own,,21.0,,19.0,,35.0,,51.5,,35.0,base,0.1856,,,,research/GTLB.md,ddb8fbc
+GTLB,2026-04-25,GitLab Inc,,backfill,,watch,negative,own,,21.0,,19.0,,35.0,,51.5,,35.0,base,0.1856,,,,research/GTLB.md,3daa9e5
 GTLB,2026-05-24,GitLab Inc.,DevSecOps / software development platform / AI-enabled developer tools,backfill,pre_earnings,watch,neutral,watch,ev_sales,26.73,2026-05-22,23.5,,38.0,,67.5,,38.0,base,0.1244,30.3,25.4,,research/GTLB.md,72101bb
 HIMS,2026-05-11,Hims & Hers Health,,backfill,,,,avoid,,28.27,2026-05-08,5.0,,27.0,,74.0,,27.0,base,-0.0152,,,,research/HIMS.md,b989626
 HIMS,2026-05-24,"Hims & Hers Health, Inc.","Consumer health, telehealth, digital pharmacy",backfill,post_earnings,watch,neutral,own,fcf,23.75,2026-05-22,13.0,,51.0,,116.0,,51.0,base,0.2901,26.82,90.2,,research/HIMS.md,c144126
@@ -70,7 +70,7 @@ MIDD,2026-06-26,The Middleby Corporation,Industrials / Specialty Industrial Mach
 NBIS,2026-10-27,Nebius Group N.V.,"Communication Services per provider classification; in practice AI cloud infrastructure (""neocloud""): GPU clusters, managed inference and developer tooling, plus non-core autonomous-driving (Avride), edtech (TripleTen) and minority stakes in ClickHouse and Toloka",backfill,initial,watch,positive,own,ev_ebitda,153.27,2026-10-26,68.51,0.3,318.94,0.5,544.76,0.2,288.98,weighted,0.2354,,,,research/NBIS.md,89484d4
 NDSN,2026-08-13,Nordson Corporation,Industrials / Specialty Industrial Machinery,backfill,initial,watch,neutral,avoid,pe,309.99,2026-08-13,277.0,0.25,366.0,0.5,470.0,0.25,277.0,stated,-0.0368,,,,research/NDSN.md,d82e9ef
 NKE,2026-06-01,"NIKE, Inc.","Consumer discretionary / athletic footwear, apparel, and sportswear",backfill,pre_earnings,watch,neutral,avoid,fcf,45.92,,21.0,,41.5,,70.0,,41.5,base,-0.0332,60.78,-31.7,,research/NKE.md,e6ffc84
-NOW,2026-05-06,NOW,,backfill,,,,own,,92.01,2026-05-05,94.0,,165.0,,255.0,,165.0,base,0.2149,,,,research/NOW.md,d855fa6
+NOW,2026-05-06,NOW,,backfill,,,,own,,92.01,2026-05-05,94.0,,165.0,,255.0,,165.0,base,0.2149,182.4,-9.5,,research/NOW.md,450c060
 NOW,2026-05-24,"ServiceNow, Inc.",Enterprise software / workflow automation / AI platform,backfill,post_earnings,watch,positive,own,fcf,102.13,2026-05-22,100.0,,185.0,,305.0,,185.0,base,0.2190,143.06,29.3,,research/NOW.md,8e2f5df
 NRG,2026-08-07,"NRG Energy, Inc.",Utilities — Independent Power Producers and Energy Retailers,backfill,initial,watch,neutral,own,pe,118.13,2026-08-07,103.96,0.2,184.31,0.55,292.1,0.25,195.19,stated,0.1822,,,,research/NRG.md,070e490
 NU,2026-05-18,NU,,backfill,,,,,,12.19,2026-05-15,,,,,,,,,,19.49,,,research/NU.md,09300b6

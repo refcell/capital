@@ -47,6 +47,6 @@ Last release: 2026-10-28 (post-market 8-K Item 2.02, [0001373715-26-000092](http
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
 | 2026-05-24 | $102.13 | Watch (positive) | Own | $100.00 | $185.00 | $305.00 | $185.00 | +0.6% | -0.8% | bear to base | [report](https://github.com/refcell/capital/blob/8e2f5df/research/NOW.md) |
-| 2026-05-06 | $92.01 | unstated | Own | $94.00 | $165.00 | $255.00 | $165.00 | +11.7% | +7.2% | bear to base | [report](https://github.com/refcell/capital/blob/d855fa6/research/NOW.md) |
+| 2026-05-06 | $92.01 | unstated | Own | $94.00 | $165.00 | $255.00 | $165.00 | +11.7% | +7.2% | bear to base | [report](https://github.com/refcell/capital/blob/450c060/research/NOW.md) |
 
 Data: `data/NOW/`. Prices: `data/prices/NOW.csv`.

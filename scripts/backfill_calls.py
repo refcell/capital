@@ -73,7 +73,7 @@ def report_versions() -> list[Version]:
     paths = sorted(set(git("log", "--format=", "--name-only", "--", "research/*.md").split()))
     out = []
     for path in paths:
-        if path.endswith("TEMPLATE.md"):
+        if path.endswith("TEMPLATE.md") or path.count("/") != 1:
             continue
         for line in git("log", "--format=%h %ad", "--date=short", "--", path).splitlines():
             commit, date = line.split()
@@ -488,11 +488,17 @@ def street_mean(text: str) -> tuple[float, str] | None:
 
 
 @functools.lru_cache(maxsize=None)
-def file_history(path: str) -> list[tuple[str, str]]:
+def file_history(path: str) -> tuple[tuple[str, str, str], ...]:
+    """(commit, date, path at that commit), newest first, following renames."""
     out = []
-    for line in git("log", "--format=%h %ad", "--date=short", "--follow", "--", path).splitlines():
-        commit, date = line.split()
-        out.append((commit, date))
+    log = git("log", "--format=@%h %ad", "--date=short", "--name-only", "--follow", "--", path)
+    commit = date = None
+    for line in log.splitlines():
+        if line.startswith("@"):
+            commit, date = line[1:].split()
+        elif line.strip() and commit:
+            out.append((commit, date, line.strip()))
+            commit = None
     return tuple(out)
 
 
@@ -500,13 +506,13 @@ def companion(paths: list[str], call_date: str, commit_date: str) -> dict[str, s
     """The version of the first existing path whose commit is closest to the report commit."""
     best = None
     for path in paths:
-        for commit, date in file_history(path):
-            blob = store.git_blob(commit, path)
+        for commit, date, old_path in file_history(path):
+            blob = store.git_blob(commit, old_path)
             if blob is None:
                 continue
             gap = abs((datetime.fromisoformat(date) - datetime.fromisoformat(commit_date)).days)
             if gap <= 4 and (best is None or gap < best[0]):
-                best = (gap, {"path": path, "commit": commit})
+                best = (gap, {"path": old_path, "commit": commit})
     return best[1] if best else None
 
 
@@ -544,7 +550,7 @@ def model_for(company: str, ticker: str, date: str, models: dict[str, list[str]]
 @functools.lru_cache(maxsize=None)
 def script_text(path: str) -> bytes:
     hist = file_history(path)
-    return (store.git_blob(hist[0][0], path) or b"") if hist else b""
+    return (store.git_blob(hist[0][0], hist[0][2]) or b"") if hist else b""
 
 
 def script_for(ticker: str, model_path: str | None, scripts: list[str]) -> str | None:
@@ -643,7 +649,7 @@ def build_call(v: Version, models: dict[str, list[str]], scripts: list[str], gap
     model = model_for(company, ticker, date, models)
     script = script_for(ticker, model, scripts)
     artifacts: dict[str, Any] = {"report": {"path": v.path, "commit": v.commit}}
-    proj_paths = [f"projections/{ticker}.md", f"projections/{ticker.lower()}.md", f"projections/{Path(v.path).stem}.md"]
+    proj_paths = [f"projections/{ticker}.md"]
     proj = companion(list(dict.fromkeys(proj_paths)), date, v.commit_date)
     if proj:
         artifacts["projection"] = proj
@@ -731,7 +737,17 @@ def main(argv: list[str] | None = None) -> int:
     if args.ticker:
         versions = [v for v in versions if Path(v.path).stem.upper() == args.ticker.upper()]
     # Oldest first, so the newest commit of a given call date wins.
-    versions.sort(key=lambda v: (v.commit_date, v.commit))
+    order = {h: i for i, h in enumerate(reversed(git("log", "--format=%h").split()))}
+    versions.sort(key=lambda v: order[v.commit])
+    # A rename or a no-op commit repeats a version; keep the earliest commit of identical content.
+    seen_text: set[tuple[str, str]] = set()
+    unique = []
+    for v in versions:
+        key = (Path(v.path).stem.upper(), v.text)
+        if key not in seen_text:
+            seen_text.add(key)
+            unique.append(v)
+    versions = unique
     results: dict[str, tuple[dict, dict, Version]] = {}
     for v in versions:
         built = build_call(v, models, scripts, gaps)

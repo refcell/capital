@@ -45,6 +45,6 @@ Last release: 2026-09-01 (post-market 8-K Item 2.02, [0001628280-26-059820](http
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
 | 2026-05-24 | $26.73 | Watch | Watch | $23.50 | $38.00 | $67.50 | $38.00 | +76.3% | +74.8% | base to bull | [report](https://github.com/refcell/capital/blob/72101bb/research/GTLB.md) |
-| 2026-04-25 | $21.00 | Watch (negative) | Own | $19.00 | $35.00 | $51.50 | $35.00 | +119.1% | +113.1% | base to bull | [report](https://github.com/refcell/capital/blob/ddb8fbc/research/GTLB.md) |
+| 2026-04-25 | $21.00 | Watch (negative) | Own | $19.00 | $35.00 | $51.50 | $35.00 | +119.1% | +113.1% | base to bull | [report](https://github.com/refcell/capital/blob/3daa9e5/research/GTLB.md) |
 
 Data: `data/GTLB/`. Prices: `data/prices/GTLB.csv`.

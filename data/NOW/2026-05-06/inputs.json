@@ -8,8 +8,14 @@
     "price": {
       "value": 92.01,
       "as_of": "2026-05-05",
-      "source": "research/NOW.md@d855fa6",
+      "source": "research/NOW.md@450c060",
       "quote": "$92.01 close on 2026-05-05"
+    },
+    "street_target_mean": {
+      "value": 182.4,
+      "as_of": null,
+      "source": "research/NOW.md@450c060",
+      "quote": "average price target of $182.40"
     }
   },
   "notes": [

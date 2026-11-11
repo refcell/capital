@@ -14,7 +14,7 @@
 - HOOD 08623c7: no stance stated
 - INTR 2cafc35: no stance stated
 - MELI d7d912b: no stance stated
-- NOW d855fa6: no stance stated
+- NOW 450c060: no stance stated
 - NU 09300b6: no stance stated; no bear/base/bull value table parsed
 - PYPL 9f61507: no stance stated
 - QURE 3795ff1: no bear/base/bull value table parsed
