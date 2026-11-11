@@ -2,42 +2,94 @@
 
 # Celsius Holdings, Inc. (NASDAQ: CELH)
 
-Sector: Consumer staples / functional energy drinks · Calls: 2 · Latest: 2026-05-24
+Sector: Consumer staples / energy drinks (CELSIUS, Alani Nu, Rockstar Energy), distributed mainly by PepsiCo · Calls: 3 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / cautiously constructive but integration-dependent |
-| Rule rating | Own (+18.4% a year expected over 3 years) |
-| Price at call | $30.12 on 2026-05-22 |
-| Bear / base / bull | $22.50 / $50.00 / $82.50 |
-| Weights | — / — / — |
-| Fair value | $50.00 (base) |
+| Stance (as published) | Watch — unchanged, bias now neutral; like-for-like revenue rose about 8% on Alani Nu, but the CELSIUS brand shrank, gross margin fell 450 bps and adjusted EBITDA fell 3%, and the expected return is about 10% a year |
+| Rule rating | Watch (+9.5% a year expected over 3 years) |
+| Price at call | $32.80 on 2026-11-10 |
+| Bear / base / bull | $19.48 / $47.95 / $82.20 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $43.12 (weighted) |
 | Street mean target | — |
-| Valuation lens | Brand portfolio earnings power, FCF, and preferred-adjusted EV |
-| Revenue CAGR vs base rates | bear +5.0% = 51th pct / base +10.0% = 75th pct / bull +15.0% = 88th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
-| Since the call | +8.9% vs SPY +1.1% through 2026-11-10; mark $32.80 is bear to base |
+| Valuation lens | Exit P/E on 2029 adjusted net income before preferred dividends (adjusted EBITDA less stock compensation and D&A, taxed at 22%; no interest, since the term loan is netted in net cash), plus net cash built to end-2029, less any Pepsi preferred left unconverted at stated value, over common shares plus the preferred series in the money; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +2.0% = 33th pct / base +8.0% = 69th pct / bull +14.0% = 89th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-26 — Q4 2026 results, expected around February 25, 2027 before the open |
 
-## Fundamentals known on 2026-05-24
+**Thesis.** Celsius's portfolio is gaining share (retail +14.7%, 20.7% of U.S. RTD energy) on Alani Nu (+57.9% retail), and the stock trades at about 19x trailing adjusted earnings before interest with Series A as converted and no meaningful net debt. But Q3 2026 showed the cost: most of the 17% revenue growth was the Rockstar acquisition (like-for-like +7.6%), the CELSIUS brand shrank 6%, gross margin fell 450 bps to 46.8%, promotional allowances rose to 38.6% of net revenue, adjusted EBITDA fell 3%, Pepsi now provides 65% of revenue, and Alani Nu faces a Texas AG demand and caffeine-safety litigation. A base of 8% revenue growth and a margin recovering to 24% at 18x is worth $47.95; weighted with a heavy bear, about 9.6% a year.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CELH 2026-05-24`). Later restatements are not visible here by design.
+**Variant view.** No strong variant view; we largely share the market's caution on margins, the CELSIUS brand and Pepsi dependence. The base differs only modestly: it holds the adjusted EBITDA margin near Q3's 23% in 2027 and recovers it to 24% by 2029, while like-for-like revenue grows about 8%. Where an edge exists it is analytical rather than a disagreement: the per-share value turns on the preferred conversion math and on like-for-like growth, which the headline 17% obscures. The checkable test is FY2027 adjusted EBITDA of at least $740M.
+
+**Catalysts.**
+
+- Q4 2026 results (About February 25, 2027 (last year's release came out before the open on February 26, 2026))
+- Q2 2027 results (About August 2027)
+- Aluminum and fuel costs (2027)
+- Alani Nu growth after lapping the DSD transition (2027)
+- Alani Nu safety: Texas AG demand, caffeine securities class action (response due 2026-11-24), Glazer wrongful-death suit (indemnified), Nielsen and Valente label suits (2027)
+
+**Pre-mortem** (written at decision time).
+
+- Alani Nu fades like earlier energy-drink fads, the CELSIUS brand keeps shrinking, and portfolio revenue stalls while trade spend stays high. — watch: Circana retail growth by brand each quarter; Alani and CELSIUS revenue
+- A regulator or court finds Alani Nu's caffeine marketing unsafe or misleading (Texas AG demand, securities and label class actions, an indemnified wrongful-death suit), forcing warnings, marketing limits or damages on the brand carrying growth. — watch: Texas AG action; rulings on the motions to dismiss; new state AG or FDA activity; Alani retail growth after any warning
+- Pepsi's control of distribution, promotions and receivables shifts economics toward Pepsi, and margins never recover from about 23%. — watch: Pepsi share of revenue (65%) and receivables (58.5%); promotional allowances as a share of net revenue (38.6%); gross margin
+- Aluminum tariffs and fuel keep rising and Celsius cannot price for them in a promotional category, so gross margin stays below 47%. — watch: Gross margin each quarter; commentary on pricing and price-pack architecture
+- Cash flow was flattered by Pepsi-funded termination fees and a $171M promotional accrual build; when the accrual unwinds, free cash flow falls well short of adjusted EBITDA. — watch: Accrued promotional allowances ($479.2M) and operating cash flow against adjusted EBITDA
+- The Watch call is wrong on the upside: margins rebound to 26%, international keeps growing 50%+, and the stock re-rates toward 24x. — watch: Gross margin above 50% and adjusted EBITDA margin above 25% for two quarters
+
+**Kill criteria.**
+
+- Q4 2026 adjusted EBITDA below $125M (bear $118M, base $140M, bull $155M) (check by 2027-03-15) — open
+- FY2027 revenue growth below 4% (bear about 2.6% in calendar 2027, base about 8.8%) (check by 2028-03-15) — open
+- FY2027 adjusted EBITDA below $740M, about FY2026's level (bear about $678M, base about $804M in calendar 2027) (check by 2028-03-15) — open
+- FY2027 CELSIUS brand revenue down more than 3% year on year (bear about -5%, base about flat) (check by 2028-03-15) — open
+
+**Probability claims.**
+
+- 60%: Celsius reports Q4 2026 revenue of at least $740M (Q4 2025: $721.6M, Rockstar already owned; bear $720M, base $760M, bull $785M). (resolves by 2027-03-15)
+- 75%: Celsius reports FY2026 adjusted EBITDA of at least $700M (Q4 at least $121.7M; bear path $696M, base $718M, bull $733M). (resolves by 2027-03-15)
+- 30%: CELSIUS brand revenue grows year on year in Q4 2026. (resolves by 2027-03-15)
+- 35%: Celsius reports a Q2 2027 gross margin of at least 48%. (resolves by 2027-09-15)
+- 55%: Celsius reports FY2027 revenue growth of at least 6% (bear about 2.6%, base 8.8%, bull 15.5%). (resolves by 2028-03-15)
+- 60%: Celsius reports FY2027 adjusted EBITDA of at least $740M (bear about $678M, base $804M, bull $909M). (resolves by 2028-03-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $28.35 at these weights
+- Toward Own: gross margin back above 48% with the CELSIUS brand growing again
+- Toward Avoid (while the price is above about $31): Q4 2026 adjusted EBITDA below $125M
+- Toward Avoid: FY2027 revenue growth below 4% or FY2027 adjusted EBITDA below $740M
+- Toward Avoid: FY2027 CELSIUS brand revenue down more than 3%
+- Toward Avoid: new warnings, marketing limits or an enforcement action on Alani Nu from the Texas AG or another regulator
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 2, risk 3, calibration 3). Counter-case: Take the note's own 0.35 chance that gross margin recovers to 48% by Q2 2027 as the weight on the recovery paths: 65/30/5 gives $31.74, below $32.80, which is Avoid. Adjusted EBITDA fell about 12% and 3% year on year in Q2 and Q3, yet the model needs a 19% rise in Q4, and the growth brand carrying the quarter, Alani Nu, now faces a Texas AG demand, a securities class action over caffeine safety, label class actions and an indemnified wrongful-death suit, none of which the values or the pre-mortem include. The note must explain why 70% belongs on margin recovery when its own claims put that recovery below even odds.
+
+**Response.** Accepted most findings: per-scenario Q4 EBITDA ($118M / $140M / $155M, base +4% on a Q4 2025 that included about $25M of Alani load-in benefit), early kill threshold moved to $125M between bear and base, every 10-Q legal matter added with a pre-mortem reason and catalyst, dividends to 2032 charged on unconverted preferred, calendar-year 2027 paths, multiples restated before interest, the FY2026 claim reset to $700M at 0.75, and weights cut to 35/50/15, which lowers the fair value to $43.12 (9.6% a year). We did not move to the counter-case's 65% bear: the base's 2027 adjusted EBITDA margin (23.0%) equals what Q3 2026 already delivered at a 46.8% gross margin, so the base does not depend on gross margin returning to 48%. The variant view remains weak and the note says so.
+
+**Data notes.** The May call used 2030 FCF multiples and stated the base as its fair value; this update states three-year end-2029 values, undiscounted. The rating rule annualizes over 3 years (9.6% a year); end-2029 is 3.14 years away, at which the fair value returns 9.1% a year. Adjusted net income = (adjusted EBITDA - $36M stock compensation - D&A) x 0.78, with D&A of $55M / $60M / $65M in 2029 (bear / base / bull) and no interest, because the term loan is netted in net cash. Trailing, it is about $497M before interest or $473M after, consistent with $1.45 of adjusted EPS once preferred dividends and participation are added back; the current multiple on the exit basis is about 19.4x (20.3x after interest). Net cash roll-forward from -$17M ($700.6M cash less $693.0M term loan less the $25M Strong Arm settlement due 2027-01-05): Q4 2026 adds the scenario's Q4 EBITDA ($118M / $140M / $155M on $720M / $760M / $785M of revenue; FY2026 $696M / $718M / $733M); calendar 2027-2029 EBITDA rises in a straight line from FY2026 to 2029, less tax, capex at 2.2% of revenue, cash interest ($30M / $25M / $20M a year) and working capital at 10% of the revenue increase, less $57.2M a year of preferred dividends and $36M a year of buybacks offsetting grants (common held at 252.8M). Pepsi preferred: Series A $550M at $25.00 (22.0M shares), Series B $585M at $51.75 (11.3M shares), 5% dividends, automatic conversion from 2031-08-28, company redemption from 2032-08-28. A series counted as converted (scenario value above its conversion price) is charged its 2030-31 dividends (about $46M A, $49M B); an unconverted series is deducted at stated value plus dividends to August 2032 (about $73M A, $78M B). No current Street consensus snapshot was captured for this update. MNST and KDP were added to the peer dataset for this update. capital.multiples: MNST EV/EBIT 31.2x and P/FCF 46.2x (P/E does not compute), KDP EV/EBIT 19.9x and GAAP P/E 31.2x, CELH EV/EBIT 19.9x. At a 20x base exit (Series B converts) the base is $53.00 and the fair value $45.65 (11.7% a year); at 16x $42.95 and $40.62 (7.4%). A 13x bear adds $1.70 to the bear and $0.60 to the fair value. At 30/50/20 weights the fair value is $46.26, 12.1% a year; at 25/50/25 $49.40, 14.6% a year. A fired kill criterion implies about 60/40/0 ($30.87), Avoid only while the price stays above about $31. Bias moved to neutral from negative: the quarter's evidence was mostly negative, but at about 19x trailing adjusted earnings before interest the price discounts much of it, and the weighted return sits in the middle of the Watch band. Review round 1 (agent:reviewing-research, grade C): net interest was counted twice; the May change-my-mind items were reported selectively; the cash-flow reading was too generous; the 17% growth was inflated by the Rockstar acquisition (like-for-like 7.6%); the Q4 stub was too high; claims clustered near 50%; the behavioral tag was unsupported; kill criteria could not by themselves lead to Avoid; the current multiple should deduct Series B; the $25M settlement, litigation and post-2029 preferred dividends were missing; promotional allowances needed a share-of-revenue metric; the bias change was unexplained. All fixed; values moved from $19.27 / $49.02 / $81.48 (fair value $46.59) to $20.20 / $48.32 / $82.27 (fair value $46.67). Review round 2 (grade B): every value and sensitivity recomputed, but the Q4 stub was 20.3% of revenue rather than the stated 18.6%, the early kill criterion sat below every modelled path, 70% weight on margin recovery sat badly with 0.35 on gross margin back at 48%, the litigation list missed the Texas AG demand, a second securities class action over Alani Nu caffeine risk, the Nielsen and Valente label suits and the Glazer indemnity, unconverted preferred carried no dividends to redemption, 2027 figures were run rates, and two multiples mixed levered and unlevered bases. Fixed: per-scenario Q4 ($118M / $140M / $155M), early kill threshold $125M, weights 35/50/15, every 10-Q matter listed with a pre-mortem reason and catalyst, dividends to 2032 deducted on unconverted preferred, calendar-year 2027 figures, multiples restated before interest, FY2026 EBITDA claim reset to $700M at 0.75. Values moved to $19.48 / $47.95 / $82.20, fair value $43.12 (9.6% a year).
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CELH 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 2,968.6M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Gross profit (TTM) | 1,473.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Operating income (TTM) | 228.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Net income (TTM) | 173.7M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Diluted EPS (TTM) | 0.43 USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Operating cash flow (TTM) | 329.8M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Capex (TTM) | 37.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Free cash flow (TTM) | 292.8M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Stock comp (TTM) | 30.6M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Cash | 549.2M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Long-term debt | 675.9M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Equity | 1,250.8M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
-| Shares outstanding | 255.6M | 2026-04-30 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Revenue (TTM) | 3,169.4M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Gross profit (TTM) | 1,509.8M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Operating income (TTM) | 412.4M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Net income (TTM) | 317.1M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Diluted EPS (TTM) | 0.89 USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Operating cash flow (TTM) | 330.7M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Capex (TTM) | 61.7M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Free cash flow (TTM) | 269.0M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Stock comp (TTM) | 36.1M USD | 2026-09-30 | ttm ytd | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Cash | 700.6M USD | 2026-09-30 | instant | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Long-term debt | 674.7M USD | 2026-09-30 | instant | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Equity | 1,275.4M USD | 2026-09-30 | instant | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
+| Shares outstanding | 250.6M | 2026-10-31 | instant | [0001341766-26-000062](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/) |
 
 ## Earnings calendar
 
@@ -47,6 +99,7 @@ Last release: 2026-11-05 (pre-market 8-K Item 2.02, [0001341766-26-000059](https
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $32.80 | Watch | Watch | $19.48 | $47.95 | $82.20 | $43.12 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/CELH/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/CELH/2026-11-11.xlsx) |
 | 2026-05-24 | $30.12 | Watch (negative) | Own | $22.50 | $50.00 | $82.50 | $50.00 | +8.9% | +7.8% | bear to base | [report](https://github.com/refcell/capital/blob/be2b3a4/research/CELH.md) |
 | 2026-05-13 | $29.61 | unstated | Avoid | $6.00 | $20.00 | $44.00 | $20.00 | +10.8% | +8.7% | base to bull | [report](https://github.com/refcell/capital/blob/9c0e68d/research/CELH.md) |
 

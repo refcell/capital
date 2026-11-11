@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 140 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 141 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,8 +12,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 16 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 73 | 105 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 74 | 105 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -39,7 +39,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [CART](CART.md) | Maplebear Inc. (Instacart) | Consumer Internet | active | 2026-05-29 | 1 | Watch | Watch | $39.80 | $52.00 | +9.3% | +46.9% | +46.9% |
 | [CCC](CCC.md) | CCC Intelligent Solutions Holdings Inc. | Technology — Software - Application (SaaS) | active | 2026-07-23 | 1 | Watch | Watch | $5.74 | $7.17 | +7.7% | +34.0% | +31.8% |
 | [CCL](CCL.md) | Carnival Corporation & plc | Consumer discretionary | active | 2026-09-10 | 1 | Watch (positive) | Watch | $22.70 | $32.27 | +12.4% | +36.1% | +37.5% |
-| [CELH](CELH.md) | Celsius Holdings, Inc. | Consumer staples | active | 2026-05-24 | 2 | Watch (negative) | Own | $30.12 | $50.00 | +18.4% | +8.9% | +7.8% |
+| [CELH](CELH.md) | Celsius Holdings, Inc. | Consumer staples | active | 2026-11-11 | 3 | Watch | Watch | $32.80 | $43.12 | +9.5% | — | — |
 | [CENTA](CENTA.md) | Central Garden & Pet Company | Consumer Defensive | active | 2026-06-26 | 1 | Watch (positive) | Watch | $39.32 | $56.55 | +12.9% | +4.8% | +1.7% |
 | [CG](CG.md) | The Carlyle Group Inc. | Financials | active | 2026-11-11 | 2 | Watch (negative) | Watch | $41.70 | $48.34 | +5.0% | — | — |
 | [CHRD](CHRD.md) | Chord Energy Corporation | Energy | active | 2026-09-16 | 1 | Watch (positive) | Watch | $157.00 | $172.00 | +3.1% | -11.7% | -11.0% |

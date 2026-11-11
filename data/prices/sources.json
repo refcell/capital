@@ -269,6 +269,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/JOBY",
     "last_capture": "2026-11-11T02:23:01+00:00"
   },
+  "KDP": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KDP",
+    "last_capture": "2026-11-11T07:36:43+00:00"
+  },
   "KNF": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KNF",
@@ -323,6 +328,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/MIDD",
     "last_capture": "2026-11-11T02:23:04+00:00"
+  },
+  "MNST": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MNST",
+    "last_capture": "2026-11-11T07:36:43+00:00"
   },
   "NBIS": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

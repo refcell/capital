@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "ticker": "CELH",
+  "exchange": "NASDAQ",
+  "company": "Celsius Holdings, Inc.",
+  "sector": "Consumer staples / energy drinks (CELSIUS, Alani Nu, Rockstar Energy), distributed mainly by PepsiCo",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "CELH/2026-05-24",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged, bias now neutral; like-for-like revenue rose about 8% on Alani Nu, but the CELSIUS brand shrank, gross margin fell 450 bps and adjusted EBITDA fell 3%, and the expected return is about 10% a year",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "Exit P/E on 2029 adjusted net income before preferred dividends (adjusted EBITDA less stock compensation and D&A, taxed at 22%; no interest, since the term loan is netted in net cash), plus net cash built to end-2029, less any Pepsi preferred left unconverted at stated value, over common shares plus the preferred series in the money; three-year value, undiscounted",
+  "price": {
+    "value": 32.8,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 19.48,
+      "weight": 0.35,
+      "revenue_cagr": 0.02,
+      "basis": "Q4 2026 adjusted EBITDA $118M on $720M; revenue +2% a year from the TTM $3,169.4M to $3,380M; adjusted EBITDA margin 19% ($642M); adjusted net income $430M x 12.0x = $5,159M; net cash end-2029 $1,050M; both preferred series below their conversion prices, deducted at $1,135M stated value plus about $151M of dividends to the August 2032 redemption date; 252.8M shares"
+    },
+    "base": {
+      "value": 47.95,
+      "weight": 0.5,
+      "revenue_cagr": 0.08,
+      "basis": "Q4 2026 adjusted EBITDA $140M on $760M; revenue +8% a year to $4,070M; adjusted EBITDA margin 24% ($977M; 23.0% in calendar 2027); adjusted net income $687M x 18.0x = $12,367M; net cash end-2029 $1,518M; Series A converted (22.0M shares, less about $46M of 2030-31 dividends), Series B deducted at $585M plus about $78M of dividends to 2032; 274.8M shares"
+    },
+    "bull": {
+      "value": 82.2,
+      "weight": 0.15,
+      "revenue_cagr": 0.14,
+      "basis": "Q4 2026 adjusted EBITDA $155M on $785M; revenue +14% a year to $4,852M; adjusted EBITDA margin 26% ($1,262M); adjusted net income $905M x 24.0x = $21,725M; net cash end-2029 $1,888M; both series converted (33.3M shares, less about $95M of 2030-31 dividends); 286.1M shares"
+    }
+  },
+  "fair_value": {
+    "value": 43.12,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on 2029 adjusted net income, undiscounted; no common dividend",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Celsius's portfolio is gaining share (retail +14.7%, 20.7% of U.S. RTD energy) on Alani Nu (+57.9% retail), and the stock trades at about 19x trailing adjusted earnings before interest with Series A as converted and no meaningful net debt. But Q3 2026 showed the cost: most of the 17% revenue growth was the Rockstar acquisition (like-for-like +7.6%), the CELSIUS brand shrank 6%, gross margin fell 450 bps to 46.8%, promotional allowances rose to 38.6% of net revenue, adjusted EBITDA fell 3%, Pepsi now provides 65% of revenue, and Alani Nu faces a Texas AG demand and caffeine-safety litigation. A base of 8% revenue growth and a margin recovering to 24% at 18x is worth $47.95; weighted with a heavy bear, about 9.6% a year.",
+  "consensus_view": "No current Street snapshot was captured. At $32.80 the market pays about 19x trailing adjusted earnings before interest with Series A as converted, in line with Keurig Dr Pepper's EV/EBIT and far below Monster's, which prices growth slowing and margins staying below 2025's.",
+  "variant_view": "No strong variant view; we largely share the market's caution on margins, the CELSIUS brand and Pepsi dependence. The base differs only modestly: it holds the adjusted EBITDA margin near Q3's 23% in 2027 and recovers it to 24% by 2029, while like-for-like revenue grows about 8%. Where an edge exists it is analytical rather than a disagreement: the per-share value turns on the preferred conversion math and on like-for-like growth, which the headline 17% obscures. The checkable test is FY2027 adjusted EBITDA of at least $740M.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results",
+      "timing": "About February 25, 2027 (last year's release came out before the open on February 26, 2026)",
+      "date": "2027-02-25",
+      "kind": "hard",
+      "what_it_proves": "Whether Q4 adjusted EBITDA reaches the base's $140M (bear $118M, bull $155M; Q4 2025 was $134.1M including about $25M of Alani load-in benefit), gross margin stabilizes, and the CELSIUS brand laps an easy comparison",
+      "value_impact": "Q4 adjusted EBITDA below $125M fires the early kill criterion (weights to about 60/40/0, fair value about $30.87, Avoid while the price is above about $31); gross margin back above 48% with CELSIUS growing supports the base"
+    },
+    {
+      "event": "Q2 2027 results",
+      "timing": "About August 2027",
+      "date": "2027-08-05",
+      "kind": "hard",
+      "what_it_proves": "Whether 2027 revenue growth and margins are on the base path after a full year of the brand-led reorganization",
+      "value_impact": "Revenue growth below 4% or EBITDA below the prior year points to the bear ($19.48)"
+    },
+    {
+      "event": "Aluminum and fuel costs",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the gross margin compression was cyclical",
+      "value_impact": "Each point of 2029 adjusted EBITDA margin moves the base by about $2.31 a share"
+    },
+    {
+      "event": "Alani Nu growth after lapping the DSD transition",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether Alani is a durable second brand or a fad",
+      "value_impact": "Alani retail growth below 10% would move weight to the bear"
+    },
+    {
+      "event": "Alani Nu safety: Texas AG demand, caffeine securities class action (response due 2026-11-24), Glazer wrongful-death suit (indemnified), Nielsen and Valente label suits",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether regulators or courts force warnings, marketing limits or damages on the brand carrying growth",
+      "value_impact": "Not in the values; nothing is reserved beyond the $25M settlement due January 5, 2027 and $0.2M on one other matter. New warnings or marketing limits on Alani would move weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Alani Nu fades like earlier energy-drink fads, the CELSIUS brand keeps shrinking, and portfolio revenue stalls while trade spend stays high.",
+      "signal": "Circana retail growth by brand each quarter; Alani and CELSIUS revenue"
+    },
+    {
+      "reason": "A regulator or court finds Alani Nu's caffeine marketing unsafe or misleading (Texas AG demand, securities and label class actions, an indemnified wrongful-death suit), forcing warnings, marketing limits or damages on the brand carrying growth.",
+      "signal": "Texas AG action; rulings on the motions to dismiss; new state AG or FDA activity; Alani retail growth after any warning"
+    },
+    {
+      "reason": "Pepsi's control of distribution, promotions and receivables shifts economics toward Pepsi, and margins never recover from about 23%.",
+      "signal": "Pepsi share of revenue (65%) and receivables (58.5%); promotional allowances as a share of net revenue (38.6%); gross margin"
+    },
+    {
+      "reason": "Aluminum tariffs and fuel keep rising and Celsius cannot price for them in a promotional category, so gross margin stays below 47%.",
+      "signal": "Gross margin each quarter; commentary on pricing and price-pack architecture"
+    },
+    {
+      "reason": "Cash flow was flattered by Pepsi-funded termination fees and a $171M promotional accrual build; when the accrual unwinds, free cash flow falls well short of adjusted EBITDA.",
+      "signal": "Accrued promotional allowances ($479.2M) and operating cash flow against adjusted EBITDA"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: margins rebound to 26%, international keeps growing 50%+, and the stock re-rates toward 24x.",
+      "signal": "Gross margin above 50% and adjusted EBITDA margin above 25% for two quarters"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Q4 2026 adjusted EBITDA below $125M (bear $118M, base $140M, bull $155M)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2027 revenue growth below 4% (bear about 2.6% in calendar 2027, base about 8.8%)",
+      "check_by": "2028-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2027 adjusted EBITDA below $740M, about FY2026's level (bear about $678M, base about $804M in calendar 2027)",
+      "check_by": "2028-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2027 CELSIUS brand revenue down more than 3% year on year (bear about -5%, base about flat)",
+      "check_by": "2028-03-15",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "q4-26-revenue-740",
+      "claim": "Celsius reports Q4 2026 revenue of at least $740M (Q4 2025: $721.6M, Rockstar already owned; bear $720M, base $760M, bull $785M).",
+      "probability": 0.6,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-ebitda-700",
+      "claim": "Celsius reports FY2026 adjusted EBITDA of at least $700M (Q4 at least $121.7M; bear path $696M, base $718M, bull $733M).",
+      "probability": 0.75,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q4-26-celsius-brand-up",
+      "claim": "CELSIUS brand revenue grows year on year in Q4 2026.",
+      "probability": 0.3,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q2-27-gross-margin-48",
+      "claim": "Celsius reports a Q2 2027 gross margin of at least 48%.",
+      "probability": 0.35,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "fy27-revenue-growth-6",
+      "claim": "Celsius reports FY2027 revenue growth of at least 6% (bear about 2.6%, base 8.8%, bull 15.5%).",
+      "probability": 0.55,
+      "resolve_by": "2028-03-15"
+    },
+    {
+      "id": "fy27-ebitda-740",
+      "claim": "Celsius reports FY2027 adjusted EBITDA of at least $740M (bear about $678M, base $804M, bull $909M).",
+      "probability": 0.6,
+      "resolve_by": "2028-03-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $28.35 at these weights",
+    "Toward Own: gross margin back above 48% with the CELSIUS brand growing again",
+    "Toward Avoid (while the price is above about $31): Q4 2026 adjusted EBITDA below $125M",
+    "Toward Avoid: FY2027 revenue growth below 4% or FY2027 adjusted EBITDA below $740M",
+    "Toward Avoid: FY2027 CELSIUS brand revenue down more than 3%",
+    "Toward Avoid: new warnings, marketing limits or an enforcement action on Alani Nu from the Texas AG or another regulator"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $3B-$6B starting revenue, 5-year revenue CAGR, 2009-2025 (scenario rates are three-year revenue CAGRs from the $3,169.4M TTM; bear 33rd, base 69th, bull 89th percentile)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 69
+  },
+  "update": {
+    "event": "Q3 2026 results (8-K and 10-Q, 2026-11-05)",
+    "event_date": "2026-11-05",
+    "expected": "May call (Watch, negative bias): base $50.00 on about $700M of 2030 FCF at 22x, fair value stated as the base; checklist asked for CELSIUS to reaccelerate to double digits, Alani sell-through to stay strong, Rockstar to stabilize, gross margin above 50%, falling promotional allowances, moderating Pepsi concentration and FCF tracking earnings",
+    "actual": "Revenue $847.2M (+17%; +7.6% excluding Rockstar); CELSIUS $356.8M (-6%); Alani Nu $410.1M (+24%); Rockstar $80.3M ($12.2M stub); international $41.0M (+78%); promotional allowances 38.6% of net revenue (33.9%); gross margin 46.8% (-450 bps); adjusted EBITDA $198.6M (-3%); adjusted diluted EPS $0.41 ($0.42); portfolio retail +14.7%; Pepsi 65% of revenue and 58.5% of receivables; $170.5M of buybacks in nine months; Texas AG demand and new Alani Nu caffeine securities and label suits",
+    "thesis_pillars": [
+      {
+        "pillar": "A multi-brand portfolio grows with the energy category",
+        "status": "intact",
+        "note": "Portfolio retail +14.7%, 20.7% share; Alani retail +57.9%; like-for-like revenue +7.6%"
+      },
+      {
+        "pillar": "The CELSIUS brand stabilizes",
+        "status": "weakened",
+        "note": "Revenue -6%, retail -7%; new brand president"
+      },
+      {
+        "pillar": "Margins recover as integration matures",
+        "status": "weakened",
+        "note": "Gross margin 46.8% (-450 bps); promotional allowances 38.6% of net revenue; adjusted EBITDA -3%"
+      },
+      {
+        "pillar": "Pepsi partnership is an asset, not a dependency",
+        "status": "weakened",
+        "note": "65% of revenue, 58.5% of receivables, $285M of promotional allowances owed to Pepsi"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-26",
+  "next_review_trigger": "Q4 2026 results, expected around February 25, 2027 before the open",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/CELH/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/CELH/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "CELH closed at $32.80 on November 10, 2026",
+    "scenarios.base.value": "| Base | $50.00 | $47.95 |",
+    "fair_value.value": "| Fair value | $50.00 | $43.12 |"
+  },
+  "notes": [
+    "The May call used 2030 FCF multiples and stated the base as its fair value; this update states three-year end-2029 values, undiscounted. The rating rule annualizes over 3 years (9.6% a year); end-2029 is 3.14 years away, at which the fair value returns 9.1% a year.",
+    "Adjusted net income = (adjusted EBITDA - $36M stock compensation - D&A) x 0.78, with D&A of $55M / $60M / $65M in 2029 (bear / base / bull) and no interest, because the term loan is netted in net cash. Trailing, it is about $497M before interest or $473M after, consistent with $1.45 of adjusted EPS once preferred dividends and participation are added back; the current multiple on the exit basis is about 19.4x (20.3x after interest).",
+    "Net cash roll-forward from -$17M ($700.6M cash less $693.0M term loan less the $25M Strong Arm settlement due 2027-01-05): Q4 2026 adds the scenario's Q4 EBITDA ($118M / $140M / $155M on $720M / $760M / $785M of revenue; FY2026 $696M / $718M / $733M); calendar 2027-2029 EBITDA rises in a straight line from FY2026 to 2029, less tax, capex at 2.2% of revenue, cash interest ($30M / $25M / $20M a year) and working capital at 10% of the revenue increase, less $57.2M a year of preferred dividends and $36M a year of buybacks offsetting grants (common held at 252.8M).",
+    "Pepsi preferred: Series A $550M at $25.00 (22.0M shares), Series B $585M at $51.75 (11.3M shares), 5% dividends, automatic conversion from 2031-08-28, company redemption from 2032-08-28. A series counted as converted (scenario value above its conversion price) is charged its 2030-31 dividends (about $46M A, $49M B); an unconverted series is deducted at stated value plus dividends to August 2032 (about $73M A, $78M B).",
+    "No current Street consensus snapshot was captured for this update.",
+    "MNST and KDP were added to the peer dataset for this update. capital.multiples: MNST EV/EBIT 31.2x and P/FCF 46.2x (P/E does not compute), KDP EV/EBIT 19.9x and GAAP P/E 31.2x, CELH EV/EBIT 19.9x. At a 20x base exit (Series B converts) the base is $53.00 and the fair value $45.65 (11.7% a year); at 16x $42.95 and $40.62 (7.4%). A 13x bear adds $1.70 to the bear and $0.60 to the fair value.",
+    "At 30/50/20 weights the fair value is $46.26, 12.1% a year; at 25/50/25 $49.40, 14.6% a year. A fired kill criterion implies about 60/40/0 ($30.87), Avoid only while the price stays above about $31.",
+    "Bias moved to neutral from negative: the quarter's evidence was mostly negative, but at about 19x trailing adjusted earnings before interest the price discounts much of it, and the weighted return sits in the middle of the Watch band.",
+    "Review round 1 (agent:reviewing-research, grade C): net interest was counted twice; the May change-my-mind items were reported selectively; the cash-flow reading was too generous; the 17% growth was inflated by the Rockstar acquisition (like-for-like 7.6%); the Q4 stub was too high; claims clustered near 50%; the behavioral tag was unsupported; kill criteria could not by themselves lead to Avoid; the current multiple should deduct Series B; the $25M settlement, litigation and post-2029 preferred dividends were missing; promotional allowances needed a share-of-revenue metric; the bias change was unexplained. All fixed; values moved from $19.27 / $49.02 / $81.48 (fair value $46.59) to $20.20 / $48.32 / $82.27 (fair value $46.67).",
+    "Review round 2 (grade B): every value and sensitivity recomputed, but the Q4 stub was 20.3% of revenue rather than the stated 18.6%, the early kill criterion sat below every modelled path, 70% weight on margin recovery sat badly with 0.35 on gross margin back at 48%, the litigation list missed the Texas AG demand, a second securities class action over Alani Nu caffeine risk, the Nielsen and Valente label suits and the Glazer indemnity, unconverted preferred carried no dividends to redemption, 2027 figures were run rates, and two multiples mixed levered and unlevered bases. Fixed: per-scenario Q4 ($118M / $140M / $155M), early kill threshold $125M, weights 35/50/15, every 10-Q matter listed with a pre-mortem reason and catalyst, dividends to 2032 deducted on unconverted preferred, calendar-year 2027 figures, multiples restated before interest, FY2026 EBITDA claim reset to $700M at 0.75. Values moved to $19.48 / $47.95 / $82.20, fair value $43.12 (9.6% a year)."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 2,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "variant_view: The note states 'No strong variant view'; the 'analytical' edge is arithmetic, not a disagreement with the market, and its test (gross margin >=48% by Q2 2027) gets 0.35 from the note's own claim.",
+      "risk: The 10-Q also discloses a Texas AG investigation, a second securities class action over Alani Nu caffeine risks, the Nielsen and Valente label class actions and an indemnity in the Glazer suit, none in the note or pre-mortem; the Q4 kill threshold ($134.1M) sits below the $160M modelled in every scenario and fires on a repeat of Q3's -3%.",
+      "calibration: fy26-ebitda-730 at 0.65 fails on the note's own stub description (18.6% x $790M = $147M, FY2026 $725M), and 70% weight on margin-recovery scenarios sits badly with 0.35 on Q2 2027 gross margin >=48%."
+    ],
+    "grade": "B",
+    "counter_case": "Take the note's own 0.35 chance that gross margin recovers to 48% by Q2 2027 as the weight on the recovery paths: 65/30/5 gives $31.74, below $32.80, which is Avoid. Adjusted EBITDA fell about 12% and 3% year on year in Q2 and Q3, yet the model needs a 19% rise in Q4, and the growth brand carrying the quarter, Alani Nu, now faces a Texas AG demand, a securities class action over caffeine safety, label class actions and an indemnified wrongful-death suit, none of which the values or the pre-mortem include. The note must explain why 70% belongs on margin recovery when its own claims put that recovery below even odds.",
+    "response": "Accepted most findings: per-scenario Q4 EBITDA ($118M / $140M / $155M, base +4% on a Q4 2025 that included about $25M of Alani load-in benefit), early kill threshold moved to $125M between bear and base, every 10-Q legal matter added with a pre-mortem reason and catalyst, dividends to 2032 charged on unconverted preferred, calendar-year 2027 paths, multiples restated before interest, the FY2026 claim reset to $700M at 0.75, and weights cut to 35/50/15, which lowers the fair value to $43.12 (9.6% a year). We did not move to the counter-case's 65% bear: the base's 2027 adjusted EBITDA margin (23.0%) equals what Q3 2026 already delivered at a 46.8% gross margin, so the base does not depend on gross margin returning to 48%. The variant view remains weak and the note says so."
+  }
+}

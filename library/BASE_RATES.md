@@ -22,7 +22,7 @@ Caveats: SEC `frames` values are the latest filed, so these are restated figures
 
 Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue as filed on the call date). Percentile = share of history at or below the forecast.
 
-Across 55 calls, the median base case sits at the 69th percentile; 25 of 55 base cases are above the 75th percentile and 17 of 55 bull cases are above the 90th.
+Across 55 calls, the median base case sits at the 69th percentile; 24 of 55 base cases are above the 75th percentile and 17 of 55 bull cases are above the 90th.
 
 | Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |
 |---|---:|---|---:|---:|---:|
@@ -33,7 +33,7 @@ Across 55 calls, the median base case sits at the 69th percentile; 25 of 55 base
 | [C/2026-06-14](C.md) | $85.22B | Over $50B | +3.0% (44) | +5.0% (56) | +7.0% (68) |
 | [CART/2026-05-29](CART.md) | $3.86B | $3B–$6B | +5.0% (52) | +12.0% (85) | +16.0% (91) |
 | [CCL/2026-09-10](CCL.md) | $27.31B | $25B–$50B | +0.5% (33) | +3.5% (53) | +5.5% (66) |
-| [CELH/2026-05-24](CELH.md) | $2.97B | $1.5B–$3B | +5.0% (51) | +10.0% (75) | +15.0% (88) |
+| [CELH/2026-11-11](CELH.md) | $3.17B | $3B–$6B | +2.0% (33) | +8.0% (69) | +14.0% (89) |
 | [CENTA/2026-06-26](CENTA.md) | $3.16B | $3B–$6B | -2.0% (18) | +0.5% (26) | +3.0% (39) |
 | [CHRD/2026-09-16](CHRD.md) | $6.32B | $6B–$12B | -2.0% (18) | +0.0% (26) | +2.5% (40) |
 | [CLBT/2026-08-17](CLBT.md) | $0.48B | $325M–$700M | +8.0% (57) | +12.0% (71) | +15.0% (79) |
