@@ -17,7 +17,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [AVGO](AVGO.md) | Semiconductors & Related Devices | 275.2x | 59.1–207.1x | 18.2x | 7.7–17.9x | 37.8x | 28.5–55.8x | SIC 36xx, 1 names: 15.0x, — |
 | [BANC](BANC.md) | National Commercial Banks | — | 12.7–24.1x | 3.2x | 2.6–136.1x | — | — | SIC 60xx, 2 names: 4.0x, 18.3x |
 | [BE](BE.md) | Electrical Industrial Apparatus | — | — | 15.0x | 1.9–4.6x | 101.0x | 172.8–403.9x | SIC 36xx, 1 names: 18.2x, 275.2x |
-| [BIP](BIP.md) | Water Transportation | — | — | — | 2.9–4.6x | — | 12.5–14.8x | SIC 44xx, 2 names: 2.8x, 12.8x |
+| [BIP](BIP.md) | Water Transportation | — | — | — | 2.9–4.6x | — | 12.4–14.8x | SIC 44xx, 2 names: 2.8x, 12.8x |
 | [BMA](BMA.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [BOX](BOX.md) | Services-Prepackaged Software | 44.5x | 21.5–40.3x | 4.9x | 3.7–4.5x | 51.8x | 58.3–77.7x | SIC 7372, 10 names: 5.4x, 61.2x |
 | [C](C.md) | National Commercial Banks | 16.0x | 6.3–13.3x | 4.0x | 2.4–3.7x | — | — | SIC 60xx, 2 names: 3.2x, 20.7x |
@@ -64,7 +64,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [MAA](MAA.md) | Real Estate Investment Trusts | 35.6x | 29.0–40.8x | 6.2x | 7.3–9.4x | 106.9x | 116.2–146.9x | SIC 6798, 3 names: 3.5x, 23.7x |
 | [MELI](MELI.md) | Services-Business Services, NEC | 40.0x | 60.8–189.3x | 2.1x | 5.0–15.3x | 28.5x | 39.6–81.7x | SIC 7389, 6 names: 2.2x, 16.5x |
 | [MFG](MFG.md) | National Commercial Banks | — | — | — | — | — | — | SIC 6021, 3 names: 3.6x, 18.3x |
-| [MIDD](MIDD.md) | Refrigeration & Service Industry Machinery | 36.1x | 18.0–24.1x | 2.4x | 2.4–3.4x | 13.9x | 14.9–19.4x | SIC 35xx, 2 names: 4.7x, 29.2x |
+| [MIDD](MIDD.md) | Refrigeration & Service Industry Machinery | 36.1x | 18.0–24.1x | 2.4x | 2.4–3.4x | 13.9x | 14.8–19.4x | SIC 35xx, 2 names: 4.7x, 29.2x |
 | [NBIS](NBIS.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |
 | [NDSN](NDSN.md) | General Industrial Machinery & Equipment, NEC | 32.8x | 25.4–31.4x | 6.6x | 4.5–5.9x | 24.6x | 19.6–24.1x | SIC 35xx, 2 names: 2.6x, 30.8x |
 | [NKE](NKE.md) | Rubber & Plastics Footwear | 18.6x | 25.9–39.8x | 1.2x | 2.6–3.9x | — | — | — |
@@ -81,7 +81,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 9.7x, — |
 | [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | SIC 7011, 3 names: 2.4x, 16.2x |
 | [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 5.1x, 44.5x |
-| [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.4x | SIC 20xx, 3 names: 1.5x, 23.7x |
+| [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.3x | SIC 20xx, 3 names: 1.5x, 23.7x |
 | [PPC](PPC.md) | Poultry Slaughtering and Processing | 21.1x | 9.2–23.8x | 0.5x | 0.5–0.7x | 14.4x | 7.9–18.9x | SIC 20xx, 3 names: 1.9x, 20.3x |
 | [PRIM](PRIM.md) | Water, Sewer, Pipeline, Comm & Power Line Construction | 40.0x | 11.5–20.6x | 0.6x | 0.5–0.6x | 25.4x | 9.9–13.1x | — |
 | [PSNL](PSNL.md) | Services-Medical Laboratories | — | — | 19.3x | 2.8–10.4x | — | — | SIC 80xx, 3 names: 0.3x, — |

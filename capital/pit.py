@@ -8,6 +8,14 @@ trailing twelve months: the latest annual period, or FY + YTD - prior-year YTD w
 10-Q is newer than the 10-K, or the sum of the last four quarters. Instants (cash,
 debt, equity, shares) are the latest balance on or before the date.
 
+Share counts and per-share values are on the share basis of the date: a fact filed before a
+stock split that took effect on or before the date is adjusted by the split ratio, so a TTM
+never mixes a pre-split annual figure with post-split quarters. Split events come from
+data/splits.csv (captured by capital.multiples); an event counts as a split only when later
+filings restate the same period's share counts by its ratio, or, if no filing shows either
+way, when the ratio is 1.5 or more in either direction. Yahoo also records spin-offs as
+splits (PFE 2020, POST 2022), and those must not touch share counts.
+
 Run: python3 -m capital.pit TICKER [DATE]
 """
 
@@ -16,14 +24,23 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import sys
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from datetime import date, timedelta
 from functools import lru_cache
 
 from capital import store
 
 FACTS = store.DATA / "sec" / "facts"
+SPLITS = store.DATA / "splits.csv"
+SHARE_TAGS = (
+    "WeightedAverageNumberOfDilutedSharesOutstanding", "WeightedAverageNumberOfSharesOutstandingBasic",
+    "EarningsPerShareDiluted", "EarningsPerShareBasic", "AdjustedWeightedAverageShares",
+    "DilutedEarningsLossPerShare", "BasicEarningsLossPerShare",
+)
+SPLIT_TOLERANCE = 0.25  # restated counts must match the ratio within a quarter of the split's own size (in logs)
+UNCONFIRMED_MIN = 1.5  # with no restated filing either way, only a clear split (>=1.5x or <=1/1.5x) counts
 
 # metric -> (kind, candidate (taxonomy, tag) pairs in priority order)
 METRICS: dict[str, tuple[str, tuple[tuple[str, str], ...]]] = {
@@ -113,8 +130,59 @@ def days(a: str, b: str) -> int:
     return (date.fromisoformat(b) - date.fromisoformat(a)).days
 
 
+@lru_cache(maxsize=256)
+def splits(ticker: str) -> tuple[tuple[str, float], ...]:
+    """Stock splits for `ticker` as (effective date, new shares per old share), oldest first."""
+    if not SPLITS.exists():
+        return ()
+    with SPLITS.open(newline="") as fh:
+        events = [(r["date"], float(r["numerator"]) / float(r["denominator"])) for r in csv.DictReader(fh)
+                  if r["symbol"] == ticker]
+    by_period: dict[tuple[str, str, str, str], list[Fact]] = {}
+    for f in facts(ticker):
+        if f.tag in SHARE_TAGS and f.start and f.val:
+            by_period.setdefault((f.tag, f.unit, f.start, f.end), []).append(f)
+    out = []
+    for day, ratio in sorted(events):
+        seen = []
+        for fs in by_period.values():
+            before = [f for f in fs if f.filed < day]
+            after = [f for f in fs if f.filed >= day]
+            if before and after:
+                old = max(before, key=lambda f: f.filed).val
+                new = min(after, key=lambda f: f.filed).val
+                seen.append(new / old if fs[0].unit == "shares" else old / new)
+        seen = sorted(x for x in seen if x > 0)
+        if seen:
+            restated = seen[len(seen) // 2]
+            if abs(math.log(restated / ratio)) <= SPLIT_TOLERANCE * abs(math.log(ratio)):
+                out.append((day, ratio))
+        elif abs(math.log(ratio)) >= math.log(UNCONFIRMED_MIN):
+            out.append((day, ratio))
+    return tuple(out)
+
+
+def split_factor(ticker: str, after: str, upto: str) -> float:
+    """New shares per old share for splits effective after `after` and on or before `upto`."""
+    f = 1.0
+    for day, ratio in splits(ticker):
+        if after < day <= upto:
+            f *= ratio
+    return f
+
+
+def _rebase(f: Fact, factor: float) -> Fact:
+    if factor == 1.0:
+        return f
+    if f.unit == "shares":
+        return replace(f, val=f.val * factor)
+    if f.unit.endswith("/shares"):
+        return replace(f, val=f.val / factor)
+    return f
+
+
 def visible(ticker: str, taxonomy: str, tag: str, on: str) -> dict[tuple[str, str, str], Fact]:
-    """(unit, start, end) -> the latest fact filed on or before `on`."""
+    """(unit, start, end) -> the latest fact filed on or before `on`, on the share basis of `on`."""
     out: dict[tuple[str, str, str], Fact] = {}
     for f in facts(ticker):
         if f.taxonomy != taxonomy or f.tag != tag or f.filed > on:
@@ -123,7 +191,7 @@ def visible(ticker: str, taxonomy: str, tag: str, on: str) -> dict[tuple[str, st
         prev = out.get(key)
         if prev is None or (f.filed, f.accn) > (prev.filed, prev.accn):
             out[key] = f
-    return out
+    return {k: _rebase(f, split_factor(ticker, f.filed, on)) for k, f in out.items()}
 
 
 def _value(fs: list[Fact], method: str, tag: str) -> Value:

@@ -12,8 +12,9 @@ Everything else reads only committed files. `python3 -m capital.build` writes
 data/multiples/<T>.csv (one row per month) and library/MULTIPLES.md from them.
 
 Multiples are point in time. Each month uses its last trading close as traded and the SEC
-facts filed on or before the month's last day (capital.pit), with shares and EPS adjusted
-for any split between the filing and the month end. EV is market value plus long-term
+facts filed on or before the month's last day (capital.pit, which puts shares and per-share
+values on the split basis of its date), adjusted for any split between the last filing and
+the month end. EV is market value plus long-term
 debt less cash, equivalents and short-term investments; leases, preferred stock and
 minority interests are not included. Non-USD filers are skipped.
 """
@@ -52,16 +53,6 @@ def _read_csv(path: Path) -> list[dict[str, str]]:
         return []
     with path.open(newline="") as fh:
         return list(csv.DictReader(fh))
-
-
-def splits() -> dict[str, list[tuple[str, float]]]:
-    """symbol -> [(date, ratio)] where ratio = new shares per old share."""
-    out: dict[str, list[tuple[str, float]]] = {}
-    for r in _read_csv(SPLITS):
-        out.setdefault(r["symbol"], []).append((r["date"], float(r["numerator"]) / float(r["denominator"])))
-    for v in out.values():
-        v.sort()
-    return out
 
 
 def _utc_day(ts: int) -> str:
@@ -131,14 +122,6 @@ def month_end(month: str) -> str:
     return f"{month}-{calendar.monthrange(y, m)[1]:02d}"
 
 
-def _split_factor(events: list[tuple[str, float]], after: str, upto: str) -> float:
-    f = 1.0
-    for d, r in events:
-        if after < d <= upto:
-            f *= r
-    return f
-
-
 def _ratio(num: float | None, den: float | None) -> float | None:
     if num is None or den is None or den <= 0 or num <= 0:
         return None
@@ -198,23 +181,25 @@ def _liquidity(f: dict[str, pit.Value]) -> float:
     return cash.value + (sti.value if sti and sti.end == cash.end else 0.0)
 
 
-def point(ticker: str, month: str, on: str, price: float, events: list[tuple[str, float]], filings: list[str]) -> Point | None:
+def point(ticker: str, month: str, on: str, price: float, filings: list[str]) -> Point | None:
     f = _fundamentals(ticker, on, filings)
+    # pit values are on the share basis of the last filing date; carry them to `on`.
+    i = bisect.bisect_right(filings, on)
+    split = pit.split_factor(ticker, filings[i - 1], on) if i else 1.0
     rev = f.get("revenue")
     if not rev or rev.unit != "USD" or pit.days(rev.end, on) > STALE_DAYS:
         return None
     sh = f.get("shares_outstanding")
     if not sh or sh.value <= 0 or pit.days(sh.end, on) > STALE_DAYS:
         sh = f.get("diluted_shares")  # multi-class filers often lack a current cover-page count
-    shares = sh.value * _split_factor(events, sh.filed, on) if sh else None
+    shares = sh.value * split if sh else None
     mcap = price * shares / 1e6 if shares else None
     debt = f["long_term_debt"].value / 1e6 if "long_term_debt" in f else 0.0
     cash = _liquidity(f) / 1e6
     ev = mcap + debt - cash if mcap is not None else None
-    # EPS as trailing net income over diluted shares: a TTM built from per-share facts can mix
-    # pre- and post-split bases when a split falls inside the window.
+    # EPS as trailing net income over diluted shares, which works when the filer reports no EPS tag.
     ni, dil = f.get("net_income"), f.get("diluted_shares")
-    eps_v = ni.value / (dil.value * _split_factor(events, dil.filed, on)) if ni and dil and dil.value > 0 else None
+    eps_v = ni.value / (dil.value * split) if ni and dil and dil.value > 0 else None
     oi = f.get("operating_income")
     fcf = f.get("free_cash_flow")
     return Point(
@@ -232,11 +217,10 @@ def history(ticker: str) -> list[Point]:
     rows = _read_csv(MONTHLY / f"{ticker}.csv")
     if not rows or not (pit.FACTS / f"{ticker}.csv").exists():
         return []
-    events = splits().get(ticker, [])
     filings = _filing_dates(ticker)
     out = []
     for r in rows:
-        p = point(ticker, r["month"], month_end(r["month"]), float(r["close"]), events, filings)
+        p = point(ticker, r["month"], month_end(r["month"]), float(r["close"]), filings)
         if p:
             out.append(p)
     return out
@@ -247,7 +231,7 @@ def current(ticker: str) -> Point | None:
     if not daily or not (pit.FACTS / f"{ticker}.csv").exists():
         return None
     d, close, _ = daily[-1]
-    return point(ticker, d[:7], d, close, splits().get(ticker, []), _filing_dates(ticker))
+    return point(ticker, d[:7], d, close, _filing_dates(ticker))
 
 
 def tickers() -> list[str]:

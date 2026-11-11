@@ -27,7 +27,7 @@ ROWS = [
     f"us-gaap,EarningsPerShareDiluted,USD/shares,2024-01-01,2024-06-30,0.05,{Q},10-Q,2025-08-01,2025,Q2",
     f"us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2025-01-01,2025-06-30,1000,{Q},10-Q,2025-08-01,2025,Q2",
 ]
-SPLIT = [("2025-06-16", 10.0)]
+SPLITS = "symbol,date,numerator,denominator\nEXM,2025-06-16,10,1\n"
 
 
 class MultiplesTest(unittest.TestCase):
@@ -35,17 +35,20 @@ class MultiplesTest(unittest.TestCase):
         root = Path(tempfile.mkdtemp())
         self.addCleanup(shutil.rmtree, root)
         (root / "EXM.csv").write_text(HEADER + "\n".join(ROWS) + "\n")
-        p = mock.patch.object(pit, "FACTS", root)
-        p.start()
-        self.addCleanup(p.stop)
-        pit.facts.cache_clear()
-        self.addCleanup(pit.facts.cache_clear)
+        (root / "splits.csv").write_text(SPLITS)
+        for name, value in (("FACTS", root), ("SPLITS", root / "splits.csv")):
+            p = mock.patch.object(pit, name, value)
+            p.start()
+            self.addCleanup(p.stop)
+        for cache in (pit.facts, pit.splits):
+            cache.cache_clear()
+            self.addCleanup(cache.cache_clear)
         multiples._asof_cache.clear()
         self.addCleanup(multiples._asof_cache.clear)
         self.filings = multiples._filing_dates("EXM")
 
     def pe(self, month: str, price: float) -> float | None:
-        p = multiples.point("EXM", month, multiples.month_end(month), price, SPLIT, self.filings)
+        p = multiples.point("EXM", month, multiples.month_end(month), price, self.filings)
         return p.pe if p else None
 
     def test_pe_is_unchanged_by_the_split_itself(self) -> None:

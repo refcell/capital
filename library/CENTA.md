@@ -37,7 +37,7 @@ From committed SEC XBRL facts filed on or before the call date (`python3 -m capi
 | Cash | 653.2M USD | 2026-03-28 | instant | [0000887733-26-000013](https://www.sec.gov/Archives/edgar/data/887733/000088773326000013/) |
 | Long-term debt | 1,192.6M USD | 2026-03-28 | instant | [0000887733-26-000013](https://www.sec.gov/Archives/edgar/data/887733/000088773326000013/) |
 | Equity | 1,651.2M USD | 2026-03-28 | instant | [0000887733-26-000013](https://www.sec.gov/Archives/edgar/data/887733/000088773326000013/) |
-| Shares outstanding | 12.2M | 2013-12-28 | instant | [0001193125-14-038368](https://www.sec.gov/Archives/edgar/data/887733/000119312514038368/) |
+| Shares outstanding | 15.3M | 2013-12-28 | instant | [0001193125-14-038368](https://www.sec.gov/Archives/edgar/data/887733/000119312514038368/) |
 
 ## Earnings calendar
 
