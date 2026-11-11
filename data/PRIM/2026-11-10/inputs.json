@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "ticker": "PRIM",
+  "date": "2026-11-10",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 71.24,
+      "as_of": "2026-11-09",
+      "source": "data/prices/PRIM.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 7058.1,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_gross_profit_m": {
+      "value": 596.8,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_operating_income_m": {
+      "value": 170.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_net_income_m": {
+      "value": 96.3,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_eps": {
+      "value": 1.77,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_ocf_m": {
+      "value": 151.8,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_capex_m": {
+      "value": 114.1,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "cash_m": {
+      "value": 203.5,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "total_debt_m": {
+      "value": 784.3,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:LongTermDebt (instant), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "shares_outstanding_m": {
+      "value": 52.5287,
+      "as_of": "2026-10-30",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "diluted_shares_m": {
+      "value": 54.1,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "ttm_fcf_m": {
+      "value": 37.7,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-04",
+      "accession": "0001104659-26-122218"
+    },
+    "market_cap_m": {
+      "value": 3742.14,
+      "as_of": "2026-11-09",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 580.8,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m (Q3 10-Q balance sheet)",
+      "accession": "0001104659-26-122218"
+    },
+    "enterprise_value_m": {
+      "value": 4322.94,
+      "as_of": "2026-11-09",
+      "source": "market_cap_m + net_debt_m; excludes operating leases"
+    },
+    "guide_eps_low": {
+      "value": 2.1,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 adjusted diluted EPS guide (non-GAAP); GAAP guide $1.20-1.35; narrowed from $2.05-2.60 (June 22) and $4.80-5.00 (May 5)"
+    },
+    "guide_eps_high": {
+      "value": 2.25,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 adjusted diluted EPS guide (non-GAAP)"
+    },
+    "guide_ebitda_low_m": {
+      "value": 290.0,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 adjusted EBITDA guide (non-GAAP); June 22 range was $275-325M, May range $480-500M"
+    },
+    "guide_ebitda_high_m": {
+      "value": 310.0,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 adjusted EBITDA guide (non-GAAP)"
+    },
+    "fy1_eps": {
+      "value": 2.175,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 adjusted diluted EPS, guide midpoint (S&P consensus $2.23)"
+    },
+    "fy2_eps": {
+      "value": 5.32,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "FY2027 adjusted EPS, S&P Global consensus headline (non-GAAP)"
+    },
+    "fy1_revenue_m": {
+      "value": 7070.0,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "FY2026 revenue consensus; range $6.8-7.5B"
+    },
+    "fy2_revenue_m": {
+      "value": 8030.0,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "FY2027 revenue consensus headline"
+    },
+    "street_target_mean": {
+      "value": 100.47,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "16 analysts; median $102"
+    },
+    "street_target_low": {
+      "value": 64.0,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "Wells Fargo, 2026-11-06"
+    },
+    "street_target_high": {
+      "value": 127.0,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": ""
+    },
+    "street_analysts": {
+      "value": 16,
+      "as_of": "2026-11-10",
+      "source": "StockAnalysis forecast page, S&P Global consensus (sources/stockanalysis-forecast-2026-11-10.html)",
+      "note": "8 Strong Buy, 3 Buy, 5 Hold"
+    },
+    "dividend_per_share": {
+      "value": 0.32,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "$0.08 quarterly dividend declared 2026-10-30, annualized"
+    },
+    "tax_rate_pct": {
+      "value": 33.0,
+      "as_of": "2026-11-03",
+      "source": "Primoris 8-K EX-99.1, 2026-11-03 (sources/8k-2026-11-03-q3-release.htm)",
+      "accession": "0001361538-26-000035",
+      "note": "FY2026 expected effective tax rate; 9M 2026 30.3%"
+    }
+  },
+  "notes": [
+    "Year-end trailing GAAP P/E from saved Yahoo monthly closes (sources/yahoo-chart-prim-monthly-2016-2026.json: 2018 $19.13, 2019 $22.24, 2020 $27.61, 2021 $23.98, 2022 $21.94, 2023 $33.21, 2024 $76.40, 2025 $124.14) and SEC diluted EPS: 2018 12.8x, 2019 13.8x, 2020 12.8x, 2021 11.1x, 2022 8.9x, 2023 14.3x, 2024 23.1x, 2025 24.7x.",
+    "From the Q3 2026 release (accession 0001361538-26-000035): backlog $14,067.9M total ($11,945.3M at 12/31/2025), MSA $8,498.8M, Energy fixed $5,498.2M incl. ~$593.6M PayneCrest; 9M adjusted EPS $1.51 and adjusted EBITDA $206.2M; FY2026 guide interest $43-47M, intangible amortization $41.5M, stock compensation $20.5M; Q3 buyback 1,330,627 shares for $100.0M at $75.15; new $250M authorization.",
+    "From the June 22, 2026 release (accession 0001361538-26-000017): FY2026 Renewables revenue expected ~$2.1B vs ~$3.0B in FY2025; previous FY2026 guidance adjusted EPS $4.80-5.00, adjusted EBITDA $480-500M.",
+    "FY2025 adjusted EPS $5.62 per S&P Global history on the saved StockAnalysis page.",
+    "Total debt is LongTermDebt (current $42.5M + noncurrent $741.8M); operating leases excluded."
+  ],
+  "fiscal_years": {
+    "fy1": "FY2026 (year ending December 31, 2026)",
+    "fy2": "FY2027"
+  }
+}

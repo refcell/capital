@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "ticker": "PRIM",
+  "exchange": "NYSE",
+  "company": "Primoris Services Corporation",
+  "sector": "Industrials — Specialty Contracting / Engineering & Construction",
+  "date": "2026-11-10",
+  "origin": "run",
+  "prior_call": null,
+  "research_status": "initial",
+  "research_status_text": "Initial, post-Q3 2026 (results released 2026-11-03)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — the renewables write-downs are nearly finished, but $71 already pays for most of a recovery the Street expects in one year and this report expects to take until 2028–2029",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 company-adjusted diluted EPS x exit P/E (three-year value, undiscounted); adjusted EPS adds back intangible amortization and stock compensation, so each multiple is also stated on GAAP EPS",
+  "price": {
+    "value": 71.24,
+    "currency": "USD",
+    "date": "2026-11-09"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 34.26,
+      "weight": 0.3,
+      "revenue_cagr": 0.01,
+      "basis": "FY2029 adj EPS $3.43 ($2.57 GAAP): revenue +1%/yr from an estimated $7.00B FY2026 to $7.21B, GAAP op margin 3.6%, interest $58-60M, tax 31% (add-backs taxed at the same rate), 53.5M shares; x 10x adjusted (13.3x GAAP, near the top of the 2018-2023 range)"
+    },
+    "base": {
+      "value": 76.96,
+      "weight": 0.5,
+      "revenue_cagr": 0.07,
+      "basis": "FY2029 adj EPS $5.92 ($5.02 GAAP): revenue +7.5%/7.0%/6.5% to $8.58B, GAAP op margin 4.3%/4.6%/4.8%, interest $52M/$48M/$44M, tax 29%, 52.0M shares; x 13x adjusted (15.3x GAAP)"
+    },
+    "bull": {
+      "value": 133.2,
+      "weight": 0.2,
+      "revenue_cagr": 0.1115,
+      "basis": "FY2029 adj EPS $7.84 ($6.92 GAAP): revenue +13.5% in 2027 to $7.95B then +10%/yr to $9.61B, GAAP op margin 5.6%, interest $50M/$45M/$40M, tax 28.5%, 51.5M shares; x 17x adjusted (19.3x GAAP)"
+    }
+  },
+  "fair_value": {
+    "value": 75.4,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "FY2029 (year ending December 31, 2029) adjusted EPS at an exit P/E, undiscounted",
+  "street": {
+    "target_mean": 100.47,
+    "target_median": 102.0,
+    "target_low": 64.0,
+    "target_high": 127.0,
+    "analysts": 16,
+    "rating_text": "Buy (8 Strong Buy, 3 Buy, 5 Hold)",
+    "as_of": "2026-11-10",
+    "source": "StockAnalysis forecast page, S&P Global (sources/stockanalysis-forecast-2026-11-10.html)"
+  },
+  "deviation_from_street": {
+    "pct": -24.95,
+    "reason": "Timing, interest and multiple: the Street has FY2027 adjusted EPS at $5.32, a near-full return to 2025's $5.62 in one year; this call has $4.59 in 2027 and $5.28 in 2028 because renewables revenue is falling (~$2.1B in 2026 vs ~$3.0B in 2025), Energy carries underused crews, and interest is running near $57M a year after the PayneCrest debt. It also uses a 13x adjusted exit (15.3x GAAP) and puts 30% on a bear case after three guidance cuts in six months. Street targets are one-year values; this is a three-year undiscounted value."
+  },
+  "thesis": "The six loss-making solar projects are nearly finished, so 2026 is the trough, but full recovery to 2025's ~5.4% operating margin takes until 2029 because renewables volume is shrinking, and higher interest and amortization keep EPS a year behind; on that path adjusted EPS reaches ~$5.90 and the stock is worth ~$77 at 13x, about 2% a year from $71.",
+  "consensus_view": "Sixteen analysts (11 Buy-rated) average a $100.47 target on FY2027 adjusted EPS of $5.32, a near-full snap-back to 2025; the market at $71.24 pays 13.4x that number, discounting the recovery modestly rather than doubting it.",
+  "variant_view": "The Street's FY2027 rebound is about a year early: Q3 Energy revenue fell 17.6% even with PayneCrest, management describes solar new work as slow to start in every 2026 release, the Q4 guide implies only $0.59-0.74 of adjusted EPS, and Q3 interest annualizes near $57M; this call has FY2027 adjusted EPS of $4.59 against the Street's $5.32 and reaches the Street's number only in FY2028, so the stock is fair rather than cheap.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results and first FY2027 outlook",
+      "timing": "Around February 22, 2027 (estimated from the February 23, 2026 release)",
+      "date": "2027-02-22",
+      "kind": "hard",
+      "what_it_proves": "Whether Q4 lands in the $2.10-2.25 FY2026 range, the last challenged project is complete, and what run-rate earnings look like",
+      "value_impact": "FY2027 adjusted EPS guide at or above $5.00: bull weight to 30%; below $4.00: kill criterion fires"
+    },
+    {
+      "event": "Q1 2027 results",
+      "timing": "Early May 2027",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "First Energy quarter without legacy loss projects",
+      "value_impact": "Energy gross margin at or above 8% confirms the base case"
+    },
+    {
+      "event": "Permanent COO appointment",
+      "timing": "Open",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Execution leadership for the recovery",
+      "value_impact": "Reduces bear weight"
+    },
+    {
+      "event": "Pace of utility-scale solar new starts",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether renewables revenue stabilizes near $2B",
+      "value_impact": "Stabilization supports base; further decline supports bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Solar volume keeps falling and the Energy cost base is not resized, so Energy margin sits at 5-6% through 2027.",
+      "signal": "Q1 2027 Energy gross margin below 7% and a FY2027 revenue guide below 5% growth"
+    },
+    {
+      "reason": "Claims on the six projects settle below their carrying value, or a new fixed-price gas or data-center project overruns.",
+      "signal": "Any new loss provision or contract-asset write-down in a 10-Q or release after Q3 2026"
+    },
+    {
+      "reason": "Working capital does not unwind, operating cash stays weak, leverage rises and buybacks stop.",
+      "signal": "FY2026 operating cash flow below $100M; net debt above 2.5x trailing adjusted EBITDA"
+    },
+    {
+      "reason": "Further leadership turnover leaves the recovery without an execution team.",
+      "signal": "CFO or segment-president departure on an 8-K Item 5.02 in 2027"
+    },
+    {
+      "reason": "Utilities margins revert as storm work and favorable closeouts fade, removing the steady half's offset.",
+      "signal": "Utilities gross margin below 10% for two consecutive quarters"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Initial FY2027 adjusted EPS guidance midpoint below $4.00",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "A new loss provision or guidance cut tied to renewables project overruns disclosed after the Q3 2026 release",
+      "check_by": "2027-05-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Net debt above 2.5x trailing adjusted EBITDA at any 2027 quarter end",
+      "check_by": "2027-11-15",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-adj-eps-in-guide",
+      "claim": "FY2026 adjusted diluted EPS, reported with Q4 2026 results, is between $2.10 and $2.25 inclusive.",
+      "probability": 0.75,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy27-guide-5",
+      "claim": "Primoris issues initial FY2027 adjusted EPS guidance with a midpoint of at least $5.00 by March 15, 2027.",
+      "probability": 0.3,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "ye26-backlog-13-5b",
+      "claim": "Total backlog reported at December 31, 2026 is at least $13.5 billion.",
+      "probability": 0.7,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q4-energy-gm-7",
+      "claim": "Q4 2026 Energy segment gross margin, as reported in the Q4 release segment table, is at least 7.0%.",
+      "probability": 0.6,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-ocf-150",
+      "claim": "FY2026 net cash provided by operating activities is at least $150 million.",
+      "probability": 0.55,
+      "resolve_by": "2027-03-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: FY2027 adjusted EPS guide at or above $5.00 with revenue growth guided above 8%",
+    "More bullish: Energy gross margin at or above 8% in Q4 2026 and Q1 2027 with no new loss provisions",
+    "More bullish: the same evidence at a price in the low $60s",
+    "More bearish: FY2027 adjusted EPS guide below $4.00, or any further renewables loss provision",
+    "More bearish: FY2026 operating cash flow below $100 million"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $6B–$12B starting revenue, 5-year revenue CAGR, 2009–2025",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 67
+  },
+  "update": null,
+  "next_review": "2027-02-23",
+  "next_review_trigger": "Q4 2026 results and FY2027 outlook, expected around February 22, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/PRIM.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/PRIM/2026-11-10.xlsx",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/PRIM.md",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "PRIM closed at $71.24 on November 9, 2026",
+    "scenarios.bear.value": "| Bear | $34.26 | 30% | FY2029 adj EPS $3.43 x 10x |",
+    "scenarios.base.value": "| Base | $76.96 | 50% | FY2029 adj EPS $5.92 x 13x |",
+    "scenarios.bull.value": "| Bull | $133.20 | 20% | FY2029 adj EPS $7.84 x 17x |",
+    "fair_value.value": "| Probability-weighted | $75.40 | 100% |",
+    "street.target_mean": "The average one-year target is $100.47 (median $102, low $64, high $127)"
+  },
+  "notes": [
+    "Price is the November 9, 2026 committed close; PRIM closed at $69.88 on November 10 (StockAnalysis), not yet in data/prices.",
+    "Adjusted EPS is company-defined non-GAAP (adds back stock compensation, intangible amortization, transaction and severance costs); scenario multiples are also given on GAAP EPS in the report.",
+    "No peer multiples, call transcript, or investor presentation were captured; web search was unavailable during this run.",
+    "Revised after independent review (grade B): FY2026 revenue base, interest, add-back tax rate and base exit multiple changed; fair value fell from $81.23 to $75.40. See review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-10",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 4,
+      "risk": 4,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "valuation: the exit multiples come only from the company's own pre-2024 history, when it was a pipeline-heavy business, with no peer check; the base 14x adjusted (16.6x GAAP) is above every 2018–2023 year-end P/E and is described as 'between the eras' rather than derived; interest ($38–45M) and the 25% tax rate on add-backs are both too favorable against the Q3 run-rate and the company's own reconciliation; and the -19% gap to the Street compares a 3-year undiscounted value with 1-year targets, so the real disagreement is larger than it looks."
+    ],
+    "grade": "B",
+    "counter_case": "On the call's own numbers this is an Avoid, not a Watch. The base case needs GAAP operating margin back to about 5.3% before amortization, a level the report admits was reached only in 2024–2025, and a 16.6x GAAP exit multiple above every 2018–2023 year-end (8.9–14.3x); at that range's 12.8x median, base FY2029 GAAP EPS of $5.16 is worth about $66, below $71.24. Meanwhile nine-month operating cash flow was $8.9M, the balance sheet went from $65.6M of net cash to $580.8M of net debt, Q3 interest of $14.3M is running near $57M a year against the $38–45M modeled, and the board has just authorized $250M more of buybacks. Put 30% on a -48% bear and the honest expected return is near zero.",
+    "response": "Accepted most of it. Changes: interest re-based on the Q3 run-rate (base $52M/$48M/$44M, bear $58-60M, bull $50M/$45M/$40M); add-backs now taxed at each case's effective rate, matching Schedule 3 ($24.6M on $73.7M); FY2026 revenue base lowered from the $7.07B consensus to $7.00B because the Q4 guide implies a weak quarter; base exit multiple cut from 14x to 13x adjusted (15.3x GAAP); variant view corrected from 'two years early' to 'about a year early'; factual fixes to the Energy margin vs target range, PayneCrest backlog date, MSA backlog wording and the bear multiple's place in the historical range. Fair value fell from $81.23 to $75.40 (+1.9% a year), base from $85.53 to $76.96, bear to $34.26, bull to $133.20. The report now states that at the old 12.8x GAAP median the base is worth about $64. Not changed: the stance stays Watch because the rule gives Watch at +1.9% a year, and the base keeps a multiple one point above the 2018-2023 range because Utilities MSA work (backlog +27% this year) is a larger share of the mix than in the pipeline years; no peer multiples were captured to test that. The weights stay 30/50/20: the counter-case's near-zero return is close to what the revised numbers say, and it is inside the Watch band rather than below it."
+  }
+}

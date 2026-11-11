@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/PRIM.csv",
+      "commit": "63a19d9b5f26",
+      "sha256": "d4534a111dd393f1f341f92ba5cd18dff2e03065d3fe3fac47f5ee85560901fb",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/PRIM.csv",
+      "commit": "63a19d9b5f26",
+      "sha256": "bf6d7908876d0a6390be02127982038bfaefd4d1e581025a714d49d1ecf93094",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "63a19d9b5f26",
+      "sha256": "6fb529e398fed659049c31928837a3b73cddfac8393b3bd45dff62099c8f9199",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-11-03-q3-release",
+      "kind": "file",
+      "path": "8k-2026-11-03-q3-release.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1361538/000136153826000035/prim-ex99.htm",
+      "fetched_at": "2026-11-11T03:04:52+00:00",
+      "sha256": "0ed70d70a427a3e63437f28bc8c9f900f0ed014c6705282e2927cc04c672f387",
+      "description": "Q3 2026 results and FY2026 outlook, 8-K EX-99.1, accession 0001361538-26-000035"
+    },
+    {
+      "id": "8k-2026-06-22-business-update",
+      "kind": "file",
+      "path": "8k-2026-06-22-business-update.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1361538/000136153826000017/prim-20260622xex99.htm",
+      "fetched_at": "2026-11-11T03:04:52+00:00",
+      "sha256": "ea95b657b91c990e74d5d7a4502d1bb3a3567e1b01d1c470c37fb22a84b90ab0",
+      "description": "Business update: renewables cost overruns, FY2026 guidance cut, COO departure, 8-K EX-99.1, accession 0001361538-26-000017"
+    },
+    {
+      "id": "8k-2026-08-04-q2-release",
+      "kind": "file",
+      "path": "8k-2026-08-04-q2-release.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1361538/000136153826000021/prim-20260731xex99d1.htm",
+      "fetched_at": "2026-11-11T03:04:52+00:00",
+      "sha256": "9ffb486f697dc4a413173d885a630d58cf9c91593a5d03dd8297d442b2ed3ad9",
+      "description": "Q2 2026 results, 8-K EX-99.1, accession 0001361538-26-000021"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-10",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-10.html",
+      "url": "https://stockanalysis.com/stocks/prim/forecast/",
+      "fetched_at": "2026-11-11T03:04:52+00:00",
+      "sha256": "3a30bdc5c67b707759806bbd4d166d7502a3f2603ab72d2e11b1601818dafa81",
+      "description": "StockAnalysis forecast page (S&P Global consensus: 16 analysts, targets, FY2026-27 revenue and adjusted EPS), checked 2026-11-10"
+    },
+    {
+      "id": "yahoo-chart-prim-monthly-2016-2026",
+      "kind": "file",
+      "path": "yahoo-chart-prim-monthly-2016-2026.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/PRIM?period1=1451606400&period2=1794355200&interval=1mo",
+      "fetched_at": "2026-11-11T03:06:25+00:00",
+      "sha256": "8394268bcdb48e69aa87f06a5bfaf27f5429b0862c8d9335e95e831f62552576",
+      "description": "Yahoo Finance chart API, PRIM monthly closes 2016-2026 (year-end prices for historical P/E)"
+    }
+  ]
+}
