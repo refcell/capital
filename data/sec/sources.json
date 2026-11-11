@@ -231,7 +231,7 @@
   },
   "facts/IONS": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000874015.json",
-    "fetched_at": "2026-11-11T02:29:28+00:00",
+    "fetched_at": "2026-11-11T03:17:42+00:00",
     "sha256": "288584050ebc1094e33d15adced87bc3595ef8efd68138cbc4a92fcb98b73d0e"
   },
   "facts/IREN": {
@@ -781,7 +781,7 @@
   },
   "submissions/IONS": {
     "url": "https://data.sec.gov/submissions/CIK0000874015.json",
-    "fetched_at": "2026-11-11T02:29:27+00:00",
+    "fetched_at": "2026-11-11T03:17:41+00:00",
     "sha256": "7895a235228770f2a751696406ecde94140fc01aded45353875d242a32685c47"
   },
   "submissions/IREN": {

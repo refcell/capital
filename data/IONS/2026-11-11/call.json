@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "ticker": "IONS",
+  "exchange": "NASDAQ",
+  "company": "Ionis Pharmaceuticals, Inc.",
+  "sector": "Healthcare / Biotechnology / RNA-targeted medicines",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "IONS/2026-09-22",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026; TRYNGOLZA 2026 guide cut)",
+  "stance": "avoid",
+  "bias": "negative",
+  "stance_text": "Avoid — changed from Watch, at the boundary; the severe hypertriglyceridemia launch, the main wholly owned growth engine, started far below plan, and the base case is worth only today's price",
+  "rating_override_reason": null,
+  "primary_lens": "ev_sales",
+  "lens_text": "FY2029 revenue x exit EV/sales, less projected end-2029 net debt (convertible notes and the remaining Royalty Pharma cap), on projected shares; three-year value, undiscounted",
+  "price": {
+    "value": 28.19,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 7.23,
+      "weight": 0.35,
+      "revenue_cagr": -0.042,
+      "basis": "FY2029 revenue $780M (TRYNGOLZA $100M, DAWNZERA $220M) x 3.0x, less $555M end-2029 net debt after a $700M equity raise at about $10, on 247M shares"
+    },
+    "base": {
+      "value": 29.21,
+      "weight": 0.5,
+      "revenue_cagr": 0.127,
+      "basis": "FY2029 revenue $1,270M (TRYNGOLZA $250M, DAWNZERA $350M, R&D revenue $300M) x 4.5x, less $545M end-2029 net debt, on 177M shares; opex held near the 2026 level"
+    },
+    "bull": {
+      "value": 70.39,
+      "weight": 0.15,
+      "revenue_cagr": 0.331,
+      "basis": "FY2029 revenue $2,095M (TRYNGOLZA $700M, DAWNZERA $500M) x 6.0x, plus $65M end-2029 net cash, on 179.5M shares"
+    }
+  },
+  "fair_value": {
+    "value": 27.69,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "FY2029 revenue at an exit EV/sales multiple, undiscounted",
+  "street": null,
+  "deviation_from_street": null,
+  "thesis": "Ionis's value now rests on whether its wholly owned launches can carry a $450 million operating loss to break-even before the cash runs short. DAWNZERA is on plan and royalties and partner payments are healthy, but TRYNGOLZA's sHTG launch, the largest opportunity, sold $9.3 million in its first full quarter after a list-price cut. The base case needs it at about $250 million by 2029 with flat expenses and is worth only today's price, so the expected return is slightly negative once the bear's dilution is counted.",
+  "consensus_view": "No Street snapshot was captured. The stock fell 38% from $45.75 on September 22 to $28.19 on November 10, including 21% on the release day, so the market has repriced the TRYNGOLZA sHTG opportunity sharply lower. Management still describes multi-billion-dollar peak sales.",
+  "variant_view": "The market's 38% fall rejects management's multi-billion TRYNGOLZA peak but still pays about 5.1x 2026 revenue. This call goes slightly further: the base case (13% a year to 2029, 78th percentile for the size, with flat expenses) is worth about today's price, and a bear that needs equity near $10 outweighs a 15% bull. Checkable: the 2027 TRYNGOLZA guide comes in below $150 million and the company does not date its path to positive cash flow.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "FY2026 results and first 2027 guidance",
+      "timing": "About February 24, 2027 (last year's release was February 25)",
+      "date": "2027-02-24",
+      "kind": "hard",
+      "what_it_proves": "Whether Q4 TRYNGOLZA demand improved and what the company expects for 2027 sales and cash use",
+      "value_impact": "A 2027 TRYNGOLZA guide of $150M or more fires a kill criterion and moves the call back toward Watch; below $100M adds weight to the bear"
+    },
+    {
+      "event": "EU decision on TRYNGOLZA for sHTG",
+      "timing": "Q4 2026 (company)",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "Whether ex-US sHTG becomes a revenue line",
+      "value_impact": "Small near-term; approval supports the base TRYNGOLZA path"
+    },
+    {
+      "event": "Obudanersen Phase 3 REVEAL readout in Angelman syndrome",
+      "timing": "Second half of 2027 (company)",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "Whether the leading wholly owned neurology program works",
+      "value_impact": "Success supports the bull weight; failure removes the main pipeline option inside the horizon"
+    },
+    {
+      "event": "Quarterly TRYNGOLZA prescriptions and payer coverage for sHTG",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the sHTG launch is slow or failing",
+      "value_impact": "Quarterly sales above $30M fire a kill criterion"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "The April list-price cut was made 'to proactively align with annual payer contracting cycles for 2027', and sHTG coverage opens in January 2027, so the Q3 quarter was the trough rather than the trend.",
+      "signal": "Q1 and Q2 2027 TRYNGOLZA net sales and the 2027 TRYNGOLZA guide"
+    },
+    {
+      "reason": "Obudanersen reads out positively in Angelman syndrome in 2027 and the market values the neurology pipeline far above the 15% bull weight.",
+      "signal": "REVEAL topline in the second half of 2027"
+    },
+    {
+      "reason": "Partner payments from the sefaxersen and ulefnersen filings and HIBSAGO royalties keep R&D and royalty revenue above $400 million a year, so the cash bridge never needs equity.",
+      "signal": "Collaborative agreement revenue against the nine-month $356 million and quarterly cash"
+    },
+    {
+      "reason": "DAWNZERA keeps compounding and reaches the bull's $500 million well before 2029, carrying the company to break-even without TRYNGOLZA.",
+      "signal": "Quarterly DAWNZERA sales against the $36.8 million Q3 level"
+    },
+    {
+      "reason": "A larger company buys Ionis for its platform at a premium to a price that already reflects the TRYNGOLZA reset.",
+      "signal": "Any strategic review or 13D filing"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Initial 2027 TRYNGOLZA net sales guidance of $150 million or more (the Avoid view needs a slow ramp)",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Quarterly TRYNGOLZA net sales above $30 million in any quarter through Q3 2027",
+      "check_by": "2027-11-30",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Obudanersen Phase 3 REVEAL meets its primary endpoint",
+      "check_by": "2027-12-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-tryngolza-48m",
+      "claim": "Ionis reports FY2026 TRYNGOLZA net product sales of at least $48 million.",
+      "probability": 0.8,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-dawnzera-110m",
+      "claim": "Ionis reports FY2026 DAWNZERA net product sales of at least $110 million.",
+      "probability": 0.85,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "ye26-cash-1-6b",
+      "claim": "Cash, cash equivalents and short-term investments at December 31, 2026 are at least $1.6 billion.",
+      "probability": 0.85,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q1-27-tryngolza-15m",
+      "claim": "Q1 2027 TRYNGOLZA net product sales are at least $15 million.",
+      "probability": 0.35,
+      "resolve_by": "2027-05-31"
+    },
+    {
+      "id": "reveal-positive-2027",
+      "claim": "By December 31, 2027 Ionis announces that the Phase 3 REVEAL study of obudanersen met its primary endpoint.",
+      "probability": 0.35,
+      "resolve_by": "2027-12-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Back to Watch or better: a 2027 TRYNGOLZA guide of $150 million or more, or quarterly sales above $30 million",
+    "Back to Watch or better: a positive REVEAL readout, or a dated plan to sustained positive cash flow",
+    "More bearish: an inventory write-down, or cash and short-term investments below $1.3 billion at September 30, 2027 (the base path gives about $1,350 million) without a financing",
+    "More bearish: an equity raise below $20"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $700M–$1.5B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs placed in this distribution)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 78
+  },
+  "update": {
+    "event": "Q3 2026 results and TRYNGOLZA 2026 guidance cut (8-K, 2026-11-09)",
+    "event_date": "2026-11-09",
+    "expected": "September call: TRYNGOLZA ($113.6M TTM) as lead growth engine; five-year base revenue $2.18B at 5.0x EV/sales; next earnings as primary catalyst",
+    "actual": "TRYNGOLZA Q3 $9.3M (first full sHTG quarter, after an April WAC cut); 2026 TRYNGOLZA guide ~$50M from $100-110M; DAWNZERA $36.8M, guide reaffirmed; total revenue, operating loss and cash guidance reaffirmed; cash $1,884M",
+    "thesis_pillars": [
+      {
+        "pillar": "TRYNGOLZA is the lead wholly owned growth engine",
+        "status": "broken",
+        "note": "First full sHTG quarter $9.3M; 2026 guide halved"
+      },
+      {
+        "pillar": "One commercial organization can launch several products",
+        "status": "intact",
+        "note": "DAWNZERA $147M annualized, on guide"
+      },
+      {
+        "pillar": "Royalties and partner payments fund the build",
+        "status": "intact",
+        "note": "SPINRAZA royalties +24%; two partnered Phase 3 wins"
+      },
+      {
+        "pillar": "The balance sheet carries the company to self-funding",
+        "status": "weakened",
+        "note": "$1.88B cash vs $1.35B converts; no date for sustained positive cash flow"
+      }
+    ],
+    "action": "change_stance"
+  },
+  "next_review": "2027-02-25",
+  "next_review_trigger": "FY2026 results and 2027 guidance, expected around February 24, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/IONS/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/IONS/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "IONS closed at $28.19 on November 10, 2026",
+    "scenarios.base.value": "| Base | $58.31 | $29.21 |",
+    "fair_value.value": "| Fair value | $62 (stated, five-year) | $27.69 |"
+  },
+  "notes": [
+    "The September call used five-year terminal values; this update uses three-year values, so the two fair values are not directly comparable.",
+    "Revenue by line for FY2029 is this call's estimate; the company gives no guidance beyond 2026.",
+    "No Street consensus snapshot and no peer multiples were captured for this update.",
+    "Revised twice after independent review: both rounds graded B; the second-round corrections moved the rule rating from Watch to Avoid; see review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 2,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: The bear funds its gap with a $700M raise at about $20 a share yet values the stock at $8.58 in the same scenario; below a raise price of about $11.15 the weighted value falls under $28.19 and the rule says Avoid, so the rating depended on an input that contradicts its own scenario. The multiples are still not tested against peers or history.",
+      "variant_view: The note said it is 'a fairly priced call, not a disagreement' - honest, but no checkable view that differs from the market's.",
+      "risk: The cash kill criterion (below $1.2B at September 30, 2027) does not fire even on the call's own bear path (about $1,275M), so it cannot separate bear from base (about $1,350M).",
+      "calibration: The base sits at the 78th percentile and needs TRYNGOLZA at 5x after the guide miss; the 97th-percentile bull at 15% weight still supplies 37% of fair value, and without it the call is Avoid."
+    ],
+    "grade": "B",
+    "counter_case": "Avoid. By the call's own math the base case is worth about today's price, and 37% of fair value comes from a 97th-percentile bull with a 15% weight. The bear raises $700M at $20 while valuing the stock at $8.58. At any raise price below about $11, fair value falls under $28.19 (at $10: bear $7.38, fair value $28.11, slightly negative a year). The base also needs cash use to fall from about $645M in 2026 to $400M in 2027 and zero in 2029, while partner R&D revenue drops from about $400M to $300M. The response accepted only the weight change and left that path untouched.",
+    "response": "Accepted, and the stance changes to Avoid. The bear's $700M raise is now priced at about $10, near the bear value (70M shares, 247M total); the Royalty Pharma obligation uses the 21.6% effective rate seen in 2026, per scenario ($160M/$150M/$140M left at end-2029); the base case now has an explicit cash bridge (expenses held near the 2026 level of about $1,340M, loss $320M/$190M/$70M in 2027-2029, cash use $400M/$200M/$100M), which lowers base value to $29.21. Fair value is $27.69, -0.6% a year: Avoid by the rule, at the boundary (with a 20% bull it would be Watch). The kill criteria now name what would overturn the Avoid view (a 2027 TRYNGOLZA guide of $150M or more, a quarter above $30M, a positive REVEAL readout), and the cash test moved to $1.3B under change_my_mind. The WAINUA sentence no longer implies the 10-Q explains the royalty drop. Not changed: the multiples, for lack of a peer set."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/IONS.csv",
+      "commit": "650eda4e963f",
+      "sha256": "6a5a44513587ca122dfb1cc3efb44339d4e08a2d9103a959fa11c3e6a3445304",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/IONS.csv",
+      "commit": "650eda4e963f",
+      "sha256": "980276427f9302a4bd500005155a1de3a3c4387457937f5e74d57cc54e7b1953",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "650eda4e963f",
+      "sha256": "e98c7d949725ac858a7b2407b6eb1c31677561799b6f1db2ce5578777674631a",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-11-09-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/ef20085128_ex99-1.htm",
+      "fetched_at": "2026-11-11T03:20:10+00:00",
+      "sha256": "c42a374c8db5be0ede8c9d6ae42522096ec5b1faf63123626c4690d9f259d288",
+      "description": "8-K EX-99.1, Q3 2026 results; TRYNGOLZA 2026 guide cut to ~$50M; other 2026 guidance reaffirmed (accession 0001140361-26-042598), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/form10q.htm",
+      "fetched_at": "2026-11-11T03:20:10+00:00",
+      "sha256": "75269f19e8f81e6c0473932a4bf5e8e81f8517740b90f42f83a94fe5948196dd",
+      "description": "10-Q for the quarter ended 2026-09-30: revenue detail, April WAC cut, inventory, convertible notes, royalty liability (accession 0000874015-26-000271), gzip"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ Estimated as the same release a year earlier plus 52 weeks, from SEC 8-K Item 2.
 | 2027-01-06 | [STZ](STZ.md) | 2026-09-12 | Watch | 59 |
 | 2027-01-07 | [PSNL](PSNL.md) | 2026-08-25 | Watch | 77 |
 | 2027-01-07 | [XNCR](XNCR.md) | 2026-10-29 | Watch | 12 |
-| 2027-01-11 | [IONS](IONS.md) | 2026-09-22 | Watch | 49 |
+| 2027-01-11 | [IONS](IONS.md) | 2026-11-11 | Avoid (negative) | -1 |
 | 2027-01-13 | [C](C.md) | 2026-06-14 | Watch | 149 |
 | 2027-01-20 | [BANC](BANC.md) | 2026-07-27 | Watch | 106 |
 | 2027-01-20 | [ONB](ONB.md) | 2026-07-16 | Watch | 117 |
@@ -117,4 +117,3 @@ The company has reported since the latest call. These names are due an update no
 | 2026-11-05 | 1 | [SOLV](SOLV.md) | 2026-08-27 |
 | 2026-11-05 | 1 | [TEAM](TEAM.md) | 2026-09-04 |
 | 2026-11-05 | 1 | [WYNN](WYNN.md) | 2026-09-01 |
-| 2026-11-09 | 1 | [IONS](IONS.md) | 2026-09-22 |

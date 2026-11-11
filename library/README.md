@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 128 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 129 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 ## Rating scale
 
@@ -11,8 +11,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 20 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 69 | 107 |
-| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 106 |
+| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 19 | 2 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
 ## Companies
@@ -67,7 +67,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [HOOD](HOOD.md) | Robinhood Markets, Inc. | Retail brokerage | active | 2026-05-24 | 2 | Watch | Avoid | $73.64 | $60.00 | -6.6% | +13.1% | +11.7% |
 | [ICE](ICE.md) | Intercontinental Exchange, Inc. | Financial Services | active | 2026-06-30 | 1 | Watch | Watch | $123.11 | $165.00 | +10.3% | +43.7% | +43.1% |
 | [INTR](INTR.md) | Inter & Co, Inc. | Brazilian digital banking | active | 2026-05-24 | 2 | Watch (positive) | Watch | $6.16 | $9.00 | +13.5% | -35.1% | -36.5% |
-| [IONS](IONS.md) | Ionis Pharmaceuticals, Inc. | Healthcare | active | 2026-09-22 | 1 | Watch | Watch | $45.75 | $62.00 | +10.7% | -38.4% | -35.3% |
+| [IONS](IONS.md) | Ionis Pharmaceuticals, Inc. | Healthcare | active | 2026-11-11 | 2 | Avoid (negative) | Avoid | $28.19 | $27.69 | -0.6% | — | — |
 | [IREN](IREN.md) | IREN Limited (formerly Iris Energy Limited) | Technology infrastructure | active | 2026-10-31 | 1 | Watch (positive) | Watch | $23.95 | $32.79 | +11.0% | -10.6% | -10.2% |
 | [ITUB](ITUB.md) | Itaú Unibanco Holding S.A. | Financials | active | 2026-08-11 | 1 | Watch | Watch | $7.50 | $9.05 | +6.5% | -1.4% | +1.1% |
 | [JOBY](JOBY.md) | Joby Aviation, Inc. | Industrials — Aerospace & Defense — eVTOL | active | 2026-07-20 | 1 | Watch | Avoid | $7.47 | $7.05 | -1.9% | -17.3% | -18.9% |

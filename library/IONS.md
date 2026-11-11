@@ -2,41 +2,87 @@
 
 # Ionis Pharmaceuticals, Inc. (NASDAQ: IONS)
 
-Sector: Healthcare / Biotechnology / RNA-targeted medicines · Calls: 1 · Latest: 2026-09-22
+Sector: Healthcare / Biotechnology / RNA-targeted medicines · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Watch (+10.7% a year expected over 3 years) |
-| Price at call | $45.75 on 2026-09-22 |
-| Bear / base / bull | $25.33 / $58.31 / $105.18 |
-| Weights | 25% / 50% / 25% |
-| Fair value | $62.00 (stated) |
+| Stance (as published) | Avoid — changed from Watch, at the boundary; the severe hypertriglyceridemia launch, the main wholly owned growth engine, started far below plan, and the base case is worth only today's price |
+| Rule rating | Avoid (-0.6% a year expected over 3 years) |
+| Price at call | $28.19 on 2026-11-10 |
+| Bear / base / bull | $7.23 / $29.21 / $70.39 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $27.69 (weighted) |
 | Street mean target | — |
-| Valuation lens | Forward EV/sales plus pipeline optionality |
-| Revenue CAGR vs base rates | bear +8.7% = 64th pct / base +18.7% = 89th pct / bull +28.0% = 95th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -38.4% vs SPY -3.0% through 2026-11-10; mark $28.19 is bear to base |
+| Valuation lens | FY2029 revenue x exit EV/sales, less projected end-2029 net debt (convertible notes and the remaining Royalty Pharma cap), on projected shares; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear -4.2% = 12th pct / base +12.7% = 78th pct / bull +33.1% = 97th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-25 — FY2026 results and 2027 guidance, expected around February 24, 2027 |
 
-## Fundamentals known on 2026-09-22
+**Thesis.** Ionis's value now rests on whether its wholly owned launches can carry a $450 million operating loss to break-even before the cash runs short. DAWNZERA is on plan and royalties and partner payments are healthy, but TRYNGOLZA's sHTG launch, the largest opportunity, sold $9.3 million in its first full quarter after a list-price cut. The base case needs it at about $250 million by 2029 with flat expenses and is worth only today's price, so the expected return is slightly negative once the bear's dilution is counted.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IONS 2026-09-22`). Later restatements are not visible here by design.
+**Variant view.** The market's 38% fall rejects management's multi-billion TRYNGOLZA peak but still pays about 5.1x 2026 revenue. This call goes slightly further: the base case (13% a year to 2029, 78th percentile for the size, with flat expenses) is worth about today's price, and a bear that needs equity near $10 outweighs a 15% bull. Checkable: the 2027 TRYNGOLZA guide comes in below $150 million and the company does not date its path to positive cash flow.
+
+**Catalysts.**
+
+- FY2026 results and first 2027 guidance (About February 24, 2027 (last year's release was February 25))
+- EU decision on TRYNGOLZA for sHTG (Q4 2026 (company))
+- Obudanersen Phase 3 REVEAL readout in Angelman syndrome (Second half of 2027 (company))
+- Quarterly TRYNGOLZA prescriptions and payer coverage for sHTG (2027)
+
+**Pre-mortem** (written at decision time).
+
+- The April list-price cut was made 'to proactively align with annual payer contracting cycles for 2027', and sHTG coverage opens in January 2027, so the Q3 quarter was the trough rather than the trend. — watch: Q1 and Q2 2027 TRYNGOLZA net sales and the 2027 TRYNGOLZA guide
+- Obudanersen reads out positively in Angelman syndrome in 2027 and the market values the neurology pipeline far above the 15% bull weight. — watch: REVEAL topline in the second half of 2027
+- Partner payments from the sefaxersen and ulefnersen filings and HIBSAGO royalties keep R&D and royalty revenue above $400 million a year, so the cash bridge never needs equity. — watch: Collaborative agreement revenue against the nine-month $356 million and quarterly cash
+- DAWNZERA keeps compounding and reaches the bull's $500 million well before 2029, carrying the company to break-even without TRYNGOLZA. — watch: Quarterly DAWNZERA sales against the $36.8 million Q3 level
+- A larger company buys Ionis for its platform at a premium to a price that already reflects the TRYNGOLZA reset. — watch: Any strategic review or 13D filing
+
+**Kill criteria.**
+
+- Initial 2027 TRYNGOLZA net sales guidance of $150 million or more (the Avoid view needs a slow ramp) (check by 2027-03-31) — open
+- Quarterly TRYNGOLZA net sales above $30 million in any quarter through Q3 2027 (check by 2027-11-30) — open
+- Obudanersen Phase 3 REVEAL meets its primary endpoint (check by 2027-12-31) — open
+
+**Probability claims.**
+
+- 80%: Ionis reports FY2026 TRYNGOLZA net product sales of at least $48 million. (resolves by 2027-03-15)
+- 85%: Ionis reports FY2026 DAWNZERA net product sales of at least $110 million. (resolves by 2027-03-15)
+- 85%: Cash, cash equivalents and short-term investments at December 31, 2026 are at least $1.6 billion. (resolves by 2027-03-15)
+- 35%: Q1 2027 TRYNGOLZA net product sales are at least $15 million. (resolves by 2027-05-31)
+- 35%: By December 31, 2027 Ionis announces that the Phase 3 REVEAL study of obudanersen met its primary endpoint. (resolves by 2027-12-31)
+
+**What would change the view.**
+
+- Back to Watch or better: a 2027 TRYNGOLZA guide of $150 million or more, or quarterly sales above $30 million
+- Back to Watch or better: a positive REVEAL readout, or a dated plan to sustained positive cash flow
+- More bearish: an inventory write-down, or cash and short-term investments below $1.3 billion at September 30, 2027 (the base path gives about $1,350 million) without a financing
+- More bearish: an equity raise below $20
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 3, calibration 3). Counter-case: Avoid. By the call's own math the base case is worth about today's price, and 37% of fair value comes from a 97th-percentile bull with a 15% weight. The bear raises $700M at $20 while valuing the stock at $8.58. At any raise price below about $11, fair value falls under $28.19 (at $10: bear $7.38, fair value $28.11, slightly negative a year). The base also needs cash use to fall from about $645M in 2026 to $400M in 2027 and zero in 2029, while partner R&D revenue drops from about $400M to $300M. The response accepted only the weight change and left that path untouched.
+
+**Response.** Accepted, and the stance changes to Avoid. The bear's $700M raise is now priced at about $10, near the bear value (70M shares, 247M total); the Royalty Pharma obligation uses the 21.6% effective rate seen in 2026, per scenario ($160M/$150M/$140M left at end-2029); the base case now has an explicit cash bridge (expenses held near the 2026 level of about $1,340M, loss $320M/$190M/$70M in 2027-2029, cash use $400M/$200M/$100M), which lowers base value to $29.21. Fair value is $27.69, -0.6% a year: Avoid by the rule, at the boundary (with a 20% bull it would be Watch). The kill criteria now name what would overturn the Avoid view (a 2027 TRYNGOLZA guide of $150M or more, a quarter above $30M, a positive REVEAL readout), and the cash test moved to $1.3B under change_my_mind. The WAINUA sentence no longer implies the 10-Q explains the royalty drop. Not changed: the multiples, for lack of a peer set.
+
+**Data notes.** The September call used five-year terminal values; this update uses three-year values, so the two fair values are not directly comparable. Revenue by line for FY2029 is this call's estimate; the company gives no guidance beyond 2026. No Street consensus snapshot and no peer multiples were captured for this update. Revised twice after independent review: both rounds graded B; the second-round corrections moved the rule rating from Watch to Avoid; see review.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IONS 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 874.1M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Operating income (TTM) | -594.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Net income (TTM) | -565.2M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Diluted EPS (TTM) | -3.48 USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Operating cash flow (TTM) | -496.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Capex (TTM) | 64.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Free cash flow (TTM) | -560.8M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Stock comp (TTM) | 163.3M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Cash | 350.1M USD | 2026-06-30 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Revenue (TTM) | 960.1M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Operating income (TTM) | -564.9M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Net income (TTM) | -546.5M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Diluted EPS (TTM) | -3.35 USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Operating cash flow (TTM) | -544.4M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Capex (TTM) | 71.8M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Free cash flow (TTM) | -616.3M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Stock comp (TTM) | 175.6M USD | 2026-09-30 | ttm ytd | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Cash | 296.3M USD | 2026-09-30 | instant | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
 | Long-term debt | 1,812.4M USD | 2025-12-31 | instant | [0000874015-26-000115](https://www.sec.gov/Archives/edgar/data/874015/000087401526000115/) |
-| Equity | 439.7M USD | 2026-06-30 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
-| Shares outstanding | 166.2M | 2026-07-23 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Equity | 393.6M USD | 2026-09-30 | instant | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
+| Shares outstanding | 166.5M | 2026-11-03 | instant | [0000874015-26-000271](https://www.sec.gov/Archives/edgar/data/874015/000087401526000271/) |
 
 ## Earnings calendar
 
@@ -46,6 +92,7 @@ Last release: 2026-11-09 (pre-market 8-K Item 2.02, [0001140361-26-042598](https
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $28.19 | Avoid (negative) | Avoid | $7.23 | $29.21 | $70.39 | $27.69 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/IONS/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/IONS/2026-11-11.xlsx) |
 | 2026-09-22 | $45.75 | Watch | Watch | $25.33 | $58.31 | $105.18 | $62.00 | -38.4% | -35.3% | bear to base | [report](https://github.com/refcell/capital/blob/8c05f30/research/IONS.md) · [projection](https://github.com/refcell/capital/blob/6a82e12/projections/IONS.md) · [model](https://github.com/refcell/capital/blob/284e8c4/models/2026-09-22%20Ionis%20Pharmaceuticals%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/284e8c4/models/_build_IONS.py) |
 
 Data: `data/IONS/`. Prices: `data/prices/IONS.csv`.
