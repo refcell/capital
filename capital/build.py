@@ -180,6 +180,21 @@ def company_page(ticker: str, calls: list[store.Call]) -> str:
         out.append("**Catalysts.**\n")
         out.extend(f"- {k['event']}" + (f" ({k['timing']})" if k.get("timing") else "") for k in cur["catalysts"])
         out.append("")
+    if cur.get("premortem"):
+        out.append("**Pre-mortem** (written at decision time).\n")
+        out.extend(f"- {k['reason']} — watch: {k['signal']}" for k in cur["premortem"])
+        out.append("")
+    if cur.get("kill_criteria"):
+        out.append("**Kill criteria.**\n")
+        out.extend(
+            f"- {k['condition']}" + (f" (check by {k['check_by']})" if k.get("check_by") else "") + (f" — {k['status']}" if k.get("status") else "")
+            for k in cur["kill_criteria"]
+        )
+        out.append("")
+    if cur.get("claims"):
+        out.append("**Probability claims.**\n")
+        out.extend(f"- {k['probability']:.0%}: {k['claim']} (resolves by {k['resolve_by']})" for k in cur["claims"])
+        out.append("")
     if cur.get("change_my_mind"):
         out.append("**What would change the view.**\n")
         out.extend(f"- {x}" for x in cur["change_my_mind"])
@@ -284,6 +299,36 @@ def mean(xs: list[float]) -> float | None:
     return sum(xs) / len(xs) if xs else None
 
 
+def claims_section(all_calls: list[store.Call]) -> list[str]:
+    """Brier scores and calibration for resolved probability claims."""
+    claims = {f"{c.key}#{k['id']}": (c, k) for c in all_calls for k in c.call.get("claims") or []}
+    outcomes = {r["claim"]: r for c in all_calls for r in c.call.get("resolutions") or []}
+    out = ["## Probability claims\n"]
+    if not claims:
+        out.append(
+            "No call has made resolvable probability claims yet. Every new research run must make at least three "
+            "(see `capital/validate.py`); later calls record outcomes in `resolutions`, and this section then shows "
+            "Brier scores and a calibration table.\n"
+        )
+        return out
+    resolved = [(claims[k][1]["probability"], outcomes[k]["outcome"]) for k in claims if k in outcomes]
+    asof = score.last_date() or ""
+    overdue = [k for k, (c, cl) in claims.items() if k not in outcomes and cl["resolve_by"] < asof]
+    out.append(f"{len(claims)} claims made, {len(resolved)} resolved, {len(overdue)} past their resolve-by date without a resolution.\n")
+    if resolved:
+        brier = sum((p - (1.0 if o else 0.0)) ** 2 for p, o in resolved) / len(resolved)
+        out.append(f"Brier score: {brier:.3f} (0 is perfect; always saying 50% scores 0.250).\n")
+        out.append("| Stated probability | Claims | Came true |\n|---|---:|---:|")
+        for lo, hi in ((0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)):
+            b = [o for p, o in resolved if lo <= p < hi]
+            if b:
+                out.append(f"| {lo:.0%}–{min(hi, 1):.0%} | {len(b)} | {sum(b) / len(b):.0%} |")
+        out.append("")
+    if overdue:
+        out.append("Overdue: " + ", ".join(sorted(overdue)) + "\n")
+    return out
+
+
 def scorecard(all_calls: list[store.Call]) -> str:
     asof = score.last_date()
     marked = [(c, score.mark(c.call)) for c in all_calls]
@@ -333,6 +378,8 @@ def scorecard(all_calls: list[store.Call]) -> str:
         "(Bradshaw, Brown and Huang 2013), and targets 70% or more away from the price are hit under 25% of the time "
         "(Asquith, Mikhail and Au 2005). Large stated upside is a calibration risk until the scorecard shows otherwise.\n"
     )
+
+    out.extend(claims_section(all_calls))
 
     bands = Counter(m.band for _, m in marked if m.band)
     total = sum(bands.values())

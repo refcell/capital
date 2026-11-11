@@ -1,72 +1,68 @@
 #!/usr/bin/env bash
-# daily-company-research.sh — orchestrator for capital repo daily research runs.
+# daily-company-research.sh — the deterministic half of a daily research run.
 #
-# This is a DESIGN DOCUMENT and orchestration wrapper. The actual research,
-# modeling, and projection work is performed by the Hermes agent running in the
-# main session, not by spawned hermes chat subprocesses (which lose filesystem
-# tool access and hit shell 600s timeouts).
+# It syncs main, picks today's task (a due earnings update or a new name), captures
+# prices and SEC data once into data/, commits them, and scaffolds
+# data/<TICKER>/<today>/. The research itself (report, call.json, workbook, projection)
+# is done by an agent following .agents/skills/researching-companies/SKILL.md, which
+# finishes with `python3 -m capital.validate` and a commit to main.
 #
-# Intended use: run from a cron job or manually via the Hermes agent.
-# The agent executes three delegation tasks in sequence:
-#   1. Pick a ticker via scripts/pick-company-ticker.py
-#   2. Delegate research report generation (capital-research skill)
-#   3. Delegate workbook model generation (capital-research skill)
-#   4. Delegate projection sheet generation (capital-research skill)
-#   5. Git commit + push three commits
-#   6. Mark ticker seen via scripts/pick-company-ticker.py --mark-seen
-#
-# Configuration defaults:
-: "${CAPITAL_REPO_DIR:=$HOME/dev/capital}"
-: "${CAPITAL_LOG_DIR:=$HOME/var/log/capital}"
+# Environment:
+#   CAPITAL_REPO_DIR        repo checkout (default: this script's repo)
+#   CAPITAL_SEC_CONTACT     contact email for the SEC User-Agent (personal or project, never a work address)
+#   DAILY_RESEARCH_DRY_RUN  1 = choose the task and stop (default)
+set -euo pipefail
+
+: "${CAPITAL_REPO_DIR:=$(cd "$(dirname "$0")/.." && pwd)}"
 : "${CAPITAL_TIMEZONE:=America/New_York}"
 : "${DAILY_RESEARCH_DRY_RUN:=1}"
-
 export TZ="$CAPITAL_TIMEZONE"
-mkdir -p "$CAPITAL_LOG_DIR" "$CAPITAL_REPO_DIR/automation/state"
+cd "$CAPITAL_REPO_DIR"
+mkdir -p automation/state
 
-# Lock-based mutual exclusion to prevent overlapping runs.
-LOCK_DIR="$CAPITAL_REPO_DIR/automation/state/daily-company-research.lock"
+LOCK_DIR="automation/state/daily-company-research.lock"
 if ! mkdir "$LOCK_DIR" 2>/dev/null; then
   echo "another daily-company-research run is already active" >&2
   exit 1
 fi
 trap 'rmdir "$LOCK_DIR"' EXIT
 
-cd "$CAPITAL_REPO_DIR"
-
-# ── Git hygiene ──────────────────────────────────────────────────────────
-
 git checkout main
-git fetch origin
 git pull --ff-only origin main
-
 if [ -n "$(git status --porcelain)" ]; then
   git status --short
   echo "worktree is dirty; aborting" >&2
   exit 1
 fi
 
-# ── Ticker selection ─────────────────────────────────────────────────────
-
-TICKER="$(python3 scripts/pick-company-ticker.py)"
+python3 -m capital.build
+TASK="$(python3 -m capital.next)"
+echo "task: $TASK"
+KIND="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["task"])' "$TASK")"
+if [ "$KIND" = "update" ]; then
+  TICKER="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["ticker"])' "$TASK")"
+else
+  TICKER="$(python3 scripts/pick-company-ticker.py)"
+fi
 if [ -z "$TICKER" ] || [ "$TICKER" = "n/a" ]; then
-  echo "ticker picker returned no valid ticker" >&2
+  echo "no ticker to research" >&2
   exit 1
 fi
-echo "selected ticker: $TICKER"
+echo "ticker: $TICKER ($KIND)"
 
 if [ "$DAILY_RESEARCH_DRY_RUN" = "1" ]; then
-  echo "dry run enabled; no further action"
+  echo "dry run enabled; stopping before capture"
   exit 0
 fi
 
-# ── Stage 1: Research report ─────────────────────────────────────────────
-# This section is intentionally a no-op in the shell script.
-# The actual research generation happens via the Hermes agent's browser,
-# terminal, and file tools — not via a spawned hermes chat subprocess.
-# When run unattended via cron, the Hermes agent orchestrates the three
-# stages through delegate_task calls with full filesystem and browser access.
-# ─────────────────────────────────────────────────────────────────────────
+python3 -m capital.prices "$TICKER" SPY
+python3 -m capital.sec "$TICKER"
+python3 -m capital.build
+git add data library
+if ! git diff --cached --quiet; then
+  git commit -m "data: capture $TICKER prices and SEC facts"
+  git push origin main
+fi
+python3 -m capital.new "$TICKER"
 
-echo "daily company research orchestration complete at $(date -Is)"
-echo "Next: delegate to Hermes agent for research/model/projection stages."
+echo "scaffolded data/$TICKER/$(date +%F)/; continue with .agents/skills/researching-companies/SKILL.md"

@@ -6,7 +6,8 @@ Company:
 Sector / industry:
 Research status: Initial / Refresh / Post-earnings update / Thesis update
 Primary valuation lens: DCF / P/E / EV/EBITDA / EV/gross profit / P/B and ROE / SOTP / other
-Current stance: Own / Watch / Pass / Avoid / Needs more work
+Current stance: Own / Watch / Avoid (see the rating scale below) — one line on why
+Call data: `data/TICKER/YYYY-MM-DD/call.json`
 
 Price snapshot: [Ticker] closed at $[price] on YYYY-MM-DD. Using [share count]
 diluted or basic shares outstanding as of [source date], market capitalization was
@@ -15,6 +16,30 @@ $[debt], $[preferred / leases / minority interest / other obligations]. [Note an
 unusual capital-structure treatment.]
 
 This is investment research, not personalized financial advice.
+
+## Pitch
+
+| Price (date) | Shares | Market cap | Net debt | EV | FY1 / FY2 EPS | FY1 / FY2 P/E | FY1 / FY2 P/FCF | FY1 / FY2 EV/EBIT |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|  |  |  |  |  |  |  |  |  |
+
+- **Idea:** one sentence.
+- **Consensus view:** what the price appears to assume.
+- **Our variant view:** where and why this report disagrees.
+- **Trigger:** the dated event that should close the gap.
+- **Why the opportunity exists:** behavioral / analytical / informational / technical, and the mechanism.
+
+| Scenario | Value / share | Probability | Basis |
+|---|---:|---:|---|
+| Bear |  |  |  |
+| Base |  |  |  |
+| Bull |  |  |  |
+| Probability-weighted |  | 100% |  |
+
+Rating scale (rule in `capital/config.py`, horizon 3 years, benchmark SPY): **Own** if the
+probability-weighted value implies at least 15% a year, **Avoid** if below 0% a year, **Watch**
+in between. If the stance above differs from the rule, say why in one sentence here and in
+`rating_override_reason`.
 
 ## How To Use This Template
 
@@ -576,9 +601,13 @@ part of the thesis.
 
 Optional table:
 
-| Catalyst | Timing | What It Would Prove |
-|---|---|---|
-|  |  |  |
+Split catalysts into hard (a dated event: earnings, a vote, a ruling) and soft (a process with
+no fixed date). Give each a value impact per share. Build the risks in section 15 partly by
+reversing the catalysts.
+
+| Catalyst | Hard / soft | Date | What it would prove | Value impact |
+|---|---|---|---|---|
+|  |  |  |  |  |
 
 ## 15. Risks And Red Flags
 
@@ -607,7 +636,29 @@ Optional table:
 |  | Would make me more bearish |
 |  | Would invalidate the thesis |
 
-## 17. Monitoring Checklist
+## 17. Pre-Mortem And Kill Criteria
+
+Write this before the conclusion. Assume it is two years from today and the stock has lost 40%.
+List at least three independent reasons it happened, each with the signal that would show it
+early. Then write the kill criteria: states of the world, each with a check-by date, that end the
+thesis outright. Updates mark every kill criterion as open, fired, or cleared.
+
+| Failure story | Early signal | Where it shows up |
+|---|---|---|
+|  |  |  |
+
+| Kill criterion | Check by |
+|---|---|
+|  |  |
+
+Close with three to five probability claims a third party could resolve, each with a date.
+They are scored with Brier scores in `library/SCORECARD.md`.
+
+| Claim | Probability | Resolves by |
+|---|---:|---|
+|  |  |  |
+
+## 18. Monitoring Checklist
 
 Explain the next few things to watch and why they matter. The checklist should follow
 from the thesis, not from generic company metrics.
@@ -618,7 +669,7 @@ Optional table:
 |---|---|---|---|
 |  |  |  |  |
 
-## 18. Conclusion
+## 19. Conclusion
 
 Write the final judgment in one to three paragraphs. State the stance, fair-value range,
 main reason to care, main risk, and next update trigger. The conclusion should not
@@ -630,7 +681,7 @@ Good shape:
 fails if [business failure]. At [price], the risk/reward looks [assessment]. I would
 revisit the view when [trigger]."
 
-## 19. Sources
+## 20. Sources
 
 Write a short source note before listing links. Explain which sources anchored the
 report, which sources were used for market expectations, and where access limits or data

@@ -18,97 +18,324 @@
     "artifacts"
   ],
   "$defs": {
-    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
-    "nullable_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
-    "money": {"type": ["number", "null"], "minimum": 0},
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "nullable_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "money": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
     "scenario": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["value"],
+      "required": [
+        "value"
+      ],
       "properties": {
-        "value": {"$ref": "#/$defs/money", "description": "Per-share value in the call's price currency. For a stated range, the midpoint."},
-        "low": {"$ref": "#/$defs/money", "description": "Lower end when the report gives a range."},
-        "high": {"$ref": "#/$defs/money", "description": "Upper end when the report gives a range."},
-        "weight": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
-        "basis": {"type": ["string", "null"], "description": "How the value was reached, e.g. 'FY2031 adj EPS $6.05 x 12.5x'."}
+        "value": {
+          "$ref": "#/$defs/money",
+          "description": "Per-share value in the call's price currency. For a stated range, the midpoint."
+        },
+        "low": {
+          "$ref": "#/$defs/money",
+          "description": "Lower end when the report gives a range."
+        },
+        "high": {
+          "$ref": "#/$defs/money",
+          "description": "Upper end when the report gives a range."
+        },
+        "weight": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "How the value was reached, e.g. 'FY2031 adj EPS $6.05 x 12.5x'."
+        }
       }
     },
     "artifact": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["path"],
+      "required": [
+        "path"
+      ],
       "properties": {
-        "path": {"type": "string"},
-        "commit": {"type": ["string", "null"], "pattern": "^[0-9a-f]{7,40}$", "description": "Commit holding the version this call came from. Null means the current worktree file."}
+        "path": {
+          "type": "string"
+        },
+        "commit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{7,40}$",
+          "description": "Commit holding the version this call came from. Null means the current worktree file."
+        }
       }
     }
   },
   "properties": {
-    "schema_version": {"const": 1},
-    "ticker": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}$"},
-    "exchange": {"type": ["string", "null"]},
-    "company": {"type": "string", "minLength": 1},
-    "sector": {"type": ["string", "null"]},
-    "date": {"$ref": "#/$defs/date", "description": "Publication date of the call."},
-    "origin": {"enum": ["backfill", "run"], "description": "backfill: extracted from an existing report; run: written by a research run."},
-    "research_status": {"enum": ["initial", "refresh", "post_earnings", "pre_earnings", "thesis_update", "other", null]},
-    "research_status_text": {"type": ["string", "null"]},
-    "stance": {"enum": ["own", "watch", "pass", "avoid", "needs_more_work", null], "description": "Null only for backfilled reports that state no stance."},
-    "bias": {"enum": ["positive", "neutral", "negative", null], "description": "Lean within the stance, e.g. 'Watch / Positive bias' is watch + positive."},
-    "stance_text": {"type": "string", "description": "Stance line exactly as published."},
-    "primary_lens": {"enum": ["pe", "ev_ebitda", "dcf", "fcf", "pb_roe", "p_ffo", "ev_sales", "ev_gross_profit", "sotp", "nav", "dividend", "other", null]},
-    "lens_text": {"type": ["string", "null"]},
+    "schema_version": {
+      "const": 1
+    },
+    "ticker": {
+      "type": "string",
+      "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}$"
+    },
+    "exchange": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sector": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "$ref": "#/$defs/date",
+      "description": "Publication date of the call."
+    },
+    "origin": {
+      "enum": [
+        "backfill",
+        "run"
+      ],
+      "description": "backfill: extracted from an existing report; run: written by a research run."
+    },
+    "research_status": {
+      "enum": [
+        "initial",
+        "refresh",
+        "post_earnings",
+        "pre_earnings",
+        "thesis_update",
+        "no_change_review",
+        "other",
+        null
+      ]
+    },
+    "research_status_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stance": {
+      "enum": [
+        "own",
+        "watch",
+        "pass",
+        "avoid",
+        "needs_more_work",
+        null
+      ],
+      "description": "Null only for backfilled reports that state no stance."
+    },
+    "bias": {
+      "enum": [
+        "positive",
+        "neutral",
+        "negative",
+        null
+      ],
+      "description": "Lean within the stance, e.g. 'Watch / Positive bias' is watch + positive."
+    },
+    "stance_text": {
+      "type": "string",
+      "description": "Stance line exactly as published."
+    },
+    "primary_lens": {
+      "enum": [
+        "pe",
+        "ev_ebitda",
+        "dcf",
+        "fcf",
+        "pb_roe",
+        "p_ffo",
+        "ev_sales",
+        "ev_gross_profit",
+        "sotp",
+        "nav",
+        "dividend",
+        "other",
+        null
+      ]
+    },
+    "lens_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "price": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["value", "currency", "date"],
+      "required": [
+        "value",
+        "currency",
+        "date"
+      ],
       "properties": {
-        "value": {"type": "number", "exclusiveMinimum": 0},
-        "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
-        "date": {"$ref": "#/$defs/nullable_date", "description": "Close date of the reference price."}
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "date": {
+          "$ref": "#/$defs/nullable_date",
+          "description": "Close date of the reference price."
+        }
       }
     },
     "scenarios": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "bear": {"$ref": "#/$defs/scenario"},
-        "base": {"$ref": "#/$defs/scenario"},
-        "bull": {"$ref": "#/$defs/scenario"}
+        "bear": {
+          "$ref": "#/$defs/scenario"
+        },
+        "base": {
+          "$ref": "#/$defs/scenario"
+        },
+        "bull": {
+          "$ref": "#/$defs/scenario"
+        }
       }
     },
     "fair_value": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["value", "method"],
+      "required": [
+        "value",
+        "method"
+      ],
       "properties": {
-        "value": {"type": "number", "exclusiveMinimum": 0},
-        "method": {"enum": ["stated", "weighted", "base"], "description": "stated: the report gives it; weighted: computed from scenario weights; base: no weights, base case used."}
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "method": {
+          "enum": [
+            "stated",
+            "weighted",
+            "base"
+          ],
+          "description": "stated: the report gives it; weighted: computed from scenario weights; base: no weights, base case used."
+        }
       }
     },
-    "horizon_years": {"type": ["number", "null"], "exclusiveMinimum": 0},
-    "horizon_text": {"type": ["string", "null"]},
+    "horizon_years": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "horizon_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "street": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
       "properties": {
-        "target_mean": {"$ref": "#/$defs/money"},
-        "target_median": {"$ref": "#/$defs/money"},
-        "target_low": {"$ref": "#/$defs/money"},
-        "target_high": {"$ref": "#/$defs/money"},
-        "analysts": {"type": ["integer", "null"], "minimum": 0},
-        "rating_text": {"type": ["string", "null"]},
-        "as_of": {"$ref": "#/$defs/nullable_date"},
-        "source": {"type": ["string", "null"]}
+        "target_mean": {
+          "$ref": "#/$defs/money"
+        },
+        "target_median": {
+          "$ref": "#/$defs/money"
+        },
+        "target_low": {
+          "$ref": "#/$defs/money"
+        },
+        "target_high": {
+          "$ref": "#/$defs/money"
+        },
+        "analysts": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "rating_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "as_of": {
+          "$ref": "#/$defs/nullable_date"
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
     "deviation_from_street": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "additionalProperties": false,
-      "required": ["pct"],
+      "required": [
+        "pct"
+      ],
       "properties": {
-        "pct": {"type": "number", "description": "fair_value / street.target_mean - 1, in percent."},
-        "reason": {"type": ["string", "null"], "description": "Why the call differs from the Street. Required for origin=run when |pct| >= 10."}
+        "pct": {
+          "type": "number",
+          "description": "fair_value / street.target_mean - 1, in percent."
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Why the call differs from the Street. Required for origin=run when |pct| >= 10."
+        }
       }
     },
     "catalysts": {
@@ -116,36 +343,371 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["event"],
+        "required": [
+          "event"
+        ],
         "properties": {
-          "event": {"type": "string"},
-          "timing": {"type": ["string", "null"]},
-          "date": {"$ref": "#/$defs/nullable_date"},
-          "what_it_proves": {"type": ["string", "null"]}
+          "event": {
+            "type": "string"
+          },
+          "timing": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date": {
+            "$ref": "#/$defs/nullable_date"
+          },
+          "what_it_proves": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "hard",
+              "soft",
+              null
+            ],
+            "description": "hard: a dated event; soft: a process with no fixed date."
+          },
+          "value_impact": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "How the event moves value per share, e.g. '+$8 if guide > $5.20'."
+          }
         }
       }
     },
-    "next_review": {"$ref": "#/$defs/nullable_date", "description": "Date the call should be revisited, usually the next earnings report."},
-    "next_review_trigger": {"type": ["string", "null"]},
-    "thesis": {"type": ["string", "null"], "description": "One or two sentences: what has to be true."},
-    "variant_view": {"type": ["string", "null"], "description": "Where this call disagrees with the market, in one or two sentences."},
-    "change_my_mind": {"type": "array", "items": {"type": "string"}, "description": "Pre-committed evidence that would change the stance."},
+    "next_review": {
+      "$ref": "#/$defs/nullable_date",
+      "description": "Date the call should be revisited, usually the next earnings report."
+    },
+    "next_review_trigger": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "thesis": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "One or two sentences: what has to be true."
+    },
+    "variant_view": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Where this call disagrees with the market, in one or two sentences."
+    },
+    "change_my_mind": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Pre-committed evidence that would change the stance."
+    },
     "artifacts": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["report"],
+      "required": [
+        "report"
+      ],
       "properties": {
-        "report": {"$ref": "#/$defs/artifact"},
-        "projection": {"$ref": "#/$defs/artifact"},
-        "model": {"$ref": "#/$defs/artifact"},
-        "build_script": {"$ref": "#/$defs/artifact"}
+        "report": {
+          "$ref": "#/$defs/artifact"
+        },
+        "projection": {
+          "$ref": "#/$defs/artifact"
+        },
+        "model": {
+          "$ref": "#/$defs/artifact"
+        },
+        "build_script": {
+          "$ref": "#/$defs/artifact"
+        }
       }
     },
     "evidence": {
       "type": "object",
       "description": "Map from a field path in this file (e.g. 'price.value', 'scenarios.bull.value') to a verbatim quote from the report version in artifacts.report that supports it. CI checks every quote is present in that version.",
-      "additionalProperties": {"type": "string", "minLength": 3}
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 3
+      }
     },
-    "notes": {"type": "array", "items": {"type": "string"}}
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_call": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}/\\d{4}-\\d{2}-\\d{2}$",
+      "description": "The call this one updates, as TICKER/YYYY-MM-DD."
+    },
+    "consensus_view": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "What the market appears to believe, in one or two sentences."
+    },
+    "why_opportunity": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "behavioral",
+          "analytical",
+          "informational",
+          "technical"
+        ]
+      },
+      "description": "Why the mispricing exists: behavioral (overreaction, neglect), analytical (the market reads the same facts differently), informational (we know something the price does not), technical (forced selling, index changes, spin-offs)."
+    },
+    "edge": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "What this call knows or weighs that the market does not."
+    },
+    "rating_override_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Why the published stance differs from the rule rating (capital/config.py). Required for runs when they differ."
+    },
+    "premortem": {
+      "type": "array",
+      "description": "Written at decision time: 'It is two years later and this call lost 40%. What happened?' Each reason names the signal that would show it early.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reason",
+          "signal"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string"
+          },
+          "signal": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "kill_criteria": {
+      "type": "array",
+      "description": "States that end the thesis, each with the date by which it is checked. Every update marks each one.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "condition"
+        ],
+        "properties": {
+          "condition": {
+            "type": "string"
+          },
+          "check_by": {
+            "$ref": "#/$defs/nullable_date"
+          },
+          "status": {
+            "enum": [
+              "open",
+              "fired",
+              "cleared",
+              null
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "description": "Resolvable forecasts with probabilities; scored with Brier scores once resolved.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "claim",
+          "probability",
+          "resolve_by"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9\\-]*$"
+          },
+          "claim": {
+            "type": "string",
+            "description": "Stated so a third party could resolve it, e.g. 'FY2027 adj EPS guide midpoint is above $5.20'."
+          },
+          "probability": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "resolve_by": {
+            "$ref": "#/$defs/date"
+          }
+        }
+      }
+    },
+    "base_rate": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "reference_class"
+      ],
+      "properties": {
+        "reference_class": {
+          "type": "string"
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metric": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "base_case_percentile": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "update": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "description": "For post-event updates: what was expected and what happened.",
+      "properties": {
+        "event": {
+          "type": "string"
+        },
+        "event_date": {
+          "$ref": "#/$defs/nullable_date"
+        },
+        "expected": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actual": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "thesis_pillars": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "pillar",
+              "status"
+            ],
+            "properties": {
+              "pillar": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "intact",
+                  "weakened",
+                  "broken",
+                  "strengthened"
+                ]
+              },
+              "note": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "action": {
+          "enum": [
+            "no_change",
+            "raise",
+            "lower",
+            "change_stance",
+            "drop"
+          ]
+        }
+      }
+    },
+    "resolutions": {
+      "type": "array",
+      "description": "Outcomes of earlier calls' claims, recorded by this later call so committed calls never change.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "outcome",
+          "resolved_on"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}/\\d{4}-\\d{2}-\\d{2}#[a-z0-9][a-z0-9\\-]*$",
+            "description": "TICKER/YYYY-MM-DD#claim-id"
+          },
+          "outcome": {
+            "type": "boolean"
+          },
+          "resolved_on": {
+            "$ref": "#/$defs/date"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
   }
 }

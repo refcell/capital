@@ -39,6 +39,7 @@ RUN_REQUIRED_REPORT_HEADINGS = (
     "Catalysts",
     "Risks",
     "What Would Change My Mind",
+    "Pre-Mortem",
     "Sources",
 )
 
@@ -201,25 +202,66 @@ def check_artifacts(c: store.Call, errors: list[str]) -> None:
             errors.append(f"{rel}: artifacts.{name} {where} does not exist")
 
 
+MIN_CLAIMS = 3
+MIN_PREMORTEM = 3
+
+
 def check_run_call(c: store.Call, errors: list[str]) -> None:
+    """Calls written by a research run carry the decision journal a reviewer and the scorecard need."""
+    from capital import score
+
     rel = c.dir.relative_to(store.ROOT)
     call = c.call
     if c.inputs is None:
         errors.append(f"{rel}: runs must commit inputs.json")
     if not c.manifest or not c.manifest.get("entries"):
         errors.append(f"{rel}: runs must commit sources/manifest.json with at least one source")
-    for field in ("stance", "next_review", "thesis", "fair_value", "primary_lens"):
+    for field in ("stance", "next_review", "thesis", "consensus_view", "variant_view", "fair_value", "primary_lens", "horizon_years"):
         if not call.get(field):
             errors.append(f"{rel}: runs must set {field}")
-    if not call.get("catalysts"):
-        errors.append(f"{rel}: runs must list catalysts")
-    if not call.get("change_my_mind"):
-        errors.append(f"{rel}: runs must list change_my_mind evidence")
+    for field in ("catalysts", "change_my_mind", "kill_criteria", "why_opportunity"):
+        if not call.get(field):
+            errors.append(f"{rel}: runs must list {field}")
+    for case in ("bear", "base", "bull"):
+        s = (call.get("scenarios") or {}).get(case) or {}
+        if s.get("value") is None or s.get("weight") is None:
+            errors.append(f"{rel}: runs must give the {case} scenario a value and a weight")
+    if len(call.get("premortem") or []) < MIN_PREMORTEM:
+        errors.append(f"{rel}: runs must give at least {MIN_PREMORTEM} pre-mortem reasons, each with a signal")
+    claims = call.get("claims") or []
+    if len(claims) < MIN_CLAIMS:
+        errors.append(f"{rel}: runs must make at least {MIN_CLAIMS} resolvable probability claims")
+    ids = [k["id"] for k in claims]
+    if len(ids) != len(set(ids)):
+        errors.append(f"{rel}: claim ids must be unique")
+    for k in claims:
+        if k["resolve_by"] <= call["date"]:
+            errors.append(f"{rel}: claim {k['id']} resolves on or before the call date")
+    if not any((k.get("kind") == "hard" and k.get("date")) for k in call.get("catalysts") or []):
+        errors.append(f"{rel}: runs must list at least one hard catalyst with a date")
     dev = call.get("deviation_from_street")
     if dev and abs(dev["pct"]) >= 10 and not dev.get("reason"):
         errors.append(f"{rel}: deviation from the Street is {dev['pct']:.1f}%; give a reason")
+    rule = score.rule_rating(call)
+    if rule and call.get("stance") in ("own", "watch", "avoid") and call["stance"] != rule and not call.get("rating_override_reason"):
+        errors.append(f"{rel}: stance {call['stance']} differs from the rule rating {rule}; set rating_override_reason")
+    for r in call.get("resolutions") or []:
+        key, cid = r["claim"].split("#")
+        target = store.DATA / key / "call.json"
+        if not target.exists() or key >= f"{call['ticker']}/{call['date']}":
+            errors.append(f"{rel}: resolution {r['claim']} must point at an earlier call")
+        elif cid not in {k["id"] for k in store.load_json(target).get("claims") or []}:
+            errors.append(f"{rel}: resolution {r['claim']}: no such claim")
+    if call.get("prior_call"):
+        prior = store.DATA / call["prior_call"] / "call.json"
+        if not prior.exists():
+            errors.append(f"{rel}: prior_call {call['prior_call']} does not exist")
+        elif call["prior_call"] >= f"{call['ticker']}/{call['date']}" or not call["prior_call"].startswith(call["ticker"] + "/"):
+            errors.append(f"{rel}: prior_call must be an earlier call on the same ticker")
+    if call.get("research_status") in ("post_earnings", "no_change_review") and not (call.get("update") or {}).get("event"):
+        errors.append(f"{rel}: updates must fill the update block (event, expected, actual, pillars, action)")
     report = store.artifact_bytes((call.get("artifacts") or {}).get("report"))
-    if report is not None:
+    if report is not None and call.get("research_status") not in ("post_earnings", "no_change_review"):
         text = report.decode("utf-8", errors="replace")
         headings = {normalize(re.sub(r"^#+\s*(\d+\.\s*)?", "", h)).lower() for h in re.findall(r"^#{1,3} .+$", text, re.M)}
         for required in RUN_REQUIRED_REPORT_HEADINGS:
@@ -298,6 +340,28 @@ def check_sec(errors: list[str]) -> None:
                 errors.append(f"{EARNINGS.relative_to(store.ROOT)}: header must be {','.join(EARNINGS_FIELDS)}")
 
 
+def check_workbooks(errors: list[str]) -> None:
+    """Workbooks rendered by capital.workbook are values only and their master check passes."""
+    from openpyxl import load_workbook
+
+    for path in sorted((store.ROOT / "models").glob("*/????-??-??.xlsx")):
+        rel = path.relative_to(store.ROOT)
+        if not (store.DATA / path.parent.name / path.stem / "call.json").exists():
+            errors.append(f"{rel}: no matching call in data/")
+            continue
+        wb = load_workbook(path)
+        for ws in wb:
+            if ws.sheet_state != "visible":
+                errors.append(f"{rel}: sheet {ws.title} is hidden")
+            if ws["B1"].value != "MASTER CHECK: OK":
+                errors.append(f"{rel}: sheet {ws.title} master check is {ws['B1'].value!r}")
+            for row in ws.iter_rows():
+                for cell in row:
+                    if isinstance(cell.value, str) and cell.value.startswith("="):
+                        errors.append(f"{rel}: {ws.title}!{cell.coordinate} holds a formula; workbooks are values only")
+                        break
+
+
 def run() -> list[str]:
     errors: list[str] = []
     for path in sorted(store.DATA.glob("*/*/")):
@@ -311,6 +375,7 @@ def run() -> list[str]:
     check_prices(errors)
     check_call_prices(errors)
     check_sec(errors)
+    check_workbooks(errors)
     return errors
 
 

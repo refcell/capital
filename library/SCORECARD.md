@@ -40,6 +40,10 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 Calibration context: published 12-month price targets are met at the horizon only about 38% of the time (Bradshaw, Brown and Huang 2013), and targets 70% or more away from the price are hit under 25% of the time (Asquith, Mikhail and Au 2005). Large stated upside is a calibration risk until the scorecard shows otherwise.
 
+## Probability claims
+
+No call has made resolvable probability claims yet. Every new research run must make at least three (see `capital/validate.py`); later calls record outcomes in `resolutions`, and this section then shows Brier scores and a calibration table.
+
 ## Where marks sit in the scenario range
 
 A calibrated set of calls should see marks spread across the bands roughly in line with the scenario weights once horizons pass. Early on, most marks should sit near the starting price.
