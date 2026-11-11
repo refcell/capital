@@ -374,6 +374,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPC",
     "last_capture": "2026-11-11T02:23:12+00:00"
   },
+  "PRIM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PRIM",
+    "last_capture": "2026-11-11T03:02:15+00:00"
+  },
   "PSNL": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL",
