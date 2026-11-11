@@ -482,7 +482,7 @@
   "SMR": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMR",
-    "last_capture": "2026-11-11T02:23:16+00:00"
+    "last_capture": "2026-11-11T08:09:23+00:00"
   },
   "SOFI": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

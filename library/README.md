@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 141 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 142 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -13,8 +13,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 74 | 105 |
-| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 3 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 75 | 105 |
+| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 17 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
 ## Companies
@@ -109,7 +109,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [SAN](SAN.md) | Banco Santander, S.A. | Financials | active | 2026-06-21 | 1 | Watch | Watch | $13.50 | $14.97 | +3.5% | -5.8% | -6.5% |
 | [SFM](SFM.md) | Sprouts Farmers Market, Inc. | Consumer Staples | active | 2026-11-05 | 1 | Watch | Watch | $54.40 | $55.69 | +0.8% | -8.9% | -7.0% |
 | [SKT](SKT.md) | Tanger Inc. | Real estate | active | 2026-07-28 | 1 | Watch | Watch | $42.11 | $51.22 | +6.7% | -4.1% | -5.5% |
-| [SMR](SMR.md) | NuScale Power Corporation | Industrials — Clean Energy | active | 2026-07-14 | 1 | Watch | Avoid | $8.60 | $2.89 | -30.5% | -36.7% | -37.1% |
+| [SMR](SMR.md) | NuScale Power Corporation | Industrials | active | 2026-11-11 | 2 | Watch | Watch | $5.22 | $6.43 | +7.2% | — | — |
 | [SOFI](SOFI.md) | SoFi Technologies, Inc. | Digital banking | active | 2026-05-24 | 2 | Watch | Own | $15.62 | $30.50 | +25.0% | +7.2% | +5.8% |
 | [SOLV](SOLV.md) | Solventum Corporation | Healthcare | active | 2026-11-11 | 2 | Watch (negative) | Watch | $90.08 | $97.66 | +2.7% | — | — |
 | [SPCX](SPCX.md) | Space Exploration Technologies Corp. | Space infrastructure | active | 2026-06-13 | 1 | Watch | — | $160.95 | — | — | -11.7% | -13.7% |

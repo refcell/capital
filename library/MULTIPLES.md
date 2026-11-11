@@ -94,7 +94,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [SAN](SAN.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [SFM](SFM.md) | Retail-Grocery Stores | 9.4x | 12.7–17.9x | 0.5x | 0.5–0.9x | 6.7x | 9.1–14.0x | SIC 54xx, 1 names: 0.2x, — |
 | [SKT](SKT.md) | Real Estate Investment Trusts | — | — | — | — | — | — | SIC 6798, 4 names: 3.7x, 29.4x |
-| [SMR](SMR.md) | Fabricated Plate Work (Boiler Shops) | — | — | 476.2x | 23.3–115.7x | — | — | — |
+| [SMR](SMR.md) | Fabricated Plate Work (Boiler Shops) | — | — | 443.1x | 23.3–115.7x | — | — | — |
 | [SOFI](SOFI.md) | Finance Services | 30.8x | 37.4–55.6x | 39.6x | 25.4–41.1x | — | — | SIC 61xx, 1 names: 19.3x, — |
 | [SOLV](SOLV.md) | Surgical & Medical Instruments & Apparatus | 98.6x | 9.2–31.8x | 2.4x | 2.1–2.4x | 42.8x | 8.1–24.4x | SIC 3841, 3 names: 3.1x, 41.7x |
 | [SPCX](SPCX.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |

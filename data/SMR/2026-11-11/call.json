@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "ticker": "SMR",
+  "exchange": "NYSE",
+  "company": "NuScale Power Corporation",
+  "sector": "Industrials / advanced nuclear: small modular reactor technology (NuScale Power Module), commercialized through ENTRA1 Energy",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "SMR/2026-07-14",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q2 and Q3 2026)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged; cash now covers 82% of the price, but the value above cash depends on ENTRA1 turning the non-binding TVA framework into a binding order, and NuScale still owes ENTRA1 about $40 million a module as orders become binding",
+  "rating_override_reason": null,
+  "primary_lens": "nav",
+  "lens_text": "End-2029 enterprise value (a judgment anchored to the stock's own history) plus end-2029 cash after operating spending, ENTRA1 Milestone Contributions and any equity raise, on shares including Class B, RSUs, award dilution and raises; three-year value, undiscounted",
+  "price": {
+    "value": 5.22,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 2.79,
+      "weight": 0.55,
+      "basis": "No binding offtake by end-2029; ENTRA1 keeps exclusive commercialization rights; cash cost $240M a year 2027-29, no ENTRA1 payments, no raise; end-2029 cash $1,247M; EV $0, deliberately conservative (the market values the design and the ENTRA1 option at what they cost to keep alive); 447.7M shares"
+    },
+    "base": {
+      "value": 8.13,
+      "weight": 0.35,
+      "basis": "Binding ENTRA1-TVA PPA for 12 modules in 2028 and an OEM agreement for 6 in 2029; cash cost $300M a year; Milestone Contributions $338M (35% on 12, 50% on 6, at $46.98M per module); $500M raised at $7 in 2028; end-2029 cash $1,222M; EV $3,000M; 519.2M shares"
+    },
+    "bull": {
+      "value": 20.54,
+      "weight": 0.1,
+      "basis": "PPAs for 36 modules in 2028 and OEM agreements for 24 in 2029, RoPower proceeds; cash cost $350M a year; Milestone Contributions $1,156M; $1.5B raised at $15 in 2028; end-2029 cash $1,251M; EV $10,000M (below the more than $11B of October 2025); 547.7M shares"
+    }
+  },
+  "fair_value": {
+    "value": 6.43,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value, undiscounted; no dividend",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "NuScale has the only NRC-approved SMR designs (50 MWe in 2020, 77 MWe in May 2025), $1.86 billion of cash and investments ($4.29 a share) and no debt, and spends about $190 million a year net of interest, so the stock at $5.22 carries only about $405 million of enterprise value. The value above cash depends on ENTRA1, NuScale's exclusive commercialization partner with sole discretion over whether to buy, converting its non-binding 6 GW framework with TVA into binding PPAs and module orders. Fourteen months on, nothing is binding, ENTRA1's capability is the subject of a securities suit, and each binding step costs NuScale cash first (about $40 million a module still owed). Weighting 45% on a first binding order by 2029 gives about $6.43, 7.2% a year.",
+  "consensus_view": "No Street snapshot was captured. The stock has fallen 88% from its October 2025 month-end high of $44.87 and 39% since July while SPY was flat; at $5.22 the market values NuScale at about $405 million above its cash, which on our scenarios is a bit under even odds of a first binding order by 2029.",
+  "variant_view": "No strong variant view; we price about the same odds of a binding order as the market. The analytical point, which the July call missed and the headline cash figure hides, is that the ENTRA1 agreement makes each binding step cost NuScale cash first (about $1.18 billion for PPAs on all 72 framework modules) and gives ENTRA1 sole discretion over purchases, so a TVA PPA would raise the value but also the need for a raise. Checkable: a binding PPA for NuScale modules by December 31, 2028 (0.45).",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results and 10-K",
+      "timing": "About February 25, 2027 (last year's came after the close on February 26, 2026)",
+      "date": "2027-02-25",
+      "kind": "hard",
+      "what_it_proves": "Year-end cash (about $1.81 billion expected), 2027 spending plans after the Doosan contract, ATM use, and any progress on the ENTRA1-TVA PPA",
+      "value_impact": "Net cash use above $80 million in a quarter without an order cuts the bear and base; a PPA moves weight to the base"
+    },
+    {
+      "event": "Binding PPA between ENTRA1 and TVA for NuScale modules",
+      "timing": "2027-2028",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "That the TVA framework becomes revenue, triggering Milestone Contribution 2 (35% of about $46.98 million a module)",
+      "value_impact": "Moves weight from the bear ($2.79) to the base ($8.13); about $16.4 million of cash owed to ENTRA1 per module covered"
+    },
+    {
+      "event": "RoPower Doicești financing and final investment decision",
+      "timing": "2027-2028",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "A second path to module orders outside ENTRA1-TVA",
+      "value_impact": "Supports the base or bull"
+    },
+    {
+      "event": "ATM sales under the $750 million August 2026 program",
+      "timing": "Any quarter",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether management raises at low prices without an order",
+      "value_impact": "A raise below $5 without an order dilutes every scenario"
+    },
+    {
+      "event": "Truedson securities class action: ruling on NuScale's motion to dismiss (opposition due 2026-11-16, reply 2026-12-16)",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether claims that ENTRA1 lacked the experience and capability to develop nuclear plants survive; related derivative suits (Leigh, stayed; Harwood) follow it",
+      "value_impact": "Not in the values; no loss is accrued. Claims proceeding would move weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "ENTRA1, a private partner with undisclosed financing, cannot convert the TVA framework, and NuScale's exclusive commercialization route stalls while the company spends about $240 million a year.",
+      "signal": "No ENTRA1-TVA PPA by end-2027; TVA statements on its new-nuclear program; ENTRA1 financing news"
+    },
+    {
+      "reason": "ENTRA1 lacks the capability or financing to develop plants, as the amended Truedson complaint alleges, and because ENTRA1 holds exclusive rights to 2045 with sole discretion over purchases, NuScale cannot go around it without consent.",
+      "signal": "Truedson motion-to-dismiss ruling; ENTRA1 financing announcements; any NuScale request to pursue projects without ENTRA1"
+    },
+    {
+      "reason": "TVA or other utilities choose a competing SMR or large reactor for the first U.S. fleet orders.",
+      "signal": "TVA, utility and hyperscaler technology selections"
+    },
+    {
+      "reason": "Orders come, but the PMA's Milestone Contributions (about $40 million a module still owed, $16.4 million on a PPA and $23.5 million on an OEM agreement) and the capped module price leave NuScale with thin economics and a large up-front cash need, forcing raises that offset the gain.",
+      "signal": "Size and timing of Milestone Contribution 2 and 3 liabilities; any disclosure of module pricing or margins; ATM use after an order"
+    },
+    {
+      "reason": "Spending on production readiness (Doosan, long-lead material, staff) rises toward $400 million a year ahead of orders and eats the cash cushion.",
+      "signal": "Quarterly operating cash use excluding PMA payments; long-lead material balance"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: TVA signs multi-GW PPAs, orders follow, and the market re-rates NuScale toward its 2025 valuation.",
+      "signal": "A binding PPA covering at least 12 modules; OEM agreements; customer deposits"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "TVA publicly ends its collaboration with ENTRA1, cuts the 6 GW scope or names another vendor's technology for any site in the program, the PMA is terminated, or ENTRA1 enters insolvency proceedings",
+      "check_by": "2027-12-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "No binding PPA or offtake agreement for NuScale modules signed by ENTRA1 or an affiliate by June 30, 2029 (base and bull have one in 2028; bear has none)",
+      "check_by": "2029-06-30",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "ye26-liquidity-1-75b",
+      "claim": "NuScale reports cash, cash equivalents and short- and long-term investments of at least $1.75 billion at December 31, 2026.",
+      "probability": 0.85,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "entra1-tva-ppa-2027",
+      "claim": "ENTRA1 or an affiliate signs a binding power purchase agreement with TVA covering NuScale modules, announced by December 31, 2027.",
+      "probability": 0.2,
+      "resolve_by": "2027-12-31"
+    },
+    {
+      "id": "binding-offtake-2028",
+      "claim": "A binding PPA or offtake agreement covering NuScale modules (triggering Milestone Contribution 2) is disclosed by December 31, 2028 (base and bull, 45% of the weight, have one in 2028).",
+      "probability": 0.45,
+      "resolve_by": "2029-03-31"
+    },
+    {
+      "id": "atm-sales-1h27",
+      "claim": "NuScale discloses sales of Class A shares under the August 2026 ATM program for the period through June 30, 2027.",
+      "probability": 0.3,
+      "resolve_by": "2027-08-31"
+    },
+    {
+      "id": "revenue-5m-2027",
+      "claim": "NuScale reports revenue of at least $5 million in any quarter of 2027.",
+      "probability": 0.2,
+      "resolve_by": "2028-03-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a binding ENTRA1-TVA PPA for NuScale modules",
+    "Toward Own: a price at or below about $4.23 at these weights",
+    "Toward Avoid: TVA ends the ENTRA1 collaboration, cuts its scope or names another vendor, the PMA ends, or ENTRA1 enters insolvency proceedings",
+    "Toward Avoid: no binding offtake for NuScale modules by June 30, 2029",
+    "Toward the bear: the Truedson claims about ENTRA1's capability survive the motion to dismiss"
+  ],
+  "base_rate": null,
+  "update": {
+    "event": "Q2 and Q3 2026 results (8-K and 10-Q, 2026-08-05 and 2026-11-05)",
+    "event_date": "2026-11-05",
+    "expected": "July call (backfill, Watch): cash floor plus option; values $0.60 / $3.00 / $16.00 at 30/50/20, recorded fair value $2.89 (probably a mis-extraction of the $2.89B market cap; weighted $4.88; the report concluded $5.70-7.80); treated NRC certification as pending; checklist asked for cash above $800M, burn below $150M a quarter, revenue above $5M a quarter, a firm customer order and no raise below $5",
+    "actual": "Cash and investments $1,864.1M, no debt; operating cash use $314.7M / $58.2M / $28.6M in Q1-Q3 2026 including $259.9M of ENTRA1 Milestone Contribution 1 ($141.5M underlying); revenue $0.1M in Q2 and $0.3M in Q3; Q3 net loss $45.7M; no ATM sales since June ($1.0B at $11.14 in 2026); Doosan contract for the first upper reactor coolant system; ENTRA1-TVA framework still non-binding; ENTRA1 added as a defendant in the Truedson securities class action; NRC approval of the 77 MWe design dates from May 2025",
+    "thesis_pillars": [
+      {
+        "pillar": "An NRC-approved design gives NuScale a lead among U.S. SMR vendors",
+        "status": "intact",
+        "note": "77 MWe design approved May 2025; Doosan fabricating the first upper reactor coolant system"
+      },
+      {
+        "pillar": "A firm customer order arrives",
+        "status": "weakened",
+        "note": "TVA framework still non-binding after 14 months; RoPower pre-construction; ENTRA1's capability alleged deficient in a securities suit"
+      },
+      {
+        "pillar": "Cash covers the path to an order without destructive dilution",
+        "status": "strengthened",
+        "note": "$1.86B, no debt, about $190M a year of net cash use; no raise since June"
+      },
+      {
+        "pillar": "Per-share value survives the economics of commercialization",
+        "status": "weakened",
+        "note": "About $40M a module still owed to ENTRA1 as orders become binding; sale price capped by the PMA; ENTRA1 decides whether to buy"
+      }
+    ],
+    "action": "raise"
+  },
+  "next_review": "2027-02-26",
+  "next_review_trigger": "Q4 2026 results and 10-K, expected around February 25, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/SMR/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/SMR/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "SMR closed at $5.22 on November 10, 2026",
+    "scenarios.base.value": "| Base | $3.00 | $8.13 |",
+    "fair_value.value": "| Fair value | $2.89 (stated; $4.88 weighted) | $6.43 |"
+  },
+  "notes": [
+    "The July call was a backfill with no horizon; this update states three-year values at the end of 2029, undiscounted. The rating rule annualizes over 3 years (7.2% a year); end-2029 is 3.14 years away, at which the fair value returns 6.9% a year.",
+    "The July report treated NRC certification as pending; the 10-Q states the NRC approved the 77 MWe six-module design in May 2025 and the 50 MWe design in September 2020. Its cash ($890M) counted only cash and short-term investments at March 31, and its share count (346M) predated most 2026 ATM sales. Its recorded fair value of $2.89 equals the report's $2.89B market cap and is probably a backfill mis-extraction; its weights give $4.88.",
+    "Cash roll-forward from $1,864.1M: Q4 2026 net use $55M; 2027-29 annual cash cost (operating, capex and production) of $240M / $300M / $350M; Milestone Contributions as triggered; 3.5% interest on the balance; raises net of a 2% fee. Shares start at 434.7M (410.57M Class A + 19.33M Class B + 4.82M RSUs) and add 4M a year from awards; 4.47M options are excluded.",
+    "ENTRA1 PMA: Milestone Contribution 1 of $507.4M (15%) for 72 NPMs implies $46.98M per NPM in total; with 15% paid, $39.9M a module remains, $16.4M (35%) on a binding PPA or offtake and $23.5M (50%) on an OEM agreement. No liability for later tranches is accrued at September 30, 2026. ENTRA1 has sole and full discretion over purchases; NuScale needs ENTRA1's consent to pursue opportunities without it; the PMA runs to 2045. Q3 2025 G&A included $495.0M of Milestone Contribution 1.",
+    "End-2029 EVs are judgments with no earnings or peer anchor: bear $0 (trades at cash), base $3.0B (about $3.2B per GW of a first 0.92 GW plant), bull $10.0B, against more than $11B in October 2025 (month-end $44.87 on at least 278M Class A and Class B shares, less about $0.7B of cash and short-term investments) and about $405M today ($380M without RSUs).",
+    "Sensitivities at 55/35/10: each $1B of base EV moves the fair value by $0.67 ($5.76 at $2B, $7.10 at $4B); a bear at cash less two years of spending ($1.71) gives $5.84; $40M a year more spending in the bear and base gives $6.19 (5.9% a year); the weaker bear, a $2B base EV and 60/30/10 together give about $4.95. Weights 60/30/10 give $6.17 (5.7% a year), 50/38/12 $6.95 (10.0%), 45/40/15 $7.59 (13.3%), 40/40/20 $8.48 (17.5%, Own). A fired kill criterion leaves mostly the bear: 85% bear and 15% on a binding offtake in the second half of 2029 or later (cash plus $1.5B EV, $6.14) gives about $3.29, Avoid; the bear's EV of $0 is deliberately conservative against that branch.",
+    "No current Street consensus snapshot was captured for this update. Revenue-based base rates do not apply to a company with under $3M of revenue, so base_rate is left empty.",
+    "Review round 1 (agent:reviewing-research, grade B-): the arithmetic and source facts reproduced exactly, but 50% weight on a 2028 PPA contradicted the 0.40 claim, the kill criteria sat on the base case's own deadlines and the post-kill 70/25/5 kept weight on ruled-out scenarios, the headline overstated the PMA cost ($47M total versus about $40M still owed), the Truedson class action naming ENTRA1, the derivative suits and the PMA's discretion and consent terms were missing, the July checklist omitted Q1's $314.7M cash use and several items, the July $2.89 baseline was likely a mis-extraction, and the EVs had no cross-check. Fixed: weights 55/35/10 with the offtake claim at 0.45, kill criteria reduced to the TVA/PMA path and no binding offtake by June 30, 2029, post-kill value restated as $3.29, PMA cost restated, litigation and PMA terms added with a pre-mortem reason and catalyst, every July item reported, both July baselines shown, EVs labelled as judgments with a per-GW scale. Fair value moved from $6.95 (10.0% a year) to $6.43 (7.2%).",
+    "Review round 2 (grade B): most round-1 fixes held and every figure reproduced. Open: the bear valued the no-order world at EV $0 while the post-kill branch implied $3.29; Fluor was an original Truedson defendant, not added in July; 'narrows' was vague and the offtake kill criterion fires late; three rounding slips. Fixed: bear defined as no binding offtake by end-2029 with EV $0 stated as conservative, post-kill branch relabelled, Fluor wording corrected, kill criterion 1 names scope cuts and other vendors, rounding fixed. Not adopted: an earlier spending-based kill criterion, because bear and base spending do not separate before an order."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 2,
+      "risk": 4,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "valuation: the end-2029 EVs remain unanchored judgments (the $3B base EV supplies about 71% of the base value), and the new post-kill branch values the no-offtake world at $3.29 against the bear's EV-$0 $2.79, while a binding PPA in 2029 falls in no scenario.",
+      "variant_view: the call states it prices about the same odds of a binding order as the market; the PMA-cost point is an analytical correction, not a checkable disagreement with the price."
+    ],
+    "grade": "B",
+    "counter_case": "On the call's own numbers this is closer to Avoid than to a mid-band Watch. The value above cash rests on an exclusive partner, locked in until 2045, that has 'sole and full discretion' over whether to buy NuScale's modules and is now a defendant in a securities suit alleging it lacks the capability to develop nuclear plants. A company spending $240M a year with no order usually trades below cash, as the call's own $1.71 bear sensitivity shows; that bear, a $2B base EV and 60/30/10 weights give $4.95, below $5.22. The $6.43 fair value holds only if a $3B end-2029 EV, which the note admits has no earnings or peer anchor, is right, and even in success each binding step sends about $40M a module to ENTRA1 and probably forces a raise.",
+    "response": "Accepted: the bear is now defined as no binding offtake by end-2029 with EV $0 stated as deliberately conservative against the $3.29 post-kill branch, the branch is relabelled as an offtake in the second half of 2029 or later, the Fluor wording is corrected, the first kill criterion now names scope cuts and other vendors, and the rounding is fixed. Not adopted: an earlier spending-based kill criterion, because bear and base spending ($240M and $300M a year) do not separate before an order; the end-2027 TVA/ENTRA1 criterion remains the early test. On the counter-case, we agree the downside combination gives $4.95 and say so; we keep 55/35/10 because the binding-offtake claim (0.45) and the price (46% of the way from bear to base) both point to just under even odds, which leaves the call in the middle of the Watch band."
+  }
+}

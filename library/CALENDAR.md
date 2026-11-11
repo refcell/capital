@@ -74,7 +74,6 @@ The company has reported since the latest call. These names are due an update no
 | 2026-08-05 | 2 | [GNW](GNW.md) | 2026-07-15 |
 | 2026-08-05 | 2 | [JOBY](JOBY.md) | 2026-07-20 |
 | 2026-08-05 | 2 | [MELI](MELI.md) | 2026-05-24 |
-| 2026-08-05 | 2 | [SMR](SMR.md) | 2026-07-14 |
 | 2026-08-05 | 2 | [VECO](VECO.md) | 2026-06-18 |
 | 2026-08-06 | 1 | [POST](POST.md) | 2026-07-13 |
 | 2026-08-06 | 2 | [CART](CART.md) | 2026-05-29 |

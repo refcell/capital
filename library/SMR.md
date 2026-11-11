@@ -2,41 +2,87 @@
 
 # NuScale Power Corporation (NYSE: SMR)
 
-Sector: Industrials — Clean Energy / Small Modular Reactors (SMR) / Advanced Nuclear · Calls: 1 · Latest: 2026-07-14
+Sector: Industrials / advanced nuclear: small modular reactor technology (NuScale Power Module), commercialized through ENTRA1 Energy · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / Needs More Work — binary technology risk, massive dilution, cash-rich but cash-burning |
-| Rule rating | Avoid (-30.5% a year expected over 3 years) |
-| Price at call | $8.60 on 2026-07-14 |
-| Bear / base / bull | $0.60 / $3.00 / $16.00 |
-| Weights | 30% / 50% / 20% |
-| Fair value | $2.89 (stated) |
+| Stance (as published) | Watch — unchanged; cash now covers 82% of the price, but the value above cash depends on ENTRA1 turning the non-binding TVA framework into a binding order, and NuScale still owes ENTRA1 about $40 million a module as orders become binding |
+| Rule rating | Watch (+7.2% a year expected over 3 years) |
+| Price at call | $5.22 on 2026-11-10 |
+| Bear / base / bull | $2.79 / $8.13 / $20.54 |
+| Weights | 55% / 35% / 10% |
+| Fair value | $6.43 (weighted) |
 | Street mean target | — |
-| Valuation lens | Cash NAV floor + Pipeline optionality (pre-commercial developer) |
-| Since the call | -36.7% vs SPY +0.4% through 2026-11-09; mark $5.44 is base to bull |
+| Valuation lens | End-2029 enterprise value (a judgment anchored to the stock's own history) plus end-2029 cash after operating spending, ENTRA1 Milestone Contributions and any equity raise, on shares including Class B, RSUs, award dilution and raises; three-year value, undiscounted |
+| Next review | 2027-02-26 — Q4 2026 results and 10-K, expected around February 25, 2027 after the close |
 
-**Data notes.** The report states more than one probability-weighted value: $2.89, $5.7; the first is used. Stated fair value $2.89 differs from the weighted scenario value $4.88.
+**Thesis.** NuScale has the only NRC-approved SMR designs (50 MWe in 2020, 77 MWe in May 2025), $1.86 billion of cash and investments ($4.29 a share) and no debt, and spends about $190 million a year net of interest, so the stock at $5.22 carries only about $405 million of enterprise value. The value above cash depends on ENTRA1, NuScale's exclusive commercialization partner with sole discretion over whether to buy, converting its non-binding 6 GW framework with TVA into binding PPAs and module orders. Fourteen months on, nothing is binding, ENTRA1's capability is the subject of a securities suit, and each binding step costs NuScale cash first (about $40 million a module still owed). Weighting 45% on a first binding order by 2029 gives about $6.43, 7.2% a year.
 
-## Fundamentals known on 2026-07-14
+**Variant view.** No strong variant view; we price about the same odds of a binding order as the market. The analytical point, which the July call missed and the headline cash figure hides, is that the ENTRA1 agreement makes each binding step cost NuScale cash first (about $1.18 billion for PPAs on all 72 framework modules) and gives ENTRA1 sole discretion over purchases, so a TVA PPA would raise the value but also the need for a raise. Checkable: a binding PPA for NuScale modules by December 31, 2028 (0.45).
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SMR 2026-07-14`). Later restatements are not visible here by design.
+**Catalysts.**
+
+- Q4 2026 results and 10-K (About February 25, 2027 (last year's came after the close on February 26, 2026))
+- Binding PPA between ENTRA1 and TVA for NuScale modules (2027-2028)
+- RoPower Doicești financing and final investment decision (2027-2028)
+- ATM sales under the $750 million August 2026 program (Any quarter)
+- Truedson securities class action: ruling on NuScale's motion to dismiss (opposition due 2026-11-16, reply 2026-12-16) (2027)
+
+**Pre-mortem** (written at decision time).
+
+- ENTRA1, a private partner with undisclosed financing, cannot convert the TVA framework, and NuScale's exclusive commercialization route stalls while the company spends about $240 million a year. — watch: No ENTRA1-TVA PPA by end-2027; TVA statements on its new-nuclear program; ENTRA1 financing news
+- ENTRA1 lacks the capability or financing to develop plants, as the amended Truedson complaint alleges, and because ENTRA1 holds exclusive rights to 2045 with sole discretion over purchases, NuScale cannot go around it without consent. — watch: Truedson motion-to-dismiss ruling; ENTRA1 financing announcements; any NuScale request to pursue projects without ENTRA1
+- TVA or other utilities choose a competing SMR or large reactor for the first U.S. fleet orders. — watch: TVA, utility and hyperscaler technology selections
+- Orders come, but the PMA's Milestone Contributions (about $40 million a module still owed, $16.4 million on a PPA and $23.5 million on an OEM agreement) and the capped module price leave NuScale with thin economics and a large up-front cash need, forcing raises that offset the gain. — watch: Size and timing of Milestone Contribution 2 and 3 liabilities; any disclosure of module pricing or margins; ATM use after an order
+- Spending on production readiness (Doosan, long-lead material, staff) rises toward $400 million a year ahead of orders and eats the cash cushion. — watch: Quarterly operating cash use excluding PMA payments; long-lead material balance
+- The Watch call is wrong on the upside: TVA signs multi-GW PPAs, orders follow, and the market re-rates NuScale toward its 2025 valuation. — watch: A binding PPA covering at least 12 modules; OEM agreements; customer deposits
+
+**Kill criteria.**
+
+- TVA publicly ends its collaboration with ENTRA1, cuts the 6 GW scope or names another vendor's technology for any site in the program, the PMA is terminated, or ENTRA1 enters insolvency proceedings (check by 2027-12-31) — open
+- No binding PPA or offtake agreement for NuScale modules signed by ENTRA1 or an affiliate by June 30, 2029 (base and bull have one in 2028; bear has none) (check by 2029-06-30) — open
+
+**Probability claims.**
+
+- 85%: NuScale reports cash, cash equivalents and short- and long-term investments of at least $1.75 billion at December 31, 2026. (resolves by 2027-03-31)
+- 20%: ENTRA1 or an affiliate signs a binding power purchase agreement with TVA covering NuScale modules, announced by December 31, 2027. (resolves by 2027-12-31)
+- 45%: A binding PPA or offtake agreement covering NuScale modules (triggering Milestone Contribution 2) is disclosed by December 31, 2028 (base and bull, 45% of the weight, have one in 2028). (resolves by 2029-03-31)
+- 30%: NuScale discloses sales of Class A shares under the August 2026 ATM program for the period through June 30, 2027. (resolves by 2027-08-31)
+- 20%: NuScale reports revenue of at least $5 million in any quarter of 2027. (resolves by 2028-03-31)
+
+**What would change the view.**
+
+- Toward Own: a binding ENTRA1-TVA PPA for NuScale modules
+- Toward Own: a price at or below about $4.23 at these weights
+- Toward Avoid: TVA ends the ENTRA1 collaboration, cuts its scope or names another vendor, the PMA ends, or ENTRA1 enters insolvency proceedings
+- Toward Avoid: no binding offtake for NuScale modules by June 30, 2029
+- Toward the bear: the Truedson claims about ENTRA1's capability survive the motion to dismiss
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 4, calibration 4). Counter-case: On the call's own numbers this is closer to Avoid than to a mid-band Watch. The value above cash rests on an exclusive partner, locked in until 2045, that has 'sole and full discretion' over whether to buy NuScale's modules and is now a defendant in a securities suit alleging it lacks the capability to develop nuclear plants. A company spending $240M a year with no order usually trades below cash, as the call's own $1.71 bear sensitivity shows; that bear, a $2B base EV and 60/30/10 weights give $4.95, below $5.22. The $6.43 fair value holds only if a $3B end-2029 EV, which the note admits has no earnings or peer anchor, is right, and even in success each binding step sends about $40M a module to ENTRA1 and probably forces a raise.
+
+**Response.** Accepted: the bear is now defined as no binding offtake by end-2029 with EV $0 stated as deliberately conservative against the $3.29 post-kill branch, the branch is relabelled as an offtake in the second half of 2029 or later, the Fluor wording is corrected, the first kill criterion now names scope cuts and other vendors, and the rounding is fixed. Not adopted: an earlier spending-based kill criterion, because bear and base spending ($240M and $300M a year) do not separate before an order; the end-2027 TVA/ENTRA1 criterion remains the early test. On the counter-case, we agree the downside combination gives $4.95 and say so; we keep 55/35/10 because the binding-offtake claim (0.45) and the price (46% of the way from bear to base) both point to just under even odds, which leaves the call in the middle of the Watch band.
+
+**Data notes.** The July call was a backfill with no horizon; this update states three-year values at the end of 2029, undiscounted. The rating rule annualizes over 3 years (7.2% a year); end-2029 is 3.14 years away, at which the fair value returns 6.9% a year. The July report treated NRC certification as pending; the 10-Q states the NRC approved the 77 MWe six-module design in May 2025 and the 50 MWe design in September 2020. Its cash ($890M) counted only cash and short-term investments at March 31, and its share count (346M) predated most 2026 ATM sales. Its recorded fair value of $2.89 equals the report's $2.89B market cap and is probably a backfill mis-extraction; its weights give $4.88. Cash roll-forward from $1,864.1M: Q4 2026 net use $55M; 2027-29 annual cash cost (operating, capex and production) of $240M / $300M / $350M; Milestone Contributions as triggered; 3.5% interest on the balance; raises net of a 2% fee. Shares start at 434.7M (410.57M Class A + 19.33M Class B + 4.82M RSUs) and add 4M a year from awards; 4.47M options are excluded. ENTRA1 PMA: Milestone Contribution 1 of $507.4M (15%) for 72 NPMs implies $46.98M per NPM in total; with 15% paid, $39.9M a module remains, $16.4M (35%) on a binding PPA or offtake and $23.5M (50%) on an OEM agreement. No liability for later tranches is accrued at September 30, 2026. ENTRA1 has sole and full discretion over purchases; NuScale needs ENTRA1's consent to pursue opportunities without it; the PMA runs to 2045. Q3 2025 G&A included $495.0M of Milestone Contribution 1. End-2029 EVs are judgments with no earnings or peer anchor: bear $0 (trades at cash), base $3.0B (about $3.2B per GW of a first 0.92 GW plant), bull $10.0B, against more than $11B in October 2025 (month-end $44.87 on at least 278M Class A and Class B shares, less about $0.7B of cash and short-term investments) and about $405M today ($380M without RSUs). Sensitivities at 55/35/10: each $1B of base EV moves the fair value by $0.67 ($5.76 at $2B, $7.10 at $4B); a bear at cash less two years of spending ($1.71) gives $5.84; $40M a year more spending in the bear and base gives $6.19 (5.9% a year); the weaker bear, a $2B base EV and 60/30/10 together give about $4.95. Weights 60/30/10 give $6.17 (5.7% a year), 50/38/12 $6.95 (10.0%), 45/40/15 $7.59 (13.3%), 40/40/20 $8.48 (17.5%, Own). A fired kill criterion leaves mostly the bear: 85% bear and 15% on a binding offtake in the second half of 2029 or later (cash plus $1.5B EV, $6.14) gives about $3.29, Avoid; the bear's EV of $0 is deliberately conservative against that branch. No current Street consensus snapshot was captured for this update. Revenue-based base rates do not apply to a company with under $3M of revenue, so base_rate is left empty. Review round 1 (agent:reviewing-research, grade B-): the arithmetic and source facts reproduced exactly, but 50% weight on a 2028 PPA contradicted the 0.40 claim, the kill criteria sat on the base case's own deadlines and the post-kill 70/25/5 kept weight on ruled-out scenarios, the headline overstated the PMA cost ($47M total versus about $40M still owed), the Truedson class action naming ENTRA1, the derivative suits and the PMA's discretion and consent terms were missing, the July checklist omitted Q1's $314.7M cash use and several items, the July $2.89 baseline was likely a mis-extraction, and the EVs had no cross-check. Fixed: weights 55/35/10 with the offtake claim at 0.45, kill criteria reduced to the TVA/PMA path and no binding offtake by June 30, 2029, post-kill value restated as $3.29, PMA cost restated, litigation and PMA terms added with a pre-mortem reason and catalyst, every July item reported, both July baselines shown, EVs labelled as judgments with a per-GW scale. Fair value moved from $6.95 (10.0% a year) to $6.43 (7.2%). Review round 2 (grade B): most round-1 fixes held and every figure reproduced. Open: the bear valued the no-order world at EV $0 while the post-kill branch implied $3.29; Fluor was an original Truedson defendant, not added in July; 'narrows' was vague and the offtake kill criterion fires late; three rounding slips. Fixed: bear defined as no binding offtake by end-2029 with EV $0 stated as conservative, post-kill branch relabelled, Fluor wording corrected, kill criterion 1 names scope cuts and other vendors, rounding fixed. Not adopted: an earlier spending-based kill criterion, because bear and base spending do not separate before an order.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SMR 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 18.7M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Gross profit (TTM) | 4.5M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Operating income (TTM) | -711.8M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Net income (TTM) | -385.8M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Diluted EPS (TTM) | -2.20 USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Operating cash flow (TTM) | -751.5M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Capex (TTM) | 2.0M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Free cash flow (TTM) | -753.5M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Stock comp (TTM) | 19.9M USD | 2026-03-31 | ttm ytd | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Cash | 341.1M USD | 2026-03-31 | instant | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
-| Equity | 1,166.9M USD | 2026-03-31 | instant | [0001822966-26-000054](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000054/) |
+| Revenue (TTM) | 2.7M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Gross profit (TTM) | -59,000 USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Operating income (TTM) | -259.1M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Net income (TTM) | -186.0M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Diluted EPS (TTM) | -1.17 USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Operating cash flow (TTM) | -605.1M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Capex (TTM) | 2.4M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Free cash flow (TTM) | -607.5M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Stock comp (TTM) | 22.7M USD | 2026-09-30 | ttm ytd | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Cash | 513.4M USD | 2026-09-30 | instant | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
+| Equity | 2,024.1M USD | 2026-09-30 | instant | [0001822966-26-000091](https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/) |
 | Shares outstanding | 236.8M | 2022-05-03 | instant | [0001822966-22-000051](https://www.sec.gov/Archives/edgar/data/1822966/000182296622000051/) |
 
 ## Earnings calendar
@@ -47,6 +93,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001822966-26-000089](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-07-14 | $8.60 | Watch | Avoid | $0.60 | $3.00 | $16.00 | $2.89 | -36.7% | -37.1% | base to bull | [report](https://github.com/refcell/capital/blob/f4bdfea/research/SMR.md) · [projection](https://github.com/refcell/capital/blob/1c7af91/projections/SMR.md) · [model](https://github.com/refcell/capital/blob/05146fc/models/%5B2026-07-14%5D%20NuScale%20Power%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/05146fc/models/_build_smr.py) |
+| 2026-11-11 | $5.22 | Watch | Watch | $2.79 | $8.13 | $20.54 | $6.43 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/SMR/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/SMR/2026-11-11.xlsx) |
+| 2026-07-14 | $8.60 | Watch | Avoid | $0.60 | $3.00 | $16.00 | $2.89 | -39.3% | -39.3% | base to bull | [report](https://github.com/refcell/capital/blob/f4bdfea/research/SMR.md) · [projection](https://github.com/refcell/capital/blob/1c7af91/projections/SMR.md) · [model](https://github.com/refcell/capital/blob/05146fc/models/%5B2026-07-14%5D%20NuScale%20Power%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/05146fc/models/_build_smr.py) |
 
 Data: `data/SMR/`. Prices: `data/prices/SMR.csv`.

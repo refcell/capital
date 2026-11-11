@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "ticker": "SMR",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 5.22,
+      "as_of": "2026-11-10",
+      "source": "data/prices/SMR.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 2.729,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_gross_profit_m": {
+      "value": -0.059,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_operating_income_m": {
+      "value": -259.069,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_net_income_m": {
+      "value": -186.036,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_eps": {
+      "value": -1.17,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_ocf_m": {
+      "value": -605.122,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_capex_m": {
+      "value": 2.414,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "cash_m": {
+      "value": 1864.1,
+      "as_of": "2026-09-30",
+      "source": "SMR 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz)",
+      "accession": "0001822966-26-000091",
+      "note": "Cash and equivalents $513.4M + short-term investments $420.0M + long-term investments $930.7M; excludes $5.2M restricted cash; no debt"
+    },
+    "diluted_shares_m": {
+      "value": 410.4584,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "ttm_fcf_m": {
+      "value": -607.536,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001822966-26-000091"
+    },
+    "market_cap_m": {
+      "value": 2244.1,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "total_debt_m": {
+      "value": 0.0,
+      "as_of": "2026-09-30",
+      "source": "SMR 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz)",
+      "accession": "0001822966-26-000091",
+      "note": "'with no debt' (Liquidity and Capital Resources)"
+    },
+    "shares_outstanding_m": {
+      "value": 429.9,
+      "as_of": "2026-10-30",
+      "source": "SMR 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz), cover page",
+      "accession": "0001822966-26-000091",
+      "note": "410,568,229 Class A plus 19,332,018 Class B; Class B pairs with NuScale LLC Class B units exchangeable one-for-one into Class A, so both carry the economics"
+    },
+    "net_debt_m": {
+      "value": -1864.1,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m"
+    },
+    "enterprise_value_m": {
+      "value": 380.0,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    }
+  },
+  "notes": [
+    "shares_outstanding_m counts Class A and Class B (exchangeable) shares from the 10-Q cover; the scaffold dropped a stale 2022 figure and used weighted Class A only (410.5M). Time-based RSUs (4.82M) and options (4.47M) are excluded here; the model adds the RSUs.",
+    "cash_m includes short- and long-term investments (the XBRL scaffold took cash and equivalents only, $513.4M).",
+    "ttm_ocf_m (-$605.1M) includes $507.4M of ENTRA1 Milestone Contribution 1 settled in Q4 2025 ($247.5M) and the nine months of 2026 ($259.9M). Nine-month 2026 operating cash use excluding the PMA payment was $141.5M, after $43.9M of investment income.",
+    "Q3 2026: revenue $0.3M ($8.2M); R&D $18.0M; G&A $27.9M ($519.2M, including the PMA expense); other expenses $19.0M; loss from operations $64.8M; investment income $19.1M; net loss $45.7M; Class A EPS $(0.11).",
+    "2026 ATM: 89.7M Class A shares sold for $1,000M gross ($984.5M net) at an average $11.14, completed June 2026; a new $750M ATM signed August 11, 2026, unused through September 30 (Class A count 410,541,392 at September 30 and 410,568,229 at October 30).",
+    "ENTRA1 PMA: Milestone Contribution 1 (15%) of $507.4M for 72 NPMs implies $46.98M per NPM in total; 35% is due on a binding PPA or offtake agreement and 50% on an OEM agreement for NPMs. No liability for MC2 or MC3 is accrued."
+  ]
+}

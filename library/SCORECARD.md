@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 141 calls have a mark.
+125 of 142 calls have a mark.
 
 ## By published stance
 
@@ -22,7 +22,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| Avoid | 22 | 128 | -3.2% | -3.9% | 9/22 |
+| Avoid | 22 | 128 | -3.3% | -4.0% | 9/22 |
 | Own | 26 | 152 | +12.1% | +11.2% | 16/26 |
 | Watch | 71 | 99 | +3.7% | +3.9% | 35/71 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
@@ -35,14 +35,14 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
 | 30% to 70% | 38 | 99 | +11.7% | +11.8% | 22/38 |
 | 70%+ | 19 | 164 | +11.0% | +10.0% | 12/19 |
-| below -10% | 13 | 131 | -7.4% | -7.9% | 6/13 |
+| below -10% | 13 | 131 | -7.6% | -8.1% | 6/13 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
 Calibration context: published 12-month price targets are met at the horizon only about 38% of the time (Bradshaw, Brown and Huang 2013), and targets 70% or more away from the price are hit under 25% of the time (Asquith, Mikhail and Au 2005). Large stated upside is a calibration risk until the scorecard shows otherwise.
 
 ## Probability claims
 
-79 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+84 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -179,7 +179,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [ETOR/2026-01-28](ETOR.md) | Pass | — | $31.40 | — | $23.32 | -25.7% | -34.8% | — |
 | [IONS/2026-09-22](IONS.md) | Watch | Watch | $45.75 | $62.00 | $28.19 | -38.4% | -35.3% | bear to base |
 | [INTR/2026-05-24](INTR.md) | Watch (positive) | Watch | $6.16 | $9.00 | $4.00 | -35.1% | -36.5% | below bear |
-| [SMR/2026-07-14](SMR.md) | Watch | Avoid | $8.60 | $2.89 | $5.44 | -36.7% | -37.1% | base to bull |
+| [SMR/2026-07-14](SMR.md) | Watch | Avoid | $8.60 | $2.89 | $5.22 | -39.3% | -39.3% | base to bull |
 | [KNF/2026-06-25](KNF.md) | Watch | Watch | $92.90 | $109.67 | $58.94 | -36.6% | -39.3% | bear to base |
 | [ETOR/2026-05-24](ETOR.md) | Watch | Watch | $40.85 | $51.50 | $23.32 | -42.9% | -44.4% | below bear |
 | [VECO/2026-06-18](VECO.md) | Watch (negative) | Avoid | $79.65 | $61.66 | $39.56 | -50.3% | -51.0% | bear to base |

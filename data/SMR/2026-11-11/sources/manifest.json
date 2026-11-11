@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/SMR.csv",
+      "commit": "18b7d62ed333",
+      "sha256": "c86375f18edbc531a1276a7f3e006c2dc64bbb9c1bd2d10f3d358e06e7b3817d",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "18b7d62ed333",
+      "sha256": "5dffb2b5bf3a314c25141c27eff060d2faaaac67dc0e8e5a12100c5d08b24108",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "ex99-1-q3-2026-htm",
+      "kind": "file",
+      "path": "ex99-1-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000089/pressreleasenuscale2026q.htm",
+      "fetched_at": "2026-11-11T08:13:25+00:00",
+      "sha256": "67845b7951ac0f2af76fa719a731e77bc63c723b312fefd1c53b3da9da4fecee",
+      "description": "SMR 8-K EX-99.1, 2026-11-05: Q3 2026 results release (accession 0001822966-26-000089)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/smr-20260930.htm",
+      "fetched_at": "2026-11-11T08:13:25+00:00",
+      "sha256": "61700e893784cf92f759e964aa154c66b1f6d952140e07e40357820dda379feb",
+      "description": "SMR 10-Q for the quarter ended 2026-09-30 (accession 0001822966-26-000091): ENTRA1 PMA, ATM programs, share classes, RoPower, liquidity"
+    }
+  ]
+}

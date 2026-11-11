@@ -481,7 +481,7 @@
   },
   "facts/SMR": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001822966.json",
-    "fetched_at": "2026-11-11T03:40:29+00:00",
+    "fetched_at": "2026-11-11T08:09:24+00:00",
     "sha256": "81803bb48ae2a5a4186aa4adfe31461baec7f592dc38f7a27c0606b1d3f2513d"
   },
   "facts/SOFI": {
@@ -1091,7 +1091,7 @@
   },
   "submissions/SMR": {
     "url": "https://data.sec.gov/submissions/CIK0001822966.json",
-    "fetched_at": "2026-11-11T03:40:29+00:00",
+    "fetched_at": "2026-11-11T08:09:24+00:00",
     "sha256": "d270445d4d8dd3486c1800641473cd48e7b3335cb4e3a0c1a8703ae796000bf4"
   },
   "submissions/SOFI": {
