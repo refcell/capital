@@ -1951,3 +1951,10 @@ us-gaap,ShareBasedCompensation,USD,2025-12-29,2026-09-27,16983000,0000802481-26-
 us-gaap,StockholdersEquity,USD,,2026-09-27,3875618000,0000802481-26-000081,10-Q,2026-10-29,2026,Q3
 us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2025-12-29,2026-09-27,238812000,0000802481-26-000081,10-Q,2026-10-29,2026,Q3
 us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2026-06-29,2026-09-27,239033000,0000802481-26-000081,10-Q,2026-10-29,2026,Q3
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2023-12-31,0,0000802481-24-000094,10-Q,2024-10-31,2024,Q3
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2024-09-29,10099000,0000802481-24-000094,10-Q,2024-10-31,2024,Q3
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2024-12-29,10220000,0000802481-25-000011,10-K,2025-02-13,2024,FY
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2025-03-30,0,0000802481-25-000062,10-Q,2025-05-01,2025,Q1
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2025-06-29,0,0000802481-25-000110,10-Q,2025-07-31,2025,Q2
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2025-09-28,0,0000802481-25-000143,10-Q,2025-10-30,2025,Q3
+us-gaap,AvailableForSaleSecuritiesDebtSecuritiesCurrent,USD,,2025-12-28,0,0000802481-26-000011,10-K,2026-02-12,2025,FY

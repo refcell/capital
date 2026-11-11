@@ -5,6 +5,8 @@ Outputs (all generated; do not edit by hand):
     library/README.md         the coverage index with the rating distribution
     library/<TICKER>.md       one page per company: current view and every dated call
     library/SCORECARD.md      how past calls have done against committed prices
+    library/MULTIPLES.md      valuation multiples now, against each name's own history and SIC peers
+    data/multiples/<T>.csv    month-end point-in-time multiples per name (capital.multiples)
 
 `--check` exits 1 when a generated file is out of date (CI runs this).
 """
@@ -21,7 +23,7 @@ from statistics import median
 from typing import Any
 from urllib.parse import quote
 
-from capital import base_rates, config, pit, score, store
+from capital import base_rates, config, multiples, pit, score, store
 from capital.sec import COMPANIES, EARNINGS, read_csv
 
 LIBRARY = store.ROOT / "library"
@@ -274,6 +276,10 @@ def index_page(latest: dict[str, store.Call], all_calls: list[store.Call]) -> st
         f"{len(latest)} companies, {len(all_calls)} dated calls. Every number comes from `data/`, which is "
         "captured once per research run and never re-fetched. Prices are marked through "
         f"{score.last_date() or '—'}.\n"
+    )
+    out.append(
+        "Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · "
+        "[Multiples](MULTIPLES.md)\n"
     )
     out.append("## Rating scale\n")
     out.append(
@@ -553,6 +559,9 @@ def outputs() -> dict[Path, str]:
         LIBRARY / "CALENDAR.md": calendar_page(latest),
         LIBRARY / "BASE_RATES.md": base_rates_page(latest),
     }
+    mpage, mfiles = multiples.page(sorted(latest), HEADER)
+    files[LIBRARY / "MULTIPLES.md"] = mpage
+    files.update(mfiles)
     for t, calls in by_ticker.items():
         files[LIBRARY / f"{t}.md"] = company_page(t, calls)
     return files

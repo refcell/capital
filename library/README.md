@@ -4,6 +4,8 @@
 
 110 companies, 129 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
+Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
+
 ## Rating scale
 
 The rule rating is derived from each call's fair value versus its price, annualized over 3 years; the benchmark is SPY total return over the same horizon. The published stance can differ; the scorecard tracks both. Thresholds live in `capital/config.py`.

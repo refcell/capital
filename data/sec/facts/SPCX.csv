@@ -105,3 +105,6 @@ us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2025-01-01,2025-0
 us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2025-07-01,2025-09-30,2941000000,0001628280-26-066880,10-Q,2026-10-22,2026,Q3
 us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2026-01-01,2026-09-30,7274000000,0001628280-26-066880,10-Q,2026-10-22,2026,Q3
 us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,shares,2026-07-01,2026-09-30,12475000000,0001628280-26-066880,10-Q,2026-10-22,2026,Q3
+us-gaap,MarketableSecuritiesCurrent,USD,,2025-12-31,0,0001628280-26-052535,10-Q,2026-08-04,2026,Q2
+us-gaap,MarketableSecuritiesCurrent,USD,,2026-06-30,6487000000,0001628280-26-052535,10-Q,2026-08-04,2026,Q2
+us-gaap,MarketableSecuritiesCurrent,USD,,2026-09-30,38561000000,0001628280-26-066880,10-Q,2026-10-22,2026,Q3

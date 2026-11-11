@@ -49,6 +49,11 @@ METRICS: dict[str, tuple[str, tuple[tuple[str, str], ...]]] = {
     "stock_comp": ("duration", (("us-gaap", "ShareBasedCompensation"),)),
     "buybacks": ("duration", (("us-gaap", "PaymentsForRepurchaseOfCommonStock"),)),
     "cash": ("instant", (("us-gaap", "CashAndCashEquivalentsAtCarryingValue"), ("ifrs-full", "CashAndCashEquivalents"))),
+    "short_term_investments": ("instant", (
+        ("us-gaap", "ShortTermInvestments"), ("us-gaap", "AvailableForSaleSecuritiesDebtSecuritiesCurrent"),
+        ("us-gaap", "MarketableSecuritiesCurrent"),
+    )),
+    "cash_and_short_term_investments": ("instant", (("us-gaap", "CashCashEquivalentsAndShortTermInvestments"),)),
     "long_term_debt": ("instant", (
         ("us-gaap", "LongTermDebt"), ("us-gaap", "LongTermDebtNoncurrent"), ("ifrs-full", "Borrowings"),
         ("ifrs-full", "NoncurrentPortionOfNoncurrentBorrowings"),

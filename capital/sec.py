@@ -1,7 +1,7 @@
 """Capture SEC EDGAR data once into committed files. Run: python3 -m capital.sec [TICKER ...]
 
 Writes:
-    data/companies.csv              ticker, CIK, SEC name, exchange, filer category, fiscal year end
+    data/companies.csv              ticker, CIK, SEC name, exchange, filer category, fiscal year end, SIC code
     data/sec/facts/<T>.csv          point-in-time XBRL facts for the concepts in CONCEPTS
     data/sec/restatements.csv       a period's value changed in a later filing (append-only)
     data/calendar/earnings.csv      earnings releases (8-K Item 2.02) and 10-Q/10-K/20-F/40-F filings
@@ -58,6 +58,8 @@ CONCEPTS: dict[str, tuple[str, ...]] = {
         "LongTermDebtCurrent", "DebtCurrent", "StockholdersEquity", "Assets", "Liabilities",
         "WeightedAverageNumberOfDilutedSharesOutstanding", "CommonStockSharesOutstanding",
         "PaymentsForRepurchaseOfCommonStock", "PaymentsOfDividends", "PaymentsOfDividendsCommonStock",
+        "CashCashEquivalentsAndShortTermInvestments", "ShortTermInvestments",
+        "AvailableForSaleSecuritiesDebtSecuritiesCurrent", "MarketableSecuritiesCurrent",
     ),
     "ifrs-full": (
         "Revenue", "RevenueFromContractsWithCustomers", "RevenueAndOperatingIncome",
@@ -228,6 +230,8 @@ def capture_calendar(ticker: str, cik: int, client: Client, sources: dict[str, A
     d = json.loads(body)
     meta["category"] = d.get("category") or ""
     meta["fiscal_year_end"] = d.get("fiscalYearEnd") or ""
+    meta["sic"] = d.get("sic") or ""
+    meta["sic_description"] = d.get("sicDescription") or ""
     r = d["filings"]["recent"]
     have = {row["accn"] for row in read_csv(EARNINGS) if row["ticker"] == ticker}
     rows = []
@@ -282,9 +286,10 @@ def main(argv: list[str] | None = None) -> int:
             "ticker": t, "cik": info["cik"], "sec_name": info["name"], "exchange": info["exchange"],
             "filer_category": meta.get("category", ""), "fiscal_year_end": meta.get("fiscal_year_end", ""),
             "sector": (call.call.get("sector") or "") if call else "", "first_call": first.get(t, ""),
+            "sic": meta.get("sic", ""), "sic_description": meta.get("sic_description", ""),
         }
         print(f"{t}: facts +{added}, restatements {restated}, calendar +{n_cal}")
-    fields = ["ticker", "cik", "sec_name", "exchange", "filer_category", "fiscal_year_end", "sector", "first_call"]
+    fields = ["ticker", "cik", "sec_name", "exchange", "filer_category", "fiscal_year_end", "sector", "first_call", "sic", "sic_description"]
     with COMPANIES.open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=fields, lineterminator="\n")
         w.writeheader()
