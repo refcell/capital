@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "ticker": "ACHR",
+  "exchange": "NYSE",
+  "company": "Archer Aviation Inc.",
+  "sector": "Industrials — Aerospace & Defense — eVTOL / Advanced Air Mobility",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "ACHR/2026-07-22",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q2 and Q3 2026; Boeing Wisk/Insitu/SkyGrid deal pending close)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged; value lowered because cash use runs about 30% above the July base and the Boeing deal adds about 155 million shares",
+  "rating_override_reason": null,
+  "primary_lens": "nav",
+  "lens_text": "End-2029 enterprise value of the combined company plus cash less debt, on shares after the Boeing deal, vendor and award shares, and the equity raises needed to end 2029 with a year of cash at each scenario's spending rate; three-year value, undiscounted",
+  "price": {
+    "value": 4.71,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 0.61,
+      "weight": 0.35,
+      "revenue_cagr": 0.062,
+      "basis": "Type certification slips past 2029; cash use cut to $750M a year; $1.86B raised at $2.00; end-2029 EV $600M (Insitu about 1.6x its roughly $240M of revenue, plus about $200M of IP; total revenue about $260M) + $750M cash - $93M debt = $1,257M on 2,065M shares"
+    },
+    "base": {
+      "value": 5.97,
+      "weight": 0.5,
+      "revenue_cagr": 0.275,
+      "basis": "Midnight certified 2028-29 and flying in a few cities, Thunder in early defense orders, 2029 revenue about $450M; cash use $1.0B a year (standalone about $860M plus Wisk net of Insitu profit); $2.86B raised at $5.00; end-2029 EV $9.0B (about 20x revenue, about 40x ex-Insitu) + $1,000M cash - $93M debt on 1,658M shares"
+    },
+    "bull": {
+      "value": 20.8,
+      "weight": 0.15,
+      "revenue_cagr": 0.607,
+      "basis": "Certification 2028, LA28 service, Thunder program of record, 2029 revenue $900M; cash use $800M a year net of defense revenue; $1.86B raised at $10.00 plus $200M from both Boeing warrants; end-2029 EV $25B (about 28x revenue) + $800M cash - $93M debt on 1,236M shares"
+    }
+  },
+  "fair_value": {
+    "value": 6.32,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value, undiscounted; dilution from raises, vendor shares and awards counted in the share count",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Archer is moving forward operationally (final FAA type-certification phase, a Market Survey certificate for Los Angeles operations, Anduril engine deliveries, a Boeing deal that brings Insitu's $200M-plus of profitable revenue), but operating cash use, capital spending and vendor shares come to about $0.93 billion a year, so $1.35 billion lasts six to seven quarters rather than the 3.6 years the July call assumed. Every path needs about $2-3 billion of new equity before 2030 on top of about 155 million deal shares. If Midnight is certified in 2028-29 and the combined company is worth $9 billion at the end of 2029, the stock is worth about $6.",
+  "consensus_view": "No Street snapshot was captured. The stock rose to $6.97 after the Boeing deal was announced and has given all of that back, closing at $4.71; at that price the post-deal company is valued at about $3.15 billion of enterprise value, of which Insitu is about $0.4 billion at 2x revenue. Management frames the deal as the start of a diversified aerospace and defense platform with Insitu revenue offsetting Midnight spending.",
+  "variant_view": "The July call measured runway on operating cash flow alone; counting capital spending and vendor share issuances, the burn is about $0.93 billion a year before Wisk, and the next raise comes in 2027-28, not 2029-30. We expect year-end 2026 liquidity near $1.14 billion and an equity raise of at least $500 million announced in 2027, priced below the $6.29-$6.97 closes seen after the deal announcement. The more important disagreement is calibration: the July call put a quarter of the probability on a bull that needs 98th-percentile growth.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Closing of the Wisk, Insitu and SkyGrid acquisition from Boeing",
+      "timing": "Expected within weeks (one of nearly 20 approvals outstanding at November 9)",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "The exact share count issued to Boeing and the first disclosure of Insitu margins and Wisk spending",
+      "value_impact": "Wisk spending above about $250M a year (the base allows about $160M gross) moves weight to the bear; Insitu EBITDA margin above 10% supports the base"
+    },
+    {
+      "event": "FY2026 results and 2027 outlook",
+      "timing": "About March 1, 2027 (last year's release was March 2, 2026, after the close)",
+      "date": "2027-03-01",
+      "kind": "hard",
+      "what_it_proves": "Combined 2027 cash use, piloted transition status, and the type-certificate timeline",
+      "value_impact": "Combined 2027 cash use guided above $1.0B or piloted transition not done fires a kill criterion"
+    },
+    {
+      "event": "First Midnight operations in Los Angeles and passenger flights under eIPP",
+      "timing": "Weeks to months",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether Midnight can run repeated operations in a dense city",
+      "value_impact": "Passenger flights in the first half of 2027 support the base weight"
+    },
+    {
+      "event": "Halo/Thunder first full-scale flight with Anduril",
+      "timing": "Late 2027",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "Whether the defense aircraft is on schedule",
+      "value_impact": "A slip into 2028 moves weight from the bull to the base"
+    },
+    {
+      "event": "LA28 Olympic Games",
+      "timing": "July 2028",
+      "date": "2028-07-14",
+      "kind": "hard",
+      "what_it_proves": "Whether Archer flies paying or invited passengers at the Games as the official air taxi provider",
+      "value_impact": "Absence from the Games moves weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Piloted transition and the remaining type-certification compliance work slip into 2028-29, and the FAA certificate lands after 2029, so the Midnight program carries no revenue inside the horizon.",
+      "signal": "Piloted transition announced in the FY2026 release, and any type-certificate date in 2027 releases"
+    },
+    {
+      "reason": "Wisk's autonomous program adds a large undisclosed burn, and combined cash use runs above $1.15 billion a year after closing, above the base case's $1.0 billion.",
+      "signal": "Combined operating cash use plus capex in the Q1 2027 10-Q against $290 million a quarter"
+    },
+    {
+      "reason": "The stock falls toward the bear before the raise, and Archer must raise $1.5 billion or more below $3.00, roughly doubling the share count.",
+      "signal": "Pricing of any registered direct, ATM or convert issuance in 2027"
+    },
+    {
+      "reason": "Insitu loses revenue as Boeing's former customers or defense budgets move to newer drones, so the revenue offset does not appear.",
+      "signal": "Insitu revenue in the first post-close quarters against the $200 million annual rate"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: piloted transition is done in 2026, the FAA gives a 2027 type-certificate date, Thunder wins a program of record, and the stock re-rates toward Joby's 32x revenue before Archer raises at a high price.",
+      "signal": "FY2026 release and any 2027 type-certificate date or defense contract award"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Piloted transition of Midnight not announced as complete (moves weight to the bear; Avoid if paired with a raise below $3.00)",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "An equity raise priced below $3.00 per share",
+      "check_by": "2027-12-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Combined 2027 cash use (operating cash flow plus capex) guided or running above $1.15 billion (the base case is $1.0 billion)",
+      "check_by": "2027-05-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "boeing-deal-closes",
+      "claim": "Archer announces the closing of the Wisk, Insitu and SkyGrid acquisition from Boeing.",
+      "probability": 0.9,
+      "resolve_by": "2027-01-31"
+    },
+    {
+      "id": "piloted-transition-done",
+      "claim": "Archer announces that Midnight completed a piloted transition flight.",
+      "probability": 0.65,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "ye26-liquidity-1-10b",
+      "claim": "Archer reports cash, cash equivalents and short-term investments of at least $1.10 billion at December 31, 2026.",
+      "probability": 0.75,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "raise-500m-2027",
+      "claim": "Archer announces an equity or equity-linked raise (registered direct, PIPE, convert, or ATM sales) totaling at least $500 million.",
+      "probability": 0.7,
+      "resolve_by": "2027-12-31"
+    },
+    {
+      "id": "eipp-passengers-1h27",
+      "claim": "Archer announces Midnight flights carrying passengers in the United States under the eVTOL Integration Pilot Program.",
+      "probability": 0.45,
+      "resolve_by": "2027-06-30"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: piloted transition done and a type-certificate date within 2027 from the FAA process, or a raise priced above $7",
+    "Toward Own: Insitu disclosed at double-digit EBITDA margins and combined cash use guided below $800 million for 2027",
+    "Toward Avoid: piloted transition still not done by March 2027, or a raise priced below $3.00",
+    "Toward Avoid: combined 2027 cash use above $1.15 billion once Wisk is consolidated"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $50M–$325M starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from about $217M of 2026 pro forma revenue including Insitu)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 86
+  },
+  "update": {
+    "event": "Q2 2026 results with the Boeing deal announcement (8-K, 2026-08-10) and Q3 2026 results (8-K, 2026-11-09)",
+    "event_date": "2026-11-09",
+    "expected": "July call: Watch, base $8.66 on a $1.66 NAV floor plus $7.00 of pipeline value, burn $500M a year, 3.6-year runway, FAA certification in the 2027-2028 window; no claims or kill criteria",
+    "actual": "Q2/Q3 adjusted EBITDA -$177.1M/-$178.5M (guide -$170M to -$200M); operating cash use $156.4M/$164.6M ($642M a year vs the July $500M base) plus capex $37.1M/$31.7M; $122.8M of vendor shares in 9M; liquidity $1,353.6M; Q4 adjusted EBITDA estimate -$185M to -$205M; Boeing deal for about 19.75% of shares plus two $100M warrants; Market Survey certificate; piloted transition not yet complete",
+    "thesis_pillars": [
+      {
+        "pillar": "Certification progress leads the eVTOL field",
+        "status": "weakened",
+        "note": "Final TC phase and a Market Survey certificate, but piloted transition not done and no TC date"
+      },
+      {
+        "pillar": "Runway covers the gap to certification",
+        "status": "broken",
+        "note": "About $195M of cash use and capex a quarter plus vendor shares; six to seven quarters, not 3.6 years"
+      },
+      {
+        "pillar": "Partners make the program real",
+        "status": "strengthened",
+        "note": "Boeing becomes the largest shareholder; Anduril deliveries; Insitu revenue"
+      },
+      {
+        "pillar": "Per-share value survives the dilution",
+        "status": "weakened",
+        "note": "About 155M deal shares, about 51M a year of vendor and award shares, a raise needed by 2028"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-03-02",
+  "next_review_trigger": "FY2026 results and 2027 outlook, expected around March 1, 2027 after the close; or the Boeing deal closing if it discloses Insitu and Wisk financials first",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/ACHR/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/ACHR/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "ACHR closed at $4.71 on November 10, 2026",
+    "scenarios.base.value": "| Base | $8.66 | $5.97 |",
+    "fair_value.value": "| Fair value | $11.34 | $6.32 |"
+  },
+  "notes": [
+    "The July call was a backfill with no horizon; this update states three-year values at the end of 2029, so the two are not directly comparable.",
+    "Wisk's spending and Insitu's margin are not disclosed; combined cash use is an estimate until the deal closes.",
+    "Peer multiples come from JOBY (in coverage) and AVAV and KTOS, captured for this update to bracket Insitu's value.",
+    "No Street consensus snapshot was captured for this update.",
+    "Revised twice after independent review (B, then B): like-for-like burn comparison, vendor shares separated from stock compensation, scenarios end 2029 with a year of cash, base cash use includes Wisk, thresholds set above the base case, and the bull weight defended on calibration rather than the burn; see review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: the base raises $2.86B, 53% of the pre-raise market cap, at $5.00, above today's $4.71; the bull assumes less cash use ($800M) than the base while certifying and running LA28 service; the base's $9.0B is about 40x 2029 non-Insitu revenue; Own starts at about a 19% bull weight.",
+      "variant_view: the disagreement the call says matters most ('calibration') is with its own July backfill, not the market; the testable claims (year-end liquidity, a $500M-plus 2027 raise) are close to what holders already expect.",
+      "risk: after base cash use rose to $1.0B, the kill criterion, pre-mortem signal and change-my-mind trigger equal the base assumption, and the base's implied gross Wisk spending sits at or above the $150M catalyst line.",
+      "calibration: base rates are applied to the bull only; the 86th-percentile base keeps 50%; the '$10 raise' is part of the bull, not a separate hurdle; the reference class is five-year CAGRs of companies with revenue, applied to a three-year pro forma path."
+    ],
+    "grade": "B",
+    "counter_case": "Apply the call's own calibration argument consistently and the stance is Avoid, not Watch. A base case at the 86th percentile of its size bucket should not carry 50%. A $2.86B raise worth 53% of the market cap is more likely priced below today's $4.71 than at $5.00. Pricing it at $4.00 cuts the base to $5.50, and at 50/40/10 the fair value is $4.59, a -0.9% annual return. Base cash use of $1.0B a year already sits on the call's own kill line, so any Wisk overrun pushes the next raise toward the bear's $2.00, where 928M new shares nearly double the post-deal count.",
+    "response": "Accepted the corrections: the burn is $0.93B a year on the true nine-month figures; the $126.8M is labeled as the roll-forward's stock-based compensation line; the Action says $2-3 billion of new equity; the kill criterion, pre-mortem signal and change-my-mind trigger move to $1.15B ($290M a quarter), above the $1.0B base; the Wisk catalyst moves to $250M against about $160M gross in the base. The note now shows a $4.00 base raise: base $5.50, fair value $6.08, 8.9% a year, still Watch. On the counter-case: the base is the path where certification arrives as management describes it, so its growth is mostly Insitu plus the first eVTOL and defense revenue rather than organic growth at a mature firm, and the reference class overstates how rare it is; we keep it at 50%. Moving to 50/40/10 with a $4.00 raise would need the bear to be as likely as the base, which no event since July supports: the program reached the final certification phase and gained Boeing as its largest holder. We record the Avoid case here and in the sensitivities; a raise below $3.00 or a missed piloted transition by March 2027 would move us there."
+  }
+}

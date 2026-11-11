@@ -9,7 +9,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | Ticker | Industry (SIC) | P/E now | P/E own p25–p75 | EV/Sales now | EV/Sales own p25–p75 | EV/EBIT now | EV/EBIT own p25–p75 | Peers (median EV/Sales, P/E) |
 |---|---|---:|---:|---:|---:|---:|---:|---|
 | [A](A.md) | Laboratory Analytical Instruments | 35.0x | 27.3–33.0x | 7.1x | 4.7–6.4x | 31.8x | 24.8–30.6x | SIC 38xx, 2 names: 3.2x, 62.8x |
-| [ACHR](ACHR.md) | Aircraft | — | — | 208.6x | — | — | — | SIC 37xx, 1 names: 32.2x, — |
+| [ACHR](ACHR.md) | Aircraft | — | — | 202.1x | — | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
 | [ACI](ACI.md) | Retail-Grocery Stores | — | 8.8–13.1x | 0.2x | 0.2–0.3x | 38.9x | 9.5–13.8x | SIC 54xx, 1 names: 0.5x, 9.4x |
 | [ACM](ACM.md) | Services-Engineering Services | 31.5x | 27.6–53.7x | 0.6x | 0.6–0.8x | 14.6x | 15.3–29.9x | — |
 | [AEG](AEG.md) | Life Insurance | — | — | — | — | — | — | SIC 63xx, 3 names: 0.5x, 23.8x |
@@ -57,7 +57,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [IONS](IONS.md) | Pharmaceutical Preparations | — | 25.1–252.3x | 4.8x | 5.6–10.7x | — | 46.4–183.6x | SIC 2834, 3 names: 8.9x, 41.9x |
 | [IREN](IREN.md) | Finance Services | — | 32.6–102.5x | 20.2x | 2.8–14.4x | — | — | SIC 61xx, 1 names: 39.6x, 30.8x |
 | [ITUB](ITUB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
-| [JOBY](JOBY.md) | Aircraft | — | — | 32.2x | 62.1–214.2x | — | — | SIC 37xx, 1 names: 208.6x, — |
+| [JOBY](JOBY.md) | Aircraft | — | — | 32.2x | 62.1–214.2x | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
 | [KNF](KNF.md) | Mining & Quarrying of  Nonmetallic Minerals (No Fuels) | 24.9x | 25.1–29.5x | 1.4x | 1.7–2.0x | 17.4x | 17.6–20.4x | — |
 | [KNTK](KNTK.md) | Natural Gas Transmission | 7.3x | 7.9–305.8x | 3.9x | 4.1–10.2x | 32.2x | 32.8–47.5x | SIC 49xx, 2 names: 3.8x, 16.2x |
 | [LOPE](LOPE.md) | Services-Educational Services | 85.8x | 16.8–23.4x | 2.5x | 3.8–5.0x | 9.3x | 14.1–17.4x | — |

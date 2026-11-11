@@ -7,7 +7,7 @@
   "ACHR": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACHR",
-    "last_capture": "2026-11-11T02:22:41+00:00"
+    "last_capture": "2026-11-11T04:06:13+00:00"
   },
   "ACI": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -28,6 +28,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP",
     "last_capture": "2026-11-11T02:22:43+00:00"
+  },
+  "AVAV": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVAV",
+    "last_capture": "2026-11-11T04:09:26+00:00"
   },
   "AVGO": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -263,6 +268,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KNTK",
     "last_capture": "2026-11-11T02:23:02+00:00"
+  },
+  "KTOS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS",
+    "last_capture": "2026-11-11T04:09:26+00:00"
   },
   "LFMD": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 130 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 131 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,8 +12,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 19 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 105 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 18 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 69 | 105 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 20 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -24,7 +24,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | Ticker | Company | Sector | Status | Latest | Calls | Stance | Rule | Price | Fair value | Exp. return / yr | Since call | vs SPY |
 |---|---|---|---|---|---:|---|---|---:|---:|---:|---:|---:|
 | [A](A.md) | Agilent Technologies, Inc. | Healthcare | active | 2026-08-28 | 1 | Watch | Watch | $153.84 | $185.58 | +6.5% | +15.8% | +18.1% |
-| [ACHR](ACHR.md) | Archer Aviation Inc. | Industrials — Aerospace & Defense — eVTOL | active | 2026-07-22 | 1 | Watch | Own | $5.18 | $11.34 | +29.8% | -7.1% | -8.1% |
+| [ACHR](ACHR.md) | Archer Aviation Inc. | Industrials — Aerospace & Defense — eVTOL | active | 2026-11-11 | 2 | Watch | Watch | $4.71 | $6.32 | +10.3% | — | — |
 | [ACI](ACI.md) | Albertsons Companies, Inc. | Consumer Defensive | active | 2026-06-21 | 1 | Watch (negative) | Own | $13.45 | $24.79 | +22.6% | -1.4% | -2.4% |
 | [ACM](ACM.md) | AECOM | Industrials | active | 2026-08-18 | 1 | Watch | Watch | $61.72 | $85.77 | +11.6% | +15.0% | +17.1% |
 | [AEG](AEG.md) | Aegon Ltd. | Financial Services | active | 2026-08-03 | 1 | Watch | Watch | $9.46 | $10.09 | +2.2% | -6.3% | -5.5% |

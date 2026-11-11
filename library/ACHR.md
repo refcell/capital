@@ -2,40 +2,87 @@
 
 # Archer Aviation Inc. (NYSE: ACHR)
 
-Sector: Industrials — Aerospace & Defense — eVTOL / Advanced Air Mobility · Calls: 1 · Latest: 2026-07-22
+Sector: Industrials — Aerospace & Defense — eVTOL / Advanced Air Mobility · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Own (+29.8% a year expected over 3 years) |
-| Price at call | $5.18 on 2026-07-22 |
-| Bear / base / bull | $1.16 / $8.66 / $26.86 |
-| Weights | 25% / 50% / 25% |
-| Fair value | $11.34 (weighted) |
+| Stance (as published) | Watch — unchanged; value lowered because cash use runs about 30% above the July base and the Boeing deal adds about 155 million shares |
+| Rule rating | Watch (+10.3% a year expected over 3 years) |
+| Price at call | $4.71 on 2026-11-10 |
+| Bear / base / bull | $0.61 / $5.97 / $20.80 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $6.32 (weighted) |
 | Street mean target | — |
-| Valuation lens | Cash NAV Floor + Regulatory/Pipeline Optionality (pre-commercial developer) |
-| Since the call | -7.1% vs SPY +1.0% through 2026-11-09; mark $4.81 is bear to base |
+| Valuation lens | End-2029 enterprise value of the combined company plus cash less debt, on shares after the Boeing deal, vendor and award shares, and the equity raises needed to end 2029 with a year of cash at each scenario's spending rate; three-year value, undiscounted |
+| Next review | 2027-03-02 — FY2026 results and 2027 outlook, expected around March 1, 2027 after the close; or the Boeing deal closing if it discloses Insitu and Wisk financials first |
 
-## Fundamentals known on 2026-07-22
+**Thesis.** Archer is moving forward operationally (final FAA type-certification phase, a Market Survey certificate for Los Angeles operations, Anduril engine deliveries, a Boeing deal that brings Insitu's $200M-plus of profitable revenue), but operating cash use, capital spending and vendor shares come to about $0.93 billion a year, so $1.35 billion lasts six to seven quarters rather than the 3.6 years the July call assumed. Every path needs about $2-3 billion of new equity before 2030 on top of about 155 million deal shares. If Midnight is certified in 2028-29 and the combined company is worth $9 billion at the end of 2029, the stock is worth about $6.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ACHR 2026-07-22`). Later restatements are not visible here by design.
+**Variant view.** The July call measured runway on operating cash flow alone; counting capital spending and vendor share issuances, the burn is about $0.93 billion a year before Wisk, and the next raise comes in 2027-28, not 2029-30. We expect year-end 2026 liquidity near $1.14 billion and an equity raise of at least $500 million announced in 2027, priced below the $6.29-$6.97 closes seen after the deal announcement. The more important disagreement is calibration: the July call put a quarter of the probability on a bull that needs 98th-percentile growth.
+
+**Catalysts.**
+
+- Closing of the Wisk, Insitu and SkyGrid acquisition from Boeing (Expected within weeks (one of nearly 20 approvals outstanding at November 9))
+- FY2026 results and 2027 outlook (About March 1, 2027 (last year's release was March 2, 2026, after the close))
+- First Midnight operations in Los Angeles and passenger flights under eIPP (Weeks to months)
+- Halo/Thunder first full-scale flight with Anduril (Late 2027)
+- LA28 Olympic Games (July 2028)
+
+**Pre-mortem** (written at decision time).
+
+- Piloted transition and the remaining type-certification compliance work slip into 2028-29, and the FAA certificate lands after 2029, so the Midnight program carries no revenue inside the horizon. — watch: Piloted transition announced in the FY2026 release, and any type-certificate date in 2027 releases
+- Wisk's autonomous program adds a large undisclosed burn, and combined cash use runs above $1.15 billion a year after closing, above the base case's $1.0 billion. — watch: Combined operating cash use plus capex in the Q1 2027 10-Q against $290 million a quarter
+- The stock falls toward the bear before the raise, and Archer must raise $1.5 billion or more below $3.00, roughly doubling the share count. — watch: Pricing of any registered direct, ATM or convert issuance in 2027
+- Insitu loses revenue as Boeing's former customers or defense budgets move to newer drones, so the revenue offset does not appear. — watch: Insitu revenue in the first post-close quarters against the $200 million annual rate
+- The Watch call is wrong on the upside: piloted transition is done in 2026, the FAA gives a 2027 type-certificate date, Thunder wins a program of record, and the stock re-rates toward Joby's 32x revenue before Archer raises at a high price. — watch: FY2026 release and any 2027 type-certificate date or defense contract award
+
+**Kill criteria.**
+
+- Piloted transition of Midnight not announced as complete (moves weight to the bear; Avoid if paired with a raise below $3.00) (check by 2027-03-31) — open
+- An equity raise priced below $3.00 per share (check by 2027-12-31) — open
+- Combined 2027 cash use (operating cash flow plus capex) guided or running above $1.15 billion (the base case is $1.0 billion) (check by 2027-05-31) — open
+
+**Probability claims.**
+
+- 90%: Archer announces the closing of the Wisk, Insitu and SkyGrid acquisition from Boeing. (resolves by 2027-01-31)
+- 65%: Archer announces that Midnight completed a piloted transition flight. (resolves by 2027-03-31)
+- 75%: Archer reports cash, cash equivalents and short-term investments of at least $1.10 billion at December 31, 2026. (resolves by 2027-03-31)
+- 70%: Archer announces an equity or equity-linked raise (registered direct, PIPE, convert, or ATM sales) totaling at least $500 million. (resolves by 2027-12-31)
+- 45%: Archer announces Midnight flights carrying passengers in the United States under the eVTOL Integration Pilot Program. (resolves by 2027-06-30)
+
+**What would change the view.**
+
+- Toward Own: piloted transition done and a type-certificate date within 2027 from the FAA process, or a raise priced above $7
+- Toward Own: Insitu disclosed at double-digit EBITDA margins and combined cash use guided below $800 million for 2027
+- Toward Avoid: piloted transition still not done by March 2027, or a raise priced below $3.00
+- Toward Avoid: combined 2027 cash use above $1.15 billion once Wisk is consolidated
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 3, risk 3, calibration 3). Counter-case: Apply the call's own calibration argument consistently and the stance is Avoid, not Watch. A base case at the 86th percentile of its size bucket should not carry 50%. A $2.86B raise worth 53% of the market cap is more likely priced below today's $4.71 than at $5.00. Pricing it at $4.00 cuts the base to $5.50, and at 50/40/10 the fair value is $4.59, a -0.9% annual return. Base cash use of $1.0B a year already sits on the call's own kill line, so any Wisk overrun pushes the next raise toward the bear's $2.00, where 928M new shares nearly double the post-deal count.
+
+**Response.** Accepted the corrections: the burn is $0.93B a year on the true nine-month figures; the $126.8M is labeled as the roll-forward's stock-based compensation line; the Action says $2-3 billion of new equity; the kill criterion, pre-mortem signal and change-my-mind trigger move to $1.15B ($290M a quarter), above the $1.0B base; the Wisk catalyst moves to $250M against about $160M gross in the base. The note now shows a $4.00 base raise: base $5.50, fair value $6.08, 8.9% a year, still Watch. On the counter-case: the base is the path where certification arrives as management describes it, so its growth is mostly Insitu plus the first eVTOL and defense revenue rather than organic growth at a mature firm, and the reference class overstates how rare it is; we keep it at 50%. Moving to 50/40/10 with a $4.00 raise would need the bear to be as likely as the base, which no event since July supports: the program reached the final certification phase and gained Boeing as its largest holder. We record the Avoid case here and in the sensitivities; a raise below $3.00 or a missed piloted transition by March 2027 would move us there.
+
+**Data notes.** The July call was a backfill with no horizon; this update states three-year values at the end of 2029, so the two are not directly comparable. Wisk's spending and Insitu's margin are not disclosed; combined cash use is an estimate until the deal closes. Peer multiples come from JOBY (in coverage) and AVAV and KTOS, captured for this update to bracket Insitu's value. No Street consensus snapshot was captured for this update. Revised twice after independent review (B, then B): like-for-like burn comparison, vendor shares separated from stock compensation, scenarios end 2029 with a year of cash, base cash use includes Wisk, thresholds set above the base case, and the bull weight defended on calibration rather than the burn; see review.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ACHR 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 1.9M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Operating income (TTM) | -839.9M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Net income (TTM) | -742.5M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Diluted EPS (TTM) | -1.10 USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Operating cash flow (TTM) | -487.4M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Capex (TTM) | 101.4M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Free cash flow (TTM) | -588.8M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Stock comp (TTM) | 263.8M USD | 2026-03-31 | ttm ytd | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Cash | 951.1M USD | 2026-03-31 | instant | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Long-term debt | 80.2M USD | 2026-03-31 | instant | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Equity | 2,079.4M USD | 2026-03-31 | instant | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
-| Shares outstanding | 759.6M | 2026-05-06 | instant | [0001824502-26-000038](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000038/) |
+| Revenue (TTM) | 12.0M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Operating income (TTM) | -1,057.4M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Net income (TTM) | -944.3M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Diluted EPS (TTM) | -1.24 USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Operating cash flow (TTM) | -599.4M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Capex (TTM) | 131.0M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Free cash flow (TTM) | -730.4M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Stock comp (TTM) | 331.4M USD | 2026-09-30 | ttm ytd | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Cash | 785.1M USD | 2026-09-30 | instant | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Long-term debt | 92.3M USD | 2026-09-30 | instant | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Equity | 1,717.4M USD | 2026-09-30 | instant | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
+| Shares outstanding | 782.6M | 2026-11-04 | instant | [0001824502-26-000089](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/) |
 
 ## Earnings calendar
 
@@ -45,6 +92,7 @@ Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001824502-26-000087](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-07-22 | $5.18 | Watch | Own | $1.16 | $8.66 | $26.86 | $11.34 | -7.1% | -8.1% | bear to base | [report](https://github.com/refcell/capital/blob/44fc8ef/research/ACHR.md) · [projection](https://github.com/refcell/capital/blob/390e17a/projections/ACHR.md) · [model](https://github.com/refcell/capital/blob/c32fdae/models/2026-07-22%20Archer%20Aviation%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c32fdae/models/_build_ACHR.py) |
+| 2026-11-11 | $4.71 | Watch | Watch | $0.61 | $5.97 | $20.80 | $6.32 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/ACHR/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/ACHR/2026-11-11.xlsx) |
+| 2026-07-22 | $5.18 | Watch | Own | $1.16 | $8.66 | $26.86 | $11.34 | -9.1% | -9.7% | bear to base | [report](https://github.com/refcell/capital/blob/44fc8ef/research/ACHR.md) · [projection](https://github.com/refcell/capital/blob/390e17a/projections/ACHR.md) · [model](https://github.com/refcell/capital/blob/c32fdae/models/2026-07-22%20Archer%20Aviation%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c32fdae/models/_build_ACHR.py) |
 
 Data: `data/ACHR/`. Prices: `data/prices/ACHR.csv`.

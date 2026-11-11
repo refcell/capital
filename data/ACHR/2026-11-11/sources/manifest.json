@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/ACHR.csv",
+      "commit": "b9f54a0ca6ef",
+      "sha256": "72f944acbe9c6df1e6b5ade3a46f5b3dd70b6b747d5ae940232b95a2216e0f59",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "b9f54a0ca6ef",
+      "sha256": "ed6bf38286834f8e6690cc7b132f64e516e62100a0b3b967213f9d1a29ced52d",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-08-10-q2-release-htm",
+      "kind": "file",
+      "path": "8k-2026-08-10-q2-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000056/archerq226earningspressr.htm",
+      "fetched_at": "2026-11-11T04:11:56+00:00",
+      "sha256": "eaab0176306230d312c7ba0da53bcbe3bce67cdd5b433e9e01215089a8c4519b",
+      "description": "8-K EX-99.2, Q2 2026 results and the announced acquisition of Wisk, Insitu and SkyGrid from Boeing (accession 0001824502-26-000056), gzip"
+    },
+    {
+      "id": "8k-2026-08-10-q2-letter-htm",
+      "kind": "file",
+      "path": "8k-2026-08-10-q2-letter.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000056/archerlettertoshareholde.htm",
+      "fetched_at": "2026-11-11T04:11:56+00:00",
+      "sha256": "2fd8b2b090d4b39e2137a4f6d47b9580fef2eaed5bb8f2a7dffdaf73bac815be",
+      "description": "8-K EX-99.1, Q2 2026 shareholder letter; deal expected to close by year end (accession 0001824502-26-000056), gzip"
+    },
+    {
+      "id": "8k-2026-11-09-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000087/archerq326earningspressr.htm",
+      "fetched_at": "2026-11-11T04:11:56+00:00",
+      "sha256": "ef6a8a4e9b6ba62dac4fc94e246b1f7bcebb53ee2eb3013e15a8c0ab643534e9",
+      "description": "8-K EX-99.2, Q3 2026 results and Q4 2026 estimates (accession 0001824502-26-000087), gzip"
+    },
+    {
+      "id": "8k-2026-11-09-q3-letter-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-letter.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000087/archerlettertoshareholde.htm",
+      "fetched_at": "2026-11-11T04:11:56+00:00",
+      "sha256": "cbef23b91beed3f02059b20a484259cb1d066d410c0d0cfe5aba78adb308ad7f",
+      "description": "8-K EX-99.1, Q3 2026 shareholder letter; certification phase, piloted transition, deal closing status (accession 0001824502-26-000087), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000089/achr-20260930.htm",
+      "fetched_at": "2026-11-11T04:11:56+00:00",
+      "sha256": "810e31a1a0c06e724d7d3466e3de666c1d5da304d997077c4e5ae6df88639428",
+      "description": "10-Q for the quarter ended September 30, 2026; deal consideration, debt, equity roll-forward (accession 0001824502-26-000089), gzip"
+    }
+  ]
+}

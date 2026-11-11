@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "ticker": "ACHR",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 4.71,
+      "as_of": "2026-11-10",
+      "source": "data/prices/ACHR.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 12.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_operating_income_m": {
+      "value": -1057.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_net_income_m": {
+      "value": -944.3,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_eps": {
+      "value": -1.24,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_ocf_m": {
+      "value": -599.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_capex_m": {
+      "value": 131.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "cash_m": {
+      "value": 1353.6,
+      "as_of": "2026-09-30",
+      "source": "ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001824502-26-000087",
+      "note": "Cash and equivalents $785.1M plus short-term investments; excludes $18.4M restricted cash"
+    },
+    "total_debt_m": {
+      "value": 93.1,
+      "as_of": "2026-09-30",
+      "source": "ACHR 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz)",
+      "accession": "0001824502-26-000089",
+      "note": "Principal: Credit Agreement $65.0M, Hawthorne Airport Loan $15.8M, promissory notes $12.3M (carrying amount $92.3M)"
+    },
+    "shares_outstanding_m": {
+      "value": 782.5571,
+      "as_of": "2026-11-04",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "diluted_shares_m": {
+      "value": 793.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "ttm_fcf_m": {
+      "value": -730.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-09",
+      "accession": "0001824502-26-000089"
+    },
+    "market_cap_m": {
+      "value": 3685.8,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": -1260.5,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m (net cash)"
+    },
+    "enterprise_value_m": {
+      "value": 2425.3,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    },
+    "guide_revenue_low_m": {
+      "value": 5,
+      "as_of": "2026-11-09",
+      "source": "ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001824502-26-000087",
+      "note": "Q4 2026 (quarter, not full year) revenue estimate low end"
+    },
+    "guide_revenue_high_m": {
+      "value": 6,
+      "as_of": "2026-11-09",
+      "source": "ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001824502-26-000087",
+      "note": "Q4 2026 (quarter, not full year) revenue estimate high end"
+    },
+    "guide_ebitda_low_m": {
+      "value": -205,
+      "as_of": "2026-11-09",
+      "source": "ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001824502-26-000087",
+      "note": "Q4 2026 (quarter, not full year) adjusted EBITDA loss estimate, larger end (Q3 guide was -$170M to -$200M; actual -$178.5M)"
+    },
+    "guide_ebitda_high_m": {
+      "value": -185,
+      "as_of": "2026-11-09",
+      "source": "ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001824502-26-000087",
+      "note": "Q4 2026 (quarter, not full year) adjusted EBITDA loss estimate, smaller end"
+    }
+  },
+  "notes": [
+    "cash_m includes short-term investments (the XBRL scaffold took cash and equivalents only, $785.1M); total_debt_m is principal from the 10-Q debt note.",
+    "The guide_* values are the Q4 2026 quarterly estimates; Archer gives no full-year guide.",
+    "q3_cash_use_m = 206.3 as of 2026-09-30 (ACHR 8-K EX-99.2, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz), accession 0001824502-26-000087): Operating cash use $164.6M + capex $31.7M + $10.0M private investment; total liquidity fell $207M",
+    "ytd_vendor_share_issuance_m = 122.8 as of 2026-09-30 (ACHR 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz), accession 0001824502-26-000089): Issuance of Class A common stock (vendor share issuances) in the equity roll-forward: Q1 $42.1M (6.55M shares), Q2 $28.5M (4.55M), Q3 $52.2M (8.26M); not in cash flow",
+    "boeing_deal_share_pct = 19.75 as of 2026-08-09 (ACHR 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz), accession 0001824502-26-000089): Shares issued to Boeing as about 19.75% of Class A shares outstanding immediately before closing, plus two warrants of $100M each at $13.00 and $17.88",
+    "insitu_annual_revenue_m = 200 as of 2026-11-09 (ACHR 8-K EX-99.1 Q3 letter (sources/8k-2026-11-09-q3-letter.htm.gz), accession 0001824502-26-000087): \"over $200 million in annual revenue\", based on Insitu current financials and estimates; profitable per the letter, margin not given"
+  ]
+}

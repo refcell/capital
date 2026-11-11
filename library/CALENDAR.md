@@ -85,7 +85,6 @@ The company has reported since the latest call. These names are due an update no
 | 2026-08-06 | 2 | [STEP](STEP.md) | 2026-07-01 |
 | 2026-08-07 | 2 | [RHP](RHP.md) | 2026-06-14 |
 | 2026-08-10 | 1 | [ORKA](ORKA.md) | 2026-07-02 |
-| 2026-08-10 | 2 | [ACHR](ACHR.md) | 2026-07-22 |
 | 2026-08-11 | 2 | [MIDD](MIDD.md) | 2026-06-26 |
 | 2026-08-19 | 1 | [NDSN](NDSN.md) | 2026-08-13 |
 | 2026-09-02 | 1 | [OLLI](OLLI.md) | 2026-07-09 |
