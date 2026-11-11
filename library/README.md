@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 137 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 138 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -79,7 +79,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [MAA](MAA.md) | Mid-America Apartment Communities, Inc. | Real estate | active | 2026-09-24 | 1 | Watch | Watch | $117.78 | $143.30 | +6.8% | +2.3% | +4.6% |
 | [MELI](MELI.md) | MercadoLibre, Inc. | Latin American e-commerce | active | 2026-05-24 | 2 | Watch | Watch | $1,664 | $1,900 | +4.5% | -10.5% | -11.5% |
 | [MFG](MFG.md) | Mizuho Financial Group, Inc. | Financials | active | 2026-06-22 | 1 | Watch | Watch | $10.15 | $14.48 | +12.6% | -2.2% | -3.2% |
-| [MIDD](MIDD.md) | The Middleby Corporation | Industrials | active | 2026-06-26 | 1 | Watch | Watch | $173.36 | $222.25 | +8.6% | -0.9% | -4.0% |
+| [MIDD](MIDD.md) | The Middleby Corporation | Industrials | active | 2026-11-11 | 2 | Watch | Watch | $138.27 | $165.04 | +6.1% | — | — |
 | [NBIS](NBIS.md) | Nebius Group N.V. | Communication Services per provider classification; in practice AI cloud infrastructure ("neocloud"): GPU clusters, managed inference and developer tooling, plus non-core autonomous-driving (Avride), edtech (TripleTen) and minority stakes in ClickHouse and Toloka | active | 2026-10-27 | 1 | Watch (positive) | Own | $153.27 | $288.98 | +23.5% | -7.7% | -6.1% |
 | [NDSN](NDSN.md) | Nordson Corporation | Industrials | active | 2026-08-13 | 1 | Watch | Avoid | $309.99 | $277.00 | -3.7% | +5.2% | +8.5% |
 | [NKE](NKE.md) | NIKE, Inc. | Consumer discretionary | active | 2026-06-01 | 1 | Watch | Avoid | $45.92 | $41.50 | -3.3% | -14.9% | -14.3% |

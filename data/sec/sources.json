@@ -321,7 +321,7 @@
   },
   "facts/MIDD": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000769520.json",
-    "fetched_at": "2026-11-11T03:40:09+00:00",
+    "fetched_at": "2026-11-11T06:17:28+00:00",
     "sha256": "22d850ce15b9558979d40b80c1c5359191edfe8873f2787c55df9c513692c9fb"
   },
   "facts/NBIS": {
@@ -921,7 +921,7 @@
   },
   "submissions/MIDD": {
     "url": "https://data.sec.gov/submissions/CIK0000769520.json",
-    "fetched_at": "2026-11-11T03:40:08+00:00",
+    "fetched_at": "2026-11-11T06:17:27+00:00",
     "sha256": "580ec1d51d6e12670f6a65ef29bf1d97d69c4b9ad743f9621cf4b336355dcf08"
   },
   "submissions/NBIS": {

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "ticker": "MIDD",
+  "exchange": "NASDAQ",
+  "company": "The Middleby Corporation",
+  "sector": "Industrials / Specialty Industrial Machinery",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "MIDD/2026-06-26",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026; first full quarter after the Midera spin-off; FY2026 outlook raised; CEO transition)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged; the spin-off and the Residential sale left a cleaner foodservice business that grew 7.7% and raised its outlook, but at 19x adjusted earnings the price already pays for most of the base case",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 adjusted EPS (adjusted EBITDA less depreciation, stock compensation and net interest, taxed at 25%; excludes amortization and Residential equity losses, which are not valued separately) x exit P/E, continuing foodservice operations only; three-year value, undiscounted",
+  "price": {
+    "value": 138.27,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 96.59,
+      "weight": 0.3,
+      "revenue_cagr": 0.01,
+      "basis": "Sales +1% a year from $2,507M (outlook midpoint less Brewing) to $2,583M; adjusted EBITDA margin 22.0% ($568M); about $280M a year of FCF, 2% a year buybacks and the rest to a low-return acquisition, so net debt stays at $1.64B (interest $90M); 42.5M diluted shares: adjusted EPS $7.43 x 13x (the initiation's multiple for net debt of $1.5B or more)"
+    },
+    "base": {
+      "value": 179.18,
+      "weight": 0.5,
+      "revenue_cagr": 0.05,
+      "basis": "Sales +5% a year to $2,902M; adjusted EBITDA margin 24.0% ($696M); about $350M a year of FCF, $680M to buybacks (3.5% a year) and the rest to debt (net debt $1.27B, interest $70M); 40.5M diluted shares: adjusted EPS $10.54 x 17x"
+    },
+    "bull": {
+      "value": 232.37,
+      "weight": 0.2,
+      "revenue_cagr": 0.07,
+      "basis": "Sales +7% a year to $3,071M; adjusted EBITDA margin 25.5% ($783M); almost all FCF to buybacks at higher prices (4.5% a year), net debt flat at $1.64B, interest $90M; 39.0M diluted shares: adjusted EPS $12.23 x 19x"
+    }
+  },
+  "fair_value": {
+    "value": 165.04,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on FY2029 adjusted EPS, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "After the Midera spin-off, the Residential sale and the Brewing closure, Middleby is a pure commercial foodservice company. Q3 2026 sales grew 7.7% organically and the adjusted EBITDA margin was 23.9% (24.3% without Brewing), but the 19% adjusted EPS growth leaned on buybacks funded by the one-off $564.6M Residential sale, nine-month FCF fell 13%, and the 49% Residential stake lost $38.7M in Q3. At 19.2x adjusted and 33.6x GAAP earnings, the price pays for most of a base case of 5% growth, a 24% margin and steady buybacks (FY2029 adjusted EPS $10.54 at 17x, about $179).",
+  "consensus_view": "No Street snapshot was captured. The stock has risen 34.6% from its October 1 low to 19.2x the FY2026 adjusted EPS outlook, 33.6x trailing GAAP continuing EPS and 13.3x adjusted EBITDA, so the market now credits the cleaner foodservice business with steady growth and margins near 24%.",
+  "variant_view": "We have no strong disagreement with the market: the business is better than the conglomerate was, and the price reflects it. The checkable difference is durability: we expect organic growth to slow to mid-single digits in 2027 (the Q4 outlook is 4.4%) without margin loss, which the base case needs. The test is FY2027 organic growth guidance of at least 3% and a Q2 2027 adjusted EBITDA margin of at least 23.5%.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results and FY2027 guidance",
+      "timing": "About February 25, 2027, before the open (last year's release was February 26, 2026)",
+      "date": "2027-02-25",
+      "kind": "hard",
+      "what_it_proves": "Whether FY2026 lands in the raised outlook and how fast foodservice grows in 2027 without Brewing",
+      "value_impact": "FY2027 organic growth guidance below 0% fires a kill criterion; above 6% moves weight to the bull"
+    },
+    {
+      "event": "CEO transition to Steven Spittle",
+      "timing": "April 1, 2027",
+      "date": "2027-04-01",
+      "kind": "hard",
+      "what_it_proves": "Whether capital allocation (buybacks versus acquisitions) and the margin focus continue under new leadership",
+      "value_impact": "A return to large debt-funded acquisitions moves weight to the bear"
+    },
+    {
+      "event": "Residential Kitchen joint venture results and the note receivable",
+      "timing": "Each quarter",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the 49% stake stops losing money ($28.9M in Q2 and $38.7M in Q3, against a $73.4M carrying value) and whether the $84.1M note holds its value",
+      "value_impact": "At the Q3 loss rate the stake reaches zero in about two quarters; a full impairment of the note would cost about $1.87 a share pre-tax (about $1.40 after tax)"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Restaurant and chain equipment spending turns down in 2027 after a 7.5% growth year, and organic sales fall.",
+      "signal": "Quarterly organic sales growth against the 4.4% Q4 2026 outlook"
+    },
+    {
+      "reason": "Tariffs and stranded corporate costs after the separations push the adjusted EBITDA margin below 22%.",
+      "signal": "Adjusted EBITDA margin and corporate expense each quarter (Q3 2026: 23.9% and $17.6M)"
+    },
+    {
+      "reason": "The new CEO returns to debt-funded acquisitions, leverage rises above 3.5x and buybacks stop.",
+      "signal": "Net leverage and acquisition announcements after April 2027"
+    },
+    {
+      "reason": "The Residential joint venture keeps losing $135-155M a year, the stake is written to zero and the $84M note is impaired or needs new money.",
+      "signal": "Equity in losses of affiliate, the stake's carrying value and the note's fair value each quarter"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: growth stays near 7%, the margin passes 25%, and the market pays above 20x adjusted earnings for a pure foodservice compounder.",
+      "signal": "FY2027 organic growth guidance above 6% with margins above 24.5%"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2027 organic net sales growth guidance below 0%",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Adjusted EBITDA margin below 22% in any quarter of 2027",
+      "check_by": "2028-03-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Net leverage above 3.5x at any quarter-end through 2027",
+      "check_by": "2028-03-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-adj-eps-7-13",
+      "claim": "Middleby reports FY2026 adjusted EPS of at least $7.13 (the bottom of the raised outlook).",
+      "probability": 0.85,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "fy27-organic-guide-3pct",
+      "claim": "Middleby's initial FY2027 outlook implies organic net sales growth of at least 3% at the midpoint.",
+      "probability": 0.7,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "q2-27-margin-23-5",
+      "claim": "Middleby reports a Q2 2027 adjusted EBITDA margin of at least 23.5%.",
+      "probability": 0.55,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "shares-below-44m-q2-27",
+      "claim": "Middleby's Q2 2027 diluted weighted average share count is below 44.0 million (the base path gives about 43.8 million).",
+      "probability": 0.6,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "acquisition-500m-by-2027",
+      "claim": "Middleby announces an acquisition of $500M or more by December 31, 2027.",
+      "probability": 0.2,
+      "resolve_by": "2028-01-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $109 at these weights",
+    "Toward Own: FY2027 organic growth guidance above 6% with a margin above 24.5%",
+    "Toward Avoid: FY2027 organic growth guidance below 0%, or a quarterly adjusted EBITDA margin below 22%",
+    "Toward Avoid: net leverage above 3.5x after a debt-funded acquisition"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $1.5B–$3B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from FY2026 sales of $2,507M, the outlook midpoint less Brewing)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 51
+  },
+  "update": {
+    "event": "Q3 2026 results (8-K, 2026-11-05) with FY2026 outlook raised and a CEO transition",
+    "event_date": "2026-11-05",
+    "expected": "June call (pre-spin): Watch / Needs more work, base $215 (5% growth, 15% FCF margin, 15x, five years), fair value $222.25 (about $178.80 spin-adjusted); post-spin operating margin and per-share FCF named as the metrics that would settle the thesis; the initiation also named net debt above $1.5B for the foodservice business as a bearish trigger, with 13-14x as the multiple for that case",
+    "actual": "Continuing (foodservice) sales $652.6M (+7.7% organic); adjusted EBITDA $155.8M (23.9%); adjusted EPS $2.07 (+19%); GAAP continuing EPS $0.43 after Brewing charges and Residential equity losses; FY2026 outlook raised to sales $2,519-2,534M, adjusted EBITDA $589-593M, adjusted EPS $7.13-7.29; 4.8M shares (9.7%) bought back in nine months; net debt $1.64B (2.8x); CEO FitzGerald to step down March 31, 2027; nine-month FCF $239.9M (-13%), $5.24 per diluted share against $5.22",
+    "thesis_pillars": [
+      {
+        "pillar": "The spin-off leaves a cleaner, higher-quality foodservice business",
+        "status": "strengthened",
+        "note": "Continuing sales +7.7% organic, adjusted EBITDA margin 23.9%"
+      },
+      {
+        "pillar": "Margins hold at about 23-24%",
+        "status": "intact",
+        "note": "Q3 23.9%, 24.3% without Brewing; nine months 23.2%"
+      },
+      {
+        "pillar": "Buybacks compound per-share value without excess leverage",
+        "status": "weakened",
+        "note": "9.7% of shares bought back in nine months, funded by the $564.6M Residential sale; nine-month FCF -13%, flat per share ($5.24 vs $5.22); net debt $1.64B is above the initiation's $1.5B bearish trigger"
+      },
+      {
+        "pillar": "Management continuity",
+        "status": "weakened",
+        "note": "CEO transition to Steven Spittle on April 1, 2027"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-26",
+  "next_review_trigger": "Q4 2026 results and FY2027 guidance, expected around February 25, 2027 before the open",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/MIDD/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/MIDD/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "MIDD closed at $138.27 on November 10, 2026",
+    "scenarios.base.value": "| Base | $215 ($172.97) | $179.18 |",
+    "fair_value.value": "| Fair value | $222.25 ($178.80) | $165.04 |"
+  },
+  "notes": [
+    "The June call valued the pre-spin company, Midera included, on five-year values; this update values the continuing foodservice business on three-year undiscounted values. June figures divided by Yahoo's 1.243 spin factor are a rough comparison only.",
+    "No Street consensus snapshot was captured for this update.",
+    "Adjusted EPS excludes intangible amortization (about $0.75 a share a year after tax) and Residential equity losses ($28.9M in Q2, $38.7M in Q3); the call does not value the 49% Residential stake ($73.4M) or the $84.1M note separately.",
+    "The Q3 10-Q was not filed by 2026-11-11; share counts are Q3 weighted averages.",
+    "First review round (B; evidence 3, valuation 3, variant view 2, risk 4, calibration 3): base buybacks and flat net debt did not tie to FCF, bear interest sat above the base, the Residential loss rate was understated about 4x, the bull exit was above today's EV/EBITDA, the initiation's net-debt trigger had fired unmentioned, the October 1 low was misdated, and the share-count claim disagreed with the model. First draft values were $96.07 / $174.08 / $235.60, fair value $169.96.",
+    "Second review round (B; evidence 4, valuation 3, variant view 2, risk 4, calibration 4): per-share FCF was flat, not down; the buyback pillar's evidence was all negative; the bear used the initiation's 13x while ending with low debt; the weights contradicted their own reasons; the interest share of EPS growth was overstated. Second-draft values were $103.48 / $179.18 / $232.37 at 25/50/25, fair value $173.55."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 2,
+      "risk": 4,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "valuation: the weights row listed four negatives and one positive yet called the evidence balanced; the bear used the initiation's 13x, tied to net debt of $1.5B or more, while ending at $1.08B; no scenario included the debt-funded acquisition the call gives 20%.",
+      "variant_view: the note says it has no strong disagreement with the market, and its test is roughly what 19.2x adjusted earnings already assumes."
+    ],
+    "grade": "B",
+    "counter_case": "Per-share FCF, the metric the initiation said would settle the thesis, did not grow: $5.24 against $5.22 over nine months, with the share-count drop bought by a one-off asset sale. Adjusted EPS leaves out Residential losses of about $3 a share annualized and about $0.77 of amortization, and the stock trades at 33.6x GAAP earnings. Base EPS growth of 13.5% a year rests on 5% sales growth from a business the initiation called flat for three years, with Q4 organic growth slowing to 4.4%. A bear that keeps $1.64B of net debt is worth about $96.66; at 35/50/15 the call returns about 5% a year: still Watch, but the bias should be negative.",
+    "response": "Accepted the corrections: per-share FCF is described as flat; the buyback pillar is weakened; the bear keeps net debt at $1.64B through a low-return acquisition, matching the initiation's condition for 13x ($96.59); the weights move to 30/50/20 to match their reasons, giving $165.04, 6.1% a year; interest explains about a tenth of base EPS growth; the reference class, peer pre-mortem and note-impairment figure are corrected; the FCF assumptions are recorded as derived inputs. On the counter-case: the bias stays neutral because the weights already carry the shift toward the bear, and the operating evidence (7.7% organic growth, a 24% margin without Brewing, a raised outlook) is genuinely better than the June call assumed. The call says plainly that it has no strong variant view, which is part of why it is Watch."
+  }
+}

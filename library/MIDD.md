@@ -2,41 +2,87 @@
 
 # The Middleby Corporation (NASDAQ: MIDD)
 
-Sector: Industrials / Specialty Industrial Machinery · Calls: 1 · Latest: 2026-06-26
+Sector: Industrials / Specialty Industrial Machinery · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / Needs more work (post-spin-off optionality not fully priced) |
-| Rule rating | Watch (+8.6% a year expected over 3 years) |
-| Price at call | $173.36 on 2026-06-26 |
-| Bear / base / bull | $100.00 / $215.00 / $359.00 |
-| Weights | 25% / 50% / 25% |
-| Fair value | $222.25 (weighted) |
+| Stance (as published) | Watch — unchanged; the spin-off and the Residential sale left a cleaner foodservice business that grew 7.7% and raised its outlook, but at 19x adjusted earnings the price already pays for most of the base case |
+| Rule rating | Watch (+6.1% a year expected over 3 years) |
+| Price at call | $138.27 on 2026-11-10 |
+| Bear / base / bull | $96.59 / $179.18 / $232.37 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $165.04 (weighted) |
 | Street mean target | — |
-| Valuation lens | Forward P/E + Scenario FCF multiple with WACC discounting |
-| Since the call | -0.9% vs SPY +3.1% through 2026-11-10; mark $171.87 is bear to base |
+| Valuation lens | FY2029 adjusted EPS (adjusted EBITDA less depreciation, stock compensation and net interest, taxed at 25%; excludes amortization and Residential equity losses, which are not valued separately) x exit P/E, continuing foodservice operations only; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +1.0% = 29th pct / base +5.0% = 52th pct / bull +7.0% = 64th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-26 — Q4 2026 results and FY2027 guidance, expected around February 25, 2027 before the open |
 
-## Fundamentals known on 2026-06-26
+**Thesis.** After the Midera spin-off, the Residential sale and the Brewing closure, Middleby is a pure commercial foodservice company. Q3 2026 sales grew 7.7% organically and the adjusted EBITDA margin was 23.9% (24.3% without Brewing), but the 19% adjusted EPS growth leaned on buybacks funded by the one-off $564.6M Residential sale, nine-month FCF fell 13%, and the 49% Residential stake lost $38.7M in Q3. At 19.2x adjusted and 33.6x GAAP earnings, the price pays for most of a base case of 5% growth, a 24% margin and steady buybacks (FY2029 adjusted EPS $10.54 at 17x, about $179).
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit MIDD 2026-06-26`). Later restatements are not visible here by design.
+**Variant view.** We have no strong disagreement with the market: the business is better than the conglomerate was, and the price reflects it. The checkable difference is durability: we expect organic growth to slow to mid-single digits in 2027 (the Q4 outlook is 4.4%) without margin loss, which the base case needs. The test is FY2027 organic growth guidance of at least 3% and a Q2 2027 adjusted EBITDA margin of at least 23.5%.
+
+**Catalysts.**
+
+- Q4 2026 results and FY2027 guidance (About February 25, 2027, before the open (last year's release was February 26, 2026))
+- CEO transition to Steven Spittle (April 1, 2027)
+- Residential Kitchen joint venture results and the note receivable (Each quarter)
+
+**Pre-mortem** (written at decision time).
+
+- Restaurant and chain equipment spending turns down in 2027 after a 7.5% growth year, and organic sales fall. — watch: Quarterly organic sales growth against the 4.4% Q4 2026 outlook
+- Tariffs and stranded corporate costs after the separations push the adjusted EBITDA margin below 22%. — watch: Adjusted EBITDA margin and corporate expense each quarter (Q3 2026: 23.9% and $17.6M)
+- The new CEO returns to debt-funded acquisitions, leverage rises above 3.5x and buybacks stop. — watch: Net leverage and acquisition announcements after April 2027
+- The Residential joint venture keeps losing $135-155M a year, the stake is written to zero and the $84M note is impaired or needs new money. — watch: Equity in losses of affiliate, the stake's carrying value and the note's fair value each quarter
+- The Watch call is wrong on the upside: growth stays near 7%, the margin passes 25%, and the market pays above 20x adjusted earnings for a pure foodservice compounder. — watch: FY2027 organic growth guidance above 6% with margins above 24.5%
+
+**Kill criteria.**
+
+- FY2027 organic net sales growth guidance below 0% (check by 2027-03-31) — open
+- Adjusted EBITDA margin below 22% in any quarter of 2027 (check by 2028-03-31) — open
+- Net leverage above 3.5x at any quarter-end through 2027 (check by 2028-03-31) — open
+
+**Probability claims.**
+
+- 85%: Middleby reports FY2026 adjusted EPS of at least $7.13 (the bottom of the raised outlook). (resolves by 2027-03-31)
+- 70%: Middleby's initial FY2027 outlook implies organic net sales growth of at least 3% at the midpoint. (resolves by 2027-03-31)
+- 55%: Middleby reports a Q2 2027 adjusted EBITDA margin of at least 23.5%. (resolves by 2027-09-15)
+- 60%: Middleby's Q2 2027 diluted weighted average share count is below 44.0 million (the base path gives about 43.8 million). (resolves by 2027-09-15)
+- 20%: Middleby announces an acquisition of $500M or more by December 31, 2027. (resolves by 2028-01-31)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $109 at these weights
+- Toward Own: FY2027 organic growth guidance above 6% with a margin above 24.5%
+- Toward Avoid: FY2027 organic growth guidance below 0%, or a quarterly adjusted EBITDA margin below 22%
+- Toward Avoid: net leverage above 3.5x after a debt-funded acquisition
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 4, calibration 4). Counter-case: Per-share FCF, the metric the initiation said would settle the thesis, did not grow: $5.24 against $5.22 over nine months, with the share-count drop bought by a one-off asset sale. Adjusted EPS leaves out Residential losses of about $3 a share annualized and about $0.77 of amortization, and the stock trades at 33.6x GAAP earnings. Base EPS growth of 13.5% a year rests on 5% sales growth from a business the initiation called flat for three years, with Q4 organic growth slowing to 4.4%. A bear that keeps $1.64B of net debt is worth about $96.66; at 35/50/15 the call returns about 5% a year: still Watch, but the bias should be negative.
+
+**Response.** Accepted the corrections: per-share FCF is described as flat; the buyback pillar is weakened; the bear keeps net debt at $1.64B through a low-return acquisition, matching the initiation's condition for 13x ($96.59); the weights move to 30/50/20 to match their reasons, giving $165.04, 6.1% a year; interest explains about a tenth of base EPS growth; the reference class, peer pre-mortem and note-impairment figure are corrected; the FCF assumptions are recorded as derived inputs. On the counter-case: the bias stays neutral because the weights already carry the shift toward the bear, and the operating evidence (7.7% organic growth, a 24% margin without Brewing, a raised outlook) is genuinely better than the June call assumed. The call says plainly that it has no strong variant view, which is part of why it is Watch.
+
+**Data notes.** The June call valued the pre-spin company, Midera included, on five-year values; this update values the continuing foodservice business on three-year undiscounted values. June figures divided by Yahoo's 1.243 spin factor are a rough comparison only. No Street consensus snapshot was captured for this update. Adjusted EPS excludes intangible amortization (about $0.75 a share a year after tax) and Residential equity losses ($28.9M in Q2, $38.7M in Q3); the call does not value the 49% Residential stake ($73.4M) or the $84.1M note separately. The Q3 10-Q was not filed by 2026-11-11; share counts are Q3 weighted averages. First review round (B; evidence 3, valuation 3, variant view 2, risk 4, calibration 3): base buybacks and flat net debt did not tie to FCF, bear interest sat above the base, the Residential loss rate was understated about 4x, the bull exit was above today's EV/EBITDA, the initiation's net-debt trigger had fired unmentioned, the October 1 low was misdated, and the share-count claim disagreed with the model. First draft values were $96.07 / $174.08 / $235.60, fair value $169.96. Second review round (B; evidence 4, valuation 3, variant view 2, risk 4, calibration 4): per-share FCF was flat, not down; the buyback pillar's evidence was all negative; the bear used the initiation's 13x while ending with low debt; the weights contradicted their own reasons; the interest share of EPS growth was overstated. Second-draft values were $103.48 / $179.18 / $232.37 at 25/50/25, fair value $173.55.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit MIDD 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 3,310.5M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Gross profit (TTM) | 1,282.5M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Operating income (TTM) | 578.7M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Net income (TTM) | 224.8M USD | 2026-04-04 | ttm ytd | [0001308179-26-000231](https://www.sec.gov/Archives/edgar/data/769520/000130817926000231/) |
-| Diluted EPS (TTM) | -8.07 USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Operating cash flow (TTM) | 554.7M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Capex (TTM) | 52.2M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Free cash flow (TTM) | 502.5M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Stock comp (TTM) | 21.2M USD | 2026-04-04 | ttm ytd | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Cash | 177.1M USD | 2026-04-04 | instant | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Long-term debt | 1,829.9M USD | 2026-04-04 | instant | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Equity | 2,374.9M USD | 2026-04-04 | instant | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
-| Shares outstanding | 45.2M | 2026-05-11 | instant | [0000769520-26-000032](https://www.sec.gov/Archives/edgar/data/769520/000076952026000032/) |
+| Revenue (TTM) | 3,389.2M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Gross profit (TTM) | 1,301.5M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Operating income (TTM) | 578.7M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Net income (TTM) | 173.7M USD | 2026-07-04 | ttm ytd | [0001308179-26-000231](https://www.sec.gov/Archives/edgar/data/769520/000130817926000231/) |
+| Diluted EPS (TTM) | -8.90 USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Operating cash flow (TTM) | 530.4M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Capex (TTM) | 48.3M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Free cash flow (TTM) | 482.1M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Stock comp (TTM) | 22.9M USD | 2026-07-04 | ttm ytd | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Cash | 159.2M USD | 2026-07-04 | instant | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Long-term debt | 1,935.4M USD | 2026-07-04 | instant | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Equity | 2,210.0M USD | 2026-07-04 | instant | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
+| Shares outstanding | 45.2M | 2026-08-10 | instant | [0000769520-26-000047](https://www.sec.gov/Archives/edgar/data/769520/000076952026000047/) |
 
 ## Earnings calendar
 
@@ -46,6 +92,7 @@ Last release: 2026-11-05 (pre-market 8-K Item 2.02, [0000769520-26-000054](https
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $138.27 | Watch | Watch | $96.59 | $179.18 | $232.37 | $165.04 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/MIDD/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/MIDD/2026-11-11.xlsx) |
 | 2026-06-26 | $173.36 | Watch | Watch | $100.00 | $215.00 | $359.00 | $222.25 | -0.9% | -4.0% | bear to base | [report](https://github.com/refcell/capital/blob/480de22/research/MIDD.md) · [projection](https://github.com/refcell/capital/blob/9a88d4a/projections/MIDD.md) · [model](https://github.com/refcell/capital/blob/5c0e16d/models/%5B2026-06-26%5D%20Middleby%20Corporation%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/5c0e16d/models/_build_MIDD.py) |
 
 Data: `data/MIDD/`. Prices: `data/prices/MIDD.csv`.

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "ticker": "MIDD",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 138.27,
+      "as_of": "2026-11-10",
+      "source": "data/prices/MIDD.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 2500.4,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), continuing operations: Q4 2025 $601.7M + Q1-Q3 2026",
+      "accession": "0000769520-26-000054",
+      "note": "XBRL TTM revenue ($3,389M to July 2026) still mixes in businesses now discontinued or spun off."
+    },
+    "ttm_operating_income_m": {
+      "value": 438.1,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), income from continuing operations Q4 2025 $108.4M + nine months 2026 $329.7M",
+      "accession": "0000769520-26-000054"
+    },
+    "cash_m": {
+      "value": 104.3,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), balance sheet",
+      "accession": "0000769520-26-000054"
+    },
+    "total_debt_m": {
+      "value": 1748.7,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), net debt table (current $40.3M + long-term $1,708.4M)",
+      "accession": "0000769520-26-000054"
+    },
+    "shares_outstanding_m": {
+      "value": 44.871,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), Q3 basic weighted average shares",
+      "accession": "0000769520-26-000054",
+      "note": "The Q3 10-Q, with the cover-page count, was not yet filed on 2026-11-11; 1.0M shares were repurchased in Q3, so the period-end count is likely somewhat below the average."
+    },
+    "diluted_shares_m": {
+      "value": 44.9,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), Q3 diluted weighted average shares",
+      "accession": "0000769520-26-000054"
+    },
+    "market_cap_m": {
+      "value": 6204.31,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 1644.3,
+      "as_of": "2026-10-03",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), net debt table",
+      "accession": "0000769520-26-000054",
+      "note": "Net leverage 2.8x LTM adjusted EBITDA of $579.7M."
+    },
+    "enterprise_value_m": {
+      "value": 7848.61,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    },
+    "guide_revenue_low_m": {
+      "value": 2519.0,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 outlook",
+      "accession": "0000769520-26-000054"
+    },
+    "guide_revenue_high_m": {
+      "value": 2534.0,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 outlook",
+      "accession": "0000769520-26-000054"
+    },
+    "guide_ebitda_low_m": {
+      "value": 589.0,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 outlook",
+      "accession": "0000769520-26-000054"
+    },
+    "guide_ebitda_high_m": {
+      "value": 593.0,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 outlook",
+      "accession": "0000769520-26-000054"
+    },
+    "guide_eps_low": {
+      "value": 7.13,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 adjusted EPS outlook",
+      "accession": "0000769520-26-000054"
+    },
+    "guide_eps_high": {
+      "value": 7.29,
+      "as_of": "2026-11-05",
+      "source": "MIDD Q3 2026 earnings release, 8-K EX-99.1 (sources/q3-2026-ex99-1.htm.gz), FY2026 adjusted EPS outlook",
+      "accession": "0000769520-26-000054"
+    }
+  },
+  "notes": [
+    "Continuing operations are commercial foodservice only: Midera (food processing) was spun off in July 2026 (Yahoo price adjustment factor 1.243 on 2026-07-07), 51% of Residential Kitchen was sold for $564.6M net of cash (49% kept as an equity-method investment, $73.4M, plus an $84.1M note receivable), and the Brewing businesses are being closed by year end.",
+    "Q3 2026: net sales $652.6M (+7.7%, all organic); adjusted EBITDA $155.8M (23.9%); adjusted EPS $2.07 (+19%); GAAP diluted EPS from continuing operations $0.43 after $25.9M of Brewing charges and $38.7M of equity losses from the Residential affiliate; FCF $116.8M.",
+    "FY2026 outlook raised: net sales $2,519-2,534M, organic growth 7.5%, adjusted EBITDA $589-593M, adjusted EPS $7.13-7.29.",
+    "Buybacks: 1.0M shares for $106.5M in Q3; 4.8M shares (9.7% of shares outstanding) in the first nine months.",
+    "CEO Tim FitzGerald steps down March 31, 2027; Steven Spittle (Chief Commercial Officer) becomes President now and CEO April 1, 2027.",
+    "New five-year $3.0B secured credit agreement (November 4, 2026): $2.0B revolver and $1.0B term loan A.",
+    "Derived, not reported: scenario free cash flow of about $280M (bear) and $350M (base) a year, about 50% and 55% of adjusted EBITDA against 54.5% in the first nine months of 2026 ($239.9M / $439.8M). Nine-month FCF per diluted share $5.24 (2025: $5.22)."
+  ]
+}

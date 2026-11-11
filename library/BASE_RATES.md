@@ -22,7 +22,7 @@ Caveats: SEC `frames` values are the latest filed, so these are restated figures
 
 Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue as filed on the call date). Percentile = share of history at or below the forecast.
 
-Across 56 calls, the median base case sits at the 70th percentile; 27 of 56 base cases are above the 75th percentile and 18 of 56 bull cases are above the 90th.
+Across 57 calls, the median base case sits at the 69th percentile; 27 of 57 base cases are above the 75th percentile and 18 of 57 bull cases are above the 90th.
 
 | Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |
 |---|---:|---|---:|---:|---:|
@@ -58,6 +58,7 @@ Across 56 calls, the median base case sits at the 70th percentile; 27 of 56 base
 | [KNTK/2026-09-17](KNTK.md) | $1.89B | $1.5B–$3B | +2.0% (34) | +8.0% (67) | +12.0% (82) |
 | [MAA/2026-09-24](MAA.md) | $2.21B | $1.5B–$3B | +1.0% (29) | +2.5% (36) | +4.0% (45) |
 | [MELI/2026-05-24](MELI.md) | $31.80B | $25B–$50B | +14.0% (93) | +19.0% (97) | +24.0% (98) |
+| [MIDD/2026-11-11](MIDD.md) | $3.39B | $3B–$6B | +1.0% (29) | +5.0% (52) | +7.0% (64) |
 | [NOW/2026-05-24](NOW.md) | $13.96B | $12B–$25B | +10.0% (87) | +15.0% (95) | +20.0% (98) |
 | [NRG/2026-11-11](NRG.md) | $34.96B | $25B–$50B | -2.0% (23) | +1.0% (36) | +3.0% (49) |
 | [NU/2026-05-24](NU.md) | $11.52B | $6B–$12B | +12.0% (85) | +18.0% (93) | +24.0% (97) |
