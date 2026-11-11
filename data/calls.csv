@@ -88,6 +88,7 @@ PK,2026-08-24,Park Hotels & Resorts Inc.,Real estate / lodging operator / hospit
 PLTR,2026-06-24,Palantir Technologies Inc.,"Technology / Software — AI platform, data analytics, government intelligence",backfill,initial,watch,neutral,own,pe,113.5,2026-06-24,94.0,,179.0,,625.0,,374.0,stated,0.4881,,,,research/PLTR.md,f6ccd03
 POST,2026-07-13,"Post Holdings, Inc.",Consumer Defensive / Packaged Foods,backfill,initial,watch,neutral,own,pe,86.7,2026-07-13,88.1,,134.5,,210.7,,142.0,stated,0.1788,120.33,18.0,,research/POST.md,ae182dc
 PPC,2026-08-12,Pilgrim's Pride Corporation,Consumer Defensive / Packaged Foods,backfill,initial,watch,neutral,watch,pe,26.86,2026-08-12,22.4,0.3,37.5,0.5,65.0,0.2,38.47,stated,0.1272,,,,research/PPC.md,558b414
+PRIM,2026-11-10,Primoris Services Corporation,Industrials — Specialty Contracting / Engineering & Construction,run,initial,watch,neutral,watch,pe,71.24,2026-11-09,34.26,0.3,76.96,0.5,133.2,0.2,75.4,weighted,0.0191,100.47,-24.95,2027-02-23,research/PRIM.md,
 PSNL,2026-08-25,"Personalis, Inc.",Healthcare / Diagnostics & Research,backfill,initial,watch,neutral,watch,nav,17.25,2026-08-25,6.38,,18.96,,59.8,,26.0,stated,0.1466,15.44,68.4,,research/PSNL.md,8ff79eb
 PYPL,2026-05-06,PYPL,,backfill,,,,own,,47.1,2026-05-06,67.0,,97.0,,130.0,,97.0,base,0.2723,56.53,71.6,,research/PYPL.md,9f61507
 PYPL,2026-05-24,"PayPal Holdings, Inc.",Payments / digital wallets / merchant acquiring,backfill,post_earnings,watch,negative,own,fcf,44.23,2026-05-22,40.0,,90.0,,150.0,,90.0,base,0.2672,52.53,71.3,,research/PYPL.md,ac525a6

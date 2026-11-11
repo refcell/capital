@@ -2,7 +2,7 @@
 
 # Coverage library
 
-109 companies, 127 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 128 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 ## Rating scale
 
@@ -11,7 +11,7 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 20 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 106 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 69 | 107 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 1 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -96,6 +96,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [PLTR](PLTR.md) | Palantir Technologies Inc. | Technology | active | 2026-06-24 | 1 | Watch | Own | $113.50 | $374.00 | +48.8% | +49.1% | +46.2% |
 | [POST](POST.md) | Post Holdings, Inc. | Consumer Defensive | active | 2026-07-13 | 1 | Watch | Own | $86.70 | $142.00 | +17.9% | -5.6% | -6.0% |
 | [PPC](PPC.md) | Pilgrim's Pride Corporation | Consumer Defensive | active | 2026-08-12 | 1 | Watch | Watch | $26.86 | $38.47 | +12.7% | +5.0% | +7.7% |
+| [PRIM](PRIM.md) | Primoris Services Corporation | Industrials — Specialty Contracting | active | 2026-11-10 | 1 | Watch | Watch | $71.24 | $75.40 | +1.9% | — | — |
 | [PSNL](PSNL.md) | Personalis, Inc. | Healthcare | active | 2026-08-25 | 1 | Watch | Watch | $17.25 | $26.00 | +14.7% | -7.5% | -6.1% |
 | [PYPL](PYPL.md) | PayPal Holdings, Inc. | Payments | active | 2026-05-24 | 2 | Watch (negative) | Own | $44.23 | $90.00 | +26.7% | +36.6% | +35.1% |
 | [QS](QS.md) | QuantumScape Corporation | Technology | active | 2026-07-17 | 1 | Watch | Avoid | $5.86 | $3.29 | -17.5% | -22.0% | -23.5% |

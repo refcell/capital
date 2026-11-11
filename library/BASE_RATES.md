@@ -22,7 +22,7 @@ Caveats: SEC `frames` values are the latest filed, so these are restated figures
 
 Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue as filed on the call date). Percentile = share of history at or below the forecast.
 
-Across 54 calls, the median base case sits at the 73th percentile; 27 of 54 base cases are above the 75th percentile and 18 of 54 bull cases are above the 90th.
+Across 55 calls, the median base case sits at the 71th percentile; 27 of 55 base cases are above the 75th percentile and 18 of 55 bull cases are above the 90th.
 
 | Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |
 |---|---:|---|---:|---:|---:|
@@ -66,6 +66,7 @@ Across 54 calls, the median base case sits at the 73th percentile; 27 of 54 base
 | [PFE/2026-11-03](PFE.md) | $63.62B | Over $50B | -4.0% (15) | -1.0% (22) | +2.5% (42) |
 | [PLTR/2026-06-24](PLTR.md) | $5.22B | $3B–$6B | +35.0% (99) | +43.0% (99) | +52.0% (100) |
 | [PPC/2026-08-12](PPC.md) | $18.44B | $12B–$25B | -1.0% (26) | +2.0% (45) | +4.0% (58) |
+| [PRIM/2026-11-10](PRIM.md) | $7.06B | $6B–$12B | +1.0% (32) | +7.0% (67) | +11.2% (84) |
 | [PSNL/2026-08-25](PSNL.md) | $0.07B | $50M–$325M | +12.0% (61) | +20.0% (76) | +32.0% (89) |
 | [PYPL/2026-05-24](PYPL.md) | $33.73B | $25B–$50B | +1.0% (36) | +3.5% (53) | +6.0% (70) |
 | [RHP/2026-06-14](RHP.md) | $2.65B | $1.5B–$3B | +5.0% (51) | +7.0% (62) | +9.0% (72) |
