@@ -22,3 +22,5 @@ jobs:
         run: python3 -m capital.validate
       - name: Unit tests
         run: python3 -m unittest discover -t . -s functions && python3 -m unittest discover -t . -s capital
+      - name: Generated library is up to date
+        run: python3 -m capital.build --check

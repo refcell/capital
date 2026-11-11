@@ -227,6 +227,32 @@ def check_run_call(c: store.Call, errors: list[str]) -> None:
                 errors.append(f"{rel}: report {call['artifacts']['report']['path']} lacks a '{required}' section")
 
 
+def check_call_prices(errors: list[str]) -> None:
+    """A call's stated price must match the committed close on its price date."""
+    from capital import config, prices
+
+    exceptions_path = store.PRICES / "exceptions.json"
+    exceptions = store.load_json(exceptions_path) if exceptions_path.exists() else {}
+    for c in store.iter_calls():
+        day = c.call["price"].get("date")
+        rows = prices.closes(c.ticker) if day else []
+        if not rows or c.key in exceptions:
+            continue
+        on_or_before = [r for r in rows if r[0] <= day]
+        if not on_or_before or on_or_before[-1][0] != day:
+            continue
+        close = on_or_before[-1][1]
+        diff = c.call["price"]["value"] / close - 1
+        if abs(diff) > config.PRICE_CHECK_TOLERANCE:
+            errors.append(
+                f"{c.dir.relative_to(store.ROOT)}: price {c.call['price']['value']} is {diff:+.1%} from the committed "
+                f"{day} close {close}; fix the call or add a reason to data/prices/exceptions.json"
+            )
+    for key in exceptions:
+        if not (store.DATA / key / "call.json").exists():
+            errors.append(f"data/prices/exceptions.json: {key} is not a call")
+
+
 def check_prices(errors: list[str]) -> None:
     if not store.PRICES.exists():
         return
@@ -262,6 +288,7 @@ def run() -> list[str]:
     for c in store.iter_calls():
         check_call(c, errors)
     check_prices(errors)
+    check_call_prices(errors)
     return errors
 
 

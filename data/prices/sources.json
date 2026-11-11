@@ -1,0 +1,552 @@
+{
+  "A": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/A",
+    "last_capture": "2026-11-11T02:22:41+00:00"
+  },
+  "ACHR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACHR",
+    "last_capture": "2026-11-11T02:22:41+00:00"
+  },
+  "ACI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACI",
+    "last_capture": "2026-11-11T02:22:41+00:00"
+  },
+  "ACM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACM",
+    "last_capture": "2026-11-11T02:22:42+00:00"
+  },
+  "AEG": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AEG",
+    "last_capture": "2026-11-11T02:22:42+00:00"
+  },
+  "APP": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/APP",
+    "last_capture": "2026-11-11T02:22:43+00:00"
+  },
+  "AVGO": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO",
+    "last_capture": "2026-11-11T02:22:43+00:00"
+  },
+  "BANC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BANC",
+    "last_capture": "2026-11-11T02:22:44+00:00"
+  },
+  "BE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE",
+    "last_capture": "2026-11-11T02:22:44+00:00"
+  },
+  "BIP": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIP",
+    "last_capture": "2026-11-11T02:22:44+00:00"
+  },
+  "BMA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BMA",
+    "last_capture": "2026-11-11T02:22:45+00:00"
+  },
+  "BOX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BOX",
+    "last_capture": "2026-11-11T02:22:45+00:00"
+  },
+  "C": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/C",
+    "last_capture": "2026-11-11T02:22:46+00:00"
+  },
+  "CART": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CART",
+    "last_capture": "2026-11-11T02:22:46+00:00"
+  },
+  "CCC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCC",
+    "last_capture": "2026-11-11T02:22:46+00:00"
+  },
+  "CCL": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CCL",
+    "last_capture": "2026-11-11T02:22:47+00:00"
+  },
+  "CELH": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CELH",
+    "last_capture": "2026-11-11T02:22:47+00:00"
+  },
+  "CENTA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CENTA",
+    "last_capture": "2026-11-11T02:22:48+00:00"
+  },
+  "CG": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CG",
+    "last_capture": "2026-11-11T02:22:48+00:00"
+  },
+  "CHRD": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CHRD",
+    "last_capture": "2026-11-11T02:22:49+00:00"
+  },
+  "CLBT": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLBT",
+    "last_capture": "2026-11-11T02:22:49+00:00"
+  },
+  "CNC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNC",
+    "last_capture": "2026-11-11T02:22:35+00:00"
+  },
+  "CNM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNM",
+    "last_capture": "2026-11-11T02:22:50+00:00"
+  },
+  "CRM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM",
+    "last_capture": "2026-11-11T02:22:50+00:00"
+  },
+  "CVE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVE",
+    "last_capture": "2026-11-11T02:22:51+00:00"
+  },
+  "CVS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVS",
+    "last_capture": "2026-11-11T02:22:51+00:00"
+  },
+  "CXW": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CXW",
+    "last_capture": "2026-11-11T02:22:51+00:00"
+  },
+  "DCBO": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DCBO",
+    "last_capture": "2026-11-11T02:22:52+00:00"
+  },
+  "DLO": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DLO",
+    "last_capture": "2026-11-11T02:22:52+00:00"
+  },
+  "DNLI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DNLI",
+    "last_capture": "2026-11-11T02:22:53+00:00"
+  },
+  "DRH": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DRH",
+    "last_capture": "2026-11-11T02:22:53+00:00"
+  },
+  "ELF": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ELF",
+    "last_capture": "2026-11-11T02:22:54+00:00"
+  },
+  "ESQ": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ESQ",
+    "last_capture": "2026-11-11T02:22:54+00:00"
+  },
+  "ETOR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETOR",
+    "last_capture": "2026-11-11T02:22:54+00:00"
+  },
+  "FCFS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FCFS",
+    "last_capture": "2026-11-11T02:22:55+00:00"
+  },
+  "FDS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FDS",
+    "last_capture": "2026-11-11T02:22:55+00:00"
+  },
+  "FOUR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FOUR",
+    "last_capture": "2026-11-11T02:22:56+00:00"
+  },
+  "FRSH": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/FRSH",
+    "last_capture": "2026-11-11T02:22:56+00:00"
+  },
+  "GENI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GENI",
+    "last_capture": "2026-11-11T02:22:56+00:00"
+  },
+  "GNW": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GNW",
+    "last_capture": "2026-11-11T02:22:57+00:00"
+  },
+  "GPI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GPI",
+    "last_capture": "2026-11-11T02:22:57+00:00"
+  },
+  "GTLB": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GTLB",
+    "last_capture": "2026-11-11T02:22:58+00:00"
+  },
+  "HIMS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMS",
+    "last_capture": "2026-11-11T02:22:58+00:00"
+  },
+  "HOOD": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HOOD",
+    "last_capture": "2026-11-11T02:22:58+00:00"
+  },
+  "ICE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ICE",
+    "last_capture": "2026-11-11T02:22:59+00:00"
+  },
+  "INTR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTR",
+    "last_capture": "2026-11-11T02:22:59+00:00"
+  },
+  "IONS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IONS",
+    "last_capture": "2026-11-11T02:23:00+00:00"
+  },
+  "IREN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IREN",
+    "last_capture": "2026-11-11T02:23:00+00:00"
+  },
+  "ITUB": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ITUB",
+    "last_capture": "2026-11-11T02:23:01+00:00"
+  },
+  "JOBY": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JOBY",
+    "last_capture": "2026-11-11T02:23:01+00:00"
+  },
+  "KNF": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KNF",
+    "last_capture": "2026-11-11T02:23:01+00:00"
+  },
+  "KNTK": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KNTK",
+    "last_capture": "2026-11-11T02:23:02+00:00"
+  },
+  "LOPE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LOPE",
+    "last_capture": "2026-11-11T02:23:02+00:00"
+  },
+  "MAA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAA",
+    "last_capture": "2026-11-11T02:23:03+00:00"
+  },
+  "MELI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MELI",
+    "last_capture": "2026-11-11T02:23:03+00:00"
+  },
+  "MFG": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MFG",
+    "last_capture": "2026-11-11T02:23:04+00:00"
+  },
+  "MIDD": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MIDD",
+    "last_capture": "2026-11-11T02:23:04+00:00"
+  },
+  "NBIS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NBIS",
+    "last_capture": "2026-11-11T02:23:04+00:00"
+  },
+  "NDSN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NDSN",
+    "last_capture": "2026-11-11T02:23:05+00:00"
+  },
+  "NKE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NKE",
+    "last_capture": "2026-11-11T02:23:05+00:00"
+  },
+  "NOW": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW",
+    "last_capture": "2026-11-11T02:23:06+00:00"
+  },
+  "NRG": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NRG",
+    "last_capture": "2026-11-11T02:23:06+00:00"
+  },
+  "NU": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NU",
+    "last_capture": "2026-11-11T02:23:07+00:00"
+  },
+  "OLLI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OLLI",
+    "last_capture": "2026-11-11T02:23:07+00:00"
+  },
+  "OMC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/OMC",
+    "last_capture": "2026-11-11T02:23:07+00:00"
+  },
+  "ONB": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONB",
+    "last_capture": "2026-11-11T02:23:08+00:00"
+  },
+  "ONON": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ONON",
+    "last_capture": "2026-11-11T02:23:08+00:00"
+  },
+  "ORKA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORKA",
+    "last_capture": "2026-11-11T02:23:09+00:00"
+  },
+  "PAY": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PAY",
+    "last_capture": "2026-11-11T02:23:09+00:00"
+  },
+  "PEGA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PEGA",
+    "last_capture": "2026-11-11T02:23:10+00:00"
+  },
+  "PFE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PFE",
+    "last_capture": "2026-11-11T02:23:10+00:00"
+  },
+  "PK": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PK",
+    "last_capture": "2026-11-11T02:23:10+00:00"
+  },
+  "PLTR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR",
+    "last_capture": "2026-11-11T02:23:11+00:00"
+  },
+  "POST": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/POST",
+    "last_capture": "2026-11-11T02:23:11+00:00"
+  },
+  "PPC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPC",
+    "last_capture": "2026-11-11T02:23:12+00:00"
+  },
+  "PSNL": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL",
+    "last_capture": "2026-11-11T02:23:12+00:00"
+  },
+  "PYPL": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PYPL",
+    "last_capture": "2026-11-11T02:23:13+00:00"
+  },
+  "QS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QS",
+    "last_capture": "2026-11-11T02:23:13+00:00"
+  },
+  "QURE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QURE",
+    "last_capture": "2026-11-11T02:23:13+00:00"
+  },
+  "RGEN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RGEN",
+    "last_capture": "2026-11-11T02:23:14+00:00"
+  },
+  "RHP": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RHP",
+    "last_capture": "2026-11-11T02:23:14+00:00"
+  },
+  "RTO": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RTO",
+    "last_capture": "2026-11-11T02:23:15+00:00"
+  },
+  "SAN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SAN",
+    "last_capture": "2026-11-11T02:23:15+00:00"
+  },
+  "SFM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SFM",
+    "last_capture": "2026-11-11T02:23:16+00:00"
+  },
+  "SKT": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SKT",
+    "last_capture": "2026-11-11T02:23:16+00:00"
+  },
+  "SMR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMR",
+    "last_capture": "2026-11-11T02:23:16+00:00"
+  },
+  "SOFI": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI",
+    "last_capture": "2026-11-11T02:23:17+00:00"
+  },
+  "SOLV": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOLV",
+    "last_capture": "2026-11-11T02:23:17+00:00"
+  },
+  "SPCX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX",
+    "last_capture": "2026-11-11T02:23:18+00:00"
+  },
+  "SPXC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPXC",
+    "last_capture": "2026-11-11T02:23:18+00:00"
+  },
+  "SPY": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
+    "last_capture": "2026-11-11T02:22:36+00:00"
+  },
+  "SSB": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SSB",
+    "last_capture": "2026-11-11T02:23:19+00:00"
+  },
+  "STEP": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STEP",
+    "last_capture": "2026-11-11T02:23:19+00:00"
+  },
+  "STZ": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STZ",
+    "last_capture": "2026-11-11T02:23:20+00:00"
+  },
+  "TEAM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM",
+    "last_capture": "2026-11-11T02:23:20+00:00"
+  },
+  "THG": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/THG",
+    "last_capture": "2026-11-11T02:23:21+00:00"
+  },
+  "TIGR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TIGR",
+    "last_capture": "2026-11-11T02:23:21+00:00"
+  },
+  "TLN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLN",
+    "last_capture": "2026-11-11T02:23:21+00:00"
+  },
+  "TMDX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMDX",
+    "last_capture": "2026-11-11T02:23:22+00:00"
+  },
+  "TMUS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMUS",
+    "last_capture": "2026-11-11T02:23:22+00:00"
+  },
+  "TRMD": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TRMD",
+    "last_capture": "2026-11-11T02:23:23+00:00"
+  },
+  "TU": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TU",
+    "last_capture": "2026-11-11T02:23:23+00:00"
+  },
+  "UBS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UBS",
+    "last_capture": "2026-11-11T02:23:24+00:00"
+  },
+  "VALE": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VALE",
+    "last_capture": "2026-11-11T02:23:24+00:00"
+  },
+  "VECO": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VECO",
+    "last_capture": "2026-11-11T02:23:24+00:00"
+  },
+  "VKTX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VKTX",
+    "last_capture": "2026-11-11T02:23:25+00:00"
+  },
+  "WU": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WU",
+    "last_capture": "2026-11-11T02:23:25+00:00"
+  },
+  "WYNN": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WYNN",
+    "last_capture": "2026-11-11T02:23:26+00:00"
+  },
+  "XNCR": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XNCR",
+    "last_capture": "2026-11-11T02:23:26+00:00"
+  },
+  "ZETA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZETA",
+    "last_capture": "2026-11-11T02:23:26+00:00"
+  }
+}
