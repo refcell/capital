@@ -2,7 +2,7 @@
 
 # Coverage library
 
-109 companies, 126 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+109 companies, 127 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 ## Rating scale
 
@@ -10,8 +10,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 21 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 67 | 106 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 20 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 106 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 1 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -82,7 +82,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [NDSN](NDSN.md) | Nordson Corporation | Industrials | active | 2026-08-13 | 1 | Watch | Avoid | $309.99 | $277.00 | -3.7% | +5.2% | +8.5% |
 | [NKE](NKE.md) | NIKE, Inc. | Consumer discretionary | active | 2026-06-01 | 1 | Watch | Avoid | $45.92 | $41.50 | -3.3% | -14.9% | -14.3% |
 | [NOW](NOW.md) | ServiceNow, Inc. | Enterprise software | active | 2026-05-24 | 2 | Watch (positive) | Own | $102.13 | $185.00 | +21.9% | +0.6% | -0.8% |
-| [NRG](NRG.md) | NRG Energy, Inc. | Utilities — Independent Power Producers and Energy Retailers | active | 2026-08-07 | 1 | Watch | Own | $118.13 | $195.19 | +18.2% | -17.4% | -14.6% |
+| [NRG](NRG.md) | NRG Energy, Inc. | Utilities — Independent Power Producers and Energy Retailers | active | 2026-11-11 | 2 | Watch | Watch | $97.11 | $104.63 | +2.5% | — | — |
 | [NU](NU.md) | Nu Holdings Ltd. | Latin American digital banking | active | 2026-05-24 | 2 | Watch | Watch | $12.73 | $17.00 | +10.1% | -2.9% | -4.4% |
 | [OLLI](OLLI.md) | Ollie's Bargain Outlet Holdings, Inc. | Consumer Defensive | active | 2026-07-09 | 1 | Watch (negative) | Watch | $63.72 | $73.46 | +4.9% | +48.8% | +48.4% |
 | [OMC](OMC.md) | Omnicom Group Inc. | Communication Services | active | 2026-08-26 | 1 | Watch | Own | $87.89 | $147.00 | +18.7% | +2.1% | +4.0% |

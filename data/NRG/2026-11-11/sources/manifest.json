@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/NRG.csv",
+      "commit": "b3e307dab8bc",
+      "sha256": "a32f04d89cc672f277c95ecbd7027b87441557b4e5b05dfdc892bdb8dc72917a",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/NRG.csv",
+      "commit": "b3e307dab8bc",
+      "sha256": "fef66658c9375d42a2538f15df1398f386869727cbb02b4818ebe474026d8e40",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "b3e307dab8bc",
+      "sha256": "e98c7d949725ac858a7b2407b6eb1c31677561799b6f1db2ce5578777674631a",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-11-09-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm",
+      "fetched_at": "2026-11-11T03:05:12+00:00",
+      "sha256": "8b2f482cfa44bc540fa9258d0f06fe3a512bfba6303cd3d203a5797c90419e53",
+      "description": "8-K EX-99.1, Q3 2026 results, 2026 guidance reaffirmed, 2027 guidance, 4.9 GW asset sale (accession 0001013871-26-000022), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm",
+      "fetched_at": "2026-11-11T03:05:12+00:00",
+      "sha256": "c62c9116371d2f6146196f97c781912e0a53224cffafd854e579fdd45e414c21",
+      "description": "10-Q for the quarter ended 2026-09-30: asset sale terms, expected impairment, repurchase authorization, debt fair value (accession 0001013871-26-000025), gzip"
+    }
+  ]
+}

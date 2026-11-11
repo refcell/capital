@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "ticker": "NRG",
+  "exchange": "NYSE",
+  "company": "NRG Energy, Inc.",
+  "sector": "Utilities — Independent Power Producers and Energy Retailers",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "NRG/2026-08-07",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026 results, first 2027 guide, 4.9 GW asset sale)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged; the 2027 guide resets earnings well below the consensus the August call leaned on, and the asset sale gives up about 6% of earnings to hold leverage flat",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 company-adjusted EPS x exit P/E (three-year value); adjusted EPS excludes fair-value changes on derivatives",
+  "price": {
+    "value": 97.11,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 59.6,
+      "weight": 0.25,
+      "revenue_cagr": -0.02,
+      "basis": "FY2029 adj EPS $7.45 (FY2027 guide low end $1,665M of adjusted net income less the ~$197M after-tax sale cost, on 197M shares, then flat: net income -4%/yr, shares -4%/yr) x 8x"
+    },
+    "base": {
+      "value": 105.05,
+      "weight": 0.5,
+      "revenue_cagr": 0.01,
+      "basis": "FY2029 adj EPS $9.55 (FY2027 pro forma $8.50, then 6%/yr: net income +1.5%, shares -4.5% from $1B/yr buybacks) x 11x"
+    },
+    "bull": {
+      "value": 148.82,
+      "weight": 0.25,
+      "revenue_cagr": 0.03,
+      "basis": "FY2029 adj EPS $10.63 (FY2027 $8.95 with the last $1B of proceeds going to buybacks, then 9%/yr on data center contracts and East capacity prices) x 14x"
+    }
+  },
+  "fair_value": {
+    "value": 104.63,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "FY2029 company-adjusted EPS at an exit P/E, undiscounted; dividends excluded",
+  "street": null,
+  "deviation_from_street": null,
+  "thesis": "NRG is a cash-generative retail-plus-generation platform whose per-share earnings now grow mainly through buybacks: the 2027 guide midpoint ($9.05) is only 1.7% above 2026, and the 4.9 GW sale gives up about 6% of 2027 EPS to fund $2 billion of debt reduction that holds leverage flat. At about 11x pro forma EPS the stock prices that path fairly; upside needs data center contracts or capacity prices that the guide does not include.",
+  "consensus_view": "No Street snapshot was captured. The August call recorded Yahoo consensus of $11.16 for FY2027; the company's first 2027 guide midpoint of $9.05 is 18.9% lower. The stock fell from $118.13 on August 7 to a low close of $80.55 on November 5 and closed at $97.11 on November 10, so the market had moved toward the lower path before the guide.",
+  "variant_view": "The August call treated debt-funded buybacks as the main risk and the consensus EPS path as the base. This update holds that the earnings path was the bigger problem: operating cash flow was strong, but the 2027 guide is 19% below the August consensus and the sale is EPS-dilutive. At 11.4x pro forma EPS the market has already moved to the lower path, so this call expects returns of a few percent a year unless a data center contract or a buyback-heavy use of proceeds lifts EPS.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "FY2026 results and sale approval progress",
+      "timing": "About February 23, 2027 (last year's release was February 24)",
+      "date": "2027-02-23",
+      "kind": "hard",
+      "what_it_proves": "Whether FY2026 adjusted EPS lands inside $7.90-9.90 and whether HSR, FERC and NYSPSC approvals are on schedule",
+      "value_impact": "Debt above $24.0 billion at March 31 with the sale not closed fires a kill criterion; FY2026 adjusted EPS below $7.90 moves bear weight to 35%"
+    },
+    {
+      "event": "Asset sale closing and updated 2027 guidance",
+      "timing": "Q2 2027 (company target)",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "How dilutive the sale is and where the last $1 billion of proceeds goes",
+      "value_impact": "Disclosed EBITDA for the sold plants above $600 million moves weight to the bear case; below $450 million, or the last $1 billion going to buybacks, moves it to the bull"
+    },
+    {
+      "event": "BYOP 1.2 GW data center contract terms",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether data center demand produces contracted earnings outside the guide",
+      "value_impact": "A disclosed long-term contract supports the bull case"
+    },
+    {
+      "event": "PJM capacity auction results",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether East capacity prices that drove the 2026 increase hold",
+      "value_impact": "Lower clearing prices move weight to the bear case"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Q3's strength was weather: Texas retail margins normalize, nine-month Texas EBITDA was already flat, and 2027 lands at the low end of the guide.",
+      "signal": "Texas segment adjusted EBITDA in Q4 2026 and H1 2027 against the prior year"
+    },
+    {
+      "reason": "The asset sale is blocked or delayed by FERC or the New York PSC, the $2 billion debt reduction does not happen, and leverage stays near 4x EBITDA.",
+      "signal": "Regulatory approval status in the FY2026 release and the Q1 2027 10-Q"
+    },
+    {
+      "reason": "The sold plants carried more EBITDA than the 4.0x leverage inference implies, so the sale cuts EPS by 10% or more instead of about 6%.",
+      "signal": "Updated 2027 adjusted EPS guidance after the sale closes"
+    },
+    {
+      "reason": "East capacity prices fall back after the acquisition, removing the main source of 2026 EBITDA growth.",
+      "signal": "East segment adjusted EBITDA and PJM auction clearing prices"
+    },
+    {
+      "reason": "The Q4 buyback is bridged with the revolver and receivables facility, the sale slips, and debt rises above $24 billion while interest absorbs EBITDA growth until credit metrics force the buyback to stop.",
+      "signal": "Long-term debt and revolver draws in the FY2026 10-K and Q1 2027 10-Q against $23,048 million and $1,016 million"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Long-term debt including current portion above $24.0 billion at March 31, 2027 (Q1 10-Q) while the sale has not closed, meaning the incremental buyback was borrowed ahead of the proceeds",
+      "check_by": "2027-05-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "The 4.9 GW sale is terminated or has not closed",
+      "check_by": "2027-12-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Long-term debt above $22 billion at year-end 2027",
+      "check_by": "2028-03-15",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-adj-eps-8-40",
+      "claim": "NRG reports FY2026 adjusted EPS of at least $8.40 (Q4 adjusted EPS of at least $0.72 on the nine-month $7.68).",
+      "probability": 0.7,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "sale-closes-by-jun27",
+      "claim": "The sale of the 4.9 GW of generation assets to LS Power closes on or before June 30, 2027.",
+      "probability": 0.65,
+      "resolve_by": "2027-07-31"
+    },
+    {
+      "id": "updated-2027-guide-below-9-05",
+      "claim": "NRG publishes updated 2027 adjusted EPS guidance with a midpoint below $9.05 on or before November 15, 2027 (false if no update is published by then).",
+      "probability": 0.55,
+      "resolve_by": "2027-11-15"
+    },
+    {
+      "id": "debt-below-21b-sep27",
+      "claim": "Long-term debt including current portion at September 30, 2027 (10-Q) is $21.0 billion or less.",
+      "probability": 0.5,
+      "resolve_by": "2027-11-30"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: a disclosed long-term data center contract for the BYOP project",
+    "More bullish: after the sale closes, disclosed EBITDA for the sold plants below $450 million, or the last $1 billion of proceeds going to buybacks",
+    "More bearish: FY2026 adjusted EPS below $7.90 or a 2027 guide cut",
+    "More bearish: the sale stalls in regulatory review while buybacks continue on borrowed money"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $25B–$50B starting revenue, 5-year revenue CAGR, 2009–2025",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 36
+  },
+  "update": {
+    "event": "Q3 2026 results, 2026 guidance reaffirmed, first 2027 guidance, and 4.9 GW asset sale (8-K, 2026-11-09)",
+    "event_date": "2026-11-09",
+    "expected": "August call: Yahoo consensus EPS $8.82 FY2026 and $11.16 FY2027; five-year base EPS $13.17 at 14x; concern that buybacks were 113% of operating cash flow",
+    "actual": "Q3 adj EPS $4.68 vs $2.78; adj EBITDA $2,013M vs $1,205M; 2026 guide reaffirmed; 2027 adj EPS guide $8.05-10.05 (midpoint $9.05); $4B sale of 4.9 GW funding a $1B buyback and $2B debt reduction to hold leverage flat; 9M buybacks plus dividends $1,342M vs $864M OCF less capex",
+    "thesis_pillars": [
+      {
+        "pillar": "Earnings grow toward the FY2027 consensus of $11.16",
+        "status": "broken",
+        "note": "2027 guide midpoint $9.05, 18.9% lower"
+      },
+      {
+        "pillar": "Buybacks are funded by cash, not debt",
+        "status": "intact",
+        "note": "Covered by FCFbG ($2,201M 9M) but not by OCF less all capex ($864M); the incremental $1B buyback is set to start before proceeds, with about $1.0B drawn on credit lines at Sep 30 and Oct 31"
+      },
+      {
+        "pillar": "Leverage stays manageable through the build",
+        "status": "intact",
+        "note": "Q3 interest flat sequentially; the sale holds leverage flat by design, if it closes"
+      },
+      {
+        "pillar": "Data center power demand is a multi-year tailwind",
+        "status": "intact",
+        "note": "BYOP 1.2 GW on track; no contract disclosed"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-24",
+  "next_review_trigger": "FY2026 results, expected around February 23, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/NRG/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/NRG/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "NRG closed at $97.11 on November 10, 2026",
+    "scenarios.base.value": "| Base | $184.31 | $105.05 |",
+    "fair_value.value": "| Fair value | $195.19 (stated, five-year) | $104.63 |"
+  },
+  "notes": [
+    "The August call used five-year terminal values on Yahoo consensus EPS; this update uses three-year values on company-adjusted EPS, so the two fair values are not directly comparable.",
+    "The asset sale's EPS effect is inferred: neither the 8-K nor the 10-Q gives EBITDA for the six plants.",
+    "No Street consensus snapshot and no peer multiples were captured for this update.",
+    "Revised twice after independent review: the first draft graded C, the second B; see review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 2,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: The 11x base exit is the stock's current 11.4x pro forma multiple, so the base value is only EPS growth repriced at today's multiple, and the 8x and 14x ends are still anchored to the stock's own history, with no peer or historical set; the 25/50/25 weights still rest on one sentence ('widen both tails').",
+      "variant_view: No Street snapshot was captured, and the stated view says the market 'has already moved to the lower path', which agrees with the price; the only checkable disagreements are with the August call and with an unmeasured market estimate of sale dilution.",
+      "calibration: The FY2026 claim at 0.60 for adjusted EPS of at least $8.40 looks underconfident: on about 209.5M actual shares it needs about $155M of Q4 adjusted net income, while the reaffirmed guide implies $80-510M (midpoint about $295M). The claim that the updated 2027 guide midpoint will be below $9.05, at 0.50, is below what the note's own model implies and resolves false if no update is published, so it mixes two different questions."
+    ],
+    "grade": "B",
+    "counter_case": "The nearer rating boundary is Avoid, not Own: the $104.87 fair value is only 8% above the price, while Own would need about $148. Four days before the release the stock closed at $80.55, which is 9.5x the note's own $8.50 pro forma EPS. At 10x instead of 11x, the base case gives a fair value of about $100, or 1% a year. Applying the sale's dollar cost properly to the low end of the guide ($7.45, not $7.57) lowers it further. Meanwhile the bull's 14x is the multiple the note itself says was paid for a consensus that turned out 19% too high. On a balance sheet with $148M of cash and gross debt at 4.0x EBITDA, a $1B buyback started before the proceeds arrive, a sale given only a 65% chance of closing on time, and a $400-600M impairment showing the plants are being sold below book value, an undiscounted 2.6% a year price return does not cover the risk, so the case for Avoid is closer than the note admits.",
+    "response": "Accepted the remaining errors: consensus_view now gives the $80.55 low on November 5; the credit-line text now shows the revolver at $400M and the receivables facility at $620M on October 31 (about $1.0B in total, flat with September 30), and the incremental buyback is described as set to start before the proceeds rather than already bridged; the bear applies the ~$197M sale cost in dollars at the guide low end ($7.45, $59.60), so fair value is $104.63 (+2.5% a year); the D&A estimate now cites the 10-Q purchase price allocation ($9,717M of plant on about 13 GW) as its proxy; change_my_mind compares disclosed plant EBITDA, not a calendar guide; the FY2026 claim moved to 0.70 and the guide claim is stated as one question (published below $9.05 by the date) at 0.55. The weights now carry their reasoning in the note. On the counter-case: the note now states that the nearer boundary is Avoid and that 10x gives about 1% a year (fair value $99.86). The stance stays Watch because even that case clears the 0% Avoid line, the 2026 guide was reaffirmed after a quarter with adjusted EBITDA up 67%, and the impairment is mostly goodwill rather than evidence the plants sold below their earning value (8x EBITDA against NRG's own 7.6x). The low-multiple risk is carried by the 25% bear weight and by the first kill criterion, which fires if the buyback is borrowed ahead of the sale."
+  }
+}

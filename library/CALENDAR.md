@@ -118,4 +118,3 @@ The company has reported since the latest call. These names are due an update no
 | 2026-11-05 | 1 | [TEAM](TEAM.md) | 2026-09-04 |
 | 2026-11-05 | 1 | [WYNN](WYNN.md) | 2026-09-01 |
 | 2026-11-09 | 1 | [IONS](IONS.md) | 2026-09-22 |
-| 2026-11-09 | 1 | [NRG](NRG.md) | 2026-08-07 |

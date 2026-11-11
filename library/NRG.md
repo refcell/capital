@@ -2,42 +2,85 @@
 
 # NRG Energy, Inc. (NYSE: NRG)
 
-Sector: Utilities — Independent Power Producers and Energy Retailers · Calls: 1 · Latest: 2026-08-07
+Sector: Utilities — Independent Power Producers and Energy Retailers · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch — data center power optionality real, but capex cycle, debt trajectory, and buyback sustainability create too many unknowns |
-| Rule rating | Own (+18.2% a year expected over 3 years) |
-| Price at call | $118.13 on 2026-08-07 |
-| Bear / base / bull | $103.96 / $184.31 / $292.10 |
-| Weights | 20% / 55% / 25% |
-| Fair value | $195.19 (stated) |
+| Stance (as published) | Watch — unchanged; the 2027 guide resets earnings well below the consensus the August call leaned on, and the asset sale gives up about 6% of earnings to hold leverage flat |
+| Rule rating | Watch (+2.5% a year expected over 3 years) |
+| Price at call | $97.11 on 2026-11-10 |
+| Bear / base / bull | $59.60 / $105.05 / $148.82 |
+| Weights | 25% / 50% / 25% |
+| Fair value | $104.63 (weighted) |
 | Street mean target | — |
-| Valuation lens | Forward P/E (high-leverage FCF-insufficient pattern) |
-| Revenue CAGR vs base rates | bear +2.0% = 43th pct / base +3.5% = 53th pct / bull +5.0% = 63th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -17.4% vs SPY -2.8% through 2026-11-10; mark $97.59 is below bear |
+| Valuation lens | FY2029 company-adjusted EPS x exit P/E (three-year value); adjusted EPS excludes fair-value changes on derivatives |
+| Revenue CAGR vs base rates | bear -2.0% = 23th pct / base +1.0% = 36th pct / bull +3.0% = 49th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-24 — FY2026 results, expected around February 23, 2027 |
 
-**Data notes.** The report states more than one probability-weighted value: $195, $195.19; the first is used.
+**Thesis.** NRG is a cash-generative retail-plus-generation platform whose per-share earnings now grow mainly through buybacks: the 2027 guide midpoint ($9.05) is only 1.7% above 2026, and the 4.9 GW sale gives up about 6% of 2027 EPS to fund $2 billion of debt reduction that holds leverage flat. At about 11x pro forma EPS the stock prices that path fairly; upside needs data center contracts or capacity prices that the guide does not include.
 
-## Fundamentals known on 2026-08-07
+**Variant view.** The August call treated debt-funded buybacks as the main risk and the consensus EPS path as the base. This update holds that the earnings path was the bigger problem: operating cash flow was strong, but the 2027 guide is 19% below the August consensus and the sale is EPS-dilutive. At 11.4x pro forma EPS the market has already moved to the lower path, so this call expects returns of a few percent a year unless a data center contract or a buyback-heavy use of proceeds lifts EPS.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NRG 2026-08-07`). Later restatements are not visible here by design.
+**Catalysts.**
+
+- FY2026 results and sale approval progress (About February 23, 2027 (last year's release was February 24))
+- Asset sale closing and updated 2027 guidance (Q2 2027 (company target))
+- BYOP 1.2 GW data center contract terms (2027)
+- PJM capacity auction results (2027)
+
+**Pre-mortem** (written at decision time).
+
+- Q3's strength was weather: Texas retail margins normalize, nine-month Texas EBITDA was already flat, and 2027 lands at the low end of the guide. — watch: Texas segment adjusted EBITDA in Q4 2026 and H1 2027 against the prior year
+- The asset sale is blocked or delayed by FERC or the New York PSC, the $2 billion debt reduction does not happen, and leverage stays near 4x EBITDA. — watch: Regulatory approval status in the FY2026 release and the Q1 2027 10-Q
+- The sold plants carried more EBITDA than the 4.0x leverage inference implies, so the sale cuts EPS by 10% or more instead of about 6%. — watch: Updated 2027 adjusted EPS guidance after the sale closes
+- East capacity prices fall back after the acquisition, removing the main source of 2026 EBITDA growth. — watch: East segment adjusted EBITDA and PJM auction clearing prices
+- The Q4 buyback is bridged with the revolver and receivables facility, the sale slips, and debt rises above $24 billion while interest absorbs EBITDA growth until credit metrics force the buyback to stop. — watch: Long-term debt and revolver draws in the FY2026 10-K and Q1 2027 10-Q against $23,048 million and $1,016 million
+
+**Kill criteria.**
+
+- Long-term debt including current portion above $24.0 billion at March 31, 2027 (Q1 10-Q) while the sale has not closed, meaning the incremental buyback was borrowed ahead of the proceeds (check by 2027-05-31) — open
+- The 4.9 GW sale is terminated or has not closed (check by 2027-12-31) — open
+- Long-term debt above $22 billion at year-end 2027 (check by 2028-03-15) — open
+
+**Probability claims.**
+
+- 70%: NRG reports FY2026 adjusted EPS of at least $8.40 (Q4 adjusted EPS of at least $0.72 on the nine-month $7.68). (resolves by 2027-03-15)
+- 65%: The sale of the 4.9 GW of generation assets to LS Power closes on or before June 30, 2027. (resolves by 2027-07-31)
+- 55%: NRG publishes updated 2027 adjusted EPS guidance with a midpoint below $9.05 on or before November 15, 2027 (false if no update is published by then). (resolves by 2027-11-15)
+- 50%: Long-term debt including current portion at September 30, 2027 (10-Q) is $21.0 billion or less. (resolves by 2027-11-30)
+
+**What would change the view.**
+
+- More bullish: a disclosed long-term data center contract for the BYOP project
+- More bullish: after the sale closes, disclosed EBITDA for the sold plants below $450 million, or the last $1 billion of proceeds going to buybacks
+- More bearish: FY2026 adjusted EPS below $7.90 or a 2027 guide cut
+- More bearish: the sale stalls in regulatory review while buybacks continue on borrowed money
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 4, calibration 3). Counter-case: The nearer rating boundary is Avoid, not Own: the $104.87 fair value is only 8% above the price, while Own would need about $148. Four days before the release the stock closed at $80.55, which is 9.5x the note's own $8.50 pro forma EPS. At 10x instead of 11x, the base case gives a fair value of about $100, or 1% a year. Applying the sale's dollar cost properly to the low end of the guide ($7.45, not $7.57) lowers it further. Meanwhile the bull's 14x is the multiple the note itself says was paid for a consensus that turned out 19% too high. On a balance sheet with $148M of cash and gross debt at 4.0x EBITDA, a $1B buyback started before the proceeds arrive, a sale given only a 65% chance of closing on time, and a $400-600M impairment showing the plants are being sold below book value, an undiscounted 2.6% a year price return does not cover the risk, so the case for Avoid is closer than the note admits.
+
+**Response.** Accepted the remaining errors: consensus_view now gives the $80.55 low on November 5; the credit-line text now shows the revolver at $400M and the receivables facility at $620M on October 31 (about $1.0B in total, flat with September 30), and the incremental buyback is described as set to start before the proceeds rather than already bridged; the bear applies the ~$197M sale cost in dollars at the guide low end ($7.45, $59.60), so fair value is $104.63 (+2.5% a year); the D&A estimate now cites the 10-Q purchase price allocation ($9,717M of plant on about 13 GW) as its proxy; change_my_mind compares disclosed plant EBITDA, not a calendar guide; the FY2026 claim moved to 0.70 and the guide claim is stated as one question (published below $9.05 by the date) at 0.55. The weights now carry their reasoning in the note. On the counter-case: the note now states that the nearer boundary is Avoid and that 10x gives about 1% a year (fair value $99.86). The stance stays Watch because even that case clears the 0% Avoid line, the 2026 guide was reaffirmed after a quarter with adjusted EBITDA up 67%, and the impairment is mostly goodwill rather than evidence the plants sold below their earning value (8x EBITDA against NRG's own 7.6x). The low-multiple risk is carried by the 25% bear weight and by the first kill criterion, which fires if the buyback is borrowed ahead of the sale.
+
+**Data notes.** The August call used five-year terminal values on Yahoo consensus EPS; this update uses three-year values on company-adjusted EPS, so the two fair values are not directly comparable. The asset sale's EPS effect is inferred: neither the 8-K nor the 10-Q gives EBITDA for the six plants. No Street consensus snapshot and no peer multiples were captured for this update. Revised twice after independent review: the first draft graded C, the second B; see review.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NRG 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 33,125.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Operating income (TTM) | 2,015.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Net income (TTM) | 849.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Diluted EPS (TTM) | 3.84 USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Operating cash flow (TTM) | 1,555.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Capex (TTM) | 1,207.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Free cash flow (TTM) | 348.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Stock comp (TTM) | 144.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Cash | 162.0M USD | 2026-06-30 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Long-term debt | 23,392.0M USD | 2026-06-30 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
-| Shares outstanding | 210.2M | 2026-07-31 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Revenue (TTM) | 34,956.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Operating income (TTM) | 2,685.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Net income (TTM) | 1,258.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Diluted EPS (TTM) | 5.72 USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Operating cash flow (TTM) | 2,168.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Capex (TTM) | 1,479.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Free cash flow (TTM) | 689.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Stock comp (TTM) | 160.0M USD | 2026-09-30 | ttm ytd | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Cash | 148.0M USD | 2026-09-30 | instant | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Long-term debt | 23,052.0M USD | 2026-09-30 | instant | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
+| Shares outstanding | 210.0M | 2026-10-31 | instant | [0001013871-26-000025](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/) |
 
 ## Earnings calendar
 
@@ -47,6 +90,7 @@ Last release: 2026-11-09 (pre-market 8-K Item 2.02, [0001013871-26-000022](https
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $97.11 | Watch | Watch | $59.60 | $105.05 | $148.82 | $104.63 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/NRG/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/NRG/2026-11-11.xlsx) |
 | 2026-08-07 | $118.13 | Watch | Own | $103.96 | $184.31 | $292.10 | $195.19 | -17.4% | -14.6% | below bear | [report](https://github.com/refcell/capital/blob/070e490/research/NRG.md) · [projection](https://github.com/refcell/capital/blob/3d4f76a/projections/NRG.md) · [model](https://github.com/refcell/capital/blob/97ea9c8/models/%5B2026-08-07%5D%20NRG%20Energy%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/97ea9c8/models/_build_NRG.py) |
 
 Data: `data/NRG/`. Prices: `data/prices/NRG.csv`.

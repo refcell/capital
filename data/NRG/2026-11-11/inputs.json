@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "ticker": "NRG",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 97.11,
+      "as_of": "2026-11-10",
+      "source": "data/prices/NRG.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 34956.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_operating_income_m": {
+      "value": 2685.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_net_income_m": {
+      "value": 1258.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_eps": {
+      "value": 5.72,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_ocf_m": {
+      "value": 2168.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_capex_m": {
+      "value": 1479.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "cash_m": {
+      "value": 148.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "total_debt_m": {
+      "value": 23052.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:LongTermDebt (instant), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "shares_outstanding_m": {
+      "value": 210.0213,
+      "as_of": "2026-10-31",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "diluted_shares_m": {
+      "value": 210.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "ttm_fcf_m": {
+      "value": 689.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-09",
+      "accession": "0001013871-26-000025"
+    },
+    "market_cap_m": {
+      "value": 20395.17,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "guide_eps_low": {
+      "value": 8.05,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "FY2027 adjusted EPS guide low end; excludes the 4.9 GW asset sale; 207M basic shares"
+    },
+    "guide_eps_high": {
+      "value": 10.05,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "FY2027 adjusted EPS guide high end; excludes the 4.9 GW asset sale"
+    },
+    "guide_ebitda_low_m": {
+      "value": 5500,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "FY2027 adjusted EBITDA guide low end; excludes the asset sale"
+    },
+    "guide_ebitda_high_m": {
+      "value": 6000,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "FY2027 adjusted EBITDA guide high end; excludes the asset sale"
+    },
+    "fy1_eps": {
+      "value": 8.9,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "FY2026 adjusted EPS guide midpoint ($7.90-$9.90, reaffirmed); nine-month adjusted EPS $7.68"
+    },
+    "fy2_eps": {
+      "value": 8.5,
+      "as_of": "2026-11-11",
+      "source": "Estimate: FY2027 guide midpoint $9.05 adjusted for the asset sale. Assumes about $500M of EBITDA leaves with the plants (the $2B debt cut 'to maintain the Company's current leverage profile' divided by gross debt / 2027 EBITDA midpoint of 4.0x), $150M of D&A leaves (proxy: the 10-Q purchase price allocation puts $9,717M of plant on about 13 GW of acquired capacity, about $750/kW or $3.66B for 4.9 GW, over an assumed 25-year life), $113M of interest is saved on $2B at the guide's 5.6% ($1,300M on $23,048M), tax at the guide's ~17% adjusted rate (A-9), and the incremental $1B buyback retires about 10M shares at about $100",
+      "accession": "0001013871-26-000022",
+      "note": "Pro forma run-rate company-adjusted EPS; the filings give no EBITDA for the sold plants, so this is an inference"
+    },
+    "dividend_per_share": {
+      "value": 1.9,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001013871-26-000022",
+      "note": "Annualized common dividend; 2027 plan raises it to $2.05"
+    },
+    "tax_rate_pct": {
+      "value": 17.0,
+      "as_of": "2026-11-09",
+      "source": "NRG 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz), Table A-9: adjusted income tax $353-443M on adjusted pre-tax income $2,085-2,585M",
+      "accession": "0001013871-26-000022",
+      "note": "2027 adjusted effective tax rate, about 16.9-17.1%"
+    }
+  },
+  "notes": [],
+  "fiscal_years": {
+    "fy1": "FY2026",
+    "fy2": "FY2027"
+  }
+}

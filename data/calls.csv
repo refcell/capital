@@ -73,6 +73,7 @@ NKE,2026-06-01,"NIKE, Inc.","Consumer discretionary / athletic footwear, apparel
 NOW,2026-05-06,NOW,,backfill,,,,own,,92.01,2026-05-05,94.0,,165.0,,255.0,,165.0,base,0.2149,182.4,-9.5,,research/NOW.md,450c060
 NOW,2026-05-24,"ServiceNow, Inc.",Enterprise software / workflow automation / AI platform,backfill,post_earnings,watch,positive,own,fcf,102.13,2026-05-22,100.0,,185.0,,305.0,,185.0,base,0.2190,143.06,29.3,,research/NOW.md,8e2f5df
 NRG,2026-08-07,"NRG Energy, Inc.",Utilities — Independent Power Producers and Energy Retailers,backfill,initial,watch,neutral,own,pe,118.13,2026-08-07,103.96,0.2,184.31,0.55,292.1,0.25,195.19,stated,0.1822,,,,research/NRG.md,070e490
+NRG,2026-11-11,"NRG Energy, Inc.",Utilities — Independent Power Producers and Energy Retailers,run,post_earnings,watch,neutral,watch,pe,97.11,2026-11-10,59.6,0.25,105.05,0.5,148.82,0.25,104.63,weighted,0.0252,,,2027-02-24,research/updates/NRG/2026-11-11.md,
 NU,2026-05-18,NU,,backfill,,,,,,12.19,2026-05-15,,,,,,,,,,19.49,,,research/NU.md,09300b6
 NU,2026-05-24,Nu Holdings Ltd.,Latin American digital banking / consumer finance / fintech,backfill,post_earnings,watch,neutral,watch,pb_roe,12.73,2026-05-22,9.0,,17.0,,27.0,,17.0,base,0.1012,19.39,-12.3,,research/NU.md,ccaa6db
 OLLI,2026-07-09,"Ollie's Bargain Outlet Holdings, Inc.",Consumer Defensive / Discount Stores,backfill,initial,watch,negative,watch,pe,63.72,2026-07-09,31.02,0.2,63.33,0.5,118.63,0.3,73.46,stated,0.0486,120.0,-38.8,,research/OLLI.md,2ddc9b2
