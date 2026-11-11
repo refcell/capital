@@ -48,7 +48,8 @@ SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
 # Concepts captured per filer. capital/pit.py maps them to metrics.
 CONCEPTS: dict[str, tuple[str, ...]] = {
     "us-gaap": (
-        "Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet",
+        "Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "RevenueFromContractWithCustomerIncludingAssessedTax", "SalesRevenueNet",
         "RevenuesNetOfInterestExpense", "GrossProfit", "OperatingIncomeLoss", "NetIncomeLoss",
         "NetIncomeLossAvailableToCommonStockholdersBasic", "EarningsPerShareDiluted", "EarningsPerShareBasic",
         "NetCashProvidedByUsedInOperatingActivities", "PaymentsToAcquirePropertyPlantAndEquipment",

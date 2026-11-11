@@ -284,6 +284,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/LOPE",
     "last_capture": "2026-11-11T02:23:02+00:00"
   },
+  "LVS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LVS",
+    "last_capture": "2026-11-11T04:44:56+00:00"
+  },
   "MAA": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAA",
@@ -298,6 +303,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/MFG",
     "last_capture": "2026-11-11T02:23:04+00:00"
+  },
+  "MGM": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MGM",
+    "last_capture": "2026-11-11T04:44:56+00:00"
   },
   "MIDD": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

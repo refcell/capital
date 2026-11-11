@@ -2,41 +2,87 @@
 
 # Wynn Resorts, Limited (NASDAQ: WYNN)
 
-Sector: Consumer Discretionary / Resorts & Casinos · Calls: 1 · Latest: 2026-09-01
+Sector: Consumer Discretionary / Resorts & Casinos · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / Positive |
-| Rule rating | Watch (+10.1% a year expected over 3 years) |
-| Price at call | $91.28 on 2026-08-31 |
-| Bear / base / bull | $64.40 / $117.00 / $168.00 |
-| Weights | 20% / 50% / 30% |
-| Fair value | $121.78 (stated) |
-| Street mean target | $132.58 |
-| Valuation lens | Forward P/E, with EV/EBITDA and fixed-charge coverage as cross-checks |
-| Revenue CAGR vs base rates | bear +1.0% = 32th pct / base +4.0% = 50th pct / bull +6.5% = 65th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -4.4% vs SPY -2.0% through 2026-11-10; mark $87.30 is bear to base |
+| Stance (as published) | Watch — unchanged, bias now negative; value lowered because 2026 earnings are tracking well below the consensus the prior call leaned on, and the price sits almost exactly on our value |
+| Rule rating | Watch (+0.6% a year expected over 3 years) |
+| Price at call | $87.30 on 2026-11-10 |
+| Bear / base / bull | $37.44 / $87.20 / $143.83 |
+| Weights | 25% / 50% / 25% |
+| Fair value | $88.92 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2029 company-adjusted diluted EPS x P/E, from hold-normalized FY2026 EPS (each property at its own 2024-2025 average hold; Wynn Macau VIP at its stated range); three-year value, undiscounted, dividends excluded |
+| Revenue CAGR vs base rates | bear +0.0% = 26th pct / base +3.0% = 43th pct / bull +5.0% = 56th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-12 — FY2026 results, expected around February 11, 2027 after the close |
 
-## Fundamentals known on 2026-09-01
+**Thesis.** Q3 adjusted EPS fell to $0.33 from $0.86 as EBITDAR dropped at every property, and nine-month EPS of $2.83 puts FY2026 near $3.83, about 19% below the $4.70 consensus the September call used. Wynn Palace's 27.4% nine-month mass hold flattered the year, but low hold in Las Vegas, Boston and at Wynn Macau offset most of it; normalized FY2026 EPS is about $3.78. At $87.30 the stock is 22.8x this year's earnings, against 16.2x for Las Vegas Sands, while about $1.95 billion is due or puttable in 2027 and Al Marjan and the Enclave absorb cash. If property EBITDAR grows 3% a year and Al Marjan earns about $0.65 a share by 2029, the stock is worth about $87, today's price.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit WYNN 2026-09-01`). Later restatements are not visible here by design.
+**Variant view.** The market looks through 2026 to a recovery near the August FY2027 consensus of $5.16. We think 2027 comes in lower: Palace's mass drop fell 12.9% in Q3 and its hold has run above its own history, Al Marjan contributes nothing to 2027 earnings before a September opening, and refinancing adds interest. We expect FY2027 adjusted EPS below $5.00, which leaves the stock fairly valued rather than cheap.
+
+**Catalysts.**
+
+- FY2026 results (About February 11, 2027 (last year's release was February 12, 2026, after the close))
+- Put date on Wynn Macau's $600M 4.5% convertible bonds (March 7, 2027)
+- Wynn Al Marjan Island opening (September 2027)
+- Macau monthly gross gaming revenue (Monthly)
+- Resolution of the Encore Boston Harbor strike (Unknown)
+
+**Pre-mortem** (written at decision time).
+
+- Wynn Palace's mass hold falls back to 22-23% while drop stays down, so 2027 Macau EBITDAR falls 15-20% from 2026 and adjusted EPS stalls near $3. — watch: Palace mass hold and table drop in each release against 25.8% and $1.79B
+- Al Marjan slips again or costs more, and Wynn's total commitment rises above $1.71 billion while the resort ramps slowly. — watch: Life-to-date contributions plus the remaining estimate, and the opening date, in each 10-Q
+- Las Vegas demand weakens with the US consumer, and Strip EBITDAR keeps falling even with normal hold. — watch: Las Vegas table drop and ADR against $593M and $522
+- The 2027 obligations (Wynn Macau 2027 notes, the retail term loan and the convertible put, about $1.95B) are refinanced at higher rates while Al Marjan and the Enclave draw cash, and interest rises more than the base allows. — watch: Interest expense each quarter against $151.7M and the coupons of new issues
+- The Watch call is wrong on the upside: Macau mass recovers in 2027, Al Marjan opens to strong demand, and the market pays 19-20x for a growing UAE earnings stream. — watch: Palace mass drop growth and Al Marjan's first-quarter results
+
+**Kill criteria.**
+
+- Q4 2026 adjusted EPS below $0.80 with Las Vegas and Palace mass hold inside their normal ranges (check by 2027-03-15) — open
+- Al Marjan opening moved past December 2027, or Wynn's total commitment (life-to-date plus remaining estimate) above $1.71 billion (check by 2027-11-15) — open
+- Wynn Palace Q1 2027 mass table drop below Q1 2026's (check by 2027-05-31) — open
+
+**Probability claims.**
+
+- 75%: Wynn reports FY2026 adjusted EPS below $4.00. (resolves by 2027-03-15)
+- 65%: Wynn reports FY2027 adjusted EPS below $5.00. (resolves by 2028-03-15)
+- 75%: Wynn Al Marjan Island opens to the public on or before December 31, 2027. (resolves by 2028-01-31)
+- 60%: Wynn Palace's Q4 2026 mass table games win percentage is below 25.0%. (resolves by 2027-03-15)
+
+**What would change the view.**
+
+- Toward Own: a price near $70 with the base case intact, or Palace mass drop growing again with hold near its average
+- Toward Own: Al Marjan opening on time with Wynn's total commitment at or below $1.585 billion
+- Toward Avoid: Q4 2026 adjusted EPS below $0.80 with normal hold, or Palace's Q1 2027 mass drop below Q1 2026's
+- Toward Avoid: Al Marjan delayed into 2028 or a total commitment above $1.71 billion
+
+**Independent review: grade B** (evidence 3, valuation 3, variant view 3, risk 2, calibration 4). Counter-case: Watch: FY2026 is a trough year (Q3 Las Vegas hold 18.9%, a Boston strike, Macau drop down), and the base case only needs FY2029 EPS of $5.25 on 3% growth (43rd percentile), still below the $6.02 Wynn earned in FY2024. The Avoid sat $1.60 below price and turns positive with a 17x base exit, no hold adjustment, Las Vegas and Boston held to their own two-year averages like Macau, or the September weights. The interest drag partly counted the convertible put the wrong way, and the $1.00 dividend and up to $268M of buybacks below $90 make expected total return positive. A rating that one defensible input moves across the line is a hold, not a sell.
+
+**Response.** Accepted, and the stance returns to Watch with a negative bias. Every property is now normalized to its own 2024-2025 average hold (Las Vegas 24.75%, Boston 20.6%, Palace 23.65%, Wynn Macau 18.1%; Wynn Macau VIP to its stated range), for -$0.05 over nine months and $3.78 of normalized FY2026 EPS. Net interest is -$0.25/-$0.15/-$0.10, counting the $15.7M a year of the 2035 refinancing ($880M redeemed) and the convertible's roughly $50M of interest as a saving if repaid. Values are $37.44 / $87.20 / $143.83 and fair value $88.92 (+0.6% a year). The Al Marjan kill criterion now tests the total commitment ($1.71B), the EPS criterion requires normal hold, and the 2027 obligations (about $1.95B) are in the note and pre-mortem. The 16x base exit stays, since it is a premium to Sands on GAAP earnings; the note states that 30/50/20 weights or a 15x exit would rate Avoid. The workbook's Fundamentals sheet is generated from SEC facts; the stale FY2018 revenue there is a tool issue logged for a fix, and inputs.json carries the correct $7,268.7M.
+
+**Data notes.** The September call was a backfill with five-year values and no horizon; this update states three-year values at the end of 2029, so the two are not directly comparable. Hold normalization and the EPS bridge use our own flow-through assumptions; the company publishes neither. Peer multiples come from LVS and MGM, captured for this update. No Street consensus snapshot was captured for this update. Revised twice after independent review (C, then B). The first revision normalized Macau hold to its own history and rated Avoid at -0.6% a year; the second applied the same yardstick to Las Vegas and Boston and corrected the convertible's interest effect, giving $88.92 (+0.6% a year) and Watch. First-round counter-case argued Avoid; see review for the second. First review round (C; evidence 3, valuation 3, variant view 2, risk 3, calibration 4): hold benchmarks were inconsistent, the bridge left out refinancing interest, the 17x base exit sat above both peers, consensus_view misstated the P/E as 16x, and a kill criterion would fire on hold alone.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit WYNN 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 6,717.7M USD | 2018-12-31 | annual | [0001174922-19-000021](https://www.sec.gov/Archives/edgar/data/1174922/000117492219000021/) |
-| Operating income (TTM) | 1,165.4M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Net income (TTM) | 448.9M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Diluted EPS (TTM) | 4.17 USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Operating cash flow (TTM) | 1,459.2M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Capex (TTM) | 667.3M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Free cash flow (TTM) | 791.9M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Stock comp (TTM) | 86.3M USD | 2026-06-30 | ttm ytd | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Cash | 1,573.4M USD | 2026-06-30 | instant | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Long-term debt | 10,724.7M USD | 2026-06-30 | instant | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Equity | -169.5M USD | 2026-06-30 | instant | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
-| Shares outstanding | 103.0M | 2026-07-31 | instant | [0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/) |
+| Revenue (TTM) | 7,268.7M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Operating income (TTM) | 1,033.1M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Net income (TTM) | 377.9M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Diluted EPS (TTM) | 3.54 USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Operating cash flow (TTM) | 1,220.2M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Capex (TTM) | 704.9M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Free cash flow (TTM) | 515.3M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Stock comp (TTM) | 83.9M USD | 2026-09-30 | ttm ytd | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Cash | 1,642.2M USD | 2026-09-30 | instant | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Long-term debt | 10,734.2M USD | 2026-09-30 | instant | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Equity | -217.5M USD | 2026-09-30 | instant | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
+| Shares outstanding | 102.6M | 2026-10-30 | instant | [0001174922-26-000079](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/) |
 
 ## Earnings calendar
 
@@ -46,6 +92,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001174922-26-000078](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $87.30 | Watch (negative) | Watch | $37.44 | $87.20 | $143.83 | $88.92 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/WYNN/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/WYNN/2026-11-11.xlsx) |
 | 2026-09-01 | $91.28 | Watch (positive) | Watch | $64.40 | $117.00 | $168.00 | $121.78 | -4.4% | -2.4% | bear to base | [report](https://github.com/refcell/capital/blob/7191f19/research/WYNN.md) · [projection](https://github.com/refcell/capital/blob/3859218/projections/WYNN.md) · [model](https://github.com/refcell/capital/blob/0e6e7a5/models/2026-09-01%20Wynn%20Resorts%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/0e6e7a5/models/_build_WYNN.py) |
 
 Data: `data/WYNN/`. Prices: `data/prices/WYNN.csv`.

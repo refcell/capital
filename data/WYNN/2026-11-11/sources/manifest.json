@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/WYNN.csv",
+      "commit": "06e5c41fd36c",
+      "sha256": "308f8bd25c1be1bc9af78dbf110fb1ddb99595be45f7b6a250c5c9c652761179",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/WYNN.csv",
+      "commit": "06e5c41fd36c",
+      "sha256": "3c273e56e084304a124bdcec6da52618ee3b8cdc8d23a5646eea5d21aee4a497",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "06e5c41fd36c",
+      "sha256": "f0bec00dec8fa66809c191dd40ef1963035c6700b90f7efc72fd50e46845660a",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-11-05-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-05-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000078/ex991wrlq32026pressrelease.htm",
+      "fetched_at": "2026-11-11T04:46:16+00:00",
+      "sha256": "cf0dba73c98b65881f2eaf4973662803aa3bcb93219ce34e567b84d1f4882e40",
+      "description": "8-K EX-99.1, Q3 2026 results, property statistics, debt and buybacks (accession 0001174922-26-000078), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000079/wynn-20260930.htm",
+      "fetched_at": "2026-11-11T04:46:16+00:00",
+      "sha256": "5fb4f0fe2e75b9bcc0d5a35f2f019d6ee025ffb645b7ac3d0d845b2d73c29557",
+      "description": "10-Q for the quarter ended September 30, 2026; Al Marjan remaining contributions, share count, repurchase authority (accession 0001174922-26-000079), gzip"
+    },
+    {
+      "id": "8k-2026-02-12-fy2025-release-htm",
+      "kind": "file",
+      "path": "8k-2026-02-12-fy2025-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000007/ex991wrlye2025pressrelease.htm",
+      "fetched_at": "2026-11-11T04:46:16+00:00",
+      "sha256": "420e38ace4c6cc7a1be5bdbcdfa11a513a3754b650842b95dc8566227a8f1379",
+      "description": "8-K EX-99.1, Q4 and FY2025 results; FY2025 adjusted EPS $4.19 and Q4 2025 $1.17 (accession 0001174922-26-000007), gzip"
+    }
+  ]
+}

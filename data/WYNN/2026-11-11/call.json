@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "ticker": "WYNN",
+  "exchange": "NASDAQ",
+  "company": "Wynn Resorts, Limited",
+  "sector": "Consumer Discretionary / Resorts & Casinos",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "WYNN/2026-09-01",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026)",
+  "stance": "watch",
+  "bias": "negative",
+  "stance_text": "Watch — unchanged, bias now negative; value lowered because 2026 earnings are tracking well below the consensus the prior call leaned on, and the price sits almost exactly on our value",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 company-adjusted diluted EPS x P/E, from hold-normalized FY2026 EPS (each property at its own 2024-2025 average hold; Wynn Macau VIP at its stated range); three-year value, undiscounted, dividends excluded",
+  "price": {
+    "value": 87.3,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 37.44,
+      "weight": 0.25,
+      "revenue_cagr": 0.0,
+      "basis": "Flat property EBITDAR from about $2.1B hold-normalized; depreciation -$0.45, net interest -$0.25, Al Marjan -$0.20; no net buyback: FY2029 adjusted EPS $2.88 x 13x"
+    },
+    "base": {
+      "value": 87.2,
+      "weight": 0.5,
+      "revenue_cagr": 0.03,
+      "basis": "Property EBITDAR +3% a year (+$195M, about +$1.46); depreciation -$0.45, net interest -$0.15, Al Marjan +$0.65 (about $550M EBITDA at 100%, our estimate); 3% fewer shares: FY2029 adjusted EPS $5.45 x 16x"
+    },
+    "bull": {
+      "value": 143.83,
+      "weight": 0.25,
+      "revenue_cagr": 0.05,
+      "basis": "Property EBITDAR +5% a year (+$331M); depreciation -$0.45, net interest -$0.10, Al Marjan +$1.55 (about $800M EBITDA at 100%); 4% fewer shares: FY2029 adjusted EPS $7.57 x 19x"
+    }
+  },
+  "fair_value": {
+    "value": 88.92,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on FY2029 adjusted EPS, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Q3 adjusted EPS fell to $0.33 from $0.86 as EBITDAR dropped at every property, and nine-month EPS of $2.83 puts FY2026 near $3.83, about 19% below the $4.70 consensus the September call used. Wynn Palace's 27.4% nine-month mass hold flattered the year, but low hold in Las Vegas, Boston and at Wynn Macau offset most of it; normalized FY2026 EPS is about $3.78. At $87.30 the stock is 22.8x this year's earnings, against 16.2x for Las Vegas Sands, while about $1.95 billion is due or puttable in 2027 and Al Marjan and the Enclave absorb cash. If property EBITDAR grows 3% a year and Al Marjan earns about $0.65 a share by 2029, the stock is worth about $87, today's price.",
+  "consensus_view": "No Street snapshot was captured. In August the consensus had $4.70 of FY2026 and $5.16 of FY2027 adjusted EPS; Q3 makes the 2026 figure unreachable. The stock fell to $71.38 in late October and has recovered to $87.30, 22.8x our FY2026 estimate and about 17x the August FY2027 consensus, as if 2027 earnings will recover to consensus.",
+  "variant_view": "The market looks through 2026 to a recovery near the August FY2027 consensus of $5.16. We think 2027 comes in lower: Palace's mass drop fell 12.9% in Q3 and its hold has run above its own history, Al Marjan contributes nothing to 2027 earnings before a September opening, and refinancing adds interest. We expect FY2027 adjusted EPS below $5.00, which leaves the stock fairly valued rather than cheap.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "FY2026 results",
+      "timing": "About February 11, 2027 (last year's release was February 12, 2026, after the close)",
+      "date": "2027-02-11",
+      "kind": "hard",
+      "what_it_proves": "Q4 property EBITDAR, Palace hold, the end of the Boston strike, and the Al Marjan contribution estimate",
+      "value_impact": "Q4 adjusted EPS below $0.80 with hold inside the normal ranges fires a kill criterion; Palace mass drop growing again supports the base"
+    },
+    {
+      "event": "Put date on Wynn Macau's $600M 4.5% convertible bonds",
+      "timing": "March 7, 2027",
+      "date": "2027-03-07",
+      "kind": "hard",
+      "what_it_proves": "How much of the $600M Wynn Macau pays out of cash or refinances",
+      "value_impact": "Repaying it from cash lowers reported interest (about $50M a year with amortization); refinancing above 8.4% would raise it"
+    },
+    {
+      "event": "Wynn Al Marjan Island opening",
+      "timing": "September 2027",
+      "date": "2027-09-30",
+      "kind": "hard",
+      "what_it_proves": "Whether the UAE resort opens on time and how fast it ramps",
+      "value_impact": "A delay into 2028, or Wynn's total commitment above $1.71B, moves weight to the bear"
+    },
+    {
+      "event": "Macau monthly gross gaming revenue",
+      "timing": "Monthly",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the market-wide slowdown management described continues",
+      "value_impact": "Market GGR falling year on year for the rest of 2026 moves weight to the bear"
+    },
+    {
+      "event": "Resolution of the Encore Boston Harbor strike",
+      "timing": "Unknown",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether Boston margins recover",
+      "value_impact": "A long strike trims about $0.05-0.10 a quarter"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Wynn Palace's mass hold falls back to 22-23% while drop stays down, so 2027 Macau EBITDAR falls 15-20% from 2026 and adjusted EPS stalls near $3.",
+      "signal": "Palace mass hold and table drop in each release against 25.8% and $1.79B"
+    },
+    {
+      "reason": "Al Marjan slips again or costs more, and Wynn's total commitment rises above $1.71 billion while the resort ramps slowly.",
+      "signal": "Life-to-date contributions plus the remaining estimate, and the opening date, in each 10-Q"
+    },
+    {
+      "reason": "Las Vegas demand weakens with the US consumer, and Strip EBITDAR keeps falling even with normal hold.",
+      "signal": "Las Vegas table drop and ADR against $593M and $522"
+    },
+    {
+      "reason": "The 2027 obligations (Wynn Macau 2027 notes, the retail term loan and the convertible put, about $1.95B) are refinanced at higher rates while Al Marjan and the Enclave draw cash, and interest rises more than the base allows.",
+      "signal": "Interest expense each quarter against $151.7M and the coupons of new issues"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: Macau mass recovers in 2027, Al Marjan opens to strong demand, and the market pays 19-20x for a growing UAE earnings stream.",
+      "signal": "Palace mass drop growth and Al Marjan's first-quarter results"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Q4 2026 adjusted EPS below $0.80 with Las Vegas and Palace mass hold inside their normal ranges",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Al Marjan opening moved past December 2027, or Wynn's total commitment (life-to-date plus remaining estimate) above $1.71 billion",
+      "check_by": "2027-11-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Wynn Palace Q1 2027 mass table drop below Q1 2026's",
+      "check_by": "2027-05-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-adj-eps-below-4",
+      "claim": "Wynn reports FY2026 adjusted EPS below $4.00.",
+      "probability": 0.75,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy27-adj-eps-below-5",
+      "claim": "Wynn reports FY2027 adjusted EPS below $5.00.",
+      "probability": 0.65,
+      "resolve_by": "2028-03-15"
+    },
+    {
+      "id": "al-marjan-opens-2027",
+      "claim": "Wynn Al Marjan Island opens to the public on or before December 31, 2027.",
+      "probability": 0.75,
+      "resolve_by": "2028-01-31"
+    },
+    {
+      "id": "palace-mass-hold-q4-below-25",
+      "claim": "Wynn Palace's Q4 2026 mass table games win percentage is below 25.0%.",
+      "probability": 0.6,
+      "resolve_by": "2027-03-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price near $70 with the base case intact, or Palace mass drop growing again with hold near its average",
+    "Toward Own: Al Marjan opening on time with Wynn's total commitment at or below $1.585 billion",
+    "Toward Avoid: Q4 2026 adjusted EPS below $0.80 with normal hold, or Palace's Q1 2027 mass drop below Q1 2026's",
+    "Toward Avoid: Al Marjan delayed into 2028 or a total commitment above $1.71 billion"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $6B–$12B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs of consolidated revenue, which excludes Al Marjan)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 43
+  },
+  "update": {
+    "event": "Q3 2026 results (8-K, 2026-11-05)",
+    "event_date": "2026-11-05",
+    "expected": "September call: Watch / Positive, base $117 on $6.50 five-year adjusted EPS x 18x; FY2026 consensus $4.70 and FY2027 $5.16; next quarter to show normalized property performance after Palace's favorable Q2 hold",
+    "actual": "Q3 revenue $1,689.1M (-7.9%), Adjusted Property EBITDAR $464.2M (-18.6%), down at every property; adjusted EPS $0.33 vs $0.86; nine-month adjusted EPS $2.83; Las Vegas hold 18.9% vs 22-26% range; Palace mass hold 25.8% (27.4% for nine months); Boston strike; $900M 2027 notes refinanced into 6.875% 2035 notes; Al Marjan September 2027, $465-590M left to contribute",
+    "thesis_pillars": [
+      {
+        "pillar": "Macau mass demand stays healthy after hold normalizes",
+        "status": "weakened",
+        "note": "Palace mass drop -12.9% in Q3; nine-month profit flattered by 27.4% hold"
+      },
+      {
+        "pillar": "Las Vegas and Boston margins stabilize",
+        "status": "weakened",
+        "note": "Las Vegas EBITDAR -21.9% (partly hold), Boston -14.1% with a strike"
+      },
+      {
+        "pillar": "Al Marjan opens near schedule with bounded funding",
+        "status": "intact",
+        "note": "September 2027; $465-590M remaining"
+      },
+      {
+        "pillar": "Leverage is manageable and maturities are covered",
+        "status": "intact",
+        "note": "Wynn Las Vegas 2027 notes refinanced to 2035; about $1.95B still due or puttable in 2027 against $1.79B of cash and $2.38B of undrawn revolvers"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-12",
+  "next_review_trigger": "FY2026 results, expected around February 11, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/WYNN/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/WYNN/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "WYNN closed at $87.30 on November 10, 2026",
+    "scenarios.base.value": "| Base | $117.00 | $87.20 |",
+    "fair_value.value": "| Fair value | $121.78 | $88.92 |"
+  },
+  "notes": [
+    "The September call was a backfill with five-year values and no horizon; this update states three-year values at the end of 2029, so the two are not directly comparable.",
+    "Hold normalization and the EPS bridge use our own flow-through assumptions; the company publishes neither.",
+    "Peer multiples come from LVS and MGM, captured for this update.",
+    "No Street consensus snapshot was captured for this update.",
+    "Revised twice after independent review (C, then B). The first revision normalized Macau hold to its own history and rated Avoid at -0.6% a year; the second applied the same yardstick to Las Vegas and Boston and corrected the convertible's interest effect, giving $88.92 (+0.6% a year) and Watch. First-round counter-case argued Avoid; see review for the second.",
+    "First review round (C; evidence 3, valuation 3, variant view 2, risk 3, calibration 4): hold benchmarks were inconsistent, the bridge left out refinancing interest, the 17x base exit sat above both peers, consensus_view misstated the P/E as 16x, and a kill criterion would fire on hold alone."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 3,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 2,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "evidence: the drivers that decide the sign (flow-throughs, $0.75 per $100M, depreciation step-up, Al Marjan EBITDA, the interest line) are unsourced; the redeemed 2027 notes were $880.0M in the 10-Q, not $900M; the workbook Fundamentals sheet carried the FY2018 revenue.",
+      "valuation: fair value sat $1.60 below price and a 17x base exit, no hold adjustment, Las Vegas and Boston at their own two-year averages (the Macau yardstick), or the September weights each restore Watch; the bridge counted the convertible put as adding interest when repaying it removes about $50M a year.",
+      "variant_view: 'the market prices 2027 near the August consensus' is inferred from a multiple with no snapshot; the FY2026 below-$4.00 claim is nearly arithmetic.",
+      "risk: the Al Marjan kill criterion tested the remaining contribution, which falls as Wynn pays in, so it would fire mechanically; criterion 1 could fire on hold luck; $750M of 2027 Wynn Macau notes and a $600M 2027 retail term loan were left out."
+    ],
+    "grade": "B",
+    "counter_case": "Watch: FY2026 is a trough year (Q3 Las Vegas hold 18.9%, a Boston strike, Macau drop down), and the base case only needs FY2029 EPS of $5.25 on 3% growth (43rd percentile), still below the $6.02 Wynn earned in FY2024. The Avoid sat $1.60 below price and turns positive with a 17x base exit, no hold adjustment, Las Vegas and Boston held to their own two-year averages like Macau, or the September weights. The interest drag partly counted the convertible put the wrong way, and the $1.00 dividend and up to $268M of buybacks below $90 make expected total return positive. A rating that one defensible input moves across the line is a hold, not a sell.",
+    "response": "Accepted, and the stance returns to Watch with a negative bias. Every property is now normalized to its own 2024-2025 average hold (Las Vegas 24.75%, Boston 20.6%, Palace 23.65%, Wynn Macau 18.1%; Wynn Macau VIP to its stated range), for -$0.05 over nine months and $3.78 of normalized FY2026 EPS. Net interest is -$0.25/-$0.15/-$0.10, counting the $15.7M a year of the 2035 refinancing ($880M redeemed) and the convertible's roughly $50M of interest as a saving if repaid. Values are $37.44 / $87.20 / $143.83 and fair value $88.92 (+0.6% a year). The Al Marjan kill criterion now tests the total commitment ($1.71B), the EPS criterion requires normal hold, and the 2027 obligations (about $1.95B) are in the note and pre-mortem. The 16x base exit stays, since it is a premium to Sands on GAAP earnings; the note states that 30/50/20 weights or a 15x exit would rate Avoid. The workbook's Fundamentals sheet is generated from SEC facts; the stale FY2018 revenue there is a tool issue logged for a fix, and inputs.json carries the correct $7,268.7M."
+  }
+}

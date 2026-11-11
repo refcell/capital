@@ -29,6 +29,7 @@ FACTS = store.DATA / "sec" / "facts"
 METRICS: dict[str, tuple[str, tuple[tuple[str, str], ...]]] = {
     "revenue": ("duration", (
         ("us-gaap", "Revenues"), ("us-gaap", "RevenueFromContractWithCustomerExcludingAssessedTax"),
+        ("us-gaap", "RevenueFromContractWithCustomerIncludingAssessedTax"),
         ("us-gaap", "SalesRevenueNet"), ("us-gaap", "RevenuesNetOfInterestExpense"),
         ("ifrs-full", "Revenue"), ("ifrs-full", "RevenueFromContractsWithCustomers"),
         ("ifrs-full", "RevenueAndOperatingIncome"), ("ifrs-full", "RevenueFromRenderingOfCargoAndMailTransportServices"),

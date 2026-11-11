@@ -79,7 +79,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [PAY](PAY.md) | Services-Business Services, NEC | 47.2x | 70.6–238.3x | 2.9x | 2.5–3.9x | 34.7x | 58.8–171.5x | SIC 7389, 6 names: 1.8x, 16.5x |
 | [PEGA](PEGA.md) | Services-Computer Processing & Data Preparation | 18.0x | 44.7–109.6x | 2.8x | 3.2–6.0x | 28.0x | 32.5–81.6x | SIC 737x, 14 names: 5.2x, 44.5x |
 | [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 9.7x, — |
-| [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | — |
+| [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | SIC 7011, 3 names: 2.4x, 16.2x |
 | [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.4x | SIC 20xx, 3 names: 1.5x, 23.7x |
 | [PPC](PPC.md) | Poultry Slaughtering and Processing | 21.1x | 9.2–23.8x | 0.5x | 0.5–0.7x | 14.4x | 7.9–18.9x | SIC 20xx, 3 names: 1.9x, 20.3x |
@@ -115,6 +115,6 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [VECO](VECO.md) | Special Industry Machinery, NEC | — | — | — | 1.2–2.3x | — | — | SIC 35xx, 3 names: 2.9x, 32.8x |
 | [VKTX](VKTX.md) | Pharmaceutical Preparations | — | — | — | — | — | — | SIC 2834, 3 names: 4.8x, 41.9x |
 | [WU](WU.md) | Services-Business Services, NEC | 6.5x | 5.6–9.5x | 0.9x | 1.2–1.6x | 6.2x | 6.4–10.1x | SIC 7389, 6 names: 2.5x, 26.0x |
-| [WYNN](WYNN.md) | Hotels & Motels | — | 20.7–47.9x | — | 3.0–4.1x | — | 23.1–31.9x | SIC 70xx, 1 names: 2.8x, — |
+| [WYNN](WYNN.md) | Hotels & Motels | 23.6x | 17.7–40.7x | 2.5x | 2.8–4.4x | 17.5x | 17.9–31.8x | SIC 7011, 3 names: 2.4x, 14.1x |
 | [XNCR](XNCR.md) | Pharmaceutical Preparations | — | 39.1–67.3x | 14.5x | 7.4–15.9x | — | 31.1–61.8x | SIC 2834, 3 names: 4.1x, 41.9x |
 | [ZETA](ZETA.md) | Services-Prepackaged Software | 233.6x | — | 5.3x | 2.3–3.5x | 148.4x | — | SIC 7372, 10 names: 5.3x, 44.5x |

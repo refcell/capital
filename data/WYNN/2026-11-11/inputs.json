@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "ticker": "WYNN",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 87.3,
+      "as_of": "2026-11-10",
+      "source": "data/prices/WYNN.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 7268.7,
+      "as_of": "2026-09-30",
+      "source": "WYNN 8-K EX-99.1 releases: nine-month 2026 $5,402.7M (sources/8k-2026-11-05-q3-release.htm.gz) plus Q4 2025 $1,866.0M (sources/8k-2026-02-12-fy2025-release.htm.gz)",
+      "accession": "0001174922-26-000078",
+      "note": "The XBRL scaffold picked up a stale FY2018 us-gaap:Revenues fact"
+    },
+    "ttm_operating_income_m": {
+      "value": 1033.12,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "ttm_net_income_m": {
+      "value": 377.865,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "ttm_eps": {
+      "value": 3.54,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "ttm_ocf_m": {
+      "value": 1220.218,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "ttm_capex_m": {
+      "value": 704.935,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "cash_m": {
+      "value": 1792.4,
+      "as_of": "2026-09-30",
+      "source": "WYNN 8-K EX-99.1, 2026-11-05 (sources/8k-2026-11-05-q3-release.htm.gz)",
+      "accession": "0001174922-26-000078",
+      "note": "Cash and equivalents $1,642.2M plus $150.2M of short-term investments held by Wynn Macau, Limited"
+    },
+    "total_debt_m": {
+      "value": 10730,
+      "as_of": "2026-09-30",
+      "source": "WYNN 8-K EX-99.1, 2026-11-05 (sources/8k-2026-11-05-q3-release.htm.gz)",
+      "accession": "0001174922-26-000078",
+      "note": "Macau-related $5.77B, WRF $4.37B, consolidated retail joint venture $599.1M"
+    },
+    "shares_outstanding_m": {
+      "value": 102.5516,
+      "as_of": "2026-10-30",
+      "source": "WYNN 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz)",
+      "accession": "0001174922-26-000079",
+      "note": "102,551,611 shares outstanding on October 30, 2026 (cover page)"
+    },
+    "diluted_shares_m": {
+      "value": 102.267,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "ttm_fcf_m": {
+      "value": 515.283,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001174922-26-000079"
+    },
+    "market_cap_m": {
+      "value": 8952.8,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 8937.6,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m"
+    },
+    "enterprise_value_m": {
+      "value": 17890.4,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m (excludes noncontrolling interests in Wynn Macau)"
+    },
+    "dividend_per_share": {
+      "value": 1.0,
+      "as_of": "2026-11-05",
+      "source": "WYNN 8-K EX-99.1, 2026-11-05 (sources/8k-2026-11-05-q3-release.htm.gz)",
+      "accession": "0001174922-26-000078",
+      "note": "$0.25 quarterly dividend declared November 5, 2026"
+    },
+    "fy1_eps": {
+      "value": 3.83,
+      "as_of": "2026-11-11",
+      "source": "Our estimate: nine-month 2026 adjusted EPS $2.83 (sources/8k-2026-11-05-q3-release.htm.gz) plus about $1.00 for Q4 (Q4 2025 was $1.17, sources/8k-2026-02-12-fy2025-release.htm.gz)",
+      "note": "Company-adjusted diluted EPS; no company guide; hold-normalized about $3.78"
+    }
+  },
+  "notes": [
+    "Wynn gives no earnings guidance; fy1_eps is our FY2026 adjusted EPS estimate.",
+    "Remaining Wynn share of Al Marjan cash contributions is estimated at $465-590M (10-Q); life-to-date contributions $1.12B.",
+    "Repurchase authority remaining at September 30, 2026: $268.0M (10-Q)."
+  ]
+}

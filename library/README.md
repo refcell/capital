@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 132 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 133 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -130,6 +130,6 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [VECO](VECO.md) | Veeco Instruments Inc. | Technology | active | 2026-06-18 | 1 | Watch (negative) | Avoid | $79.65 | $61.66 | -8.2% | -50.3% | -51.0% |
 | [VKTX](VKTX.md) | Viking Therapeutics, Inc. | — | active | 2026-09-25 | 1 | Watch | Watch | $36.75 | $53.30 | +13.2% | -21.1% | -19.2% |
 | [WU](WU.md) | The Western Union Company | Financials | active | 2026-10-23 | 1 | Watch | Watch | $6.43 | $7.30 | +4.3% | +7.9% | +9.8% |
-| [WYNN](WYNN.md) | Wynn Resorts, Limited | Consumer Discretionary | active | 2026-09-01 | 1 | Watch (positive) | Watch | $91.28 | $121.78 | +10.1% | -4.4% | -2.4% |
+| [WYNN](WYNN.md) | Wynn Resorts, Limited | Consumer Discretionary | active | 2026-11-11 | 2 | Watch (negative) | Watch | $87.30 | $88.92 | +0.6% | — | — |
 | [XNCR](XNCR.md) | Xencor, Inc. | Healthcare | active | 2026-10-29 | 1 | Watch | Watch | $29.99 | $34.71 | +5.0% | +28.7% | +31.2% |
 | [ZETA](ZETA.md) | Zeta Global Holdings Corp. | Marketing technology | active | 2026-11-11 | 3 | Watch (positive) | Watch | $35.07 | $44.61 | +8.4% | — | — |
