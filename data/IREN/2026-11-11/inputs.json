@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "ticker": "IREN",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 19.73,
+      "as_of": "2026-11-10",
+      "source": "data/prices/IREN.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 695.007,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_operating_income_m": {
+      "value": -1156.714,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_net_income_m": {
+      "value": -1351.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_eps": {
+      "value": -3.96,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_ocf_m": {
+      "value": 2487.418,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_capex_m": {
+      "value": 4949.006,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "cash_m": {
+      "value": 3522.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-05",
+      "accession": "0001878848-26-000066",
+      "note": "Unrestricted only; restricted cash of $2,256M ($2,208M current, $48M non-current) secures financings."
+    },
+    "total_debt_m": {
+      "value": 10041.0,
+      "as_of": "2026-09-30",
+      "source": "IREN 10-Q for 2026-09-30 (sources/iren-20260930-10q.htm.gz), Note 19",
+      "accession": "0001878848-26-000066",
+      "note": "Principal: convertible notes $6,745M, GPU Financing 2.0 $947M (9.0%), GPU Financing 3.0 $355M, DDTL $409M, USPP notes $1,571M, other $14M; carrying $9,897M. Excludes $311M of finance leases."
+    },
+    "shares_outstanding_m": {
+      "value": 406.929,
+      "as_of": "2026-09-30",
+      "source": "IREN 10-Q for 2026-09-30 (sources/iren-20260930-10q.htm.gz), Note 20",
+      "accession": "0001878848-26-000066",
+      "note": "Including loan-funded shares; 424.36M on October 30 after further at-the-market sales (Note 25). Kept at September 30 to match the balance sheet."
+    },
+    "diluted_shares_m": {
+      "value": 398.5578,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "ttm_fcf_m": {
+      "value": -2461.588,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001878848-26-000066"
+    },
+    "market_cap_m": {
+      "value": 8028.71,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 4574.0,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m + $311M finance leases - cash_m - $2,256M restricted cash",
+      "note": "IREN's own net debt, on carrying values, is $4,430M."
+    },
+    "enterprise_value_m": {
+      "value": 12602.71,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    }
+  },
+  "notes": [
+    "Fiscal years end June 30; Q1 FY2027 is the quarter ended September 30, 2026.",
+    "Q1 FY2027: revenue $228M (AI Cloud $200M, Bitcoin mining $28M); adjusted EBITDA $66M; net loss $263M; stock-based compensation $106M; operating cash flow $529M including $645M of deferred revenue (customer prepayments); capex $4,824M (PP&E $2,131M, hardware $2,693M).",
+    "Revenue backlog $20.3B (+22% q/q), about two-thirds investment-grade counterparties. More than $4B ARR target moved from year-end 2026 to January 2027, possibly end of February, after a Microsoft-requested network design change and supplier timing.",
+    "Remaining FY2027 capex from September 30: $15B, of which $9B is covered by cash, committed GPU financing and prepayments and $6B is targeted from new financing. Capital commitments $18,947M.",
+    "At-the-market: 76.8M shares sold for about $3.7B gross under the $6.0B program by October 30, 2026. Mirantis acquired August 3, 2026 for about $538M, mostly 12.6M shares.",
+    "Deferred revenue (customer prepayments) $2,544M at September 30, 2026.",
+    "Effective interest rates (10-Q Note 19): GPU Financing 2.0 10.70%, GPU Financing 3.0 10.38%, DDTL 7.22%, USPP 7.09%, convertible notes 0.37-4.22%.",
+    "Potentially dilutive securities at September 30, 2026 (10-Q Note 22): RSUs 31.72M, Investment Rights 30.0M (terms not in the saved sources), options 5.05M (mostly out of the money), convertible notes 127.23M (2029/2030 notes about 29.7M at $13.64/$16.81). Outstanding plus RSUs and Investment Rights is about 486M."
+  ]
+}

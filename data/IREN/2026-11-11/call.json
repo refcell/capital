@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "ticker": "IREN",
+  "exchange": "NASDAQ",
+  "company": "IREN Limited (formerly Iris Energy Limited)",
+  "sector": "Technology infrastructure / AI cloud (GPU compute, owned data centers and power); legacy Bitcoin mining being decommissioned. StockAnalysis still classifies the company as Financials / Capital Markets because of its mining-era SIC code.",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "IREN/2026-10-31",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q1 FY2027; >$4B ARR target moved to January-February 2027)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged, bias now neutral; contracts and pricing improved, but delivery slipped, the new GPU debt costs over 10%, and about 486 million shares are already outstanding or committed",
+  "rating_override_reason": null,
+  "primary_lens": "ev_ebitda",
+  "lens_text": "FY2030 (June 2030) adjusted EBITDA x exit EV/EBITDA (5.5x/6.5x/8.0x, one turn below October because new GPU debt costs 10.4-10.7%), less end-2029 net debt, over end-2029 shares starting from about 486M outstanding or committed; three-year value, undiscounted",
+  "price": {
+    "value": 19.73,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 1.79,
+      "weight": 0.35,
+      "revenue_cagr": 0.774,
+      "basis": "Build stops near 0.6GW at $11.7M per MW (10% below today's blended $13.3M): FY2030 revenue $7.0B at 50% EBITDA margin ($3.5B) x 5.5x = $19.25B, less $18B net debt (about $13.4B more, against $18.9B of partly cancellable commitments; 2029/2030 notes repaid), on 700M shares"
+    },
+    "base": {
+      "value": 24.54,
+      "weight": 0.5,
+      "revenue_cagr": 1.071,
+      "basis": ">$4B ARR by early 2027, about 0.8GW by end-2027 and about 1.0GW billed in FY2030 at $13.0M per MW: revenue $13.0B at 58% ($7.54B) x 6.5x = $49.0B, less $33.56B net debt, on 630M shares (486M outstanding or committed, about 114M more issued, and 29.7M from the 2029/2030 notes converting; 2031-2033 notes stay debt)"
+    },
+    "bull": {
+      "value": 82.31,
+      "weight": 0.15,
+      "revenue_cagr": 1.262,
+      "basis": "About 1.3GW billed at $14.2M per MW: revenue $18.5B at 63% ($11.66B) x 8.0x = $93.2B, less $39.56B net debt after all convertible notes convert (about 127M shares), on 652M shares"
+    }
+  },
+  "fair_value": {
+    "value": 25.24,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on forward (FY2030) adjusted EBITDA, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Q1 FY2027 improved the contracts and worsened the funding: backlog rose 22% to $20.3B (two-thirds investment grade) and new contract pricing rose 11-12%, but the >$4B ARR target moved from year-end 2026 to January-February 2027, the new GPU debt costs 10.4-10.7% effectively, and about 486M shares are already outstanding or committed. At that debt cost the base case earns about nothing on FY2030 normalized earnings, so its $24.54 value rests on the multiple the market pays for growing EBITDA.",
+  "consensus_view": "No current Street snapshot was captured; the October call recorded a $75.42 mean target. The stock fell from $23.95 to $19.73 in eleven days, at an enterprise value of about 3.2x the >$4B ARR target, as the neocloud group sold off on funding costs.",
+  "variant_view": "We sit between the October Street targets and the price. The Street mean of $75.42 looks to ignore the dilution already committed (about 486M shares) and debt now costing over 10%; the price looks to ignore that two-thirds of a $20.3B backlog is investment grade and new contracts carry prepayments of up to 90% of GPU capex. The checkable tests are the >$4B ARR operating by the end of February 2027 and at least $2B of data center financing closed by June 30, 2027.",
+  "why_opportunity": [
+    "technical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Horizon 2-4 delivery to Microsoft and the >$4B ARR target",
+      "timing": "January to February 2027",
+      "date": "2027-02-28",
+      "kind": "hard",
+      "what_it_proves": "Whether the build lands within the revised window and the design-change discussions settle without lost fees",
+      "value_impact": "ARR not operating by March 31, 2027 fires a kill criterion"
+    },
+    {
+      "event": "Q2 FY2027 results",
+      "timing": "About February 4, 2027 (last year's release was February 5, 2026, after the close)",
+      "date": "2027-02-04",
+      "kind": "hard",
+      "what_it_proves": "AI Cloud revenue run-rate, the funding plan for the $6B gap, and share issuance in the December quarter",
+      "value_impact": "A closed data center financing moves weight to the base; large equity sales below $15 move weight to the bear"
+    },
+    {
+      "event": "Data center (non-GPU) financing",
+      "timing": "Through mid-2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the build can be funded with asset-level debt instead of equity",
+      "value_impact": "$2B or more closed moves weight from the bear to the base"
+    },
+    {
+      "event": "Sweetwater ERCOT Batch Zero and 2027 capacity contracts",
+      "timing": "Through 2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether 0.8GW by end-2027 is sold at current pricing",
+      "value_impact": "Contracts at $20M or more per MW with prepayments support the bull"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "The $6B funding gap is filled with equity near $15-20 a share, taking shares toward 650M before the build bills.",
+      "signal": "Shares outstanding each quarter against 424M on October 30, 2026 and about 486M including RSUs and Investment Rights"
+    },
+    {
+      "reason": "The Microsoft design change becomes a dispute over fees, credits and reimbursements, and Horizon 2-4 revenue starts late or lower.",
+      "signal": "10-Q disclosure on Microsoft delivery dates and fee discussions; AI Cloud revenue in Q3 FY2027"
+    },
+    {
+      "reason": "A non-investment-grade AI customer (about a third of backlog) fails to pay or terminates.",
+      "signal": "Receivables, backlog changes and customer disclosures each quarter"
+    },
+    {
+      "reason": "GPU rental prices reset as supply catches up, and 2027 capacity sells below $13M per MW.",
+      "signal": "Reported revenue per MW on new contracts against the +11-12% of Q1 FY2027"
+    },
+    {
+      "reason": "Amortizing GPU debt at 10.4-10.7% effective absorbs the cash flow, and equity holders get little even when the capacity bills.",
+      "signal": "Finance expense and debt principal against adjusted EBITDA each quarter"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": ">$4B ARR not operational by March 31, 2027 (target January, possibly end of February)",
+      "check_by": "2027-05-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Ordinary shares outstanding above 520 million on the FY2027 10-K cover (base path about 470 million)",
+      "check_by": "2027-09-30",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Less than $3B of the $6B FY2027 funding gap committed (data center financing, GPU financing, prepayments or other sources) by June 30, 2027",
+      "check_by": "2027-08-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "A customer termination or payment default affecting more than $100M of backlog, or Microsoft fee reductions or credits above $100M from the Horizon design change",
+      "check_by": "2027-12-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "arr-4b-by-feb-2027",
+      "claim": "IREN reports that more than $4B of ARR was operational by February 28, 2027.",
+      "probability": 0.55,
+      "resolve_by": "2027-05-31"
+    },
+    {
+      "id": "q2fy27-ai-cloud-250m",
+      "claim": "IREN reports Q2 FY2027 AI Cloud revenue of at least $250 million.",
+      "probability": 0.65,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "dc-financing-2b-by-jun-2027",
+      "claim": "IREN announces at least $2B of data center (non-GPU) financing closed by June 30, 2027.",
+      "probability": 0.45,
+      "resolve_by": "2027-08-31"
+    },
+    {
+      "id": "shares-below-480m-fy27-10k",
+      "claim": "Ordinary shares outstanding on the FY2027 10-K cover are below 480 million.",
+      "probability": 0.55,
+      "resolve_by": "2027-09-30"
+    },
+    {
+      "id": "microsoft-termination-by-aug-2027",
+      "claim": "IREN discloses by August 31, 2027 that Microsoft has terminated or reduced its Horizon contract.",
+      "probability": 0.05,
+      "resolve_by": "2027-09-30"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $16.60 at these weights",
+    "Toward Own: $2B or more of data center financing closed with share issuance below 10M a quarter, or the >$4B ARR operating by January 31, 2027 with no Microsoft fee reductions",
+    "Toward Avoid: the >$4B ARR not operating by March 31, 2027, or shares outstanding above 520M on the FY2027 10-K cover",
+    "Toward Avoid: less than $3B of the $6B gap committed by June 30, 2027, or a customer termination or default affecting more than $100M of backlog"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $700M-$1.5B starting revenue, 5-year revenue CAGR, 2009-2025 (scenario rates are four-year CAGRs from FY2026 revenue of $707M to FY2030; all three paths sit above the 99th percentile)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 100
+  },
+  "update": {
+    "event": "Q1 FY2027 results (8-K, 2026-11-05); >$4B ARR target moved to January-February 2027",
+    "event_date": "2026-11-05",
+    "expected": "October call: Watch with a speculative positive bias, base $27.06 (FY2031 EBITDA $9.6B x 7.5x less $38B net debt on 580M shares, discounted at 18%), fair value $32.79; December-quarter delivery named as the first test; funding called the central risk",
+    "actual": "Revenue $228M (AI Cloud $200M, +182% q/q); adjusted EBITDA $66M; net loss $263M; backlog $20.3B (+22%); >$4B ARR moved to January, possibly February 2027 after a Microsoft-requested design change; $15B of remaining FY2027 capex, $9B covered and $6B targeted; shares 424.36M on October 30 after about $3.7B of at-the-market sales",
+    "thesis_pillars": [
+      {
+        "pillar": "Demand for AI capacity is real and contracted",
+        "status": "strengthened",
+        "note": "Backlog $20.3B (+22%), two-thirds investment grade; pricing +11-12%; $22M-per-MW five-year deal with 90% of GPU capex prepaid"
+      },
+      {
+        "pillar": "IREN delivers capacity on time",
+        "status": "weakened",
+        "note": ">$4B ARR moved from year-end 2026 to January-February 2027; Microsoft design change tied to fee and credit discussions"
+      },
+      {
+        "pillar": "The build is funded without crushing the equity",
+        "status": "weakened",
+        "note": "$6B of remaining FY2027 capex uncommitted; new GPU debt 10.4-10.7% effective; about 486M shares outstanding or committed"
+      },
+      {
+        "pillar": "Contract economics justify the capex",
+        "status": "intact",
+        "note": "AI Cloud segment gross margin 86%"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-05",
+  "next_review_trigger": "Q2 FY2027 results, expected around February 4, 2027 after the close, and the Horizon 2-4 deliveries",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/IREN/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/IREN/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "IREN closed at $19.73 on November 10, 2026",
+    "scenarios.base.value": "| Base | $27.06 | $24.54 |",
+    "fair_value.value": "| Fair value | $32.79 | $25.24 |"
+  },
+  "notes": [
+    "The October call used FY2031 values discounted at 16-20%; this update states end-2029 values undiscounted. Removing the discount raises the base to $58.62; the earlier date, lower multiple and larger share count take it back to $24.54.",
+    "Fiscal years end June 30; FY2030 ends June 30, 2030 and is the forward year at the end of 2029.",
+    "No current Street consensus snapshot was captured for this update.",
+    "Base FY2030 pre-tax normalized earnings are about -$0.7B (depreciation about 38% of revenue, stock compensation 3%, interest blended about 8.7% on $33.6B with secured debt at 10.5%), so the base value rests on the multiple paid for growing EBITDA (18.9x FY2030 EBIT).",
+    "capital.multiples gives no usable peers: IREN's SIC code (6199) is from its mining years.",
+    "First review round (C; evidence 3, valuation 2, variant view 3, risk 3, calibration 2): share paths ignored about 62M of RSUs and Investment Rights and convert shares in the bull, the bear priced capacity above the base, the new GPU debt's 10.4-10.7% effective cost was missed, kill criteria missed the bear's dilution path, and the value change was misattributed. First draft: Own, $6.15 / $40.27 / $117.44 at 30/50/20 on 6.0x/7.5x/9.0x, fair value $45.47.",
+    "Second review round (B; evidence 3, valuation 3, variant view 4, risk 3, calibration 3): convert shares (2029/2030 notes convert in the base; 2031-2033 notes are about 97.5M shares, not 115M), net debt on a September 30 basis, the interest blend at the 10.5% secured rate, mostly out-of-the-money options removed from committed shares, and kill-criteria thresholds. Second-draft values were $1.79 / $25.02 / $83.19, fair value $25.61."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 3,
+      "valuation": 3,
+      "variant_view": 4,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "evidence: end-2029 net debt and share paths have no schedule; the 30M Investment Rights' terms are not in the saved sources; the bull's conversion shares did not match Note 22 and the conversion prices.",
+      "valuation: the base equity exists only because 6.5x EBITDA (18.9x EBIT) is applied to a business whose EBIT yield on EV (5.3%) is below its blended debt cost; the one-turn multiple cut is a judgment; the base ignored the $445M of 2029/2030 notes whose trigger is met.",
+      "risk: the funding kill criterion had no dollar threshold and the customer criterion differed between the note and call.json.",
+      "calibration: all three revenue paths sit above the 99.9th percentile of their bucket; 0.75 on Q2 AI Cloud revenue of at least $250M was high given ARR-to-revenue lags."
+    ],
+    "grade": "B",
+    "counter_case": "The equity has no earnings at the end of the horizon. Base FY2030 EBIT of $2.6B is 5.3% of a $49B EV, against a 7.4% blended debt cost and 10.4-10.7% on this quarter's GPU debt. Valuing EBIT to earn the blended debt cost leaves the base equity at about $1.89 a share, and at a 9% secured yield at nothing. The $25 base is a bet that in 2029 the market pays 18.9x EBIT for a business that has not yet earned its interest. With convert dilution, 486M shares outstanding or committed before the $6B gap is funded, and a 35% bear at $1.79, the expected return is closer to Avoid than to Watch.",
+    "response": "Accepted the corrections: the 2029/2030 notes now convert in the base (630M shares, $33.56B net debt, $24.54) and all notes convert in the bull (652M shares, $82.31); net debt and EV are on a September 30 basis; the interest blend uses 10.5% on secured debt, giving about -$0.7B of base FY2030 pre-tax earnings; options are dropped from committed shares and the Investment Rights are stated as an assumption; the funding criterion fires below $3B committed and the customer criterion is $100M of backlog in both files; the Q2 AI Cloud claim is 0.65. The fair value is $25.24, 8.6% a year, Watch. On the counter-case: valuing the 2029 equity on EBIT at the debt yield treats a business still growing about 25% a year as if it were mature; the market prices growing infrastructure on EBITDA, which is why the call uses lower multiples rather than an earnings yield, and why the bear at $1.79 carries 35%. The call stays Watch rather than Avoid because the contracted backlog is two-thirds investment grade and the base, on these harsher terms, still returns 7.5% a year; the kill criteria on dilution, funding and Microsoft fees are where the Avoid case would show first."
+  }
+}

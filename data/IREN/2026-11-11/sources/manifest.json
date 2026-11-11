@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/IREN.csv",
+      "commit": "25470aad6ffb",
+      "sha256": "2942beba8e1a8de6dba28ff3c3b5d617634a0c603902a1fa2169d2056dece735",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "25470aad6ffb",
+      "sha256": "fa96d9158111a93a2bfb5a7b5e2e686e8a60a5b3ea69347ce89c97b3965f2a73",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "q1-fy27-ex99-1-htm",
+      "kind": "file",
+      "path": "q1-fy27-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "fetched_at": "2026-11-11T05:45:35+00:00",
+      "sha256": "057c86e25f9a55560752f360304bab462a42080af0a10281a37d97fd415c60f7",
+      "description": "Q1 FY2027 results release, 8-K EX-99.1 (accession 0001878848-26-000065), filed 2026-11-05"
+    },
+    {
+      "id": "iren-20260930-10q-htm",
+      "kind": "file",
+      "path": "iren-20260930-10q.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "fetched_at": "2026-11-11T05:45:35+00:00",
+      "sha256": "364358464faaca60852fe132618faefebcbfba7cd5ed892b25ee868d00c4a180",
+      "description": "10-Q for the quarter ended 2026-09-30 (accession 0001878848-26-000066), filed 2026-11-05"
+    }
+  ]
+}

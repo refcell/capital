@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 135 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 136 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -70,7 +70,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [ICE](ICE.md) | Intercontinental Exchange, Inc. | Financial Services | active | 2026-06-30 | 1 | Watch | Watch | $123.11 | $165.00 | +10.3% | +43.7% | +43.1% |
 | [INTR](INTR.md) | Inter & Co, Inc. | Brazilian digital banking | active | 2026-05-24 | 2 | Watch (positive) | Watch | $6.16 | $9.00 | +13.5% | -35.1% | -36.5% |
 | [IONS](IONS.md) | Ionis Pharmaceuticals, Inc. | Healthcare | active | 2026-11-11 | 2 | Avoid (negative) | Avoid | $28.19 | $27.69 | -0.6% | — | — |
-| [IREN](IREN.md) | IREN Limited (formerly Iris Energy Limited) | Technology infrastructure | active | 2026-10-31 | 1 | Watch (positive) | Watch | $23.95 | $32.79 | +11.0% | -10.6% | -10.2% |
+| [IREN](IREN.md) | IREN Limited (formerly Iris Energy Limited) | Technology infrastructure | active | 2026-11-11 | 2 | Watch | Watch | $19.73 | $25.24 | +8.6% | — | — |
 | [ITUB](ITUB.md) | Itaú Unibanco Holding S.A. | Financials | active | 2026-08-11 | 1 | Watch | Watch | $7.50 | $9.05 | +6.5% | -1.4% | +1.1% |
 | [JOBY](JOBY.md) | Joby Aviation, Inc. | Industrials — Aerospace & Defense — eVTOL | active | 2026-07-20 | 1 | Watch | Avoid | $7.47 | $7.05 | -1.9% | -17.3% | -18.9% |
 | [KNF](KNF.md) | Knife River Corporation | Basic Materials | active | 2026-06-25 | 1 | Watch | Watch | $92.90 | $109.67 | +5.7% | -36.6% | -39.3% |

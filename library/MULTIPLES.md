@@ -55,7 +55,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ICE](ICE.md) | Security & Commodity Brokers, Dealers, Exchanges & Services | 23.9x | 22.5–31.6x | 8.4x | 7.8–9.4x | 20.7x | 19.7–25.4x | SIC 62xx, 5 names: 4.3x, 38.3x |
 | [INTR](INTR.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [IONS](IONS.md) | Pharmaceutical Preparations | — | 25.1–252.3x | 4.8x | 5.6–10.7x | — | 46.4–183.6x | SIC 2834, 3 names: 8.9x, 41.9x |
-| [IREN](IREN.md) | Finance Services | — | 32.6–102.5x | 20.2x | 2.8–14.4x | — | — | SIC 61xx, 1 names: 39.6x, 30.8x |
+| [IREN](IREN.md) | Finance Services | — | 32.6–102.5x | 19.3x | 2.8–14.4x | — | — | SIC 61xx, 1 names: 39.6x, 30.8x |
 | [ITUB](ITUB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [JOBY](JOBY.md) | Aircraft | — | — | 32.2x | 62.1–214.2x | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
 | [KNF](KNF.md) | Mining & Quarrying of  Nonmetallic Minerals (No Fuels) | 24.9x | 25.1–29.5x | 1.4x | 1.7–2.0x | 17.4x | 17.6–20.4x | — |
@@ -70,7 +70,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [NKE](NKE.md) | Rubber & Plastics Footwear | 18.6x | 25.9–39.8x | 1.2x | 2.6–3.9x | — | — | — |
 | [NOW](NOW.md) | Services-Prepackaged Software | 74.2x | 91.6–420.1x | 7.0x | 12.3–18.1x | 72.0x | 137.8–429.1x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [NRG](NRG.md) | Electric Services | 16.2x | 4.0–23.2x | 1.2x | 0.9–1.7x | 16.1x | 9.4–22.7x | SIC 49xx, 2 names: 5.1x, 7.3x |
-| [NU](NU.md) | Finance Services | — | 37.0–57.6x | — | 5.6–6.9x | — | — | SIC 61xx, 2 names: 29.9x, 30.8x |
+| [NU](NU.md) | Finance Services | — | 37.0–57.6x | — | 5.6–6.9x | — | — | SIC 61xx, 2 names: 29.5x, 30.8x |
 | [OLLI](OLLI.md) | Retail-Variety Stores | 20.9x | 23.7–34.6x | 2.0x | 2.1–3.1x | 16.7x | 19.6–27.3x | — |
 | [OMC](OMC.md) | Services-Advertising Agencies | 34.7x | 11.7–14.7x | 1.1x | 1.1–1.3x | 17.8x | 7.7–9.5x | SIC 73xx, 22 names: 4.0x, 29.9x |
 | [ONB](ONB.md) | National Commercial Banks | — | 10.8–14.4x | — | 19.6–23.8x | — | — | SIC 6021, 3 names: 3.6x, 18.3x |
@@ -95,7 +95,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [SFM](SFM.md) | Retail-Grocery Stores | 9.4x | 12.7–17.9x | 0.5x | 0.5–0.9x | 6.7x | 9.1–14.0x | SIC 54xx, 1 names: 0.2x, — |
 | [SKT](SKT.md) | Real Estate Investment Trusts | — | — | — | — | — | — | SIC 6798, 4 names: 3.7x, 29.4x |
 | [SMR](SMR.md) | Fabricated Plate Work (Boiler Shops) | — | — | 476.2x | 23.3–115.7x | — | — | — |
-| [SOFI](SOFI.md) | Finance Services | 30.8x | 37.4–55.6x | 39.6x | 25.4–41.1x | — | — | SIC 61xx, 1 names: 20.2x, — |
+| [SOFI](SOFI.md) | Finance Services | 30.8x | 37.4–55.6x | 39.6x | 25.4–41.1x | — | — | SIC 61xx, 1 names: 19.3x, — |
 | [SOLV](SOLV.md) | Surgical & Medical Instruments & Apparatus | 98.6x | 9.2–31.8x | 2.4x | 2.1–2.4x | 42.8x | 8.1–24.4x | SIC 3841, 3 names: 3.1x, 41.7x |
 | [SPCX](SPCX.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |
 | [SPXC](SPXC.md) | Metalworkg Machinery & Equipment | 25.5x | 18.0–44.2x | 2.9x | 1.0–3.0x | 17.7x | 18.7–28.6x | SIC 35xx, 2 names: 4.5x, 34.5x |

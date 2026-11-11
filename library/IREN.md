@@ -2,40 +2,87 @@
 
 # IREN Limited (formerly Iris Energy Limited) (NASDAQ: IREN)
 
-Sector: Technology infrastructure / AI cloud (GPU compute, owned data centers and power); legacy Bitcoin mining being decommissioned. StockAnalysis still classifies the company as Financials / Capital Markets because of its mining-era SIC code. · Calls: 1 · Latest: 2026-10-31
+Sector: Technology infrastructure / AI cloud (GPU compute, owned data centers and power); legacy Bitcoin mining being decommissioned. StockAnalysis still classifies the company as Financials / Capital Markets because of its mining-era SIC code. · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / Speculative positive bias |
-| Rule rating | Watch (+11.0% a year expected over 3 years) |
-| Price at call | $23.95 on 2026-10-30 |
-| Bear / base / bull | $6.24 / $27.06 / $86.93 |
-| Weights | 30% / 50% / 20% |
-| Fair value | $32.79 (stated) |
-| Street mean target | $75.42 |
-| Valuation lens | FY2031 adjusted EBITDA × exit EV/EBITDA, less projected FY2031 net debt, over projected FY2031 shares, discounted to today; EV/contracted ARR and EV/forward revenue as cross-checks |
-| Revenue CAGR vs base rates | bear +39.0% = 98th pct / base +54.5% = 99th pct / bull +71.0% = 100th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -10.6% vs SPY -0.4% through 2026-11-09; mark $21.41 is bear to base |
+| Stance (as published) | Watch — unchanged, bias now neutral; contracts and pricing improved, but delivery slipped, the new GPU debt costs over 10%, and about 486 million shares are already outstanding or committed |
+| Rule rating | Watch (+8.6% a year expected over 3 years) |
+| Price at call | $19.73 on 2026-11-10 |
+| Bear / base / bull | $1.79 / $24.54 / $82.31 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $25.24 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2030 (June 2030) adjusted EBITDA x exit EV/EBITDA (5.5x/6.5x/8.0x, one turn below October because new GPU debt costs 10.4-10.7%), less end-2029 net debt, over end-2029 shares starting from about 486M outstanding or committed; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +77.4% = 100th pct / base +107.1% = 100th pct / bull +126.2% = 100th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-05 — Q2 FY2027 results, expected around February 4, 2027 after the close, and the Horizon 2-4 deliveries |
 
-## Fundamentals known on 2026-10-31
+**Thesis.** Q1 FY2027 improved the contracts and worsened the funding: backlog rose 22% to $20.3B (two-thirds investment grade) and new contract pricing rose 11-12%, but the >$4B ARR target moved from year-end 2026 to January-February 2027, the new GPU debt costs 10.4-10.7% effectively, and about 486M shares are already outstanding or committed. At that debt cost the base case earns about nothing on FY2030 normalized earnings, so its $24.54 value rests on the multiple the market pays for growing EBITDA.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IREN 2026-10-31`). Later restatements are not visible here by design.
+**Variant view.** We sit between the October Street targets and the price. The Street mean of $75.42 looks to ignore the dilution already committed (about 486M shares) and debt now costing over 10%; the price looks to ignore that two-thirds of a $20.3B backlog is investment grade and new contracts carry prepayments of up to 90% of GPU capex. The checkable tests are the >$4B ARR operating by the end of February 2027 and at least $2B of data center financing closed by June 30, 2027.
+
+**Catalysts.**
+
+- Horizon 2-4 delivery to Microsoft and the >$4B ARR target (January to February 2027)
+- Q2 FY2027 results (About February 4, 2027 (last year's release was February 5, 2026, after the close))
+- Data center (non-GPU) financing (Through mid-2027)
+- Sweetwater ERCOT Batch Zero and 2027 capacity contracts (Through 2027)
+
+**Pre-mortem** (written at decision time).
+
+- The $6B funding gap is filled with equity near $15-20 a share, taking shares toward 650M before the build bills. — watch: Shares outstanding each quarter against 424M on October 30, 2026 and about 486M including RSUs and Investment Rights
+- The Microsoft design change becomes a dispute over fees, credits and reimbursements, and Horizon 2-4 revenue starts late or lower. — watch: 10-Q disclosure on Microsoft delivery dates and fee discussions; AI Cloud revenue in Q3 FY2027
+- A non-investment-grade AI customer (about a third of backlog) fails to pay or terminates. — watch: Receivables, backlog changes and customer disclosures each quarter
+- GPU rental prices reset as supply catches up, and 2027 capacity sells below $13M per MW. — watch: Reported revenue per MW on new contracts against the +11-12% of Q1 FY2027
+- Amortizing GPU debt at 10.4-10.7% effective absorbs the cash flow, and equity holders get little even when the capacity bills. — watch: Finance expense and debt principal against adjusted EBITDA each quarter
+
+**Kill criteria.**
+
+- >$4B ARR not operational by March 31, 2027 (target January, possibly end of February) (check by 2027-05-31) — open
+- Ordinary shares outstanding above 520 million on the FY2027 10-K cover (base path about 470 million) (check by 2027-09-30) — open
+- Less than $3B of the $6B FY2027 funding gap committed (data center financing, GPU financing, prepayments or other sources) by June 30, 2027 (check by 2027-08-31) — open
+- A customer termination or payment default affecting more than $100M of backlog, or Microsoft fee reductions or credits above $100M from the Horizon design change (check by 2027-12-31) — open
+
+**Probability claims.**
+
+- 55%: IREN reports that more than $4B of ARR was operational by February 28, 2027. (resolves by 2027-05-31)
+- 65%: IREN reports Q2 FY2027 AI Cloud revenue of at least $250 million. (resolves by 2027-03-15)
+- 45%: IREN announces at least $2B of data center (non-GPU) financing closed by June 30, 2027. (resolves by 2027-08-31)
+- 55%: Ordinary shares outstanding on the FY2027 10-K cover are below 480 million. (resolves by 2027-09-30)
+- 5%: IREN discloses by August 31, 2027 that Microsoft has terminated or reduced its Horizon contract. (resolves by 2027-09-30)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $16.60 at these weights
+- Toward Own: $2B or more of data center financing closed with share issuance below 10M a quarter, or the >$4B ARR operating by January 31, 2027 with no Microsoft fee reductions
+- Toward Avoid: the >$4B ARR not operating by March 31, 2027, or shares outstanding above 520M on the FY2027 10-K cover
+- Toward Avoid: less than $3B of the $6B gap committed by June 30, 2027, or a customer termination or default affecting more than $100M of backlog
+
+**Independent review: grade B** (evidence 3, valuation 3, variant view 4, risk 3, calibration 3). Counter-case: The equity has no earnings at the end of the horizon. Base FY2030 EBIT of $2.6B is 5.3% of a $49B EV, against a 7.4% blended debt cost and 10.4-10.7% on this quarter's GPU debt. Valuing EBIT to earn the blended debt cost leaves the base equity at about $1.89 a share, and at a 9% secured yield at nothing. The $25 base is a bet that in 2029 the market pays 18.9x EBIT for a business that has not yet earned its interest. With convert dilution, 486M shares outstanding or committed before the $6B gap is funded, and a 35% bear at $1.79, the expected return is closer to Avoid than to Watch.
+
+**Response.** Accepted the corrections: the 2029/2030 notes now convert in the base (630M shares, $33.56B net debt, $24.54) and all notes convert in the bull (652M shares, $82.31); net debt and EV are on a September 30 basis; the interest blend uses 10.5% on secured debt, giving about -$0.7B of base FY2030 pre-tax earnings; options are dropped from committed shares and the Investment Rights are stated as an assumption; the funding criterion fires below $3B committed and the customer criterion is $100M of backlog in both files; the Q2 AI Cloud claim is 0.65. The fair value is $25.24, 8.6% a year, Watch. On the counter-case: valuing the 2029 equity on EBIT at the debt yield treats a business still growing about 25% a year as if it were mature; the market prices growing infrastructure on EBITDA, which is why the call uses lower multiples rather than an earnings yield, and why the bear at $1.79 carries 35%. The call stays Watch rather than Avoid because the contracted backlog is two-thirds investment grade and the base, on these harsher terms, still returns 7.5% a year; the kill criteria on dilution, funding and Microsoft fees are where the Avoid case would show first.
+
+**Data notes.** The October call used FY2031 values discounted at 16-20%; this update states end-2029 values undiscounted. Removing the discount raises the base to $58.62; the earlier date, lower multiple and larger share count take it back to $24.54. Fiscal years end June 30; FY2030 ends June 30, 2030 and is the forward year at the end of 2029. No current Street consensus snapshot was captured for this update. Base FY2030 pre-tax normalized earnings are about -$0.7B (depreciation about 38% of revenue, stock compensation 3%, interest blended about 8.7% on $33.6B with secured debt at 10.5%), so the base value rests on the multiple paid for growing EBITDA (18.9x FY2030 EBIT). capital.multiples gives no usable peers: IREN's SIC code (6199) is from its mining years. First review round (C; evidence 3, valuation 2, variant view 3, risk 3, calibration 2): share paths ignored about 62M of RSUs and Investment Rights and convert shares in the bull, the bear priced capacity above the base, the new GPU debt's 10.4-10.7% effective cost was missed, kill criteria missed the bear's dilution path, and the value change was misattributed. First draft: Own, $6.15 / $40.27 / $117.44 at 30/50/20 on 6.0x/7.5x/9.0x, fair value $45.47. Second review round (B; evidence 3, valuation 3, variant view 4, risk 3, calibration 3): convert shares (2029/2030 notes convert in the base; 2031-2033 notes are about 97.5M shares, not 115M), net debt on a September 30 basis, the interest blend at the 10.5% secured rate, mostly out-of-the-money options removed from committed shares, and kill-criteria thresholds. Second-draft values were $1.79 / $25.02 / $83.19, fair value $25.61.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IREN 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 707.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Operating income (TTM) | -1,046.7M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Net income (TTM) | -703.0M USD | 2026-06-30 | annual | [0001140361-26-039451](https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/) |
-| Diluted EPS (TTM) | -2.22 USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Operating cash flow (TTM) | 2,100.4M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Capex (TTM) | 2,998.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Free cash flow (TTM) | -897.6M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Stock comp (TTM) | 205.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Cash | 5,895.6M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Long-term debt | 7,592.9M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
-| Equity | 4,185.6M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Revenue (TTM) | 695.0M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Operating income (TTM) | -1,156.7M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Net income (TTM) | -1,351.0M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Diluted EPS (TTM) | -3.96 USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Operating cash flow (TTM) | 2,487.4M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Capex (TTM) | 4,949.0M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Free cash flow (TTM) | -2,461.6M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Stock comp (TTM) | 239.0M USD | 2026-09-30 | ttm ytd | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Cash | 3,522.0M USD | 2026-09-30 | instant | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Long-term debt | 9,897.0M USD | 2026-09-30 | instant | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
+| Equity | 5,116.0M USD | 2026-09-30 | instant | [0001878848-26-000066](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/) |
 | Shares outstanding | 357.4M | 2026-04-30 | instant | [0001878848-26-000026](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/) |
 
 ## Earnings calendar
@@ -46,6 +93,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001878848-26-000065](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-10-31 | $23.95 | Watch (positive) | Watch | $6.24 | $27.06 | $86.93 | $32.79 | -10.6% | -10.2% | bear to base | [report](https://github.com/refcell/capital/blob/75ec777/research/IREN.md) · [projection](https://github.com/refcell/capital/blob/0d9623b/projections/IREN.md) · [model](https://github.com/refcell/capital/blob/0b652fe/models/2026-10-31%20IREN%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/0b652fe/models/_build_IREN.py) |
+| 2026-11-11 | $19.73 | Watch | Watch | $1.79 | $24.54 | $82.31 | $25.24 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/IREN/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/IREN/2026-11-11.xlsx) |
+| 2026-10-31 | $23.95 | Watch (positive) | Watch | $6.24 | $27.06 | $86.93 | $32.79 | -17.6% | -16.9% | bear to base | [report](https://github.com/refcell/capital/blob/75ec777/research/IREN.md) · [projection](https://github.com/refcell/capital/blob/0d9623b/projections/IREN.md) · [model](https://github.com/refcell/capital/blob/0b652fe/models/2026-10-31%20IREN%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/0b652fe/models/_build_IREN.py) |
 
 Data: `data/IREN/`. Prices: `data/prices/IREN.csv`.

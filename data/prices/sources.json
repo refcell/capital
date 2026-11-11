@@ -257,7 +257,7 @@
   "IREN": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/IREN",
-    "last_capture": "2026-11-11T02:23:00+00:00"
+    "last_capture": "2026-11-11T05:42:25+00:00"
   },
   "ITUB": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

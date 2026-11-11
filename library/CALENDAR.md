@@ -110,4 +110,3 @@ The company has reported since the latest call. These names are due an update no
 | 2026-11-04 | 1 | [WU](WU.md) | 2026-10-23 |
 | 2026-11-04 | 1 | [XNCR](XNCR.md) | 2026-10-29 |
 | 2026-11-05 | 1 | [CG](CG.md) | 2026-10-24 |
-| 2026-11-05 | 1 | [IREN](IREN.md) | 2026-10-31 |
