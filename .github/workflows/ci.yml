@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Calls cite report versions by commit, so the checks need full history.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 -m pip install --quiet -r requirements.txt
+      # Everything below reads only committed files; no network access is needed.
+      - name: Validate data store
+        run: python3 -m capital.validate
+      - name: Unit tests
+        run: python3 -m unittest discover -t . -s functions && python3 -m unittest discover -t . -s capital

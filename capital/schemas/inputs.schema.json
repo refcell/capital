@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/refcell/capital/capital/schemas/inputs.schema.json",
+  "title": "Point-in-time model inputs",
+  "description": "The market and financial inputs a call used, as known on the call date. Stored at data/<TICKER>/<YYYY-MM-DD>/inputs.json. Every value names its source and as-of date. Monetary values are in 'currency' unless the value sets its own. Keys ending in _m are millions; _pct are percents (5.0 means 5%).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "ticker", "date", "currency", "origin", "values"],
+  "$defs": {
+    "value": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source"],
+      "properties": {
+        "value": {"type": "number"},
+        "as_of": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "source": {"type": "string", "minLength": 2, "description": "Where the number came from, e.g. 'Yahoo Finance Key Statistics' or 'SEC 10-Q 0001071739-26-000123'."},
+        "accession": {"type": ["string", "null"], "pattern": "^\\d{10}-\\d{2}-\\d{6}$"},
+        "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "quote": {"type": ["string", "null"], "description": "Verbatim text from the report that states the value (backfill only)."},
+        "note": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"const": 1},
+    "ticker": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}$"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "origin": {"enum": ["backfill", "run"]},
+    "values": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "price",
+          "shares_outstanding_m",
+          "market_cap_m",
+          "enterprise_value_m",
+          "total_debt_m",
+          "cash_m",
+          "net_debt_m",
+          "ttm_revenue_m",
+          "ttm_gross_profit_m",
+          "ttm_operating_income_m",
+          "ttm_ebitda_m",
+          "ttm_net_income_m",
+          "ttm_eps",
+          "ttm_ocf_m",
+          "ttm_capex_m",
+          "ttm_fcf_m",
+          "book_value_per_share",
+          "tangible_book_value_per_share",
+          "dividend_per_share",
+          "beta",
+          "risk_free_rate_pct",
+          "equity_risk_premium_pct",
+          "cost_of_equity_pct",
+          "wacc_pct",
+          "tax_rate_pct",
+          "fy1_revenue_m",
+          "fy2_revenue_m",
+          "fy1_eps",
+          "fy2_eps",
+          "week52_low",
+          "week52_high",
+          "street_target_mean",
+          "street_target_low",
+          "street_target_high",
+          "street_analysts"
+        ]
+      },
+      "additionalProperties": {"$ref": "#/$defs/value"}
+    },
+    "fiscal_years": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Labels for fy1/fy2 keys, e.g. {'fy1': 'FY2026', 'fy2': 'FY2027'}.",
+      "properties": {"fy1": {"type": "string"}, "fy2": {"type": "string"}}
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

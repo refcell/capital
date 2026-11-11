@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "ticker": "CNC",
+  "exchange": "NYSE",
+  "company": "Centene Corporation",
+  "sector": "Healthcare / Healthcare Plans",
+  "date": "2026-11-07",
+  "origin": "backfill",
+  "research_status": "initial",
+  "research_status_text": "Initial",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — probability-weighted fair value $69.22 versus $69.74 close; restoration is real, the rerating from $32 already captured most of it",
+  "primary_lens": "pe",
+  "lens_text": "Forward P/E on non-GAAP adjusted EPS; FCF and P/B as cross-checks",
+  "price": {
+    "value": 69.74,
+    "currency": "USD",
+    "date": "2026-11-06"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 46.2,
+      "weight": 0.3,
+      "basis": "FY2031 adjusted EPS $4.40 x 10.5x"
+    },
+    "base": {
+      "value": 75.62,
+      "weight": 0.5,
+      "basis": "FY2031 adjusted EPS $6.05 x 12.5x"
+    },
+    "bull": {
+      "value": 87.75,
+      "weight": 0.2,
+      "basis": "FY2031 adjusted EPS $6.50 x 13.5x"
+    }
+  },
+  "fair_value": {
+    "value": 69.22,
+    "method": "stated"
+  },
+  "horizon_years": 5,
+  "horizon_text": "FY2031 adjusted EPS x exit P/E, undiscounted",
+  "street": {
+    "target_mean": 75.39,
+    "target_median": 75.0,
+    "target_low": 62.0,
+    "target_high": 87.0,
+    "analysts": 21,
+    "rating_text": "Buy with 12 Hold",
+    "as_of": "2026-11-06",
+    "source": "StockAnalysis / Yahoo Finance"
+  },
+  "deviation_from_street": {
+    "pct": -8.2,
+    "reason": "Street FY2027 EPS of $5.55 grows off the $5.20 2026 guide; the report weights a 2027 that grows off management's $4.70 jump-off after ~$0.50 of non-recurring 2026 items."
+  },
+  "catalysts": [
+    {
+      "event": "Q4 / FY2026 results and initial 2027 adjusted-EPS guidance",
+      "timing": "Early February 2027",
+      "date": null,
+      "what_it_proves": "Whether 2027 grows through $5.20 or only through the $4.70 jump-off"
+    },
+    {
+      "event": "2027 Marketplace and MA/PDP open-enrollment results",
+      "timing": "Q1 2027",
+      "date": null,
+      "what_it_proves": "Membership versus the 3.2 million Marketplace and down-year MA paths"
+    },
+    {
+      "event": "July 2027 Medicaid rate cycle",
+      "timing": "July 2027",
+      "date": null,
+      "what_it_proves": "Whether rates keep pace with acuity versus the ~5% composite"
+    }
+  ],
+  "next_review": "2027-02-10",
+  "next_review_trigger": "Q4 / FY2026 results and initial 2027 guidance, early February 2027",
+  "thesis": "Works if 2027 adjusted EPS grows through $5.20 and Medicaid HBR keeps improving as membership falls; fails if 2027 is a $4.70 year the market has to rediscover after paying 13x for $5.28.",
+  "variant_view": "The Street takes management's 'grow through both' at face value; the report thinks 2027 grows off the $4.70 jump-off, and that holdco liquidity ($175M parent cash) is far tighter than the $23.6B total cash implies.",
+  "change_my_mind": [
+    "Own: February 2027 guide clearly above $5.20 with Medicaid HBR still improving",
+    "Own: Q4 membership in line with -8 to -9% without an HBR blowout",
+    "Avoid: 2027 guide at or below $5.00",
+    "Avoid: Medicaid HBR back through 94% in Q4 or Q1",
+    "Avoid: another goodwill charge, or Marketplace PTI below 4% in Q1 2027"
+  ],
+  "artifacts": {
+    "report": {
+      "path": "research/CNC.md",
+      "commit": "4510171"
+    },
+    "projection": {
+      "path": "projections/CNC.md",
+      "commit": "f099607"
+    },
+    "model": {
+      "path": "models/[2026-11-07] Centene Model.xlsx",
+      "commit": "fc49ba0"
+    },
+    "build_script": {
+      "path": "models/_build_CNC.py",
+      "commit": "fc49ba0"
+    }
+  },
+  "evidence": {
+    "price.value": "CNC closed at $69.74 on November 6, 2026",
+    "scenarios.bear.value": "Target | $46.20 | $75.62 | $87.75",
+    "scenarios.bear.weight": "Weight | 30% | 50% | 20%",
+    "fair_value.value": "Probability-weighted fair value $69.22",
+    "street.target_mean": "Twenty-one analysts average a $75.39 target",
+    "street.target_low": "1-year | $62 | $75.39 avg / $75 med | $87",
+    "next_review": "Next trigger: Q4 / FY2026 results and initial 2027 guidance, early February 2027."
+  },
+  "notes": [
+    "next_review is an estimate inside the stated window."
+  ]
+}

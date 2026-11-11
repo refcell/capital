@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/refcell/capital/capital/schemas/manifest.schema.json",
+  "title": "Source manifest",
+  "description": "Every source a call used, with a SHA-256 so CI can prove nothing changed after capture. Stored at data/<TICKER>/<YYYY-MM-DD>/sources/manifest.json. kind=file: a copy saved next to this manifest. kind=repo: a file in this repository at a pinned commit (used by the backfill, where the published report is the source).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "path", "sha256"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_.\\-]*$"},
+          "kind": {"enum": ["file", "repo"]},
+          "path": {"type": "string", "description": "kind=file: path relative to this sources/ directory. kind=repo: repository path at 'commit'."},
+          "commit": {"type": ["string", "null"], "pattern": "^[0-9a-f]{7,40}$"},
+          "url": {"type": ["string", "null"]},
+          "fetched_at": {"type": ["string", "null"], "description": "ISO 8601 UTC time of capture."},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "original_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$", "description": "Hash of the full response when the saved file is a filtered slice of it."},
+          "description": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

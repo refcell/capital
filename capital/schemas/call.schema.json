@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/refcell/capital/capital/schemas/call.schema.json",
+  "title": "Research call",
+  "description": "One dated investment call: the stance, scenario values, and Street context as known on the call date. Stored at data/<TICKER>/<YYYY-MM-DD>/call.json and never edited after the fact except to fix extraction errors.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "ticker",
+    "date",
+    "origin",
+    "company",
+    "stance",
+    "stance_text",
+    "price",
+    "scenarios",
+    "artifacts"
+  ],
+  "$defs": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "nullable_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "money": {"type": ["number", "null"], "minimum": 0},
+    "scenario": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"$ref": "#/$defs/money", "description": "Per-share value in the call's price currency. For a stated range, the midpoint."},
+        "low": {"$ref": "#/$defs/money", "description": "Lower end when the report gives a range."},
+        "high": {"$ref": "#/$defs/money", "description": "Upper end when the report gives a range."},
+        "weight": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "basis": {"type": ["string", "null"], "description": "How the value was reached, e.g. 'FY2031 adj EPS $6.05 x 12.5x'."}
+      }
+    },
+    "artifact": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["path"],
+      "properties": {
+        "path": {"type": "string"},
+        "commit": {"type": ["string", "null"], "pattern": "^[0-9a-f]{7,40}$", "description": "Commit holding the version this call came from. Null means the current worktree file."}
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {"const": 1},
+    "ticker": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9.\\-]{0,9}$"},
+    "exchange": {"type": ["string", "null"]},
+    "company": {"type": "string", "minLength": 1},
+    "sector": {"type": ["string", "null"]},
+    "date": {"$ref": "#/$defs/date", "description": "Publication date of the call."},
+    "origin": {"enum": ["backfill", "run"], "description": "backfill: extracted from an existing report; run: written by a research run."},
+    "research_status": {"enum": ["initial", "refresh", "post_earnings", "pre_earnings", "thesis_update", "other", null]},
+    "research_status_text": {"type": ["string", "null"]},
+    "stance": {"enum": ["own", "watch", "pass", "avoid", "needs_more_work"]},
+    "bias": {"enum": ["positive", "neutral", "negative", null], "description": "Lean within the stance, e.g. 'Watch / Positive bias' is watch + positive."},
+    "stance_text": {"type": "string", "description": "Stance line exactly as published."},
+    "primary_lens": {"enum": ["pe", "ev_ebitda", "dcf", "fcf", "pb_roe", "p_ffo", "ev_sales", "ev_gross_profit", "sotp", "nav", "dividend", "other", null]},
+    "lens_text": {"type": ["string", "null"]},
+    "price": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "currency", "date"],
+      "properties": {
+        "value": {"type": "number", "exclusiveMinimum": 0},
+        "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "date": {"$ref": "#/$defs/nullable_date", "description": "Close date of the reference price."}
+      }
+    },
+    "scenarios": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bear": {"$ref": "#/$defs/scenario"},
+        "base": {"$ref": "#/$defs/scenario"},
+        "bull": {"$ref": "#/$defs/scenario"}
+      }
+    },
+    "fair_value": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["value", "method"],
+      "properties": {
+        "value": {"type": "number", "exclusiveMinimum": 0},
+        "method": {"enum": ["stated", "weighted", "base"], "description": "stated: the report gives it; weighted: computed from scenario weights; base: no weights, base case used."}
+      }
+    },
+    "horizon_years": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "horizon_text": {"type": ["string", "null"]},
+    "street": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "target_mean": {"$ref": "#/$defs/money"},
+        "target_median": {"$ref": "#/$defs/money"},
+        "target_low": {"$ref": "#/$defs/money"},
+        "target_high": {"$ref": "#/$defs/money"},
+        "analysts": {"type": ["integer", "null"], "minimum": 0},
+        "rating_text": {"type": ["string", "null"]},
+        "as_of": {"$ref": "#/$defs/nullable_date"},
+        "source": {"type": ["string", "null"]}
+      }
+    },
+    "deviation_from_street": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["pct"],
+      "properties": {
+        "pct": {"type": "number", "description": "fair_value / street.target_mean - 1, in percent."},
+        "reason": {"type": ["string", "null"], "description": "Why the call differs from the Street. Required for origin=run when |pct| >= 10."}
+      }
+    },
+    "catalysts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["event"],
+        "properties": {
+          "event": {"type": "string"},
+          "timing": {"type": ["string", "null"]},
+          "date": {"$ref": "#/$defs/nullable_date"},
+          "what_it_proves": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "next_review": {"$ref": "#/$defs/nullable_date", "description": "Date the call should be revisited, usually the next earnings report."},
+    "next_review_trigger": {"type": ["string", "null"]},
+    "thesis": {"type": ["string", "null"], "description": "One or two sentences: what has to be true."},
+    "variant_view": {"type": ["string", "null"], "description": "Where this call disagrees with the market, in one or two sentences."},
+    "change_my_mind": {"type": "array", "items": {"type": "string"}, "description": "Pre-committed evidence that would change the stance."},
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["report"],
+      "properties": {
+        "report": {"$ref": "#/$defs/artifact"},
+        "projection": {"$ref": "#/$defs/artifact"},
+        "model": {"$ref": "#/$defs/artifact"},
+        "build_script": {"$ref": "#/$defs/artifact"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Map from a field path in this file (e.g. 'price.value', 'scenarios.bull.value') to a verbatim quote from the report version in artifacts.report that supports it. CI checks every quote is present in that version.",
+      "additionalProperties": {"type": "string", "minLength": 3}
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

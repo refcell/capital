@@ -15,6 +15,10 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from capital.config import sec_user_agent  # noqa: E402
+
 STATE_DIR = ROOT / "automation" / "state"
 SEEN_PATH = STATE_DIR / "seen_tickers.json"
 CACHE_PATH = STATE_DIR / "candidate_queue.json"
@@ -242,7 +246,7 @@ def fetch_sec_exchange_mapping() -> dict[str, dict[str, str]]:
     data = fetch_json(
         SEC_TICKERS_EXCHANGE_URL,
         headers={
-            "User-Agent": "Andreas Bigger capital research automation contact@example.com",
+            "User-Agent": sec_user_agent(),
             "Accept": "application/json,text/plain,*/*",
             "Accept-Encoding": "gzip, deflate",
             "Host": "www.sec.gov",
