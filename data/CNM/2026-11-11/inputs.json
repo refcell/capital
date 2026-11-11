@@ -96,7 +96,17 @@
       "as_of": "2026-11-10",
       "value": 960,
       "note": "FY2026 adjusted EBITDA (non-GAAP), cut from 980"
+    },
+    "fy1_eps": {
+      "value": 3.1,
+      "as_of": "2026-11-10",
+      "source": "Estimate: H1 adjusted diluted EPS $1.66 (Q2 8-K 0001856525-26-000091) plus Q3 and Q4 implied by the adjusted EBITDA guide (Q3 8-K 0001856525-26-000096), converted at Q2's tax rate with Q3's $39M interest; guide range implies $3.10-$3.15",
+      "accession": "0001856525-26-000096",
+      "note": "Company-defined adjusted diluted EPS (adds back intangible amortization and equity-based compensation). Low end of the guide-implied range."
     }
   },
-  "notes": []
+  "notes": [],
+  "fiscal_years": {
+    "fy1": "FY2026 (year ending early 2027)"
+  }
 }

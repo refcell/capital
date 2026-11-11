@@ -242,6 +242,19 @@ def check_run_call(c: store.Call, errors: list[str]) -> None:
     dev = call.get("deviation_from_street")
     if dev and abs(dev["pct"]) >= 10 and not dev.get("reason"):
         errors.append(f"{rel}: deviation from the Street is {dev['pct']:.1f}%; give a reason")
+    review = call.get("review")
+    if not review:
+        errors.append(f"{rel}: runs need an independent review (.agents/skills/reviewing-research)")
+    else:
+        low = [k for k, v in review["scores"].items() if v <= 3]
+        reasons = " ".join(review.get("low_score_reasons") or [])
+        for k in low:
+            if k not in reasons:
+                errors.append(f"{rel}: review scores {k} {review['scores'][k]} without a reason")
+        if 1 in review["scores"].values() and review["grade"] in ("A", "B"):
+            errors.append(f"{rel}: a review with a score of 1 cannot grade above C")
+        if not review.get("response"):
+            errors.append(f"{rel}: answer the review's counter-case in review.response")
     rule = score.rule_rating(call)
     if rule and call.get("stance") in ("own", "watch", "avoid") and call["stance"] != rule and not call.get("rating_override_reason"):
         errors.append(f"{rel}: stance {call['stance']} differs from the rule rating {rule}; set rating_override_reason")

@@ -14,7 +14,7 @@
   "stance_text": "Watch — unchanged in substance from the July Hold; the guide trim lowers near-term earnings but buybacks and acquisitions keep per-share growth intact",
   "rating_override_reason": null,
   "primary_lens": "pe",
-  "lens_text": "FY2029 adjusted EPS x exit P/E (three-year value)",
+  "lens_text": "FY2029 company-adjusted diluted EPS x exit P/E (three-year value); adjusted EPS adds back acquisition amortization (about $0.74 a year) and stock comp",
   "price": {
     "value": 47.44,
     "currency": "USD",
@@ -22,32 +22,35 @@
   },
   "scenarios": {
     "bear": {
-      "value": 33.97,
-      "weight": 0.25,
-      "basis": "FY2029 adj EPS $2.83 (FY2026 $2.67, then 2%/yr) x 12x"
+      "value": 36.47,
+      "weight": 0.3,
+      "revenue_cagr": 0.01,
+      "basis": "FY2029 adj EPS $3.04 (FY2026 $2.95: Q4 adjusted EBITDA $150M, 19% below the guide-implied $184M; then 1%/yr) x 12x"
     },
     "base": {
-      "value": 55.43,
+      "value": 57.42,
       "weight": 0.5,
-      "basis": "FY2029 adj EPS $3.46 (FY2026 $2.75, then 8%/yr) x 16x"
+      "revenue_cagr": 0.03,
+      "basis": "FY2029 adj EPS $3.59 (FY2026 $3.10, then 5%/yr: ~3% sales and ~2.5% share shrink, less a full year of higher interest) x 16x"
     },
     "bull": {
-      "value": 71.46,
-      "weight": 0.25,
-      "basis": "FY2029 adj EPS $3.76 (FY2026 $2.75, then 11%/yr) x 19x"
+      "value": 76.28,
+      "weight": 0.2,
+      "revenue_cagr": 0.06,
+      "basis": "FY2029 adj EPS $4.01 (FY2026 $3.10, then 9%/yr with acquisitions and margin recovery) x 19x"
     }
   },
   "fair_value": {
-    "value": 54.07,
+    "value": 54.91,
     "method": "weighted"
   },
   "horizon_years": 3,
   "horizon_text": "Fiscal 2029 (year ending early 2030) EPS at an exit P/E, undiscounted",
   "street": null,
   "deviation_from_street": null,
-  "thesis": "Per-share earnings compound about 8% a year from 2–3% sales growth, roughly 3% annual share shrink, and a stable-to-better margin; it works if adjusted EBITDA margin holds near 12% while acquisitions add volume.",
-  "consensus_view": "The stock had recovered from $40.35 in October to $47.44 into the print on municipal strength and record buybacks; the reaffirmed $950–980 million EBITDA guide was the expectation the pre-announcement cut.",
-  "variant_view": "The market grades CNM on margin, which weakened; per-share value is being driven by capital deployment ($428 million of buybacks year to date, over $250 million of acquired revenue), which held up and is underweighted in a margin-led debate.",
+  "thesis": "Company-adjusted EPS compounds about 5% a year from ~3% sales growth (43rd percentile for its size) and ~2.5% annual share shrink, net of higher interest; the stock works at 15x adjusted EPS if margin holds near 12% EBITDA while acquisitions add volume.",
+  "consensus_view": "The stock moved from $40.35 on October 9 to $47.44 on November 10 ahead of the print; the reaffirmed $950–980 million adjusted EBITDA guide was the company's stated expectation that the pre-announcement cut. No Street estimate snapshot was captured.",
+  "variant_view": "At $47.44 the stock is 15.3x the low end of guide-implied FY2026 adjusted EPS ($3.10–3.15); this call holds that a 1% EBITDA trim does not change per-share growth of about 5% a year, so the multiple should hold unless the FY2027 guide shows EBITDA falling.",
   "why_opportunity": [
     "analytical"
   ],
@@ -85,7 +88,7 @@
     },
     {
       "reason": "Acquisitions hide organic decline; reported growth is all purchased volume.",
-      "signal": "Organic sales growth disclosed in the Q3 and Q4 releases"
+      "signal": "Q4 FY2026 and FY2027 sales growth against the more than $250 million of annualized acquired revenue (about 3% of sales)"
     },
     {
       "reason": "Buybacks and deals are funded with debt just as EBITDA flattens, and leverage limits flexibility in a downturn.",
@@ -94,6 +97,10 @@
     {
       "reason": "Municipal demand fades as federal infrastructure funding rolls off.",
       "signal": "Municipal end-market commentary and backlog on the December and March calls"
+    },
+    {
+      "reason": "Debt-funded buybacks raise interest expense faster than EBITDA grows, so adjusted EPS stalls even with a shrinking share count.",
+      "signal": "Quarterly interest expense: Q3 FY2026 $39M vs $30M a year earlier (already rising) against adjusted EBITDA flat to down"
     }
   ],
   "kill_criteria": [
@@ -138,16 +145,21 @@
   ],
   "resolutions": [],
   "change_my_mind": [
-    "More bullish: Q4 adjusted EBITDA margin back above 12.5% with organic growth positive",
+    "More bullish: Q4 adjusted EBITDA margin back above 12.5% with sales growth above the acquired contribution",
     "More bullish: FY2027 guide with EBITDA growth above sales growth",
     "More bearish: Q3 final results below the preliminary ranges",
     "More bearish: another guide cut, or leverage rising toward 3x to fund buybacks"
   ],
-  "base_rate": null,
+  "base_rate": {
+    "reference_class": "US XBRL filers with $6B–$12B starting revenue, 5-year revenue CAGR, 2009–2025",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 43
+  },
   "update": {
     "event": "Q3 FY2026 preliminary results and FY2026 outlook update (8-K, 2026-11-10); Q2 FY2026 results (8-K, 2026-09-09)",
     "event_date": "2026-11-10",
-    "expected": "July call: FY EPS $2.81 at 16x, operating margin recovering from 9.3%, reaffirmed guide",
+    "expected": "July call: Yahoo FY EPS estimate $2.81 (basis unstated) at 16x, operating margin recovering from 9.3%",
     "actual": "Q2 clean (adj EPS +8%); Q3 preliminary sales +3%, net income -6%, adj EBITDA -1% at midpoints; FY EBITDA guide trimmed to $950-960M; record $171M buyback; three acquisitions with over $250M revenue",
     "thesis_pillars": [
       {
@@ -187,11 +199,31 @@
   },
   "evidence": {
     "price.value": "CNM closed at $47.44 on November 10, 2026",
-    "scenarios.base.value": "| Base | $44.96 | $55.43 | FY2029 EPS $3.46",
-    "fair_value.value": "| Fair value | $47.86 | $54.07 |"
+    "scenarios.base.value": "| Base | $44.96 | $57.42 |",
+    "fair_value.value": "| Fair value | $47.86 | $54.91 |"
   },
   "notes": [
-    "The July call used one-year forward values; this update uses three-year values, so the two fair values are not directly comparable.",
-    "No Street consensus snapshot was captured for this update."
-  ]
+    "The July call used one-year forward values on a Yahoo EPS estimate of unstated basis; this update uses three-year values on company-adjusted EPS, so the two fair values are not directly comparable.",
+    "No Street consensus snapshot and no peer multiples were captured for this update.",
+    "Revised twice after independent review: the first draft graded D, the second B; see review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 3,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "evidence: the second draft cited Q2's $32M interest as current although the Q3 pre-announcement shows $39M vs $30M; the bear's $2.95 anchor was not derived; 15.3x was computed on $3.10, not the $3.16–3.20 it was attributed to.",
+      "valuation: the 12x/16x/19x exit multiples carry over from a July call on a different EPS basis and are defended only by bracketing today's multiple; the 25/50/25 weights rested on one sentence; the base drivers compounded to under 5.6%, not 6%.",
+      "variant_view: with no consensus captured, the view is a hold-the-multiple position rather than a disagreement with an evidenced market belief, and the 15.3x price already agrees with it."
+    ],
+    "grade": "B",
+    "counter_case": "Per-share growth is being bought with borrowed money, and the call's own interest-expense signal has already fired: Q3 interest expense was $39M against $30M a year earlier while adjusted EBITDA fell 1%, after H1 issued $929M of debt and repaid $617M while buying back stock. If FY2027 adjusted EBITDA is flat, a full year of higher interest offsets the share shrink and adjusted EPS stalls near $3.10; at 13–14x for a distributor whose margin has fallen and whose guide was just cut, that is about $40–43, below $47.44. On GAAP EPS (about $2.40) the stock already trades near 20x.",
+    "response": "Accepted the interest finding (the author had misread the Q3 table). Changes: FY2026 anchor re-derived with Q3's $39M interest (guide implies $3.10–3.15, anchor at the low end); base growth cut from 6% to 5% a year to match its own drivers after the interest step-up; bull from 10% to 9%; weights moved from 25/50/25 to 30/50/20 because a pre-mortem signal has fired; the bear anchor now comes from an explicit Q4 EBITDA miss; the unsupported claim about how peers are valued was removed. Fair value fell from $58.25 to $54.91 (+5.0% a year), still Watch. Not changed: the exit multiples, because no peer or history data was captured to move them; the counter-case's $40–43 outcome is close to the bear case and carries 30% weight. The first draft was graded D (evidence 1) for an unsourced $2.75 EPS anchor."
+  }
 }

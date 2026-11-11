@@ -43,7 +43,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [CHRD](CHRD.md) | Chord Energy Corporation | Energy | active | 2026-09-16 | 1 | Watch (positive) | Watch | $157.00 | $172.00 | +3.1% | -11.7% | -11.0% |
 | [CLBT](CLBT.md) | Cellebrite DI Ltd. | Technology | active | 2026-08-17 | 1 | Watch | Watch | $10.44 | $14.00 | +10.3% | +21.6% | +24.0% |
 | [CNC](CNC.md) | Centene Corporation | Healthcare | active | 2026-11-07 | 1 | Watch | Avoid | $69.74 | $69.22 | -0.2% | +0.6% | -1.3% |
-| [CNM](CNM.md) | Core & Main, Inc. | Industrials — Industrial Distribution | active | 2026-11-11 | 2 | Watch | Watch | $47.44 | $54.07 | +4.5% | — | — |
+| [CNM](CNM.md) | Core & Main, Inc. | Industrials — Industrial Distribution | active | 2026-11-11 | 2 | Watch | Watch | $47.44 | $54.91 | +5.0% | — | — |
 | [CRM](CRM.md) | Salesforce, Inc. | Enterprise software | active | 2026-05-25 | 1 | Watch (positive) | Watch | $180.07 | $270.00 | +14.5% | +19.1% | +18.0% |
 | [CVE](CVE.md) | Cenovus Energy Inc. | Energy | active | 2026-09-15 | 1 | Watch | Watch | $33.27 | $35.83 | +2.5% | -16.4% | -15.2% |
 | [CVS](CVS.md) | CVS Health Corporation | Healthcare | active | 2026-06-19 | 1 | Pass | Avoid | $98.32 | $60.07 | -15.1% | -8.3% | -8.9% |

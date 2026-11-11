@@ -715,6 +715,92 @@
           }
         }
       }
+    },
+    "review": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "reviewer",
+        "date",
+        "scores",
+        "grade",
+        "counter_case"
+      ],
+      "description": "Independent review before publishing (.agents/skills/reviewing-research).",
+      "properties": {
+        "reviewer": {
+          "type": "string"
+        },
+        "date": {
+          "$ref": "#/$defs/date"
+        },
+        "scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "evidence",
+            "valuation",
+            "variant_view",
+            "risk",
+            "calibration"
+          ],
+          "properties": {
+            "evidence": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "valuation": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "variant_view": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "risk": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "calibration": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "low_score_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "grade": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "counter_case": {
+          "type": "string",
+          "minLength": 20
+        },
+        "response": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The author's answer to the counter-case: what changed, or why nothing did."
+        }
+      }
     }
   }
 }

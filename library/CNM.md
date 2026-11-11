@@ -9,18 +9,19 @@ Sector: Industrials — Industrial Distribution · Calls: 2 · Latest: 2026-11-1
 | | |
 |---|---|
 | Stance (as published) | Watch — unchanged in substance from the July Hold; the guide trim lowers near-term earnings but buybacks and acquisitions keep per-share growth intact |
-| Rule rating | Watch (+4.5% a year expected over 3 years) |
+| Rule rating | Watch (+5.0% a year expected over 3 years) |
 | Price at call | $47.44 on 2026-11-10 |
-| Bear / base / bull | $33.97 / $55.43 / $71.46 |
-| Weights | 25% / 50% / 25% |
-| Fair value | $54.07 (weighted) |
+| Bear / base / bull | $36.47 / $57.42 / $76.28 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $54.91 (weighted) |
 | Street mean target | — |
-| Valuation lens | FY2029 adjusted EPS x exit P/E (three-year value) |
+| Valuation lens | FY2029 company-adjusted diluted EPS x exit P/E (three-year value); adjusted EPS adds back acquisition amortization (about $0.74 a year) and stock comp |
+| Revenue CAGR vs base rates | bear +1.0% = 32th pct / base +3.0% = 43th pct / bull +6.0% = 62th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Next review | 2026-12-09 — Full Q3 FY2026 results on December 8, 2026 |
 
-**Thesis.** Per-share earnings compound about 8% a year from 2–3% sales growth, roughly 3% annual share shrink, and a stable-to-better margin; it works if adjusted EBITDA margin holds near 12% while acquisitions add volume.
+**Thesis.** Company-adjusted EPS compounds about 5% a year from ~3% sales growth (43rd percentile for its size) and ~2.5% annual share shrink, net of higher interest; the stock works at 15x adjusted EPS if margin holds near 12% EBITDA while acquisitions add volume.
 
-**Variant view.** The market grades CNM on margin, which weakened; per-share value is being driven by capital deployment ($428 million of buybacks year to date, over $250 million of acquired revenue), which held up and is underweighted in a margin-led debate.
+**Variant view.** At $47.44 the stock is 15.3x the low end of guide-implied FY2026 adjusted EPS ($3.10–3.15); this call holds that a 1% EBITDA trim does not change per-share growth of about 5% a year, so the multiple should hold unless the FY2027 guide shows EBITDA falling.
 
 **Catalysts.**
 
@@ -31,9 +32,10 @@ Sector: Industrials — Industrial Distribution · Calls: 2 · Latest: 2026-11-1
 **Pre-mortem** (written at decision time).
 
 - Residential and light commercial stay weak through 2027 while freight inflation persists, and adjusted EBITDA margin slides below 12%. — watch: Q4 FY2026 adjusted EBITDA margin and the FY2027 margin guide
-- Acquisitions hide organic decline; reported growth is all purchased volume. — watch: Organic sales growth disclosed in the Q3 and Q4 releases
+- Acquisitions hide organic decline; reported growth is all purchased volume. — watch: Q4 FY2026 and FY2027 sales growth against the more than $250 million of annualized acquired revenue (about 3% of sales)
 - Buybacks and deals are funded with debt just as EBITDA flattens, and leverage limits flexibility in a downturn. — watch: Net debt to adjusted EBITDA in the 10-Q and 10-K
 - Municipal demand fades as federal infrastructure funding rolls off. — watch: Municipal end-market commentary and backlog on the December and March calls
+- Debt-funded buybacks raise interest expense faster than EBITDA grows, so adjusted EPS stalls even with a shrinking share count. — watch: Quarterly interest expense: Q3 FY2026 $39M vs $30M a year earlier (already rising) against adjusted EBITDA flat to down
 
 **Kill criteria.**
 
@@ -49,12 +51,16 @@ Sector: Industrials — Industrial Distribution · Calls: 2 · Latest: 2026-11-1
 
 **What would change the view.**
 
-- More bullish: Q4 adjusted EBITDA margin back above 12.5% with organic growth positive
+- More bullish: Q4 adjusted EBITDA margin back above 12.5% with sales growth above the acquired contribution
 - More bullish: FY2027 guide with EBITDA growth above sales growth
 - More bearish: Q3 final results below the preliminary ranges
 - More bearish: another guide cut, or leverage rising toward 3x to fund buybacks
 
-**Data notes.** The July call used one-year forward values; this update uses three-year values, so the two fair values are not directly comparable. No Street consensus snapshot was captured for this update.
+**Independent review: grade B** (evidence 3, valuation 3, variant view 3, risk 4, calibration 4). Counter-case: Per-share growth is being bought with borrowed money, and the call's own interest-expense signal has already fired: Q3 interest expense was $39M against $30M a year earlier while adjusted EBITDA fell 1%, after H1 issued $929M of debt and repaid $617M while buying back stock. If FY2027 adjusted EBITDA is flat, a full year of higher interest offsets the share shrink and adjusted EPS stalls near $3.10; at 13–14x for a distributor whose margin has fallen and whose guide was just cut, that is about $40–43, below $47.44. On GAAP EPS (about $2.40) the stock already trades near 20x.
+
+**Response.** Accepted the interest finding (the author had misread the Q3 table). Changes: FY2026 anchor re-derived with Q3's $39M interest (guide implies $3.10–3.15, anchor at the low end); base growth cut from 6% to 5% a year to match its own drivers after the interest step-up; bull from 10% to 9%; weights moved from 25/50/25 to 30/50/20 because a pre-mortem signal has fired; the bear anchor now comes from an explicit Q4 EBITDA miss; the unsupported claim about how peers are valued was removed. Fair value fell from $58.25 to $54.91 (+5.0% a year), still Watch. Not changed: the exit multiples, because no peer or history data was captured to move them; the counter-case's $40–43 outcome is close to the bear case and carries 30% weight. The first draft was graded D (evidence 1) for an unsourced $2.75 EPS anchor.
+
+**Data notes.** The July call used one-year forward values on a Yahoo EPS estimate of unstated basis; this update uses three-year values on company-adjusted EPS, so the two fair values are not directly comparable. No Street consensus snapshot and no peer multiples were captured for this update. Revised twice after independent review: the first draft graded D, the second B; see review.
 
 ## Fundamentals known on 2026-11-11
 
@@ -81,7 +87,7 @@ Last release: 2026-11-10 (post-market 8-K Item 2.02, [0001856525-26-000096](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-11-11 | $47.44 | Watch | Watch | $33.97 | $55.43 | $71.46 | $54.07 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/CNM/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/CNM/2026-11-11.xlsx) |
+| 2026-11-11 | $47.44 | Watch | Watch | $36.47 | $57.42 | $76.28 | $54.91 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/CNM/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/CNM/2026-11-11.xlsx) |
 | 2026-07-21 | $43.37 | Watch | Watch | $32.40 | $44.96 | $63.00 | $47.86 | +9.4% | +8.9% | base to bull | [report](https://github.com/refcell/capital/blob/1cece97/research/CNM.md) · [projection](https://github.com/refcell/capital/blob/fcb9f1e/projections/CNM.md) · [model](https://github.com/refcell/capital/blob/dfbf5ca/models/2026-07-21%20Core%20%26%20Main%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/dfbf5ca/models/_build_CNM.py) |
 
 Data: `data/CNM/`. Prices: `data/prices/CNM.csv`.
