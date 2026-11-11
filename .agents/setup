@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Prepares an Amp orb for this repo: Python packages for the model build
+# scripts and `just` for the Justfile recipes. Safe to rerun.
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+step() {
+  local name="$1"
+  shift
+  local start=$SECONDS
+  echo "==> $name"
+  "$@"
+  echo "    done in $((SECONDS - start))s"
+}
+
+install_python_packages() {
+  python3 -m pip install --quiet --no-input --disable-pip-version-check -r requirements.txt
+}
+
+install_just() {
+  local version="1.59.0"
+  if just --version 2>/dev/null | grep -Fqx "just $version"; then
+    echo "    just $version already installed"
+    return
+  fi
+  uv tool install --force "rust-just==$version"
+}
+
+step "Python packages (requirements.txt)" install_python_packages
+step "just" install_just

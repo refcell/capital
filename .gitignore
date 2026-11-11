@@ -23,6 +23,9 @@ dist/
 venv/
 env/
 
+# Amp orb portal registrations
+.amp/portals/*
+
 # Local automation runtime state
 automation/state/
 automation/logs/
