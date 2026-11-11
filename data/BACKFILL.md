@@ -1,0 +1,28 @@
+# Backfill report
+
+`scripts/backfill_calls.py` read 129 report versions and wrote 124 calls; 1 hand-curated call(s) were left untouched. Every extracted number has a verbatim evidence quote checked by `python3 -m capital.validate`. Fields the extractor could not quote are null.
+
+## Gaps
+
+- CELH 9c0e68d: no stance found; recorded as watch with stance_text 'unstated'
+- CVE 770f436: no bear/base/bull value table parsed
+- DLO e628e69: no stance found; recorded as watch with stance_text 'unstated'
+- ETOR 7fa3f5d: no bear/base/bull value table parsed
+- FDS 2f1f48c: no bear/base/bull value table parsed
+- FOUR 9343e9b: no stance found; recorded as watch with stance_text 'unstated'
+- HIMS b989626: no stance found; recorded as watch with stance_text 'unstated'
+- HOOD 08623c7: no stance found; recorded as watch with stance_text 'unstated'
+- INTR 2cafc35: no stance found; recorded as watch with stance_text 'unstated'
+- MELI d7d912b: no stance found; recorded as watch with stance_text 'unstated'
+- NOW 450c060: no stance found; recorded as watch with stance_text 'unstated'
+- NOW d855fa6: no stance found; recorded as watch with stance_text 'unstated'
+- NU 09300b6: no stance found; recorded as watch with stance_text 'unstated'; no bear/base/bull value table parsed
+- PYPL 9f61507: no stance found; recorded as watch with stance_text 'unstated'
+- QURE 3795ff1: no bear/base/bull value table parsed
+- SKT 379105e: no bear/base/bull value table parsed
+- SOFI 2f55845: no stance found; recorded as watch with stance_text 'unstated'
+- SPCX 447bd8a: no bear/base/bull value table parsed
+- STZ 55eb173: no bear/base/bull value table parsed
+- TMDX 04fd481: no stance found; recorded as watch with stance_text 'unstated'; no bear/base/bull value table parsed
+- TMDX 83bcdf3: no stance found; recorded as watch with stance_text 'unstated'
+- ZETA b5bcc80: no stance found; recorded as watch with stance_text 'unstated'; no bear/base/bull value table parsed
