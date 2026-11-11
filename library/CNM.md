@@ -2,38 +2,76 @@
 
 # Core & Main, Inc. (NYSE: CNM)
 
-Sector: Industrials — Industrial Distribution · Calls: 1 · Latest: 2026-07-21
+Sector: Industrials — Industrial Distribution · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Hold |
-| Rule rating | Watch (+3.3% a year expected over 3 years) |
-| Price at call | $43.37 on 2026-07-21 |
-| Bear / base / bull | $32.40 / $44.96 / $63.00 |
-| Weights | — / — / — |
-| Fair value | $47.86 (stated) |
+| Stance (as published) | Watch — unchanged in substance from the July Hold; the guide trim lowers near-term earnings but buybacks and acquisitions keep per-share growth intact |
+| Rule rating | Watch (+4.5% a year expected over 3 years) |
+| Price at call | $47.44 on 2026-11-10 |
+| Bear / base / bull | $33.97 / $55.43 / $71.46 |
+| Weights | 25% / 50% / 25% |
+| Fair value | $54.07 (weighted) |
 | Street mean target | — |
-| Valuation lens | Forward P/E (primary) / FCF Multiple (cross-check) |
-| Since the call | +10.4% vs SPY +0.8% through 2026-11-09; mark $47.90 is base to bull |
+| Valuation lens | FY2029 adjusted EPS x exit P/E (three-year value) |
+| Next review | 2026-12-09 — Full Q3 FY2026 results on December 8, 2026 |
 
-## Fundamentals known on 2026-07-21
+**Thesis.** Per-share earnings compound about 8% a year from 2–3% sales growth, roughly 3% annual share shrink, and a stable-to-better margin; it works if adjusted EBITDA margin holds near 12% while acquisitions add volume.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CNM 2026-07-21`). Later restatements are not visible here by design.
+**Variant view.** The market grades CNM on margin, which weakened; per-share value is being driven by capital deployment ($428 million of buybacks year to date, over $250 million of acquired revenue), which held up and is underweighted in a margin-led debate.
+
+**Catalysts.**
+
+- Full Q3 FY2026 results (December 8, 2026)
+- FY2026 results and initial FY2027 guidance (March 2027)
+- Residential lot development and light commercial recovery (2027)
+
+**Pre-mortem** (written at decision time).
+
+- Residential and light commercial stay weak through 2027 while freight inflation persists, and adjusted EBITDA margin slides below 12%. — watch: Q4 FY2026 adjusted EBITDA margin and the FY2027 margin guide
+- Acquisitions hide organic decline; reported growth is all purchased volume. — watch: Organic sales growth disclosed in the Q3 and Q4 releases
+- Buybacks and deals are funded with debt just as EBITDA flattens, and leverage limits flexibility in a downturn. — watch: Net debt to adjusted EBITDA in the 10-Q and 10-K
+- Municipal demand fades as federal infrastructure funding rolls off. — watch: Municipal end-market commentary and backlog on the December and March calls
+
+**Kill criteria.**
+
+- Initial FY2027 adjusted EBITDA guide midpoint below the FY2026 reported result (check by 2027-04-15) — open
+- Net debt above 3.0x trailing adjusted EBITDA (check by 2027-06-15) — open
+
+**Probability claims.**
+
+- 90%: Q3 FY2026 net sales reported on or around December 8, 2026 are between $2,120 million and $2,130 million. (resolves by 2026-12-15)
+- 75%: FY2026 adjusted EBITDA reported in early 2027 is at least $950 million. (resolves by 2027-04-15)
+- 45%: The midpoint of the initial FY2027 net sales guide is at least 4% above FY2026 reported net sales. (resolves by 2027-04-15)
+- 60%: Q4 FY2026 weighted average diluted shares are at least 3% below Q4 FY2025. (resolves by 2027-04-15)
+
+**What would change the view.**
+
+- More bullish: Q4 adjusted EBITDA margin back above 12.5% with organic growth positive
+- More bullish: FY2027 guide with EBITDA growth above sales growth
+- More bearish: Q3 final results below the preliminary ranges
+- More bearish: another guide cut, or leverage rising toward 3x to fund buybacks
+
+**Data notes.** The July call used one-year forward values; this update uses three-year values, so the two fair values are not directly comparable. No Street consensus snapshot was captured for this update.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CNM 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 7,646.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Gross profit (TTM) | 2,069.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Operating income (TTM) | 728.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Net income (TTM) | 470.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Diluted EPS (TTM) | 2.36 USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Operating cash flow (TTM) | 655.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Stock comp (TTM) | 15.0M USD | 2026-05-03 | ttm ytd | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Cash | 150.0M USD | 2026-05-03 | instant | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Long-term debt | 2,120.0M USD | 2026-05-03 | instant | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
-| Equity | 2,040.0M USD | 2026-05-03 | instant | [0001856525-26-000054](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000054/) |
+| Revenue (TTM) | 7,698.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Gross profit (TTM) | 2,082.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Operating income (TTM) | 742.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Net income (TTM) | 480.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Diluted EPS (TTM) | 2.43 USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Operating cash flow (TTM) | 683.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Stock comp (TTM) | 14.0M USD | 2026-08-02 | ttm ytd | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Cash | 312.0M USD | 2026-08-02 | instant | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Long-term debt | 2,432.0M USD | 2026-08-02 | instant | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
+| Equity | 2,031.0M USD | 2026-08-02 | instant | [0001856525-26-000092](https://www.sec.gov/Archives/edgar/data/1856525/000185652526000092/) |
 
 ## Earnings calendar
 
@@ -43,6 +81,7 @@ Last release: 2026-11-10 (post-market 8-K Item 2.02, [0001856525-26-000096](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-07-21 | $43.37 | Watch | Watch | $32.40 | $44.96 | $63.00 | $47.86 | +10.4% | +9.6% | base to bull | [report](https://github.com/refcell/capital/blob/1cece97/research/CNM.md) · [projection](https://github.com/refcell/capital/blob/fcb9f1e/projections/CNM.md) · [model](https://github.com/refcell/capital/blob/dfbf5ca/models/2026-07-21%20Core%20%26%20Main%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/dfbf5ca/models/_build_CNM.py) |
+| 2026-11-11 | $47.44 | Watch | Watch | $33.97 | $55.43 | $71.46 | $54.07 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/CNM/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/CNM/2026-11-11.xlsx) |
+| 2026-07-21 | $43.37 | Watch | Watch | $32.40 | $44.96 | $63.00 | $47.86 | +9.4% | +8.9% | base to bull | [report](https://github.com/refcell/capital/blob/1cece97/research/CNM.md) · [projection](https://github.com/refcell/capital/blob/fcb9f1e/projections/CNM.md) · [model](https://github.com/refcell/capital/blob/dfbf5ca/models/2026-07-21%20Core%20%26%20Main%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/dfbf5ca/models/_build_CNM.py) |
 
 Data: `data/CNM/`. Prices: `data/prices/CNM.csv`.

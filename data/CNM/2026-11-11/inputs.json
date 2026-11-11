@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "ticker": "CNM",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 47.44,
+      "as_of": "2026-11-10",
+      "source": "data/prices/CNM.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 7698.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "ttm_gross_profit_m": {
+      "value": 2082.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "ttm_operating_income_m": {
+      "value": 742.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "ttm_net_income_m": {
+      "value": 480.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "ttm_eps": {
+      "value": 2.43,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "ttm_ocf_m": {
+      "value": 683.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "cash_m": {
+      "value": 312.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "total_debt_m": {
+      "value": 2432.0,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:LongTermDebtNoncurrent (instant), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "diluted_shares_m": {
+      "value": 193.3593,
+      "as_of": "2026-08-02",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-09-09",
+      "accession": "0001856525-26-000092"
+    },
+    "market_cap_m": {
+      "value": 9172.97,
+      "as_of": "2026-11-10",
+      "source": "price x diluted_shares_m"
+    },
+    "guide_revenue_low_m": {
+      "source": "Core & Main 8-K EX-99.1, 2026-11-10 (sources/8k-2026-11-10-q3-preannouncement.htm)",
+      "accession": "0001856525-26-000096",
+      "as_of": "2026-11-10",
+      "value": 7800,
+      "note": "FY2026 net sales outlook, maintained"
+    },
+    "guide_revenue_high_m": {
+      "source": "Core & Main 8-K EX-99.1, 2026-11-10 (sources/8k-2026-11-10-q3-preannouncement.htm)",
+      "accession": "0001856525-26-000096",
+      "as_of": "2026-11-10",
+      "value": 7900,
+      "note": "FY2026 net sales outlook, maintained"
+    },
+    "guide_ebitda_low_m": {
+      "source": "Core & Main 8-K EX-99.1, 2026-11-10 (sources/8k-2026-11-10-q3-preannouncement.htm)",
+      "accession": "0001856525-26-000096",
+      "as_of": "2026-11-10",
+      "value": 950,
+      "note": "FY2026 adjusted EBITDA (non-GAAP), unchanged low end"
+    },
+    "guide_ebitda_high_m": {
+      "source": "Core & Main 8-K EX-99.1, 2026-11-10 (sources/8k-2026-11-10-q3-preannouncement.htm)",
+      "accession": "0001856525-26-000096",
+      "as_of": "2026-11-10",
+      "value": 960,
+      "note": "FY2026 adjusted EBITDA (non-GAAP), cut from 980"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/CNM.csv",
+      "commit": "1ab766af64cf",
+      "sha256": "95acdde15c1f874401f8a427c0a667f95e43cc82e7216e1606067f1c67ad61cb",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/CNM.csv",
+      "commit": "1ab766af64cf",
+      "sha256": "82c750f341232b753d6d3f2573e753036c371557faec5daf3038e3f71ae8898d",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "1ab766af64cf",
+      "sha256": "e98c7d949725ac858a7b2407b6eb1c31677561799b6f1db2ce5578777674631a",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-11-10-q3-preannouncement",
+      "kind": "file",
+      "path": "8k-2026-11-10-q3-preannouncement.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856525/000185652526000096/q3resultspre-announcement.htm",
+      "fetched_at": "2026-11-11T02:37:30+00:00",
+      "sha256": "7c27d45f72f892e2901ccb219389117caed6dea728ee4bed409a5565d8e29e45",
+      "description": "Q3 FY2026 preliminary results and outlook update, 8-K EX-99.1, accession 0001856525-26-000096"
+    },
+    {
+      "id": "8k-2026-09-09-q2-release",
+      "kind": "file",
+      "path": "8k-2026-09-09-q2-release.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1856525/000185652526000091/cnmq22026earningspressrele.htm",
+      "fetched_at": "2026-11-11T02:37:32+00:00",
+      "sha256": "adb43c365ea3d5dac3e8a755ebbfd1998ca138c00d826f1bc81d811be4622208",
+      "description": "Q2 FY2026 results, 8-K EX-99.1, accession 0001856525-26-000091"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ Estimated as the same release a year earlier plus 52 weeks, from SEC 8-K Item 2.
 | 2026-12-01 | [BOX](BOX.md) | 2026-10-30 | Watch | 11 |
 | 2026-12-01 | [GTLB](GTLB.md) | 2026-05-24 | Watch | 170 |
 | 2026-12-02 | [CRM](CRM.md) | 2026-05-25 | Watch (positive) | 169 |
-| 2026-12-08 | [CNM](CNM.md) | 2026-07-21 | Watch | 112 |
+| 2026-12-08 | [CNM](CNM.md) | 2026-11-11 | Watch | -1 |
 | 2026-12-08 | [OLLI](OLLI.md) | 2026-07-09 | Watch (negative) | 124 |
 | 2026-12-09 | [NDSN](NDSN.md) | 2026-08-13 | Watch | 89 |
 | 2026-12-10 | [AVGO](AVGO.md) | 2026-09-05 | Watch (positive) | 66 |
@@ -90,7 +90,6 @@ The company has reported since the latest call. These names are due an update no
 | 2026-08-11 | 2 | [MIDD](MIDD.md) | 2026-06-26 |
 | 2026-08-19 | 1 | [NDSN](NDSN.md) | 2026-08-13 |
 | 2026-09-02 | 1 | [OLLI](OLLI.md) | 2026-07-09 |
-| 2026-09-09 | 2 | [CNM](CNM.md) | 2026-07-21 |
 | 2026-09-29 | 1 | [CCL](CCL.md) | 2026-09-10 |
 | 2026-10-06 | 1 | [STZ](STZ.md) | 2026-09-12 |
 | 2026-10-19 | 2 | [CHRD](CHRD.md) | 2026-09-16 |

@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 125 calls have a mark.
+125 of 126 calls have a mark.
 
 ## By published stance
 
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-No call has made resolvable probability claims yet. Every new research run must make at least three (see `capital/validate.py`); later calls record outcomes in `resolutions`, and this section then shows Brier scores and a calibration table.
+4 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -95,8 +95,8 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [HOOD/2026-05-24](HOOD.md) | Watch | Avoid | $73.64 | $60.00 | $83.32 | +13.1% | +11.7% | base to bull |
 | [CG/2026-10-24](CG.md) | Watch (positive) | Own | $38.59 | $58.97 | $42.31 | +9.6% | +10.6% | bear to base |
 | [WU/2026-10-23](WU.md) | Watch | Watch | $6.43 | $7.30 | $6.94 | +7.9% | +9.8% | bear to base |
-| [CNM/2026-07-21](CNM.md) | Watch | Watch | $43.37 | $47.86 | $47.90 | +10.4% | +9.6% | base to bull |
 | [ESQ/2026-07-24](ESQ.md) | Watch | Avoid | $120.10 | $112.86 | $133.63 | +11.3% | +9.2% | base to bull |
+| [CNM/2026-07-21](CNM.md) | Watch | Watch | $43.37 | $47.86 | $47.44 | +9.4% | +8.9% | base to bull |
 | [CELH/2026-05-13](CELH.md) | unstated | Avoid | $29.61 | $20.00 | $32.80 | +10.8% | +8.7% | base to bull |
 | [NDSN/2026-08-13](NDSN.md) | Watch | Avoid | $309.99 | $277.00 | $326.08 | +5.2% | +8.5% | bear to base |
 | [CELH/2026-05-24](CELH.md) | Watch (negative) | Own | $30.12 | $50.00 | $32.80 | +8.9% | +7.8% | bear to base |

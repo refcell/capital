@@ -37,6 +37,7 @@ PIT_TO_INPUTS = {
     "cash": ("cash_m", 1e6),
     "long_term_debt": ("total_debt_m", 1e6),
     "shares_outstanding": ("shares_outstanding_m", 1e6),
+    "diluted_shares": ("diluted_shares_m", 1e6),
 }
 
 
@@ -72,11 +73,12 @@ def build_inputs(ticker: str, day: str) -> tuple[dict, list[str]]:
         if unit_currency not in ("shares", "USD"):
             entry["currency"] = unit_currency
         values[key] = entry
-    if "shares_outstanding_m" in values and "price" in values:
-        mc = values["price"]["value"] * values["shares_outstanding_m"]["value"]
+    shares_key = "shares_outstanding_m" if "shares_outstanding_m" in values else "diluted_shares_m"
+    if shares_key in values and "price" in values:
+        mc = values["price"]["value"] * values[shares_key]["value"]
         values["market_cap_m"] = {
             "value": round(mc, 2), "as_of": values["price"]["as_of"],
-            "source": "price x shares_outstanding_m",
+            "source": f"price x {shares_key}",
         }
     return {
         "schema_version": 1, "ticker": ticker, "date": day, "currency": currency, "origin": "run",

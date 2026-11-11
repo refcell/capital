@@ -25,12 +25,12 @@ python3 -m capital.new TICKER      # scaffolds data/TICKER/<today>/
 
 `capital.new` fills `inputs.json` with the latest committed close and SEC fundamentals as of today (filed on or before today, with accession numbers), pins the sources in `sources/manifest.json`, and drafts `call.json`. For an update it sets `prior_call` and carries over catalysts, kill criteria, and open claims.
 
-Anything else you read on the web (consensus estimates, Street targets, transcripts, releases) must be saved under `data/TICKER/<date>/sources/` and listed in `sources/manifest.json` with its URL, fetch time, and SHA-256, and the values you use go into `inputs.json` with `source` and `as_of`. Prefer SEC filings for financials; treat consensus as an expectations anchor, not as proof of value.
+Anything else you read on the web (consensus estimates, Street targets, transcripts, releases) must be saved under `data/TICKER/<date>/sources/` and recorded with `python3 -m capital.sources TICKER DATE FILE --url URL --description TEXT`, and the values you use go into `inputs.json` with `source`, `as_of`, and `accession` when one exists. For SEC exhibits, list the filing with `https://www.sec.gov/Archives/edgar/data/<CIK>/<accession without dashes>/index.json` (CIK is in `data/companies.csv`). Prefer SEC filings for financials; treat consensus as an expectations anchor, not as proof of value.
 
 ## 3. Write the research
 
 - New name: copy `research/TEMPLATE.md` to `research/TICKER.md`. Fill the Pitch block first. Section 17 (Pre-Mortem And Kill Criteria) is required.
-- Update: write `research/TICKER.md` from `research/UPDATE_TEMPLATE.md` (the previous version stays in git history and is cited by the prior call). Roll the existing numbers forward. A "no change" review is a valid outcome and still gets a dated call with `research_status: no_change_review`.
+- Update: write `research/updates/TICKER/<date>.md` from `research/UPDATE_TEMPLATE.md`; `research/TICKER.md` stays the initiation. Roll the existing numbers forward. A "no change" review is a valid outcome and still gets a dated call with `research_status: no_change_review`. Example: `research/updates/CNM/2026-11-11.md` with `data/CNM/2026-11-11/`.
 
 Rules that keep calls honest:
 
@@ -53,7 +53,7 @@ Run `python3 -m capital.validate`; the draft fails until these are set, and the 
 
 ## 5. Model and projection
 
-Build the workbook from the call and inputs (values only, no live formulas): `python3 -m capital.workbook TICKER DATE`. Write `projections/TICKER.md` (see `projections/README.md`); its bear/base/bull prices and fair value must match `call.json`.
+Build the workbook from the call and inputs (values only, no live formulas): `python3 -m capital.workbook TICKER DATE` writes `models/TICKER/DATE.xlsx`. For a new name, also write `projections/TICKER.md` (see `projections/README.md`); its bear/base/bull prices and fair value must match `call.json`. Updates skip the projection unless the long-run view changed.
 
 ## 6. Check and commit
 

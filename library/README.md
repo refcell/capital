@@ -2,7 +2,7 @@
 
 # Coverage library
 
-109 companies, 125 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+109 companies, 126 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 ## Rating scale
 
@@ -41,7 +41,7 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | [CHRD](CHRD.md) | Chord Energy Corporation | Energy | 2026-09-16 | 1 | Watch (positive) | Watch | $157.00 | $172.00 | +3.1% | -11.7% | -11.0% |
 | [CLBT](CLBT.md) | Cellebrite DI Ltd. | Technology | 2026-08-17 | 1 | Watch | Watch | $10.44 | $14.00 | +10.3% | +21.6% | +24.0% |
 | [CNC](CNC.md) | Centene Corporation | Healthcare | 2026-11-07 | 1 | Watch | Avoid | $69.74 | $69.22 | -0.2% | +0.6% | -1.3% |
-| [CNM](CNM.md) | Core & Main, Inc. | Industrials — Industrial Distribution | 2026-07-21 | 1 | Watch | Watch | $43.37 | $47.86 | +3.3% | +10.4% | +9.6% |
+| [CNM](CNM.md) | Core & Main, Inc. | Industrials — Industrial Distribution | 2026-11-11 | 2 | Watch | Watch | $47.44 | $54.07 | +4.5% | — | — |
 | [CRM](CRM.md) | Salesforce, Inc. | Enterprise software | 2026-05-25 | 1 | Watch (positive) | Watch | $180.07 | $270.00 | +14.5% | +19.1% | +18.0% |
 | [CVE](CVE.md) | Cenovus Energy Inc. | Energy | 2026-09-15 | 1 | Watch | Watch | $33.27 | $35.83 | +2.5% | -16.4% | -15.2% |
 | [CVS](CVS.md) | CVS Health Corporation | Healthcare | 2026-06-19 | 1 | Pass | Avoid | $98.32 | $60.07 | -15.1% | -8.3% | -8.9% |

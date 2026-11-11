@@ -1,3 +1,4 @@
+<!-- Save as research/updates/TICKER/YYYY-MM-DD.md -->
 # Company Name (EXCHANGE: TICKER) Update: [event]
 
 Date: YYYY-MM-DD

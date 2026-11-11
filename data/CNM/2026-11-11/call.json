@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "ticker": "CNM",
+  "exchange": "NYSE",
+  "company": "Core & Main, Inc.",
+  "sector": "Industrials — Industrial Distribution",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "CNM/2026-07-21",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 FY2026 pre-announcement)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged in substance from the July Hold; the guide trim lowers near-term earnings but buybacks and acquisitions keep per-share growth intact",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 adjusted EPS x exit P/E (three-year value)",
+  "price": {
+    "value": 47.44,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 33.97,
+      "weight": 0.25,
+      "basis": "FY2029 adj EPS $2.83 (FY2026 $2.67, then 2%/yr) x 12x"
+    },
+    "base": {
+      "value": 55.43,
+      "weight": 0.5,
+      "basis": "FY2029 adj EPS $3.46 (FY2026 $2.75, then 8%/yr) x 16x"
+    },
+    "bull": {
+      "value": 71.46,
+      "weight": 0.25,
+      "basis": "FY2029 adj EPS $3.76 (FY2026 $2.75, then 11%/yr) x 19x"
+    }
+  },
+  "fair_value": {
+    "value": 54.07,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "Fiscal 2029 (year ending early 2030) EPS at an exit P/E, undiscounted",
+  "street": null,
+  "deviation_from_street": null,
+  "thesis": "Per-share earnings compound about 8% a year from 2–3% sales growth, roughly 3% annual share shrink, and a stable-to-better margin; it works if adjusted EBITDA margin holds near 12% while acquisitions add volume.",
+  "consensus_view": "The stock had recovered from $40.35 in October to $47.44 into the print on municipal strength and record buybacks; the reaffirmed $950–980 million EBITDA guide was the expectation the pre-announcement cut.",
+  "variant_view": "The market grades CNM on margin, which weakened; per-share value is being driven by capital deployment ($428 million of buybacks year to date, over $250 million of acquired revenue), which held up and is underweighted in a margin-led debate.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Full Q3 FY2026 results",
+      "timing": "December 8, 2026",
+      "date": "2026-12-08",
+      "kind": "hard",
+      "what_it_proves": "Whether results land inside the preliminary ranges and how much of the EBITDA miss is transport cost versus volume",
+      "value_impact": "Within range: no change; below the range low end: bear weight to 35%"
+    },
+    {
+      "event": "FY2026 results and initial FY2027 guidance",
+      "timing": "March 2027",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "Whether FY2027 adjusted EBITDA grows on the acquisitions and margin stabilizes",
+      "value_impact": "Guide below the FY2026 result fires a kill criterion"
+    },
+    {
+      "event": "Residential lot development and light commercial recovery",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the end markets that drove the trim turn",
+      "value_impact": "Recovery moves weight from bear to bull"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Residential and light commercial stay weak through 2027 while freight inflation persists, and adjusted EBITDA margin slides below 12%.",
+      "signal": "Q4 FY2026 adjusted EBITDA margin and the FY2027 margin guide"
+    },
+    {
+      "reason": "Acquisitions hide organic decline; reported growth is all purchased volume.",
+      "signal": "Organic sales growth disclosed in the Q3 and Q4 releases"
+    },
+    {
+      "reason": "Buybacks and deals are funded with debt just as EBITDA flattens, and leverage limits flexibility in a downturn.",
+      "signal": "Net debt to adjusted EBITDA in the 10-Q and 10-K"
+    },
+    {
+      "reason": "Municipal demand fades as federal infrastructure funding rolls off.",
+      "signal": "Municipal end-market commentary and backlog on the December and March calls"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Initial FY2027 adjusted EBITDA guide midpoint below the FY2026 reported result",
+      "check_by": "2027-04-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Net debt above 3.0x trailing adjusted EBITDA",
+      "check_by": "2027-06-15",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "q3-sales-in-range",
+      "claim": "Q3 FY2026 net sales reported on or around December 8, 2026 are between $2,120 million and $2,130 million.",
+      "probability": 0.9,
+      "resolve_by": "2026-12-15"
+    },
+    {
+      "id": "fy26-ebitda-950",
+      "claim": "FY2026 adjusted EBITDA reported in early 2027 is at least $950 million.",
+      "probability": 0.75,
+      "resolve_by": "2027-04-15"
+    },
+    {
+      "id": "fy27-sales-guide-4pct",
+      "claim": "The midpoint of the initial FY2027 net sales guide is at least 4% above FY2026 reported net sales.",
+      "probability": 0.45,
+      "resolve_by": "2027-04-15"
+    },
+    {
+      "id": "q4-diluted-shares-down-3pct",
+      "claim": "Q4 FY2026 weighted average diluted shares are at least 3% below Q4 FY2025.",
+      "probability": 0.6,
+      "resolve_by": "2027-04-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: Q4 adjusted EBITDA margin back above 12.5% with organic growth positive",
+    "More bullish: FY2027 guide with EBITDA growth above sales growth",
+    "More bearish: Q3 final results below the preliminary ranges",
+    "More bearish: another guide cut, or leverage rising toward 3x to fund buybacks"
+  ],
+  "base_rate": null,
+  "update": {
+    "event": "Q3 FY2026 preliminary results and FY2026 outlook update (8-K, 2026-11-10); Q2 FY2026 results (8-K, 2026-09-09)",
+    "event_date": "2026-11-10",
+    "expected": "July call: FY EPS $2.81 at 16x, operating margin recovering from 9.3%, reaffirmed guide",
+    "actual": "Q2 clean (adj EPS +8%); Q3 preliminary sales +3%, net income -6%, adj EBITDA -1% at midpoints; FY EBITDA guide trimmed to $950-960M; record $171M buyback; three acquisitions with over $250M revenue",
+    "thesis_pillars": [
+      {
+        "pillar": "Operating margin recovers as integration costs fade",
+        "status": "weakened",
+        "note": "Transport costs and greenfields; guide to the low end of the margin range"
+      },
+      {
+        "pillar": "Buybacks compound per-share earnings",
+        "status": "strengthened",
+        "note": "$428M year to date, about 5% of market value"
+      },
+      {
+        "pillar": "Acquisitions add volume in adjacent categories",
+        "status": "intact",
+        "note": "Three deals, over $250M annual revenue"
+      },
+      {
+        "pillar": "Municipal water demand is durable",
+        "status": "intact",
+        "note": "Described as stable"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2026-12-09",
+  "next_review_trigger": "Full Q3 FY2026 results on December 8, 2026",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/CNM/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/CNM/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "CNM closed at $47.44 on November 10, 2026",
+    "scenarios.base.value": "| Base | $44.96 | $55.43 | FY2029 EPS $3.46",
+    "fair_value.value": "| Fair value | $47.86 | $54.07 |"
+  },
+  "notes": [
+    "The July call used one-year forward values; this update uses three-year values, so the two fair values are not directly comparable.",
+    "No Street consensus snapshot was captured for this update."
+  ]
+}
