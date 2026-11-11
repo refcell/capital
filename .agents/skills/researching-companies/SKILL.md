@@ -69,4 +69,4 @@ python3 -m unittest discover -t . -s capital
 git add -A && git commit -m "research: TICKER <initial|update> (<lens>)" && git push origin main
 ```
 
-Commit directly to main. Never put a work email or the owner's employer anywhere in the repo.
+Commit directly to main. If the push is rejected because another run landed first, `git pull --rebase origin main`, then run `python3 -m capital.build` to regenerate conflicting `library/` pages and `data/calls.csv`, and `python3 -m capital.sources --repin` so manifest pins follow your rebased data commit; validate again before pushing. Never put a work email or the owner's employer anywhere in the repo.

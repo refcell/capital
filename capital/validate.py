@@ -159,7 +159,8 @@ def check_manifest(c: store.Call, errors: list[str]) -> None:
                 continue
             data = store.git_blob(entry["commit"], entry["path"])
         if data is None:
-            errors.append(f"{rel}/sources/manifest.json: {entry['id']} ({entry['path']}) is missing")
+            hint = " (pinned commit not in history? run python3 -m capital.sources --repin)" if entry["kind"] == "repo" else ""
+            errors.append(f"{rel}/sources/manifest.json: {entry['id']} ({entry['path']}) is missing{hint}")
         elif store.sha256_bytes(data) != entry["sha256"]:
             errors.append(f"{rel}/sources/manifest.json: {entry['id']} ({entry['path']}) hash changed")
     if c.manifest:

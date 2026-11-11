@@ -5,7 +5,7 @@
       "id": "prices",
       "kind": "repo",
       "path": "data/prices/PRIM.csv",
-      "commit": "63a19d9b5f26",
+      "commit": "d35c044f3f8e",
       "sha256": "d4534a111dd393f1f341f92ba5cd18dff2e03065d3fe3fac47f5ee85560901fb",
       "description": "Daily closes captured by capital.prices"
     },
@@ -13,7 +13,7 @@
       "id": "sec-facts",
       "kind": "repo",
       "path": "data/sec/facts/PRIM.csv",
-      "commit": "63a19d9b5f26",
+      "commit": "d35c044f3f8e",
       "sha256": "bf6d7908876d0a6390be02127982038bfaefd4d1e581025a714d49d1ecf93094",
       "description": "Point-in-time SEC XBRL facts captured by capital.sec"
     },
@@ -21,7 +21,7 @@
       "id": "calendar",
       "kind": "repo",
       "path": "data/calendar/earnings.csv",
-      "commit": "63a19d9b5f26",
+      "commit": "d35c044f3f8e",
       "sha256": "6fb529e398fed659049c31928837a3b73cddfac8393b3bd45dff62099c8f9199",
       "description": "SEC 8-K Item 2.02 releases and periodic filings"
     },
