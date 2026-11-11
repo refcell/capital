@@ -57,7 +57,11 @@ Run `python3 -m capital.validate`; the draft fails until these are set, and the 
 
 Build the workbook from the call and inputs (values only, no live formulas): `python3 -m capital.workbook TICKER DATE` writes `models/TICKER/DATE.xlsx`. For a new name, also write `projections/TICKER.md` (see `projections/README.md`); its bear/base/bull prices and fair value must match `call.json`. Updates skip the projection unless the long-run view changed.
 
-## 6. Check and commit
+## 6. Independent review
+
+Before committing, have a second agent that did not write the call review it with `.agents/skills/reviewing-research/SKILL.md` (for example a subagent given only the file paths). Record its JSON as the `review` block, fix what it finds, and answer its counter-case in `review.response`. If you revise substantially, ask for a second round and record the final one. The CNM update (`data/CNM/2026-11-11/`) went D then B; its first draft used an EPS anchor no source supported.
+
+## 7. Check and commit
 
 ```bash
 python3 -m capital.validate && python3 -m capital.build
