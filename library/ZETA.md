@@ -2,40 +2,87 @@
 
 # Zeta Global Holdings Corp. (NYSE: ZETA)
 
-Sector: Marketing technology / adtech / customer data platform / AI marketing automation · Calls: 2 · Latest: 2026-05-24
+Sector: Marketing technology / adtech / customer data platform / AI marketing automation · Calls: 3 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / constructive if data and FCF quality hold |
-| Rule rating | Watch (+12.8% a year expected over 3 years) |
-| Price at call | $18.79 on 2026-05-22 |
-| Bear / base / bull | $15.50 / $27.00 / $45.00 |
-| Weights | — / — / — |
-| Fair value | $27.00 (base) |
-| Street mean target | $28.31 |
-| Valuation lens | EV / revenue, EV / adjusted EBITDA, FCF yield, and scenario DCF |
-| Revenue CAGR vs base rates | bear +10.0% = 69th pct / base +16.0% = 85th pct / bull +22.0% = 92th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
-| Since the call | +72.5% vs SPY +1.5% through 2026-11-09; mark $32.42 is base to bull |
+| Stance (as published) | Watch — unchanged; value raised on faster growth and cash flow, but the price has risen 87% and dilution runs at 4–5% a year |
+| Rule rating | Watch (+8.4% a year expected over 3 years) |
+| Price at call | $35.07 on 2026-11-10 |
+| Bear / base / bull | $19.03 / $41.67 / $76.05 |
+| Weights | 25% / 50% / 25% |
+| Fair value | $44.61 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2029 company-defined free cash flow x exit multiple, plus end-2029 net cash, on projected diluted shares (stock compensation counted through dilution); three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +7.0% = 62th pct / base +16.0% = 89th pct / bull +22.0% = 96th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-24 — FY2026 results and first 2027 guide, expected around February 23, 2027 after the close |
 
-## Fundamentals known on 2026-05-24
+**Thesis.** Zeta beat and raised twice since May: Q3 revenue grew 46% (30% excluding Marigold and political revenue), GAAP net income reached $38 million, and the FY2026 free-cash-flow guide rose to $271 million (14.6% of revenue). The business is worth more than the May call said, but the stock rose 87% to $35.07, 35.7x trailing free cash flow, stock compensation runs at 11.6% of revenue, and the diluted share count grew 5.3% in a year despite buybacks. If growth slows to 16% a year, free-cash-flow margins reach 18% by 2029 and dilution runs at 4% a year, the stock is worth about $42.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ZETA 2026-05-24`). Later restatements are not visible here by design.
+**Variant view.** The market prices ZETA at about 18x our base FY2029 free cash flow, below the 21x peer median, so it doubts the growth lasts. We think the record (21 straight beat-and-raise quarters, an initial 2026 guide about 4% below the likely result) supports 16% a year, but net dilution of about 4% a year absorbs most of that gap, leaving upside below the 15% Own line. Checkable: FY2027 revenue of at least $2.2 billion while the Q4 2027 non-GAAP diluted count exceeds 280 million.
+
+**Catalysts.**
+
+- FY2026 results and first 2027 guide (About February 23, 2027 (last year's release was February 24, 2026, after the close))
+- AthenaOS beta and general availability (2027 (timing not given in the release))
+- 2028 US election cycle (2028)
+- Use of the $750M revolver for acquisitions (Each quarter)
+
+**Pre-mortem** (written at decision time).
+
+- Organic growth falls below 10% once political revenue lapses and large customers stop expanding, and the multiple falls to the 15x free cash flow where Box and CCC trade. — watch: Growth excluding M&A and political revenue in the Q4 2026 and Q1 2027 releases against 22%
+- Stock compensation stays above 10% of revenue and acquisitions are paid in stock, so the share count grows 5% a year or more and per-share value stalls. — watch: Non-GAAP diluted share count each quarter against 269.9 million
+- Free cash flow stalls because receivables grow faster than revenue as large customers stretch payment terms. — watch: Accounts receivable against $370.3 million and nine-month FCF against $181.2 million
+- A privacy rule or a large data partner's policy change cuts the value of Zeta's identity data, and ARPU falls. — watch: Super-scaled customer ARPU against $2.0 million
+- The Watch call is wrong on the upside: AthenaOS brings a new growth leg, growth holds above 20% through 2028, and the market keeps paying 35x free cash flow. — watch: Initial 2027 revenue guide above $2.25 billion
+
+**Kill criteria.**
+
+- Initial FY2027 revenue guide midpoint below $2.08 billion (under 12% growth) (check by 2027-03-15) — open
+- FY2026 free cash flow (company definition) below $260 million (Q4 below about $79 million against $89.9 million implied by the guide) (check by 2027-03-15) — open
+- Non-GAAP diluted share count above 290 million in Q4 2027 (about 6% a year, faster than the bear's 5%) (check by 2028-03-15) — open
+
+**Probability claims.**
+
+- 70%: ZETA reports Q4 2026 revenue of at least $535 million (about $12 million above the top of the $521-525M guide). (resolves by 2027-03-15)
+- 70%: ZETA reports FY2026 free cash flow (company definition) of at least $271 million. (resolves by 2027-03-15)
+- 60%: The midpoint of ZETA's initial FY2027 revenue guide is below $2.15 billion. (resolves by 2027-03-15)
+- 45%: ZETA reports FY2026 stock-based compensation below $205 million (Q4 below $49.9 million against $50.0 million in Q3). (resolves by 2027-03-15)
+- 40%: ZETA's Q4 2027 weighted shares used for non-GAAP EPS exceed 285 million (the base projects about 283.5 million, the bear about 287 million). (resolves by 2028-03-15)
+- 55%: ZETA reports FY2027 revenue of at least $2.2 billion. (resolves by 2028-03-15)
+
+**What would change the view.**
+
+- Toward Own: a price near $30 with the business on the base path, or an initial 2027 guide above $2.25 billion with free-cash-flow margin guided above 16%
+- Toward Own: stock compensation falling below 8% of revenue with a flat share count
+- Toward Avoid: an initial 2027 guide below 12% growth, or FY2026 free cash flow below $260 million
+- Toward Avoid: a large debt-funded acquisition or the non-GAAP diluted share count above 290 million in Q4 2027
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 4, calibration 3). Counter-case: Watch depends on the bull. At one third bear and two thirds base the fair value is $34.12, below $35.07. The bull is worth $76.05, needs 95.5th-percentile growth and 30x, and supplies 43% of the fair value; the base alone returns 5.9% a year at 89th-percentile growth, and at 75th-percentile growth it is worth about $35.43, roughly today's price. With the stock at 35.7x trailing FCF, above its own p75, stock compensation at 11.6% of revenue and 4-5% a year dilution, holding the bull at 25% after an 87% rally is the market's optimism, not evidence.
+
+**Response.** Accepted the corrections: change_my_mind uses the $260M FCF threshold; catalyst 1 and the upside triggers move to an initial 2027 guide above $2.25B, above the base's path once the about 4% gap between initial guides and results (2026: $1,785M initial vs $1,855M now) is allowed for; the dilution claim moves to 285M at 0.4 to match the model's 283.5M base and 287M bear; the annual return is 8.4%; the variant view now states the disagreement with the market's roughly 18x pricing and a checkable FY2027 revenue claim. We correct the first-round response: Avoid would need the bull's weight moved to the bear or all exits cut about 23%, not an 18x base exit. On the counter-case, the note now shows that one third bear and two thirds base gives $34.12. We keep 25% on the bull because it is roughly today's reported trend carried forward (30% organic growth in Q3, margins rising) rather than a new story; the Q3 2026 share count compounded to end-2029 instead of Q3 2029 would lower values about 1%, which does not change the stance.
+
+**Data notes.** The May call used FY2030 values with no weights or horizon; this update states three-year values at the end of 2029, so the two are not directly comparable. Peer multiples come from the SIC 7372 names already in coverage. No Street consensus snapshot was captured for this update. Revised twice after independent review (B, then B): dilution raised to the observed 4-5% a year, buybacks limited to the remaining authorization, a growth glide path, peer names corrected, kill criteria that can fire, upside triggers above the base case, and the bull-weight dependence stated; see review. First review round (B; evidence 4, valuation 3, variant view 2, risk 4, calibration 3): net dilution of 1.5-2.5% a year contradicted the 5.3% observed, buybacks exceeded the remaining authorization, the consensus view contradicted the model's implied 17.6x, and the FCF kill criterion could barely fire. First draft values were $19.45 / $43.15 / $79.60, fair value $46.34.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ZETA 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 1,436.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Operating income (TTM) | 2.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Net income (TTM) | -23.2M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Diluted EPS (TTM) | -0.10 USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Operating cash flow (TTM) | 213.8M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Capex (TTM) | 14.1M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Free cash flow (TTM) | 199.7M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Stock comp (TTM) | 188.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Cash | 288.8M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Long-term debt | 197.3M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
-| Equity | 880.3M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Revenue (TTM) | 1,726.4M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Operating income (TTM) | 61.9M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Net income (TTM) | 39.7M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Diluted EPS (TTM) | 0.16 USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Operating cash flow (TTM) | 274.4M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Capex (TTM) | 14.1M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Free cash flow (TTM) | 260.3M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Stock comp (TTM) | 198.9M USD | 2026-09-30 | ttm ytd | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Cash | 340.1M USD | 2026-09-30 | instant | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Long-term debt | 243.9M USD | 2026-09-30 | instant | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
+| Equity | 998.1M USD | 2026-09-30 | instant | [0001193125-26-453696](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/) |
 
 ## Earnings calendar
 
@@ -45,7 +92,8 @@ Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001193125-26-453558](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-05-24 | $18.79 | Watch (positive) | Watch | $15.50 | $27.00 | $45.00 | $27.00 | +72.5% | +71.1% | base to bull | [report](https://github.com/refcell/capital/blob/8c845f8/research/zeta.md) |
-| 2026-01-25 | $21.58 | unstated | — | — | — | — | — | +49.1% | +39.0% | — | [report](https://github.com/refcell/capital/blob/b5bcc80/research/zeta.md) |
+| 2026-11-11 | $35.07 | Watch (positive) | Watch | $19.03 | $41.67 | $76.05 | $44.61 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/ZETA/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/ZETA/2026-11-11.xlsx) |
+| 2026-05-24 | $18.79 | Watch (positive) | Watch | $15.50 | $27.00 | $45.00 | $27.00 | +86.6% | +85.6% | base to bull | [report](https://github.com/refcell/capital/blob/8c845f8/research/zeta.md) |
+| 2026-01-25 | $21.58 | unstated | — | — | — | — | — | +61.2% | +51.6% | — | [report](https://github.com/refcell/capital/blob/b5bcc80/research/zeta.md) |
 
 Data: `data/ZETA/`. Prices: `data/prices/ZETA.csv`.

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "ticker": "ZETA",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 35.07,
+      "as_of": "2026-11-10",
+      "source": "data/prices/ZETA.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 1726.366,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "ttm_operating_income_m": {
+      "value": 61.871,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "ttm_net_income_m": {
+      "value": 39.738,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "ttm_eps": {
+      "value": 0.16,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "ttm_ocf_m": {
+      "value": 274.395,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "ttm_capex_m": {
+      "value": 14.119,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "cash_m": {
+      "value": 340.085,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-09",
+      "accession": "0001193125-26-453696"
+    },
+    "total_debt_m": {
+      "value": 250.0,
+      "as_of": "2026-09-30",
+      "source": "ZETA 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz)",
+      "accession": "0001193125-26-453696",
+      "note": "2026 Term Loan principal, due July 24, 2031 (carrying amount $243.9M); the $750M revolver is undrawn"
+    },
+    "diluted_shares_m": {
+      "value": 269.9179,
+      "as_of": "2026-09-30",
+      "source": "ZETA 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001193125-26-453558",
+      "note": "Q3 2026 weighted shares used for non-GAAP EPS, including unvested RSUs and PSUs (GAAP diluted weighted count 264.6M)"
+    },
+    "ttm_fcf_m": {
+      "value": 260.276,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-09",
+      "accession": "0001193125-26-453696",
+      "note": "XBRL OCF less property capex only; company-defined FCF also deducts capitalized software (nine-month 2026 company FCF $181.2M)"
+    },
+    "market_cap_m": {
+      "value": 8958.9,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "shares_outstanding_m": {
+      "value": 255.459,
+      "as_of": "2026-11-02",
+      "source": "ZETA 10-Q for 2026-09-30 (sources/10q-2026-09-30.htm.gz)",
+      "accession": "0001193125-26-453696",
+      "note": "231,820,551 Class A plus 23,638,426 Class B shares outstanding on November 2, 2026"
+    },
+    "net_debt_m": {
+      "value": -36.9,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m + acquisition-related liabilities ($25.2M current + $28.0M non-current); excludes the $70M loan advance in other non-current assets"
+    },
+    "enterprise_value_m": {
+      "value": 8922.0,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    },
+    "guide_revenue_low_m": {
+      "value": 1853,
+      "as_of": "2026-11-09",
+      "source": "ZETA 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001193125-26-453558",
+      "note": "FY2026 revenue guide low end (was $1,811-1,824M in August)"
+    },
+    "guide_revenue_high_m": {
+      "value": 1857,
+      "as_of": "2026-11-09",
+      "source": "ZETA 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001193125-26-453558",
+      "note": "FY2026 revenue guide high end"
+    },
+    "guide_ebitda_low_m": {
+      "value": 414.1,
+      "as_of": "2026-11-09",
+      "source": "ZETA 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001193125-26-453558",
+      "note": "FY2026 adjusted EBITDA guide low end (was $404.1-406.3M in August)"
+    },
+    "guide_ebitda_high_m": {
+      "value": 415.2,
+      "as_of": "2026-11-09",
+      "source": "ZETA 8-K EX-99.1, 2026-11-09 (sources/8k-2026-11-09-q3-release.htm.gz)",
+      "accession": "0001193125-26-453558",
+      "note": "FY2026 adjusted EBITDA guide high end"
+    }
+  },
+  "notes": [
+    "FY2026 free cash flow guide (company definition) is $270.6-271.6M; nine-month company FCF was $181.2M, so Q4 is implied at about $89.9M.",
+    "Nine-month stock-based compensation was $155.1M (about 11% of revenue) and share repurchases $85.5M.",
+    "A $70.0M loan advance (borrower not named in the 10-Q) sits in other non-current assets and is left out of net debt."
+  ]
+}

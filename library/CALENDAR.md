@@ -67,7 +67,6 @@ The company has reported since the latest call. These names are due an update no
 | 2026-08-04 | 2 | [SKT](SKT.md) | 2026-07-28 |
 | 2026-08-04 | 2 | [SPCX](SPCX.md) | 2026-06-13 |
 | 2026-08-04 | 2 | [TMDX](TMDX.md) | 2026-05-24 |
-| 2026-08-04 | 2 | [ZETA](ZETA.md) | 2026-05-24 |
 | 2026-08-05 | 1 | [CENTA](CENTA.md) | 2026-06-26 |
 | 2026-08-05 | 2 | [CVS](CVS.md) | 2026-06-19 |
 | 2026-08-05 | 2 | [CXW](CXW.md) | 2026-06-23 |

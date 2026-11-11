@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "ticker": "ZETA",
+  "exchange": "NYSE",
+  "company": "Zeta Global Holdings Corp.",
+  "sector": "Marketing technology / adtech / customer data platform / AI marketing automation",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "ZETA/2026-05-24",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q2 and Q3 2026; FY2026 guide raised twice)",
+  "stance": "watch",
+  "bias": "positive",
+  "stance_text": "Watch — unchanged; value raised on faster growth and cash flow, but the price has risen 87% and dilution runs at 4–5% a year",
+  "rating_override_reason": null,
+  "primary_lens": "fcf",
+  "lens_text": "FY2029 company-defined free cash flow x exit multiple, plus end-2029 net cash, on projected diluted shares (stock compensation counted through dilution); three-year value, undiscounted",
+  "price": {
+    "value": 35.07,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 19.03,
+      "weight": 0.25,
+      "revenue_cagr": 0.07,
+      "basis": "FY2029 revenue $2.27B (10%/7%/4%, +7% a year), FCF 15% ($341M) x 15x = $5,109M, plus $838M end-2029 net cash, on 312.5M shares (5% a year net dilution)"
+    },
+    "base": {
+      "value": 41.67,
+      "weight": 0.5,
+      "revenue_cagr": 0.16,
+      "basis": "FY2029 revenue $2.89B (20%/16%/12%, +16% a year), FCF 18% ($521M) x 22x = $11,452M, plus $1,201M end-2029 net cash, on 303.6M shares (4% a year net dilution)"
+    },
+    "bull": {
+      "value": 76.05,
+      "weight": 0.25,
+      "revenue_cagr": 0.22,
+      "basis": "FY2029 revenue $3.37B (25%/22%/19%, +22% a year), FCF 21% ($707M) x 30x = $21,208M, plus $1,550M end-2029 net cash, on 299.3M shares (3.5% a year net dilution)"
+    }
+  },
+  "fair_value": {
+    "value": 44.61,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Zeta beat and raised twice since May: Q3 revenue grew 46% (30% excluding Marigold and political revenue), GAAP net income reached $38 million, and the FY2026 free-cash-flow guide rose to $271 million (14.6% of revenue). The business is worth more than the May call said, but the stock rose 87% to $35.07, 35.7x trailing free cash flow, stock compensation runs at 11.6% of revenue, and the diluted share count grew 5.3% in a year despite buybacks. If growth slows to 16% a year, free-cash-flow margins reach 18% by 2029 and dilution runs at 4% a year, the stock is worth about $42.",
+  "consensus_view": "No Street snapshot was captured. The stock rose 11.6% after the Q2 release and 8.2% after Q3, to 4.8x the 2026 revenue guide and 35.7x trailing free cash flow, above ZETA's own 57-month p75 of 31.6x. On our base fundamentals the price implies about 18x FY2029 free cash flow, so the market is paying for roughly the base case, not more.",
+  "variant_view": "The market prices ZETA at about 18x our base FY2029 free cash flow, below the 21x peer median, so it doubts the growth lasts. We think the record (21 straight beat-and-raise quarters, an initial 2026 guide about 4% below the likely result) supports 16% a year, but net dilution of about 4% a year absorbs most of that gap, leaving upside below the 15% Own line. Checkable: FY2027 revenue of at least $2.2 billion while the Q4 2027 non-GAAP diluted count exceeds 280 million.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "FY2026 results and first 2027 guide",
+      "timing": "About February 23, 2027 (last year's release was February 24, 2026, after the close)",
+      "date": "2027-02-23",
+      "kind": "hard",
+      "what_it_proves": "Whether the initial 2027 guide is consistent with the base case's 20% growth (about $2.14B or more, allowing for initial guides that have run about 4% below the result) and whether free cash flow reached the $271M guide",
+      "value_impact": "An initial 2027 revenue guide below $2.08B (12% growth) fires a kill criterion; a guide above $2.25B moves weight to the bull"
+    },
+    {
+      "event": "AthenaOS beta and general availability",
+      "timing": "2027 (timing not given in the release)",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the AI agent product brings new revenue beyond the marketing cloud",
+      "value_impact": "Paid adoption supports the bull's 22% growth"
+    },
+    {
+      "event": "2028 US election cycle",
+      "timing": "2028",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Political candidate revenue returns",
+      "value_impact": "Small; it was $7.4M in Q3 2026"
+    },
+    {
+      "event": "Use of the $750M revolver for acquisitions",
+      "timing": "Each quarter",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether growth starts to depend on bought revenue again",
+      "value_impact": "A large debt-funded deal moves weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Organic growth falls below 10% once political revenue lapses and large customers stop expanding, and the multiple falls to the 15x free cash flow where Box and CCC trade.",
+      "signal": "Growth excluding M&A and political revenue in the Q4 2026 and Q1 2027 releases against 22%"
+    },
+    {
+      "reason": "Stock compensation stays above 10% of revenue and acquisitions are paid in stock, so the share count grows 5% a year or more and per-share value stalls.",
+      "signal": "Non-GAAP diluted share count each quarter against 269.9 million"
+    },
+    {
+      "reason": "Free cash flow stalls because receivables grow faster than revenue as large customers stretch payment terms.",
+      "signal": "Accounts receivable against $370.3 million and nine-month FCF against $181.2 million"
+    },
+    {
+      "reason": "A privacy rule or a large data partner's policy change cuts the value of Zeta's identity data, and ARPU falls.",
+      "signal": "Super-scaled customer ARPU against $2.0 million"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: AthenaOS brings a new growth leg, growth holds above 20% through 2028, and the market keeps paying 35x free cash flow.",
+      "signal": "Initial 2027 revenue guide above $2.25 billion"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Initial FY2027 revenue guide midpoint below $2.08 billion (under 12% growth)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2026 free cash flow (company definition) below $260 million (Q4 below about $79 million against $89.9 million implied by the guide)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Non-GAAP diluted share count above 290 million in Q4 2027 (about 6% a year, faster than the bear's 5%)",
+      "check_by": "2028-03-15",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "q4-26-revenue-535m",
+      "claim": "ZETA reports Q4 2026 revenue of at least $535 million (about $12 million above the top of the $521-525M guide).",
+      "probability": 0.7,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-fcf-271m",
+      "claim": "ZETA reports FY2026 free cash flow (company definition) of at least $271 million.",
+      "probability": 0.7,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy27-guide-below-2-15b",
+      "claim": "The midpoint of ZETA's initial FY2027 revenue guide is below $2.15 billion.",
+      "probability": 0.6,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-sbc-under-205m",
+      "claim": "ZETA reports FY2026 stock-based compensation below $205 million (Q4 below $49.9 million against $50.0 million in Q3).",
+      "probability": 0.45,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q4-27-diluted-285m",
+      "claim": "ZETA's Q4 2027 weighted shares used for non-GAAP EPS exceed 285 million (the base projects about 283.5 million, the bear about 287 million).",
+      "probability": 0.4,
+      "resolve_by": "2028-03-15"
+    },
+    {
+      "id": "fy27-revenue-2-2b",
+      "claim": "ZETA reports FY2027 revenue of at least $2.2 billion.",
+      "probability": 0.55,
+      "resolve_by": "2028-03-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price near $30 with the business on the base path, or an initial 2027 guide above $2.25 billion with free-cash-flow margin guided above 16%",
+    "Toward Own: stock compensation falling below 8% of revenue with a flat share count",
+    "Toward Avoid: an initial 2027 guide below 12% growth, or FY2026 free cash flow below $260 million",
+    "Toward Avoid: a large debt-funded acquisition or the non-GAAP diluted share count above 290 million in Q4 2027"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $1.5B–$3B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from the $1,855M 2026 guide midpoint)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 89
+  },
+  "update": {
+    "event": "Q2 2026 results (8-K, 2026-08-04) and Q3 2026 results (8-K, 2026-11-09), FY2026 guide raised both times",
+    "event_date": "2026-11-09",
+    "expected": "May call: Watch, base about $27 (16% revenue growth to FY2030, 14-15% FCF margin, 20-24x FCF); watch organic growth ex-Marigold, super-scaled customers, FCF conversion, SBC and buybacks; no claims or kill criteria",
+    "actual": "Q2 revenue $443M (+44%), Q3 $493M (+46%, 30% ex Marigold and political); Q3 adjusted EBITDA $121.0M (24.6%), GAAP net income $38.3M, FCF $81.5M; FY2026 guide revenue $1,853-1,857M, adjusted EBITDA $414.1-415.2M, FCF $270.6-271.6M; 212 super-scaled customers, ARPU $2.0M; nine-month SBC $155.1M, buybacks $85.5M",
+    "thesis_pillars": [
+      {
+        "pillar": "Organic growth holds in the high teens or better",
+        "status": "strengthened",
+        "note": "30% in Q3 ex Marigold and political; Q4 guide 22-24% ex M&A and political"
+      },
+      {
+        "pillar": "Large customers expand",
+        "status": "strengthened",
+        "note": "212 super-scaled customers (+18%), ARPU $2.0M (+22%)"
+      },
+      {
+        "pillar": "EBITDA converts to free cash flow",
+        "status": "intact",
+        "note": "Nine-month FCF $181.2M, 65% of adjusted EBITDA"
+      },
+      {
+        "pillar": "Stock compensation and dilution come down",
+        "status": "weakened",
+        "note": "SBC 11.6% of revenue; diluted count up 5.3% in a year; $78.5M of buyback authorization left"
+      },
+      {
+        "pillar": "Marigold integrates without drag",
+        "status": "intact",
+        "note": "Enterprise revenue $48M a quarter in Q2 and Q3, down from $55.6M in Q1"
+      }
+    ],
+    "action": "raise"
+  },
+  "next_review": "2027-02-24",
+  "next_review_trigger": "FY2026 results and first 2027 guide, expected around February 23, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/ZETA/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/ZETA/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "ZETA closed at $35.07 on November 10, 2026",
+    "scenarios.base.value": "| Base | $27 | $41.67 |",
+    "fair_value.value": "| Fair value | $27 (base) | $44.61 |"
+  },
+  "notes": [
+    "The May call used FY2030 values with no weights or horizon; this update states three-year values at the end of 2029, so the two are not directly comparable.",
+    "Peer multiples come from the SIC 7372 names already in coverage.",
+    "No Street consensus snapshot was captured for this update.",
+    "Revised twice after independent review (B, then B): dilution raised to the observed 4-5% a year, buybacks limited to the remaining authorization, a growth glide path, peer names corrected, kill criteria that can fire, upside triggers above the base case, and the bull-weight dependence stated; see review.",
+    "First review round (B; evidence 4, valuation 3, variant view 2, risk 4, calibration 3): net dilution of 1.5-2.5% a year contradicted the 5.3% observed, buybacks exceeded the remaining authorization, the consensus view contradicted the model's implied 17.6x, and the FCF kill criterion could barely fire. First draft values were $19.45 / $43.15 / $79.60, fair value $46.34."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "variant_view: the variant view argued bearish (per-share value compounds below FCF growth) while the fair value sits 27% above the price and the consensus view says the market pays for roughly the base case; its checkable prediction (Q4 2027 diluted count above 280M) is what every scenario already assumes.",
+      "calibration: 75% of the weight still on 89th- and 95.5th-percentile scenarios, defended only by momentum; the 280M dilution claim at 0.6 conflicts with a model that puts every scenario above 280M."
+    ],
+    "grade": "B",
+    "counter_case": "Watch depends on the bull. At one third bear and two thirds base the fair value is $34.12, below $35.07. The bull is worth $76.05, needs 95.5th-percentile growth and 30x, and supplies 43% of the fair value; the base alone returns 5.9% a year at 89th-percentile growth, and at 75th-percentile growth it is worth about $35.43, roughly today's price. With the stock at 35.7x trailing FCF, above its own p75, stock compensation at 11.6% of revenue and 4-5% a year dilution, holding the bull at 25% after an 87% rally is the market's optimism, not evidence.",
+    "response": "Accepted the corrections: change_my_mind uses the $260M FCF threshold; catalyst 1 and the upside triggers move to an initial 2027 guide above $2.25B, above the base's path once the about 4% gap between initial guides and results (2026: $1,785M initial vs $1,855M now) is allowed for; the dilution claim moves to 285M at 0.4 to match the model's 283.5M base and 287M bear; the annual return is 8.4%; the variant view now states the disagreement with the market's roughly 18x pricing and a checkable FY2027 revenue claim. We correct the first-round response: Avoid would need the bull's weight moved to the bear or all exits cut about 23%, not an 18x base exit. On the counter-case, the note now shows that one third bear and two thirds base gives $34.12. We keep 25% on the bull because it is roughly today's reported trend carried forward (30% organic growth in Q3, margins rising) rather than a new story; the Q3 2026 share count compounded to end-2029 instead of Q3 2029 would lower values about 1%, which does not change the stance."
+  }
+}

@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 131 calls have a mark.
+125 of 132 calls have a mark.
 
 ## By published stance
 
@@ -15,8 +15,8 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | Pass | 2 | 215 | -17.0% | -21.9% | 0/2 |
 | Watch | 81 | 108 | -0.3% | -0.3% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
-| Watch (positive) | 20 | 69 | +10.9% | +11.1% | 10/20 |
-| unstated | 13 | 185 | +7.7% | +4.4% | 9/13 |
+| Watch (positive) | 20 | 69 | +11.6% | +11.9% | 10/20 |
+| unstated | 13 | 185 | +8.6% | +5.3% | 9/13 |
 
 ## By rule rating
 
@@ -24,8 +24,8 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 |---|---:|---:|---:|---:|---:|
 | Avoid | 22 | 128 | -3.0% | -3.8% | 9/22 |
 | Own | 26 | 152 | +12.4% | +11.5% | 16/26 |
-| Watch | 71 | 99 | +3.7% | +3.8% | 35/71 |
-| — | 6 | 175 | +0.3% | -4.1% | 2/6 |
+| Watch | 71 | 99 | +3.8% | +4.0% | 35/71 |
+| — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
 ## By stated upside to fair value
 
@@ -33,16 +33,16 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 |---|---:|---:|---:|---:|---:|
 | -10% to 10% | 23 | 99 | -2.8% | -3.0% | 6/23 |
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
-| 30% to 70% | 38 | 99 | +11.6% | +11.7% | 22/38 |
+| 30% to 70% | 38 | 99 | +12.0% | +12.0% | 22/38 |
 | 70%+ | 19 | 164 | +11.3% | +10.3% | 12/19 |
 | below -10% | 13 | 131 | -7.4% | -7.9% | 6/13 |
-| — | 6 | 175 | +0.3% | -4.1% | 2/6 |
+| — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
 Calibration context: published 12-month price targets are met at the horizon only about 38% of the time (Bradshaw, Brown and Huang 2013), and targets 70% or more away from the price are hit under 25% of the time (Asquith, Mikhail and Au 2005). Large stated upside is a calibration risk until the scorecard shows otherwise.
 
 ## Probability claims
 
-28 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+34 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -61,16 +61,16 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 |---|---|---|---:|---:|---:|---:|---:|---|
 | [GTLB/2026-04-25](GTLB.md) | Watch (negative) | Own | $21.00 | $35.00 | $46.00 | +119.1% | +113.1% | base to bull |
 | [ELF/2026-06-13](ELF.md) | Watch (positive) | Watch | $61.15 | $87.50 | $119.35 | +95.2% | +93.2% | base to bull |
+| [ZETA/2026-05-24](ZETA.md) | Watch (positive) | Watch | $18.79 | $27.00 | $35.07 | +86.6% | +85.6% | base to bull |
 | [GTLB/2026-05-24](GTLB.md) | Watch | Watch | $26.73 | $38.00 | $47.12 | +76.3% | +74.8% | base to bull |
-| [ZETA/2026-05-24](ZETA.md) | Watch (positive) | Watch | $18.79 | $27.00 | $32.42 | +72.5% | +71.1% | base to bull |
 | [DCBO/2026-05-29](DCBO.md) | Own (positive) | Own | $18.28 | $43.00 | $31.18 | +70.6% | +70.6% | bear to base |
 | [PAY/2026-06-24](PAY.md) | Watch | Avoid | $20.56 | $19.08 | $34.21 | +66.4% | +63.5% | above bull |
+| [ZETA/2026-01-25](ZETA.md) | unstated | — | $21.58 | — | $34.80 | +61.2% | +51.6% | — |
 | [OLLI/2026-07-09](OLLI.md) | Watch (negative) | Watch | $63.72 | $73.46 | $94.81 | +48.8% | +48.4% | base to bull |
 | [CART/2026-05-29](CART.md) | Watch | Watch | $39.80 | $52.00 | $58.46 | +46.9% | +46.9% | base to bull |
 | [PLTR/2026-06-24](PLTR.md) | Watch | Own | $113.50 | $374.00 | $169.20 | +49.1% | +46.2% | bear to base |
 | [ICE/2026-06-30](ICE.md) | Watch | Watch | $123.11 | $165.00 | $176.95 | +43.7% | +43.1% | base to bull |
 | [FDS/2026-05-26](FDS.md) | Watch (positive) | — | $232.00 | — | $328.80 | +41.7% | +40.6% | — |
-| [ZETA/2026-01-25](ZETA.md) | unstated | — | $21.58 | — | $32.17 | +49.1% | +39.0% | — |
 | [CCL/2026-09-10](CCL.md) | Watch (positive) | Watch | $22.70 | $32.27 | $30.90 | +36.1% | +37.5% | bear to base |
 | [ONON/2026-09-08](ONON.md) | Watch (positive) | Own | $27.99 | $48.40 | $37.53 | +34.1% | +36.1% | bear to base |
 | [TMDX/2026-05-11](TMDX.md) | unstated | Avoid | $67.84 | $67.00 | $93.79 | +38.3% | +35.7% | base to bull |

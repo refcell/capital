@@ -571,7 +571,7 @@
   },
   "facts/ZETA": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001851003.json",
-    "fetched_at": "2026-11-11T03:40:45+00:00",
+    "fetched_at": "2026-11-11T04:26:14+00:00",
     "sha256": "0c2caacf7c0aa20ae72cd4c2f4ffcac0b77d4e080dd0967715629f034c995df5"
   },
   "submissions/A": {
@@ -1146,7 +1146,7 @@
   },
   "submissions/ZETA": {
     "url": "https://data.sec.gov/submissions/CIK0001851003.json",
-    "fetched_at": "2026-11-11T03:40:44+00:00",
+    "fetched_at": "2026-11-11T04:26:13+00:00",
     "sha256": "18dfa3b5768b05325fd1abf6f804597a97595ca3a1ad543c7489e6d111a96c72"
   }
 }

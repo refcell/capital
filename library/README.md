@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 131 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 132 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -132,4 +132,4 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [WU](WU.md) | The Western Union Company | Financials | active | 2026-10-23 | 1 | Watch | Watch | $6.43 | $7.30 | +4.3% | +7.9% | +9.8% |
 | [WYNN](WYNN.md) | Wynn Resorts, Limited | Consumer Discretionary | active | 2026-09-01 | 1 | Watch (positive) | Watch | $91.28 | $121.78 | +10.1% | -4.4% | -2.4% |
 | [XNCR](XNCR.md) | Xencor, Inc. | Healthcare | active | 2026-10-29 | 1 | Watch | Watch | $29.99 | $34.71 | +5.0% | +28.7% | +31.2% |
-| [ZETA](ZETA.md) | Zeta Global Holdings Corp. | Marketing technology | active | 2026-05-24 | 2 | Watch (positive) | Watch | $18.79 | $27.00 | +12.8% | +72.5% | +71.1% |
+| [ZETA](ZETA.md) | Zeta Global Holdings Corp. | Marketing technology | active | 2026-11-11 | 3 | Watch (positive) | Watch | $35.07 | $44.61 | +8.4% | — | — |

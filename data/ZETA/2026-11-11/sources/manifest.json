@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/ZETA.csv",
+      "commit": "934ae415c7ec",
+      "sha256": "75e89fe896a6c1ef9aa1f1fcb15aca7079d72ff6d97e9e1fbb18e7eec3d86e59",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "934ae415c7ec",
+      "sha256": "f0bec00dec8fa66809c191dd40ef1963035c6700b90f7efc72fd50e46845660a",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-2026-08-04-q2-release-htm",
+      "kind": "file",
+      "path": "8k-2026-08-04-q2-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1851003/000119312526332770/zeta-ex99_1.htm",
+      "fetched_at": "2026-11-11T04:28:37+00:00",
+      "sha256": "f570abce2088b8c54de5c6f534bed666573b9b07edc976caa8dc4b68723c0084",
+      "description": "8-K EX-99.1, Q2 2026 results and raised FY2026 guide (accession 0001193125-26-332770), gzip"
+    },
+    {
+      "id": "8k-2026-11-09-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1851003/000119312526453558/zeta-ex99_1.htm",
+      "fetched_at": "2026-11-11T04:28:37+00:00",
+      "sha256": "4ad4e33ec30e66fed8f14cec0470a6059e65b4f989175cc53a9b7a338e91e763",
+      "description": "8-K EX-99.1, Q3 2026 results, Q4 and FY2026 guide (accession 0001193125-26-453558), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1851003/000119312526453696/zeta-20260930.htm",
+      "fetched_at": "2026-11-11T04:28:37+00:00",
+      "sha256": "e34d13070389b20381976f0435a4a9205a9236c119dade8a39f9b3fb94996c28",
+      "description": "10-Q for the quarter ended September 30, 2026; credit facility, loan advances, equity roll-forward, subsequent acquisitions (accession 0001193125-26-453696), gzip"
+    }
+  ]
+}

@@ -577,6 +577,6 @@
   "ZETA": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZETA",
-    "last_capture": "2026-11-11T02:23:26+00:00"
+    "last_capture": "2026-11-11T04:26:13+00:00"
   }
 }

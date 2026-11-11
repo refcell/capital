@@ -13,29 +13,29 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ACI](ACI.md) | Retail-Grocery Stores | — | 8.8–13.1x | 0.2x | 0.2–0.3x | 38.9x | 9.5–13.8x | SIC 54xx, 1 names: 0.5x, 9.4x |
 | [ACM](ACM.md) | Services-Engineering Services | 31.5x | 27.6–53.7x | 0.6x | 0.6–0.8x | 14.6x | 15.3–29.9x | — |
 | [AEG](AEG.md) | Life Insurance | — | — | — | — | — | — | SIC 63xx, 3 names: 0.5x, 23.8x |
-| [APP](APP.md) | Services-Computer Programming, Data Processing, Etc. | 27.4x | 47.5–101.2x | 17.9x | 5.2–25.8x | 23.0x | 37.3–79.3x | SIC 737x, 14 names: 4.9x, 44.5x |
+| [APP](APP.md) | Services-Computer Programming, Data Processing, Etc. | 27.4x | 47.5–101.2x | 17.9x | 5.2–25.8x | 23.0x | 37.3–79.3x | SIC 737x, 14 names: 5.0x, 44.5x |
 | [AVGO](AVGO.md) | Semiconductors & Related Devices | 275.2x | 59.1–207.1x | 18.2x | 7.7–17.9x | 37.8x | 28.5–55.8x | SIC 36xx, 1 names: 15.0x, — |
 | [BANC](BANC.md) | National Commercial Banks | — | 12.7–24.1x | 3.2x | 2.6–136.1x | — | — | SIC 60xx, 2 names: 4.0x, 18.3x |
 | [BE](BE.md) | Electrical Industrial Apparatus | — | — | 15.0x | 1.9–4.6x | 101.0x | 172.8–403.9x | SIC 36xx, 1 names: 18.2x, 275.2x |
 | [BIP](BIP.md) | Water Transportation | — | — | — | 2.9–4.6x | — | 12.5–14.8x | SIC 44xx, 2 names: 2.8x, 12.8x |
 | [BMA](BMA.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
-| [BOX](BOX.md) | Services-Prepackaged Software | 44.5x | 21.5–40.3x | 4.9x | 3.7–4.5x | 51.8x | 58.3–77.7x | SIC 7372, 10 names: 5.3x, 61.2x |
+| [BOX](BOX.md) | Services-Prepackaged Software | 44.5x | 21.5–40.3x | 4.9x | 3.7–4.5x | 51.8x | 58.3–77.7x | SIC 7372, 10 names: 5.5x, 61.2x |
 | [C](C.md) | National Commercial Banks | 16.0x | 6.3–13.3x | 4.0x | 2.4–3.7x | — | — | SIC 60xx, 2 names: 3.2x, 20.7x |
 | [CART](CART.md) | Services-Business Services, NEC | 29.9x | 23.3–26.8x | 3.1x | 2.3–2.8x | 21.7x | 16.7–21.1x | SIC 7389, 6 names: 1.8x, 16.5x |
-| [CCC](CCC.md) | Services-Prepackaged Software | 61.2x | 139.2–252.5x | 4.9x | 6.8–8.7x | 27.4x | 78.6–109.4x | SIC 7372, 10 names: 5.3x, 44.5x |
+| [CCC](CCC.md) | Services-Prepackaged Software | 61.2x | 139.2–252.5x | 4.9x | 6.8–8.7x | 27.4x | 78.6–109.4x | SIC 7372, 10 names: 5.5x, 44.5x |
 | [CCL](CCL.md) | Water Transportation | 13.4x | 11.7–17.6x | 2.3x | 2.0–2.6x | 14.7x | 11.8–14.9x | SIC 44xx, 2 names: 3.2x, 12.1x |
 | [CELH](CELH.md) | Bottled & Canned Soft Drinks & Carbonated Waters | 26.4x | 45.2–500.4x | 2.6x | 4.8–13.9x | 19.9x | 47.8–501.6x | SIC 20xx, 3 names: 0.9x, 17.7x |
 | [CENTA](CENTA.md) | Wholesale-Miscellaneous Nondurable Goods | 15.3x | 14.4–18.7x | 0.9x | 0.8–1.0x | 11.0x | 11.4–14.2x | — |
 | [CG](CG.md) | Investment Advice | 42.2x | 9.0–31.6x | 4.3x | 1.2–4.2x | — | — | SIC 62xx, 5 names: 8.4x, 23.9x |
 | [CHRD](CHRD.md) | Crude Petroleum & Natural Gas | 8.4x | 3.9–8.6x | 1.2x | 1.5–1.9x | 5.2x | 4.7–16.9x | — |
-| [CLBT](CLBT.md) | Services-Prepackaged Software | 40.5x | 8.2–37.7x | 6.1x | 4.1–9.2x | 43.5x | 59.1–79.4x | SIC 7372, 10 names: 4.9x, 61.2x |
+| [CLBT](CLBT.md) | Services-Prepackaged Software | 40.5x | 8.2–37.7x | 6.1x | 4.1–9.2x | 43.5x | 59.1–79.4x | SIC 7372, 10 names: 5.1x, 61.2x |
 | [CNC](CNC.md) | Hospital & Medical Service Plans | 23.8x | 16.1–26.3x | 0.1x | 0.2–0.4x | 26.4x | 11.3–21.4x | SIC 63xx, 2 names: 0.9x, 35.6x |
 | [CNM](CNM.md) | Wholesale-Durable Goods, NEC | 19.1x | 19.6–26.2x | 1.5x | 1.3–1.8x | 15.2x | 12.5–17.4x | — |
-| [CRM](CRM.md) | Services-Prepackaged Software | 18.1x | 47.3–194.2x | 4.6x | 6.2–9.1x | 23.3x | 38.5–336.2x | SIC 7372, 10 names: 5.3x, 61.2x |
+| [CRM](CRM.md) | Services-Prepackaged Software | 18.1x | 47.3–194.2x | 4.6x | 6.2–9.1x | 23.3x | 38.5–336.2x | SIC 7372, 10 names: 5.5x, 61.2x |
 | [CVE](CVE.md) | Crude Petroleum & Natural Gas | — | — | — | — | — | — | SIC 13xx, 1 names: 1.2x, 8.4x |
 | [CVS](CVS.md) | Retail-Drug Stores and Proprietary Stores | 10.4x | 11.9–22.6x | 0.4x | 0.4–0.6x | 10.8x | 10.6–18.4x | SIC 59xx, 1 names: 2.4x, 19.6x |
 | [CXW](CXW.md) | Real Estate Investment Trusts | 23.7x | 9.4–16.5x | 1.1x | 1.3–1.7x | 25.4x | 15.8–25.0x | SIC 6798, 3 names: 3.9x, 35.0x |
-| [DCBO](DCBO.md) | Services-Prepackaged Software | 24.4x | 29.8–195.2x | 3.4x | 3.7–7.9x | 35.4x | 28.9–98.2x | SIC 7372, 10 names: 5.3x, 61.2x |
+| [DCBO](DCBO.md) | Services-Prepackaged Software | 24.4x | 29.8–195.2x | 3.4x | 3.7–7.9x | 35.4x | 28.9–98.2x | SIC 7372, 10 names: 5.5x, 61.2x |
 | [DLO](DLO.md) | Services-Business Services, NEC | 22.1x | 21.4–50.7x | 3.3x | 3.3–11.4x | 16.4x | 15.3–37.3x | SIC 7389, 6 names: 1.8x, 20.4x |
 | [DNLI](DNLI.md) | Biological Products, (No Diagnostic Substances) | — | 106.2–146.7x | 128.3x | 9.1–45.1x | — | 93.0–131.9x | SIC 283x, 4 names: 4.8x, 41.9x |
 | [DRH](DRH.md) | Real Estate Investment Trusts | 18.5x | 18.6–26.6x | 3.5x | 2.6–3.6x | — | 8.7–23.7x | SIC 6798, 3 names: 3.9x, 35.0x |
@@ -43,13 +43,13 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ESQ](ESQ.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [ETOR](ETOR.md) | Security Brokers, Dealers & Flotation Companies | 10.3x | — | 0.1x | — | — | — | SIC 62xx, 5 names: 8.4x, 38.3x |
 | [FCFS](FCFS.md) | Retail-Miscellaneous Retail | 19.6x | 20.4–27.3x | 2.4x | 2.0–2.5x | — | — | SIC 59xx, 1 names: 0.4x, 10.4x |
-| [FDS](FDS.md) | Services-Computer Programming, Data Processing, Etc. | 22.4x | 28.5–35.4x | 5.1x | 6.4–8.7x | 18.0x | 22.4–28.8x | SIC 737x, 14 names: 4.9x, 44.5x |
+| [FDS](FDS.md) | Services-Computer Programming, Data Processing, Etc. | 22.4x | 28.5–35.4x | 5.1x | 6.4–8.7x | 18.0x | 22.4–28.8x | SIC 737x, 14 names: 5.1x, 44.5x |
 | [FOUR](FOUR.md) | Services-Business Services, NEC | 0.4x | 0.5–0.6x | 1.6x | 0.9–4.1x | 18.9x | 7.3–20.4x | SIC 7389, 6 names: 2.5x, 26.0x |
-| [FRSH](FRSH.md) | Services-Prepackaged Software | 15.4x | — | 2.7x | 2.8–6.5x | 38.0x | — | SIC 7372, 10 names: 5.3x, 61.2x |
+| [FRSH](FRSH.md) | Services-Prepackaged Software | 15.4x | — | 2.7x | 2.8–6.5x | 38.0x | — | SIC 7372, 10 names: 5.5x, 61.2x |
 | [GENI](GENI.md) | Services-Miscellaneous Amusement & Recreation | — | — | — | 0.1–0.3x | — | — | — |
 | [GNW](GNW.md) | Life Insurance | 59.3x | 3.0–16.3x | 0.5x | 0.4–0.5x | 88.5x | 5.0–83.1x | SIC 63xx, 2 names: 0.7x, 17.8x |
 | [GPI](GPI.md) | Retail-Auto Dealers & Gasoline Stations | 8.2x | 5.8–11.5x | 0.1x | 0.1–0.2x | 2.9x | 3.5–5.3x | — |
-| [GTLB](GTLB.md) | Services-Prepackaged Software | — | — | 7.3x | 8.6–15.8x | — | — | SIC 7372, 10 names: 4.9x, 52.9x |
+| [GTLB](GTLB.md) | Services-Prepackaged Software | — | — | 7.3x | 8.6–15.8x | — | — | SIC 7372, 10 names: 5.1x, 52.9x |
 | [HIMS](HIMS.md) | Services-Offices & Clinics of  Doctors of  Medicine | — | 56.1–84.8x | 1.3x | 2.3–4.4x | — | 77.5–167.6x | SIC 80xx, 3 names: 0.3x, — |
 | [HOOD](HOOD.md) | Security Brokers, Dealers & Flotation Companies | 38.3x | 38.3–64.6x | 14.3x | 2.0–16.0x | — | — | SIC 62xx, 5 names: 4.3x, 23.9x |
 | [ICE](ICE.md) | Security & Commodity Brokers, Dealers, Exchanges & Services | 23.9x | 22.5–31.6x | 8.4x | 7.8–9.4x | 20.7x | 19.7–25.4x | SIC 62xx, 5 names: 4.3x, 38.3x |
@@ -65,10 +65,10 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [MELI](MELI.md) | Services-Business Services, NEC | 40.0x | 60.8–189.3x | 2.1x | 5.0–15.3x | 28.5x | 39.6–81.7x | SIC 7389, 6 names: 2.2x, 16.5x |
 | [MFG](MFG.md) | National Commercial Banks | — | — | — | — | — | — | SIC 6021, 3 names: 3.6x, 18.3x |
 | [MIDD](MIDD.md) | Refrigeration & Service Industry Machinery | 36.1x | 18.0–24.1x | 2.4x | 2.4–3.4x | 13.9x | 14.9–19.4x | SIC 35xx, 2 names: 4.7x, 29.2x |
-| [NBIS](NBIS.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 4.9x, 42.5x |
+| [NBIS](NBIS.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |
 | [NDSN](NDSN.md) | General Industrial Machinery & Equipment, NEC | 32.8x | 25.4–31.4x | 6.6x | 4.5–5.9x | 24.6x | 19.6–24.1x | SIC 35xx, 2 names: 2.6x, 30.8x |
 | [NKE](NKE.md) | Rubber & Plastics Footwear | 18.6x | 25.9–39.8x | 1.2x | 2.6–3.9x | — | — | — |
-| [NOW](NOW.md) | Services-Prepackaged Software | 74.2x | 91.6–420.1x | 7.0x | 12.3–18.1x | 72.0x | 137.8–429.1x | SIC 7372, 10 names: 4.9x, 44.5x |
+| [NOW](NOW.md) | Services-Prepackaged Software | 74.2x | 91.6–420.1x | 7.0x | 12.3–18.1x | 72.0x | 137.8–429.1x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [NRG](NRG.md) | Electric Services | 16.2x | 4.0–23.2x | 1.2x | 0.9–1.7x | 16.1x | 9.4–22.7x | SIC 49xx, 2 names: 5.1x, 7.3x |
 | [NU](NU.md) | Finance Services | — | 37.0–57.6x | — | 5.6–6.9x | — | — | SIC 61xx, 2 names: 29.9x, 30.8x |
 | [OLLI](OLLI.md) | Retail-Variety Stores | 20.9x | 23.7–34.6x | 2.0x | 2.1–3.1x | 16.7x | 19.6–27.3x | — |
@@ -77,10 +77,10 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ONON](ONON.md) | Rubber & Plastics Footwear | — | — | — | — | — | — | SIC 30xx, 1 names: 1.2x, 18.6x |
 | [ORKA](ORKA.md) | Pharmaceutical Preparations | — | — | — | — | — | — | SIC 2834, 4 names: 4.8x, 41.9x |
 | [PAY](PAY.md) | Services-Business Services, NEC | 47.2x | 70.6–238.3x | 2.9x | 2.5–3.9x | 34.7x | 58.8–171.5x | SIC 7389, 6 names: 1.8x, 16.5x |
-| [PEGA](PEGA.md) | Services-Computer Processing & Data Preparation | 18.0x | 44.7–109.6x | 2.8x | 3.2–6.0x | 28.0x | 32.5–81.6x | SIC 737x, 14 names: 5.0x, 44.5x |
+| [PEGA](PEGA.md) | Services-Computer Processing & Data Preparation | 18.0x | 44.7–109.6x | 2.8x | 3.2–6.0x | 28.0x | 32.5–81.6x | SIC 737x, 14 names: 5.2x, 44.5x |
 | [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 9.7x, — |
 | [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | — |
-| [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 4.9x, 44.5x |
+| [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.4x | SIC 20xx, 3 names: 1.5x, 23.7x |
 | [PPC](PPC.md) | Poultry Slaughtering and Processing | 21.1x | 9.2–23.8x | 0.5x | 0.5–0.7x | 14.4x | 7.9–18.9x | SIC 20xx, 3 names: 1.9x, 20.3x |
 | [PRIM](PRIM.md) | Water, Sewer, Pipeline, Comm & Power Line Construction | 40.0x | 11.5–20.6x | 0.6x | 0.5–0.6x | 25.4x | 9.9–13.1x | — |
@@ -97,12 +97,12 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [SMR](SMR.md) | Fabricated Plate Work (Boiler Shops) | — | — | 476.2x | 23.3–115.7x | — | — | — |
 | [SOFI](SOFI.md) | Finance Services | 30.8x | 37.4–55.6x | 39.6x | 25.4–41.1x | — | — | SIC 61xx, 1 names: 20.2x, — |
 | [SOLV](SOLV.md) | Surgical & Medical Instruments & Apparatus | 99.0x | 9.2–31.8x | 2.4x | 2.1–2.4x | 43.0x | 8.1–24.4x | SIC 38xx, 2 names: 5.6x, 30.7x |
-| [SPCX](SPCX.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 4.9x, 42.5x |
+| [SPCX](SPCX.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |
 | [SPXC](SPXC.md) | Metalworkg Machinery & Equipment | 25.5x | 18.0–44.2x | 2.9x | 1.0–3.0x | 17.7x | 18.7–28.6x | SIC 35xx, 2 names: 4.5x, 34.5x |
 | [SSB](SSB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [STEP](STEP.md) | Investment Advice | — | 11.5–56.3x | 1.8x | 1.7–4.3x | — | — | SIC 62xx, 5 names: 8.4x, 31.1x |
 | [STZ](STZ.md) | Beverages | — | — | — | — | — | — | SIC 20xx, 3 names: 1.3x, 21.1x |
-| [TEAM](TEAM.md) | Services-Prepackaged Software | 448.1x | — | 5.7x | 11.0–28.2x | 134.2x | — | SIC 7372, 10 names: 4.9x, 44.5x |
+| [TEAM](TEAM.md) | Services-Prepackaged Software | 448.1x | — | 5.7x | 11.0–28.2x | 134.2x | — | SIC 7372, 10 names: 5.1x, 44.5x |
 | [THG](THG.md) | Fire, Marine & Casualty Insurance | 11.8x | 11.5–21.1x | 1.3x | 0.9–1.1x | 8.6x | 9.9–13.4x | SIC 63xx, 2 names: 0.3x, 41.5x |
 | [TIGR](TIGR.md) | Security Brokers, Dealers & Flotation Companies | — | — | 16.8x | 32.1–61.9x | — | — | SIC 62xx, 5 names: 4.3x, 31.1x |
 | [TLN](TLN.md) | Electric Services | — | — | 6.3x | 6.9–8.9x | 312.9x | 83.0–167.4x | SIC 49xx, 2 names: 2.6x, 11.7x |
@@ -117,4 +117,4 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [WU](WU.md) | Services-Business Services, NEC | 6.5x | 5.6–9.5x | 0.9x | 1.2–1.6x | 6.2x | 6.4–10.1x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [WYNN](WYNN.md) | Hotels & Motels | — | 20.7–47.9x | — | 3.0–4.1x | — | 23.1–31.9x | SIC 70xx, 1 names: 2.8x, — |
 | [XNCR](XNCR.md) | Pharmaceutical Preparations | — | 39.1–67.3x | 14.5x | 7.4–15.9x | — | 31.1–61.8x | SIC 2834, 3 names: 4.1x, 41.9x |
-| [ZETA](ZETA.md) | Services-Prepackaged Software | 215.9x | — | 4.9x | 2.3–3.5x | 137.1x | — | SIC 7372, 10 names: 5.3x, 44.5x |
+| [ZETA](ZETA.md) | Services-Prepackaged Software | 233.6x | — | 5.3x | 2.3–3.5x | 148.4x | — | SIC 7372, 10 names: 5.3x, 44.5x |
