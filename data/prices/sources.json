@@ -197,7 +197,7 @@
   "FOUR": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/FOUR",
-    "last_capture": "2026-11-11T02:22:56+00:00"
+    "last_capture": "2026-11-11T07:08:48+00:00"
   },
   "FRSH": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

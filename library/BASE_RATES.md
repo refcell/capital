@@ -22,7 +22,7 @@ Caveats: SEC `frames` values are the latest filed, so these are restated figures
 
 Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue as filed on the call date). Percentile = share of history at or below the forecast.
 
-Across 56 calls, the median base case sits at the 69th percentile; 26 of 56 base cases are above the 75th percentile and 17 of 56 bull cases are above the 90th.
+Across 55 calls, the median base case sits at the 69th percentile; 25 of 55 base cases are above the 75th percentile and 17 of 55 bull cases are above the 90th.
 
 | Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |
 |---|---:|---|---:|---:|---:|
@@ -46,7 +46,6 @@ Across 56 calls, the median base case sits at the 69th percentile; 26 of 56 base
 | [ELF/2026-06-13](ELF.md) | $1.64B | $1.5B–$3B | +4.0% (45) | +8.0% (67) | +13.0% (84) |
 | [ETOR/2026-05-24](ETOR.md) | $13.84B | $12B–$25B | +3.0% (51) | +10.0% (87) | +16.0% (96) |
 | [FCFS/2026-10-28](FCFS.md) | $4.29B | $3B–$6B | +3.0% (39) | +8.0% (69) | +11.0% (82) |
-| [FOUR/2026-05-24](FOUR.md) | $4.45B | $3B–$6B | +5.0% (52) | +10.0% (78) | +14.0% (89) |
 | [FRSH/2026-09-02](FRSH.md) | $0.90B | $700M–$1.5B | +7.0% (57) | +12.0% (76) | +15.0% (83) |
 | [GTLB/2026-05-24](GTLB.md) | $0.96B | $700M–$1.5B | +10.0% (69) | +14.0% (81) | +18.0% (88) |
 | [HIMS/2026-11-11](HIMS.md) | $2.87B | $1.5B–$3B | +4.0% (45) | +14.0% (86) | +20.0% (94) |

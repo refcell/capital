@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "ticker": "FOUR",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 43.73,
+      "as_of": "2026-11-10",
+      "source": "data/prices/FOUR.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 4924.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "ttm_gross_profit_m": {
+      "value": 338.9,
+      "as_of": "2022-06-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2022-08-05",
+      "accession": "0001794669-22-000041"
+    },
+    "ttm_operating_income_m": {
+      "value": 403.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "ttm_net_income_m": {
+      "value": 143.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "ttm_ocf_m": {
+      "value": 642.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "ttm_capex_m": {
+      "value": 18.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "cash_m": {
+      "value": 1242.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-05",
+      "accession": "0001794669-26-000051",
+      "note": "Excludes $396M of settlement-related cash held within settlement assets."
+    },
+    "total_debt_m": {
+      "value": 5539.0,
+      "as_of": "2026-09-30",
+      "source": "FOUR 10-Q for the quarter ended 2026-09-30 (sources/10q-q3-2026.htm.gz), note 5 Debt (principal)",
+      "accession": "0001794669-26-000051",
+      "note": "$633M 0.50% convertible senior notes due 2027-08-01 (conversion price about $122.66), $1,990M Term Loan B due 2032, $1,650M 6.75% notes due 2032, $1,266M 5.50% euro notes due 2033; carrying value $5,483M."
+    },
+    "shares_outstanding_m": {
+      "value": 74.9439,
+      "as_of": "2026-10-31",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "diluted_shares_m": {
+      "value": 90.29,
+      "as_of": "2026-09-30",
+      "source": "FOUR Q3 2026 shareholder letter, 8-K EX-99.1 (sources/ex99-1-q3-2026.htm.gz), reconciliation of Class A common shares and RSUs; 10-K FY2025 preferred terms",
+      "accession": "0001794669-26-000049",
+      "note": "77.76M fully diluted common (74.86M Class A plus 2.90M unvested RSUs) plus 10.253M Series A mandatory convertible preferred x 1.2224 (the maximum conversion rate, which applies below $81.81) = 12.53M. The XBRL diluted count (1.33M) is a single share class and is not usable; non-GAAP EPS counts the preferred one for one (88M)."
+    },
+    "ttm_fcf_m": {
+      "value": 624.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001794669-26-000051"
+    },
+    "market_cap_m": {
+      "value": 3400.5,
+      "as_of": "2026-11-10",
+      "source": "price x 77.76M fully diluted common shares (74.86M Class A plus 2.90M unvested RSUs, company reconciliation at 2026-09-30); excludes the preferred"
+    },
+    "net_debt_m": {
+      "value": 4297.0,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m"
+    },
+    "enterprise_value_m": {
+      "value": 8245.4,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + preferred as converted (12.53M x price) + net_debt_m; excludes the $227M TRA liability"
+    }
+  },
+  "notes": [
+    "Q3 2026: gross revenue $1,319M (+12%); gross revenue less network fees (GRLNF) $648M (+10%, +9% organic constant currency); payments-based GRLNF $402M (+18%); Tax-Free Shopping $139M (+7%); subscription and other $107M (-10%); adjusted EBITDA $310M (+6%, 48% margin); net income $40M; non-GAAP EPS $1.49; adjusted FCF $200M (FCF $158M plus $42M acquisition, restructuring and integration costs).",
+    "TTM (Q4 2025-Q3 2026): adjusted EBITDA $1,132M (304 + 234 + 284 + 310); adjusted FCF $480M; FCF $371M; integration and other adjustments $109M; non-GAAP EPS $5.38; equity-based compensation and related payroll tax $94M.",
+    "FY2026 guidance (November 5): volume $240-250B (prior $240-260B); GRLNF $2.45-2.46B (May: $2.50-2.60B); adjusted EBITDA $1.11-1.13B (May: $1.165-1.215B); non-GAAP EPS $5.05-5.15 (prior $5.15-5.35); adjusted FCF $465-475M (May: $490-510M). Q4 2026: GRLNF $625-640M, adjusted EBITDA $285-300M (-6% to -1% YoY), adjusted FCF $155-165M.",
+    "Capital return: 10.30M Class A shares repurchased in the nine months for $511M (average $49.52), 4.17M in Q3; 170,000 preferred shares repurchased for $10M; $175M left under the November 2025 program. Simplification Transactions in February 2026 exchanged Rook's 19.8M LLC units into Class A.",
+    "Series A 6.00% mandatory convertible preferred: 10,253,296 shares, $100 liquidation preference, converting May 1, 2028 at 0.9780-1.2224 Class A shares each (10-K FY2025); dividends about $61.5M a year.",
+    "Pending Paramount Commerce acquisition: about $143M cash upfront plus up to $174M contingent consideration; expected to close in Q4 2026.",
+    "TRA liability $227M ($14M current)."
+  ]
+}

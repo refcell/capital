@@ -44,7 +44,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ETOR](ETOR.md) | Security Brokers, Dealers & Flotation Companies | 10.3x | — | 0.1x | — | — | — | SIC 62xx, 5 names: 8.4x, 38.3x |
 | [FCFS](FCFS.md) | Retail-Miscellaneous Retail | 19.6x | 20.4–27.3x | 2.4x | 2.0–2.5x | — | — | SIC 59xx, 1 names: 0.4x, 10.4x |
 | [FDS](FDS.md) | Services-Computer Programming, Data Processing, Etc. | 22.4x | 28.5–35.4x | 5.1x | 6.4–8.7x | 18.0x | 22.4–28.8x | SIC 737x, 14 names: 5.1x, 44.5x |
-| [FOUR](FOUR.md) | Services-Business Services, NEC | 0.4x | 0.5–0.6x | 1.6x | 0.9–4.1x | 18.9x | 7.3–20.4x | SIC 7389, 6 names: 2.5x, 26.0x |
+| [FOUR](FOUR.md) | Services-Business Services, NEC | 0.4x | 0.5–0.6x | 1.5x | 0.9–4.1x | 18.7x | 7.3–20.4x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [FRSH](FRSH.md) | Services-Prepackaged Software | 15.4x | — | 2.7x | 2.8–6.5x | 38.0x | — | SIC 7372, 10 names: 5.4x, 61.2x |
 | [GENI](GENI.md) | Services-Miscellaneous Amusement & Recreation | — | — | — | 0.1–0.3x | — | — | — |
 | [GNW](GNW.md) | Life Insurance | 59.3x | 3.0–16.3x | 0.5x | 0.4–0.5x | 88.5x | 5.0–83.1x | SIC 63xx, 2 names: 0.7x, 17.8x |

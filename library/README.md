@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 139 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 140 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,8 +12,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 17 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 72 | 105 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 16 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 73 | 105 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -59,7 +59,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [ETOR](ETOR.md) | eToro Group Ltd. | Retail brokerage | active | 2026-05-24 | 2 | Watch | Watch | $40.85 | $51.50 | +8.0% | -42.9% | -44.4% |
 | [FCFS](FCFS.md) | FirstCash Holdings, Inc. | Financials | active | 2026-10-28 | 1 | Watch (positive) | Watch | $185.35 | $268.00 | +13.1% | -1.0% | +1.5% |
 | [FDS](FDS.md) | FactSet Research Systems Inc. | Financial data, analytics, market infrastructure, and workflow software | active | 2026-05-26 | 1 | Watch (positive) | — | $232.00 | — | — | +41.7% | +40.6% |
-| [FOUR](FOUR.md) | Shift4 Payments, Inc. | Payments | active | 2026-05-24 | 2 | Watch | Own | $43.24 | $97.50 | +31.1% | +4.1% | +2.6% |
+| [FOUR](FOUR.md) | Shift4 Payments, Inc. | Payments | active | 2026-11-11 | 3 | Watch | Watch | $43.73 | $57.54 | +9.6% | — | — |
 | [FRSH](FRSH.md) | Freshworks Inc. | Technology | active | 2026-09-02 | 1 | Watch | Watch | $13.46 | $14.06 | +1.5% | -10.8% | -9.8% |
 | [GENI](GENI.md) | Genius Sports Limited | Communication Services | active | 2026-08-04 | 1 | Watch | Own | $8.08 | $36.65 | +65.5% | -23.3% | -21.1% |
 | [GNW](GNW.md) | Genworth Financial, Inc. | Financial Services | active | 2026-07-15 | 1 | Watch | Watch | $9.74 | $12.01 | +7.2% | -10.8% | -10.4% |

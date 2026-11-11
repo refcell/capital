@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 139 calls have a mark.
+125 of 140 calls have a mark.
 
 ## By published stance
 
@@ -16,14 +16,14 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | Watch | 81 | 108 | -0.4% | -0.3% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
 | Watch (positive) | 20 | 69 | +11.1% | +11.5% | 10/20 |
-| unstated | 13 | 185 | +8.6% | +5.3% | 9/13 |
+| unstated | 13 | 185 | +8.4% | +5.1% | 9/13 |
 
 ## By rule rating
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
 | Avoid | 22 | 128 | -3.2% | -3.9% | 9/22 |
-| Own | 26 | 152 | +12.3% | +11.5% | 16/26 |
+| Own | 26 | 152 | +12.1% | +11.2% | 16/26 |
 | Watch | 71 | 99 | +3.7% | +3.9% | 35/71 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
@@ -34,7 +34,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | -10% to 10% | 23 | 99 | -3.0% | -3.1% | 6/23 |
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
 | 30% to 70% | 38 | 99 | +11.7% | +11.8% | 22/38 |
-| 70%+ | 19 | 164 | +11.3% | +10.3% | 12/19 |
+| 70%+ | 19 | 164 | +11.0% | +10.0% | 12/19 |
 | below -10% | 13 | 131 | -7.4% | -7.9% | 6/13 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-68 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+73 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -106,14 +106,13 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [HOOD/2026-05-14](HOOD.md) | unstated | Avoid | $76.75 | $47.00 | $83.32 | +8.6% | +6.6% | base to bull |
 | [PK/2026-08-24](PK.md) | Watch | Watch | $15.86 | $17.18 | $16.73 | +5.5% | +6.6% | base to bull |
 | [SOFI/2026-05-24](SOFI.md) | Watch | Own | $15.62 | $30.50 | $16.75 | +7.2% | +5.8% | bear to base |
-| [FOUR/2026-05-06](FOUR.md) | unstated | Own | $40.97 | $107.00 | $45.01 | +9.9% | +5.3% | bear to base |
 | [MAA/2026-09-24](MAA.md) | Watch | Watch | $117.78 | $143.30 | $120.45 | +2.3% | +4.6% | bear to base |
 | [PEGA/2026-06-19](PEGA.md) | Watch | Own | $30.09 | $100.00 | $31.67 | +5.3% | +4.6% | below bear |
 | [DLO/2026-05-09](DLO.md) | unstated | Watch | $13.70 | $19.00 | $14.63 | +6.8% | +4.2% | bear to base |
 | [OMC/2026-08-26](OMC.md) | Watch | Own | $87.89 | $147.00 | $89.75 | +2.1% | +4.0% | bear to base |
 | [CXW/2026-06-23](CXW.md) | Avoid (negative) | Watch | $29.73 | $33.00 | $31.59 | +6.3% | +3.8% | base to bull |
 | [SOFI/2026-05-13](SOFI.md) | unstated | Watch | $15.90 | $23.50 | $16.75 | +5.3% | +2.9% | bear to base |
-| [FOUR/2026-05-24](FOUR.md) | Watch | Own | $43.24 | $97.50 | $45.01 | +4.1% | +2.6% | bear to base |
+| [FOUR/2026-05-06](FOUR.md) | unstated | Own | $40.97 | $107.00 | $43.73 | +6.7% | +2.6% | bear to base |
 | [TMUS/2026-09-19](TMUS.md) | Watch | Watch | $168.18 | $209.57 | $169.08 | +0.5% | +2.1% | bear to base |
 | [CENTA/2026-06-26](CENTA.md) | Watch (positive) | Watch | $39.32 | $56.55 | $41.20 | +4.8% | +1.7% | bear to base |
 | [SOLV/2026-08-27](SOLV.md) | Watch | Watch | $90.93 | $93.60 | $90.08 | -0.9% | +1.6% | base to bull |
@@ -121,6 +120,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [ITUB/2026-08-11](ITUB.md) | Watch | Watch | $7.50 | $9.05 | $7.40 | -1.4% | +1.1% | bear to base |
 | [RGEN/2026-08-19](RGEN.md) | Watch | Watch | $176.36 | $212.07 | $173.98 | -1.3% | +0.9% | bear to base |
 | [SSB/2026-08-10](SSB.md) | Watch | Watch | $108.56 | $140.00 | $106.44 | -2.0% | +0.8% | bear to base |
+| [FOUR/2026-05-24](FOUR.md) | Watch | Own | $43.24 | $97.50 | $43.73 | +1.1% | +0.0% | bear to base |
 | [NOW/2026-05-24](NOW.md) | Watch (positive) | Own | $102.13 | $185.00 | $102.76 | +0.6% | -0.8% | bear to base |
 | [NU/2026-05-18](NU.md) | unstated | — | $12.19 | — | $12.36 | +1.4% | -1.0% | — |
 | [CNC/2026-11-07](CNC.md) | Watch | Avoid | $69.74 | $69.22 | $70.19 | +0.6% | -1.3% | bear to base |

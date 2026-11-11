@@ -2,41 +2,86 @@
 
 # Shift4 Payments, Inc. (NYSE: FOUR)
 
-Sector: Payments / vertical commerce / merchant acquiring · Calls: 2 · Latest: 2026-05-24
+Sector: Payments / integrated payments for restaurants, hospitality, sports and entertainment, luxury retail and tax-free shopping · Calls: 3 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / high-upside, high-complexity |
-| Rule rating | Own (+31.1% a year expected over 3 years) |
-| Price at call | $43.24 on 2026-05-22 |
-| Bear / base / bull | $42.50 / $97.50 / $160.00 |
-| Weights | — / — / — |
-| Fair value | $97.50 (base) |
-| Street mean target | $60.81 |
-| Valuation lens | Adjusted free cash flow, GRLNF, and leverage-adjusted EV/EBITDA |
-| Revenue CAGR vs base rates | bear +5.0% = 52th pct / base +10.0% = 78th pct / bull +14.0% = 89th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
-| Since the call | +4.1% vs SPY +1.5% through 2026-11-09; mark $45.01 is bear to base |
+| Stance (as published) | Watch — unchanged, bias neutral; adjusted FCF hit a record, but guidance was cut a second time, organic growth slowed to 8% and net debt rose to 3.8x EBITDA, and the expected return is about 10% a year |
+| Rule rating | Watch (+9.6% a year expected over 3 years) |
+| Price at call | $43.73 on 2026-11-10 |
+| Bear / base / bull | $25.68 / $65.06 / $106.80 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $57.54 (weighted) |
+| Street mean target | — |
+| Valuation lens | Calendar-2029 adjusted EBITDA (including Paramount) x exit EV/EBITDA, less end-2029 net debt (rolled forward from adjusted FCF less integration costs, preferred dividends, lost interest on the cash that repays the 2027 convertible, grant-offsetting buybacks and the Paramount payments), the TRA liability and non-controlling interests, over fully diluted shares with the mandatory convertible preferred as converted; three-year value, undiscounted |
+| Next review | 2027-02-26 — Q4 2026 results and 2027 outlook, expected around February 25, 2027 before the open |
 
-## Fundamentals known on 2026-05-24
+**Thesis.** Shift4's adjusted FCF set a quarterly record of $200M in Q3 2026 and the FY2026 FCF guide held, but guidance was cut for the second time this year (GRLNF and adjusted EBITDA about 4% and 6% below the original guide), Q4 adjusted EBITDA is guided 1-6% below Q4 2025, organic GRLNF growth slowed to 8% and organic payments-based growth has been 14% all year. Buybacks of $511M in nine months shrank the share count while net debt rose to $4.30B (3.8x EBITDA), and the preferred converts into 12.5M shares in May 2028. At about 7.4x FY2026 EBITDA, a base of 7% EBITDA growth to 2029 with deleveraging at a 7.0x exit is worth $65.06; weighted toward the bear, about 10% a year.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit FOUR 2026-05-24`). Later restatements are not visible here by design.
+**Variant view.** No strong variant view. We agree with the market that two guidance cuts, slowing organic growth and debt-funded buybacks earn a discount. Our base differs only in expecting EBITDA to grow again from 2027 as Global Blue synergies land and Tax-Free Shopping recovers, so leverage falls to about 2.5x by 2029 without a re-rating. The checkable test is the 2027 outlook in February: adjusted EBITDA guided at least 6% above FY2026 including Paramount.
+
+**Catalysts.**
+
+- Q4 2026 results and 2027 outlook (About February 25, 2027 (last year's letter came out before the open on February 26, 2026))
+- 2027 convertible notes due (August 1, 2027)
+- Mandatory conversion of the Series A preferred (May 1, 2028)
+- Travel recovery in Tax-Free Shopping (2027)
+
+**Pre-mortem** (written at decision time).
+
+- Travel disruption and weak same-store sales persist, subscription revenue keeps falling, and organic payments growth fades from 14% toward 10%, so consolidated EBITDA stalls near $1.1B. — watch: Organic GRLNF and organic payments-based GRLNF each quarter; Tax-Free Shopping growth
+- Buybacks under the new $1B authorization and acquisitions keep absorbing free cash flow, net debt stays near 3.8x, and the equity gets none of the cash. — watch: Net debt and net leverage each quarter against buybacks and acquisition spend
+- Adjusted FCF keeps excluding $100M or more a year of integration and other costs, and the market stops believing adjusted figures after two guidance cuts. — watch: The gap between free cash flow and adjusted free cash flow; GAAP net income against adjusted EBITDA
+- Take-rate pressure from larger acquirers compresses the blended spread as volume shifts to large enterprise merchants. — watch: Blended spread (64 bps in Q3 2026) each quarter
+- The Watch call is wrong on the upside: EBITDA grows 8% or more in 2027, leverage falls, and the stock re-rates toward 8.5x, compounding well above 15% a year from $43.73. — watch: A 2027 EBITDA guide 8% or more above FY2026; net leverage below 3.3x by end-2027
+
+**Kill criteria.**
+
+- Reported FY2027 adjusted EBITDA below FY2026's reported adjusted EBITDA plus $20M (about $1,140M on the guide midpoint; the $20M is Paramount's estimated contribution, which Shift4 does not report separately) (check by 2028-03-15) — open
+- FY2027 adjusted free cash flow below $470M, the FY2026 guide midpoint (bear about $448M, base about $499M) (check by 2028-03-15) — open
+- Net debt above 3.5x adjusted EBITDA at December 31, 2027 together with FY2027 adjusted EBITDA growth below 3% (bear about 3.7x and flat; base about 3.5x and +6%) (check by 2028-03-15) — open
+
+**Probability claims.**
+
+- 75%: Shift4 reports Q4 2026 adjusted EBITDA of at least $285M. (resolves by 2027-03-15)
+- 75%: Shift4 reports FY2026 adjusted free cash flow of at least $465M. (resolves by 2027-03-15)
+- 40%: Shift4's initial FY2027 adjusted EBITDA guidance midpoint, including Paramount, is at least 6% above reported FY2026 adjusted EBITDA. (resolves by 2027-03-15)
+- 75%: Payments-based GRLNF grows at least 15% year on year in Q4 2026. (resolves by 2027-03-15)
+- 85%: The Paramount Commerce acquisition closes by March 31, 2027. (resolves by 2027-05-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $37.83 at these weights
+- Toward Own: a 2027 outlook with adjusted EBITDA up 8% or more including Paramount, which would justify 25/50/25 weights ($65.65)
+- Toward Avoid: reported FY2027 adjusted EBITDA below FY2026's plus $20M, or FY2027 adjusted FCF below $470M
+- Toward Avoid: net debt above 3.5x adjusted EBITDA at the end of 2027 with EBITDA growth below 3%
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 3, calibration 4). Counter-case: Organic payments-based GRLNF grew 14% in every 2026 quarter, and Q3's slide in organic GRLNF growth from 11% to 8% is mostly subscription (organic -1% to -8%), which management says it is deliberately trading for payments revenue; the Q4 EBITDA decline is partly a comparison with an unusual $145M subscription quarter in Q4 2025. The note still puts 35% on a bear in which organic EBITDA falls while the largest segment compounds at 14% and synergies ramp, values that bear at 5.5x with 3.2x leverage, and de-rates the base to 7.0x from today's 7.4x even as leverage falls to 2.5x. Holding 7.4x in the base ($71.20), 6.0x in the bear ($32.13) and 30/50/20 weights gives $66.60, 15.05% a year: Own.
+
+**Response.** Accepted the corrections: the EBITDA kill now uses reported figures (FY2027 below FY2026 plus $20M for Paramount); the leverage kill is 3.5x with EBITDA growth below 3%, and the FCF kill $470M, so the bear fires them clearly and the base clears them; the note states the scenarios as bands, which makes the 40% claim the weights' own probability; the term loan's carry and the operating leverage a flat 42% misses are named as roughly offsetting; all six May change-my-mind items are reported; base_rate is filled (66th percentile). On the counter-case: the weights stay 35/50/15 because Shift4 itself guides Q4 EBITDA below last year after two cuts, so a flat 2027 is close to the exit rate, not a remote tail; and a 7.0x exit, a slight de-rating from 7.4x, suits a business whose guidance fell 6% in a year. The note states that a 2027 guide of 8% or more would bring the call close to Own, and February's outlook tests it.
+
+**Data notes.** The May call used 2030 adjusted FCF multiples and stated the base as its fair value; this update states three-year end-2029 values on 2029 adjusted EBITDA, undiscounted, net of debt, TRA and NCI, with the preferred as converted. The rating rule annualizes over 3 years; end-2029 is 3.14 years away, at which the fair value returns 9.1% a year. Net debt roll-forward: $4,297M at September 30, 2026, plus Paramount ($143M upfront and the scenario's earnout), less Q4 2026 adjusted FCF ($160M) and 2027-2029 adjusted FCF at the scenario's conversion, plus 3.25 years of integration costs, about $108M of preferred dividends (seven payments of $15.4M to May 2028), $43M of after-tax interest income lost on the $633M of cash that repays the 2027 convertible (assumed 3.75% yield), and $90M a year of buybacks that offset grants (fully diluted common held at 77.76M). The term loan's full-year interest above the FY2026 baseline (about $25M after tax over 2027-2029) is left out, and roughly offsets the operating leverage a flat 42% conversion misses when interest is fixed. Paramount Commerce's EBITDA is assumed at about $20M from 2027 (the letter says the upfront price is below 8x EBITDA) and is included in every EBITDA path; the EBITDA kill criterion excludes it. The Series A preferred (10,253,296 shares) converts on May 1, 2028 at 0.9780-1.2224 Class A shares each (10-K FY2025); the maximum rate applies below $81.81, so 12.53M shares in the bear and base. Shift4's non-GAAP EPS counts the preferred one for one. No current Street consensus snapshot was captured for this update. capital.multiples gives FOUR's GAAP EV/EBIT of 18.7x against a peer median of 19.0x (CART, DLO, MELI, PAY, PYPL, WU); its P/E and P/FCF histories are not usable because the XBRL diluted share count covers one share class. The exit check is today's EV/EBITDA of about 7.4x on guided FY2026 EBITDA; at 6.5x the base is $57.40 (fair value $53.71), at 7.5x $72.73 (fair value $61.37). Base EBITDA CAGR of 7.3% sits at about the 66th percentile of revenue growth for its size bucket in library/BASE_RATES.md; the bull's 11.3% at about the 83rd. First review round (B; evidence 4, valuation 3, variant view 3, risk 3, calibration 3): organic growth was overstated (organic payments-based GRLNF +14%, organic GRLNF +8% in Q3), base integration costs of $40M a year were far below the $109M TTM, the bear counted refinancing twice although the July term loan had already funded the convertible, Paramount's EBITDA was unaddressed, preferred dividends were understated and NCI omitted, the 45% claim on a 2027 guide reaching the base contradicted 70% weight on base and bull, the leverage kill could fire on value-adding buybacks, and the May change-my-mind items were not reported. First draft values were $25.50 / $67.75 / $109.14 at 30/50/20, fair value $63.35, positive bias. The scenarios are read as bands: bear below about 3% 2027 EBITDA growth, base about 3-9%, bull above 9%; P(2027 guide >= 6%) = half the base plus the bull = 40%, the claim's probability. why_opportunity is behavioral: the stock is down about 40% this year on two guidance cuts, which the market may extrapolate; the call shares most of that caution and has no strong variant view. Second review round (B; evidence 4, valuation 4, variant view 3, risk 3, calibration 4): the EBITDA kill excluding Paramount was unobservable, the bear tripped the leverage kill (3.7x) and FCF kill ($460M) only barely, the 40% claim needed the band reading stated, the term loan's carry above the FY2026 baseline was unaddressed, and three May change-my-mind items were unreported. Values were unchanged at $25.68 / $65.06 / $106.80.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit FOUR 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 4,453.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
+| Revenue (TTM) | 4,924.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
 | Gross profit (TTM) | 338.9M USD | 2022-06-30 | ttm ytd | [0001794669-22-000041](https://www.sec.gov/Archives/edgar/data/1794669/000179466922000041/) |
-| Operating income (TTM) | 376.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Net income (TTM) | 145.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Operating cash flow (TTM) | 672.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Capex (TTM) | 15.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Free cash flow (TTM) | 657.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Stock comp (TTM) | 72.0M USD | 2026-03-31 | ttm ytd | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Cash | 473.0M USD | 2026-03-31 | instant | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Long-term debt | 4,522.0M USD | 2026-03-31 | instant | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Equity | 1,653.0M USD | 2026-03-31 | instant | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
-| Shares outstanding | 79.3M | 2026-04-30 | instant | [0001794669-26-000020](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000020/) |
+| Operating income (TTM) | 403.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Net income (TTM) | 143.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Operating cash flow (TTM) | 642.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Capex (TTM) | 18.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Free cash flow (TTM) | 624.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Stock comp (TTM) | 91.0M USD | 2026-09-30 | ttm ytd | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Cash | 1,242.0M USD | 2026-09-30 | instant | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Long-term debt | 5,483.0M USD | 2026-09-30 | instant | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Equity | 1,453.0M USD | 2026-09-30 | instant | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
+| Shares outstanding | 74.9M | 2026-10-31 | instant | [0001794669-26-000051](https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/) |
 
 ## Earnings calendar
 
@@ -46,7 +91,8 @@ Last release: 2026-11-05 (pre-market 8-K Item 2.02, [0001794669-26-000049](https
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-05-24 | $43.24 | Watch | Own | $42.50 | $97.50 | $160.00 | $97.50 | +4.1% | +2.6% | bear to base | [report](https://github.com/refcell/capital/blob/5dcd154/research/FOUR.md) · [model](https://github.com/refcell/capital/blob/11d0023/models/%5B2026-05-28%5D%20Shift4%20Payments%20Model.xlsx) |
-| 2026-05-06 | $40.97 | unstated | Own | $29.00 | $107.00 | $202.00 | $107.00 | +9.9% | +5.3% | bear to base | [report](https://github.com/refcell/capital/blob/9343e9b/research/FOUR.md) |
+| 2026-11-11 | $43.73 | Watch | Watch | $25.68 | $65.06 | $106.80 | $57.54 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/FOUR/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/FOUR/2026-11-11.xlsx) |
+| 2026-05-24 | $43.24 | Watch | Own | $42.50 | $97.50 | $160.00 | $97.50 | +1.1% | +0.0% | bear to base | [report](https://github.com/refcell/capital/blob/5dcd154/research/FOUR.md) · [model](https://github.com/refcell/capital/blob/11d0023/models/%5B2026-05-28%5D%20Shift4%20Payments%20Model.xlsx) |
+| 2026-05-06 | $40.97 | unstated | Own | $29.00 | $107.00 | $202.00 | $107.00 | +6.7% | +2.6% | bear to base | [report](https://github.com/refcell/capital/blob/9343e9b/research/FOUR.md) |
 
 Data: `data/FOUR/`. Prices: `data/prices/FOUR.csv`.

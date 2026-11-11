@@ -196,7 +196,7 @@
   },
   "facts/FOUR": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001794669.json",
-    "fetched_at": "2026-11-11T03:39:56+00:00",
+    "fetched_at": "2026-11-11T07:08:50+00:00",
     "sha256": "c0167ec236785acc097c791deab6747325ff813c91cb4d0de612dd4c4df95b2f"
   },
   "facts/FRSH": {
@@ -796,7 +796,7 @@
   },
   "submissions/FOUR": {
     "url": "https://data.sec.gov/submissions/CIK0001794669.json",
-    "fetched_at": "2026-11-11T03:39:55+00:00",
+    "fetched_at": "2026-11-11T07:08:49+00:00",
     "sha256": "61640daf8fdd0f19f72d34261607100ad60bb53e696d072d9ac64cf433b4db06"
   },
   "submissions/FRSH": {

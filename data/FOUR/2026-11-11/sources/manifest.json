@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/FOUR.csv",
+      "commit": "c3728e0589e5",
+      "sha256": "b822bbee8a3992906cf9b143c1a9897d8527b5c53c2609ee1b10f7c7c2bb6231",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "c3728e0589e5",
+      "sha256": "fa96d9158111a93a2bfb5a7b5e2e686e8a60a5b3ea69347ce89c97b3965f2a73",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "ex99-1-q3-2026-htm",
+      "kind": "file",
+      "path": "ex99-1-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+      "fetched_at": "2026-11-11T07:13:51+00:00",
+      "sha256": "022432d7f31e76144e47a1c481734a821ad790ab7bb31d50d3f9fc5793e9fe29",
+      "description": "8-K EX-99.1 Q3 2026 shareholder letter, 2026-11-05 (accession 0001794669-26-000049)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+      "fetched_at": "2026-11-11T07:13:51+00:00",
+      "sha256": "b31ad0244e60a2172f6af6257c349700b19209492965b0722d60e427da472ffc",
+      "description": "10-Q for the quarter ended 2026-09-30, filed 2026-11-05 (accession 0001794669-26-000051)"
+    }
+  ]
+}
