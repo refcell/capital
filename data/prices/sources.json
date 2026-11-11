@@ -212,7 +212,7 @@
   "HIMS": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/HIMS",
-    "last_capture": "2026-11-11T02:22:58+00:00"
+    "last_capture": "2026-11-11T03:44:08+00:00"
   },
   "HOOD": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

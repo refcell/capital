@@ -17,7 +17,7 @@ Sector: Consumer health, telehealth, digital pharmacy · Calls: 3 · Latest: 202
 | Street mean target | $26.61 |
 | Valuation lens | Revenue growth, adjusted EBITDA quality, owner free cash flow, and scenario-based terminal FCF |
 | Revenue CAGR vs base rates | bear +9.0% = 72th pct / base +16.0% = 89th pct / bull +23.0% = 96th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -12.4% vs SPY +2.6% through 2026-11-09; mark $22.94 is bear to base |
+| Since the call | -27.0% vs SPY +2.2% through 2026-11-10; mark $19.13 is bear to base |
 
 ## Fundamentals known on 2026-06-06
 
@@ -44,8 +44,8 @@ Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001773751-26-000242](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-06-06 | $26.19 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -12.4% | -15.0% | bear to base | [report](https://github.com/refcell/capital/blob/df2e43b/research/HIMS.md) · [model](https://github.com/refcell/capital/blob/a8c65d1/models/%5B2026-06-06%5D%20Hims%20%26%20Hers%20Health%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/a8c65d1/models/_build_hims.py) |
-| 2026-05-24 | $23.75 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -3.4% | -4.9% | bear to base | [report](https://github.com/refcell/capital/blob/c144126/research/HIMS.md) |
-| 2026-05-11 | $28.27 | unstated | Avoid | $5.00 | $27.00 | $74.00 | $27.00 | -18.9% | -21.4% | bear to base | [report](https://github.com/refcell/capital/blob/b989626/research/HIMS.md) |
+| 2026-06-06 | $26.19 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -27.0% | -29.1% | bear to base | [report](https://github.com/refcell/capital/blob/df2e43b/research/HIMS.md) · [model](https://github.com/refcell/capital/blob/a8c65d1/models/%5B2026-06-06%5D%20Hims%20%26%20Hers%20Health%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/a8c65d1/models/_build_hims.py) |
+| 2026-05-24 | $23.75 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -19.5% | -20.5% | bear to base | [report](https://github.com/refcell/capital/blob/c144126/research/HIMS.md) |
+| 2026-05-11 | $28.27 | unstated | Avoid | $5.00 | $27.00 | $74.00 | $27.00 | -32.3% | -34.5% | bear to base | [report](https://github.com/refcell/capital/blob/b989626/research/HIMS.md) |
 
 Data: `data/HIMS/`. Prices: `data/prices/HIMS.csv`.

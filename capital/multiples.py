@@ -203,7 +203,9 @@ def point(ticker: str, month: str, on: str, price: float, events: list[tuple[str
     rev = f.get("revenue")
     if not rev or rev.unit != "USD" or pit.days(rev.end, on) > STALE_DAYS:
         return None
-    sh = f.get("shares_outstanding") or f.get("diluted_shares")
+    sh = f.get("shares_outstanding")
+    if not sh or sh.value <= 0 or pit.days(sh.end, on) > STALE_DAYS:
+        sh = f.get("diluted_shares")  # multi-class filers often lack a current cover-page count
     shares = sh.value * _split_factor(events, sh.filed, on) if sh else None
     mcap = price * shares / 1e6 if shares else None
     debt = f["long_term_debt"].value / 1e6 if "long_term_debt" in f else 0.0

@@ -57,6 +57,8 @@ Run `python3 -m capital.validate`; the draft fails until these are set, and the 
 
 Build the workbook from the call and inputs (values only, no live formulas): `python3 -m capital.workbook TICKER DATE` writes `models/TICKER/DATE.xlsx`. For a new name, also write `projections/TICKER.md` (see `projections/README.md`); its bear/base/bull prices and fair value must match `call.json`. Updates skip the projection unless the long-run view changed.
 
+Test exit multiples before you set them: `python3 -m capital.multiples TICKER` prints today's P/E, EV/Sales, EV/EBIT and P/FCF, the name's own ten-year bands, and its SIC peers (`library/MULTIPLES.md` has all names). An exit multiple above the name's own 75th percentile or its peer median needs a stated reason. When the SIC group has fewer than three real peers, capture named ones: `python3 -m capital.multiples capture VST CEG` and `python3 -m capital.sec VST CEG`, then rebuild. P/E there is on GAAP net income; companies guiding on adjusted EPS read higher.
+
 ## 6. Independent review
 
 Before committing, have a second agent that did not write the call review it with `.agents/skills/reviewing-research/SKILL.md` (for example a subagent given only the file paths). Record its JSON as the `review` block, fix what it finds, and answer its counter-case in `review.response`. If you revise substantially, ask for a second round and record the final one. The CNM update (`data/CNM/2026-11-11/`) went D then B; its first draft used an EPS anchor no source supported.

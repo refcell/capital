@@ -211,7 +211,7 @@
   },
   "facts/HIMS": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001773751.json",
-    "fetched_at": "2026-11-11T03:39:59+00:00",
+    "fetched_at": "2026-11-11T03:44:09+00:00",
     "sha256": "bb5129b3aaec013e586ab0b39847ee79662a0cc446855be9e0bb81166ce21e39"
   },
   "facts/HOOD": {
@@ -761,7 +761,7 @@
   },
   "submissions/HIMS": {
     "url": "https://data.sec.gov/submissions/CIK0001773751.json",
-    "fetched_at": "2026-11-11T03:39:59+00:00",
+    "fetched_at": "2026-11-11T03:44:09+00:00",
     "sha256": "e2ab50a6bcbfae8b909e4830bf518dcb593a12b748469bdf441ca43a52d39183"
   },
   "submissions/HOOD": {

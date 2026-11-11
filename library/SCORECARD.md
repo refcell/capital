@@ -13,17 +13,17 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | Avoid (negative) | 1 | 140 | +6.3% | +3.8% | 1/1 |
 | Own (positive) | 1 | 164 | +70.6% | +70.6% | 1/1 |
 | Pass | 2 | 215 | -17.0% | -21.9% | 0/2 |
-| Watch | 81 | 108 | +0.1% | +0.1% | 36/81 |
+| Watch | 81 | 108 | -0.3% | -0.2% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
 | Watch (positive) | 20 | 69 | +10.9% | +11.1% | 10/20 |
-| unstated | 13 | 185 | +8.7% | +5.4% | 9/13 |
+| unstated | 13 | 185 | +7.7% | +4.4% | 9/13 |
 
 ## By rule rating
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| Avoid | 22 | 128 | -2.4% | -3.2% | 9/22 |
-| Own | 26 | 151 | +13.6% | +12.7% | 16/26 |
+| Avoid | 22 | 128 | -3.0% | -3.8% | 9/22 |
+| Own | 26 | 152 | +12.4% | +11.6% | 16/26 |
 | Watch | 71 | 99 | +3.7% | +3.8% | 35/71 |
 | — | 6 | 175 | +0.3% | -4.1% | 2/6 |
 
@@ -31,10 +31,10 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| -10% to 10% | 23 | 99 | -2.2% | -2.4% | 6/23 |
+| -10% to 10% | 23 | 99 | -2.8% | -3.0% | 6/23 |
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
 | 30% to 70% | 38 | 99 | +11.6% | +11.7% | 22/38 |
-| 70%+ | 19 | 164 | +13.0% | +11.9% | 12/19 |
+| 70%+ | 19 | 164 | +11.4% | +10.3% | 12/19 |
 | below -10% | 13 | 131 | -7.4% | -7.9% | 6/13 |
 | — | 6 | 175 | +0.3% | -4.1% | 2/6 |
 
@@ -133,7 +133,6 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [MIDD/2026-06-26](MIDD.md) | Watch | Watch | $173.36 | $222.25 | $171.87 | -0.9% | -4.0% | bear to base |
 | [NU/2026-05-24](NU.md) | Watch | Watch | $12.73 | $17.00 | $12.36 | -2.9% | -4.4% | bear to base |
 | [AVGO/2026-09-05](AVGO.md) | Watch (positive) | Watch | $357.90 | $429.00 | $332.58 | -7.1% | -4.7% | bear to base |
-| [HIMS/2026-05-24](HIMS.md) | Watch | Own | $23.75 | $51.00 | $22.94 | -3.4% | -4.9% | bear to base |
 | [BIP/2026-07-31](BIP.md) | Watch | Watch | $41.76 | $60.21 | $39.97 | -4.3% | -4.9% | bear to base |
 | [KNTK/2026-09-17](KNTK.md) | Watch | Watch | $53.84 | $66.07 | $51.09 | -5.1% | -5.2% | bear to base |
 | [AEG/2026-08-03](AEG.md) | Watch | Watch | $9.46 | $10.09 | $8.87 | -6.3% | -5.5% | bear to base |
@@ -160,7 +159,6 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [NKE/2026-06-01](NKE.md) | Watch | Avoid | $45.92 | $41.50 | $39.07 | -14.9% | -14.3% | bear to base |
 | [BANC/2026-07-27](BANC.md) | Watch | Watch | $20.79 | $28.44 | $18.12 | -12.9% | -14.6% | bear to base |
 | [NRG/2026-08-07](NRG.md) | Watch | Own | $118.13 | $195.19 | $97.59 | -17.4% | -14.6% | below bear |
-| [HIMS/2026-06-06](HIMS.md) | Watch | Own | $26.19 | $51.00 | $22.94 | -12.4% | -15.0% | bear to base |
 | [SPXC/2026-09-18](SPXC.md) | Watch (positive) | Watch | $179.70 | $238.52 | $150.12 | -16.5% | -15.0% | below bear |
 | [CVE/2026-09-15](CVE.md) | Watch | Watch | $33.27 | $35.83 | $27.80 | -16.4% | -15.2% | — |
 | [TRMD/2026-11-04](TRMD.md) | Watch | Avoid | $41.73 | $35.45 | $33.48 | -19.8% | -17.6% | bear to base |
@@ -169,13 +167,15 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [JOBY/2026-07-20](JOBY.md) | Watch | Avoid | $7.47 | $7.05 | $6.18 | -17.3% | -18.9% | base to bull |
 | [VKTX/2026-09-25](VKTX.md) | Watch | Watch | $36.75 | $53.30 | $28.99 | -21.1% | -19.2% | bear to base |
 | [LOPE/2026-06-18](LOPE.md) | Watch | Watch | $142.46 | $180.00 | $116.50 | -18.2% | -19.9% | bear to base |
+| [HIMS/2026-05-24](HIMS.md) | Watch | Own | $23.75 | $51.00 | $19.13 | -19.5% | -20.5% | bear to base |
 | [GENI/2026-08-04](GENI.md) | Watch | Own | $8.08 | $36.65 | $6.20 | -23.3% | -21.1% | bear to base |
-| [HIMS/2026-05-11](HIMS.md) | unstated | Avoid | $28.27 | $27.00 | $22.94 | -18.9% | -21.4% | bear to base |
 | [TIGR/2026-05-27](TIGR.md) | Watch | Watch | $5.01 | $6.00 | $3.95 | -21.2% | -21.9% | bear to base |
 | [QS/2026-07-17](QS.md) | Watch | Avoid | $5.86 | $3.29 | $4.57 | -22.0% | -23.5% | base to bull |
 | [DNLI/2026-07-07](DNLI.md) | Watch | Avoid | $26.31 | $19.05 | $20.33 | -22.7% | -23.6% | base to bull |
 | [BE/2026-07-08](BE.md) | Watch | Avoid | $254.29 | $145.00 | $193.88 | -23.8% | -25.0% | base to bull |
+| [HIMS/2026-06-06](HIMS.md) | Watch | Own | $26.19 | $51.00 | $19.13 | -27.0% | -29.1% | bear to base |
 | [INTR/2026-05-18](INTR.md) | unstated | Watch | $5.85 | $6.20 | $4.00 | -31.6% | -34.0% | bear to base |
+| [HIMS/2026-05-11](HIMS.md) | unstated | Avoid | $28.27 | $27.00 | $19.13 | -32.3% | -34.5% | bear to base |
 | [ETOR/2026-01-28](ETOR.md) | Pass | — | $31.40 | — | $23.32 | -25.7% | -34.8% | — |
 | [IONS/2026-09-22](IONS.md) | Watch | Watch | $45.75 | $62.00 | $28.19 | -38.4% | -35.3% | bear to base |
 | [INTR/2026-05-24](INTR.md) | Watch (positive) | Watch | $6.16 | $9.00 | $4.00 | -35.1% | -36.5% | below bear |
