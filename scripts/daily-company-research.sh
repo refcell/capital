@@ -42,7 +42,7 @@ KIND="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["task"])' "$T
 if [ "$KIND" = "update" ]; then
   TICKER="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["ticker"])' "$TASK")"
 else
-  TICKER="$(python3 scripts/pick-company-ticker.py)"
+  TICKER="$(python3 scripts/pick-company-ticker.py --record)"
 fi
 if [ -z "$TICKER" ] || [ "$TICKER" = "n/a" ]; then
   echo "no ticker to research" >&2

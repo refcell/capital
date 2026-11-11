@@ -26,7 +26,10 @@ FRESH_DAYS = 30
 def next_task(today: date) -> dict:
     rel = releases()
     due = []
+    cov = store.coverage()
     for t, c in store.latest_calls().items():
+        if cov.get(t, {}).get("status") == "dropped":
+            continue
         newer = [r for r in rel.get(t, []) if r["filing_date"] > c.date]
         if newer:
             due.append((newer[-1]["filing_date"], newer[0]["filing_date"], t, c.key))

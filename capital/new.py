@@ -197,6 +197,7 @@ def main(argv: list[str] | None = None) -> int:
     store.write_json(d / "inputs.json", inputs)
     store.write_json(d / "sources" / "manifest.json", build_manifest(ticker))
     store.write_json(d / "call.json", draft_call(ticker, args.date, inputs))
+    store.add_coverage(ticker, args.date)
     print(f"created {d.relative_to(store.ROOT)}/ (call.json is a draft)")
     for n in notes:
         print("note: " + n)

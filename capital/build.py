@@ -284,15 +284,20 @@ def index_page(latest: dict[str, store.Call], all_calls: list[store.Call]) -> st
     out.append(f"| Other | Pass, needs more work, unstated, or no fair value | {rule_counts.get(None, 0)} | {other} |")
     out.append("")
     out.append("## Companies\n")
-    out.append("| Ticker | Company | Sector | Latest | Calls | Stance | Rule | Price | Fair value | Exp. return / yr | Since call | vs SPY |")
-    out.append("|---|---|---|---|---:|---|---|---:|---:|---:|---:|---:|")
+    out.append(
+        "Status comes from `data/coverage.csv`: active names get an update after every earnings release, watchlist "
+        "names wait for their entry price, dropped names get no more updates.\n"
+    )
+    cov = store.coverage()
+    out.append("| Ticker | Company | Sector | Status | Latest | Calls | Stance | Rule | Price | Fair value | Exp. return / yr | Since call | vs SPY |")
+    out.append("|---|---|---|---|---|---:|---|---|---:|---:|---:|---:|---:|")
     counts = Counter(c.ticker for c in all_calls)
     for t in sorted(latest):
         d = latest[t].call
         mk = score.mark(d)
         sector = (d.get("sector") or "—").split("/")[0].strip()
         out.append(
-            f"| [{t}]({t}.md) | {d['company']} | {sector} | {d['date']} | {counts[t]} | {stance_label(d)} | "
+            f"| [{t}]({t}.md) | {d['company']} | {sector} | {cov.get(t, {}).get('status', '—')} | {d['date']} | {counts[t]} | {stance_label(d)} | "
             f"{(score.rule_rating(d) or '—').capitalize()} | {money(d['price']['value'])} | {money(store.fair_value(d))} | "
             f"{pct(score.expected_annual(d))} | {pct(mk.ret) if mk else '—'} | {pct(mk.excess) if mk else '—'} |"
         )

@@ -129,3 +129,33 @@ def fair_value(call: dict[str, Any]) -> float | None:
         return fv["value"]
     base = (call.get("scenarios") or {}).get("base") or {}
     return base.get("value")
+
+
+COVERAGE = DATA / "coverage.csv"
+COVERAGE_FIELDS = ["ticker", "status", "since", "entry_price", "reason"]
+COVERAGE_STATUSES = ("active", "watchlist", "dropped")
+
+
+def coverage() -> dict[str, dict[str, str]]:
+    """Pipeline state per ticker. active: updated after each release; watchlist: waiting for
+    entry_price; dropped: no further updates, with a reason. Hand-edited."""
+    import csv
+
+    path = DATA / "coverage.csv"
+    if not path.exists():
+        return {}
+    with path.open(newline="") as fh:
+        return {r["ticker"]: r for r in csv.DictReader(fh)}
+
+
+def add_coverage(ticker: str, since: str) -> None:
+    import csv
+
+    rows = coverage()
+    if ticker in rows:
+        return
+    rows[ticker] = {"ticker": ticker, "status": "active", "since": since, "entry_price": "", "reason": ""}
+    with (DATA / "coverage.csv").open("w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=COVERAGE_FIELDS, lineterminator="\n")
+        w.writeheader()
+        w.writerows(rows[k] for k in sorted(rows))

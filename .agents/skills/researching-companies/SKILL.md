@@ -12,7 +12,9 @@ The repo is the store of record. Data is captured once per run into committed, d
 Run `python3 -m capital.build` and read `library/CALENDAR.md`.
 
 - If "Calls overtaken by an earnings release" lists a name, do an **update** on the oldest one. An update is due whenever the company has reported since its latest call.
-- Otherwise start a **new name**: `python3 scripts/pick-company-ticker.py`. It skips tickers already covered.
+- Otherwise start a **new name**: `python3 scripts/pick-company-ticker.py --record`. It skips every ticker in `data/` or `data/coverage.csv`, and `--record` writes `data/universe/<date>.json` (the candidates it drew from and the pick); commit that file with the run.
+
+`python3 -m capital.next` makes this choice for you: a release from the last 30 days first, then older updates alternating with new names. Names marked `dropped` in `data/coverage.csv` get no updates; set `watchlist` with an `entry_price` for a name worth owning only lower, and `dropped` with a reason to stop covering one.
 
 ## 2. Capture data (the only network step)
 

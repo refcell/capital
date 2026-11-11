@@ -364,6 +364,36 @@ def check_workbooks(errors: list[str]) -> None:
                         break
 
 
+def check_coverage(errors: list[str]) -> None:
+    path = store.DATA / "coverage.csv"
+    if not path.exists():
+        return
+    with path.open(newline="") as fh:
+        reader = csv.DictReader(fh)
+        if reader.fieldnames != store.COVERAGE_FIELDS:
+            errors.append(f"data/coverage.csv: header must be {','.join(store.COVERAGE_FIELDS)}")
+            return
+        rows = list(reader)
+    seen = set()
+    for i, r in enumerate(rows, start=2):
+        t = r["ticker"]
+        if t in seen:
+            errors.append(f"data/coverage.csv:{i}: duplicate {t}")
+        seen.add(t)
+        if r["status"] not in store.COVERAGE_STATUSES:
+            errors.append(f"data/coverage.csv:{i}: status must be one of {', '.join(store.COVERAGE_STATUSES)}")
+        if r["status"] == "dropped" and not r["reason"]:
+            errors.append(f"data/coverage.csv:{i}: dropped names need a reason")
+        if r["status"] == "watchlist":
+            try:
+                if float(r["entry_price"]) <= 0:
+                    raise ValueError
+            except ValueError:
+                errors.append(f"data/coverage.csv:{i}: watchlist names need a positive entry_price")
+    for t in sorted({c.ticker for c in store.iter_calls()} - seen):
+        errors.append(f"data/coverage.csv: {t} has calls but no coverage row")
+
+
 def run() -> list[str]:
     errors: list[str] = []
     for path in sorted(store.DATA.glob("*/*/")):
@@ -378,6 +408,7 @@ def run() -> list[str]:
     check_call_prices(errors)
     check_sec(errors)
     check_workbooks(errors)
+    check_coverage(errors)
     return errors
 
 

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import gzip
 import json
 import random
@@ -273,9 +274,17 @@ def existing_represented_tickers(sec_mapping: dict[str, dict[str, str]]) -> set[
             continue
         for path in directory.glob("*.md"):
             stem = path.stem.upper()
-            if stem in {"README", "TEMPLATE"}:
+            if stem in {"README", "TEMPLATE", "UPDATE_TEMPLATE"}:
                 continue
             represented.add(stem)
+    # Every ticker in the data store or the coverage list, including dropped names.
+    data_dir = ROOT / "data"
+    if data_dir.exists():
+        represented.update(p.parent.parent.name for p in data_dir.glob("*/*/call.json"))
+    coverage = data_dir / "coverage.csv"
+    if coverage.exists():
+        with coverage.open(newline="") as fh:
+            represented.update(row["ticker"].upper() for row in csv.DictReader(fh))
 
     workbook_paths = list((ROOT / "models").glob("*.xlsx"))
     workbook_texts = [(path, normalize_text(path.stem), set(normalize_text(path.stem).split())) for path in workbook_paths]
@@ -406,13 +415,26 @@ def passes_random_filters(row: dict[str, Any], sec_mapping: dict[str, dict[str, 
     return None
 
 
+FETCH_FAILURES: dict[str, str] = {}
+
+
+def _safe(fetch, bucket: str) -> list[dict[str, Any]]:
+    """One blocked source empties its bucket instead of failing the whole pick."""
+    try:
+        return fetch()
+    except (HTTPError, URLError, TimeoutError, KeyError, json.JSONDecodeError) as exc:
+        FETCH_FAILURES[bucket] = str(exc)
+        print(f"warning: {bucket} source failed: {exc}", file=sys.stderr)
+        return []
+
+
 def build_bucket_results(sec_mapping: dict[str, dict[str, str]], seen: set[str]) -> dict[str, BucketResult]:
     represented = existing_represented_tickers(sec_mapping)
     results: dict[str, BucketResult] = {}
 
     lows_rejected: list[str] = []
     lows_candidates: list[Candidate] = []
-    for quote in fetch_yahoo_screener("recent_52_week_lows"):
+    for quote in _safe(lambda: fetch_yahoo_screener("recent_52_week_lows"), "recent_52_week_lows"):
         ticker = str(quote.get("symbol", "")).upper()
         reason = passes_yahoo_filters(quote, sec_mapping, represented, seen)
         if reason:
@@ -428,7 +450,7 @@ def build_bucket_results(sec_mapping: dict[str, dict[str, str]], seen: set[str])
 
     highs_rejected: list[str] = []
     highs_candidates: list[Candidate] = []
-    for quote in fetch_yahoo_screener("recent_52_week_highs"):
+    for quote in _safe(lambda: fetch_yahoo_screener("recent_52_week_highs"), "recent_52_week_highs"):
         ticker = str(quote.get("symbol", "")).upper()
         reason = passes_yahoo_filters(quote, sec_mapping, represented, seen)
         if reason:
@@ -444,7 +466,7 @@ def build_bucket_results(sec_mapping: dict[str, dict[str, str]], seen: set[str])
 
     actives_rejected: list[str] = []
     actives_candidates: list[Candidate] = []
-    for quote in fetch_yahoo_screener("most_actives"):
+    for quote in _safe(lambda: fetch_yahoo_screener("most_actives"), "most_actives"):
         ticker = str(quote.get("symbol", "")).upper()
         reason = passes_yahoo_filters(quote, sec_mapping, represented, seen)
         if reason:
@@ -465,7 +487,7 @@ def build_bucket_results(sec_mapping: dict[str, dict[str, str]], seen: set[str])
 
     random_rejected: list[str] = []
     random_candidates: list[Candidate] = []
-    for row in fetch_nasdaq_screener():
+    for row in _safe(fetch_nasdaq_screener, "random"):
         ticker = str(row.get("symbol", "")).upper()
         reason = passes_random_filters(row, sec_mapping, represented, seen)
         if reason:
@@ -588,7 +610,27 @@ def mark_seen(ticker: str) -> int:
     return 0
 
 
-def select_ticker(dry_run: bool) -> int:
+def record_universe(results: dict[str, BucketResult], bucket_result: BucketResult, candidate: Candidate, source: str) -> None:
+    """Commit-ready record of what the picker saw, so every pick can be explained later."""
+    day = datetime.now(timezone.utc).date().isoformat()
+    payload = {
+        "date": day,
+        "source": source,
+        "weights": {name: spec["weight"] for name, spec in BUCKETS.items()},
+        "buckets": {
+            name: {"candidates": [c.ticker for c in r.candidates], "rejected": len(r.rejected)}
+            for name, r in results.items()
+        },
+        "fetch_failures": dict(FETCH_FAILURES),
+        "chosen_bucket": bucket_result.bucket,
+        "chosen": candidate.ticker,
+    }
+    path = ROOT / "data" / "universe" / f"{day}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2) + "\n")
+
+
+def select_ticker(dry_run: bool, record: bool = False) -> int:
     ensure_state_dir()
     if not SEEN_PATH.exists():
         save_seen_tickers(load_seen_tickers())
@@ -610,6 +652,8 @@ def select_ticker(dry_run: bool) -> int:
     if live_results:
         try:
             bucket_result, candidate = choose_from_results(live_results)
+            if record:
+                record_universe(live_results, bucket_result, candidate, "live")
             if dry_run:
                 print_dry_run(bucket_result, candidate, source="live")
             else:
@@ -621,6 +665,8 @@ def select_ticker(dry_run: bool) -> int:
     try:
         cached_results = load_cache_results(sec_mapping, seen)
         bucket_result, candidate = choose_from_results(cached_results)
+        if record:
+            record_universe(cached_results, bucket_result, candidate, "cache")
         if dry_run:
             print_dry_run(bucket_result, candidate, source="cache")
         else:
@@ -635,6 +681,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Pick one eligible company ticker for daily capital research.")
     parser.add_argument("--dry-run", action="store_true", help="show selection diagnostics instead of printing only the final ticker")
     parser.add_argument("--mark-seen", metavar="TICKER", help="record a ticker as used after a successful full run")
+    parser.add_argument("--record", action="store_true", help="write data/universe/<date>.json with the candidates and the pick")
     return parser.parse_args()
 
 
@@ -644,7 +691,7 @@ def main() -> int:
         raise SelectionError("--dry-run and --mark-seen cannot be used together")
     if args.mark_seen:
         return mark_seen(args.mark_seen)
-    return select_ticker(dry_run=args.dry_run)
+    return select_ticker(dry_run=args.dry_run, record=args.record)
 
 
 if __name__ == "__main__":
