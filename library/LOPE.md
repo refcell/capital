@@ -18,6 +18,27 @@ Sector: Consumer Discretionary / Online Higher Education / For-profit university
 | Valuation lens | P/E ratio, EV/EBITDA, scenario-based FCF multiple analysis, reverse DCF |
 | Since the call | -18.2% vs SPY +1.7% through 2026-11-10; mark $116.50 is bear to base |
 
+## Fundamentals known on 2026-06-18
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit LOPE 2026-06-18`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,125.5M USD | 2026-03-31 | ttm ytd | [0001558370-25-006495](https://www.sec.gov/Archives/edgar/data/1434588/000155837025006495/) |
+| Operating income (TTM) | 273.3M USD | 2026-03-31 | ttm ytd | [0001558370-25-006495](https://www.sec.gov/Archives/edgar/data/1434588/000155837025006495/) |
+| Net income (TTM) | 3.9M USD | 2026-03-31 | ttm ytd | [0001558370-25-006495](https://www.sec.gov/Archives/edgar/data/1434588/000155837025006495/) |
+| Diluted EPS (TTM) | 7.99 USD | 2026-03-31 | ttm ytd | [0001558370-25-006495](https://www.sec.gov/Archives/edgar/data/1434588/000155837025006495/) |
+| Operating cash flow (TTM) | 294.1M USD | 2026-03-31 | ttm ytd | [0001558370-25-006495](https://www.sec.gov/Archives/edgar/data/1434588/000155837025006495/) |
+| Stock comp (TTM) | 9.9M USD | 2013-12-31 | annual | [0001193125-14-060686](https://www.sec.gov/Archives/edgar/data/1434588/000119312514060686/) |
+| Cash | 96.1M USD | 2026-03-31 | instant | [0001104659-26-052898](https://www.sec.gov/Archives/edgar/data/1434588/000110465926052898/) |
+| Long-term debt | 107.8M USD | 2020-12-31 | instant | [0001558370-21-001135](https://www.sec.gov/Archives/edgar/data/1434588/000155837021001135/) |
+| Equity | 696.2M USD | 2026-03-31 | instant | [0001104659-26-052898](https://www.sec.gov/Archives/edgar/data/1434588/000110465926052898/) |
+| Shares outstanding | 26.5M | 2026-04-28 | instant | [0001104659-26-052898](https://www.sec.gov/Archives/edgar/data/1434588/000110465926052898/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001104659-26-122660](https://www.sec.gov/Archives/edgar/data/1434588/000110465926122660/)). Next release, estimated from the same quarter last year: 2027-02-17.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

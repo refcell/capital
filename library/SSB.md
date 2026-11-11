@@ -20,6 +20,27 @@ Sector: Financial Services / Banks — Regional · Calls: 1 · Latest: 2026-08-1
 
 **Data notes.** The report states more than one probability-weighted value: $140, $140.34; the first is used.
 
+## Fundamentals known on 2026-08-10
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SSB 2026-08-10`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Net income (TTM) | 950.2M USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Diluted EPS (TTM) | 9.52 USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Operating cash flow (TTM) | 927.6M USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Capex (TTM) | 67.2M USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Free cash flow (TTM) | 860.4M USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Stock comp (TTM) | 37.1M USD | 2026-06-30 | ttm ytd | [0001558370-25-009936](https://www.sec.gov/Archives/edgar/data/764038/000155837025009936/) |
+| Cash | 396.8M USD | 2018-06-30 | instant | [0001558370-18-006313](https://www.sec.gov/Archives/edgar/data/764038/000155837018006313/) |
+| Long-term debt | 55.4M USD | 2016-12-31 | instant | [0001558370-17-000989](https://www.sec.gov/Archives/edgar/data/764038/000155837017000989/) |
+| Equity | 9,131.5M USD | 2026-06-30 | instant | [0001104659-26-089026](https://www.sec.gov/Archives/edgar/data/764038/000110465926089026/) |
+| Shares outstanding | 97.0M | 2026-07-30 | instant | [0001104659-26-089026](https://www.sec.gov/Archives/edgar/data/764038/000110465926089026/) |
+
+## Earnings calendar
+
+Last release: 2026-10-21 (post-market 8-K Item 2.02, [0001193125-26-427824](https://www.sec.gov/Archives/edgar/data/764038/000119312526427824/)). Next release, estimated from the same quarter last year: 2027-01-21.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

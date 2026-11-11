@@ -18,6 +18,24 @@ Sector: Industrials / specialty business services · Calls: 1 · Latest: 2026-09
 | Valuation lens | Forward P/E, with EV/EBITDA and FCF yield as cross-checks |
 | Since the call | +5.9% vs SPY -0.8% through 2026-11-10; mark $23.74 is bear to base |
 
+## Fundamentals known on 2026-09-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit RTO 2026-09-11`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 5,436.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Operating income (TTM) | 549.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Net income (TTM) | 307.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Diluted EPS (TTM) | 0.12 GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Operating cash flow (TTM) | 678.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Capex (TTM) | 171.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Free cash flow (TTM) | 507.0M GBP | 2024-12-31 | annual | [0001104659-25-027944](https://www.sec.gov/Archives/edgar/data/930157/000110465925027944/) |
+| Cash | 2,319.0M USD | 2025-12-31 | instant | [0001104659-26-034062](https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/) |
+| Long-term debt | 5,408.0M USD | 2025-12-31 | instant | [0001104659-26-034062](https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/) |
+| Equity | 5,496.0M USD | 2025-12-31 | instant | [0001104659-26-034062](https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/) |
+| Shares outstanding | 2,526.0M | 2025-12-31 | instant | [0001104659-26-034062](https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

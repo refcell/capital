@@ -18,6 +18,21 @@ Sector: Real estate / retail REIT / premium outlet center operator Â· Calls: 1 Â
 | Valuation lens | Forward P/E on FFO, EV/EBITDA, and dividend-supported owner earnings |
 | Since the call | -4.1% vs SPY +1.5% through 2026-11-10; mark $40.40 is unbanded |
 
+## Fundamentals known on 2026-07-28
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SKT 2026-07-28`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Cash | 207.4M USD | 2026-03-31 | instant | [0001628280-26-029536](https://www.sec.gov/Archives/edgar/data/899715/000162828026029536/) |
+| Long-term debt | 1,865.7M USD | 2026-03-31 | instant | [0001628280-26-029536](https://www.sec.gov/Archives/edgar/data/899715/000162828026029536/) |
+| Equity | 670.5M USD | 2026-03-31 | instant | [0001628280-26-029536](https://www.sec.gov/Archives/edgar/data/899715/000162828026029536/) |
+| Shares outstanding | 114.9M | 2026-04-30 | instant | [0001628280-26-029536](https://www.sec.gov/Archives/edgar/data/899715/000162828026029536/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001628280-26-070124](https://www.sec.gov/Archives/edgar/data/899715/000162828026070124/)). Next release, estimated from the same quarter last year: 2027-02-23.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

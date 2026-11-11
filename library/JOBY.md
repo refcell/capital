@@ -18,6 +18,29 @@ Sector: Industrials — Aerospace & Defense — eVTOL / Advanced Air Mobility ·
 | Valuation lens | Cash NAV Floor + Regulatory/Pipeline Optionality (pre-commercial developer framework) |
 | Since the call | -17.3% vs SPY +1.7% through 2026-11-09; mark $6.18 is base to bull |
 
+## Fundamentals known on 2026-07-20
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit JOBY 2026-07-20`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 77.7M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Operating income (TTM) | -789.9M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Net income (TTM) | -957.4M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Diluted EPS (TTM) | -1.14 USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Operating cash flow (TTM) | -543.4M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Capex (TTM) | 116.9M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Free cash flow (TTM) | -660.2M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Stock comp (TTM) | 144.9M USD | 2026-03-31 | ttm ytd | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Cash | 874.5M USD | 2026-03-31 | instant | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Long-term debt | 701.1M USD | 2026-03-31 | instant | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Equity | 1,957.7M USD | 2026-03-31 | instant | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+| Shares outstanding | 983.6M | 2026-05-04 | instant | [0001819848-26-000324](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000324/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001819848-26-000531](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000531/)). Next release, estimated from the same quarter last year: 2027-02-01.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

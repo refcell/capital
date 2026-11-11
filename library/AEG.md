@@ -18,6 +18,23 @@ Sector: Financial Services / Insurance - Diversified · Calls: 1 · Latest: 2026
 | Valuation lens | P/B ratio, Forward P/E — insurance framework |
 | Since the call | -6.3% vs SPY -0.8% through 2026-11-10; mark $8.87 is bear to base |
 
+## Fundamentals known on 2026-08-03
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit AEG 2026-08-03`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 21,331.0M EUR | 2022-12-31 | annual | [0001193125-23-076544](https://www.sec.gov/Archives/edgar/data/769218/000119312523076544/) |
+| Operating income (TTM) | -35,132.0M EUR | 2022-12-31 | annual | [0001193125-23-076544](https://www.sec.gov/Archives/edgar/data/769218/000119312523076544/) |
+| Net income (TTM) | 977.0M EUR | 2025-12-31 | annual | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Diluted EPS (TTM) | 0.37 EUR | 2024-12-31 | annual | [0001193125-25-064638](https://www.sec.gov/Archives/edgar/data/769218/000119312525064638/) |
+| Operating cash flow (TTM) | 434.0M EUR | 2025-12-31 | annual | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Capex (TTM) | 41.0M EUR | 2025-12-31 | annual | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Free cash flow (TTM) | 393.0M EUR | 2025-12-31 | annual | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Cash | 2,733.0M EUR | 2025-12-31 | instant | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Long-term debt | 1,982.0M EUR | 2025-12-31 | instant | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+| Equity | 9,410.0M EUR | 2025-12-31 | instant | [0001193125-26-124987](https://www.sec.gov/Archives/edgar/data/769218/000119312526124987/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

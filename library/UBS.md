@@ -18,6 +18,20 @@ Sector: Financials / diversified banks · Calls: 1 · Latest: 2026-09-03
 | Valuation lens | P/B, P/TBV, ROE and residual income |
 | Since the call | -12.1% vs SPY -2.4% through 2026-11-09; mark $48.27 is bear to base |
 
+## Fundamentals known on 2026-09-03
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit UBS 2026-09-03`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 49,573.0M USD | 2025-12-31 | annual | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Net income (TTM) | 7,797.0M USD | 2025-12-31 | annual | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Diluted EPS (TTM) | 2.36 USD | 2025-12-31 | annual | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Operating cash flow (TTM) | 21,851.0M USD | 2025-12-31 | annual | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Cash | 231,375.0M USD | 2025-12-31 | instant | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Equity | 90,213.0M USD | 2025-12-31 | instant | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+| Shares outstanding | 3,341.6M | 2025-12-31 | instant | [0001610520-26-000023](https://www.sec.gov/Archives/edgar/data/1610520/000161052026000023/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

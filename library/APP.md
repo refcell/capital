@@ -20,6 +20,28 @@ Sector: Communication Services — Advertising Agencies / Mobile Advertising Tec
 
 **Data notes.** The report states more than one probability-weighted value: $780, $780.17; the first is used.
 
+## Fundamentals known on 2026-08-06
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit APP 2026-08-06`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 6,829.1M USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Operating income (TTM) | 5,288.5M USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Net income (TTM) | 4,410.2M USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Diluted EPS (TTM) | 13.01 USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Operating cash flow (TTM) | 4,527.6M USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Capex (TTM) | 4.8M USD | 2024-12-31 | annual | [0001751008-25-000018](https://www.sec.gov/Archives/edgar/data/1751008/000175100825000018/) |
+| Stock comp (TTM) | 282.4M USD | 2026-06-30 | ttm ytd | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Cash | 3,053.3M USD | 2026-06-30 | instant | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Long-term debt | 3,515.1M USD | 2026-06-30 | instant | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Equity | 3,163.0M USD | 2026-06-30 | instant | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+| Shares outstanding | 335.3M | 2026-06-30 | instant | [0001751008-26-000059](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001751008-26-000068](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000068/)). Next release, estimated from the same quarter last year: 2027-02-10.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,21 @@ Sector: Latin American digital banking / consumer finance / fintech · Calls: 2 
 | Valuation lens | P/B and ROE, normalized P/E, credit-cycle scenario analysis |
 | Since the call | -2.9% vs SPY +1.5% through 2026-11-09; mark $12.36 is bear to base |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NU 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 11,517.1M USD | 2024-12-31 | annual | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Gross profit (TTM) | 5,252.9M USD | 2024-12-31 | annual | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Net income (TTM) | 1,972.1M USD | 2024-12-31 | annual | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Diluted EPS (TTM) | 0.40 USD | 2024-12-31 | annual | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Operating cash flow (TTM) | 2,399.0M USD | 2024-12-31 | annual | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Cash | 9,185.7M USD | 2024-12-31 | instant | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Long-term debt | 1,730.4M USD | 2024-12-31 | instant | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+| Equity | 7,646.3M USD | 2024-12-31 | instant | [0001292814-25-001517](https://www.sec.gov/Archives/edgar/data/1691493/000129281425001517/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

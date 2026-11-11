@@ -18,6 +18,29 @@ Sector: Latin American e-commerce / payments / fintech / logistics / retail medi
 | Valuation lens | Owner-earnings DCF, adjusted FCF, SOTP, and reverse DCF |
 | Since the call | -10.5% vs SPY +1.1% through 2026-11-10; mark $1,490 is bear to base |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit MELI 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 31,803.0M USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Gross profit (TTM) | 13,949.0M USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Operating income (TTM) | 3,049.0M USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Net income (TTM) | 1,920.0M USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Diluted EPS (TTM) | 37.89 USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Operating cash flow (TTM) | 13,160.0M USD | 2026-03-31 | ttm ytd | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Capex (TTM) | 731.0M USD | 2024-09-30 | ttm ytd | [0001099590-24-000042](https://www.sec.gov/Archives/edgar/data/1099590/000109959024000042/) |
+| Stock comp (TTM) | 42.9M USD | 2019-06-30 | ttm ytd | [0001562762-19-000186](https://www.sec.gov/Archives/edgar/data/1099590/000156276219000186/) |
+| Cash | 3,677.0M USD | 2026-03-31 | instant | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Long-term debt | 9,927.0M USD | 2026-03-31 | instant | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Equity | 7,281.0M USD | 2026-03-31 | instant | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+| Shares outstanding | 50.7M | 2026-05-07 | instant | [0001099590-26-000017](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001099590-26-000027](https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/)). Next release, estimated from the same quarter last year: 2027-02-23.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

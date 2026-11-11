@@ -18,6 +18,22 @@ Sector: Financials / Banks — Regional (Argentina) · Calls: 1 · Latest: 2026-
 | Valuation lens | P/B + ROE / Forward P/E (bank framework — FCF and EV multiples N/A) |
 | Since the call | -0.3% vs SPY +2.3% through 2026-11-10; mark $57.83 is bear to base |
 
+## Fundamentals known on 2026-11-06
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit BMA 2026-11-06`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 58,666.2M ARS | 2018-12-31 | annual | [0001193125-19-161189](https://www.sec.gov/Archives/edgar/data/1347426/000119312519161189/) |
+| Operating income (TTM) | 2,717,780.8M ARS | 2024-12-31 | annual | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Net income (TTM) | 325,502.1M ARS | 2024-12-31 | annual | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Operating cash flow (TTM) | 2,002,138.2M ARS | 2024-12-31 | annual | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Capex (TTM) | 124,516.3M ARS | 2024-12-31 | annual | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Free cash flow (TTM) | 1,877,622.0M ARS | 2024-12-31 | annual | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Cash | 2,863,521.3M ARS | 2024-12-31 | instant | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Equity | 4,049,083.1M ARS | 2024-12-31 | instant | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+| Shares outstanding | 639.4M | 2024-12-31 | instant | [0001193125-25-087225](https://www.sec.gov/Archives/edgar/data/1347426/000119312525087225/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

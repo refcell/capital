@@ -18,6 +18,28 @@ Sector: Healthcare / Drug Manufacturers - General · Calls: 1 · Latest: 2026-11
 | Valuation lens | FY2031 non-GAAP adjusted EPS × exit P/E; TTM FCF yield and EV/EBITDA as cross-checks. Trailing GAAP P/E is not used. FCF multiples are not the primary scenario framework because net debt is 4.7× TTM FCF. |
 | Since the call | -2.4% vs SPY -0.8% through 2026-11-10; mark $29.79 is bear to base |
 
+## Fundamentals known on 2026-11-03
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PFE 2026-11-03`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 63,624.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Net income (TTM) | 4,033.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Diluted EPS (TTM) | 0.70 USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Operating cash flow (TTM) | 14,173.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Capex (TTM) | 2,387.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Free cash flow (TTM) | 11,786.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Stock comp (TTM) | 1,108.0M USD | 2026-09-27 | ttm ytd | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Cash | 1,824.0M USD | 2026-09-27 | instant | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Long-term debt | 59,997.0M USD | 2026-09-27 | instant | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Equity | 89,001.0M USD | 2026-09-27 | instant | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+| Shares outstanding | 5,699.9M | 2026-10-28 | instant | [0000078003-26-000127](https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/) |
+
+## Earnings calendar
+
+Last release: 2026-11-03 (pre-market 8-K Item 2.02, [0000078003-26-000125](https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/)). Next release, estimated from the same quarter last year: 2027-02-02.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

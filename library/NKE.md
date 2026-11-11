@@ -20,6 +20,29 @@ Sector: Consumer discretionary / athletic footwear, apparel, and sportswear · C
 
 **Data notes.** The report does not state the close date of its reference price.
 
+## Fundamentals known on 2026-06-01
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NKE 2026-06-01`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 46,523.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Gross profit (TTM) | 18,987.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Net income (TTM) | 2,250.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Diluted EPS (TTM) | 1.52 USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Operating cash flow (TTM) | 1,694.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Capex (TTM) | 646.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Free cash flow (TTM) | 1,048.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Stock comp (TTM) | 720.0M USD | 2026-02-28 | ttm ytd | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Cash | 6,660.0M USD | 2026-02-28 | instant | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Long-term debt | 7,030.0M USD | 2026-02-28 | instant | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Equity | 14,090.0M USD | 2026-02-28 | instant | [0000320187-26-000037](https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/) |
+| Shares outstanding | 855.4M | 2015-07-17 | instant | [0000320187-15-000113](https://www.sec.gov/Archives/edgar/data/320187/000032018715000113/) |
+
+## Earnings calendar
+
+Last release: 2026-10-01 (post-market 8-K Item 2.02, [0000320187-26-000184](https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/)). Next release, estimated from the same quarter last year: 2026-12-17.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

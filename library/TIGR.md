@@ -18,6 +18,19 @@ Sector: Online brokerage / capital markets fintech / China-linked ADR · Calls: 
 | Valuation lens | Normalized P/E, P/B and ROE, scenario earnings, and regulatory haircut |
 | Since the call | -21.2% vs SPY +0.8% through 2026-11-09; mark $3.95 is bear to base |
 
+## Fundamentals known on 2026-05-27
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TIGR 2026-05-27`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 612.1M USD | 2025-12-31 | annual | [0001193125-26-174855](https://www.sec.gov/Archives/edgar/data/1756699/000119312526174855/) |
+| Net income (TTM) | -6.6M USD | 2019-12-31 | annual | [0001104659-20-053356](https://www.sec.gov/Archives/edgar/data/1756699/000110465920053356/) |
+| Diluted EPS (TTM) | 0.06 USD | 2025-12-31 | annual | [0001193125-26-174855](https://www.sec.gov/Archives/edgar/data/1756699/000119312526174855/) |
+| Operating cash flow (TTM) | 1,316.7M USD | 2025-12-31 | annual | [0001193125-26-174855](https://www.sec.gov/Archives/edgar/data/1756699/000119312526174855/) |
+| Cash | 791.0M USD | 2025-12-31 | instant | [0001193125-26-174855](https://www.sec.gov/Archives/edgar/data/1756699/000119312526174855/) |
+| Equity | 865.5M USD | 2025-12-31 | instant | [0001193125-26-174855](https://www.sec.gov/Archives/edgar/data/1756699/000119312526174855/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

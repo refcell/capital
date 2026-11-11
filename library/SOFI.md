@@ -18,6 +18,26 @@ Sector: Digital banking / consumer finance / fintech infrastructure · Calls: 2 
 | Valuation lens | Adjusted net income, tangible/book value growth, ROE, credit quality, and P/E / P/B |
 | Since the call | +7.2% vs SPY +1.5% through 2026-11-09; mark $16.75 is bear to base |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SOFI 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 608.5M USD | 2026-03-31 | ttm ytd | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Net income (TTM) | 576.9M USD | 2026-03-31 | ttm ytd | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Diluted EPS (TTM) | 0.45 USD | 2026-03-31 | ttm ytd | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Operating cash flow (TTM) | -6,079.0M USD | 2026-03-31 | ttm ytd | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Stock comp (TTM) | 270.3M USD | 2026-03-31 | ttm ytd | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Cash | 3,401.0M USD | 2026-03-31 | instant | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Long-term debt | 5,485.9M USD | 2022-12-31 | instant | [0001818874-23-000018](https://www.sec.gov/Archives/edgar/data/1818874/000181887423000018/) |
+| Equity | 10,811.6M USD | 2026-03-31 | instant | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+| Shares outstanding | 1,282.7M | 2026-04-30 | instant | [0001818874-26-000037](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000037/) |
+
+## Earnings calendar
+
+Last release: 2026-10-27 (pre-market 8-K Item 2.02, [0001818874-26-000065](https://www.sec.gov/Archives/edgar/data/1818874/000181887426000065/)). Next release, estimated from the same quarter last year: 2027-01-29.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

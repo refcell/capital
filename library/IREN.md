@@ -18,6 +18,29 @@ Sector: Technology infrastructure / AI cloud (GPU compute, owned data centers an
 | Valuation lens | FY2031 adjusted EBITDA × exit EV/EBITDA, less projected FY2031 net debt, over projected FY2031 shares, discounted to today; EV/contracted ARR and EV/forward revenue as cross-checks |
 | Since the call | -10.6% vs SPY -0.4% through 2026-11-09; mark $21.41 is bear to base |
 
+## Fundamentals known on 2026-10-31
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IREN 2026-10-31`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 707.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Operating income (TTM) | -1,046.7M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Net income (TTM) | -703.0M USD | 2026-06-30 | annual | [0001140361-26-039451](https://www.sec.gov/Archives/edgar/data/1878848/000114036126039451/) |
+| Diluted EPS (TTM) | -2.22 USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Operating cash flow (TTM) | 2,100.4M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Capex (TTM) | 2,998.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Free cash flow (TTM) | -897.6M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Stock comp (TTM) | 205.0M USD | 2026-06-30 | annual | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Cash | 5,895.6M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Long-term debt | 7,592.9M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Equity | 4,185.6M USD | 2026-06-30 | instant | [0001878848-26-000052](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/) |
+| Shares outstanding | 357.4M | 2026-04-30 | instant | [0001878848-26-000026](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/) |
+
+## Earnings calendar
+
+Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001878848-26-000065](https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/)). Next release, estimated from the same quarter last year: 2027-02-04.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

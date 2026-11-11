@@ -18,6 +18,29 @@ Sector: Utilities / Independent Power Producers · Calls: 1 · Latest: 2026-09-2
 | Valuation lens | Forward adjusted P/E, with adjusted free-cash-flow-per-share and leverage cross-checks |
 | Since the call | +21.1% vs SPY -2.7% through 2026-11-09; mark $363.13 is bear to base |
 
+## Fundamentals known on 2026-09-22
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TLN 2026-09-22`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 3,437.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Operating income (TTM) | 88.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Net income (TTM) | -185.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Diluted EPS (TTM) | -4.04 USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Operating cash flow (TTM) | 796.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Capex (TTM) | 228.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Free cash flow (TTM) | 568.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Stock comp (TTM) | 568.0M USD | 2026-06-30 | ttm ytd | [0001628280-25-038626](https://www.sec.gov/Archives/edgar/data/1622536/000162828025038626/) |
+| Cash | 231.0M USD | 2026-06-30 | instant | [0001622536-26-000066](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/) |
+| Long-term debt | 9,572.0M USD | 2026-06-30 | instant | [0001622536-26-000066](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/) |
+| Equity | 1,616.0M USD | 2026-06-30 | instant | [0001622536-26-000066](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/) |
+| Shares outstanding | 47.9M | 2026-08-05 | instant | [0001622536-26-000066](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/) |
+
+## Earnings calendar
+
+Last release: 2026-11-03 (pre-market 8-K Item 2.02, [0001622536-26-000084](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000084/)). Next release, estimated from the same quarter last year: 2027-02-25.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

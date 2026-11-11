@@ -20,6 +20,27 @@ Sector: Real Estate â€” Privately Operated Correctional & Detention Facilities Â
 
 **Data notes.** Stated fair value $33 differs from the weighted scenario value $31.40.
 
+## Fundamentals known on 2026-06-23
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CXW 2026-06-23`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,337.3M USD | 2026-03-31 | ttm ytd | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Operating income (TTM) | 110.2M USD | 2021-03-31 | ttm ytd | [0001564590-21-024719](https://www.sec.gov/Archives/edgar/data/1070985/000156459021024719/) |
+| Net income (TTM) | 122.3M USD | 2022-12-31 | annual | [0000950170-23-003390](https://www.sec.gov/Archives/edgar/data/1070985/000095017023003390/) |
+| Diluted EPS (TTM) | 1.23 USD | 2026-03-31 | ttm ytd | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Operating cash flow (TTM) | 163.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Stock comp (TTM) | 27.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Cash | 209.7M USD | 2026-03-31 | instant | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Long-term debt | 1,381.0M USD | 2026-03-31 | instant | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Equity | 1,395.6M USD | 2026-03-31 | instant | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+| Shares outstanding | 98.9M | 2026-05-01 | instant | [0001193125-26-211158](https://www.sec.gov/Archives/edgar/data/1070985/000119312526211158/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001193125-26-447206](https://www.sec.gov/Archives/edgar/data/1070985/000119312526447206/)). Next release, estimated from the same quarter last year: 2027-02-10.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

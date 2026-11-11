@@ -18,6 +18,28 @@ Sector: Real estate / lodging REIT / convention resorts and entertainment · Cal
 | Valuation lens | FFO per share, EV/EBITDA, and dividend-supported owner earnings |
 | Since the call | +15.0% vs SPY +1.6% through 2026-11-10; mark $141.19 is base to bull |
 
+## Fundamentals known on 2026-06-14
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit RHP 2026-06-14`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,654.4M USD | 2026-03-31 | ttm ytd | [0001558370-25-006183](https://www.sec.gov/Archives/edgar/data/1040829/000155837025006183/) |
+| Operating income (TTM) | 508.7M USD | 2026-03-31 | ttm ytd | [0001558370-25-006183](https://www.sec.gov/Archives/edgar/data/1040829/000155837025006183/) |
+| Net income (TTM) | 250.9M USD | 2026-03-31 | ttm ytd | [0001104659-26-053780](https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/) |
+| Diluted EPS (TTM) | 3.80 USD | 2026-03-31 | ttm ytd | [0001558370-25-006183](https://www.sec.gov/Archives/edgar/data/1040829/000155837025006183/) |
+| Operating cash flow (TTM) | 661.7M USD | 2026-03-31 | ttm ytd | [0001558370-25-006183](https://www.sec.gov/Archives/edgar/data/1040829/000155837025006183/) |
+| Capex (TTM) | 79.8M USD | 2015-12-31 | annual | [0001193125-16-480931](https://www.sec.gov/Archives/edgar/data/1040829/000119312516480931/) |
+| Stock comp (TTM) | 14.2M USD | 2026-03-31 | ttm ytd | [0001558370-25-006183](https://www.sec.gov/Archives/edgar/data/1040829/000155837025006183/) |
+| Cash | 424.0M USD | 2026-03-31 | instant | [0001104659-26-053780](https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/) |
+| Long-term debt | 1,617.2M USD | 2017-12-31 | instant | [0001193125-18-060772](https://www.sec.gov/Archives/edgar/data/1040829/000119312518060772/) |
+| Equity | 732.8M USD | 2026-03-31 | instant | [0001104659-26-053780](https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/) |
+| Shares outstanding | 63.1M | 2026-03-31 | instant | [0001104659-26-053780](https://www.sec.gov/Archives/edgar/data/1040829/000110465926053780/) |
+
+## Earnings calendar
+
+Last release: 2026-11-03 (pre-market 8-K Item 2.02, [0001104659-26-121676](https://www.sec.gov/Archives/edgar/data/1040829/000110465926121676/)). Next release, estimated from the same quarter last year: 2027-02-23.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

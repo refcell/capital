@@ -18,6 +18,22 @@ Sector: Energy / Integrated Oil & Gas · Calls: 1 · Latest: 2026-09-15
 | Valuation lens | Normalized free cash flow and EV/FCF, with EV/EBITDA and forward P/E as cross-checks |
 | Since the call | -16.4% vs SPY -1.2% through 2026-11-10; mark $27.80 is unbanded |
 
+## Fundamentals known on 2026-09-15
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CVE 2026-09-15`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 49,696.0M CAD | 2025-12-31 | annual | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Net income (TTM) | 3,930.0M CAD | 2025-12-31 | annual | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Diluted EPS (TTM) | 2.15 CAD | 2025-12-31 | annual | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Operating cash flow (TTM) | 8,228.0M CAD | 2025-12-31 | annual | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Capex (TTM) | 1,935.0M CAD | 2021-09-30 | ttm ytd | [0001564590-21-004996](https://www.sec.gov/Archives/edgar/data/1475260/000156459021004996/) |
+| Cash | 2,740.0M CAD | 2025-12-31 | instant | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Long-term debt | 11,000.0M CAD | 2025-12-31 | instant | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Equity | 31,622.0M CAD | 2025-12-31 | instant | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+| Shares outstanding | 1,883.4M | 2025-12-31 | instant | [0001475260-26-000008](https://www.sec.gov/Archives/edgar/data/1475260/000147526026000008/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

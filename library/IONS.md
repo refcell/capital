@@ -18,6 +18,29 @@ Sector: Healthcare / Biotechnology / RNA-targeted medicines · Calls: 1 · Lates
 | Valuation lens | Forward EV/sales plus pipeline optionality |
 | Since the call | -38.4% vs SPY -3.0% through 2026-11-10; mark $28.19 is bear to base |
 
+## Fundamentals known on 2026-09-22
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit IONS 2026-09-22`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 874.1M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Operating income (TTM) | -594.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Net income (TTM) | -565.2M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Diluted EPS (TTM) | -3.48 USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Operating cash flow (TTM) | -496.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Capex (TTM) | 64.4M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Free cash flow (TTM) | -560.8M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Stock comp (TTM) | 163.3M USD | 2026-06-30 | ttm ytd | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Cash | 350.1M USD | 2026-06-30 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Long-term debt | 1,812.4M USD | 2025-12-31 | instant | [0000874015-26-000115](https://www.sec.gov/Archives/edgar/data/874015/000087401526000115/) |
+| Equity | 439.7M USD | 2026-06-30 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+| Shares outstanding | 166.2M | 2026-07-23 | instant | [0000874015-26-000251](https://www.sec.gov/Archives/edgar/data/874015/000087401526000251/) |
+
+## Earnings calendar
+
+Last release: 2026-11-09 (pre-market 8-K Item 2.02, [0001140361-26-042598](https://www.sec.gov/Archives/edgar/data/874015/000114036126042598/)). Next release, estimated from the same quarter last year: 2027-01-11.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

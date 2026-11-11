@@ -18,6 +18,30 @@ Sector: Enterprise software / CRM / workflow automation / AI agents · Calls: 1 
 | Valuation lens | Free cash flow, owner earnings after SBC, pro forma EV, reverse DCF, and AI monetization durability |
 | Since the call | +19.1% vs SPY +1.1% through 2026-11-10; mark $214.41 is bear to base |
 
+## Fundamentals known on 2026-05-25
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CRM 2026-05-25`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 41,525.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Gross profit (TTM) | 32,255.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Operating income (TTM) | 8,331.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Net income (TTM) | 7,457.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Diluted EPS (TTM) | 7.80 USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Operating cash flow (TTM) | 14,996.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Capex (TTM) | 594.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Free cash flow (TTM) | 14,402.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Stock comp (TTM) | 3,509.0M USD | 2026-01-31 | annual | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Cash | 7,327.0M USD | 2026-01-31 | instant | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Long-term debt | 14,439.0M USD | 2026-01-31 | instant | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Equity | 59,142.0M USD | 2026-01-31 | instant | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+| Shares outstanding | 923.0M | 2026-02-25 | instant | [0001108524-26-000060](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/) |
+
+## Earnings calendar
+
+Last release: 2026-08-26 (post-market 8-K Item 2.02, [0001108524-26-000187](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/)). Next release, estimated from the same quarter last year: 2026-12-02.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

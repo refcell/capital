@@ -18,6 +18,10 @@ Sector: Space infrastructure / satellite broadband / frontier AI infrastructure 
 | Valuation lens | SOTP, reverse DCF, EV / revenue, EV / adjusted EBITDA, and segment value |
 | Since the call | -11.7% vs SPY +2.0% through 2026-11-09; mark $142.07 is unbanded |
 
+## Earnings calendar
+
+Last release: 2026-10-20 (post-market 8-K Item 2.02, [0001628280-26-066482](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/)). Next release, estimated from the same quarter last year: 2027-08-03.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

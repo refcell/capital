@@ -18,6 +18,29 @@ Sector: Consumer discretionary / travel services · Calls: 1 · Latest: 2026-09-
 | Valuation lens | Forward P/E, with EV/EBITDA, FCF yield and deleveraging as cross-checks |
 | Since the call | +36.1% vs SPY -1.4% through 2026-11-10; mark $30.90 is bear to base |
 
+## Fundamentals known on 2026-09-10
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CCL 2026-09-10`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 27,311.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Operating income (TTM) | 4,464.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Net income (TTM) | 3,069.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Diluted EPS (TTM) | 2.22 USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Operating cash flow (TTM) | 6,794.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Capex (TTM) | 3,594.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Free cash flow (TTM) | 3,200.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Stock comp (TTM) | 103.0M USD | 2026-05-31 | ttm ytd | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Cash | 2,243.0M USD | 2026-05-31 | instant | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Long-term debt | 25,570.0M USD | 2026-05-31 | instant | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Equity | 12,968.0M USD | 2026-05-31 | instant | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+| Shares outstanding | 1,369.6M | 2026-06-19 | instant | [0000815097-26-000096](https://www.sec.gov/Archives/edgar/data/815097/000081509726000096/) |
+
+## Earnings calendar
+
+Last release: 2026-09-29 (pre-market 8-K Item 2.02, [0000815097-26-000104](https://www.sec.gov/Archives/edgar/data/815097/000081509726000104/)). Next release, estimated from the same quarter last year: 2026-12-18.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

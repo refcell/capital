@@ -18,6 +18,28 @@ Sector: Consumer Staples / Beverages — Brewers · Calls: 1 · Latest: 2026-09-
 | Valuation lens | Forward P/E, with EV/EBITDA and free-cash-flow yield as cross-checks |
 | Since the call | +19.8% vs SPY -1.6% through 2026-11-10; mark $146.67 is unbanded |
 
+## Fundamentals known on 2026-09-12
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit STZ 2026-09-12`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 9,056.7M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Gross profit (TTM) | 4,765.5M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Operating income (TTM) | 2,852.9M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Net income (TTM) | 1,824.4M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Operating cash flow (TTM) | 2,693.6M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Capex (TTM) | 859.4M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Free cash flow (TTM) | 1,834.2M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Stock comp (TTM) | 72.3M USD | 2026-05-31 | ttm ytd | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Cash | 96.6M USD | 2026-05-31 | instant | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Long-term debt | 10,197.5M USD | 2026-05-31 | instant | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+| Equity | 8,255.6M USD | 2026-05-31 | instant | [0000016918-26-000029](https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/) |
+
+## Earnings calendar
+
+Last release: 2026-10-06 (post-market 8-K Item 2.02, [0000016918-26-000039](https://www.sec.gov/Archives/edgar/data/16918/000001691826000039/)). Next release, estimated from the same quarter last year: 2027-01-06.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

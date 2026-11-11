@@ -18,6 +18,28 @@ Sector: Marketing technology / adtech / customer data platform / AI marketing au
 | Valuation lens | EV / revenue, EV / adjusted EBITDA, FCF yield, and scenario DCF |
 | Since the call | +72.5% vs SPY +1.5% through 2026-11-09; mark $32.42 is base to bull |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ZETA 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,436.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Operating income (TTM) | 2.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Net income (TTM) | -23.2M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Diluted EPS (TTM) | -0.10 USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Operating cash flow (TTM) | 213.8M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Capex (TTM) | 14.1M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Free cash flow (TTM) | 199.7M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Stock comp (TTM) | 188.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Cash | 288.8M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Long-term debt | 197.3M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+| Equity | 880.3M USD | 2026-03-31 | instant | [0001193125-26-199156](https://www.sec.gov/Archives/edgar/data/1851003/000119312526199156/) |
+
+## Earnings calendar
+
+Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001193125-26-453558](https://www.sec.gov/Archives/edgar/data/1851003/000119312526453558/)). Next release, estimated from the same quarter last year: 2027-02-23.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

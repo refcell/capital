@@ -18,6 +18,28 @@ Sector: DevSecOps / software development platform / AI-enabled developer tools Â
 | Valuation lens | EV / revenue, EV / FCF, Rule-of-40 quality, SBC-adjusted owner earnings |
 | Since the call | +76.3% vs SPY +1.5% through 2026-11-09; mark $47.12 is base to bull |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit GTLB 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 955.2M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Gross profit (TTM) | 834.5M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Operating income (TTM) | -70.5M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Net income (TTM) | -58.6M USD | 2026-01-31 | annual | [0001653482-26-000085](https://www.sec.gov/Archives/edgar/data/1653482/000165348226000085/) |
+| Diluted EPS (TTM) | -0.34 USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Operating cash flow (TTM) | 232.9M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Capex (TTM) | 10.8M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Free cash flow (TTM) | 222.0M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Stock comp (TTM) | 215.0M USD | 2026-01-31 | annual | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Cash | 229.6M USD | 2026-01-31 | instant | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+| Equity | 990.7M USD | 2026-01-31 | instant | [0001628280-26-018731](https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/) |
+
+## Earnings calendar
+
+Last release: 2026-09-01 (post-market 8-K Item 2.02, [0001628280-26-059820](https://www.sec.gov/Archives/edgar/data/1653482/000162828026059820/)). Next release, estimated from the same quarter last year: 2026-12-01.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

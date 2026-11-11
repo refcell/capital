@@ -18,6 +18,25 @@ Sector: Retail brokerage / fintech / crypto / consumer financial platform · Cal
 | Valuation lens | Owner earnings, normalized P/E, EV / revenue, and scenario DCF |
 | Since the call | +13.1% vs SPY +1.5% through 2026-11-09; mark $83.32 is base to bull |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit HOOD 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 4,613.0M USD | 2026-03-31 | ttm ytd | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Net income (TTM) | 1,897.0M USD | 2026-03-31 | ttm ytd | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Diluted EPS (TTM) | 2.06 USD | 2026-03-31 | ttm ytd | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Operating cash flow (TTM) | 3,034.0M USD | 2026-03-31 | ttm ytd | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Stock comp (TTM) | 324.0M USD | 2026-03-31 | ttm ytd | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Cash | 5,012.0M USD | 2026-03-31 | instant | [0001783879-26-000062](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000062/) |
+| Equity | 8,567.0M USD | 2025-09-30 | instant | [0001783879-25-000310](https://www.sec.gov/Archives/edgar/data/1783879/000178387925000310/) |
+| Shares outstanding | 0 shares | 2021-12-31 | instant | [0001783879-22-000044](https://www.sec.gov/Archives/edgar/data/1783879/000178387922000044/) |
+
+## Earnings calendar
+
+Last release: 2026-10-27 (post-market 8-K Item 2.02, [0001783879-26-000164](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000164/)). Next release, estimated from the same quarter last year: 2027-01-29.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

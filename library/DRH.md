@@ -18,6 +18,27 @@ Sector: Real estate / lodging REIT · Calls: 1 · Latest: 2026-09-09
 | Valuation lens | P/FFO, with EV/EBITDA, leverage, AFFO and dividend coverage as cross-checks |
 | Since the call | +23.9% vs SPY -1.9% through 2026-11-10; mark $14.83 is base to bull |
 
+## Fundamentals known on 2026-09-09
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit DRH 2026-09-09`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,136.4M USD | 2026-06-30 | ttm ytd | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Operating income (TTM) | -368.9M USD | 2020-12-31 | sum 4q | [0001298946-21-000013](https://www.sec.gov/Archives/edgar/data/1298946/000129894621000013/) |
+| Net income (TTM) | 153.7M USD | 2026-06-30 | ttm ytd | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Diluted EPS (TTM) | 0.72 USD | 2026-06-30 | ttm ytd | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Operating cash flow (TTM) | 244.0M USD | 2026-06-30 | ttm ytd | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Stock comp (TTM) | 8.3M USD | 2026-06-30 | ttm ytd | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Cash | 106.0M USD | 2026-06-30 | instant | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Long-term debt | 1,099.0M USD | 2026-06-30 | instant | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Equity | 1,523.4M USD | 2026-06-30 | instant | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+| Shares outstanding | 204.6M | 2026-07-30 | instant | [0001298946-26-000038](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000038/) |
+
+## Earnings calendar
+
+Last release: 2026-11-03 (post-market 8-K Item 2.02, [0001298946-26-000047](https://www.sec.gov/Archives/edgar/data/1298946/000129894626000047/)). Next release, estimated from the same quarter last year: 2027-02-25.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

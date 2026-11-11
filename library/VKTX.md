@@ -18,6 +18,26 @@ Sector: — · Calls: 1 · Latest: 2026-09-25
 | Valuation lens | Cash NAV plus risk-adjusted pipeline value |
 | Since the call | -21.1% vs SPY -1.9% through 2026-11-09; mark $28.99 is bear to base |
 
+## Fundamentals known on 2026-09-25
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit VKTX 2026-09-25`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 0 USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Operating income (TTM) | -560.0M USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Net income (TTM) | -534.8M USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Diluted EPS (TTM) | -4.67 USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Operating cash flow (TTM) | -418.4M USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Stock comp (TTM) | 37.4M USD | 2026-06-30 | ttm ytd | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Cash | 125.8M USD | 2026-06-30 | instant | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Equity | 408.3M USD | 2026-06-30 | instant | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+| Shares outstanding | 116.7M | 2026-07-15 | instant | [0001193125-26-324219](https://www.sec.gov/Archives/edgar/data/1607678/000119312526324219/) |
+
+## Earnings calendar
+
+Last release: 2026-10-28 (post-market 8-K Item 2.02, [0001193125-26-436145](https://www.sec.gov/Archives/edgar/data/1607678/000119312526436145/)). Next release, estimated from the same quarter last year: 2027-02-10.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

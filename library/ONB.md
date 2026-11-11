@@ -18,6 +18,28 @@ Sector: Financial Services / Banks — Regional · Calls: 1 · Latest: 2026-07-1
 | Valuation lens | P/B + ROE / Forward P/E (bank framework — FCF multiples N/A) |
 | Since the call | -6.9% vs SPY +0.1% through 2026-11-10; mark $25.40 is bear to base |
 
+## Fundamentals known on 2026-07-16
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ONB 2026-07-16`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 125.6M USD | 2021-12-31 | annual | [0000707179-22-000013](https://www.sec.gov/Archives/edgar/data/707179/000070717922000013/) |
+| Net income (TTM) | 758.3M USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Diluted EPS (TTM) | 1.94 USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Operating cash flow (TTM) | 779.4M USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Capex (TTM) | 51.1M USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Free cash flow (TTM) | 728.3M USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Stock comp (TTM) | 33.0M USD | 2026-03-31 | ttm ytd | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Cash | 1,754.1M USD | 2026-03-31 | instant | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Long-term debt | 248.8M USD | 2017-12-31 | instant | [0001193125-18-046746](https://www.sec.gov/Archives/edgar/data/707179/000119312518046746/) |
+| Equity | 8,510.7M USD | 2026-03-31 | instant | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+| Shares outstanding | 386.4M | 2026-04-28 | instant | [0000707179-26-000038](https://www.sec.gov/Archives/edgar/data/707179/000070717926000038/) |
+
+## Earnings calendar
+
+Last release: 2026-10-21 (pre-market 8-K Item 2.02, [0001628280-26-066598](https://www.sec.gov/Archives/edgar/data/707179/000162828026066598/)). Next release, estimated from the same quarter last year: 2027-01-20.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

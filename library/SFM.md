@@ -18,6 +18,30 @@ Sector: Consumer Staples / Grocery Stores · Calls: 1 · Latest: 2026-11-05
 | Valuation lens | FY2031 GAAP/run-rate EPS × exit P/E. Trailing P/E is a peak-margin print. FCF multiples are a cross-check only because lease-adjusted net debt is 6.0× TTM FCF. |
 | Since the call | -8.9% vs SPY -1.8% through 2026-11-09; mark $49.58 is bear to base |
 
+## Fundamentals known on 2026-11-05
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SFM 2026-11-05`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 9,108.4M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Gross profit (TTM) | 3,515.1M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Operating income (TTM) | 665.3M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Net income (TTM) | 496.2M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Diluted EPS (TTM) | 5.23 USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Operating cash flow (TTM) | 693.7M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Capex (TTM) | 356.4M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Free cash flow (TTM) | 337.3M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Stock comp (TTM) | 28.5M USD | 2026-09-27 | ttm ytd | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Cash | 228.7M USD | 2026-09-27 | instant | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Long-term debt | 125.0M USD | 2023-12-31 | instant | [0000950170-24-018768](https://www.sec.gov/Archives/edgar/data/1575515/000095017024018768/) |
+| Equity | 1,529.3M USD | 2026-09-27 | instant | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+| Shares outstanding | 92.2M | 2026-10-26 | instant | [0001575515-26-000060](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000060/) |
+
+## Earnings calendar
+
+Last release: 2026-10-28 (post-market 8-K Item 2.02, [0001575515-26-000059](https://www.sec.gov/Archives/edgar/data/1575515/000157551526000059/)). Next release, estimated from the same quarter last year: 2027-02-18.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

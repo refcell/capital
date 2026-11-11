@@ -18,6 +18,30 @@ Sector: Healthcare / Medical Instruments & Supplies · Calls: 1 · Latest: 2026-
 | Valuation lens | Forward P/E (normalized non-GAAP), analyst consensus |
 | Since the call | -0.5% vs SPY -2.1% through 2026-11-09; mark $90.43 is base to bull |
 
+## Fundamentals known on 2026-08-27
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SOLV 2026-08-27`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 8,310.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Gross profit (TTM) | 4,544.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Operating income (TTM) | 2,076.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Net income (TTM) | 1,434.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Diluted EPS (TTM) | 8.18 USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Operating cash flow (TTM) | 209.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Capex (TTM) | 327.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Free cash flow (TTM) | -118.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Stock comp (TTM) | 167.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Cash | 403.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Long-term debt | 4,573.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Equity | 4,800.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Shares outstanding | 170.2M | 2026-07-31 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+
+## Earnings calendar
+
+Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001964738-26-000055](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000055/)). Next release, estimated from the same quarter last year: 2027-02-25.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

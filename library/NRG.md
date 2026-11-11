@@ -20,6 +20,28 @@ Sector: Utilities — Independent Power Producers and Energy Retailers · Calls:
 
 **Data notes.** The report states more than one probability-weighted value: $195, $195.19; the first is used.
 
+## Fundamentals known on 2026-08-07
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NRG 2026-08-07`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 33,125.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Operating income (TTM) | 2,015.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Net income (TTM) | 849.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Diluted EPS (TTM) | 3.84 USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Operating cash flow (TTM) | 1,555.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Capex (TTM) | 1,207.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Free cash flow (TTM) | 348.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Stock comp (TTM) | 144.0M USD | 2026-06-30 | ttm ytd | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Cash | 162.0M USD | 2026-06-30 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Long-term debt | 23,392.0M USD | 2026-06-30 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+| Shares outstanding | 210.2M | 2026-07-31 | instant | [0001013871-26-000020](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000020/) |
+
+## Earnings calendar
+
+Last release: 2026-11-09 (pre-market 8-K Item 2.02, [0001013871-26-000022](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/)). Next release, estimated from the same quarter last year: 2027-02-23.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,27 @@ Sector: Financials / credit services (pawn lending and value retail in the U.S.,
 | Valuation lens | Forward P/E on adjusted EPS, with an EV/EBITDA cross-check |
 | Since the call | -1.0% vs SPY -2.6% through 2026-11-10; mark $183.43 is bear to base |
 
+## Fundamentals known on 2026-10-28
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit FCFS 2026-10-28`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 4,285.9M USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Gross profit (TTM) | 2,151.5M USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Net income (TTM) | 406.5M USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Diluted EPS (TTM) | 9.24 USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Operating cash flow (TTM) | 679.0M USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Stock comp (TTM) | 21.2M USD | 2026-09-30 | ttm ytd | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Cash | 203.2M USD | 2026-09-30 | instant | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Long-term debt | 2,447.1M USD | 2026-09-30 | instant | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Equity | 2,273.3M USD | 2026-09-30 | instant | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+| Shares outstanding | 42.9M | 2026-10-21 | instant | [0000840489-26-000099](https://www.sec.gov/Archives/edgar/data/840489/000084048926000099/) |
+
+## Earnings calendar
+
+Last release: 2026-10-22 (during-market 8-K Item 2.02, [0000840489-26-000097](https://www.sec.gov/Archives/edgar/data/840489/000084048926000097/)). Next release, estimated from the same quarter last year: 2027-02-04.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

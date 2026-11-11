@@ -18,6 +18,28 @@ Sector: Consumer Defensive / Packaged Foods · Calls: 1 · Latest: 2026-07-13
 | Valuation lens | Forward P/E (analyst consensus) — FCF framework insufficient due to heavy leverage |
 | Since the call | -5.6% vs SPY +0.3% through 2026-11-10; mark $81.83 is below bear |
 
+## Fundamentals known on 2026-07-13
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit POST 2026-07-13`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 8,448.8M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Gross profit (TTM) | 2,454.4M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Operating income (TTM) | 853.3M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Net income (TTM) | 338.5M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Diluted EPS (TTM) | 5.96 USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Operating cash flow (TTM) | 1,005.2M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Stock comp (TTM) | 83.4M USD | 2026-03-31 | ttm ytd | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Cash | 269.4M USD | 2026-03-31 | instant | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Long-term debt | 7,629.1M USD | 2026-03-31 | instant | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Equity | 3,194.3M USD | 2026-03-31 | instant | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+| Shares outstanding | 45.3M | 2026-05-04 | instant | [0001530950-26-000057](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000057/) |
+
+## Earnings calendar
+
+Last release: 2026-08-06 (post-market 8-K Item 2.02, [0001530950-26-000076](https://www.sec.gov/Archives/edgar/data/1530950/000153095026000076/)). Next release, estimated from the same quarter last year: 2026-11-19.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

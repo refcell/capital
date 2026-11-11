@@ -18,6 +18,29 @@ Sector: Energy / Oil & Gas Midstream · Calls: 1 · Latest: 2026-09-17
 | Valuation lens | EV / adjusted EBITDA, with distributable cash flow and dividend coverage as cross-checks |
 | Since the call | -5.1% vs SPY +0.1% through 2026-11-09; mark $51.09 is bear to base |
 
+## Fundamentals known on 2026-09-17
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit KNTK 2026-09-17`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,885.8M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Operating income (TTM) | 198.3M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Net income (TTM) | 544.0M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Diluted EPS (TTM) | 2.86 USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Operating cash flow (TTM) | 639.7M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Capex (TTM) | 482.9M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Free cash flow (TTM) | 156.8M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Stock comp (TTM) | 62.0M USD | 2026-06-30 | ttm ytd | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Cash | 7.8M USD | 2026-06-30 | instant | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Long-term debt | 3,723.0M USD | 2026-06-30 | instant | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Equity | -1,185.1M USD | 2026-06-30 | instant | [0001692787-26-000116](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000116/) |
+| Shares outstanding | 66.2M | 2022-02-22 | instant | [0001193125-22-146429](https://www.sec.gov/Archives/edgar/data/1692787/000119312522146429/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001692787-26-000142](https://www.sec.gov/Archives/edgar/data/1692787/000169278726000142/)). Next release, estimated from the same quarter last year: 2027-02-25.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

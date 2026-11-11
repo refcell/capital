@@ -18,6 +18,27 @@ Sector: Consumer health, telehealth, digital pharmacy · Calls: 3 · Latest: 202
 | Valuation lens | Revenue growth, adjusted EBITDA quality, owner free cash flow, and scenario-based terminal FCF |
 | Since the call | -12.4% vs SPY +2.6% through 2026-11-09; mark $22.94 is bear to base |
 
+## Fundamentals known on 2026-06-06
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit HIMS 2026-06-06`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,369.7M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Gross profit (TTM) | 1,699.5M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Operating income (TTM) | -30.6M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Net income (TTM) | -13.2M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Diluted EPS (TTM) | -0.09 USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Operating cash flow (TTM) | 280.3M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Stock comp (TTM) | 147.2M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Cash | 222.3M USD | 2026-03-31 | instant | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Equity | 446.2M USD | 2026-03-31 | instant | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Shares outstanding | 0 shares | 2019-06-30 | instant | [0001193125-19-234151](https://www.sec.gov/Archives/edgar/data/1773751/000119312519234151/) |
+
+## Earnings calendar
+
+Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001773751-26-000242](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/)). Next release, estimated from the same quarter last year: 2027-02-22.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

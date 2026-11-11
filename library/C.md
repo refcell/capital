@@ -18,6 +18,27 @@ Sector: Financials / banks – diversified · Calls: 1 · Latest: 2026-06-14
 | Valuation lens | Price-to-book and return on equity |
 | Since the call | -11.6% vs SPY +1.6% through 2026-11-10; mark $123.57 is bear to base |
 
+## Fundamentals known on 2026-06-14
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit C 2026-06-14`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 85,225.0M USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Net income (TTM) | 14,306.0M USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Diluted EPS (TTM) | 6.99 USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Operating cash flow (TTM) | -67,632.0M USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Capex (TTM) | 6,520.0M USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Free cash flow (TTM) | -74,152.0M USD | 2025-12-31 | annual | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Cash | 188,105.0M USD | 2018-12-31 | instant | [0000831001-19-000027](https://www.sec.gov/Archives/edgar/data/831001/000083100119000027/) |
+| Long-term debt | 315,827.0M USD | 2025-12-31 | instant | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Equity | 212,291.0M USD | 2025-12-31 | instant | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+| Shares outstanding | 1,749.3M | 2026-01-31 | instant | [0000831001-26-000011](https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/) |
+
+## Earnings calendar
+
+Last release: 2026-10-13 (during-market 8-K Item 2.02, [0001104659-26-115323](https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/)). Next release, estimated from the same quarter last year: 2027-01-13.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

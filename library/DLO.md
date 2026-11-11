@@ -18,6 +18,25 @@ Sector: Financial technology / emerging-market payments infrastructure · Calls:
 | Valuation lens | EV / gross profit, adjusted free cash flow, and scenario value per share |
 | Since the call | +21.3% vs SPY +1.5% through 2026-11-09; mark $14.63 is bear to base |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit DLO 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,093.6M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Gross profit (TTM) | 402.8M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Operating income (TTM) | 219.9M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Net income (TTM) | 196.8M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Diluted EPS (TTM) | 0.65 USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Operating cash flow (TTM) | 415.5M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Capex (TTM) | 2.3M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Free cash flow (TTM) | 413.2M USD | 2025-12-31 | annual | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Cash | 719.9M USD | 2025-12-31 | instant | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Long-term debt | 86.7M USD | 2025-12-31 | instant | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Equity | 569.3M USD | 2025-12-31 | instant | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+| Shares outstanding | 294.9M | 2025-12-31 | instant | [0002070979-26-000113](https://www.sec.gov/Archives/edgar/data/1846832/000207097926000113/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

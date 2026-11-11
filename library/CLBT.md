@@ -18,6 +18,25 @@ Sector: Technology / Software — Infrastructure (Digital Forensics) · Calls: 1
 | Valuation lens | FCF multiple, forward P/E cross-check |
 | Since the call | +21.6% vs SPY -2.3% through 2026-11-09; mark $12.70 is bear to base |
 
+## Fundamentals known on 2026-08-17
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CLBT 2026-08-17`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 475.7M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Gross profit (TTM) | 400.5M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Operating income (TTM) | 66.5M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Net income (TTM) | 78.3M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Diluted EPS (TTM) | 0.31 USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Operating cash flow (TTM) | 173.5M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Capex (TTM) | 13.2M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Free cash flow (TTM) | 160.3M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Stock comp (TTM) | 44.9M USD | 2025-12-31 | annual | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Cash | 124.5M USD | 2025-12-31 | instant | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Equity | 484.3M USD | 2025-12-31 | instant | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+| Shares outstanding | 249.4M | 2026-02-23 | instant | [0001628280-26-013790](https://www.sec.gov/Archives/edgar/data/1854587/000162828026013790/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

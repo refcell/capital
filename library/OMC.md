@@ -18,6 +18,29 @@ Sector: Communication Services / Advertising Agencies · Calls: 1 · Latest: 202
 | Valuation lens | Forward P/E, scenario analysis, WACC |
 | Since the call | +2.1% vs SPY -1.9% through 2026-11-10; mark $89.75 is bear to base |
 
+## Fundamentals known on 2026-08-26
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit OMC 2026-08-26`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 22,371.3M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Operating income (TTM) | 1,121.6M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Net income (TTM) | 390.2M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Diluted EPS (TTM) | 0.37 USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Operating cash flow (TTM) | 2,582.5M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Capex (TTM) | 193.3M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Free cash flow (TTM) | 2,389.2M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Stock comp (TTM) | 109.5M USD | 2026-06-30 | ttm ytd | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Cash | 5,316.8M USD | 2021-12-31 | instant | [0000029989-22-000012](https://www.sec.gov/Archives/edgar/data/29989/000002998922000012/) |
+| Long-term debt | 9,272.9M USD | 2025-12-31 | instant | [0000029989-26-000006](https://www.sec.gov/Archives/edgar/data/29989/000002998926000006/) |
+| Equity | 9,661.8M USD | 2026-06-30 | instant | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+| Shares outstanding | 274.3M | 2026-07-22 | instant | [0000029989-26-000019](https://www.sec.gov/Archives/edgar/data/29989/000002998926000019/) |
+
+## Earnings calendar
+
+Last release: 2026-10-22 (post-market 8-K Item 2.02, [0000029989-26-000024](https://www.sec.gov/Archives/edgar/data/29989/000002998926000024/)). Next release, estimated from the same quarter last year: 2027-02-17.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

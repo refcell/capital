@@ -18,6 +18,23 @@ Sector: Financials / Banks — Japan's "Big 3" · Calls: 1 · Latest: 2026-06-22
 | Valuation lens | P/B and ROE (Residual Income framework — bank-specific) |
 | Since the call | -2.2% vs SPY +1.0% through 2026-11-10; mark $9.93 is below bear |
 
+## Fundamentals known on 2026-06-22
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit MFG 2026-06-22`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 8,169,900.0M JPY | 2025-03-31 | annual | [0001193125-25-146101](https://www.sec.gov/Archives/edgar/data/1335730/000119312525146101/) |
+| Net income (TTM) | 845,757.0M JPY | 2025-09-30 | ttm ytd | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Diluted EPS (TTM) | 338.75 JPY | 2025-09-30 | ttm ytd | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Operating cash flow (TTM) | 764,164.0M JPY | 2025-09-30 | ttm ytd | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Capex (TTM) | 325,987.0M JPY | 2025-09-30 | ttm ytd | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Free cash flow (TTM) | 438,177.0M JPY | 2025-09-30 | ttm ytd | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Cash | 47,826,328.0M JPY | 2021-09-30 | instant | [0001193125-21-366654](https://www.sec.gov/Archives/edgar/data/1335730/000119312521366654/) |
+| Long-term debt | 17,972,227.0M JPY | 2025-09-30 | instant | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Equity | 10,554,128.0M JPY | 2025-09-30 | instant | [0001193125-25-332124](https://www.sec.gov/Archives/edgar/data/1335730/000119312525332124/) |
+| Shares outstanding | 2,513.8M | 2025-03-31 | instant | [0001193125-25-146101](https://www.sec.gov/Archives/edgar/data/1335730/000119312525146101/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

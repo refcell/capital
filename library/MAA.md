@@ -18,6 +18,26 @@ Sector: Real estate / residential REIT · Calls: 1 · Latest: 2026-09-24
 | Valuation lens | P/FFO, with Core AFFO, dividend coverage and leverage as cross-checks |
 | Since the call | +2.3% vs SPY -2.3% through 2026-11-10; mark $120.45 is bear to base |
 
+## Fundamentals known on 2026-09-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit MAA 2026-09-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,213.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Operating income (TTM) | 128.7M USD | 2013-09-30 | ttm ytd | [0000912595-13-000027](https://www.sec.gov/Archives/edgar/data/912595/000091259513000027/) |
+| Net income (TTM) | 389.6M USD | 2026-03-31 | ttm ytd | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Diluted EPS (TTM) | 3.30 USD | 2026-03-31 | ttm ytd | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Operating cash flow (TTM) | 1,031.2M USD | 2026-03-31 | ttm ytd | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Stock comp (TTM) | 17.4M USD | 2026-03-31 | ttm ytd | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Cash | 71.5M USD | 2026-03-31 | instant | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Equity | 5,540.6M USD | 2026-03-31 | instant | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+| Shares outstanding | 116.4M | 2026-04-27 | instant | [0001193125-26-197331](https://www.sec.gov/Archives/edgar/data/912595/000119312526197331/) |
+
+## Earnings calendar
+
+Last release: 2026-10-28 (post-market 8-K Item 2.02, [0001193125-26-436173](https://www.sec.gov/Archives/edgar/data/912595/000119312526436173/)). Next release, estimated from the same quarter last year: 2027-02-03.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

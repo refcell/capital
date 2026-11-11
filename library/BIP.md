@@ -18,6 +18,24 @@ Sector: Utilities — Utilities, Diversified · Calls: 1 · Latest: 2026-07-31
 | Valuation lens | P/FFO, EV/EBITDA cross-check |
 | Since the call | -4.3% vs SPY +0.6% through 2026-11-10; mark $39.97 is bear to base |
 
+## Fundamentals known on 2026-07-31
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit BIP 2026-07-31`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 23,100.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Operating income (TTM) | 5,798.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Net income (TTM) | 2,532.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Diluted EPS (TTM) | 0.90 USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Operating cash flow (TTM) | 5,971.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Capex (TTM) | 6,024.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Free cash flow (TTM) | -53.0M USD | 2025-12-31 | annual | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Cash | 3,201.0M USD | 2025-12-31 | instant | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Long-term debt | 10,164.0M USD | 2017-12-31 | instant | [0001628280-18-003154](https://www.sec.gov/Archives/edgar/data/1406234/000162828018003154/) |
+| Equity | 35,540.0M USD | 2025-12-31 | instant | [0001406234-26-000002](https://www.sec.gov/Archives/edgar/data/1406234/000140623426000002/) |
+| Shares outstanding | 295.4M | 2020-12-31 | instant | [0001628280-21-005114](https://www.sec.gov/Archives/edgar/data/1406234/000162828021005114/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,22 @@ Sector: Retail brokerage / multi-asset trading / crypto / social investing · Ca
 | Valuation lens | Net contribution, adjusted EBITDA, P/E, net-cash-adjusted EV, and scenario multiples |
 | Since the call | -42.9% vs SPY +1.5% through 2026-11-09; mark $23.32 is below bear |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ETOR 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 13,837.9M USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Net income (TTM) | 215.7M USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Diluted EPS (TTM) | 2.27 USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Operating cash flow (TTM) | 318.2M USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Capex (TTM) | 4.8M USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Free cash flow (TTM) | 313.4M USD | 2025-12-31 | annual | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Cash | 1,072.6M USD | 2025-12-31 | instant | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Long-term debt | 3.0M USD | 2025-06-30 | instant | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+| Equity | 16,055.6M USD | 2025-12-31 | instant | [0001213900-26-022034](https://www.sec.gov/Archives/edgar/data/1493318/000121390026022034/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,24 @@ Sector: Financials / Banks (Brazil) · Calls: 1 · Latest: 2026-08-11
 | Valuation lens | P/B and ROE (Bank framework — FCF is meaningless for banks) |
 | Since the call | -1.4% vs SPY -2.4% through 2026-11-10; mark $7.40 is bear to base |
 
+## Fundamentals known on 2026-08-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ITUB 2026-08-11`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 168,050.0M BRL | 2024-12-31 | annual | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Net income (TTM) | 41,085.0M BRL | 2024-12-31 | annual | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Diluted EPS (TTM) | 2 BRL | 2010-12-31 | annual | [0001144204-11-040321](https://www.sec.gov/Archives/edgar/data/1132597/000114420411040321/) |
+| Operating cash flow (TTM) | 7,069.0M BRL | 2024-12-31 | annual | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Capex (TTM) | 1,833.0M BRL | 2024-12-31 | annual | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Free cash flow (TTM) | 5,236.0M BRL | 2024-12-31 | annual | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Stock comp (TTM) | 198.0M BRL | 2010-12-31 | annual | [0001144204-11-040321](https://www.sec.gov/Archives/edgar/data/1132597/000114420411040321/) |
+| Cash | 117,286.0M BRL | 2024-12-31 | instant | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Long-term debt | 103,512.0M BRL | 2021-12-31 | instant | [0001193125-22-127927](https://www.sec.gov/Archives/edgar/data/1132597/000119312522127927/) |
+| Equity | 211,090.0M BRL | 2024-12-31 | instant | [0001292814-25-001684](https://www.sec.gov/Archives/edgar/data/1132597/000129281425001684/) |
+| Shares outstanding | 4,958.3M | 2023-12-31 | instant | [0001292814-24-001692](https://www.sec.gov/Archives/edgar/data/1132597/000129281424001692/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

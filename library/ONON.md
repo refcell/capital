@@ -18,6 +18,23 @@ Sector: Consumer discretionary / footwear and accessories · Calls: 1 · Latest:
 | Valuation lens | Discounted terminal free cash flow, with forward adjusted P/E as a cross-check |
 | Since the call | +34.1% vs SPY -2.0% through 2026-11-09; mark $37.53 is bear to base |
 
+## Fundamentals known on 2026-09-08
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ONON 2026-09-08`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 3,014.0M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Gross profit (TTM) | 1,893.6M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Operating income (TTM) | 377.0M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Net income (TTM) | 203.7M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Operating cash flow (TTM) | 359.5M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Capex (TTM) | 72.9M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Free cash flow (TTM) | 286.6M CHF | 2025-12-31 | annual | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Cash | 1,019.9M CHF | 2025-12-31 | instant | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Equity | 1,632.4M CHF | 2025-12-31 | instant | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+| Shares outstanding | 296.9M | 2025-12-31 | instant | [0001858985-26-000008](https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,23 @@ Sector: Brazilian digital banking / consumer finance / financial super-app · Ca
 | Valuation lens | P/B and ROE, P/E, residual income, credit-cycle scenario analysis |
 | Since the call | -35.1% vs SPY +1.5% through 2026-11-09; mark $4.00 is below bear |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit INTR 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 6,400.2M BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Net income (TTM) | 907.1M BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Diluted EPS (TTM) | 2.07 BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Operating cash flow (TTM) | 3,759.1M BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Capex (TTM) | 82.0M BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Free cash flow (TTM) | 3,677.1M BRL | 2024-12-31 | annual | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Cash | 1,108.4M BRL | 2024-12-31 | instant | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Long-term debt | 128.9M BRL | 2024-12-31 | instant | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Equity | 8,895.2M BRL | 2024-12-31 | instant | [0001628280-25-020965](https://www.sec.gov/Archives/edgar/data/1864163/000162828025020965/) |
+| Shares outstanding | 228.5M | 2021-12-31 | instant | [0001104659-22-054656](https://www.sec.gov/Archives/edgar/data/1864163/000110465922054656/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -20,6 +20,30 @@ Sector: Healthcare / Diagnostics & Research · Calls: 1 · Latest: 2026-08-25
 
 **Data notes.** The report states more than one probability-weighted value: $26, $26.03; the first is used.
 
+## Fundamentals known on 2026-08-25
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PSNL 2026-08-25`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 69.7M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Gross profit (TTM) | 22.1M USD | 2019-12-31 | sum 4q | [0001564590-20-012826](https://www.sec.gov/Archives/edgar/data/1527753/000156459020012826/) |
+| Operating income (TTM) | -114.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Net income (TTM) | -107.2M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Diluted EPS (TTM) | -1.09 USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Operating cash flow (TTM) | -92.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Capex (TTM) | 8.7M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Free cash flow (TTM) | -101.0M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Stock comp (TTM) | 10.9M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Cash | 94.0M USD | 2026-06-30 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Long-term debt | 20.0M USD | 2019-06-30 | instant | [0001564590-19-031814](https://www.sec.gov/Archives/edgar/data/1527753/000156459019031814/) |
+| Equity | 235.2M USD | 2026-06-30 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Shares outstanding | 106.8M | 2026-07-29 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001193125-26-447196](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447196/)). Next release, estimated from the same quarter last year: 2027-01-07.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

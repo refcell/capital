@@ -18,6 +18,27 @@ Sector: Energy / Oil & Gas Exploration & Production · Calls: 1 · Latest: 2026-
 | Valuation lens | Normalized free-cash-flow multiple, with forward P/E and EV/EBITDA cross-checks |
 | Since the call | -11.7% vs SPY -0.7% through 2026-11-10; mark $138.62 is bear to base |
 
+## Fundamentals known on 2026-09-16
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CHRD 2026-09-16`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 6,319.8M USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Operating income (TTM) | 1,198.6M USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Net income (TTM) | 848.3M USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Diluted EPS (TTM) | 14.81 USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Operating cash flow (TTM) | 2,587.6M USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Stock comp (TTM) | 29.5M USD | 2026-06-30 | ttm ytd | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Cash | 611.6M USD | 2026-06-30 | instant | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Long-term debt | 1,481.4M USD | 2026-06-30 | instant | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Equity | 8,357.3M USD | 2026-06-30 | instant | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+| Shares outstanding | 54.7M | 2026-08-03 | instant | [0001486159-26-000032](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000032/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001486159-26-000046](https://www.sec.gov/Archives/edgar/data/1486159/000148615926000046/)). Next release, estimated from the same quarter last year: 2027-02-24.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

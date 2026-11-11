@@ -18,6 +18,30 @@ Sector: Technology / Semiconductor Equipment & Materials · Calls: 1 · Latest: 
 | Valuation lens | Forward P/E, scenario-based FCF multiple analysis, WACC |
 | Since the call | -50.3% vs SPY +0.7% through 2026-11-10; mark $39.56 is bear to base |
 
+## Fundamentals known on 2026-06-18
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit VECO 2026-06-18`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 484.8M USD | 2017-12-31 | annual | [0001104659-18-011084](https://www.sec.gov/Archives/edgar/data/103145/000110465918011084/) |
+| Gross profit (TTM) | 252.8M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Operating income (TTM) | 18.9M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Net income (TTM) | 23.1M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Diluted EPS (TTM) | 0.38 USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Operating cash flow (TTM) | 57.4M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Capex (TTM) | 14.5M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Free cash flow (TTM) | 42.9M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Stock comp (TTM) | 36.4M USD | 2026-03-31 | ttm ytd | [0001558370-25-006755](https://www.sec.gov/Archives/edgar/data/103145/000155837025006755/) |
+| Cash | 179.5M USD | 2026-03-31 | instant | [0001104659-26-055672](https://www.sec.gov/Archives/edgar/data/103145/000110465926055672/) |
+| Long-term debt | 226.3M USD | 2026-03-31 | instant | [0001104659-26-055672](https://www.sec.gov/Archives/edgar/data/103145/000110465926055672/) |
+| Equity | 883.7M USD | 2026-03-31 | instant | [0001104659-26-055672](https://www.sec.gov/Archives/edgar/data/103145/000110465926055672/) |
+| Shares outstanding | 61.0M | 2026-04-30 | instant | [0001104659-26-055672](https://www.sec.gov/Archives/edgar/data/103145/000110465926055672/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001104659-26-122689](https://www.sec.gov/Archives/edgar/data/103145/000110465926122689/)). Next release, estimated from the same quarter last year: 2027-02-24.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,30 @@ Sector: Consumer staples / beauty / cosmetics and skincare · Calls: 1 · Latest
 | Valuation lens | FCF, adjusted EBITDA, revenue durability, and acquisition-adjusted EV |
 | Since the call | +95.2% vs SPY +2.0% through 2026-11-09; mark $119.35 is base to bull |
 
+## Fundamentals known on 2026-06-13
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ELF 2026-06-13`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,636.5M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Gross profit (TTM) | 1,157.3M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Operating income (TTM) | 73.6M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Net income (TTM) | 26.3M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Diluted EPS (TTM) | 0.44 USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Operating cash flow (TTM) | 212.5M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Capex (TTM) | 22.4M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Free cash flow (TTM) | 190.1M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Stock comp (TTM) | 86.9M USD | 2026-03-31 | annual | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Cash | 289.7M USD | 2026-03-31 | instant | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Long-term debt | 841.7M USD | 2026-03-31 | instant | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Equity | 1,130.5M USD | 2026-03-31 | instant | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+| Shares outstanding | 59.4M | 2026-05-14 | instant | [0001600033-26-000020](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/) |
+
+## Earnings calendar
+
+Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001600033-26-000048](https://www.sec.gov/Archives/edgar/data/1600033/000160003326000048/)). Next release, estimated from the same quarter last year: 2027-02-03.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

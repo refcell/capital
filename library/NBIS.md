@@ -18,6 +18,25 @@ Sector: Communication Services per provider classification; in practice AI cloud
 | Valuation lens | FY2031 adjusted EBITDA × exit EV/EBITDA, less projected net debt, over projected diluted shares; EV/ARR and EV/forward revenue as cross-checks |
 | Since the call | -7.7% vs SPY -1.7% through 2026-11-09; mark $141.45 is bear to base |
 
+## Fundamentals known on 2026-10-27
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit NBIS 2026-10-27`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 800,125.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Operating income (TTM) | 28,461.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Net income (TTM) | 19,870.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Diluted EPS (TTM) | 53.26 RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Operating cash flow (TTM) | 70,282.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Capex (TTM) | 90,641.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Free cash flow (TTM) | -20,359.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Stock comp (TTM) | 8,710.0M RUB | 2023-12-31 | annual | [0001558370-24-005891](https://www.sec.gov/Archives/edgar/data/1513845/000155837024005891/) |
+| Cash | 3,678.1M USD | 2025-12-31 | instant | [0001104659-26-052948](https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/) |
+| Long-term debt | 4,103.2M USD | 2025-12-31 | instant | [0001104659-26-052948](https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/) |
+| Equity | 4,594.0M USD | 2025-12-31 | instant | [0001104659-26-052948](https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/) |
+| Shares outstanding | 253.0M | 2025-12-31 | instant | [0001104659-26-052948](https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

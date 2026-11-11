@@ -18,6 +18,29 @@ Sector: Communication Services / Telecom Services · Calls: 1 · Latest: 2026-09
 | Valuation lens | Forward P/E on adjusted earnings, with EV/EBITDA and FCF cross-checks |
 | Since the call | +0.5% vs SPY -1.5% through 2026-11-10; mark $169.08 is bear to base |
 
+## Fundamentals known on 2026-09-19
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TMUS 2026-09-19`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 92,189.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Operating income (TTM) | 18,253.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Net income (TTM) | 10,560.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Diluted EPS (TTM) | 9.56 USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Operating cash flow (TTM) | 28,833.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Capex (TTM) | 10,434.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Free cash flow (TTM) | 18,399.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Stock comp (TTM) | 866.0M USD | 2026-06-30 | ttm ytd | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Cash | 2,825.0M USD | 2026-06-30 | instant | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Long-term debt | 86,282.0M USD | 2025-12-31 | instant | [0001283699-26-000010](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/) |
+| Equity | 56,265.0M USD | 2026-06-30 | instant | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+| Shares outstanding | 1,072.7M | 2026-07-17 | instant | [0001283699-26-000101](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000101/) |
+
+## Earnings calendar
+
+Last release: 2026-10-28 (post-market 8-K Item 2.02, [0001283699-26-000128](https://www.sec.gov/Archives/edgar/data/1283699/000128369926000128/)). Next release, estimated from the same quarter last year: 2027-02-10.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

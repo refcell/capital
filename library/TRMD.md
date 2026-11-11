@@ -18,6 +18,24 @@ Sector: Energy / Oil & Gas Midstream (product tankers) · Calls: 1 · Latest: 20
 | Valuation lens | FY2031 mid-cycle GAAP EPS × exit P/E; broker NAV is the asset cross-check. Trailing and FY2026 P/E are cycle-peak prints. Reported FCF multiples are not used as the scenario engine because TTM FCF is compressed by vessel purchases. |
 | Since the call | -19.8% vs SPY -2.2% through 2026-11-09; mark $33.48 is bear to base |
 
+## Fundamentals known on 2026-11-04
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TRMD 2026-11-04`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 1,339.5M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Operating income (TTM) | 356.3M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Net income (TTM) | 285.3M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Diluted EPS (TTM) | 2.85 USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Operating cash flow (TTM) | 498.9M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Capex (TTM) | 308.5M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Free cash flow (TTM) | 190.4M USD | 2025-12-31 | annual | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Cash | 158.1M USD | 2025-12-31 | instant | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Long-term debt | 1,003.1M USD | 2025-12-31 | instant | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Equity | 2,202.6M USD | 2025-12-31 | instant | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+| Shares outstanding | 101.3M | 2025-12-31 | instant | [0001628280-26-011954](https://www.sec.gov/Archives/edgar/data/1655891/000162828026011954/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

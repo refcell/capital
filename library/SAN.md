@@ -18,6 +18,24 @@ Sector: Financials / Banks — Diversified · Calls: 1 · Latest: 2026-06-21
 | Valuation lens | P/B and ROE, normalized P/E |
 | Since the call | -5.8% vs SPY +0.7% through 2026-11-10; mark $12.72 is bear to base |
 
+## Fundamentals known on 2026-06-21
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SAN 2026-06-21`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 74,182.0M EUR | 2017-12-31 | annual stale | [0001558370-18-002470](https://www.sec.gov/Archives/edgar/data/891478/000155837018002470/) |
+| Gross profit (TTM) | 58,311.0M EUR | 2025-12-31 | annual | [0000891478-26-000037](https://www.sec.gov/Archives/edgar/data/891478/000089147826000037/) |
+| Operating income (TTM) | 24,989.0M EUR | 2021-12-31 | annual | [0000891478-22-000044](https://www.sec.gov/Archives/edgar/data/891478/000089147822000044/) |
+| Net income (TTM) | 14,101.0M EUR | 2025-12-31 | annual | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Diluted EPS (TTM) | 0.90 EUR | 2025-12-31 | annual | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Operating cash flow (TTM) | -14,835.0M EUR | 2025-12-31 | annual | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Capex (TTM) | 5,854.0M EUR | 2025-12-31 | annual | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Free cash flow (TTM) | -20,689.0M EUR | 2025-12-31 | annual | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Cash | 152,281.0M EUR | 2025-12-31 | instant | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Equity | 112,748.0M EUR | 2025-12-31 | instant | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+| Shares outstanding | 14,689.3M | 2025-12-31 | instant | [0000891478-26-000030](https://www.sec.gov/Archives/edgar/data/891478/000089147826000030/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

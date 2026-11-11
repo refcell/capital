@@ -20,6 +20,30 @@ Sector: Consumer Defensive / Discount Stores · Calls: 1 · Latest: 2026-07-09
 
 **Data notes.** The report states more than one probability-weighted value: $73, $73.46; the first is used.
 
+## Fundamentals known on 2026-07-09
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit OLLI 2026-07-09`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,731.4M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Gross profit (TTM) | 1,111.9M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Operating income (TTM) | 311.0M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Net income (TTM) | 249.4M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Diluted EPS (TTM) | 4.04 USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Operating cash flow (TTM) | 313.3M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Capex (TTM) | 100.6M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Free cash flow (TTM) | 212.7M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Stock comp (TTM) | 13.3M USD | 2026-05-02 | ttm ytd | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Cash | 197.7M USD | 2026-05-02 | instant | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Long-term debt | 197.2M USD | 2016-04-30 | instant | [0001193125-16-611174](https://www.sec.gov/Archives/edgar/data/1639300/000119312516611174/) |
+| Equity | 1,890.1M USD | 2026-05-02 | instant | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+| Shares outstanding | 60.5M | 2026-05-27 | instant | [0001140361-26-023882](https://www.sec.gov/Archives/edgar/data/1639300/000114036126023882/) |
+
+## Earnings calendar
+
+Last release: 2026-09-02 (pre-market 8-K Item 2.02, [0001140361-26-035406](https://www.sec.gov/Archives/edgar/data/1639300/000114036126035406/)). Next release, estimated from the same quarter last year: 2026-12-08.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

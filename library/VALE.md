@@ -18,6 +18,23 @@ Sector: Materials / Other Industrial Metals & Mining · Calls: 1 · Latest: 2026
 | Valuation lens | Forward P/E (FCF framework suppressed due to debt/FCF amplification) |
 | Since the call | -20.3% vs SPY -2.3% through 2026-11-10; mark $11.91 is below bear |
 
+## Fundamentals known on 2026-08-05
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit VALE 2026-08-05`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 38,403.0M USD | 2025-12-31 | annual | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Gross profit (TTM) | 13,456.0M USD | 2025-12-31 | annual | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Operating income (TTM) | 5,897.0M USD | 2025-12-31 | annual | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Net income (TTM) | 2,352.0M USD | 2025-12-31 | annual | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Operating cash flow (TTM) | 25,679.0M USD | 2021-12-31 | annual stale | [0001104659-22-046078](https://www.sec.gov/Archives/edgar/data/917851/000110465922046078/) |
+| Capex (TTM) | 3,831.0M USD | 2017-12-31 | annual | [0001047469-18-002777](https://www.sec.gov/Archives/edgar/data/917851/000104746918002777/) |
+| Cash | 7,372.0M USD | 2025-12-31 | instant | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Long-term debt | 13,937.0M USD | 2023-06-30 | instant | [0001292814-23-004317](https://www.sec.gov/Archives/edgar/data/917851/000129281423004317/) |
+| Equity | 33,509.0M USD | 2025-12-31 | instant | [0001292814-26-001844](https://www.sec.gov/Archives/edgar/data/917851/000129281426001844/) |
+| Shares outstanding | 3,256.7M | 2012-12-31 | instant | [0001047469-13-003771](https://www.sec.gov/Archives/edgar/data/917851/000104746913003771/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

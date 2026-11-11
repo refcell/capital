@@ -277,6 +277,27 @@ def check_prices(errors: list[str]) -> None:
                     break
 
 
+def check_sec(errors: list[str]) -> None:
+    """SEC files have the expected columns and every fact's accession and filed date are well formed."""
+    from capital.sec import EARNINGS, EARNINGS_FIELDS, FACT_FIELDS, FACTS
+
+    for path in sorted(FACTS.glob("*.csv")) if FACTS.exists() else []:
+        rel = path.relative_to(store.ROOT)
+        with path.open(newline="") as fh:
+            reader = csv.DictReader(fh)
+            if reader.fieldnames != FACT_FIELDS:
+                errors.append(f"{rel}: header must be {','.join(FACT_FIELDS)}")
+                continue
+            for i, row in enumerate(reader, start=2):
+                if not re.fullmatch(r"\d{10}-\d{2}-\d{6}", row["accn"]) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", row["filed"]):
+                    errors.append(f"{rel}:{i}: malformed accn or filed date")
+                    break
+    if EARNINGS.exists():
+        with EARNINGS.open(newline="") as fh:
+            if csv.DictReader(fh).fieldnames != EARNINGS_FIELDS:
+                errors.append(f"{EARNINGS.relative_to(store.ROOT)}: header must be {','.join(EARNINGS_FIELDS)}")
+
+
 def run() -> list[str]:
     errors: list[str] = []
     for path in sorted(store.DATA.glob("*/*/")):
@@ -289,6 +310,7 @@ def run() -> list[str]:
         check_call(c, errors)
     check_prices(errors)
     check_call_prices(errors)
+    check_sec(errors)
     return errors
 
 

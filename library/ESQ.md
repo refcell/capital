@@ -18,6 +18,25 @@ Sector: Financial Services / Banks — Regional · Calls: 1 · Latest: 2026-07-2
 | Valuation lens | P/B + ROE / Forward P/E (bank framework — FCF multiples N/A) |
 | Since the call | +11.3% vs SPY +2.1% through 2026-11-09; mark $133.63 is base to bull |
 
+## Fundamentals known on 2026-07-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit ESQ 2026-07-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Net income (TTM) | 51.6M USD | 2026-03-31 | ttm ytd | [0001558370-25-007325](https://www.sec.gov/Archives/edgar/data/1531031/000155837025007325/) |
+| Diluted EPS (TTM) | 5.94 USD | 2026-03-31 | ttm ytd | [0001558370-25-007325](https://www.sec.gov/Archives/edgar/data/1531031/000155837025007325/) |
+| Operating cash flow (TTM) | 63.5M USD | 2026-03-31 | ttm ytd | [0001558370-25-007325](https://www.sec.gov/Archives/edgar/data/1531031/000155837025007325/) |
+| Capex (TTM) | 2.2M USD | 2026-03-31 | ttm ytd | [0001558370-25-007325](https://www.sec.gov/Archives/edgar/data/1531031/000155837025007325/) |
+| Free cash flow (TTM) | 61.4M USD | 2026-03-31 | ttm ytd | [0001558370-25-007325](https://www.sec.gov/Archives/edgar/data/1531031/000155837025007325/) |
+| Cash | 222.2M USD | 2026-03-31 | instant | [0001104659-26-058451](https://www.sec.gov/Archives/edgar/data/1531031/000110465926058451/) |
+| Equity | 301.3M USD | 2026-03-31 | instant | [0001104659-26-058451](https://www.sec.gov/Archives/edgar/data/1531031/000110465926058451/) |
+| Shares outstanding | 8.6M | 2026-05-01 | instant | [0001104659-26-058451](https://www.sec.gov/Archives/edgar/data/1531031/000110465926058451/) |
+
+## Earnings calendar
+
+Last release: 2026-10-27 (pre-market 8-K Item 2.02, [0001104659-26-118993](https://www.sec.gov/Archives/edgar/data/1531031/000110465926118993/)). Next release, estimated from the same quarter last year: 2027-01-21.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

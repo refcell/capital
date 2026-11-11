@@ -20,6 +20,29 @@ Sector: Consumer Cyclical / Auto & Truck Dealerships · Calls: 1 · Latest: 2026
 
 **Data notes.** The report states more than one probability-weighted value: $479, $479.25; the first is used.
 
+## Fundamentals known on 2026-07-06
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit GPI 2026-07-06`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 22,473.2M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Gross profit (TTM) | 3,607.8M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Operating income (TTM) | 742.7M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Net income (TTM) | 327.3M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Diluted EPS (TTM) | 26.42 USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Operating cash flow (TTM) | 628.2M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Capex (TTM) | 301.8M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Free cash flow (TTM) | 326.4M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Stock comp (TTM) | 32.3M USD | 2026-03-31 | ttm ytd | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Cash | 41.7M USD | 2026-03-31 | instant | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Equity | 2,839.6M USD | 2026-03-31 | instant | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+| Shares outstanding | 11.9M | 2026-04-24 | instant | [0001031203-26-000107](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000107/) |
+
+## Earnings calendar
+
+Last release: 2026-10-28 (pre-market 8-K Item 2.02, [0001031203-26-000141](https://www.sec.gov/Archives/edgar/data/1031203/000103120326000141/)). Next release, estimated from the same quarter last year: 2027-01-28.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

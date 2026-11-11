@@ -18,6 +18,25 @@ Sector: Communication Services / Internet Content & Information · Calls: 1 · L
 | Valuation lens | Forward P/E (FCF framework invalid — negative TTM FCF from capex cycle) |
 | Since the call | -23.3% vs SPY -2.2% through 2026-11-09; mark $6.20 is bear to base |
 
+## Fundamentals known on 2026-08-04
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit GENI 2026-08-04`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 669.5M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Gross profit (TTM) | 153.8M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Operating income (TTM) | -151.3M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Net income (TTM) | -111.6M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Diluted EPS (TTM) | -0.44 USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Operating cash flow (TTM) | 86.4M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Capex (TTM) | 21.9M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Free cash flow (TTM) | 64.5M USD | 2025-12-31 | annual | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Cash | 280.6M USD | 2025-12-31 | instant | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Long-term debt | 19,000 USD | 2024-12-31 | instant | [0000950170-25-039412](https://www.sec.gov/Archives/edgar/data/1834489/000095017025039412/) |
+| Equity | 724.5M USD | 2025-12-31 | instant | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+| Shares outstanding | 10.0M | 2025-12-31 | instant | [0001193125-26-110749](https://www.sec.gov/Archives/edgar/data/1834489/000119312526110749/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

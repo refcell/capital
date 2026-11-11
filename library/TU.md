@@ -18,6 +18,23 @@ Sector: Communication Services / Telecom Services · Calls: 1 · Latest: 2026-07
 | Valuation lens | Forward P/E (Analyst Consensus), EV/EBITDA cross-check |
 | Since the call | -12.6% vs SPY +0.9% through 2026-11-10; mark $8.91 is bear to base |
 
+## Fundamentals known on 2026-07-02
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TU 2026-07-02`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 20,506.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Operating income (TTM) | 2,363.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Net income (TTM) | 1,113.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Diluted EPS (TTM) | 0.72 CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Operating cash flow (TTM) | 4,866.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Capex (TTM) | 2,728.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Free cash flow (TTM) | 2,138.0M CAD | 2025-12-31 | annual | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Cash | 2,621.0M CAD | 2025-12-31 | instant | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Equity | 15,775.0M CAD | 2025-12-31 | instant | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+| Shares outstanding | 1,548.7M | 2025-12-31 | instant | [0001104659-26-013854](https://www.sec.gov/Archives/edgar/data/868675/000110465926013854/) |
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |

@@ -18,6 +18,30 @@ Sector: Consumer staples / functional energy drinks · Calls: 2 · Latest: 2026-
 | Valuation lens | Brand portfolio earnings power, FCF, and preferred-adjusted EV |
 | Since the call | +8.9% vs SPY +1.1% through 2026-11-10; mark $32.80 is bear to base |
 
+## Fundamentals known on 2026-05-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CELH 2026-05-24`). Later restatements are not visible here by design.
+
+| Metric | Value | Period end | Basis | Filing |
+|---|---:|---|---|---|
+| Revenue (TTM) | 2,968.6M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Gross profit (TTM) | 1,473.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Operating income (TTM) | 228.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Net income (TTM) | 173.7M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Diluted EPS (TTM) | 0.43 USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Operating cash flow (TTM) | 329.8M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Capex (TTM) | 37.0M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Free cash flow (TTM) | 292.8M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Stock comp (TTM) | 30.6M USD | 2026-03-31 | ttm ytd | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Cash | 549.2M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Long-term debt | 675.9M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Equity | 1,250.8M USD | 2026-03-31 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+| Shares outstanding | 255.6M | 2026-04-30 | instant | [0001341766-26-000039](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000039/) |
+
+## Earnings calendar
+
+Last release: 2026-11-05 (pre-market 8-K Item 2.02, [0001341766-26-000059](https://www.sec.gov/Archives/edgar/data/1341766/000134176626000059/)). Next release, estimated from the same quarter last year: 2027-02-25.
+
 ## Call history
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
