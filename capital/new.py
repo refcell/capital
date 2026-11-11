@@ -73,6 +73,11 @@ def build_inputs(ticker: str, day: str) -> tuple[dict, list[str]]:
         if unit_currency not in ("shares", "USD"):
             entry["currency"] = unit_currency
         values[key] = entry
+    so = values.get("shares_outstanding_m")
+    if so and (so["value"] <= 0 or pit.days(so["as_of"], day) > 460):
+        # Multi-class filers often have no current cover-page count; a stale or zero one is dropped.
+        notes.append(f"Dropped shares_outstanding_m {so['value']} as of {so['as_of']} (stale or zero); market cap uses diluted shares.")
+        del values["shares_outstanding_m"]
     shares_key = "shares_outstanding_m" if "shares_outstanding_m" in values else "diluted_shares_m"
     if shares_key in values and "price" in values:
         mc = values["price"]["value"] * values[shares_key]["value"]
