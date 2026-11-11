@@ -16,6 +16,7 @@ Sector: Utilities — Independent Power Producers and Energy Retailers · Calls:
 | Fair value | $195.19 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E (high-leverage FCF-insufficient pattern) |
+| Revenue CAGR vs base rates | bear +2.0% = 43th pct / base +3.5% = 53th pct / bull +5.0% = 63th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -17.4% vs SPY -2.8% through 2026-11-10; mark $97.59 is below bear |
 
 **Data notes.** The report states more than one probability-weighted value: $195, $195.19; the first is used.

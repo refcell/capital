@@ -16,6 +16,7 @@ Sector: Digital banking / consumer finance / fintech infrastructure · Calls: 2 
 | Fair value | $30.50 (base) |
 | Street mean target | $21.10 |
 | Valuation lens | Adjusted net income, tangible/book value growth, ROE, credit quality, and P/E / P/B |
+| Revenue CAGR vs base rates | bear +15.0% = 79th pct / base +20.0% = 87th pct / bull +25.0% = 92th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
 | Since the call | +7.2% vs SPY +1.5% through 2026-11-09; mark $16.75 is bear to base |
 
 ## Fundamentals known on 2026-05-24

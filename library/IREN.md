@@ -16,6 +16,7 @@ Sector: Technology infrastructure / AI cloud (GPU compute, owned data centers an
 | Fair value | $32.79 (stated) |
 | Street mean target | $75.42 |
 | Valuation lens | FY2031 adjusted EBITDA × exit EV/EBITDA, less projected FY2031 net debt, over projected FY2031 shares, discounted to today; EV/contracted ARR and EV/forward revenue as cross-checks |
+| Revenue CAGR vs base rates | bear +39.0% = 98th pct / base +54.5% = 99th pct / bull +71.0% = 100th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -10.6% vs SPY -0.4% through 2026-11-09; mark $21.41 is bear to base |
 
 ## Fundamentals known on 2026-10-31

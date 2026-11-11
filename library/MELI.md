@@ -16,6 +16,7 @@ Sector: Latin American e-commerce / payments / fintech / logistics / retail medi
 | Fair value | $1,900 (base) |
 | Street mean target | $2,230 |
 | Valuation lens | Owner-earnings DCF, adjusted FCF, SOTP, and reverse DCF |
+| Revenue CAGR vs base rates | bear +14.0% = 93th pct / base +19.0% = 97th pct / bull +24.0% = 98th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -10.5% vs SPY +1.1% through 2026-11-10; mark $1,490 is bear to base |
 
 ## Fundamentals known on 2026-05-24

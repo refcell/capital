@@ -20,14 +20,17 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": 0.39,
       "value": 6.24,
       "weight": 0.3
     },
     "base": {
+      "revenue_cagr": 0.545,
       "value": 27.06,
       "weight": 0.5
     },
     "bull": {
+      "revenue_cagr": 0.71,
       "value": 86.93,
       "weight": 0.2
     }
@@ -68,6 +71,9 @@
   "evidence": {
     "price.value": "closed at $23.95 on October 30, 2026",
     "stance_text": "Current stance: Watch / Speculative positive bias  \n",
+    "scenarios.bear.revenue_cagr": "| Revenue CAGR from FY27 consensus | 39.0% | 54.5% | 71.0% |",
+    "scenarios.base.revenue_cagr": "| Revenue CAGR from FY27 consensus | 39.0% | 54.5% | 71.0% |",
+    "scenarios.bull.revenue_cagr": "| Revenue CAGR from FY27 consensus | 39.0% | 54.5% | 71.0% |",
     "scenarios.bear.value": "| Present value per share | $6.24 | $27.06 | $86.93 |",
     "scenarios.base.value": "| Present value per share | $6.24 | $27.06 | $86.93 |",
     "scenarios.bull.value": "| Present value per share | $6.24 | $27.06 | $86.93 |",

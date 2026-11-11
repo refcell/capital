@@ -16,6 +16,7 @@ Sector: Enterprise software / CRM / workflow automation / AI agents · Calls: 1 
 | Fair value | $270.00 (base) |
 | Street mean target | — |
 | Valuation lens | Free cash flow, owner earnings after SBC, pro forma EV, reverse DCF, and AI monetization durability |
+| Revenue CAGR vs base rates | bear +5.0% = 63th pct / base +8.0% = 82th pct / bull +11.0% = 90th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +19.1% vs SPY +1.1% through 2026-11-10; mark $214.41 is bear to base |
 
 ## Fundamentals known on 2026-05-25

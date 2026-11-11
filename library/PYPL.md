@@ -16,6 +16,7 @@ Sector: Payments / digital wallets / merchant acquiring · Calls: 2 · Latest: 2
 | Fair value | $90.00 (base) |
 | Street mean target | $52.53 |
 | Valuation lens | Normalized free cash flow, transaction margin dollars, and buyback-adjusted per-share value |
+| Revenue CAGR vs base rates | bear +1.0% = 36th pct / base +3.5% = 53th pct / bull +6.0% = 70th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +36.6% vs SPY +1.5% through 2026-11-09; mark $60.40 is bear to base |
 
 ## Fundamentals known on 2026-05-24

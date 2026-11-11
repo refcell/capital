@@ -16,6 +16,7 @@ Sector: Consumer Staples / Grocery Stores · Calls: 1 · Latest: 2026-11-05
 | Fair value | $55.69 (stated) |
 | Street mean target | $61.00 |
 | Valuation lens | FY2031 GAAP/run-rate EPS × exit P/E. Trailing P/E is a peak-margin print. FCF multiples are a cross-check only because lease-adjusted net debt is 6.0× TTM FCF. |
+| Revenue CAGR vs base rates | bear +2.5% = 40th pct / base +5.0% = 56th pct / bull +7.0% = 67th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -8.9% vs SPY -1.8% through 2026-11-09; mark $49.58 is bear to base |
 
 ## Fundamentals known on 2026-11-05

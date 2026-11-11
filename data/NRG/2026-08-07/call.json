@@ -20,14 +20,17 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": 0.02,
       "value": 103.96,
       "weight": 0.2
     },
     "base": {
+      "revenue_cagr": 0.035,
       "value": 184.31,
       "weight": 0.55
     },
     "bull": {
+      "revenue_cagr": 0.05,
       "value": 292.1,
       "weight": 0.25
     }
@@ -63,6 +66,9 @@
   "evidence": {
     "price.value": "closed at $118.13 on 2026-08-07",
     "stance_text": "Current stance: Watch — data center power optionality real, but capex cycle, debt trajectory, and buyback sustainability create too many unknowns\n",
+    "scenarios.bear.revenue_cagr": "| Revenue CAGR (5Y) | 2% | 3.5% | 5% |",
+    "scenarios.base.revenue_cagr": "| Revenue CAGR (5Y) | 2% | 3.5% | 5% |",
+    "scenarios.bull.revenue_cagr": "| Revenue CAGR (5Y) | 2% | 3.5% | 5% |",
     "scenarios.bear.value": "| Target Price | $103.96 | $184.31 | $292.10 |",
     "scenarios.base.value": "| Target Price | $103.96 | $184.31 | $292.10 |",
     "scenarios.bull.value": "| Target Price | $103.96 | $184.31 | $292.10 |",

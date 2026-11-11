@@ -16,6 +16,7 @@ Sector: Industrials — Electrical Equipment / Clean Energy / Fuel Cell Technolo
 | Fair value | $145.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E + FCF Multiple + EV/EBITDA with scenario analysis |
+| Revenue CAGR vs base rates | bear +22.5% = 96th pct / base +36.3% = 99th pct / bull +49.0% = 99th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -23.8% vs SPY +1.2% through 2026-11-09; mark $193.88 is base to bull |
 
 ## Fundamentals known on 2026-07-08

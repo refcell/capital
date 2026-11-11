@@ -16,6 +16,7 @@ Sector: Technology / Software — Infrastructure (Digital Forensics) · Calls: 1
 | Fair value | $14.00 (stated) |
 | Street mean target | — |
 | Valuation lens | FCF multiple, forward P/E cross-check |
+| Revenue CAGR vs base rates | bear +8.0% = 57th pct / base +12.0% = 71th pct / bull +15.0% = 79th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
 | Since the call | +21.6% vs SPY -2.3% through 2026-11-09; mark $12.70 is bear to base |
 
 ## Fundamentals known on 2026-08-17

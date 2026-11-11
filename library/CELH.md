@@ -16,6 +16,7 @@ Sector: Consumer staples / functional energy drinks · Calls: 2 · Latest: 2026-
 | Fair value | $50.00 (base) |
 | Street mean target | — |
 | Valuation lens | Brand portfolio earnings power, FCF, and preferred-adjusted EV |
+| Revenue CAGR vs base rates | bear +5.0% = 51th pct / base +10.0% = 75th pct / bull +15.0% = 88th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +8.9% vs SPY +1.1% through 2026-11-10; mark $32.80 is bear to base |
 
 ## Fundamentals known on 2026-05-24

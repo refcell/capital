@@ -20,13 +20,16 @@
   },
   "scenarios": {
     "bear": {
-      "value": 17.73
+      "value": 17.73,
+      "revenue_cagr": 0.08
     },
     "base": {
-      "value": 47.73
+      "value": 47.73,
+      "revenue_cagr": 0.15
     },
     "bull": {
-      "value": 114.13
+      "value": 114.13,
+      "revenue_cagr": 0.22
     }
   },
   "fair_value": {

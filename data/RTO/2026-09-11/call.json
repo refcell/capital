@@ -21,15 +21,18 @@
   "scenarios": {
     "bear": {
       "value": 17.6,
-      "weight": 0.25
+      "weight": 0.25,
+      "revenue_cagr": 0.01
     },
     "base": {
       "value": 30.1,
-      "weight": 0.5
+      "weight": 0.5,
+      "revenue_cagr": 0.042
     },
     "bull": {
       "value": 39.53,
-      "weight": 0.25
+      "weight": 0.25,
+      "revenue_cagr": 0.06
     }
   },
   "fair_value": {

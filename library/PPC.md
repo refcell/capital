@@ -16,6 +16,7 @@ Sector: Consumer Defensive / Packaged Foods · Calls: 1 · Latest: 2026-08-12
 | Fair value | $38.47 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E (capex cycle FCF trough; TTM FCF depressed 80%) |
+| Revenue CAGR vs base rates | bear -1.0% = 26th pct / base +2.0% = 45th pct / bull +4.0% = 58th pct of 5-year growth for $12B–$25B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +5.0% vs SPY -2.7% through 2026-11-10; mark $28.21 is bear to base |
 
 ## Fundamentals known on 2026-08-12

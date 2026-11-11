@@ -16,6 +16,7 @@ Sector: Energy / Oil & Gas Midstream (product tankers) · Calls: 1 · Latest: 20
 | Fair value | $35.45 (stated) |
 | Street mean target | — |
 | Valuation lens | FY2031 mid-cycle GAAP EPS × exit P/E; broker NAV is the asset cross-check. Trailing and FY2026 P/E are cycle-peak prints. Reported FCF multiples are not used as the scenario engine because TTM FCF is compressed by vessel purchases. |
+| Revenue CAGR vs base rates | bear -8.0% = 8th pct / base -3.0% = 15th pct / bull +2.0% = 31th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -19.8% vs SPY -2.2% through 2026-11-09; mark $33.48 is bear to base |
 
 ## Fundamentals known on 2026-11-04

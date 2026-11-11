@@ -16,6 +16,7 @@ Sector: Consumer discretionary / travel services · Calls: 1 · Latest: 2026-09-
 | Fair value | $32.27 (weighted) |
 | Street mean target | $35.30 |
 | Valuation lens | Forward P/E, with EV/EBITDA, FCF yield and deleveraging as cross-checks |
+| Revenue CAGR vs base rates | bear +0.5% = 33th pct / base +3.5% = 53th pct / bull +5.5% = 66th pct of 5-year growth for $25B–$50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +36.1% vs SPY -1.4% through 2026-11-10; mark $30.90 is bear to base |
 
 ## Fundamentals known on 2026-09-10

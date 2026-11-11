@@ -21,7 +21,7 @@ from statistics import median
 from typing import Any
 from urllib.parse import quote
 
-from capital import config, pit, score, store
+from capital import base_rates, config, pit, score, store
 from capital.sec import COMPANIES, EARNINGS, read_csv
 
 LIBRARY = store.ROOT / "library"
@@ -165,6 +165,14 @@ def company_page(ticker: str, calls: list[store.Call]) -> str:
         ("Street mean target", money((cur.get("street") or {}).get("target_mean"))),
         ("Valuation lens", cur.get("lens_text") or "—"),
     ]
+    br = scenario_percentiles(cur)
+    if br:
+        rev, name, ps = br
+        rows.append((
+            "Revenue CAGR vs base rates",
+            " / ".join(f"{c} {pct(scen(cur, c).get('revenue_cagr'))} = {ps[c]:.0f}th pct" for c in ("bear", "base", "bull") if c in ps)
+            + f" of 5-year growth for {name} companies ([base rates](BASE_RATES.md))",
+        ))
     if m:
         rows.append(("Since the call", f"{pct(m.ret)} vs {config.RATING_BENCHMARK} {pct(m.bench_ret)} through {m.as_of}; mark {money(m.mark)} is {m.band or 'unbanded'}"))
     if cur.get("next_review"):
@@ -408,6 +416,83 @@ def scorecard(all_calls: list[store.Call]) -> str:
 # ---------------------------------------------------------------------------
 
 
+def scenario_percentiles(call: dict[str, Any]) -> tuple[float, str, dict[str, float]] | None:
+    """Starting revenue (USD, as known on the call date), its bucket, and each scenario CAGR's percentile."""
+    rev = pit.as_of(call["ticker"], call["date"]).get("revenue")
+    if not rev or rev.unit != "USD":
+        return None
+    out = {}
+    name = None
+    for case in ("bear", "base", "bull"):
+        g = scen(call, case).get("revenue_cagr")
+        if g is None:
+            continue
+        hit = base_rates.percentile(rev.value, g)
+        if hit:
+            name, out[case] = hit
+    return (rev.value, name, out) if out and name else None
+
+
+def base_rates_page(latest: dict[str, store.Call]) -> str:
+    out = [HEADER, "# Base rates: five-year revenue growth\n"]
+    rows = base_rates.distribution()
+    total = sum(r["n"] for r in rows)
+    yrs = base_rates.years()
+    out.append(
+        f"How fast do companies actually grow revenue over five years? {total:,} company-periods from SEC XBRL "
+        f"annual revenue, calendar {yrs[0] if yrs else '—'}–{yrs[-1] if yrs else '—'}, grouped by revenue at the start "
+        "(`data/base_rates/revenue/`). Use it as the prior before any company-specific story: a forecast above the "
+        "90th percentile needs evidence that this company is one of the few.\n"
+    )
+    out.append("| Starting revenue | Periods | 10th | 25th | Median | 75th | 90th | 95th | Shrank | Grew >10%/yr | Grew >20%/yr |")
+    out.append("|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
+    for r in rows:
+        out.append(
+            f"| {r['bucket']} | {r['n']:,} | {pct(r['p10'])} | {pct(r['p25'])} | {pct(r['p50'])} | {pct(r['p75'])} | "
+            f"{pct(r['p90'])} | {pct(r['p95'])} | {pct(r['share_below_0'], signed=False)} | {pct(r['share_above_10'], signed=False)} | "
+            f"{pct(r['share_above_20'], signed=False)} |"
+        )
+    out.append("")
+    out.append(
+        "Caveats: SEC `frames` values are the latest filed, so these are restated figures (fine for a distribution, "
+        "wrong for a backtest). Only companies that filed in both years count, so failures and acquisitions drop out "
+        "and the distribution is biased upward. Starting revenue is nominal. The XBRL era starts in 2009.\n"
+    )
+    graded = []
+    for t, c in sorted(latest.items()):
+        hit = scenario_percentiles(c.call)
+        if hit:
+            graded.append((t, c, hit))
+    out.append("## Coverage against the base rates\n")
+    out.append(
+        "Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue "
+        "as filed on the call date). Percentile = share of history at or below the forecast.\n"
+    )
+    if graded:
+        base_p = sorted(h[2]["base"] for _, _, h in graded if "base" in h[2])
+        bull_p = [h[2]["bull"] for _, _, h in graded if "bull" in h[2]]
+        if base_p:
+            out.append(
+                f"Across {len(graded)} calls, the median base case sits at the {quantile_label(base_p)} percentile; "
+                f"{sum(1 for p in base_p if p > 75)} of {len(base_p)} base cases are above the 75th percentile and "
+                f"{sum(1 for p in bull_p if p > 90)} of {len(bull_p)} bull cases are above the 90th.\n"
+            )
+    out.append("| Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |\n|---|---:|---|---:|---:|---:|")
+    for t, c, (rev, name, ps) in graded:
+        cells = []
+        for case in ("bear", "base", "bull"):
+            g = scen(c.call, case).get("revenue_cagr")
+            cells.append(f"{pct(g)} ({ps[case]:.0f})" if case in ps else "—")
+        out.append(f"| [{c.key}]({t}.md) | ${rev / 1e9:,.2f}B | {name} | " + " | ".join(cells) + " |")
+    out.append("")
+    return "\n".join(out)
+
+
+def quantile_label(xs: list[float]) -> str:
+    m = median(xs)
+    return f"{m:.0f}th"
+
+
 def calendar_page(latest: dict[str, store.Call]) -> str:
     from datetime import date, timedelta
 
@@ -455,6 +540,7 @@ def outputs() -> dict[Path, str]:
         LIBRARY / "README.md": index_page(latest, all_calls),
         LIBRARY / "SCORECARD.md": scorecard(all_calls),
         LIBRARY / "CALENDAR.md": calendar_page(latest),
+        LIBRARY / "BASE_RATES.md": base_rates_page(latest),
     }
     for t, calls in by_ticker.items():
         files[LIBRARY / f"{t}.md"] = company_page(t, calls)

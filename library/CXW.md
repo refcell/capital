@@ -16,6 +16,7 @@ Sector: Real Estate — Privately Operated Correctional & Detention Facilities �
 | Fair value | $33.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E + EV/EBITDA + Scenario-Based FCF Multiple Analysis |
+| Revenue CAGR vs base rates | bear +4.0% = 45th pct / base +6.0% = 57th pct / bull +10.0% = 75th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +6.3% vs SPY +2.5% through 2026-11-10; mark $31.59 is base to bull |
 
 **Data notes.** Stated fair value $33 differs from the weighted scenario value $31.40.

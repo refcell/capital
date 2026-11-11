@@ -16,6 +16,7 @@ Sector: Healthcare / Biotechnology / RNA-targeted medicines · Calls: 1 · Lates
 | Fair value | $62.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward EV/sales plus pipeline optionality |
+| Revenue CAGR vs base rates | bear +8.7% = 64th pct / base +18.7% = 89th pct / bull +28.0% = 95th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -38.4% vs SPY -3.0% through 2026-11-10; mark $28.19 is bear to base |
 
 ## Fundamentals known on 2026-09-22

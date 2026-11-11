@@ -20,14 +20,17 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": -0.08,
       "value": 19.6,
       "weight": 0.3
     },
     "base": {
+      "revenue_cagr": -0.03,
       "value": 38.25,
       "weight": 0.5
     },
     "bull": {
+      "revenue_cagr": 0.02,
       "value": 52.2,
       "weight": 0.2
     }
@@ -63,6 +66,9 @@
   "evidence": {
     "price.value": "last printed $41.73 on StockAnalysis at 10:05 AM EDT on October 29, 2026",
     "stance_text": "Current stance: Watch\n",
+    "scenarios.bear.revenue_cagr": "| 5Y revenue CAGR from TTM | −8% | −3% | +2% |",
+    "scenarios.base.revenue_cagr": "| 5Y revenue CAGR from TTM | −8% | −3% | +2% |",
+    "scenarios.bull.revenue_cagr": "| 5Y revenue CAGR from TTM | −8% | −3% | +2% |",
     "scenarios.bear.value": "| Target price | $19.60 | $38.25 | $52.20 |",
     "scenarios.base.value": "| Target price | $19.60 | $38.25 | $52.20 |",
     "scenarios.bull.value": "| Target price | $19.60 | $38.25 | $52.20 |",

@@ -16,6 +16,7 @@ Sector: Real estate / lodging REIT / convention resorts and entertainment · Cal
 | Fair value | $136.00 (base) |
 | Street mean target | — |
 | Valuation lens | FFO per share, EV/EBITDA, and dividend-supported owner earnings |
+| Revenue CAGR vs base rates | bear +5.0% = 51th pct / base +7.0% = 62th pct / bull +9.0% = 72th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +15.0% vs SPY +1.6% through 2026-11-10; mark $141.19 is base to bull |
 
 ## Fundamentals known on 2026-06-14

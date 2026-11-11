@@ -16,6 +16,7 @@ Sector: Technology / application software / customer and employee service SaaS Â
 | Fair value | $14.06 (base) |
 | Street mean target | $14.38 |
 | Valuation lens | Discounted terminal FCF, with forward P/E and EV/FCF cross-checks |
+| Revenue CAGR vs base rates | bear +7.0% = 57th pct / base +12.0% = 76th pct / bull +15.0% = 83th pct of 5-year growth for $700Mâ€“$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -10.8% vs SPY -0.9% through 2026-11-09; mark $12.01 is bear to base |
 
 ## Fundamentals known on 2026-09-02

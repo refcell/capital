@@ -16,6 +16,7 @@ Sector: Payments / vertical commerce / merchant acquiring · Calls: 2 · Latest:
 | Fair value | $97.50 (base) |
 | Street mean target | $60.81 |
 | Valuation lens | Adjusted free cash flow, GRLNF, and leverage-adjusted EV/EBITDA |
+| Revenue CAGR vs base rates | bear +5.0% = 52th pct / base +10.0% = 78th pct / bull +14.0% = 89th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +4.1% vs SPY +1.5% through 2026-11-09; mark $45.01 is bear to base |
 
 ## Fundamentals known on 2026-05-24

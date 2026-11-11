@@ -16,6 +16,7 @@ Sector: Utilities / Independent Power Producers · Calls: 1 · Latest: 2026-09-2
 | Fair value | $434.90 (stated) |
 | Street mean target | $459.94 |
 | Valuation lens | Forward adjusted P/E, with adjusted free-cash-flow-per-share and leverage cross-checks |
+| Revenue CAGR vs base rates | bear +2.0% = 33th pct / base +6.0% = 58th pct / bull +9.0% = 74th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +21.1% vs SPY -2.7% through 2026-11-09; mark $363.13 is bear to base |
 
 ## Fundamentals known on 2026-09-22

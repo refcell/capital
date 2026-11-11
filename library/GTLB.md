@@ -16,6 +16,7 @@ Sector: DevSecOps / software development platform / AI-enabled developer tools Â
 | Fair value | $38.00 (base) |
 | Street mean target | $30.30 |
 | Valuation lens | EV / revenue, EV / FCF, Rule-of-40 quality, SBC-adjusted owner earnings |
+| Revenue CAGR vs base rates | bear +10.0% = 69th pct / base +14.0% = 81th pct / bull +18.0% = 88th pct of 5-year growth for $700Mâ€“$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +76.3% vs SPY +1.5% through 2026-11-09; mark $47.12 is base to bull |
 
 ## Fundamentals known on 2026-05-24

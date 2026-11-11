@@ -22,17 +22,20 @@
     "bear": {
       "value": 46.2,
       "weight": 0.3,
-      "basis": "FY2031 adjusted EPS $4.40 x 10.5x"
+      "basis": "FY2031 adjusted EPS $4.40 x 10.5x",
+      "revenue_cagr": 0.0
     },
     "base": {
       "value": 75.62,
       "weight": 0.5,
-      "basis": "FY2031 adjusted EPS $6.05 x 12.5x"
+      "basis": "FY2031 adjusted EPS $6.05 x 12.5x",
+      "revenue_cagr": 0.02
     },
     "bull": {
       "value": 87.75,
       "weight": 0.2,
-      "basis": "FY2031 adjusted EPS $6.50 x 13.5x"
+      "basis": "FY2031 adjusted EPS $6.50 x 13.5x",
+      "revenue_cagr": 0.035
     }
   },
   "fair_value": {
@@ -111,7 +114,8 @@
     "fair_value.value": "Probability-weighted fair value $69.22",
     "street.target_mean": "Twenty-one analysts average a $75.39 target",
     "street.target_low": "1-year | $62 | $75.39 avg / $75 med | $87",
-    "next_review": "Next trigger: Q4 / FY2026 results and initial 2027 guidance, early February 2027."
+    "next_review": "Next trigger: Q4 / FY2026 results and initial 2027 guidance, early February 2027.",
+    "scenarios.bear.revenue_cagr": "5Y revenue CAGR | 0.0% | 2.0% | 3.5%"
   },
   "notes": [
     "next_review is an estimate inside the stated window."

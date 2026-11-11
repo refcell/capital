@@ -16,6 +16,7 @@ Sector: Technology / semiconductors and infrastructure software · Calls: 1 · L
 | Fair value | $429.00 (weighted) |
 | Street mean target | $533.41 |
 | Valuation lens | Discounted terminal free cash flow, cross-checked with forward adjusted P/E |
+| Revenue CAGR vs base rates | bear +8.0% = 74th pct / base +13.0% = 92th pct / bull +18.0% = 97th pct of 5-year growth for Over $50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -7.1% vs SPY -2.4% through 2026-11-10; mark $332.58 is bear to base |
 
 ## Fundamentals known on 2026-09-05

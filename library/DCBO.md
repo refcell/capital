@@ -16,6 +16,7 @@ Sector: Software / SaaS / enterprise learning platform · Calls: 1 · Latest: 20
 | Fair value | $43.00 (stated) |
 | Street mean target | $28.55 |
 | Valuation lens | Free cash flow multiple, owner earnings bridge, reverse DCF |
+| Revenue CAGR vs base rates | bear +6.0% = 44th pct / base +10.0% = 55th pct / bull +14.0% = 66th pct of 5-year growth for $50M–$325M companies ([base rates](BASE_RATES.md)) |
 | Since the call | +70.6% vs SPY +0.0% through 2026-11-09; mark $31.18 is bear to base |
 
 ## Fundamentals known on 2026-05-29

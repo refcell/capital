@@ -16,6 +16,7 @@ Sector: Technology / Semiconductor Equipment & Materials · Calls: 1 · Latest: 
 | Fair value | $61.66 (stated) |
 | Street mean target | $60.33 |
 | Valuation lens | Forward P/E, scenario-based FCF multiple analysis, WACC |
+| Revenue CAGR vs base rates | bear +8.0% = 57th pct / base +15.0% = 79th pct / bull +22.0% = 89th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
 | Since the call | -50.3% vs SPY +0.7% through 2026-11-10; mark $39.56 is bear to base |
 
 ## Fundamentals known on 2026-06-18

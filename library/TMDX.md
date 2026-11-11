@@ -16,6 +16,7 @@ Sector: Medical technology / organ transplant logistics and perfusion · Calls: 
 | Fair value | $75.00 (base) |
 | Street mean target | $117.89 |
 | Valuation lens | Revenue durability, normalized FCF, and obligation-adjusted EV |
+| Revenue CAGR vs base rates | bear +8.0% = 57th pct / base +15.0% = 79th pct / bull +22.0% = 89th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
 | Since the call | +36.1% vs SPY +1.5% through 2026-11-09; mark $93.80 is base to bull |
 
 ## Fundamentals known on 2026-05-24

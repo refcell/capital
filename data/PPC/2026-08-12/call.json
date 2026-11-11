@@ -20,14 +20,17 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": -0.01,
       "value": 22.4,
       "weight": 0.3
     },
     "base": {
+      "revenue_cagr": 0.02,
       "value": 37.5,
       "weight": 0.5
     },
     "bull": {
+      "revenue_cagr": 0.04,
       "value": 65.0,
       "weight": 0.2
     }
@@ -63,6 +66,9 @@
   "evidence": {
     "price.value": "closed at $26.86 on August 12, 2026",
     "stance_text": "Current stance: Watch\n",
+    "scenarios.bear.revenue_cagr": "| Revenue CAGR (5Y) | -1% | 2% | 4% |",
+    "scenarios.base.revenue_cagr": "| Revenue CAGR (5Y) | -1% | 2% | 4% |",
+    "scenarios.bull.revenue_cagr": "| Revenue CAGR (5Y) | -1% | 2% | 4% |",
     "scenarios.bear.value": "| Target Price | $22.40 | $37.50 | $65.00 |",
     "scenarios.base.value": "| Target Price | $22.40 | $37.50 | $65.00 |",
     "scenarios.bull.value": "| Target Price | $22.40 | $37.50 | $65.00 |",

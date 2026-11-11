@@ -16,6 +16,7 @@ Sector: Financials / credit services (pawn lending and value retail in the U.S.,
 | Fair value | $268.00 (stated) |
 | Street mean target | $247.50 |
 | Valuation lens | Forward P/E on adjusted EPS, with an EV/EBITDA cross-check |
+| Revenue CAGR vs base rates | bear +3.0% = 39th pct / base +8.0% = 69th pct / bull +11.0% = 82th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -1.0% vs SPY -2.6% through 2026-11-10; mark $183.43 is bear to base |
 
 ## Fundamentals known on 2026-10-28

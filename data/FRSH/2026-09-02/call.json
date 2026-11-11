@@ -20,12 +20,15 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": 0.07,
       "value": 6.16
     },
     "base": {
+      "revenue_cagr": 0.12,
       "value": 14.06
     },
     "bull": {
+      "revenue_cagr": 0.15,
       "value": 24.58
     }
   },
@@ -65,6 +68,9 @@
   "evidence": {
     "price.value": "closed at $13.46 on September 1, 2026",
     "stance_text": "Current stance: Watch  \n",
+    "scenarios.bear.revenue_cagr": "| Five-year revenue CAGR | 7% | 12% | 15% |",
+    "scenarios.base.revenue_cagr": "| Five-year revenue CAGR | 7% | 12% | 15% |",
+    "scenarios.bull.revenue_cagr": "| Five-year revenue CAGR | 7% | 12% | 15% |",
     "scenarios.bear.value": "| Present fair value / share | $6.16 | $14.06 | $24.58 |",
     "scenarios.base.value": "| Present fair value / share | $6.16 | $14.06 | $24.58 |",
     "scenarios.bull.value": "| Present fair value / share | $6.16 | $14.06 | $24.58 |",

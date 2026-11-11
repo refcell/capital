@@ -20,14 +20,17 @@
   },
   "scenarios": {
     "bear": {
+      "revenue_cagr": -0.04,
       "value": 17.2,
       "weight": 0.3
     },
     "base": {
+      "revenue_cagr": -0.01,
       "value": 30.0,
       "weight": 0.5
     },
     "bull": {
+      "revenue_cagr": 0.025,
       "value": 42.0,
       "weight": 0.2
     }
@@ -68,6 +71,9 @@
   "evidence": {
     "price.value": "closed at $30.52 on October 30, 2026",
     "stance_text": "Current stance: Watch  \n",
+    "scenarios.bear.revenue_cagr": "| 5Y revenue CAGR from TTM | −4.0% | −1.0% | +2.5% |",
+    "scenarios.base.revenue_cagr": "| 5Y revenue CAGR from TTM | −4.0% | −1.0% | +2.5% |",
+    "scenarios.bull.revenue_cagr": "| 5Y revenue CAGR from TTM | −4.0% | −1.0% | +2.5% |",
     "scenarios.bear.value": "| Target | $17.20 | $30.00 | $42.00 |",
     "scenarios.base.value": "| Target | $17.20 | $30.00 | $42.00 |",
     "scenarios.bull.value": "| Target | $17.20 | $30.00 | $42.00 |",

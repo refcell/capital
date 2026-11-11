@@ -16,6 +16,7 @@ Sector: Retail brokerage / fintech / crypto / consumer financial platform · Cal
 | Fair value | $60.00 (base) |
 | Street mean target | — |
 | Valuation lens | Owner earnings, normalized P/E, EV / revenue, and scenario DCF |
+| Revenue CAGR vs base rates | bear +6.0% = 58th pct / base +12.0% = 85th pct / bull +18.0% = 93th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +13.1% vs SPY +1.5% through 2026-11-09; mark $83.32 is base to bull |
 
 ## Fundamentals known on 2026-05-24

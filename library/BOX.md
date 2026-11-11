@@ -16,6 +16,7 @@ Sector: Technology / software infrastructure / enterprise content management and
 | Fair value | $43.88 (stated) |
 | Street mean target | — |
 | Valuation lens | Discounted terminal FCF on fully diluted shares, with forward non-GAAP P/E and SBC-adjusted FCF cross-checks |
+| Revenue CAGR vs base rates | bear +6.0% = 52th pct / base +10.0% = 69th pct / bull +13.0% = 79th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -3.9% vs SPY -2.2% through 2026-11-09; mark $41.65 is bear to base |
 
 ## Fundamentals known on 2026-10-30

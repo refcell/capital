@@ -16,6 +16,7 @@ Sector: Healthcare / Healthcare Plans · Calls: 1 · Latest: 2026-11-07
 | Fair value | $69.22 (stated) |
 | Street mean target | $75.39 |
 | Valuation lens | Forward P/E on non-GAAP adjusted EPS; FCF and P/B as cross-checks |
+| Revenue CAGR vs base rates | bear +0.0% = 27th pct / base +2.0% = 39th pct / bull +3.5% = 47th pct of 5-year growth for Over $50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +0.6% vs SPY +2.0% through 2026-11-10; mark $70.19 is bear to base |
 | Next review | 2027-02-10 — Q4 / FY2026 results and initial 2027 guidance, early February 2027 |
 

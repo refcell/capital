@@ -16,6 +16,7 @@ Sector: Basic Materials / Building Materials / Aggregates · Calls: 1 · Latest:
 | Fair value | $109.67 (stated) |
 | Street mean target | $104.11 |
 | Valuation lens | Forward P/E, EV/EBITDA, scenario-based FCF multiple with WACC |
+| Revenue CAGR vs base rates | bear +3.0% = 39th pct / base +7.0% = 64th pct / bull +11.0% = 82th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -36.6% vs SPY +2.8% through 2026-11-09; mark $58.94 is bear to base |
 
 ## Fundamentals known on 2026-06-25

@@ -16,6 +16,7 @@ Sector: Healthcare / Diagnostics & Research · Calls: 1 · Latest: 2026-08-25
 | Fair value | $26.00 (stated) |
 | Street mean target | $15.44 |
 | Valuation lens | P/S + Cash NAV floor (DCF/FCF framework invalid — structurally negative FCF and operating losses of $88-114M/year) |
+| Revenue CAGR vs base rates | bear +12.0% = 61th pct / base +20.0% = 76th pct / bull +32.0% = 89th pct of 5-year growth for $50M–$325M companies ([base rates](BASE_RATES.md)) |
 | Since the call | -7.5% vs SPY -1.5% through 2026-11-09; mark $15.95 is bear to base |
 
 **Data notes.** The report states more than one probability-weighted value: $26, $26.03; the first is used.

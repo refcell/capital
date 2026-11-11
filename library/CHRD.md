@@ -16,6 +16,7 @@ Sector: Energy / Oil & Gas Exploration & Production · Calls: 1 · Latest: 2026-
 | Fair value | $172.00 (stated) |
 | Street mean target | $168.27 |
 | Valuation lens | Normalized free-cash-flow multiple, with forward P/E and EV/EBITDA cross-checks |
+| Revenue CAGR vs base rates | bear -2.0% = 18th pct / base +0.0% = 26th pct / bull +2.5% = 40th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -11.7% vs SPY -0.7% through 2026-11-10; mark $138.62 is bear to base |
 
 ## Fundamentals known on 2026-09-16

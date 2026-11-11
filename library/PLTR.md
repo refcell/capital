@@ -16,6 +16,7 @@ Sector: Technology / Software — AI platform, data analytics, government intell
 | Fair value | $374.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E, scenario-based FCF multiple analysis, reverse valuation |
+| Revenue CAGR vs base rates | bear +35.0% = 99th pct / base +43.0% = 99th pct / bull +52.0% = 100th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +49.1% vs SPY +2.9% through 2026-11-09; mark $169.20 is bear to base |
 
 **Data notes.** The report states more than one probability-weighted value: $140, $374; the first is used.

@@ -16,6 +16,7 @@ Sector: Latin American digital banking / consumer finance / fintech · Calls: 2 
 | Fair value | $17.00 (base) |
 | Street mean target | $19.39 |
 | Valuation lens | P/B and ROE, normalized P/E, credit-cycle scenario analysis |
+| Revenue CAGR vs base rates | bear +12.0% = 85th pct / base +18.0% = 93th pct / bull +24.0% = 97th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -2.9% vs SPY +1.5% through 2026-11-09; mark $12.36 is bear to base |
 
 ## Fundamentals known on 2026-05-24

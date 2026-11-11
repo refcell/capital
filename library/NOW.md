@@ -16,6 +16,7 @@ Sector: Enterprise software / workflow automation / AI platform · Calls: 2 · L
 | Fair value | $185.00 (base) |
 | Street mean target | $143.06 |
 | Valuation lens | FCF, subscription revenue durability, cRPO, and AI monetization |
+| Revenue CAGR vs base rates | bear +10.0% = 87th pct / base +15.0% = 95th pct / bull +20.0% = 98th pct of 5-year growth for $12B–$25B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +0.6% vs SPY +1.5% through 2026-11-09; mark $102.76 is bear to base |
 
 ## Fundamentals known on 2026-05-24

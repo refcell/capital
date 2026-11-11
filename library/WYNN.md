@@ -16,6 +16,7 @@ Sector: Consumer Discretionary / Resorts & Casinos · Calls: 1 · Latest: 2026-0
 | Fair value | $121.78 (stated) |
 | Street mean target | $132.58 |
 | Valuation lens | Forward P/E, with EV/EBITDA and fixed-charge coverage as cross-checks |
+| Revenue CAGR vs base rates | bear +1.0% = 32th pct / base +4.0% = 50th pct / bull +6.5% = 65th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -4.4% vs SPY -2.0% through 2026-11-10; mark $87.30 is bear to base |
 
 ## Fundamentals known on 2026-09-01

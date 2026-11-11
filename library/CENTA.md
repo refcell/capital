@@ -16,6 +16,7 @@ Sector: Consumer Defensive / Packaged Foods / Consumer brands (pet supplies + la
 | Fair value | $56.55 (stated) |
 | Street mean target | — |
 | Valuation lens | P/E ratio, EV/EBITDA, P/FCF with FCF exit multiple scenario analysis |
+| Revenue CAGR vs base rates | bear -2.0% = 18th pct / base +0.5% = 26th pct / bull +3.0% = 39th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +4.8% vs SPY +3.1% through 2026-11-10; mark $41.20 is bear to base |
 
 ## Fundamentals known on 2026-06-26

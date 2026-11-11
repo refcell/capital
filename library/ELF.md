@@ -16,6 +16,7 @@ Sector: Consumer staples / beauty / cosmetics and skincare · Calls: 1 · Latest
 | Fair value | $87.50 (base) |
 | Street mean target | $78.38 |
 | Valuation lens | FCF, adjusted EBITDA, revenue durability, and acquisition-adjusted EV |
+| Revenue CAGR vs base rates | bear +4.0% = 45th pct / base +8.0% = 67th pct / bull +13.0% = 84th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +95.2% vs SPY +2.0% through 2026-11-09; mark $119.35 is base to bull |
 
 ## Fundamentals known on 2026-06-13

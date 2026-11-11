@@ -16,6 +16,7 @@ Sector: Financials / banks – diversified · Calls: 1 · Latest: 2026-06-14
 | Fair value | $145.75 (weighted) |
 | Street mean target | $146.93 |
 | Valuation lens | Price-to-book and return on equity |
+| Revenue CAGR vs base rates | bear +3.0% = 44th pct / base +5.0% = 56th pct / bull +7.0% = 68th pct of 5-year growth for Over $50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -11.6% vs SPY +1.6% through 2026-11-10; mark $123.57 is bear to base |
 
 ## Fundamentals known on 2026-06-14

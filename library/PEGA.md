@@ -16,6 +16,7 @@ Sector: Technology / Enterprise Software — Business Process Management & AI ·
 | Fair value | $100.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E, scenario-based FCF multiple analysis |
+| Revenue CAGR vs base rates | bear +7.0% = 62th pct / base +11.0% = 79th pct / bull +15.0% = 88th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +5.3% vs SPY +0.7% through 2026-11-10; mark $31.67 is below bear |
 
 ## Fundamentals known on 2026-06-19

@@ -16,6 +16,7 @@ Sector: Software / application software · Calls: 1 · Latest: 2026-09-04
 | Fair value | $186.53 (stated) |
 | Street mean target | $192.52 |
 | Valuation lens | Scenario-based discounted free cash flow and exit FCF multiple |
+| Revenue CAGR vs base rates | bear +7.0% = 67th pct / base +12.0% = 85th pct / bull +16.0% = 92th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -20.4% vs SPY -2.4% through 2026-11-09; mark $154.90 is bear to base |
 
 ## Fundamentals known on 2026-09-04

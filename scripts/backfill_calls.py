@@ -320,6 +320,20 @@ def money_cell(cell: str) -> tuple[float, float | None, float | None] | None:
     return None
 
 
+CAGR_HEADER = re.compile(r"(revenue|sales|top[- ]line).*(cagr|growth)|^(rev\.? )?cagr$", re.I)
+BAD_CAGR_HEADER = re.compile(r"fcf|eps|earnings|ebitda|dividend|ffo|book|nav|margin", re.I)
+
+
+def growth_cell(cell: str) -> float | None:
+    """A leading percentage such as '4%', '-2.5%', '9% from FY2025 to FY2030'."""
+    c = normalize(cell).replace("−", "-").replace("–", "-")
+    m = re.match(r"^~?\s*([+-]?\d{1,3}(?:\.\d+)?)\s*%", c)
+    if m:
+        return round(float(m.group(1)) / 100, 4)
+    m = re.match(r"^\((\d{1,3}(?:\.\d+)?)\)\s*%", c)
+    return round(-float(m.group(1)) / 100, 4) if m else None
+
+
 def pct_cell(cell: str) -> float | None:
     c = normalize(cell)
     m = re.fullmatch(r"~?(\d{1,3}(?:\.\d+)?)\s*%", c)
@@ -349,6 +363,7 @@ def row_oriented(table: list[tuple[str, list[str]]]) -> Scenarios | None:
     header = table[header_idx][1]
     vcols = [j for j, c in enumerate(header) if j > 0 and VALUE_HEADER.search(c) and not BAD_VALUE_HEADER.search(c)]
     wcols = [j for j, c in enumerate(header) if j > 0 and WEIGHT_HEADER.search(c) and not BAD_WEIGHT_HEADER.search(c)]
+    gcols = [j for j, c in enumerate(header) if j > 0 and CAGR_HEADER.search(normalize(c)) and not BAD_CAGR_HEADER.search(c)]
     out = Scenarios()
     for line, cells in table[header_idx + 1 :]:
         case = case_of(cells[0]) if cells else None
@@ -378,6 +393,10 @@ def row_oriented(table: list[tuple[str, list[str]]]) -> Scenarios | None:
                 weight = int(m.group(1)) / 100
         if weight is not None:
             entry["weight"] = weight
+        for j in gcols[:1]:
+            g = growth_cell(cells[j]) if j < len(cells) else None
+            if g is not None:
+                entry["revenue_cagr"] = g
         out.values[case] = entry
         out.evidence[f"scenarios.{case}.value"] = line.strip()
     return out if out.values else None
@@ -409,6 +428,12 @@ def column_oriented(table: list[tuple[str, list[str]]]) -> Scenarios | None:
                     if lo is not None:
                         entry["low"], entry["high"] = lo, hi
                     out.evidence[f"scenarios.{case}.value"] = line.strip()
+        elif CAGR_HEADER.search(label) and not BAD_CAGR_HEADER.search(label) and "scenarios.bear.revenue_cagr" not in out.evidence:
+            growth = {case: growth_cell(cells[j]) for case, j in cols.items() if j < len(cells)}
+            if all(g is not None for g in growth.values()):
+                for case, g in growth.items():
+                    out.values.setdefault(case, {})["revenue_cagr"] = g
+                    out.evidence[f"scenarios.{case}.revenue_cagr"] = line.strip()
         elif WEIGHT_ROW.match(label):
             weights = {case: pct_cell(cells[j]) for case, j in cols.items() if j < len(cells)}
             if all(w is not None for w in weights.values()):

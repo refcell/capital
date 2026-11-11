@@ -16,6 +16,7 @@ Sector: Healthcare / Drug Manufacturers - General · Calls: 1 · Latest: 2026-11
 | Fair value | $28.56 (stated) |
 | Street mean target | $29.26 |
 | Valuation lens | FY2031 non-GAAP adjusted EPS × exit P/E; TTM FCF yield and EV/EBITDA as cross-checks. Trailing GAAP P/E is not used. FCF multiples are not the primary scenario framework because net debt is 4.7× TTM FCF. |
+| Revenue CAGR vs base rates | bear -4.0% = 15th pct / base -1.0% = 22th pct / bull +2.5% = 42th pct of 5-year growth for Over $50B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -2.4% vs SPY -0.8% through 2026-11-10; mark $29.79 is bear to base |
 
 ## Fundamentals known on 2026-11-03

@@ -16,6 +16,7 @@ Sector: Real estate / residential REIT · Calls: 1 · Latest: 2026-09-24
 | Fair value | $143.30 (stated) |
 | Street mean target | — |
 | Valuation lens | P/FFO, with Core AFFO, dividend coverage and leverage as cross-checks |
+| Revenue CAGR vs base rates | bear +1.0% = 29th pct / base +2.5% = 36th pct / bull +4.0% = 45th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +2.3% vs SPY -2.3% through 2026-11-10; mark $120.45 is bear to base |
 
 ## Fundamentals known on 2026-09-24

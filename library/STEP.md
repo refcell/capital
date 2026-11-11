@@ -16,6 +16,7 @@ Sector: Financial Services / Asset Management · Calls: 1 · Latest: 2026-07-01
 | Fair value | $33.26 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E, scenario-based FCF multiple analysis (TTM metrics distorted by acquisition) |
+| Revenue CAGR vs base rates | bear +5.0% = 51th pct / base +12.0% = 82th pct / bull +18.0% = 92th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +21.6% vs SPY +1.2% through 2026-11-09; mark $49.45 is base to bull |
 
 ## Fundamentals known on 2026-07-01

@@ -16,6 +16,7 @@ Sector: Financials / consumer cross-border payments and money transfer · Calls:
 | Fair value | $7.30 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E on adjusted EPS, with company-defined free cash flow, dividend coverage and leverage as cross-checks |
+| Revenue CAGR vs base rates | bear -2.5% = 17th pct / base +2.5% = 36th pct / bull +4.5% = 48th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +7.9% vs SPY -1.8% through 2026-11-10; mark $6.94 is bear to base |
 
 ## Fundamentals known on 2026-10-23

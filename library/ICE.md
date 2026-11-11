@@ -16,6 +16,7 @@ Sector: Financial Services / Financial Data & Stock Exchanges · Calls: 1 · Lat
 | Fair value | $165.00 (stated) |
 | Street mean target | — |
 | Valuation lens | FCF yield + EV/EBITDA multiples |
+| Revenue CAGR vs base rates | bear +4.0% = 58th pct / base +7.0% = 76th pct / bull +10.0% = 87th pct of 5-year growth for $12B–$25B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +43.7% vs SPY +0.7% through 2026-11-10; mark $176.95 is base to bull |
 
 ## Fundamentals known on 2026-06-30

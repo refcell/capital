@@ -16,6 +16,7 @@ Sector: Retail brokerage / multi-asset trading / crypto / social investing · Ca
 | Fair value | $51.50 (base) |
 | Street mean target | $55.67 |
 | Valuation lens | Net contribution, adjusted EBITDA, P/E, net-cash-adjusted EV, and scenario multiples |
+| Revenue CAGR vs base rates | bear +3.0% = 51th pct / base +10.0% = 87th pct / bull +16.0% = 96th pct of 5-year growth for $12B–$25B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -42.9% vs SPY +1.5% through 2026-11-09; mark $23.32 is below bear |
 
 ## Fundamentals known on 2026-05-24

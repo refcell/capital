@@ -16,6 +16,7 @@ Sector: Financial technology / emerging-market payments infrastructure · Calls:
 | Fair value | $27.00 (base) |
 | Street mean target | $17.65 |
 | Valuation lens | EV / gross profit, adjusted free cash flow, and scenario value per share |
+| Revenue CAGR vs base rates | bear +14.0% = 81th pct / base +19.0% = 89th pct / bull +24.0% = 93th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +21.3% vs SPY +1.5% through 2026-11-09; mark $14.63 is bear to base |
 
 ## Fundamentals known on 2026-05-24

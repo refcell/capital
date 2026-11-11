@@ -16,6 +16,7 @@ Sector: Consumer Internet / Commerce / grocery marketplace / advertising platfor
 | Fair value | $52.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Take rate analysis, free cash flow multiple, reverse DCF |
+| Revenue CAGR vs base rates | bear +5.0% = 52th pct / base +12.0% = 85th pct / bull +16.0% = 91th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +46.9% vs SPY +0.0% through 2026-11-09; mark $58.46 is base to bull |
 
 ## Fundamentals known on 2026-05-29

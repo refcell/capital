@@ -16,6 +16,7 @@ Sector: Healthcare / Diagnostics & Research · Calls: 1 · Latest: 2026-08-28
 | Fair value | $185.58 (stated) |
 | Street mean target | $165.28 |
 | Valuation lens | Forward P/E |
+| Revenue CAGR vs base rates | bear +2.0% = 37th pct / base +4.0% = 50th pct / bull +6.5% = 65th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +15.8% vs SPY -2.3% through 2026-11-10; mark $178.15 is base to bull |
 
 ## Fundamentals known on 2026-08-28

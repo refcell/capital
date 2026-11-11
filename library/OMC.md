@@ -16,6 +16,7 @@ Sector: Communication Services / Advertising Agencies · Calls: 1 · Latest: 202
 | Fair value | $147.00 (stated) |
 | Street mean target | — |
 | Valuation lens | Forward P/E, scenario analysis, WACC |
+| Revenue CAGR vs base rates | bear +2.0% = 45th pct / base +4.5% = 61th pct / bull +7.0% = 76th pct of 5-year growth for $12B–$25B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +2.1% vs SPY -1.9% through 2026-11-10; mark $89.75 is bear to base |
 
 ## Fundamentals known on 2026-08-26

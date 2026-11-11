@@ -22,17 +22,20 @@
     "bear": {
       "value": 160.0,
       "low": 150.0,
-      "high": 170.0
+      "high": 170.0,
+      "revenue_cagr": 0.05
     },
     "base": {
       "value": 270.0,
       "low": 250.0,
-      "high": 290.0
+      "high": 290.0,
+      "revenue_cagr": 0.08
     },
     "bull": {
       "value": 437.5,
       "low": 400.0,
-      "high": 475.0
+      "high": 475.0,
+      "revenue_cagr": 0.11
     }
   },
   "fair_value": {

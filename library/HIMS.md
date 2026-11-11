@@ -16,6 +16,7 @@ Sector: Consumer health, telehealth, digital pharmacy · Calls: 3 · Latest: 202
 | Fair value | $51.00 (base) |
 | Street mean target | $26.61 |
 | Valuation lens | Revenue growth, adjusted EBITDA quality, owner free cash flow, and scenario-based terminal FCF |
+| Revenue CAGR vs base rates | bear +9.0% = 72th pct / base +16.0% = 89th pct / bull +23.0% = 96th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -12.4% vs SPY +2.6% through 2026-11-09; mark $22.94 is bear to base |
 
 ## Fundamentals known on 2026-06-06

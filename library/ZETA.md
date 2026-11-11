@@ -16,6 +16,7 @@ Sector: Marketing technology / adtech / customer data platform / AI marketing au
 | Fair value | $27.00 (base) |
 | Street mean target | $28.31 |
 | Valuation lens | EV / revenue, EV / adjusted EBITDA, FCF yield, and scenario DCF |
+| Revenue CAGR vs base rates | bear +10.0% = 69th pct / base +16.0% = 85th pct / bull +22.0% = 92th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
 | Since the call | +72.5% vs SPY +1.5% through 2026-11-09; mark $32.42 is base to bull |
 
 ## Fundamentals known on 2026-05-24

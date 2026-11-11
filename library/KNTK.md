@@ -16,6 +16,7 @@ Sector: Energy / Oil & Gas Midstream · Calls: 1 · Latest: 2026-09-17
 | Fair value | $66.07 (weighted) |
 | Street mean target | — |
 | Valuation lens | EV / adjusted EBITDA, with distributable cash flow and dividend coverage as cross-checks |
+| Revenue CAGR vs base rates | bear +2.0% = 34th pct / base +8.0% = 67th pct / bull +12.0% = 82th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
 | Since the call | -5.1% vs SPY +0.1% through 2026-11-09; mark $51.09 is bear to base |
 
 ## Fundamentals known on 2026-09-17
