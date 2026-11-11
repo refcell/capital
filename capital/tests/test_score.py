@@ -64,3 +64,28 @@ class ScoreTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BrierTest(unittest.TestCase):
+    def test_brier_uses_only_resolved_claims_from_later_calls(self) -> None:
+        from capital import build
+
+        first = store.Call(dir=Path("."), inputs=None, manifest=None, call={
+            "ticker": "EXM", "date": "2026-01-05",
+            "claims": [
+                {"id": "a", "claim": "x", "probability": 0.8, "resolve_by": "2026-03-01"},
+                {"id": "b", "claim": "y", "probability": 0.3, "resolve_by": "2026-03-01"},
+                {"id": "c", "claim": "z", "probability": 0.5, "resolve_by": "2099-01-01"},
+            ],
+        })
+        later = store.Call(dir=Path("."), inputs=None, manifest=None, call={
+            "ticker": "EXM", "date": "2026-03-02",
+            "resolutions": [
+                {"claim": "EXM/2026-01-05#a", "outcome": True, "resolved_on": "2026-03-01"},
+                {"claim": "EXM/2026-01-05#b", "outcome": True, "resolved_on": "2026-03-01"},
+            ],
+        })
+        text = "\n".join(build.claims_section([first, later]))
+        # ((0.8 - 1)^2 + (0.3 - 1)^2) / 2 = (0.04 + 0.49) / 2 = 0.265; claim c is still open.
+        self.assertIn("Brier score: 0.265", text)
+        self.assertIn("3 claims made, 2 resolved", text)

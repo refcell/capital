@@ -321,8 +321,10 @@ def check_prices(errors: list[str]) -> None:
 
 def check_sec(errors: list[str]) -> None:
     """SEC files have the expected columns and every fact's accession and filed date are well formed."""
-    from capital.sec import EARNINGS, EARNINGS_FIELDS, FACT_FIELDS, FACTS
+    from capital.sec import EARNINGS_FIELDS, FACT_FIELDS
 
+    FACTS = store.DATA / "sec" / "facts"
+    EARNINGS = store.DATA / "calendar" / "earnings.csv"
     for path in sorted(FACTS.glob("*.csv")) if FACTS.exists() else []:
         rel = path.relative_to(store.ROOT)
         with path.open(newline="") as fh:
