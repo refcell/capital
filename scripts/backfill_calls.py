@@ -588,8 +588,8 @@ def build_call(v: Version, models: dict[str, list[str]], scripts: list[str], gap
         if m:
             stance_text, stance_line = m.group(1), m.group(0)
     if not stance_text:
-        gaps.append(f"{tag}: no stance found; recorded as watch with stance_text 'unstated'")
-    stance, bias = norm_stance(stance_text or "watch")
+        gaps.append(f"{tag}: no stance stated")
+    stance, bias = norm_stance(stance_text) if stance_text else (None, None)
 
     lens_text, _ = header_field(v.text, "Primary valuation lens")
     status_text, _ = header_field(v.text, "Research status")
@@ -751,12 +751,16 @@ def main(argv: list[str] | None = None) -> int:
         written[key] = v
 
     gap_keys = defaultdict(list)
+    written_tags = {f"{c['ticker']} {v.commit}" for c, _, v in results.values()}
     for g in gaps:
-        gap_keys[g.split(":")[0]].append(g.split(": ", 1)[1])
+        tag = g.split(":")[0]
+        if tag in written_tags or "skipped" in g:
+            gap_keys[tag].append(g.split(": ", 1)[1])
     lines = [
         "# Backfill report",
         "",
-        f"`scripts/backfill_calls.py` read {len(versions)} report versions and wrote {len(written)} calls; "
+        f"`scripts/backfill_calls.py` read {len(versions)} report versions and wrote {len(written)} calls "
+        "(when several commits share a report date, the latest wins); "
         f"{kept} hand-curated call(s) were left untouched. Every extracted number has a verbatim evidence quote "
         "checked by `python3 -m capital.validate`. Fields the extractor could not quote are null.",
         "",

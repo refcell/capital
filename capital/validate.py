@@ -208,7 +208,7 @@ def check_run_call(c: store.Call, errors: list[str]) -> None:
         errors.append(f"{rel}: runs must commit inputs.json")
     if not c.manifest or not c.manifest.get("entries"):
         errors.append(f"{rel}: runs must commit sources/manifest.json with at least one source")
-    for field in ("next_review", "thesis", "fair_value", "primary_lens"):
+    for field in ("stance", "next_review", "thesis", "fair_value", "primary_lens"):
         if not call.get(field):
             errors.append(f"{rel}: runs must set {field}")
     if not call.get("catalysts"):

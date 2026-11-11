@@ -53,7 +53,7 @@
     "origin": {"enum": ["backfill", "run"], "description": "backfill: extracted from an existing report; run: written by a research run."},
     "research_status": {"enum": ["initial", "refresh", "post_earnings", "pre_earnings", "thesis_update", "other", null]},
     "research_status_text": {"type": ["string", "null"]},
-    "stance": {"enum": ["own", "watch", "pass", "avoid", "needs_more_work"]},
+    "stance": {"enum": ["own", "watch", "pass", "avoid", "needs_more_work", null], "description": "Null only for backfilled reports that state no stance."},
     "bias": {"enum": ["positive", "neutral", "negative", null], "description": "Lean within the stance, e.g. 'Watch / Positive bias' is watch + positive."},
     "stance_text": {"type": "string", "description": "Stance line exactly as published."},
     "primary_lens": {"enum": ["pe", "ev_ebitda", "dcf", "fcf", "pb_roe", "p_ffo", "ev_sales", "ev_gross_profit", "sotp", "nav", "dividend", "other", null]},
