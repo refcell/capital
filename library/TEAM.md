@@ -2,41 +2,87 @@
 
 # Atlassian Corporation (NASDAQ: TEAM)
 
-Sector: Software / application software · Calls: 1 · Latest: 2026-09-04
+Sector: Software / application software · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Avoid (-1.4% a year expected over 3 years) |
-| Price at call | $194.68 on 2026-09-03 |
-| Bear / base / bull | $72.74 / $170.37 / $313.10 |
+| Stance (as published) | Watch — unchanged; value slightly lower, the price fell 24%, and the rule's 15% line is still out of reach once stock compensation and the Data Center wind-down are counted |
+| Rule rating | Watch (+6.5% a year expected over 3 years) |
+| Price at call | $148.60 on 2026-11-10 |
+| Bear / base / bull | $86.43 / $166.43 / $283.25 |
 | Weights | 20% / 55% / 25% |
-| Fair value | $186.53 (stated) |
-| Street mean target | $192.52 |
-| Valuation lens | Scenario-based discounted free cash flow and exit FCF multiple |
-| Revenue CAGR vs base rates | bear +7.0% = 67th pct / base +12.0% = 85th pct / bull +16.0% = 92th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -20.4% vs SPY -2.4% through 2026-11-09; mark $154.90 is bear to base |
+| Fair value | $179.64 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2029 (June 2029) reported free cash flow x exit multiple, plus net cash, on projected diluted shares (stock compensation counted through the share count, buybacks limited to free cash flow); three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +6.3% = 64th pct / base +11.6% = 84th pct / bull +15.2% = 91th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-05 — Q2 FY2027 results, expected around February 4, 2027 after the close |
 
-## Fundamentals known on 2026-09-04
+**Thesis.** Q1 FY2027 beat its revenue target by $57M (revenue +23.7%, Cloud +30.5%, RPO +44%) and the FY2027 targets rose, yet the stock fell 16.2% the next day and is 24% below the September call. The targets imply about 9% growth for the second half, and Data Center sales to existing customers stop in March 2028. Stock compensation (24.4% of FY2026 revenue, about 19% targeted for FY2027) roughly equals free cash flow, so buybacks only offset issuance. If revenue grows about 11.6% a year to FY2029 with a 23% free-cash-flow margin at 20x, the stock is worth about $166.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TEAM 2026-09-04`). Later restatements are not visible here by design.
+**Variant view.** The market prices Atlassian near the software peer median of 21x free cash flow, below its own p10, as if growth falls to mature-software levels. We agree growth slows, and the Data Center wind-down to March 2028 makes FY2028 the hard year, but Cloud is targeted at +26% for FY2027. The checkable test is FY2027 revenue growth of at least 14% and an initial FY2028 outlook of at least 10%; a weaker FY2028 outlook would point to the bear path.
+
+**Catalysts.**
+
+- Q2 FY2027 results (About February 4, 2027 (last year's release was February 5, 2026, after the close))
+- FY2027 results and the first FY2028 outlook (About August 2027)
+- Data Center end-of-life milestones and Government Cloud availability (Through June 2027)
+- AI pricing and agent adoption (Teamwork Collection, AMP) (Each quarter)
+
+**Pre-mortem** (written at decision time).
+
+- AI agents reduce the number of human seats customers buy, and seat-based Cloud growth falls below 15% by FY2029. — watch: Cloud revenue growth each quarter against the FY2027 target of 26%
+- Data Center customers leave rather than migrate, and total growth falls to mid-single digits as the wind-down completes. — watch: Data Center revenue against the -16% FY2027 target and Cloud growth in the same quarters
+- Stock compensation stays near 20% of revenue and buybacks stop once cash runs low, so the share count rises again. — watch: Diluted share count each quarter against 256.9 million
+- Margins stall below the 25.5% non-GAAP target as AI compute costs rise. — watch: Non-GAAP gross margin against the 86.5% target
+- The Watch call is wrong on the upside: AI drives a new growth leg, growth holds near 15% through FY2029, and the market pays its old 30x-plus free cash flow. — watch: Initial FY2028 revenue outlook above 13%
+
+**Kill criteria.**
+
+- FY2027 revenue growth target cut to 12% or below (check by 2027-08-15) — open
+- Initial FY2028 revenue outlook below 8% growth (check by 2027-08-31) — open
+- FY2027 stock-based compensation above 20% of revenue (the target implies about 19%) (check by 2027-08-31) — open
+
+**Probability claims.**
+
+- 80%: Atlassian reports Q2 FY2027 revenue of at least $1,835 million (the top of the target). (resolves by 2027-03-15)
+- 60%: Atlassian reports FY2027 revenue growth of at least 14.0%. (resolves by 2027-09-15)
+- 50%: Atlassian's initial FY2028 total revenue growth outlook is at least 10%. (resolves by 2027-09-15)
+- 75%: Atlassian's FY2027 stock-based compensation is below 20% of revenue. (resolves by 2027-09-15)
+- 55%: Atlassian's weighted-average diluted share count for Q4 FY2027 is below 256 million (the base path gives about 255.9 million). (resolves by 2027-09-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $118 with the business on the base path, or an FY2028 outlook above 13% growth
+- Toward Own: stock compensation falling below 16% of revenue with a falling diluted share count
+- Toward Avoid: the FY2027 growth target cut to 12% or below, or an FY2028 outlook below 8%
+- Toward Avoid: Cloud growth below 20% in any FY2027 quarter
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 3, calibration 4). Counter-case: The call's own probabilities point lower than its weights: it gives 50% to an FY2028 outlook below 10%, a kill criterion pointing to the bear, yet weights the bear at 20%. The base returns 3.8% a year, so 39% of the fair value rests on a 91st-percentile bull. Base FY2029 FCF of $2,099M leaves about $365M after stock compensation at 19%, so 20x reported FCF is about 115x what owners keep. At 35/50/15 the value is $155.95, 1.6% a year: still Watch, but the bias should be negative.
+
+**Response.** Accepted the corrections: the Own trigger is a price at or below about $118; the FY2028 kill threshold is below 8%, under the base path, and the FY2027 target criterion fires at 12% or below so the bear path trips it; the share-count claim is below 256M, matching the base path; the bull's share decline is explained by the margin gap; the growth pillar is restated as near 10% through the wind-down. On the counter-case: a 9-10% initial FY2028 outlook is consistent with the base, because Atlassian's targets have run below results (Q1 beat the top by $57M), so the 50% claim does not imply the bear; the call shows the 35/50/15 case stays Watch. We keep a neutral bias: owner FCF after stock compensation is thin, which the low exit multiples already price, and the business met or beat every target this quarter.
+
+**Data notes.** The September call used discounted five-year values; this update states three-year undiscounted values at the end of 2029, so the two are not directly comparable. Fiscal years end June 30; FY2029 ends June 30, 2029. No Street consensus snapshot was captured for this update. Revised twice after independent review (C, then B): diluted share base, share count flat to slightly down because stock compensation roughly equals free cash flow, the March 2028 Data Center wind-down in every path, kill thresholds below the base path; see review. First review round (C; evidence 3, valuation 2, variant view 3, risk 4, calibration 3): the share count fell 1-1.5% a year although stock compensation roughly equals free cash flow, values used basic shares, the cash decline was misattributed, and the Data Center wind-down was ignored. First draft values were $95.87 / $178.17 / $296.48, fair value $191.29.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TEAM 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 6,572.3M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Gross profit (TTM) | 5,575.5M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Operating income (TTM) | 10.4M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Net income (TTM) | -53.8M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Diluted EPS (TTM) | -0.21 USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Operating cash flow (TTM) | 1,353.1M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Capex (TTM) | 34.1M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Free cash flow (TTM) | 1,319.1M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Stock comp (TTM) | 1,606.6M USD | 2026-06-30 | annual | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Cash | 1,239.5M USD | 2026-06-30 | instant | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Long-term debt | 989.6M USD | 2026-06-30 | instant | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
-| Equity | 1,058.4M USD | 2026-06-30 | instant | [0001650372-26-000036](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/) |
+| Revenue (TTM) | 6,911.9M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Gross profit (TTM) | 5,911.1M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Operating income (TTM) | 295.5M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Net income (TTM) | 88.8M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Diluted EPS (TTM) | 0.34 USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Operating cash flow (TTM) | 1,693.0M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Capex (TTM) | 25.9M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Free cash flow (TTM) | 1,667.0M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Stock comp (TTM) | 1,611.9M USD | 2026-09-30 | ttm ytd | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Cash | 1,120.5M USD | 2026-09-30 | instant | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Long-term debt | 990.0M USD | 2026-09-30 | instant | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
+| Equity | 910.7M USD | 2026-09-30 | instant | [0001650372-26-000054](https://www.sec.gov/Archives/edgar/data/1650372/000165037226000054/) |
 
 ## Earnings calendar
 
@@ -46,6 +92,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001650372-26-000049](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-09-04 | $194.68 | Watch | Avoid | $72.74 | $170.37 | $313.10 | $186.53 | -20.4% | -18.0% | bear to base | [report](https://github.com/refcell/capital/blob/f70c236/research/TEAM.md) · [projection](https://github.com/refcell/capital/blob/a4e1de7/projections/TEAM.md) · [model](https://github.com/refcell/capital/blob/43ac7fa/models/2026-09-04%20Atlassian%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/43ac7fa/models/_build_TEAM.py) |
+| 2026-11-11 | $148.60 | Watch | Watch | $86.43 | $166.43 | $283.25 | $179.64 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/TEAM/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/TEAM/2026-11-11.xlsx) |
+| 2026-09-04 | $194.68 | Watch | Avoid | $72.74 | $170.37 | $313.10 | $186.53 | -23.7% | -20.9% | bear to base | [report](https://github.com/refcell/capital/blob/f70c236/research/TEAM.md) · [projection](https://github.com/refcell/capital/blob/a4e1de7/projections/TEAM.md) · [model](https://github.com/refcell/capital/blob/43ac7fa/models/2026-09-04%20Atlassian%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/43ac7fa/models/_build_TEAM.py) |
 
 Data: `data/TEAM/`. Prices: `data/prices/TEAM.csv`.

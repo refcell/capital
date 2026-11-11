@@ -112,4 +112,3 @@ The company has reported since the latest call. These names are due an update no
 | 2026-11-05 | 1 | [CG](CG.md) | 2026-10-24 |
 | 2026-11-05 | 1 | [IREN](IREN.md) | 2026-10-31 |
 | 2026-11-05 | 1 | [SOLV](SOLV.md) | 2026-08-27 |
-| 2026-11-05 | 1 | [TEAM](TEAM.md) | 2026-09-04 |

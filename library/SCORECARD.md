@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 133 calls have a mark.
+125 of 134 calls have a mark.
 
 ## By published stance
 
@@ -13,7 +13,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 | Avoid (negative) | 1 | 140 | +6.3% | +3.8% | 1/1 |
 | Own (positive) | 1 | 164 | +70.6% | +70.6% | 1/1 |
 | Pass | 2 | 215 | -17.0% | -21.9% | 0/2 |
-| Watch | 81 | 108 | -0.3% | -0.3% | 36/81 |
+| Watch | 81 | 108 | -0.4% | -0.3% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
 | Watch (positive) | 20 | 69 | +11.6% | +11.9% | 10/20 |
 | unstated | 13 | 185 | +8.6% | +5.3% | 9/13 |
@@ -22,7 +22,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| Avoid | 22 | 128 | -3.0% | -3.8% | 9/22 |
+| Avoid | 22 | 128 | -3.2% | -3.9% | 9/22 |
 | Own | 26 | 152 | +12.4% | +11.5% | 16/26 |
 | Watch | 71 | 99 | +3.8% | +4.0% | 35/71 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
@@ -31,7 +31,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| -10% to 10% | 23 | 99 | -2.8% | -3.0% | 6/23 |
+| -10% to 10% | 23 | 99 | -2.9% | -3.1% | 6/23 |
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
 | 30% to 70% | 38 | 99 | +12.0% | +12.0% | 22/38 |
 | 70%+ | 19 | 164 | +11.3% | +10.3% | 12/19 |
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-38 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+43 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -163,11 +163,11 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [CVE/2026-09-15](CVE.md) | Watch | Watch | $33.27 | $35.83 | $27.80 | -16.4% | -15.2% | — |
 | [TRMD/2026-11-04](TRMD.md) | Watch | Avoid | $41.73 | $35.45 | $33.48 | -19.8% | -17.6% | bear to base |
 | [VALE/2026-08-05](VALE.md) | Watch | Watch | $14.94 | $20.30 | $11.91 | -20.3% | -17.9% | below bear |
-| [TEAM/2026-09-04](TEAM.md) | Watch | Avoid | $194.68 | $186.53 | $154.90 | -20.4% | -18.0% | bear to base |
 | [JOBY/2026-07-20](JOBY.md) | Watch | Avoid | $7.47 | $7.05 | $6.18 | -17.3% | -18.9% | base to bull |
 | [VKTX/2026-09-25](VKTX.md) | Watch | Watch | $36.75 | $53.30 | $28.99 | -21.1% | -19.2% | bear to base |
 | [LOPE/2026-06-18](LOPE.md) | Watch | Watch | $142.46 | $180.00 | $116.50 | -18.2% | -19.9% | bear to base |
 | [HIMS/2026-05-24](HIMS.md) | Watch | Own | $23.75 | $51.00 | $19.13 | -19.5% | -20.5% | bear to base |
+| [TEAM/2026-09-04](TEAM.md) | Watch | Avoid | $194.68 | $186.53 | $148.60 | -23.7% | -20.9% | bear to base |
 | [GENI/2026-08-04](GENI.md) | Watch | Own | $8.08 | $36.65 | $6.20 | -23.3% | -21.1% | bear to base |
 | [TIGR/2026-05-27](TIGR.md) | Watch | Watch | $5.01 | $6.00 | $3.95 | -21.2% | -21.9% | bear to base |
 | [QS/2026-07-17](QS.md) | Watch | Avoid | $5.86 | $3.29 | $4.57 | -22.0% | -23.5% | base to bull |

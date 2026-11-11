@@ -506,7 +506,7 @@
   },
   "facts/TEAM": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001650372.json",
-    "fetched_at": "2026-11-11T03:40:34+00:00",
+    "fetched_at": "2026-11-11T05:04:02+00:00",
     "sha256": "99a2fa0466d8d58943d9b5617fbf3b47ebcb502a279bcfd423052d31c9e2e518"
   },
   "facts/THG": {
@@ -1091,7 +1091,7 @@
   },
   "submissions/TEAM": {
     "url": "https://data.sec.gov/submissions/CIK0001650372.json",
-    "fetched_at": "2026-11-11T03:40:34+00:00",
+    "fetched_at": "2026-11-11T05:04:01+00:00",
     "sha256": "07996bbb6079318f57965ad231b1d651618447ad6aa0a3e28e60fb433424e084"
   },
   "submissions/THG": {

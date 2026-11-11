@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "ticker": "TEAM",
+  "exchange": "NASDAQ",
+  "company": "Atlassian Corporation",
+  "sector": "Software / application software",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "TEAM/2026-09-04",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q1 FY2027; FY2027 targets raised)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged; value slightly lower, the price fell 24%, and the rule's 15% line is still out of reach once stock compensation and the Data Center wind-down are counted",
+  "rating_override_reason": null,
+  "primary_lens": "fcf",
+  "lens_text": "FY2029 (June 2029) reported free cash flow x exit multiple, plus net cash, on projected diluted shares (stock compensation counted through the share count, buybacks limited to free cash flow); three-year value, undiscounted",
+  "price": {
+    "value": 148.6,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 86.43,
+      "weight": 0.2,
+      "revenue_cagr": 0.063,
+      "basis": "Misses the FY2027 target (12%), then +4%/+3% as Data Center sales to existing customers stop in March 2028: FY2029 revenue $7,885M; FCF 20% ($1,577M) x 14x = $22.1B, plus $0.12B net cash, on 256.9M diluted shares (flat)"
+    },
+    "base": {
+      "value": 166.43,
+      "weight": 0.55,
+      "revenue_cagr": 0.116,
+      "basis": "Meets the 13.75% FY2027 target, then +11%/+10%: FY2029 revenue $9,128M; FCF 23% ($2,099M) x 20x = $42.0B, plus net cash, on 253.0M diluted shares (-0.5% a year)"
+    },
+    "bull": {
+      "value": 283.25,
+      "weight": 0.25,
+      "revenue_cagr": 0.152,
+      "basis": "Beats the target (14.5%), then +16%/+15% on Cloud and AI: FY2029 revenue $10,039M; FCF 27% ($2,710M) x 26x = $70.5B, plus net cash, on 249.2M diluted shares (-1% a year)"
+    }
+  },
+  "fair_value": {
+    "value": 179.64,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on FY2029 free cash flow, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Q1 FY2027 beat its revenue target by $57M (revenue +23.7%, Cloud +30.5%, RPO +44%) and the FY2027 targets rose, yet the stock fell 16.2% the next day and is 24% below the September call. The targets imply about 9% growth for the second half, and Data Center sales to existing customers stop in March 2028. Stock compensation (24.4% of FY2026 revenue, about 19% targeted for FY2027) roughly equals free cash flow, so buybacks only offset issuance. If revenue grows about 11.6% a year to FY2029 with a 23% free-cash-flow margin at 20x, the stock is worth about $166.",
+  "consensus_view": "No Street snapshot was captured. The stock peaked at $227.61 on October 23 and fell to $148.60, 22.9x trailing free cash flow and 5.0x the FY2027 revenue target, below Atlassian's own 99-month p10 of 29.5x free cash flow. The market is now pricing it near the software peer median of 21.1x despite faster growth, as if the second-half slowdown is permanent.",
+  "variant_view": "The market prices Atlassian near the software peer median of 21x free cash flow, below its own p10, as if growth falls to mature-software levels. We agree growth slows, and the Data Center wind-down to March 2028 makes FY2028 the hard year, but Cloud is targeted at +26% for FY2027. The checkable test is FY2027 revenue growth of at least 14% and an initial FY2028 outlook of at least 10%; a weaker FY2028 outlook would point to the bear path.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q2 FY2027 results",
+      "timing": "About February 4, 2027 (last year's release was February 5, 2026, after the close)",
+      "date": "2027-02-04",
+      "kind": "hard",
+      "what_it_proves": "Whether Q2 revenue lands in the $1,825-1,835M target and the FY2027 target holds",
+      "value_impact": "A cut to the FY2027 growth target to 12% or below fires a kill criterion"
+    },
+    {
+      "event": "FY2027 results and the first FY2028 outlook",
+      "timing": "About August 2027",
+      "date": "2027-08-05",
+      "kind": "hard",
+      "what_it_proves": "Growth after Data Center's wind-down and the path of stock compensation",
+      "value_impact": "An FY2028 revenue outlook below 8% growth fires a kill criterion; above 13% moves weight to the bull"
+    },
+    {
+      "event": "Data Center end-of-life milestones and Government Cloud availability",
+      "timing": "Through June 2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether Data Center customers migrate to Cloud or leave",
+      "value_impact": "Faster Data Center decline without matching Cloud growth moves weight to the bear"
+    },
+    {
+      "event": "AI pricing and agent adoption (Teamwork Collection, AMP)",
+      "timing": "Each quarter",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether AI adds paid seats and revenue or erodes seat-based pricing",
+      "value_impact": "Seat contraction at large customers moves weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "AI agents reduce the number of human seats customers buy, and seat-based Cloud growth falls below 15% by FY2029.",
+      "signal": "Cloud revenue growth each quarter against the FY2027 target of 26%"
+    },
+    {
+      "reason": "Data Center customers leave rather than migrate, and total growth falls to mid-single digits as the wind-down completes.",
+      "signal": "Data Center revenue against the -16% FY2027 target and Cloud growth in the same quarters"
+    },
+    {
+      "reason": "Stock compensation stays near 20% of revenue and buybacks stop once cash runs low, so the share count rises again.",
+      "signal": "Diluted share count each quarter against 256.9 million"
+    },
+    {
+      "reason": "Margins stall below the 25.5% non-GAAP target as AI compute costs rise.",
+      "signal": "Non-GAAP gross margin against the 86.5% target"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: AI drives a new growth leg, growth holds near 15% through FY2029, and the market pays its old 30x-plus free cash flow.",
+      "signal": "Initial FY2028 revenue outlook above 13%"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2027 revenue growth target cut to 12% or below",
+      "check_by": "2027-08-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Initial FY2028 revenue outlook below 8% growth",
+      "check_by": "2027-08-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2027 stock-based compensation above 20% of revenue (the target implies about 19%)",
+      "check_by": "2027-08-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "q2fy27-revenue-1-835b",
+      "claim": "Atlassian reports Q2 FY2027 revenue of at least $1,835 million (the top of the target).",
+      "probability": 0.8,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy27-revenue-growth-14",
+      "claim": "Atlassian reports FY2027 revenue growth of at least 14.0%.",
+      "probability": 0.6,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "fy28-outlook-10",
+      "claim": "Atlassian's initial FY2028 total revenue growth outlook is at least 10%.",
+      "probability": 0.5,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "fy27-sbc-below-20pct",
+      "claim": "Atlassian's FY2027 stock-based compensation is below 20% of revenue.",
+      "probability": 0.75,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "shares-q4fy27-below-256",
+      "claim": "Atlassian's weighted-average diluted share count for Q4 FY2027 is below 256 million (the base path gives about 255.9 million).",
+      "probability": 0.55,
+      "resolve_by": "2027-09-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $118 with the business on the base path, or an FY2028 outlook above 13% growth",
+    "Toward Own: stock compensation falling below 16% of revenue with a falling diluted share count",
+    "Toward Avoid: the FY2027 growth target cut to 12% or below, or an FY2028 outlook below 8%",
+    "Toward Avoid: Cloud growth below 20% in any FY2027 quarter"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $6B–$12B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from FY2026 revenue of $6,572M)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 84
+  },
+  "update": {
+    "event": "Q1 FY2027 results (8-K, 2026-11-05) with raised FY2027 targets",
+    "event_date": "2026-11-05",
+    "expected": "September call: Watch, base $170.37 (12% five-year revenue growth, 20% FCF margin, 24x, 235M shares, discounted); Q1 revenue target $1,705-1,715M; FY2027 targets about 13% revenue growth and 25% non-GAAP operating margin",
+    "actual": "Q1 revenue $1,772.2M (+23.7%), Cloud $1,302.5M (+30.5%), Data Center $390.7M (+4.8%); non-GAAP operating margin 32%; FCF $462.6M; SBC $356.5M; RPO $4.75B (+44%); FY2027 targets raised to about 13.75% revenue growth and 25.5% non-GAAP margin; Q2 target $1,825-1,835M (+15.4%); buybacks $581.4M",
+    "thesis_pillars": [
+      {
+        "pillar": "Cloud and Service replace Data Center runoff",
+        "status": "intact",
+        "note": "Cloud +30.5%, Service Collection above $1B of ARR growing above 30%"
+      },
+      {
+        "pillar": "Growth stays near 10% or better through the Data Center wind-down",
+        "status": "intact",
+        "note": "FY2027 target 13.75%, second half implied near 9%; Data Center sales to existing customers stop in March 2028"
+      },
+      {
+        "pillar": "Free cash flow becomes an honest per-share measure after stock compensation",
+        "status": "weakened",
+        "note": "SBC 20.1% of revenue (24.4% in FY2026), about equal to the FCF margin; Q1 buybacks 126% of FCF"
+      },
+      {
+        "pillar": "AI strengthens rather than bundles away the suite",
+        "status": "intact",
+        "note": "Teamwork Collection customers up 7x; no AI revenue disclosed"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-05",
+  "next_review_trigger": "Q2 FY2027 results, expected around February 4, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/TEAM/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/TEAM/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "TEAM closed at $148.60 on November 10, 2026",
+    "scenarios.base.value": "| Base | $170.37 | $166.43 |",
+    "fair_value.value": "| Fair value | $186.53 | $179.64 |"
+  },
+  "notes": [
+    "The September call used discounted five-year values; this update states three-year undiscounted values at the end of 2029, so the two are not directly comparable.",
+    "Fiscal years end June 30; FY2029 ends June 30, 2029.",
+    "No Street consensus snapshot was captured for this update.",
+    "Revised twice after independent review (C, then B): diluted share base, share count flat to slightly down because stock compensation roughly equals free cash flow, the March 2028 Data Center wind-down in every path, kill thresholds below the base path; see review.",
+    "First review round (C; evidence 3, valuation 2, variant view 3, risk 4, calibration 3): the share count fell 1-1.5% a year although stock compensation roughly equals free cash flow, values used basic shares, the cash decline was misattributed, and the Data Center wind-down was ignored. First draft values were $95.87 / $178.17 / $296.48, fair value $191.29."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 3,
+      "risk": 3,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "variant_view: the market belief is inferred from a multiple with no Street data; the base case's 11% FY2028 growth sits right on the 10% test.",
+      "risk: the FY2028 kill criterion (outlook below 10%) carried the author's own 50% probability and could fire on a base-path year; the 'Toward Own near $125' trigger no longer crosses the 15% line."
+    ],
+    "grade": "B",
+    "counter_case": "The call's own probabilities point lower than its weights: it gives 50% to an FY2028 outlook below 10%, a kill criterion pointing to the bear, yet weights the bear at 20%. The base returns 3.8% a year, so 39% of the fair value rests on a 91st-percentile bull. Base FY2029 FCF of $2,099M leaves about $365M after stock compensation at 19%, so 20x reported FCF is about 115x what owners keep. At 35/50/15 the value is $155.95, 1.6% a year: still Watch, but the bias should be negative.",
+    "response": "Accepted the corrections: the Own trigger is a price at or below about $118; the FY2028 kill threshold is below 8%, under the base path, and the FY2027 target criterion fires at 12% or below so the bear path trips it; the share-count claim is below 256M, matching the base path; the bull's share decline is explained by the margin gap; the growth pillar is restated as near 10% through the wind-down. On the counter-case: a 9-10% initial FY2028 outlook is consistent with the base, because Atlassian's targets have run below results (Q1 beat the top by $57M), so the 50% claim does not imply the bear; the call shows the 35/50/15 case stays Watch. We keep a neutral bias: owner FCF after stock compensation is thin, which the low exit multiples already price, and the business met or beat every target this quarter."
+  }
+}
