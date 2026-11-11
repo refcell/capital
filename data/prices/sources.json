@@ -507,7 +507,7 @@
   "STEP": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/STEP",
-    "last_capture": "2026-11-11T02:23:19+00:00"
+    "last_capture": "2026-11-11T06:33:48+00:00"
   },
   "STZ": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

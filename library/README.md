@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 138 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 139 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -13,8 +13,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 17 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 71 | 105 |
-| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 19 | 3 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 72 | 105 |
+| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 18 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
 ## Companies
@@ -115,7 +115,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [SPCX](SPCX.md) | Space Exploration Technologies Corp. | Space infrastructure | active | 2026-06-13 | 1 | Watch | — | $160.95 | — | — | -11.7% | -13.7% |
 | [SPXC](SPXC.md) | SPX Technologies, Inc. | Industrials | active | 2026-09-18 | 1 | Watch (positive) | Watch | $179.70 | $238.52 | +9.9% | -16.5% | -15.0% |
 | [SSB](SSB.md) | SouthState Bank Corporation | Financial Services | active | 2026-08-10 | 1 | Watch | Watch | $108.56 | $140.00 | +8.8% | -2.0% | +0.8% |
-| [STEP](STEP.md) | StepStone Group Inc. | Financial Services | active | 2026-07-01 | 1 | Watch | Avoid | $40.66 | $33.26 | -6.5% | +21.6% | +20.4% |
+| [STEP](STEP.md) | StepStone Group Inc. | Financials | active | 2026-11-11 | 2 | Watch | Watch | $49.18 | $56.89 | +5.0% | — | — |
 | [STZ](STZ.md) | Constellation Brands, Inc. | Consumer Staples | active | 2026-09-12 | 1 | Watch | Watch | $122.45 | $167.20 | +10.9% | +19.8% | +21.4% |
 | [TEAM](TEAM.md) | Atlassian Corporation | Software | active | 2026-11-11 | 2 | Watch | Watch | $148.60 | $179.64 | +6.5% | — | — |
 | [THG](THG.md) | The Hanover Insurance Group, Inc. | Financial Services | active | 2026-06-29 | 1 | Watch | Watch | $214.54 | $315.00 | +13.7% | +17.1% | +15.7% |

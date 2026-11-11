@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 138 calls have a mark.
+125 of 139 calls have a mark.
 
 ## By published stance
 
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-63 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+68 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -85,7 +85,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [APP/2026-08-06](APP.md) | Watch | Own | $335.67 | $780.17 | $410.00 | +22.1% | +24.0% | bear to base |
 | [TLN/2026-09-22](TLN.md) | Watch (positive) | Watch | $299.97 | $434.90 | $363.13 | +21.1% | +23.7% | bear to base |
 | [STZ/2026-09-12](STZ.md) | Watch | Watch | $122.45 | $167.20 | $146.67 | +19.8% | +21.4% | — |
-| [STEP/2026-07-01](STEP.md) | Watch | Avoid | $40.66 | $33.26 | $49.45 | +21.6% | +20.4% | base to bull |
+| [STEP/2026-07-01](STEP.md) | Watch | Avoid | $40.66 | $33.26 | $49.51 | +21.8% | +21.0% | base to bull |
 | [DLO/2026-05-24](DLO.md) | Watch (negative) | Own | $12.06 | $27.00 | $14.63 | +21.3% | +19.9% | bear to base |
 | [A/2026-08-28](A.md) | Watch | Watch | $153.84 | $185.58 | $178.15 | +15.8% | +18.1% | base to bull |
 | [CRM/2026-05-25](CRM.md) | Watch (positive) | Watch | $180.07 | $270.00 | $214.41 | +19.1% | +18.0% | bear to base |

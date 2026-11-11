@@ -501,7 +501,7 @@
   },
   "facts/STEP": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001796022.json",
-    "fetched_at": "2026-11-11T03:40:33+00:00",
+    "fetched_at": "2026-11-11T06:33:50+00:00",
     "sha256": "14ac618c94752969675ecde92710ba7719400038cdae6cc3d2e33ac966b31bf3"
   },
   "facts/STZ": {
@@ -1101,7 +1101,7 @@
   },
   "submissions/STEP": {
     "url": "https://data.sec.gov/submissions/CIK0001796022.json",
-    "fetched_at": "2026-11-11T03:40:33+00:00",
+    "fetched_at": "2026-11-11T06:33:49+00:00",
     "sha256": "ffbb3369a2febafd32ceaa92a236c1fa76d324d864ceeefbf22db3b88f590ae4"
   },
   "submissions/STZ": {

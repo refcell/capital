@@ -2,39 +2,84 @@
 
 # StepStone Group Inc. (NASDAQ: STEP)
 
-Sector: Financial Services / Asset Management · Calls: 1 · Latest: 2026-07-01
+Sector: Financials / private markets solutions (primaries, secondaries, co-investments; SMAs, commingled and private wealth funds) · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch — extreme earnings noise from acquisition; Aug 6 earnings report is the trigger |
-| Rule rating | Avoid (-6.5% a year expected over 3 years) |
-| Price at call | $40.66 on 2026-07-01 |
-| Bear / base / bull | $7.75 / $25.61 / $63.02 |
-| Weights | 20% / 50% / 30% |
-| Fair value | $33.26 (stated) |
+| Stance (as published) | Watch — unchanged, bias neutral; fee revenues rose 37% and the FRE margin reached 42%, but at 20.8x trailing ANI, with the SPW profits-interest buyout to pay in late 2027, the expected return is about 5% a year |
+| Rule rating | Watch (+5.0% a year expected over 3 years) |
+| Price at call | $49.18 on 2026-11-10 |
+| Bear / base / bull | $28.08 / $57.06 / $85.36 |
+| Weights | 25% / 50% / 25% |
+| Fair value | $56.89 (weighted) |
 | Street mean target | — |
-| Valuation lens | Forward P/E, scenario-based FCF multiple analysis (TTM metrics distorted by acquisition) |
-| Revenue CAGR vs base rates | bear +5.0% = 51th pct / base +12.0% = 82th pct / bull +18.0% = 92th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
-| Since the call | +21.6% vs SPY +1.2% through 2026-11-09; mark $49.45 is base to bull |
+| Valuation lens | Calendar-2029 adjusted net income (ANI) per share x exit P/E. Pre-tax ANI is core FRE (less other NCI) plus non-SPW net PRE plus the SPW profits interest's net income (FRE and incentive fees), which StepStone recaptures after the expected buyout, less retention pay. The payment follows the 10-Q formula (SPW earnings x STEP's own multiple restated before tax), settled 25% cash and 75% Partnership units. ANI is taxed at the 22.6% blended rate and equity compensation counted through the share count; three-year value, undiscounted, before dividends |
+| Next review | 2027-02-05 — Q3 FY2027 results, expected around February 4, 2027 after the close |
 
-## Fundamentals known on 2026-07-01
+**Thesis.** StepStone's fee business is compounding: Q2 FY2027 fee revenues rose 37% and FRE 61%, the FRE margin reached 42%, fee-earning AUM grew 19% and $42.4B of undeployed fee-earning capital has yet to pay fees. TTM ANI is $2.36 a share and the stock trades at 20.8x. The SPW profits-interest buyout StepStone expects to make after June 30, 2027 is priced as SPW earnings times STEP's own multiple restated before tax (14.2x = 18.39x x 0.774), so it carries no discount: in the base it costs about $1.0B of cash and 54M units, is dilutive at settlement ($2.52 of ANI per new unit against $2.70) and adds about 2% to 2029 ANI per share only through SPW's growth afterwards. The base reaches $3.17 of ANI per share in 2029 and $57.06 at 18x, about 5% a year at the price, well below the 15% Own threshold.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit STEP 2026-07-01`). Later restatements are not visible here by design.
+**Variant view.** No strong variant view on the stock. The July call's bearish reading of 'acquisition' losses was wrong; the GAAP losses are profits-interest marks and fund consolidation, and on the fee business we agree with the market. Our values differ from a simple P/E on reported ANI by counting the SPW buyout at STEP's own multiple: about 54M units and $1.0B of cash in the base, dilutive at settlement. The checkable test is the settlement: units issued against the profits interest's trailing net income and STEP's trailing ANI per share.
+
+**Catalysts.**
+
+- Q3 FY2027 results (About February 4, 2027 (last year's release was February 5, 2026, after the close))
+- SPW profits-interest call first exercisable (End of the first fiscal quarter after June 30, 2027 (September 30, 2027))
+- Q4 FY2027 results and the FY2027 dividend decision (About May 2027)
+- Private wealth fund flows (Each quarter)
+
+**Pre-mortem** (written at decision time).
+
+- Private-markets marks fall, private wealth evergreen funds see redemptions, and core FRE growth slows toward the bear's 5% a year. — watch: Fee-earning AUM and the commingled-fund fee rate each quarter; private wealth fund flows and any redemption limits
+- SPW's earnings peak around the settlement date, so StepStone pays its own multiple on peak earnings in about 54M units for a stream that then shrinks, and the units dilute every later year. — watch: Units issued against the profits interest's trailing net income and STEP's trailing ANI per share; private wealth fund flows in the quarters after settlement
+- Exits stay slow and the carry pool stops converting, so net PRE stays near $100M and ANI growth relies on fees alone. — watch: Gross realized performance fees and accrued carried interest allocations each quarter
+- The extra debt for the cash payment ($1.0B in the base) and the loss of supplemental dividends make the stock a lower-multiple name, and the exit P/E falls to 13x. — watch: Net debt after settlement, revolver drawings and any new notes; the dividend policy after FY2027
+- The Watch call is wrong on the upside: fee revenues keep growing above 30%, SPW beats the 10-Q's implied earnings, and the stock compounds well above 15% a year. — watch: Fee revenue growth above 25% for four more quarters; the profits interest's FRE above $60M a quarter before settlement
+
+**Kill criteria.**
+
+- Core FRE (FRE less the share attributable to the SPW profits interest) below $356M for the four quarters to September 30, 2027 (5% growth on the TTM $339.0M, the bear's core path) (check by 2027-11-15) — open
+- Fee-earning AUM below $171B at September 30, 2027 (8% growth from $158.2B, below which fee growth tracks the bear) (check by 2027-11-15) — open
+- The SPW settlement issues more Partnership units (millions) than 0.67 x the profits interest's net income over the prior four quarters ($M) / STEP's trailing ANI per share, terms 15% worse than the 0.58 the 10-Q formula gives (check by 2028-02-15) — open
+
+**Probability claims.**
+
+- 65%: StepStone reports Q3 FY2027 (quarter ending December 31, 2026) FRE of at least $125M. (resolves by 2027-02-28)
+- 65%: Fee-earning AUM is at least $168B at March 31, 2027. (resolves by 2027-06-15)
+- 60%: StepStone reports FY2027 ANI per share of at least $2.50. (resolves by 2027-06-15)
+- 80%: StepStone acquires the SPW profits interest (call or put exercised) by December 31, 2027. (resolves by 2028-02-15)
+- 93%: StepStone keeps its quarterly dividend at $0.33 or more through the Q1 FY2028 declaration. (resolves by 2027-08-31)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $37 at these weights
+- Toward Own: SPW settled on better terms than the 10-Q formula, or core FRE compounding above 16% a year with SPW still growing after settlement
+- Toward Avoid: core FRE below $356M for the four quarters to September 30, 2027, or fee-earning AUM below $171B at that date
+- Toward Avoid: an SPW settlement issuing more units than 0.67 x the profits interest's trailing net income ($M) / STEP's trailing ANI per share
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 3, calibration 3). Counter-case: The case that the buyout helps rests on the profits interest's FRE more than doubling before settlement and growing 15% a year after StepStone has paid for it. The 14.2x multiple is STEP's own after-tax P/E, so the buyout is dilutive at settlement ($2.53 of ANI per new unit against $2.70), and with SPW flat after settlement the base is $56.70. Priced on the profits interest's net income including the $83M December incentive, while counting only $20M of recaptured incentive, the base is $55.08 and the fair value $59.23, about 6% a year. The bull, at a quarter of the weight, needs about 27% fee growth, a 95th-percentile outcome, so the bias should be negative within Watch until the settlement terms show otherwise.
+
+**Response.** Accepted the corrections. The payment and the recapture now use the same SPW earnings (the profits interest's net income, FRE plus incentive fees, over the four quarters before settlement); the note says the buyout is priced at STEP's own multiple before tax, dilutive at settlement ($2.52 of ANI per new unit against $2.70) and about 2% accretive by 2029 only through SPW growth, and shows the flat-SPW base ($52.74) and the no-buyout base ($55.80). The bear lets SPW fall 5% a year after settlement. Kill criteria are core FRE below $356M (the bear's 5% core path) and a units ratio 15% worse than the formula's 0.58. The bull is trimmed to 16% core growth (about 20% fees, 91st percentile) and the percentiles are restated. Values are $28.08 / $57.06 / $85.36 and the fair value $56.89, about 5% a year. On the counter-case: the buyout cost is now in every scenario, which is why the fair value fell from $62.56. The bias stays neutral rather than negative because every operating pillar strengthened this quarter; the negatives are price and the buyout, both already valued. The stance is Watch, and Own would need about $37.
+
+**Data notes.** The July call used five-year values on GAAP free cash flow; this update states three-year end-2029 values on calendar-2029 ANI per share, undiscounted. As elsewhere in the library, the rating rule annualizes over 3 years; end-2029 is 3.14 years away, at which the fair value returns 4.8% a year. The initiation misread GAAP losses as acquisition accounting (Greenspring closed in September 2021) and quoted total debt of $1.31B and AUM of $13.1B; the 10-Q shows $275M of debt principal at March 31, 2026 ($270.6M carrying value in the release) and the release $233.3B of AUM ($290M and $261.0B at September 30). The GAAP losses come from mark-to-market of the SPW profits interest and from Consolidated Funds. SPW buyout model: payment = $3,588.3M x (profits-interest net income over the four quarters before settlement / $252.7M) x (STEP P/E at settlement / 18.39); units = 0.579 x that net income / STEP's trailing ANI per share; 25% cash, of which about $70M comes from the retained supplemental and the rest is borrowed at 5.5% and held to 2029 (conservative). Retention pay of 10% of SPW earnings is an assumption. Without a buyout the base would earn $3.10 a share on 135.2M shares ($55.80); with it $3.17; with SPW flat after settlement $2.93 ($52.74). Tax savings from the SPW deduction are not modelled because the consideration carries tax receivable agreement rights. Base gross FRE grows 16.4% a year, about 14.6% fee growth at a 42% margin (82nd percentile of the $700M-$1.5B revenue bucket in library/BASE_RATES.md); the bull implies about 20% (91st), the bear about 4% (below the median). No current Street consensus snapshot was captured for this update. The rating rule counts price only; the $1.32 annual regular dividend adds about 2.7% a year. capital.multiples is not used for the exit multiple: STEP's GAAP P/E is negative and its SIC 62xx peers are exchanges and brokers. HLNE was captured as a peer and removed because its XBRL facts lack diluted EPS after FY2022. The check is STEP's own 20.8x trailing ANI (18.4x on September 30); at 20.8x the base is $65.94 and the fair value $61.33. First review round (C; evidence 4, valuation 3, variant view 2, risk 3, calibration 3): the SPW payment was held fixed while the unit price varied, contradicting the 10-Q formula that ties the price to STEP's own multiple; the 'neutral' no-buyout figure ($3.41) could not be reproduced; the 55M-unit kill criterion fired on the 10-Q's own terms; March 31 AUM was misstated; the initiation's bearish checklist items were omitted; weights cited SPW twice; claims sat below the base; share creation of 3.8M was below the trailing 3.0M a year. First draft values were $27.04 / $63.54 / $103.18, fair value $64.33, positive bias. Second review round (B; evidence 4, valuation 3, variant view 2, risk 3, calibration 3): the 14.2x 'discount' was the tax rate (18.39 x 0.774), the payment used the profits interest's FRE while the recapture included SPW incentive fees, the FRE kill criterion sat below the bear path and the $4.0B SPW criterion could not fire, the bear did not contain the SPW peak risk, and the growth percentiles were understated. Second-draft values were $31.07 / $61.74 / $95.70, fair value $62.56, neutral bias.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit STEP 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 1,993.6M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Net income (TTM) | -535.8M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Diluted EPS (TTM) | -6.78 USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Operating cash flow (TTM) | 66.5M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Capex (TTM) | 2.6M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Free cash flow (TTM) | 63.9M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
-| Stock comp (TTM) | 1,617.6M USD | 2026-03-31 | annual | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
+| Revenue (TTM) | 2,327.1M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Net income (TTM) | -525.7M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Diluted EPS (TTM) | -3.89 USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Operating cash flow (TTM) | -814.1M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Capex (TTM) | 3.5M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Free cash flow (TTM) | -817.6M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
+| Stock comp (TTM) | 1,201.9M USD | 2026-09-30 | ttm ytd | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
 | Cash | 143.6M USD | 2022-09-30 | instant | [0001796022-22-000056](https://www.sec.gov/Archives/edgar/data/1796022/000179602222000056/) |
 | Long-term debt | 270.2M USD | 2025-12-31 | instant | [0001628280-26-005769](https://www.sec.gov/Archives/edgar/data/1796022/000162828026005769/) |
-| Equity | -413.6M USD | 2026-03-31 | instant | [0001628280-26-038446](https://www.sec.gov/Archives/edgar/data/1796022/000162828026038446/) |
+| Equity | -637.6M USD | 2026-09-30 | instant | [0001628280-26-072165](https://www.sec.gov/Archives/edgar/data/1796022/000162828026072165/) |
 
 ## Earnings calendar
 
@@ -44,6 +89,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001628280-26-071031](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-07-01 | $40.66 | Watch | Avoid | $7.75 | $25.61 | $63.02 | $33.26 | +21.6% | +20.4% | base to bull | [report](https://github.com/refcell/capital/blob/d3c2fb9/research/STEP.md) · [projection](https://github.com/refcell/capital/blob/ef75cd6/projections/STEP.md) · [model](https://github.com/refcell/capital/blob/da6cad8/models/%5B2026-07-01%5D%20StepStone%20Group%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/da6cad8/models/_build_step.py) |
+| 2026-11-11 | $49.18 | Watch | Watch | $28.08 | $57.06 | $85.36 | $56.89 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/STEP/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/STEP/2026-11-11.xlsx) |
+| 2026-07-01 | $40.66 | Watch | Avoid | $7.75 | $25.61 | $63.02 | $33.26 | +21.8% | +21.0% | base to bull | [report](https://github.com/refcell/capital/blob/d3c2fb9/research/STEP.md) · [projection](https://github.com/refcell/capital/blob/ef75cd6/projections/STEP.md) · [model](https://github.com/refcell/capital/blob/da6cad8/models/%5B2026-07-01%5D%20StepStone%20Group%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/da6cad8/models/_build_step.py) |
 
 Data: `data/STEP/`. Prices: `data/prices/STEP.csv`.

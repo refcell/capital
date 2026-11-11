@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "ticker": "STEP",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 49.18,
+      "as_of": "2026-11-10",
+      "source": "data/prices/STEP.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 2327.124,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "ttm_net_income_m": {
+      "value": -525.742,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "ttm_eps": {
+      "value": -3.89,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "ttm_ocf_m": {
+      "value": -814.109,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "ttm_capex_m": {
+      "value": 3.513,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "cash_m": {
+      "value": 297.038,
+      "as_of": "2026-09-30",
+      "source": "STEP Q2 FY2027 earnings release, 8-K EX-99.1 (sources/ex99-1-q2fy27.htm.gz), condensed consolidated balance sheet",
+      "accession": "0001628280-26-071031",
+      "note": "Company cash and cash equivalents; excludes cash held by Consolidated Funds (inside assets of Consolidated Funds). Includes cash of consolidated VIEs such as SPW, which may only settle those entities' obligations."
+    },
+    "total_debt_m": {
+      "value": 290.0,
+      "as_of": "2026-09-30",
+      "source": "STEP 10-Q for the quarter ended 2026-09-30 (sources/10q-q2fy27.htm.gz), note 8 Debt Obligations",
+      "accession": "0001628280-26-072165",
+      "note": "Principal: $175.0M 5.52% Series A senior notes due 2029-10-22 plus $115.0M drawn on the $300M Revolver (May 2029); $286.2M carrying value after issuance costs. Excludes Consolidated Funds' notes and subscription facilities."
+    },
+    "diluted_shares_m": {
+      "value": 125.475,
+      "as_of": "2026-09-30",
+      "source": "STEP Q2 FY2027 earnings release, 8-K EX-99.1 (sources/ex99-1-q2fy27.htm.gz), adjusted weighted-average shares for Q2 FY2027 (Class A plus RSUs plus exchange of Class B, C and D units)",
+      "accession": "0001628280-26-071031",
+      "note": "The per-share basis for ANI. The XBRL diluted count (82.3M) is Class A only and understates the economic share count."
+    },
+    "ttm_fcf_m": {
+      "value": -817.622,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-09",
+      "accession": "0001628280-26-072165"
+    },
+    "market_cap_m": {
+      "value": 6170.86,
+      "as_of": "2026-11-10",
+      "source": "price x diluted_shares_m (adjusted shares)"
+    },
+    "net_debt_m": {
+      "value": -7.04,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m (company, excluding Consolidated Funds)"
+    },
+    "shares_outstanding_m": {
+      "value": 120.802,
+      "as_of": "2026-09-30",
+      "source": "STEP Q2 FY2027 earnings release, 8-K EX-99.1 (sources/ex99-1-q2fy27.htm.gz), balance sheet: 82,475,390 Class A plus 38,326,745 Class B",
+      "accession": "0001628280-26-071031",
+      "note": "Class B shares carry votes; each pairs with a Class B Partnership unit exchangeable one for one into Class A. Class C and Class D units add about 4.4M more."
+    },
+    "enterprise_value_m": {
+      "value": 6163.82,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m (company)"
+    }
+  },
+  "notes": [
+    "GAAP ttm_* figures are distorted by Consolidated Funds (operating cash flow includes fund investment purchases) and by mark-to-market expense on the SPW profits interest ($372.1M in Q2 FY2027); the call values STEP on adjusted net income (ANI).",
+    "TTM (Q3 FY2026-Q2 FY2027, quarters to 2025-12-31 through 2026-09-30): fee revenues $1,069.96M; FRE $426.39M (39.9% margin); pre-tax ANI $378.63M; ANI $292.56M; ANI per share $2.36 (0.65 + 0.57 + 0.48 + 0.66); blended tax rate on pre-tax ANI 22.6% in Q2.",
+    "TTM FRE attributable to the SPW profits interest $87.39M and to other non-controlling interests $74.20M; TTM PRE $197.15M gross, $104.55M net of non-controlling interests ($83.2M of the Q3 FY2026 SPW incentive fee went to the profits interest).",
+    "Q2 FY2027: fee revenues $297.6M (+37% YoY, incl. $4.2M retroactive fees); FRE $126.2M (42% margin); ANI $82.9M, $0.66 per adjusted share; gross realized performance fees $65.1M; PRE $32.3M.",
+    "September 30, 2026: AUM $261.0B (+25%), FEAUM $158.2B (+19%), undeployed fee-earning capital $42.4B (+42%), accrued carried interest allocations $2,383.4M, accrued carried interest-related compensation $1,356.0M (net about $1,027M).",
+    "SPW option agreement (10-Q): StepStone expects to exercise its call on the SPW profits interest when first exercisable after June 30, 2027; estimated fair value $2,885.3M, undiscounted $3,588.3M; expected settlement 25% cash ($897.2M) and 75% Partnership units; redemption price = SPW adjusted net income x adjusted trading multiple of STEP (14.2x at September 30, 2026; 25% discount rate). No FY2027 supplemental dividend; the cash is retained toward the payment.",
+    "Dividend: quarterly $0.33 declared November 5, 2026 (raised from $0.28 in August 2026); FY2026 supplemental $0.55 paid June 2026; no FY2027 supplemental."
+  ]
+}
