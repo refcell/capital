@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 129 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 130 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,9 +12,9 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 20 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 106 |
-| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 19 | 2 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 19 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 68 | 105 |
+| Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 20 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
 ## Companies
@@ -65,7 +65,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [GNW](GNW.md) | Genworth Financial, Inc. | Financial Services | active | 2026-07-15 | 1 | Watch | Watch | $9.74 | $12.01 | +7.2% | -10.8% | -10.4% |
 | [GPI](GPI.md) | Group 1 Automotive, Inc. | Consumer Cyclical | active | 2026-07-06 | 1 | Watch (positive) | Own | $296.81 | $479.00 | +17.3% | -10.8% | -10.9% |
 | [GTLB](GTLB.md) | GitLab Inc. | DevSecOps | active | 2026-05-24 | 2 | Watch | Watch | $26.73 | $38.00 | +12.4% | +76.3% | +74.8% |
-| [HIMS](HIMS.md) | Hims & Hers Health, Inc. | Consumer health, telehealth, digital pharmacy | active | 2026-06-06 | 3 | Watch | Own | $26.19 | $51.00 | +24.9% | -27.0% | -29.1% |
+| [HIMS](HIMS.md) | Hims & Hers Health, Inc. | Consumer health, telehealth, digital pharmacy | active | 2026-11-11 | 4 | Avoid (negative) | Avoid | $19.13 | $16.92 | -4.0% | — | — |
 | [HOOD](HOOD.md) | Robinhood Markets, Inc. | Retail brokerage | active | 2026-05-24 | 2 | Watch | Avoid | $73.64 | $60.00 | -6.6% | +13.1% | +11.7% |
 | [ICE](ICE.md) | Intercontinental Exchange, Inc. | Financial Services | active | 2026-06-30 | 1 | Watch | Watch | $123.11 | $165.00 | +10.3% | +43.7% | +43.1% |
 | [INTR](INTR.md) | Inter & Co, Inc. | Brazilian digital banking | active | 2026-05-24 | 2 | Watch (positive) | Watch | $6.16 | $9.00 | +13.5% | -35.1% | -36.5% |

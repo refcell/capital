@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/HIMS.csv",
+      "commit": "6eaef3300f37",
+      "sha256": "cb60c3e10dcae2aefa1c036283529d3ed94550574449043e945cb77ec7b80802",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/HIMS.csv",
+      "commit": "6eaef3300f37",
+      "sha256": "ee577161bd6be54ae1260dd93c451a928f6c54e42e869691806a8f535c9772fd",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "8k-2026-11-09-q3-release-htm",
+      "kind": "file",
+      "path": "8k-2026-11-09-q3-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm",
+      "fetched_at": "2026-11-11T03:49:58+00:00",
+      "sha256": "54a097f7c11638ef7db3afd2c0c449ee72be50cca8a136fdd435cfbdd7eeffda",
+      "description": "8-K EX-99.1, Q3 2026 results; FY2026 revenue guide tightened, adjusted EBITDA guide cut (accession 0001773751-26-000242), gzip"
+    },
+    {
+      "id": "8k-2026-08-10-q2-release-htm",
+      "kind": "file",
+      "path": "8k-2026-08-10-q2-release.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm",
+      "fetched_at": "2026-11-11T03:49:58+00:00",
+      "sha256": "b5c78a27a221aeb9798507fde90ed01b6e44727a8bfc7b5620e0747fd9226541",
+      "description": "8-K EX-99.1, Q2 2026 results and the prior FY2026 guide (accession 0001773751-26-000161), gzip"
+    },
+    {
+      "id": "10q-2026-09-30-htm",
+      "kind": "file",
+      "path": "10q-2026-09-30.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm",
+      "fetched_at": "2026-11-11T03:49:59+00:00",
+      "sha256": "45ea68ed0e5e9dbf6264486332460ffe885bbaccf78a8d31186f28488bfd57a7",
+      "description": "10-Q for 2026-09-30: Eucalyptus acquisition, deferred and earn-out obligations, convertible notes, share count (accession 0001773751-26-000246), gzip"
+    }
+  ]
+}

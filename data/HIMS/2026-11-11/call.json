@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "ticker": "HIMS",
+  "exchange": "NYSE",
+  "company": "Hims & Hers Health, Inc.",
+  "sector": "Consumer health, telehealth, digital pharmacy",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "HIMS/2026-06-06",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q2 and Q3 2026; FY2026 adjusted EBITDA guide cut)",
+  "stance": "avoid",
+  "bias": "negative",
+  "stance_text": "Avoid — changed from Watch; revenue is growing on acquisitions while margins, subscribers, cash flow and the balance sheet moved the wrong way",
+  "rating_override_reason": null,
+  "primary_lens": "fcf",
+  "lens_text": "FY2029 owner free cash flow (company FCF less net-share-settlement taxes, excluding receivable sales) x exit multiple, plus end-2029 cash less converts and acquisition obligations, on projected shares; three-year value, undiscounted",
+  "price": {
+    "value": 19.13,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 0.0,
+      "weight": 0.3,
+      "revenue_cagr": 0.04,
+      "basis": "FY2029 revenue $3.53B, owner FCF 4% ($141M; path -65/34/141) x 8x = $1,128M, less $1,314M end-2029 net debt (converts $1,402.5M and acquisition obligations $733.8M at face): equity about nil"
+    },
+    "base": {
+      "value": 13.53,
+      "weight": 0.5,
+      "revenue_cagr": 0.14,
+      "basis": "FY2029 revenue $4.65B, owner FCF 6% ($279M; path 36/163/279) x 16x, less $946M end-2029 net debt, on 260M shares"
+    },
+    "bull": {
+      "value": 50.79,
+      "weight": 0.2,
+      "revenue_cagr": 0.2,
+      "basis": "FY2029 revenue $5.43B, owner FCF 11% ($597M; path 151/362/597) x 22x, less $314M end-2029 net debt, on 252.4M shares (2032 notes covered by capped calls to $50.15)"
+    }
+  },
+  "fair_value": {
+    "value": 16.92,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "FY2029 free cash flow at an exit multiple, undiscounted; stock compensation counted through dilution",
+  "street": null,
+  "deviation_from_street": null,
+  "thesis": "HIMS is buying growth with borrowed and deferred money: Q3 revenue rose 49% but US revenue 21%, gross margin fell to 57% from 74%, subscribers fell by about 103,000, and nine-month free cash flow of $11 million leaned on a $433 million sale of receivables under an uncommitted facility (as low as -$389 million without it). Converts ($1.40 billion) and acquisition obligations ($734 million) exceed cash ($712 million) by $1.4 billion. If owner free cash flow reaches 6% of revenue by 2029 the equity is worth about $13.50.",
+  "consensus_view": "No Street snapshot was captured. The stock fell from a $38.28 close on July 6 to $19.13 on November 10, including 11.8% on the day of the release and 16.6% the day after, so the market has already marked down the margin and guide changes. Management frames Q4 marketing restraint as preparation for platform expansions.",
+  "variant_view": "The market prices HIMS at about 1.3x revenue on a cash-only EV, below its own history, which looks cheap. Counting the converts and acquisition obligations it is 1.9x, and the reported cash flow depends on selling receivables. We expect FY2026 free cash flow excluding receivable sales to be negative, which the 10-K will show.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "FY2026 results and first 2027 guidance",
+      "timing": "About February 23, 2027 (last year's release was February 23, 2026, after the close)",
+      "date": "2027-02-23",
+      "kind": "hard",
+      "what_it_proves": "Whether the Q4 platform expansions turned subscribers up and what 2027 margin the company plans",
+      "value_impact": "Subscribers above 2.9 million or a 2027 adjusted EBITDA guide midpoint of $400M or more fires a kill criterion"
+    },
+    {
+      "event": "Settlement of the current acquisition deferred and earn-out payments ($565M, mostly Eucalyptus)",
+      "timing": "Within 12 months of September 30, 2026",
+      "date": null,
+      "kind": "hard",
+      "what_it_proves": "How much is paid in stock, at what price, and whether cash is needed",
+      "value_impact": "Counted at face in every case; settlement in cash that draws on the revolver or new debt moves weight to the bear"
+    },
+    {
+      "event": "Use of the $400M JPMorgan receivables facility",
+      "timing": "Each 10-Q",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether operating cash flow depends on selling receivables",
+      "value_impact": "Continued reliance at the limit supports the Avoid view; collections that fund working capital without it weaken it"
+    },
+    {
+      "event": "Branded GLP-1 pricing and manufacturer direct-to-consumer channels",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether HIMS keeps its weight-loss customers as drug makers sell direct",
+      "value_impact": "Further subscriber losses move weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Drug makers' own direct-to-consumer channels and lower branded GLP-1 prices take HIMS's weight-loss customers, and subscribers keep falling after Q3's drop.",
+      "signal": "End-of-period subscribers in each release against 2,788,000"
+    },
+    {
+      "reason": "The JPMorgan receivables facility, which is uncommitted, is reduced or withdrawn, and branded-drug receivables must be funded from cash just as acquisition payments come due.",
+      "signal": "Receivables sold under the RPA and receivables, net in each 10-Q against $434.5M sold and $427.8M on the balance sheet"
+    },
+    {
+      "reason": "Gross margin keeps falling below 55% as international and branded revenue grows, so owner free cash flow never reaches 6% of revenue.",
+      "signal": "Quarterly gross margin against 57%"
+    },
+    {
+      "reason": "The $1.0 billion of converts due May 2030 must be refinanced from about $456 million of base-case cash if the acquisition obligations are paid in cash, at a time when the equity is worth less than the debt.",
+      "signal": "Cash and investments against the converts in each 10-Q, and any new debt or convert issuance"
+    },
+    {
+      "reason": "Regulators or drug makers restrict compounded or personalized GLP-1 offerings again, and legal costs repeat the $62.5 million charged in 2026.",
+      "signal": "Legal contingencies and restructuring charges in each 10-Q"
+    },
+    {
+      "reason": "The Avoid call fails: the Q4 platform expansions reaccelerate US subscribers, working capital stabilizes, owner free cash flow turns positive without receivable sales, and the market re-rates HIMS toward its own 2.9x median EV/sales.",
+      "signal": "Q4 2026 and Q1 2027 subscribers and free cash flow excluding receivable sales"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "End-of-2026 subscribers above 2.9 million (growth resumes)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Initial FY2027 adjusted EBITDA guide midpoint of $400 million or more",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2026 free cash flow (company definition) less the receivables sold under the RPA and still outstanding at year-end (the $400M limit if the 10-K gives no balance) is positive",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-revenue-3-13b",
+      "claim": "HIMS reports FY2026 revenue of at least $3.13 billion.",
+      "probability": 0.85,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-adj-ebitda-257m",
+      "claim": "HIMS reports FY2026 adjusted EBITDA of at least $257 million.",
+      "probability": 0.75,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "ye26-subscribers-up",
+      "claim": "End-of-2026 subscribers exceed the 2,788,000 reported for September 30, 2026.",
+      "probability": 0.45,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-fcf-ex-rpa-negative",
+      "claim": "FY2026 free cash flow (company definition) less the receivables sold under the RPA and still outstanding at December 31, 2026 (the $400 million limit if the 10-K gives no balance) is negative.",
+      "probability": 0.75,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "fy27-revenue-guide-3-6b",
+      "claim": "The midpoint of the initial FY2027 revenue guide is at least $3.6 billion.",
+      "probability": 0.5,
+      "resolve_by": "2027-03-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Back to Watch or better: subscribers growing again with gross margin stable at 57% or better",
+    "Back to Watch or better: positive free cash flow without receivable sales, or the acquisition obligations settled in stock above $25",
+    "More bearish: subscribers below 2.7 million or another EBITDA guide cut",
+    "More bearish: new converts or debt raised to meet the acquisition payments, or the receivables facility withdrawn"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $3B–$6B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from the $3.14B 2026 guide)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 89
+  },
+  "update": {
+    "event": "Q2 2026 results (8-K, 2026-08-10) and Q3 2026 results with the FY2026 adjusted EBITDA guide cut (8-K, 2026-11-09)",
+    "event_date": "2026-11-09",
+    "expected": "June call: Q2 revenue $680-700M, FY2026 revenue $2.8-3.0B and adjusted EBITDA $275-350M; base case FY2030 FCF $550M at 24x (about $51)",
+    "actual": "Q2 revenue $753M, adjusted EBITDA $60M; Q3 revenue $890M (+49%), gross margin 57%, adjusted EBITDA $82M; subscribers 2,788K vs 2,891K in Q2; FY2026 adjusted EBITDA guide cut to $257-277M; $734M of acquisition obligations; $434.5M of receivables sold in Q3; 9M FCF about $11M, as low as -$389M without the facility",
+    "thesis_pillars": [
+      {
+        "pillar": "Revenue reaccelerates after the GLP-1 transition",
+        "status": "intact",
+        "note": "Q3 +49%, but US +21%; the rest is acquired"
+      },
+      {
+        "pillar": "Gross margin recovers into the low 70s",
+        "status": "broken",
+        "note": "57% in Q3 vs 74% a year earlier"
+      },
+      {
+        "pillar": "The subscriber base keeps compounding",
+        "status": "weakened",
+        "note": "Down about 103,000 in Q3"
+      },
+      {
+        "pillar": "Adjusted EBITDA converts into owner free cash flow",
+        "status": "broken",
+        "note": "9M FCF about $11M, as low as -$389M without the receivables facility"
+      },
+      {
+        "pillar": "The balance sheet funds the platform build",
+        "status": "weakened",
+        "note": "$1.40B converts and $734M acquisition obligations vs $712M cash; working-capital deficit; uncommitted receivables facility"
+      }
+    ],
+    "action": "change_stance"
+  },
+  "next_review": "2027-02-24",
+  "next_review_trigger": "FY2026 results and 2027 guidance, expected around February 23, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/HIMS/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/HIMS/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "HIMS closed at $19.13 on November 10, 2026",
+    "scenarios.base.value": "| Base | about $51 | $13.53 |",
+    "fair_value.value": "| Fair value | $51 (base, undiscounted FY2030) | $16.92 |"
+  },
+  "notes": [
+    "The June call used undiscounted FY2030 free-cash-flow values with no weights; this update uses three-year values, so the two are not directly comparable.",
+    "Peer multiples come from TDOC, LFMD and GDRX, captured for this update; HIMS's SIC group has no other comparable names in coverage.",
+    "No Street consensus snapshot was captured for this update.",
+    "Revised twice after independent review: the first draft graded C and rated Watch, the second B; see review."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: The stance still depends on the weights (25/50/25 gives Watch), defended only qualitatively; the base path jumps from about -$500M of nine-month 2026 owner FCF to +$36M in 2027 with no bridge; net debt starts from September 30 cash and leaves out Q4 2026; the bear exit was raised from 8x to 10x without a reason.",
+      "variant_view: The disagreement is real (cash-only 1.3x versus a 1.9x full-liability EV, and cash flow propped up by receivable sales), but its checkable test as worded (FY2026 FCF less gross sale proceeds) is already settled by the nine-month data.",
+      "risk: The third kill criterion and matching claim subtracted gross sale proceeds, which on a revolving facility far exceed the outstanding balance of at most $400M, so the criterion could hardly fire; pre-mortem 3 still said 7%; the $1.0B of converts due May 2030 against about $456M of base end-2029 cash was not a pre-mortem item.",
+      "calibration: Base growth at the 89th percentile is high for a base case when US growth is 21% and the rest is bought; the FCF claim at 0.8 was underconfident as worded."
+    ],
+    "grade": "B",
+    "counter_case": "Watch fits better than Avoid. The call's own sensitivity shows that moving five points of weight from bear to bull (25/50/25) gives $19.55, above the price. A stance that flips on a five-point weight change is not a real case for avoiding the stock. Most of the 2026 cash shortfall is a build in manufacturer discount and rebate receivables, money drug makers owe and will pay; it is a timing gap, not lost value. Leaving out receivable financing permanently penalizes a normal pharmacy funding tool, and the call's -$422M overstates the shortfall, because the facility can never have more than $400M outstanding. At 1.3x cash-only EV/sales, below the low of its 57-month history, after a 50% fall that included 28% in two days, the market already prices most of the bear case.",
+    "response": "Accepted the corrections: the pull-forward is now at most $400M (FCF without the facility as low as -$389M); the kill criterion and claim measure receivables sold and still outstanding at year-end, at 0.75; Q4 2026 owner FCF is stated (about zero) in the net-debt bridge; the bear exit returns to 8x, consistent with the 6.2x peers, which makes the bear equity about nil and fair value $16.92 (-4.0% a year); pre-mortem 3 says 6%; the 2030 convert refinancing is a new pre-mortem item. On the counter-case: the weights are the judgment, and the note states the 25/50/25 sensitivity (Watch at $19.46). We keep 30/50/20 because every operating signal since June moved toward the bear (subscribers down, EBITDA guide cut, gross margin down 17 points). The receivables point is partly accepted: rebate receivables are collectible, so the base case lets working capital stabilize and reach a 6% owner FCF margin by 2029; what we do not count is the factoring itself as free cash flow. A cheap cash-only multiple is the market missing $2.1B of obligations, not pricing the bear."
+  }
+}

@@ -50,6 +50,7 @@ GTLB,2026-05-24,GitLab Inc.,DevSecOps / software development platform / AI-enabl
 HIMS,2026-05-11,Hims & Hers Health,,backfill,,,,avoid,,28.27,2026-05-08,5.0,,27.0,,74.0,,27.0,base,-0.0152,,,,research/HIMS.md,b989626
 HIMS,2026-05-24,"Hims & Hers Health, Inc.","Consumer health, telehealth, digital pharmacy",backfill,post_earnings,watch,neutral,own,fcf,23.75,2026-05-22,13.0,,51.0,,116.0,,51.0,base,0.2901,26.82,90.2,,research/HIMS.md,c144126
 HIMS,2026-06-06,"Hims & Hers Health, Inc.","Consumer health, telehealth, digital pharmacy",backfill,post_earnings,watch,neutral,own,fcf,26.19,2026-06-05,13.0,,51.0,,116.0,,51.0,base,0.2488,26.61,91.7,,research/HIMS.md,df2e43b
+HIMS,2026-11-11,"Hims & Hers Health, Inc.","Consumer health, telehealth, digital pharmacy",run,post_earnings,avoid,negative,avoid,fcf,19.13,2026-11-10,0.0,0.3,13.53,0.5,50.79,0.2,16.92,weighted,-0.0401,,,2027-02-24,research/updates/HIMS/2026-11-11.md,
 HOOD,2026-05-14,HOOD,,backfill,,,,avoid,,76.75,2026-05-13,18.0,,47.0,,106.0,,47.0,base,-0.1508,105.87,-55.6,,research/HOOD.md,08623c7
 HOOD,2026-05-24,"Robinhood Markets, Inc.",Retail brokerage / fintech / crypto / consumer financial platform,backfill,post_earnings,watch,neutral,avoid,fcf,73.64,2026-05-22,30.0,,60.0,,117.5,,60.0,base,-0.0660,,,,research/HOOD.md,756156b
 ICE,2026-06-30,"Intercontinental Exchange, Inc.",Financial Services / Financial Data & Stock Exchanges,backfill,initial,watch,neutral,watch,fcf,123.11,2026-06-30,87.8,0.25,158.6,0.5,255.96,0.25,165.0,stated,0.1025,,,,research/ICE.md,daa9fdb

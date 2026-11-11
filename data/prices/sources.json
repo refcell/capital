@@ -189,6 +189,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/FRSH",
     "last_capture": "2026-11-11T02:22:56+00:00"
   },
+  "GDRX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDRX",
+    "last_capture": "2026-11-11T03:47:52+00:00"
+  },
   "GENI": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/GENI",
@@ -258,6 +263,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KNTK",
     "last_capture": "2026-11-11T02:23:02+00:00"
+  },
+  "LFMD": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LFMD",
+    "last_capture": "2026-11-11T03:47:52+00:00"
   },
   "LOPE": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -473,6 +483,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/STZ",
     "last_capture": "2026-11-11T02:23:20+00:00"
+  },
+  "TDOC": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TDOC",
+    "last_capture": "2026-11-11T03:47:53+00:00"
   },
   "TEAM": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

@@ -2,38 +2,85 @@
 
 # Hims & Hers Health, Inc. (NYSE: HIMS)
 
-Sector: Consumer health, telehealth, digital pharmacy · Calls: 3 · Latest: 2026-06-06
+Sector: Consumer health, telehealth, digital pharmacy · Calls: 4 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / high-risk long setup |
-| Rule rating | Own (+24.9% a year expected over 3 years) |
-| Price at call | $26.19 on 2026-06-05 |
-| Bear / base / bull | $13.00 / $51.00 / $116.00 |
-| Weights | — / — / — |
-| Fair value | $51.00 (base) |
-| Street mean target | $26.61 |
-| Valuation lens | Revenue growth, adjusted EBITDA quality, owner free cash flow, and scenario-based terminal FCF |
-| Revenue CAGR vs base rates | bear +9.0% = 72th pct / base +16.0% = 89th pct / bull +23.0% = 96th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
-| Since the call | -27.0% vs SPY +2.2% through 2026-11-10; mark $19.13 is bear to base |
+| Stance (as published) | Avoid — changed from Watch; revenue is growing on acquisitions while margins, subscribers, cash flow and the balance sheet moved the wrong way |
+| Rule rating | Avoid (-4.0% a year expected over 3 years) |
+| Price at call | $19.13 on 2026-11-10 |
+| Bear / base / bull | $0.00 / $13.53 / $50.79 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $16.92 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2029 owner free cash flow (company FCF less net-share-settlement taxes, excluding receivable sales) x exit multiple, plus end-2029 cash less converts and acquisition obligations, on projected shares; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +4.0% = 45th pct / base +14.0% = 86th pct / bull +20.0% = 94th pct of 5-year growth for $1.5B–$3B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-24 — FY2026 results and 2027 guidance, expected around February 23, 2027 after the close |
 
-## Fundamentals known on 2026-06-06
+**Thesis.** HIMS is buying growth with borrowed and deferred money: Q3 revenue rose 49% but US revenue 21%, gross margin fell to 57% from 74%, subscribers fell by about 103,000, and nine-month free cash flow of $11 million leaned on a $433 million sale of receivables under an uncommitted facility (as low as -$389 million without it). Converts ($1.40 billion) and acquisition obligations ($734 million) exceed cash ($712 million) by $1.4 billion. If owner free cash flow reaches 6% of revenue by 2029 the equity is worth about $13.50.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit HIMS 2026-06-06`). Later restatements are not visible here by design.
+**Variant view.** The market prices HIMS at about 1.3x revenue on a cash-only EV, below its own history, which looks cheap. Counting the converts and acquisition obligations it is 1.9x, and the reported cash flow depends on selling receivables. We expect FY2026 free cash flow excluding receivable sales to be negative, which the 10-K will show.
+
+**Catalysts.**
+
+- FY2026 results and first 2027 guidance (About February 23, 2027 (last year's release was February 23, 2026, after the close))
+- Settlement of the current acquisition deferred and earn-out payments ($565M, mostly Eucalyptus) (Within 12 months of September 30, 2026)
+- Use of the $400M JPMorgan receivables facility (Each 10-Q)
+- Branded GLP-1 pricing and manufacturer direct-to-consumer channels (2027)
+
+**Pre-mortem** (written at decision time).
+
+- Drug makers' own direct-to-consumer channels and lower branded GLP-1 prices take HIMS's weight-loss customers, and subscribers keep falling after Q3's drop. — watch: End-of-period subscribers in each release against 2,788,000
+- The JPMorgan receivables facility, which is uncommitted, is reduced or withdrawn, and branded-drug receivables must be funded from cash just as acquisition payments come due. — watch: Receivables sold under the RPA and receivables, net in each 10-Q against $434.5M sold and $427.8M on the balance sheet
+- Gross margin keeps falling below 55% as international and branded revenue grows, so owner free cash flow never reaches 6% of revenue. — watch: Quarterly gross margin against 57%
+- The $1.0 billion of converts due May 2030 must be refinanced from about $456 million of base-case cash if the acquisition obligations are paid in cash, at a time when the equity is worth less than the debt. — watch: Cash and investments against the converts in each 10-Q, and any new debt or convert issuance
+- Regulators or drug makers restrict compounded or personalized GLP-1 offerings again, and legal costs repeat the $62.5 million charged in 2026. — watch: Legal contingencies and restructuring charges in each 10-Q
+- The Avoid call fails: the Q4 platform expansions reaccelerate US subscribers, working capital stabilizes, owner free cash flow turns positive without receivable sales, and the market re-rates HIMS toward its own 2.9x median EV/sales. — watch: Q4 2026 and Q1 2027 subscribers and free cash flow excluding receivable sales
+
+**Kill criteria.**
+
+- End-of-2026 subscribers above 2.9 million (growth resumes) (check by 2027-03-15) — open
+- Initial FY2027 adjusted EBITDA guide midpoint of $400 million or more (check by 2027-03-31) — open
+- FY2026 free cash flow (company definition) less the receivables sold under the RPA and still outstanding at year-end (the $400M limit if the 10-K gives no balance) is positive (check by 2027-03-31) — open
+
+**Probability claims.**
+
+- 85%: HIMS reports FY2026 revenue of at least $3.13 billion. (resolves by 2027-03-15)
+- 75%: HIMS reports FY2026 adjusted EBITDA of at least $257 million. (resolves by 2027-03-15)
+- 45%: End-of-2026 subscribers exceed the 2,788,000 reported for September 30, 2026. (resolves by 2027-03-15)
+- 75%: FY2026 free cash flow (company definition) less the receivables sold under the RPA and still outstanding at December 31, 2026 (the $400 million limit if the 10-K gives no balance) is negative. (resolves by 2027-03-31)
+- 50%: The midpoint of the initial FY2027 revenue guide is at least $3.6 billion. (resolves by 2027-03-31)
+
+**What would change the view.**
+
+- Back to Watch or better: subscribers growing again with gross margin stable at 57% or better
+- Back to Watch or better: positive free cash flow without receivable sales, or the acquisition obligations settled in stock above $25
+- More bearish: subscribers below 2.7 million or another EBITDA guide cut
+- More bearish: new converts or debt raised to meet the acquisition payments, or the receivables facility withdrawn
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 3, risk 3, calibration 3). Counter-case: Watch fits better than Avoid. The call's own sensitivity shows that moving five points of weight from bear to bull (25/50/25) gives $19.55, above the price. A stance that flips on a five-point weight change is not a real case for avoiding the stock. Most of the 2026 cash shortfall is a build in manufacturer discount and rebate receivables, money drug makers owe and will pay; it is a timing gap, not lost value. Leaving out receivable financing permanently penalizes a normal pharmacy funding tool, and the call's -$422M overstates the shortfall, because the facility can never have more than $400M outstanding. At 1.3x cash-only EV/sales, below the low of its 57-month history, after a 50% fall that included 28% in two days, the market already prices most of the bear case.
+
+**Response.** Accepted the corrections: the pull-forward is now at most $400M (FCF without the facility as low as -$389M); the kill criterion and claim measure receivables sold and still outstanding at year-end, at 0.75; Q4 2026 owner FCF is stated (about zero) in the net-debt bridge; the bear exit returns to 8x, consistent with the 6.2x peers, which makes the bear equity about nil and fair value $16.92 (-4.0% a year); pre-mortem 3 says 6%; the 2030 convert refinancing is a new pre-mortem item. On the counter-case: the weights are the judgment, and the note states the 25/50/25 sensitivity (Watch at $19.46). We keep 30/50/20 because every operating signal since June moved toward the bear (subscribers down, EBITDA guide cut, gross margin down 17 points). The receivables point is partly accepted: rebate receivables are collectible, so the base case lets working capital stabilize and reach a 6% owner FCF margin by 2029; what we do not count is the factoring itself as free cash flow. A cheap cash-only multiple is the market missing $2.1B of obligations, not pricing the bear.
+
+**Data notes.** The June call used undiscounted FY2030 free-cash-flow values with no weights; this update uses three-year values, so the two are not directly comparable. Peer multiples come from TDOC, LFMD and GDRX, captured for this update; HIMS's SIC group has no other comparable names in coverage. No Street consensus snapshot was captured for this update. Revised twice after independent review: the first draft graded C and rated Watch, the second B; see review.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit HIMS 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 2,369.7M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Gross profit (TTM) | 1,699.5M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Operating income (TTM) | -30.6M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Net income (TTM) | -13.2M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Diluted EPS (TTM) | -0.09 USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Operating cash flow (TTM) | 280.3M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Stock comp (TTM) | 147.2M USD | 2026-03-31 | ttm ytd | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Cash | 222.3M USD | 2026-03-31 | instant | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
-| Equity | 446.2M USD | 2026-03-31 | instant | [0001773751-26-000076](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000076/) |
+| Revenue (TTM) | 2,869.5M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Gross profit (TTM) | 1,831.2M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Operating income (TTM) | -232.5M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Net income (TTM) | -190.8M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Diluted EPS (TTM) | -0.83 USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Operating cash flow (TTM) | 180.1M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Stock comp (TTM) | 177.9M USD | 2026-09-30 | ttm ytd | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Cash | 605.6M USD | 2026-09-30 | instant | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
+| Equity | 355.3M USD | 2026-09-30 | instant | [0001773751-26-000246](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/) |
 | Shares outstanding | 0 shares | 2019-06-30 | instant | [0001193125-19-234151](https://www.sec.gov/Archives/edgar/data/1773751/000119312519234151/) |
 
 ## Earnings calendar
@@ -44,6 +91,7 @@ Last release: 2026-11-09 (post-market 8-K Item 2.02, [0001773751-26-000242](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| 2026-11-11 | $19.13 | Avoid (negative) | Avoid | $0.00 | $13.53 | $50.79 | $16.92 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/HIMS/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/HIMS/2026-11-11.xlsx) |
 | 2026-06-06 | $26.19 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -27.0% | -29.1% | bear to base | [report](https://github.com/refcell/capital/blob/df2e43b/research/HIMS.md) · [model](https://github.com/refcell/capital/blob/a8c65d1/models/%5B2026-06-06%5D%20Hims%20%26%20Hers%20Health%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/a8c65d1/models/_build_hims.py) |
 | 2026-05-24 | $23.75 | Watch | Own | $13.00 | $51.00 | $116.00 | $51.00 | -19.5% | -20.5% | bear to base | [report](https://github.com/refcell/capital/blob/c144126/research/HIMS.md) |
 | 2026-05-11 | $28.27 | unstated | Avoid | $5.00 | $27.00 | $74.00 | $27.00 | -32.3% | -34.5% | bear to base | [report](https://github.com/refcell/capital/blob/b989626/research/HIMS.md) |
