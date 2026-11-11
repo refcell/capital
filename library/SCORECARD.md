@@ -4,7 +4,7 @@
 
 Every dated call marked against committed prices through 2026-11-10. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 134 calls have a mark.
+125 of 135 calls have a mark.
 
 ## By published stance
 
@@ -31,7 +31,7 @@ Every dated call marked against committed prices through 2026-11-10. Returns use
 
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
-| -10% to 10% | 23 | 99 | -2.9% | -3.1% | 6/23 |
+| -10% to 10% | 23 | 99 | -3.0% | -3.1% | 6/23 |
 | 10% to 30% | 26 | 110 | +0.7% | +0.8% | 14/26 |
 | 30% to 70% | 38 | 99 | +12.0% | +12.0% | 22/38 |
 | 70%+ | 19 | 164 | +11.3% | +10.3% | 12/19 |
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-43 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+48 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -116,7 +116,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [FOUR/2026-05-24](FOUR.md) | Watch | Own | $43.24 | $97.50 | $45.01 | +4.1% | +2.6% | bear to base |
 | [TMUS/2026-09-19](TMUS.md) | Watch | Watch | $168.18 | $209.57 | $169.08 | +0.5% | +2.1% | bear to base |
 | [CENTA/2026-06-26](CENTA.md) | Watch (positive) | Watch | $39.32 | $56.55 | $41.20 | +4.8% | +1.7% | bear to base |
-| [SOLV/2026-08-27](SOLV.md) | Watch | Watch | $90.93 | $93.60 | $90.43 | -0.5% | +1.6% | base to bull |
+| [SOLV/2026-08-27](SOLV.md) | Watch | Watch | $90.93 | $93.60 | $90.08 | -0.9% | +1.6% | base to bull |
 | [FCFS/2026-10-28](FCFS.md) | Watch (positive) | Watch | $185.35 | $268.00 | $183.43 | -1.0% | +1.5% | bear to base |
 | [ITUB/2026-08-11](ITUB.md) | Watch | Watch | $7.50 | $9.05 | $7.40 | -1.4% | +1.1% | bear to base |
 | [RGEN/2026-08-19](RGEN.md) | Watch | Watch | $176.36 | $212.07 | $173.98 | -1.3% | +0.9% | bear to base |

@@ -8,7 +8,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 
 | Ticker | Industry (SIC) | P/E now | P/E own p25–p75 | EV/Sales now | EV/Sales own p25–p75 | EV/EBIT now | EV/EBIT own p25–p75 | Peers (median EV/Sales, P/E) |
 |---|---|---:|---:|---:|---:|---:|---:|---|
-| [A](A.md) | Laboratory Analytical Instruments | 35.0x | 27.3–33.0x | 7.1x | 4.7–6.4x | 31.8x | 24.8–30.6x | SIC 38xx, 2 names: 3.2x, 62.8x |
+| [A](A.md) | Laboratory Analytical Instruments | 35.0x | 27.3–33.0x | 7.1x | 4.7–6.4x | 31.8x | 24.8–30.6x | SIC 38xx, 5 names: 3.1x, 44.3x |
 | [ACHR](ACHR.md) | Aircraft | — | — | 202.1x | — | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
 | [ACI](ACI.md) | Retail-Grocery Stores | — | 8.8–13.1x | 0.2x | 0.2–0.3x | 38.9x | 9.5–13.8x | SIC 54xx, 1 names: 0.5x, 9.4x |
 | [ACM](ACM.md) | Services-Engineering Services | 31.5x | 27.6–53.7x | 0.6x | 0.6–0.8x | 14.6x | 15.3–29.9x | — |
@@ -96,7 +96,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [SKT](SKT.md) | Real Estate Investment Trusts | — | — | — | — | — | — | SIC 6798, 4 names: 3.7x, 29.4x |
 | [SMR](SMR.md) | Fabricated Plate Work (Boiler Shops) | — | — | 476.2x | 23.3–115.7x | — | — | — |
 | [SOFI](SOFI.md) | Finance Services | 30.8x | 37.4–55.6x | 39.6x | 25.4–41.1x | — | — | SIC 61xx, 1 names: 20.2x, — |
-| [SOLV](SOLV.md) | Surgical & Medical Instruments & Apparatus | 99.0x | 9.2–31.8x | 2.4x | 2.1–2.4x | 43.0x | 8.1–24.4x | SIC 38xx, 2 names: 5.6x, 30.7x |
+| [SOLV](SOLV.md) | Surgical & Medical Instruments & Apparatus | 98.6x | 9.2–31.8x | 2.4x | 2.1–2.4x | 42.8x | 8.1–24.4x | SIC 3841, 3 names: 3.1x, 41.7x |
 | [SPCX](SPCX.md) | Services-Computer Programming, Data Processing, Etc. | — | — | — | — | — | — | SIC 737x, 15 names: 5.1x, 42.5x |
 | [SPXC](SPXC.md) | Metalworkg Machinery & Equipment | 25.5x | 18.0–44.2x | 2.9x | 1.0–3.0x | 17.7x | 18.7–28.6x | SIC 35xx, 2 names: 4.5x, 34.5x |
 | [SSB](SSB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
@@ -106,7 +106,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [THG](THG.md) | Fire, Marine & Casualty Insurance | 11.8x | 11.5–21.1x | 1.3x | 0.9–1.1x | 8.6x | 9.9–13.4x | SIC 63xx, 2 names: 0.3x, 41.5x |
 | [TIGR](TIGR.md) | Security Brokers, Dealers & Flotation Companies | — | — | 16.8x | 32.1–61.9x | — | — | SIC 62xx, 5 names: 4.3x, 31.1x |
 | [TLN](TLN.md) | Electric Services | — | — | 6.3x | 6.9–8.9x | 312.9x | 83.0–167.4x | SIC 49xx, 2 names: 2.6x, 11.7x |
-| [TMDX](TMDX.md) | Electromedical & Electrotherapeutic Apparatus | 26.5x | 22.4–73.8x | 4.1x | 7.4–22.5x | 34.5x | 32.1–61.3x | SIC 38xx, 2 names: 4.7x, 67.0x |
+| [TMDX](TMDX.md) | Electromedical & Electrotherapeutic Apparatus | 26.5x | 22.4–73.8x | 4.1x | 7.4–22.5x | 34.5x | 32.1–61.3x | SIC 384x, 4 names: 2.8x, 62.1x |
 | [TMUS](TMUS.md) | Radiotelephone Communications | 16.0x | 20.5–43.6x | 2.8x | 2.0–3.4x | 13.4x | 16.0–27.2x | — |
 | [TRMD](TRMD.md) | Deep Sea Foreign Transportation of  Freight | 12.1x | 3.6–10.6x | 3.2x | 1.8–2.5x | 12.2x | 5.4–23.5x | SIC 44xx, 2 names: 2.3x, 13.4x |
 | [TU](TU.md) | Radiotelephone Communications | — | — | — | — | — | — | SIC 48xx, 1 names: 2.8x, 16.0x |

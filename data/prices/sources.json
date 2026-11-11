@@ -44,6 +44,16 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BANC",
     "last_capture": "2026-11-11T02:22:44+00:00"
   },
+  "BAX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAX",
+    "last_capture": "2026-11-11T05:27:28+00:00"
+  },
+  "BDX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BDX",
+    "last_capture": "2026-11-11T05:27:28+00:00"
+  },
   "BE": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/BE",
@@ -472,7 +482,7 @@
   "SOLV": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOLV",
-    "last_capture": "2026-11-11T02:23:17+00:00"
+    "last_capture": "2026-11-11T05:24:38+00:00"
   },
   "SPCX": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -513,6 +523,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEAM",
     "last_capture": "2026-11-11T05:04:00+00:00"
+  },
+  "TFX": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TFX",
+    "last_capture": "2026-11-11T05:27:29+00:00"
   },
   "THG": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",

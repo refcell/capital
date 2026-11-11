@@ -2,41 +2,89 @@
 
 # Solventum Corporation (NYSE: SOLV)
 
-Sector: Healthcare / Medical Instruments & Supplies · Calls: 1 · Latest: 2026-08-27
+Sector: Healthcare / Medical Instruments & Supplies · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch — post-spinoff restructuring inflection, HIS separation pending, Q2 beat significant but needs confirmation |
-| Rule rating | Watch (+1.0% a year expected over 3 years) |
-| Price at call | $90.93 on 2026-08-27 |
-| Bear / base / bull | $55.00 / $88.40 / $128.00 |
-| Weights | 20% / 50% / 30% |
-| Fair value | $93.60 (stated) |
-| Street mean target | $93.92 |
-| Valuation lens | Forward P/E (normalized non-GAAP), analyst consensus |
-| Since the call | -0.5% vs SPY -2.1% through 2026-11-09; mark $90.43 is base to bull |
+| Stance (as published) | Watch — unchanged, bias now negative; the three-year value is higher only because of the longer horizon, the Q2 "inflection" was partly orders pulled ahead of the ERP cutover and a one-time tariff refund, and adjusted earnings still convert poorly to cash |
+| Rule rating | Watch (+2.7% a year expected over 3 years) |
+| Price at call | $90.08 on 2026-11-10 |
+| Bear / base / bull | $59.13 / $108.16 / $129.22 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $97.66 (weighted) |
+| Street mean target | — |
+| Valuation lens | FY2029 adjusted diluted EPS x exit P/E (adjusted EPS deducts stock compensation; the 2026 IEEPA tariff refund is removed from the growth base); consolidated, HIS separation assumed value-neutral; three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +1.0% = 32th pct / base +3.5% = 47th pct / bull +5.0% = 56th pct of 5-year growth for $6B–$12B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-26 — Q4 2026 results and FY2027 guidance, expected around February 25, 2027 after the close |
 
-## Fundamentals known on 2026-08-27
+**Thesis.** Q3 2026 showed that Q2's strength was partly timing: 9.5% organic growth in Q2 included advance orders ahead of the ERP cutover, which reversed in Q3 (-630 bps, organic -2.8%), and the margin gain included $100M of IEEPA tariff refunds that stay in adjusted EPS. The FY2026 guide rose to $7.20-7.30, about $6.79 without the refund. Free cash flow of $200-300M is about 20% of adjusted net income. If transition costs end and adjusted EPS grows about 7% a year to $8.32 in FY2029 at 13x, the stock is worth about $108, but the base needs conversion near 80% by FY2029.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SOLV 2026-08-27`). Later restatements are not visible here by design.
+**Variant view.** We agree the discount is earned while cash conversion is about 20%, and that the Q2 inflection was overstated. Our base case is that conversion recovers once the ERP cutovers and 3M transition agreements end, so adjusted EPS of about $8.32 in FY2029 is cash-backed. The checkable test is FY2026 free cash flow of at least $250M and an initial FY2027 EPS guide midpoint of at least $7.30. We give these 50% and 40%, which is why the bias is negative.
+
+**Catalysts.**
+
+- Q4 2026 results and first FY2027 guidance (About February 25, 2027 (last year's release was February 26, 2026, after the close))
+- Q1 2027 results (About May 5, 2027)
+- HIS separation path and terms (Through 2027)
+- Exit of the remaining 3M transition agreements (Through 2027)
+
+**Pre-mortem** (written at decision time).
+
+- Stranded corporate costs after HIS leaves keep the remaining company's adjusted operating margin below 20%. — watch: Corporate and unallocated costs and the adjusted operating margin in the first quarters after the separation
+- The ERP cutover damages customer service and Solventum loses share in Dental and Infection Prevention. — watch: Dental and IPSS organic growth each quarter (Q3 2026: -7.4% and -5.7%)
+- Restructuring, separation and litigation costs become permanent, so free cash flow stays below $500M through 2028 and buybacks stop. — watch: Gap between GAAP and adjusted EPS and full-year free cash flow against guidance
+- Bair Hugger settlements or verdicts exceed Solventum's accrual (not separately disclosed; total accrued legal is $244M) and absorb the cash meant for buybacks. — watch: Litigation cash payments and the accrued-legal balance in each 10-Q and 10-K
+- New Section 232 and 301 tariffs replace the refunded IEEPA tariffs and erase the margin gain. — watch: Adjusted gross margin and tariff commentary each quarter
+- The Watch call is wrong on the upside: HIS sells at a software multiple and the proceeds retire 15% of the shares. — watch: HIS sale price and the announced use of proceeds
+
+**Kill criteria.**
+
+- FY2026 adjusted diluted EPS below $7.10 (the bottom of the August range) (check by 2027-03-15) — open
+- FY2026 free cash flow below $200M (the bottom of the guide) (check by 2027-03-15) — open
+- Initial FY2027 adjusted EPS guidance midpoint below $7.00 (check by 2027-03-31) — open
+
+**Probability claims.**
+
+- 85%: Solventum reports FY2026 adjusted diluted EPS of at least $7.20 (the bottom of the raised guide). (resolves by 2027-03-15)
+- 60%: Solventum reports Q4 2026 adjusted diluted EPS of at least $1.77 (FY2026 at or above the $7.25 midpoint). (resolves by 2027-03-15)
+- 50%: Solventum reports FY2026 free cash flow of at least $250M. (resolves by 2027-03-15)
+- 40%: Solventum's initial FY2027 adjusted EPS guidance midpoint is at least $7.30. (resolves by 2027-03-31)
+- 60%: By June 30, 2027 Solventum announces a definitive agreement to sell HIS or files a Form 10 for its spin-off. (resolves by 2027-07-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $71 with the business on the base path (base value $108.16 discounted at 15% a year)
+- Toward Own: FY2027 free cash flow guidance above $800M with the EPS guide midpoint above $7.50
+- Toward Avoid: FY2026 adjusted EPS below $7.10 or an FY2027 guide midpoint below $7.00
+- Toward Avoid: HIS separated with stranded costs that cut the remaining company's adjusted operating margin below 19%
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 4, calibration 4). Counter-case: The negative bias treats a sum-of-parts story as a single P/E. HIS earns about $565M a year of segment operating income at a 40% margin; at 15x it alone is worth about $8.5B, roughly $50 a share or 55% of the $15.29B market cap, leaving MedSurg, Dental and All Other at about 1.7x EV/Sales, the bear's multiple. Transition-agreement expense fell to $288M from $417M over nine months, 90% of the agreements are exited and the ERP cutovers are complete, so the $465M of nine-month separation costs is a wind-down, not a run-rate. A 30% weight on a 9x bear and a 14x bull cap make the 2.7% expected return mostly the call's own conservatism.
+
+**Response.** Accepted the corrections: debt principal is about $5,131M (net debt $4.68B, EV $19.97B), the Own price is about $71 on the base path, the Bair Hugger pre-mortem no longer treats the $244M accrued-legal balance as the Bair Hugger reserve, the refund cash is stated (about -$150M nine-month FCF without it), the buyback pace is measured from the 170.8M Q3 count, and the capital-returns pillar is weakened. On the counter-case: the note now shows the sum-of-parts arithmetic and names a sale above about 15x HIS operating income as the bull's route, but a sale of a spun-off business carries a large tax cost on a low basis and leaves stranded costs, and no terms exist, so the values add no separation premium. The bias stays negative until free cash flow shows the wind-down: FY2026 FCF of at least $250M and an FY2027 guide of at least $7.30 are the tests, and the call gives them 50% and 40%.
+
+**Data notes.** The August call applied a multiple to roughly current-year adjusted EPS; this update states three-year undiscounted values at the end of 2029, so most of the fair-value increase is the longer horizon. No Street consensus snapshot was captured for this update. Values are consolidated and assume the HIS separation is value-neutral. The initiation attributed the 2025 divestiture gain to HIS; it was the $1,518M gain on the Purification and Filtration sale. HIS is still owned. The $100M pre-tax refund benefit was booked entirely in Q2 2026; accrued legal (litigation accruals and other legal fees) rose to $244M from $43M. First review round (B; evidence 4, valuation 3, variant view 3, risk 4, calibration 3): the bull counted HIS twice (HIS revenue kept while HIS proceeds funded buybacks and lower interest), the 10x bear was generous for earnings not backed by cash, HIS was overstated as a third of segment profit, litigation costs were called cash, buybacks were rated strengthened, and claims clustered at 0.45-0.65. First draft values were $65.70 / $108.16 / $134.26 at 25/50/25, fair value $104.07, neutral bias.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit SOLV 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 8,310.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Gross profit (TTM) | 4,544.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Operating income (TTM) | 2,076.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Net income (TTM) | 1,434.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Diluted EPS (TTM) | 8.18 USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Operating cash flow (TTM) | 209.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Capex (TTM) | 327.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Free cash flow (TTM) | -118.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Stock comp (TTM) | 167.0M USD | 2026-06-30 | ttm ytd | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Cash | 403.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Long-term debt | 4,573.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Equity | 4,800.0M USD | 2026-06-30 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
-| Shares outstanding | 170.2M | 2026-07-31 | instant | [0001964738-26-000047](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000047/) |
+| Revenue (TTM) | 8,163.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Gross profit (TTM) | 4,471.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Operating income (TTM) | 453.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Net income (TTM) | 156.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Diluted EPS (TTM) | 0.89 USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Operating cash flow (TTM) | 310.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Capex (TTM) | 310.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Free cash flow (TTM) | 0 USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Stock comp (TTM) | 168.0M USD | 2026-09-30 | ttm ytd | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Cash | 451.0M USD | 2026-09-30 | instant | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Long-term debt | 4,561.0M USD | 2026-09-30 | instant | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Equity | 4,805.0M USD | 2026-09-30 | instant | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
+| Shares outstanding | 169.7M | 2026-10-31 | instant | [0001964738-26-000056](https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/) |
 
 ## Earnings calendar
 
@@ -46,6 +94,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001964738-26-000055](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-08-27 | $90.93 | Watch | Watch | $55.00 | $88.40 | $128.00 | $93.60 | -0.5% | +1.6% | base to bull | [report](https://github.com/refcell/capital/blob/7c1948a/research/SOLV.md) · [projection](https://github.com/refcell/capital/blob/470e775/projections/SOLV.md) · [model](https://github.com/refcell/capital/blob/c32f306/models/2026-08-27%20Solventum%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c32f306/models/_build_SOLV.py) |
+| 2026-11-11 | $90.08 | Watch (negative) | Watch | $59.13 | $108.16 | $129.22 | $97.66 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/SOLV/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/SOLV/2026-11-11.xlsx) |
+| 2026-08-27 | $90.93 | Watch | Watch | $55.00 | $88.40 | $128.00 | $93.60 | -0.9% | +1.6% | base to bull | [report](https://github.com/refcell/capital/blob/7c1948a/research/SOLV.md) · [projection](https://github.com/refcell/capital/blob/470e775/projections/SOLV.md) · [model](https://github.com/refcell/capital/blob/c32f306/models/2026-08-27%20Solventum%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c32f306/models/_build_SOLV.py) |
 
 Data: `data/SOLV/`. Prices: `data/prices/SOLV.csv`.

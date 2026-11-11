@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/SOLV.csv",
+      "commit": "e6b122b5e53b",
+      "sha256": "bcb92e2bed7d8bf7d4e2405f4444b8429c7cecb037764ac552b54898a8a4347e",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "e6b122b5e53b",
+      "sha256": "3f7c0bb2d5a5aa1fac20ad326e5eb520fbf007a2a6f3f44433fc131f88587c70",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "q3-2026-ex99-1-htm",
+      "kind": "file",
+      "path": "q3-2026-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000055/q32026-8kerexx991.htm",
+      "fetched_at": "2026-11-11T05:28:31+00:00",
+      "sha256": "a591a42d84a8ee83b2d461e8b92bd8dc593d89bc2b275868977908f3d84bec76",
+      "description": "Q3 2026 earnings release, 8-K EX-99.1 (accession 0001964738-26-000055), filed 2026-11-05"
+    },
+    {
+      "id": "solv-20260930-10q-htm",
+      "kind": "file",
+      "path": "solv-20260930-10q.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/solv-20260930.htm",
+      "fetched_at": "2026-11-11T05:28:31+00:00",
+      "sha256": "9bc5a2c069e601013582c6c8934f9e3ceae597c3126e52d5aa4e4c0f4a2b2266",
+      "description": "10-Q for the quarter ended 2026-09-30 (accession 0001964738-26-000056), filed 2026-11-05"
+    },
+    {
+      "id": "q2-2026-ex99-1-htm",
+      "kind": "file",
+      "path": "q2-2026-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000045/q22026-8kerexx991.htm",
+      "fetched_at": "2026-11-11T05:28:31+00:00",
+      "sha256": "e4f80a80e812ac25ba69066698e80fd2ea433ad7c5739727aed3ca517ac5d13d",
+      "description": "Q2 2026 earnings release, 8-K EX-99.1 (accession 0001964738-26-000045), filed 2026-08-05"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "ticker": "SOLV",
+  "exchange": "NYSE",
+  "company": "Solventum Corporation",
+  "sector": "Healthcare / Medical Instruments & Supplies",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "SOLV/2026-08-27",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026; FY2026 adjusted EPS guide raised to $7.20-7.30)",
+  "stance": "watch",
+  "bias": "negative",
+  "stance_text": "Watch — unchanged, bias now negative; the three-year value is higher only because of the longer horizon, the Q2 \"inflection\" was partly orders pulled ahead of the ERP cutover and a one-time tariff refund, and adjusted earnings still convert poorly to cash",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 adjusted diluted EPS x exit P/E (adjusted EPS deducts stock compensation; the 2026 IEEPA tariff refund is removed from the growth base); consolidated, HIS separation assumed value-neutral; three-year value, undiscounted",
+  "price": {
+    "value": 90.08,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 59.13,
+      "weight": 0.3,
+      "revenue_cagr": 0.01,
+      "basis": "Revenue +1.0% a year to $8,479M in FY2029; adjusted operating margin 20.0% as stranded costs stay after HIS leaves and Dental stays weak; interest and other $300M; 20% tax; 170M diluted shares: adjusted EPS $6.57 x 9x, a discount because the earnings stay unbacked by cash (1.74x EV/Sales)"
+    },
+    "base": {
+      "value": 108.16,
+      "weight": 0.5,
+      "revenue_cagr": 0.035,
+      "basis": "Revenue +3.5% a year to $9,125M; adjusted operating margin 22.2% (about one point above 2026 without the refund) as transition costs end; interest and other $300M; 20% tax; 166M diluted shares (about 1% a year bought back): adjusted EPS $8.32 x 13x"
+    },
+    "bull": {
+      "value": 129.22,
+      "weight": 0.2,
+      "revenue_cagr": 0.05,
+      "basis": "Revenue +5.0% a year to $9,527M; adjusted operating margin 23.0%; interest and other $300M; 20% tax; 164M diluted shares bought back from free cash flow (HIS proceeds not counted, since revenue still includes HIS): adjusted EPS $9.23 x 14x (2.72x EV/Sales)"
+    }
+  },
+  "fair_value": {
+    "value": 97.66,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on FY2029 adjusted EPS, undiscounted",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Q3 2026 showed that Q2's strength was partly timing: 9.5% organic growth in Q2 included advance orders ahead of the ERP cutover, which reversed in Q3 (-630 bps, organic -2.8%), and the margin gain included $100M of IEEPA tariff refunds that stay in adjusted EPS. The FY2026 guide rose to $7.20-7.30, about $6.79 without the refund. Free cash flow of $200-300M is about 20% of adjusted net income. If transition costs end and adjusted EPS grows about 7% a year to $8.32 in FY2029 at 13x, the stock is worth about $108, but the base needs conversion near 80% by FY2029.",
+  "consensus_view": "No Street snapshot was captured. At $90.08 the stock trades at 12.4x the FY2026 adjusted EPS guide midpoint (13.3x without the refund) and 2.4x EV/Sales, near its own median of 2.3x and below the 3.1x peer median (BAX, BDX, TFX). The market looks to be pricing slow growth and doubting how much adjusted EPS converts to cash.",
+  "variant_view": "We agree the discount is earned while cash conversion is about 20%, and that the Q2 inflection was overstated. Our base case is that conversion recovers once the ERP cutovers and 3M transition agreements end, so adjusted EPS of about $8.32 in FY2029 is cash-backed. The checkable test is FY2026 free cash flow of at least $250M and an initial FY2027 EPS guide midpoint of at least $7.30. We give these 50% and 40%, which is why the bias is negative.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results and first FY2027 guidance",
+      "timing": "About February 25, 2027 (last year's release was February 26, 2026, after the close)",
+      "date": "2027-02-25",
+      "kind": "hard",
+      "what_it_proves": "Whether FY2026 lands in the $7.20-7.30 guide and FCF in $200-300M, and how much EPS growth survives the end of the tariff refund",
+      "value_impact": "An FY2027 EPS guide midpoint below $7.00 fires a kill criterion; above $7.50 moves weight to the bull"
+    },
+    {
+      "event": "Q1 2027 results",
+      "timing": "About May 5, 2027",
+      "date": "2027-05-05",
+      "kind": "hard",
+      "what_it_proves": "The first quarter fully on the new ERP and without the refund; Dental and IPSS organic growth",
+      "value_impact": "Organic growth below 1% moves weight to the bear"
+    },
+    {
+      "event": "HIS separation path and terms",
+      "timing": "Through 2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Spin-off or sale, the price, the tax cost and the use of proceeds, and the stranded costs left behind",
+      "value_impact": "A sale above about 15x HIS operating income with proceeds to buybacks moves weight to the bull; large stranded costs move weight to the bear"
+    },
+    {
+      "event": "Exit of the remaining 3M transition agreements",
+      "timing": "Through 2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether one-time separation cash costs end and free cash flow converges toward adjusted net income",
+      "value_impact": "FY2027 free cash flow guidance above $800M supports the base case"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Stranded corporate costs after HIS leaves keep the remaining company's adjusted operating margin below 20%.",
+      "signal": "Corporate and unallocated costs and the adjusted operating margin in the first quarters after the separation"
+    },
+    {
+      "reason": "The ERP cutover damages customer service and Solventum loses share in Dental and Infection Prevention.",
+      "signal": "Dental and IPSS organic growth each quarter (Q3 2026: -7.4% and -5.7%)"
+    },
+    {
+      "reason": "Restructuring, separation and litigation costs become permanent, so free cash flow stays below $500M through 2028 and buybacks stop.",
+      "signal": "Gap between GAAP and adjusted EPS and full-year free cash flow against guidance"
+    },
+    {
+      "reason": "Bair Hugger settlements or verdicts exceed Solventum's accrual (not separately disclosed; total accrued legal is $244M) and absorb the cash meant for buybacks.",
+      "signal": "Litigation cash payments and the accrued-legal balance in each 10-Q and 10-K"
+    },
+    {
+      "reason": "New Section 232 and 301 tariffs replace the refunded IEEPA tariffs and erase the margin gain.",
+      "signal": "Adjusted gross margin and tariff commentary each quarter"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: HIS sells at a software multiple and the proceeds retire 15% of the shares.",
+      "signal": "HIS sale price and the announced use of proceeds"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2026 adjusted diluted EPS below $7.10 (the bottom of the August range)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2026 free cash flow below $200M (the bottom of the guide)",
+      "check_by": "2027-03-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Initial FY2027 adjusted EPS guidance midpoint below $7.00",
+      "check_by": "2027-03-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-adj-eps-7-20",
+      "claim": "Solventum reports FY2026 adjusted diluted EPS of at least $7.20 (the bottom of the raised guide).",
+      "probability": 0.85,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q4-2026-adj-eps-1-77",
+      "claim": "Solventum reports Q4 2026 adjusted diluted EPS of at least $1.77 (FY2026 at or above the $7.25 midpoint).",
+      "probability": 0.6,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-fcf-250m",
+      "claim": "Solventum reports FY2026 free cash flow of at least $250M.",
+      "probability": 0.5,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy27-eps-guide-7-30",
+      "claim": "Solventum's initial FY2027 adjusted EPS guidance midpoint is at least $7.30.",
+      "probability": 0.4,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "his-definitive-by-2027h1",
+      "claim": "By June 30, 2027 Solventum announces a definitive agreement to sell HIS or files a Form 10 for its spin-off.",
+      "probability": 0.6,
+      "resolve_by": "2027-07-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $71 with the business on the base path (base value $108.16 discounted at 15% a year)",
+    "Toward Own: FY2027 free cash flow guidance above $800M with the EPS guide midpoint above $7.50",
+    "Toward Avoid: FY2026 adjusted EPS below $7.10 or an FY2027 guide midpoint below $7.00",
+    "Toward Avoid: HIS separated with stranded costs that cut the remaining company's adjusted operating margin below 19%"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $6B–$12B starting revenue, 5-year revenue CAGR, 2009–2025 (scenario rates are three-year CAGRs from estimated FY2026 revenue of $8,230M)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 47
+  },
+  "update": {
+    "event": "Q3 2026 results (8-K, 2026-11-05) with FY2026 adjusted EPS guidance raised to $7.20-7.30",
+    "event_date": "2026-11-05",
+    "expected": "August call: Watch, base $88.40 ($6.80 adjusted EPS x 13x), fair value $93.60; Q3 named as the test of whether Q2's $2.55 adjusted EPS was an inflection; FY2026 guide $7.10-7.20",
+    "actual": "Q3 sales $1,949M (-7.0%, organic -2.8% after a 630 bps reversal of Q2 ERP advance orders); adjusted EPS $1.45 (-3.6%); GAAP EPS $(0.07); FCF $97M helped by refund cash ($118M recovered by September 30); FY2026 guide raised to $7.20-7.30 including $100M of IEEPA tariff refunds; FCF guide $200-300M affirmed; 5.3M shares bought back for $403M in nine months; HIS separation pathways still under evaluation",
+    "thesis_pillars": [
+      {
+        "pillar": "Q2 marked a real inflection in earnings",
+        "status": "weakened",
+        "note": "Q2 included ERP advance orders that reversed in Q3 and the tariff refund; Q3 adjusted EPS -3.6%"
+      },
+      {
+        "pillar": "Margins recover as transition costs fade",
+        "status": "weakened",
+        "note": "Nine-month adjusted operating margin 21.2% without the refund, about +50 bps on a base that still held Purification and Filtration; Q3 -70 bps"
+      },
+      {
+        "pillar": "HIS separation unlocks value, with proceeds to debt or buybacks",
+        "status": "intact",
+        "note": "Pathways still under evaluation; no terms disclosed"
+      },
+      {
+        "pillar": "Capital returns support per-share value",
+        "status": "weakened",
+        "note": "$403M of buybacks in nine months but only $48M in Q3, paid from cash while FCF was negative; $597M of authorization left"
+      }
+    ],
+    "action": "raise"
+  },
+  "next_review": "2027-02-26",
+  "next_review_trigger": "Q4 2026 results and FY2027 guidance, expected around February 25, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/SOLV/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/SOLV/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "SOLV closed at $90.08 on November 10, 2026",
+    "scenarios.base.value": "| Base | $88.40 | $108.16 |",
+    "fair_value.value": "| Fair value | $93.60 | $97.66 |"
+  },
+  "notes": [
+    "The August call applied a multiple to roughly current-year adjusted EPS; this update states three-year undiscounted values at the end of 2029, so most of the fair-value increase is the longer horizon.",
+    "No Street consensus snapshot was captured for this update.",
+    "Values are consolidated and assume the HIS separation is value-neutral.",
+    "The initiation attributed the 2025 divestiture gain to HIS; it was the $1,518M gain on the Purification and Filtration sale. HIS is still owned.",
+    "The $100M pre-tax refund benefit was booked entirely in Q2 2026; accrued legal (litigation accruals and other legal fees) rose to $244M from $43M.",
+    "First review round (B; evidence 4, valuation 3, variant view 3, risk 4, calibration 3): the bull counted HIS twice (HIS revenue kept while HIS proceeds funded buybacks and lower interest), the 10x bear was generous for earnings not backed by cash, HIS was overstated as a third of segment profit, litigation costs were called cash, buybacks were rated strengthened, and claims clustered at 0.45-0.65. First draft values were $65.70 / $108.16 / $134.26 at 25/50/25, fair value $104.07, neutral bias."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "variant_view: the disagreement is still management's own story, that cash conversion recovers once the ERP cutovers and 3M transition agreements end; the note gives its test 50% and 40% but names nothing it knows or measures differently from the market."
+    ],
+    "grade": "B",
+    "counter_case": "The negative bias treats a sum-of-parts story as a single P/E. HIS earns about $565M a year of segment operating income at a 40% margin; at 15x it alone is worth about $8.5B, roughly $50 a share or 55% of the $15.29B market cap, leaving MedSurg, Dental and All Other at about 1.7x EV/Sales, the bear's multiple. Transition-agreement expense fell to $288M from $417M over nine months, 90% of the agreements are exited and the ERP cutovers are complete, so the $465M of nine-month separation costs is a wind-down, not a run-rate. A 30% weight on a 9x bear and a 14x bull cap make the 2.7% expected return mostly the call's own conservatism.",
+    "response": "Accepted the corrections: debt principal is about $5,131M (net debt $4.68B, EV $19.97B), the Own price is about $71 on the base path, the Bair Hugger pre-mortem no longer treats the $244M accrued-legal balance as the Bair Hugger reserve, the refund cash is stated (about -$150M nine-month FCF without it), the buyback pace is measured from the 170.8M Q3 count, and the capital-returns pillar is weakened. On the counter-case: the note now shows the sum-of-parts arithmetic and names a sale above about 15x HIS operating income as the bull's route, but a sale of a spun-off business carries a large tax cost on a low basis and leaves stranded costs, and no terms exist, so the values add no separation premium. The bias stays negative until free cash flow shows the wind-down: FY2026 FCF of at least $250M and an FY2027 guide of at least $7.30 are the tests, and the call gives them 50% and 40%."
+  }
+}

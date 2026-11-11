@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 134 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 135 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -111,7 +111,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [SKT](SKT.md) | Tanger Inc. | Real estate | active | 2026-07-28 | 1 | Watch | Watch | $42.11 | $51.22 | +6.7% | -4.1% | -5.5% |
 | [SMR](SMR.md) | NuScale Power Corporation | Industrials — Clean Energy | active | 2026-07-14 | 1 | Watch | Avoid | $8.60 | $2.89 | -30.5% | -36.7% | -37.1% |
 | [SOFI](SOFI.md) | SoFi Technologies, Inc. | Digital banking | active | 2026-05-24 | 2 | Watch | Own | $15.62 | $30.50 | +25.0% | +7.2% | +5.8% |
-| [SOLV](SOLV.md) | Solventum Corporation | Healthcare | active | 2026-08-27 | 1 | Watch | Watch | $90.93 | $93.60 | +1.0% | -0.5% | +1.6% |
+| [SOLV](SOLV.md) | Solventum Corporation | Healthcare | active | 2026-11-11 | 2 | Watch (negative) | Watch | $90.08 | $97.66 | +2.7% | — | — |
 | [SPCX](SPCX.md) | Space Exploration Technologies Corp. | Space infrastructure | active | 2026-06-13 | 1 | Watch | — | $160.95 | — | — | -11.7% | -13.7% |
 | [SPXC](SPXC.md) | SPX Technologies, Inc. | Industrials | active | 2026-09-18 | 1 | Watch (positive) | Watch | $179.70 | $238.52 | +9.9% | -16.5% | -15.0% |
 | [SSB](SSB.md) | SouthState Bank Corporation | Financial Services | active | 2026-08-10 | 1 | Watch | Watch | $108.56 | $140.00 | +8.8% | -2.0% | +0.8% |

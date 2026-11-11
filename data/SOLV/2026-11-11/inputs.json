@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "ticker": "SOLV",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 90.08,
+      "as_of": "2026-11-10",
+      "source": "data/prices/SOLV.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 8163.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_gross_profit_m": {
+      "value": 4471.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_operating_income_m": {
+      "value": 453.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_net_income_m": {
+      "value": 156.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_eps": {
+      "value": 0.89,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_ocf_m": {
+      "value": 310.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "ttm_capex_m": {
+      "value": 310.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "cash_m": {
+      "value": 451.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "total_debt_m": {
+      "value": 5131.0,
+      "as_of": "2026-09-30",
+      "source": "SOLV 10-Q for 2026-09-30, Note 9 (sources/solv-20260930-10q.htm.gz)",
+      "accession": "0001964738-26-000056",
+      "note": "Principal: $5,083M in the maturity table (term loan and senior notes) plus $48M of other borrowings due 2027 that the table omits; carrying total $5,068M ($507M current). Excludes $206M of finance leases."
+    },
+    "shares_outstanding_m": {
+      "value": 169.7393,
+      "as_of": "2026-10-31",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-05",
+      "accession": "0001964738-26-000056"
+    },
+    "diluted_shares_m": {
+      "value": 170.8,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-05",
+      "accession": "0001964738-26-000056",
+      "note": "Q3 was a GAAP loss, so diluted equals basic (170.8M); the nine-month diluted count was 173.6M against 172.6M basic."
+    },
+    "ttm_fcf_m": {
+      "value": 0.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001964738-26-000056",
+      "note": "TTM operating cash flow and capex are both $310M (215 + 369 - 274 and 247 + 379 - 316); FY2026 FCF guidance is $200-300M."
+    },
+    "market_cap_m": {
+      "value": 15290.12,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 4680.0,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m"
+    },
+    "enterprise_value_m": {
+      "value": 19970.12,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m"
+    },
+    "guide_eps_low": {
+      "value": 7.2,
+      "as_of": "2026-11-05",
+      "source": "Q3 2026 earnings release, FY2026 adjusted diluted EPS guidance (sources/q3-2026-ex99-1.htm.gz)",
+      "accession": "0001964738-26-000055"
+    },
+    "guide_eps_high": {
+      "value": 7.3,
+      "as_of": "2026-11-05",
+      "source": "Q3 2026 earnings release, FY2026 adjusted diluted EPS guidance (sources/q3-2026-ex99-1.htm.gz)",
+      "accession": "0001964738-26-000055"
+    }
+  },
+  "notes": [
+    "FY2026 guidance (2026-11-05): organic sales growth toward the high end of +2.5% to +3.0%; adjusted EPS $7.20-7.30 (from $7.10-7.20); free cash flow $200-300M.",
+    "Adjusted EPS includes IEEPA tariff refunds of $100M received in 2026 (recorded as lower cost of product), about $0.46 a share after tax at 20%.",
+    "Q3 2026: sales $1,949M (-7.0% reported, -2.8% organic after a 630 bps reversal of Q2 advance orders ahead of the ERP cutover); adjusted EPS $1.45; GAAP EPS $(0.07); FCF $97M.",
+    "Buybacks: 5.3M shares for $403M in the first nine months of 2026 under a $1B program approved November 2025.",
+    "Finance leases of $206M appeared on the balance sheet in 2026 and are not in total_debt_m.",
+    "HIS separation announced 2026-08-05; the 10-Q says the company is evaluating separation pathways. HIS nine-month sales $1,052M, segment operating income $424M (40.3%)."
+  ]
+}
