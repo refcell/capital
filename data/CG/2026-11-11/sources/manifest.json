@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/CG.csv",
+      "commit": "d6241c1b362b",
+      "sha256": "1ef04ef46c7f170fc84197a607196a6e6c65c60d73050a5d5cb0a677e454b62b",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "d6241c1b362b",
+      "sha256": "fa96d9158111a93a2bfb5a7b5e2e686e8a60a5b3ea69347ce89c97b3965f2a73",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "q3-2026-ex99-1-htm",
+      "kind": "file",
+      "path": "q3-2026-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000049/cg202609308-kexx991.htm",
+      "fetched_at": "2026-11-11T06:04:05+00:00",
+      "sha256": "5327678f51bee7f7025c1220f00464a26024761905e2e04e9c69e5e2d2d3f55b",
+      "description": "Q3 2026 earnings release, 8-K EX-99.1 (accession 0001527166-26-000049), filed 2026-11-04"
+    },
+    {
+      "id": "q3-2026-ex99-2-htm",
+      "kind": "file",
+      "path": "q3-2026-ex99-2.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000049/cg202609308-kexx992edgar.htm",
+      "fetched_at": "2026-11-11T06:04:05+00:00",
+      "sha256": "f5bf0ff626514e209ba9c534e1800846412590f2f877a595f01fb0fe1d0fe279",
+      "description": "Q3 2026 earnings presentation with segment results, DE reconciliation and balance sheet highlights, 8-K EX-99.2 (accession 0001527166-26-000049), filed 2026-11-04"
+    }
+  ]
+}

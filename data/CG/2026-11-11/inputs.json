@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "ticker": "CG",
+  "date": "2026-11-11",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 41.7,
+      "as_of": "2026-11-10",
+      "source": "data/prices/CG.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 3612.7,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053"
+    },
+    "ttm_net_income_m": {
+      "value": 355.3,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053"
+    },
+    "ttm_eps": {
+      "value": 0.95,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053"
+    },
+    "ttm_ocf_m": {
+      "value": -2076.9,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053",
+      "note": "GAAP cash flow is dominated by consolidated CLO purchases funded by the CLOs' own borrowings; not an economic measure for Carlyle."
+    },
+    "ttm_capex_m": {
+      "value": 129.5,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053",
+      "note": "GAAP cash flow is dominated by consolidated CLO purchases funded by the CLOs' own borrowings; not an economic measure for Carlyle."
+    },
+    "cash_m": {
+      "value": 1583.5,
+      "as_of": "2026-09-30",
+      "source": "CG Q3 2026 earnings presentation, 8-K EX-99.2 (sources/q3-2026-ex99-2.htm.gz), Key Balance Sheet Items",
+      "accession": "0001527166-26-000049",
+      "note": "Excludes $1,021.5M of cash of consolidated funds."
+    },
+    "total_debt_m": {
+      "value": 2649.0,
+      "as_of": "2026-09-30",
+      "source": "CG Q3 2026 earnings presentation, 8-K EX-99.2 (sources/q3-2026-ex99-2.htm.gz), Key Balance Sheet Items",
+      "accession": "0001527166-26-000049",
+      "note": "Corporate debt obligations; excludes about $368M of loans financing CLO investments and $437M of lease liabilities, and all debt of consolidated funds. GAAP consolidated-operating-entity debt is $3,016.7M."
+    },
+    "shares_outstanding_m": {
+      "value": 353.9147,
+      "as_of": "2026-11-03",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-06",
+      "accession": "0001527166-26-000053"
+    },
+    "diluted_shares_m": {
+      "value": 354.292,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-06",
+      "accession": "0001527166-26-000053"
+    },
+    "ttm_fcf_m": {
+      "value": -2206.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-06",
+      "accession": "0001527166-26-000053",
+      "note": "GAAP cash flow is dominated by consolidated CLO purchases funded by the CLOs' own borrowings; not an economic measure for Carlyle."
+    },
+    "market_cap_m": {
+      "value": 14758.24,
+      "as_of": "2026-11-10",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 1065.5,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m (corporate)"
+    },
+    "enterprise_value_m": {
+      "value": 15823.74,
+      "as_of": "2026-11-10",
+      "source": "market_cap_m + net_debt_m (corporate)"
+    }
+  },
+  "notes": [
+    "Segment TTM (Q4 2025-Q3 2026): fee-related earnings $1,240.7M; realized net performance revenues $358.0M; realized principal investment income $153.7M; net interest $84.2M; pre-tax DE $1,668.2M; DE taxes $204.5M (12.3%); after-tax DE per share $4.09.",
+    "Q3 2026: FRE $292.6M (Q3 2025 $311.9M); fund management fees $546.9M ($573.9M); pre-tax DE $432.5M; after-tax DE $1.12 a share at an 8.2% DE tax rate (Q2: 19.0%).",
+    "Corporate balance sheet at September 30, 2026: net accrued performance revenues $2,135.8M (December 2025: $2,859M); investments attributable to shareholders $3,348.0M; in-carry ratio 67% (79% a year earlier).",
+    "AUM $479B; fee-earning AUM $330B (-1% YoY); pending fee-earning AUM $28B; LTM inflows $49.8B (-15%).",
+    "Q3 buybacks and withholding: 4.5M shares for $210.4M; $1.4B of the $2.0B authorization left; dividend $0.35 a quarter.",
+    "Carlyle expects to realize a cumulative $222M unrealized loss on a consolidated infrastructure fund investment in Q4 2026."
+  ]
+}

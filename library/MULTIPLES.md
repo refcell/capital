@@ -26,7 +26,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [CCL](CCL.md) | Water Transportation | 13.4x | 11.7–17.6x | 2.3x | 2.0–2.6x | 14.7x | 11.8–14.9x | SIC 44xx, 2 names: 3.2x, 12.1x |
 | [CELH](CELH.md) | Bottled & Canned Soft Drinks & Carbonated Waters | 26.4x | 45.2–500.4x | 2.6x | 4.8–13.9x | 19.9x | 47.8–501.6x | SIC 20xx, 3 names: 0.9x, 17.7x |
 | [CENTA](CENTA.md) | Wholesale-Miscellaneous Nondurable Goods | 15.3x | 14.4–18.7x | 0.9x | 0.8–1.0x | 11.0x | 11.4–14.2x | — |
-| [CG](CG.md) | Investment Advice | 42.2x | 9.0–31.6x | 4.3x | 1.2–4.2x | — | — | SIC 62xx, 5 names: 8.4x, 23.9x |
+| [CG](CG.md) | Investment Advice | 41.6x | 9.0–31.6x | 4.3x | 1.2–4.2x | — | — | SIC 62xx, 5 names: 8.4x, 23.9x |
 | [CHRD](CHRD.md) | Crude Petroleum & Natural Gas | 8.4x | 3.9–8.6x | 1.2x | 1.5–1.9x | 5.2x | 4.7–16.9x | — |
 | [CLBT](CLBT.md) | Services-Prepackaged Software | 40.5x | 8.2–37.7x | 6.1x | 4.1–9.2x | 43.5x | 59.1–79.4x | SIC 7372, 10 names: 5.1x, 61.2x |
 | [CNC](CNC.md) | Hospital & Medical Service Plans | 23.8x | 16.1–26.3x | 0.1x | 0.2–0.4x | 26.4x | 11.3–21.4x | SIC 63xx, 2 names: 0.9x, 35.6x |

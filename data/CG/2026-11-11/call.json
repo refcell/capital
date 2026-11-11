@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "ticker": "CG",
+  "exchange": "NASDAQ",
+  "company": "The Carlyle Group Inc.",
+  "sector": "Financials / alternative asset management (private equity, private credit, secondaries and fund solutions)",
+  "date": "2026-11-11",
+  "origin": "run",
+  "prior_call": "CG/2026-10-24",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026)",
+  "stance": "watch",
+  "bias": "negative",
+  "stance_text": "Watch — unchanged, bias now negative; DE per share rose on a low tax rate, but fee-related earnings, management fees and the carry pool all fell, and four of the bearish signals on the initiation's checklist fired",
+  "rating_override_reason": null,
+  "primary_lens": "pe",
+  "lens_text": "FY2029 after-tax distributable earnings (DE) per share x exit P/E (FRE plus realized carry and principal income less net interest, taxed at 15%; equity compensation counted through the share count); three-year value, undiscounted, before dividends",
+  "price": {
+    "value": 41.7,
+    "currency": "USD",
+    "date": "2026-11-10"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 29.25,
+      "weight": 0.35,
+      "basis": "FRE -2% a year from the TTM $1,240.7M to $1,168M as step-downs outrun new funds; carry and principal income $250M; net interest $100M; pre-tax DE $1,318M x 0.85 on 345M shares = $3.25 x 9.0x"
+    },
+    "base": {
+      "value": 52.58,
+      "weight": 0.5,
+      "basis": "FRE +8% a year from the TTM $1,240.7M to $1,563M as $28B pending fee-earning AUM and the next U.S. buyout fund activate; carry and principal income $450M (below the trailing $512M as the accrued pool shrank 25%); net interest $100M; pre-tax DE $1,913M x 0.85 on 340M shares = $4.78 x 11.0x"
+    },
+    "bull": {
+      "value": 78.78,
+      "weight": 0.15,
+      "basis": "FRE +12% a year from the TTM $1,240.7M to $1,743M; carry pool rebuilds, carry and principal income $700M; net interest $90M; pre-tax DE $2,353M x 0.85 on 330M shares = $6.06 x 13.0x"
+    }
+  },
+  "fair_value": {
+    "value": 48.34,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value on FY2029 after-tax DE per share, undiscounted, before dividends",
+  "street": {
+    "target_mean": null,
+    "target_median": null,
+    "target_low": null,
+    "target_high": null,
+    "analysts": null,
+    "rating_text": null,
+    "as_of": null,
+    "source": null
+  },
+  "deviation_from_street": null,
+  "thesis": "Carlyle trades at 10.2x trailing after-tax DE of $4.09 a share, and the fee business is valued at about 10x after-tax FRE once carry, investments and net debt are separated. Q3 2026 DE of $1.12 beat the October call's test, but it came at an 8.2% tax rate (about $0.99 at Q2's 19%), while management fees fell 4.7%, FRE fell 6.2% and net accrued carry fell 25% since December, firing four of the bearish signals on the initiation's checklist. The base case needs FRE to grow about 8% a year to FY2029 as pending fee-earning AUM (+48% YoY) and new flagships activate; it has been flat for nine months.",
+  "consensus_view": "No current Street snapshot was captured; the initiation recorded a $52.21 mean one-year target. At $41.70 the market pays about 10x after-tax FRE for the fee business, a traditional-manager multiple, as if fee growth does not return.",
+  "variant_view": "We agree the discount is earned while fees shrink, and Q3 strengthened that view, so the bias is negative. Our base differs from the price only in expecting fee growth to resume in 2027-2028 as the $28B of pending fee-earning AUM (up 48% in a year) and the next U.S. buyout fund activate. The checkable test is Q2 2027 fund management fees above Q2 2026's $560.1M.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results",
+      "timing": "About February 5, 2027 (last year's release was February 5, 2026, after the close)",
+      "date": "2027-02-05",
+      "kind": "hard",
+      "what_it_proves": "FY2026 FRE and DE, the size of the $222M realized infrastructure loss in DE, and any 2027 outlook for fees and margin",
+      "value_impact": "Shows whether FY2026 FRE reaches the $1,250M the base needs to start from; the $222M principal loss, already marked at fair value, may cut FY2026 DE but not the FY2029 run-rate"
+    },
+    {
+      "event": "Next U.S. buyout fund first close and fee activation",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the flagship cycle restarts management-fee growth",
+      "value_impact": "A first close above the prior fund's pace moves weight to the base and bull"
+    },
+    {
+      "event": "Q2 2027 results",
+      "timing": "About August 2027",
+      "date": "2027-08-05",
+      "kind": "hard",
+      "what_it_proves": "Whether management fees grow year on year in 2027",
+      "value_impact": "A second straight year of falling management fees moves weight to the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "LPs consolidate commitments with the largest managers, the next U.S. buyout fund raises less than its predecessor, and management fees keep falling.",
+      "signal": "Fund management fees year on year each quarter; fundraising announcements for the next U.S. buyout fund"
+    },
+    {
+      "reason": "The seventh U.S. buyout fund and secondaries keep marking down, and the in-carry ratio falls below 60%.",
+      "signal": "Carry fund appreciation and the in-carry ratio each quarter"
+    },
+    {
+      "reason": "A private-credit loss cycle hits Global Credit's fee-related performance revenues and insurance solutions.",
+      "signal": "Global Credit fee-related performance revenues and carry fund appreciation"
+    },
+    {
+      "reason": "Transaction fees stay below $40M a quarter as financing activity slows, removing a source of FRE growth.",
+      "signal": "Transaction and portfolio advisory fees below $40M for four straight quarters (TTM average $66M)"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: the fundraising cycle restarts quickly and the market re-rates Carlyle to 13x DE.",
+      "signal": "Pending fee-earning AUM above $35B and management fees growing"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2027 fee-related earnings below FY2025's $1,236.2M (the bear path)",
+      "check_by": "2028-02-28",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2027 segment fund management fees below FY2026's",
+      "check_by": "2028-02-28",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Carry fund appreciation negative in two consecutive quarters, or an in-carry ratio below 60%, at any quarter through 2027",
+      "check_by": "2028-02-28",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-fre-1250",
+      "claim": "Carlyle reports FY2026 fee-related earnings of at least $1,250M (Q4 at least $299.7M).",
+      "probability": 0.45,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "fy26-de-3-90",
+      "claim": "Carlyle reports FY2026 after-tax DE per share of at least $3.90.",
+      "probability": 0.3,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "q2-27-mgmt-fees-up",
+      "claim": "Carlyle's Q2 2027 segment fund management fees exceed Q2 2026's $560.1M.",
+      "probability": 0.45,
+      "resolve_by": "2027-09-15"
+    },
+    {
+      "id": "accrued-carry-above-2b-q4",
+      "claim": "Net accrued performance revenues are at least $2.0B at December 31, 2026.",
+      "probability": 0.55,
+      "resolve_by": "2027-03-15"
+    },
+    {
+      "id": "dividend-kept-0-35",
+      "claim": "Carlyle keeps its quarterly dividend at $0.35 or more through the Q2 2027 declaration.",
+      "probability": 0.95,
+      "resolve_by": "2027-09-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $32 at these weights",
+    "Toward Own: management fees growing year on year with pending fee-earning AUM converting, which would move weight to the base and bull",
+    "Toward Avoid: FY2027 FRE below FY2025's $1,236.2M, or carry fund appreciation negative in two straight quarters",
+    "Toward Avoid: FY2027 management fees below FY2026's"
+  ],
+  "base_rate": null,
+  "update": {
+    "event": "Q3 2026 results (8-K, 2026-11-04)",
+    "event_date": "2026-11-04",
+    "expected": "October call: Watch with a positive bias, base $62.10 (FY2031 DE $5.40 x 11.5x), fair value $58.97; Q3 DE near $0.90-1.00 would put FY2026 above $3.54; the initiation's bearish checklist signals were FRE below $300M, transaction fees below $40M, net accrued carry below $2.2B and management fees declining again",
+    "actual": "After-tax DE $1.12 a share (8.2% DE tax rate; pre-tax DE $432.5M, -8% from Q2); FRE $292.6M (-6.2% YoY); fund management fees $546.9M (-4.7%); fee-earning AUM $330B (-1%); LTM inflows $49.8B (-15%); net accrued carry $2.14B (-12% QoQ, -25% since December); in-carry ratio 67%; buybacks and withholding $210.4M",
+    "thesis_pillars": [
+      {
+        "pillar": "Fee base grows as flagships activate",
+        "status": "weakened",
+        "note": "Management fees -4.7% YoY (-1.8% without catch-up fees), fee-earning AUM -1%, LTM inflows -15%; pending fee-earning AUM $28B, flat QoQ, +48% YoY"
+      },
+      {
+        "pillar": "DE is durable, with FRE as the floor",
+        "status": "intact",
+        "note": "TTM after-tax DE $4.09; FRE covers about $2.98 after a 15% tax; Q3 beat helped by an 8.2% tax rate"
+      },
+      {
+        "pillar": "The carry pool converts to cash",
+        "status": "weakened",
+        "note": "Net accrued carry $2.14B, -25% since December; in-carry ratio 67% from 79%"
+      },
+      {
+        "pillar": "Capital return supports per-share value",
+        "status": "intact",
+        "note": "$210M of buybacks and withholding; dividend-eligible shares -2% YTD"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-06",
+  "next_review_trigger": "Q4 2026 results, expected around February 5, 2027 after the close",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/CG/2026-11-11.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/CG/2026-11-11.xlsx",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "CG closed at $41.70 on November 10, 2026",
+    "scenarios.base.value": "| Base | $62.10 | $52.58 |",
+    "fair_value.value": "| Fair value | $58.97 | $48.34 |"
+  },
+  "notes": [
+    "The October call used five-year FY2031 values; this update states three-year end-2029 values, undiscounted.",
+    "DE is taxed at 15% (trailing 12.3%); the initiation used 21%, at which the fair value would be $44.91.",
+    "No current Street consensus snapshot was captured for this update.",
+    "The rating rule counts price only; the $1.40 annual dividend adds about 3.4% a year.",
+    "capital.multiples is not used for the exit multiple: it works on GAAP earnings and only STEP among its peers is a private-markets manager.",
+    "First review round (B; evidence 4, valuation 3, variant view 3, risk 3, calibration 4): the base DE sat above the October path because of an undisclosed tax change and carry above the trailing level, the initiation's four bearish checklist signals that fired were not mentioned, the FRE kill criterion was nearly unfireable, the FRE decline was misattributed to transaction fees, and pending fee-earning AUM's +48% YoY was left out. First draft values were $32.13 / $58.19 / $82.68, fair value $52.74, neutral bias.",
+    "Second review round (B; evidence 4, valuation 4, variant view 3, risk 3, calibration 3): kill criteria fired too easily (carry falling from realizations alone, a Q4 FRE miss that barely moves value), the checklist was overstated as four signals, the scenarios started above TTM FRE, the sum of the parts was not reconciled, and the FRE bridge missed two items. Second-draft values were $29.34 / $52.91 / $79.30, fair value $48.62."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-11",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 3,
+      "risk": 3,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "variant_view: the disagreement is management's fundraising story, and the call puts only 45% on its own test (Q2 2027 management fees above $560.1M).",
+      "risk: the kill criteria fired too easily and were not tied to value: carry could fall below $2.0B from realizations alone, and a Q4 FRE miss below FY2025 barely moves the fair value.",
+      "calibration: the claims implied at least one kill criterion was more likely than not to fire by February while 65% of the weight sat on scenarios needing 8-12% FRE growth."
+    ],
+    "grade": "B",
+    "counter_case": "The revision overcorrects. Management fees fell only 1.8% without catch-up fees, pending fee-earning AUM is up 48% to $28B, nine-month DE per share is $3.08 against $3.01, and LTM realized proceeds rose 23%. At 15% tax the fee business trades at 10.1x after-tax FRE and the 15x sum of the parts is $56.28, 35% above the price. The base alone returns about 8% a year on price and about 11.7% with the dividend. A carry kill criterion that fires when Carlyle realizes carry, while buybacks at about 10x DE shrink the share count, points the wrong way; a negative bias rests on one quarter.",
+    "response": "Accepted the corrections: the checklist is described as four of about eleven bearish signals firing; the kill criteria now sit on the bear path (FY2027 FRE below FY2025's $1,236.2M, FY2027 management fees below FY2026's, and negative carry fund appreciation for two quarters or an in-carry ratio below 60%), so realizations alone do not fire them; scenarios start from TTM FRE of $1,240.7M; the sum of the parts is shown at 12x ($47.34) and 15x ($56.28) and the fair value sits near 12x; the FRE bridge includes D&A and fee-related performance revenues; the $222M is described as a loss already at fair value; the transaction-fee pre-mortem signal is four quarters below $40M. On the counter-case: the bias stays negative because the evidence that would earn 15x, management fees growing, has not appeared in nine months and the test that would show it carries less than even odds; pending fee-earning AUM up 48% is why the stance is Watch rather than lower, and the base case and dividend are shown."
+  }
+}

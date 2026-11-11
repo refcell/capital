@@ -2,38 +2,83 @@
 
 # The Carlyle Group Inc. (NASDAQ: CG)
 
-Sector: Financials / alternative asset management (private equity, private credit, secondaries and fund solutions) · Calls: 1 · Latest: 2026-10-24
+Sector: Financials / alternative asset management (private equity, private credit, secondaries and fund solutions) · Calls: 2 · Latest: 2026-11-11
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / Positive |
-| Rule rating | Own (+15.2% a year expected over 3 years) |
-| Price at call | $38.59 on 2026-10-23 |
-| Bear / base / bull | $32.40 / $62.10 / $91.00 |
-| Weights | 30% / 50% / 20% |
-| Fair value | $58.97 (stated) |
+| Stance (as published) | Watch — unchanged, bias now negative; DE per share rose on a low tax rate, but fee-related earnings, management fees and the carry pool all fell, and four of the bearish signals on the initiation's checklist fired |
+| Rule rating | Watch (+5.0% a year expected over 3 years) |
+| Price at call | $41.70 on 2026-11-10 |
+| Bear / base / bull | $29.25 / $52.58 / $78.78 |
+| Weights | 35% / 50% / 15% |
+| Fair value | $48.34 (weighted) |
 | Street mean target | — |
-| Valuation lens | P/E on after-tax distributable earnings (DE) per share, with a fee-related earnings (FRE) sum-of-the-parts cross-check |
-| Since the call | +9.6% vs SPY -1.0% through 2026-11-09; mark $42.31 is bear to base |
+| Valuation lens | FY2029 after-tax distributable earnings (DE) per share x exit P/E (FRE plus realized carry and principal income less net interest, taxed at 15%; equity compensation counted through the share count); three-year value, undiscounted, before dividends |
+| Next review | 2027-02-06 — Q4 2026 results, expected around February 5, 2027 after the close |
 
-## Fundamentals known on 2026-10-24
+**Thesis.** Carlyle trades at 10.2x trailing after-tax DE of $4.09 a share, and the fee business is valued at about 10x after-tax FRE once carry, investments and net debt are separated. Q3 2026 DE of $1.12 beat the October call's test, but it came at an 8.2% tax rate (about $0.99 at Q2's 19%), while management fees fell 4.7%, FRE fell 6.2% and net accrued carry fell 25% since December, firing four of the bearish signals on the initiation's checklist. The base case needs FRE to grow about 8% a year to FY2029 as pending fee-earning AUM (+48% YoY) and new flagships activate; it has been flat for nine months.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CG 2026-10-24`). Later restatements are not visible here by design.
+**Variant view.** We agree the discount is earned while fees shrink, and Q3 strengthened that view, so the bias is negative. Our base differs from the price only in expecting fee growth to resume in 2027-2028 as the $28B of pending fee-earning AUM (up 48% in a year) and the next U.S. buyout fund activate. The checkable test is Q2 2027 fund management fees above Q2 2026's $560.1M.
+
+**Catalysts.**
+
+- Q4 2026 results (About February 5, 2027 (last year's release was February 5, 2026, after the close))
+- Next U.S. buyout fund first close and fee activation (2027)
+- Q2 2027 results (About August 2027)
+
+**Pre-mortem** (written at decision time).
+
+- LPs consolidate commitments with the largest managers, the next U.S. buyout fund raises less than its predecessor, and management fees keep falling. — watch: Fund management fees year on year each quarter; fundraising announcements for the next U.S. buyout fund
+- The seventh U.S. buyout fund and secondaries keep marking down, and the in-carry ratio falls below 60%. — watch: Carry fund appreciation and the in-carry ratio each quarter
+- A private-credit loss cycle hits Global Credit's fee-related performance revenues and insurance solutions. — watch: Global Credit fee-related performance revenues and carry fund appreciation
+- Transaction fees stay below $40M a quarter as financing activity slows, removing a source of FRE growth. — watch: Transaction and portfolio advisory fees below $40M for four straight quarters (TTM average $66M)
+- The Watch call is wrong on the upside: the fundraising cycle restarts quickly and the market re-rates Carlyle to 13x DE. — watch: Pending fee-earning AUM above $35B and management fees growing
+
+**Kill criteria.**
+
+- FY2027 fee-related earnings below FY2025's $1,236.2M (the bear path) (check by 2028-02-28) — open
+- FY2027 segment fund management fees below FY2026's (check by 2028-02-28) — open
+- Carry fund appreciation negative in two consecutive quarters, or an in-carry ratio below 60%, at any quarter through 2027 (check by 2028-02-28) — open
+
+**Probability claims.**
+
+- 45%: Carlyle reports FY2026 fee-related earnings of at least $1,250M (Q4 at least $299.7M). (resolves by 2027-03-15)
+- 30%: Carlyle reports FY2026 after-tax DE per share of at least $3.90. (resolves by 2027-03-15)
+- 45%: Carlyle's Q2 2027 segment fund management fees exceed Q2 2026's $560.1M. (resolves by 2027-09-15)
+- 55%: Net accrued performance revenues are at least $2.0B at December 31, 2026. (resolves by 2027-03-15)
+- 95%: Carlyle keeps its quarterly dividend at $0.35 or more through the Q2 2027 declaration. (resolves by 2027-09-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $32 at these weights
+- Toward Own: management fees growing year on year with pending fee-earning AUM converting, which would move weight to the base and bull
+- Toward Avoid: FY2027 FRE below FY2025's $1,236.2M, or carry fund appreciation negative in two straight quarters
+- Toward Avoid: FY2027 management fees below FY2026's
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 3, calibration 3). Counter-case: The revision overcorrects. Management fees fell only 1.8% without catch-up fees, pending fee-earning AUM is up 48% to $28B, nine-month DE per share is $3.08 against $3.01, and LTM realized proceeds rose 23%. At 15% tax the fee business trades at 10.1x after-tax FRE and the 15x sum of the parts is $56.28, 35% above the price. The base alone returns about 8% a year on price and about 11.7% with the dividend. A carry kill criterion that fires when Carlyle realizes carry, while buybacks at about 10x DE shrink the share count, points the wrong way; a negative bias rests on one quarter.
+
+**Response.** Accepted the corrections: the checklist is described as four of about eleven bearish signals firing; the kill criteria now sit on the bear path (FY2027 FRE below FY2025's $1,236.2M, FY2027 management fees below FY2026's, and negative carry fund appreciation for two quarters or an in-carry ratio below 60%), so realizations alone do not fire them; scenarios start from TTM FRE of $1,240.7M; the sum of the parts is shown at 12x ($47.34) and 15x ($56.28) and the fair value sits near 12x; the FRE bridge includes D&A and fee-related performance revenues; the $222M is described as a loss already at fair value; the transaction-fee pre-mortem signal is four quarters below $40M. On the counter-case: the bias stays negative because the evidence that would earn 15x, management fees growing, has not appeared in nine months and the test that would show it carries less than even odds; pending fee-earning AUM up 48% is why the stance is Watch rather than lower, and the base case and dividend are shown.
+
+**Data notes.** The October call used five-year FY2031 values; this update states three-year end-2029 values, undiscounted. DE is taxed at 15% (trailing 12.3%); the initiation used 21%, at which the fair value would be $44.91. No current Street consensus snapshot was captured for this update. The rating rule counts price only; the $1.40 annual dividend adds about 3.4% a year. capital.multiples is not used for the exit multiple: it works on GAAP earnings and only STEP among its peers is a private-markets manager. First review round (B; evidence 4, valuation 3, variant view 3, risk 3, calibration 4): the base DE sat above the October path because of an undisclosed tax change and carry above the trailing level, the initiation's four bearish checklist signals that fired were not mentioned, the FRE kill criterion was nearly unfireable, the FRE decline was misattributed to transaction fees, and pending fee-earning AUM's +48% YoY was left out. First draft values were $32.13 / $58.19 / $82.68, fair value $52.74, neutral bias. Second review round (B; evidence 4, valuation 4, variant view 3, risk 3, calibration 3): kill criteria fired too easily (carry falling from realizations alone, a Q4 FRE miss that barely moves value), the checklist was overstated as four signals, the scenarios started above TTM FRE, the sum of the parts was not reconciled, and the FRE bridge missed two items. Second-draft values were $29.34 / $52.91 / $79.30, fair value $48.62.
+
+## Fundamentals known on 2026-11-11
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit CG 2026-11-11`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 3,611.3M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Net income (TTM) | 363.9M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Diluted EPS (TTM) | 0.96 USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Operating cash flow (TTM) | -3,997.5M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Capex (TTM) | 125.3M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Free cash flow (TTM) | -4,122.8M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Stock comp (TTM) | 414.1M USD | 2026-06-30 | ttm ytd | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
-| Cash | 1,256.5M USD | 2026-06-30 | instant | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
+| Revenue (TTM) | 3,612.7M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Net income (TTM) | 355.3M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Diluted EPS (TTM) | 0.95 USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Operating cash flow (TTM) | -2,076.9M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Capex (TTM) | 129.5M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Free cash flow (TTM) | -2,206.4M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Stock comp (TTM) | 424.2M USD | 2026-09-30 | ttm ytd | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
+| Cash | 1,583.5M USD | 2026-09-30 | instant | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
 | Long-term debt | 2,275.6M USD | 2023-03-31 | instant | [0001527166-23-000064](https://www.sec.gov/Archives/edgar/data/1527166/000152716623000064/) |
-| Shares outstanding | 356.3M | 2026-08-04 | instant | [0001527166-26-000045](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/) |
+| Shares outstanding | 353.9M | 2026-11-03 | instant | [0001527166-26-000053](https://www.sec.gov/Archives/edgar/data/1527166/000152716626000053/) |
 
 ## Earnings calendar
 
@@ -43,6 +88,7 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001527166-26-000049](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-10-24 | $38.59 | Watch (positive) | Own | $32.40 | $62.10 | $91.00 | $58.97 | +9.6% | +10.6% | bear to base | [report](https://github.com/refcell/capital/blob/1b41a4d/research/CG.md) · [projection](https://github.com/refcell/capital/blob/c2214e7/projections/CG.md) · [model](https://github.com/refcell/capital/blob/8e41ce6/models/2026-10-24%20Carlyle%20Group%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/8e41ce6/models/_build_CG.py) |
+| 2026-11-11 | $41.70 | Watch (negative) | Watch | $29.25 | $52.58 | $78.78 | $48.34 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/CG/2026-11-11.md) · [model](https://github.com/refcell/capital/blob/main/models/CG/2026-11-11.xlsx) |
+| 2026-10-24 | $38.59 | Watch (positive) | Own | $32.40 | $62.10 | $91.00 | $58.97 | +8.1% | +9.4% | bear to base | [report](https://github.com/refcell/capital/blob/1b41a4d/research/CG.md) · [projection](https://github.com/refcell/capital/blob/c2214e7/projections/CG.md) · [model](https://github.com/refcell/capital/blob/8e41ce6/models/2026-10-24%20Carlyle%20Group%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/8e41ce6/models/_build_CG.py) |
 
 Data: `data/CG/`. Prices: `data/prices/CG.csv`.

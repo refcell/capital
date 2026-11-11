@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 136 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+110 companies, 137 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,8 +12,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 18 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 70 | 105 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 17 | 1 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 71 | 105 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 19 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -41,7 +41,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [CCL](CCL.md) | Carnival Corporation & plc | Consumer discretionary | active | 2026-09-10 | 1 | Watch (positive) | Watch | $22.70 | $32.27 | +12.4% | +36.1% | +37.5% |
 | [CELH](CELH.md) | Celsius Holdings, Inc. | Consumer staples | active | 2026-05-24 | 2 | Watch (negative) | Own | $30.12 | $50.00 | +18.4% | +8.9% | +7.8% |
 | [CENTA](CENTA.md) | Central Garden & Pet Company | Consumer Defensive | active | 2026-06-26 | 1 | Watch (positive) | Watch | $39.32 | $56.55 | +12.9% | +4.8% | +1.7% |
-| [CG](CG.md) | The Carlyle Group Inc. | Financials | active | 2026-10-24 | 1 | Watch (positive) | Own | $38.59 | $58.97 | +15.2% | +9.6% | +10.6% |
+| [CG](CG.md) | The Carlyle Group Inc. | Financials | active | 2026-11-11 | 2 | Watch (negative) | Watch | $41.70 | $48.34 | +5.0% | — | — |
 | [CHRD](CHRD.md) | Chord Energy Corporation | Energy | active | 2026-09-16 | 1 | Watch (positive) | Watch | $157.00 | $172.00 | +3.1% | -11.7% | -11.0% |
 | [CLBT](CLBT.md) | Cellebrite DI Ltd. | Technology | active | 2026-08-17 | 1 | Watch | Watch | $10.44 | $14.00 | +10.3% | +21.6% | +24.0% |
 | [CNC](CNC.md) | Centene Corporation | Healthcare | active | 2026-11-07 | 1 | Watch | Avoid | $69.74 | $69.22 | -0.2% | +0.6% | -1.3% |
