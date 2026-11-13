@@ -269,6 +269,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/JOBY",
     "last_capture": "2026-11-11T02:23:01+00:00"
   },
+  "KB": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KB",
+    "last_capture": "2026-11-13T03:04:32+00:00"
+  },
   "KDP": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/KDP",
@@ -507,7 +512,7 @@
   "SPY": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-    "last_capture": "2026-11-11T02:22:36+00:00"
+    "last_capture": "2026-11-13T03:04:33+00:00"
   },
   "SSB": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
