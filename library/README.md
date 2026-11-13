@@ -2,7 +2,7 @@
 
 # Coverage library
 
-110 companies, 142 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-10.
+111 companies, 143 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-11.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -13,7 +13,7 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 75 | 105 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 76 | 106 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 17 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -73,6 +73,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [IREN](IREN.md) | IREN Limited (formerly Iris Energy Limited) | Technology infrastructure | active | 2026-11-11 | 2 | Watch | Watch | $19.73 | $25.24 | +8.6% | — | — |
 | [ITUB](ITUB.md) | Itaú Unibanco Holding S.A. | Financials | active | 2026-08-11 | 1 | Watch | Watch | $7.50 | $9.05 | +6.5% | -1.4% | +1.1% |
 | [JOBY](JOBY.md) | Joby Aviation, Inc. | Industrials — Aerospace & Defense — eVTOL | active | 2026-07-20 | 1 | Watch | Avoid | $7.47 | $7.05 | -1.9% | -17.3% | -18.9% |
+| [KB](KB.md) | KB Financial Group Inc. | Financials — Korean bank holding company | active | 2026-11-12 | 1 | Watch (positive) | Watch | $114.75 | $154.74 | +10.5% | — | — |
 | [KNF](KNF.md) | Knife River Corporation | Basic Materials | active | 2026-06-25 | 1 | Watch | Watch | $92.90 | $109.67 | +5.7% | -36.6% | -39.3% |
 | [KNTK](KNTK.md) | Kinetik Holdings Inc. | Energy | active | 2026-09-17 | 1 | Watch | Watch | $53.84 | $66.07 | +7.1% | -5.1% | -5.2% |
 | [LOPE](LOPE.md) | Grand Canyon Education, Inc. | Consumer Discretionary | active | 2026-06-18 | 1 | Watch | Watch | $142.46 | $180.00 | +8.1% | -18.2% | -19.9% |

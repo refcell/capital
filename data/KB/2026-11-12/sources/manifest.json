@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/KB.csv",
+      "commit": "fc5b64fb191d",
+      "sha256": "7154ad107d152a487305d71b191b358ee9a80a36921cdb322e13962b709a1560",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "prices-monthly",
+      "kind": "repo",
+      "path": "data/prices/monthly/KB.csv",
+      "commit": "6f7ff171844e",
+      "sha256": "09599c51ee3ad0117e1b466ed2eedb719b3fbb3a242309a373d7e2fc668ed4bf",
+      "description": "Monthly ADS closes 2016-12 to 2026-10 captured by capital.multiples (historical P/B and P/E)"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/KB.csv",
+      "commit": "fc5b64fb191d",
+      "sha256": "f1dd40f03dd96bc479198b197a76bcb4f7250ad118a6afa06400e37df3aa22e0",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "fc5b64fb191d",
+      "sha256": "1dfa3813e1d89abbf3e6799780f3ca35feb1cd638195b032117704b4657f68c1",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "d182035d6k",
+      "kind": "file",
+      "path": "d182035d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526436880/d182035d6k.htm",
+      "fetched_at": "2026-11-13T03:07:00+00:00",
+      "sha256": "29c5f2039e41b5756a59252cd58a8105823d1b59b430b716a6cee35931aca148",
+      "description": "Preliminary Q3 2026 operating results (6-K, 2026-10-29)"
+    },
+    {
+      "id": "d100997d6ka",
+      "kind": "file",
+      "path": "d100997d6ka.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526456672/d100997d6ka.htm",
+      "fetched_at": "2026-11-13T03:07:01+00:00",
+      "sha256": "4633c9a9b36bf3b6a3dfc3e16d20ef5387814270203c733bb38e325f3767fb0d",
+      "description": "Amended Q3 2026 results reflecting FSS ELS fine and KFTC fine (6-K/A, 2026-11-12)"
+    },
+    {
+      "id": "d237010d6k",
+      "kind": "file",
+      "path": "d237010d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526435011/d237010d6k.htm",
+      "fetched_at": "2026-11-13T03:07:01+00:00",
+      "sha256": "7bb9e9d51c3cc4399e05b173331bf77901526c0781cf40115f3d27b7b2d15ea3",
+      "description": "EGM notice, executive director nominee (6-K, 2026-10-28)"
+    },
+    {
+      "id": "d186566d6k",
+      "kind": "file",
+      "path": "d186566d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526456642/d186566d6k.htm",
+      "fetched_at": "2026-11-13T03:07:01+00:00",
+      "sha256": "795937b5b4f78aade81241fb1657584b7c83eb3e47ab0a6c93f78fc9ac863e0d",
+      "description": "KFTC fine on KB Securities (6-K, 2026-11-12)"
+    },
+    {
+      "id": "20f-2025-r2-financial-position",
+      "kind": "file",
+      "path": "20f-2025-R2-financial-position.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526183398/R2.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "947eb4123eaa5fcb653193c635beb04ceb6ee3a76606c24c6f95bad16d4af5bb",
+      "description": "FY2025 20-F consolidated statement of financial position (XBRL viewer R2)"
+    },
+    {
+      "id": "20f-2025-r3-comprehensive-income",
+      "kind": "file",
+      "path": "20f-2025-R3-comprehensive-income.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526183398/R3.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "f4bd06104c43c63aed5e340e7fcb15248ec8d5868a4055cd95d6459885330f4d",
+      "description": "FY2025 20-F consolidated statement of comprehensive income (XBRL viewer R3)"
+    },
+    {
+      "id": "yahoo-chart-krw-daily-1y-2026-11-13",
+      "kind": "file",
+      "path": "yahoo-chart-krw-daily-1y-2026-11-13.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?range=1y&interval=1d",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "4dab2076d07c6a8bcd6fab69293cc70b9b7fc17b50a009280912986693cc695c",
+      "description": "USD/KRW daily closes, Yahoo Finance"
+    },
+    {
+      "id": "yahoo-chart-krw-monthly-10y-2026-11-13",
+      "kind": "file",
+      "path": "yahoo-chart-krw-monthly-10y-2026-11-13.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?range=10y&interval=1mo",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "04e1641e2aed3bdba5dcddcb8be122a11ccdf3eff18f6f7375f9dbab15d7c2ae",
+      "description": "USD/KRW monthly closes 2016-2026, Yahoo Finance (historical P/B and P/E)"
+    },
+    {
+      "id": "yahoo-quotesummary-kb-2026-11-12",
+      "kind": "file",
+      "path": "yahoo-quotesummary-kb-2026-11-12.json",
+      "url": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/KB?modules=financialData,defaultKeyStatistics,earningsTrend,recommendationTrend,summaryDetail",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "5eb7a3aeece767cb7f9e906ef1e7251e79f899d77016930fd144977ce3ea84ab",
+      "description": "Yahoo Finance consensus for KB (one analyst): target, EPS estimates, shares"
+    },
+    {
+      "id": "d135448d6k",
+      "kind": "file",
+      "path": "d135448d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526350220/d135448d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "bea251a92ea06b83a4c2870a4cc0270278f99a212a0e6184777d5f130ab137ff",
+      "description": "First-half 2026 business report with reviewed consolidated statements and BIS ratios (6-K, 2026-08-14)"
+    },
+    {
+      "id": "d250399d6k",
+      "kind": "file",
+      "path": "d250399d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526171722/d250399d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "bc329d991252271280644949d8226211f66fb263ee873524b824a92667b864e9",
+      "description": "Preliminary Q1 2026 operating results (6-K, 2026-04-23)"
+    },
+    {
+      "id": "d165460d6k",
+      "kind": "file",
+      "path": "d165460d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526313193/d165460d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "a5e84a105642b808f1e8ce9f28c656777345ca466b8fea0f1a20db17365b1f66",
+      "description": "Preliminary Q2/H1 2026 operating results (6-K, 2026-07-23)"
+    },
+    {
+      "id": "d68254d6k",
+      "kind": "file",
+      "path": "d68254d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526038410/d68254d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "b80056f6aa7068f64db9ec093ff180aed7da98e65fa666bc98924c0d6b8526b4",
+      "description": "Preliminary FY2025 operating results (6-K, 2026-02-05)"
+    },
+    {
+      "id": "d74539d6k",
+      "kind": "file",
+      "path": "d74539d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526038452/d74539d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "80c304d8dc93ae1a85d99c37b41bbc918dccb0315e4d8b9bf1a5f5c28d8273b7",
+      "description": "KRW 600B buyback resolution (6-K, 2026-02-05)"
+    },
+    {
+      "id": "d256577d6k",
+      "kind": "file",
+      "path": "d256577d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526171744/d256577d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "0da5e7ede4bce68176c9ce6278c252ddb86d9fc6d42dade59b79f3c957fdebd2",
+      "description": "KRW 600B buyback resolution (6-K, 2026-04-23)"
+    },
+    {
+      "id": "d172178d6k",
+      "kind": "file",
+      "path": "d172178d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526313202/d172178d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "891c4e90cc77f98d88d02a1b9d691ef47b220d0d4e917b5d934a2e01bf6570db",
+      "description": "KRW 700B buyback trust agreement (6-K, 2026-07-23)"
+    },
+    {
+      "id": "d164215d6k",
+      "kind": "file",
+      "path": "d164215d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526313206/d164215d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "7c09472e3ee5ad2f30ae3b351c5f8b1fcd63339b60dad54fe759f0e970ff73a6",
+      "description": "Cancellation of shares from the July trust buyback (6-K, 2026-07-23)"
+    },
+    {
+      "id": "d107549d6k",
+      "kind": "file",
+      "path": "d107549d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526148786/d107549d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "f48cd4872b8440e0af9456a9dd9273db5d3c4eb7fb9c7e6812d5a4b557d7deae",
+      "description": "Results of the February-April buyback (6-K, 2026-04-09)"
+    },
+    {
+      "id": "d51047d6k",
+      "kind": "file",
+      "path": "d51047d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526305350/d51047d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "1d789431c8650bfd95e99abc03b7ed388a1db293e5f36d2dc5734700f625d31d",
+      "description": "Results of the April-July buyback (6-K, 2026-07-16)"
+    },
+    {
+      "id": "d70789d6k",
+      "kind": "file",
+      "path": "d70789d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526038434/d70789d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "627db851c25ea287f41d948d81bb421951e2db487164880760d16a6d0320c9ee",
+      "description": "FY2025 year-end dividend KRW 1,605 (6-K, 2026-02-05)"
+    },
+    {
+      "id": "d257559d6k",
+      "kind": "file",
+      "path": "d257559d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526171732/d257559d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "bfd5173475a768e5e155f3087a3ed2e06540eb6e98b2a771fc08bd3c32d18cd3",
+      "description": "Q1 2026 dividend KRW 1,143 (6-K, 2026-04-23)"
+    },
+    {
+      "id": "d166660d6k",
+      "kind": "file",
+      "path": "d166660d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526313200/d166660d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "e544b8afe0522fb632a6a347bbdedf2221288589b3fc8d1b52e0f50adbf0f7ba",
+      "description": "Q2 2026 dividend KRW 1,155 (6-K, 2026-07-23)"
+    },
+    {
+      "id": "d96168d6k",
+      "kind": "file",
+      "path": "d96168d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526127247/d96168d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "91f63ecafa0943415ce55fcfaa6b232ae3a9349a08e8880cfeb3bf330220fa77",
+      "description": "High-dividend company determination and shareholder return policy, CET1 13%/13.5% (6-K, 2026-03-27)"
+    },
+    {
+      "id": "d119923d6k",
+      "kind": "file",
+      "path": "d119923d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526411212/d119923d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "116c1aa8c542f1ddce940802993ff7b0546509098c24ea1480fcfde687573244",
+      "description": "EGM convocation, executive director nominee (6-K, 2026-10-02)"
+    },
+    {
+      "id": "d96644d6k",
+      "kind": "file",
+      "path": "d96644d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526068372/d96644d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "5578c79f1ce88ebf946b9c02f73b7d04e6eeaa124646317610f86e1c91babe46",
+      "description": "KB Securities KRW 700B capital increase (6-K, 2026-02-25)"
+    },
+    {
+      "id": "d16088d6k",
+      "kind": "file",
+      "path": "d16088d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526283744/d16088d6k.htm",
+      "fetched_at": "2026-11-13T03:23:59+00:00",
+      "sha256": "46893aededd93a724d645dd04b4a93b2ac2b01d26c81a69432278407468967ae",
+      "description": "KB Securities KRW 1T capital increase (6-K, 2026-06-26)"
+    },
+    {
+      "id": "d176648d6k",
+      "kind": "file",
+      "path": "d176648d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526430978/d176648d6k.htm",
+      "fetched_at": "2026-11-13T03:09:33+00:00",
+      "sha256": "587080c8c5bb0897e3d1f0d3a58a6a3053aecf040157469eaf46f38d569a767e",
+      "description": "Interim results of the July trust buyback, treasury shares as of 2026-10-23 (6-K, 2026-10-26)"
+    },
+    {
+      "id": "d182940d6k",
+      "kind": "file",
+      "path": "d182940d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526436885/d182940d6k.htm",
+      "fetched_at": "2026-11-13T03:09:31+00:00",
+      "sha256": "a5fc481728eb97b914fd1f09acec10b6680e267b40eb3f8f85f892e0f7cecc66",
+      "description": "Q3 2026 dividend record date (6-K, 2026-10-29)"
+    },
+    {
+      "id": "d183019d6k",
+      "kind": "file",
+      "path": "d183019d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526436887/d183019d6k.htm",
+      "fetched_at": "2026-11-13T03:09:32+00:00",
+      "sha256": "f1d30d833786e76aa8b3b6a3d85527423180d54997e3f4d35337c5ea6a7d4912",
+      "description": "Q3 2026 dividend KRW 1,167 (6-K, 2026-10-29)"
+    },
+    {
+      "id": "d949134d6k",
+      "kind": "file",
+      "path": "d949134d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526430981/d949134d6k.htm",
+      "fetched_at": "2026-11-13T03:09:32+00:00",
+      "sha256": "7fa4a791cab1f8d7fe4b3b636105ba33c2b066ade7e5560023ee42ce2fe9dea4",
+      "description": "National Pension Service holding 9.17% (6-K, 2026-10-26)"
+    },
+    {
+      "id": "20f-2025-excerpts",
+      "kind": "file",
+      "path": "20f-2025-excerpts.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526183398/d79770d20f.htm",
+      "fetched_at": "2026-11-13T03:45:11+00:00",
+      "sha256": "286f95b0244c5d10615bd90b05ad98bd7a570c76ee017a09dde79d55d51f30c1",
+      "description": "FY2025 20-F text excerpts: capital ratios, customers and branches, SME NPL ratio, New Leap Fund, ELS/LTV provisions, tax rate, KFTC LTV case"
+    },
+    {
+      "id": "20f-2025-r5-cash-flows",
+      "kind": "file",
+      "path": "20f-2025-R5-cash-flows.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526183398/R5.htm",
+      "fetched_at": "2026-11-13T03:48:37+00:00",
+      "sha256": "cc01bd3f9fcea168406797fb30263d7e95617b461b82b2c74de4eeb2c21467a3",
+      "description": "FY2025 20-F consolidated statement of cash flows (XBRL viewer R5)"
+    }
+  ]
+}

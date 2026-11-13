@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "ticker": "KB",
+  "date": "2026-11-12",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 114.75,
+      "as_of": "2026-11-11",
+      "source": "data/prices/KB.csv (Yahoo Finance close)"
+    },
+    "shares_outstanding_m": {
+      "value": 347.1461,
+      "as_of": "2026-10-23",
+      "source": "KB 6-K 2026-10-26: 354,687,734 issued less 7,541,623 treasury (sources/d176648d6k.htm)",
+      "accession": "0001193125-26-430978",
+      "note": "one ADS represents one common share"
+    },
+    "market_cap_m": {
+      "value": 39835.01,
+      "as_of": "2026-11-11",
+      "source": "price x shares_outstanding_m",
+      "currency": "USD"
+    },
+    "ttm_net_income_m": {
+      "value": 6354896.0,
+      "as_of": "2026-09-30",
+      "source": "Q4 2025 711,429 (FY2025 20-F less 9M 2025) + Q1 1,892,401 + Q2 1,992,189 + Q3 1,758,877 (amended 6-K/A 2026-11-12)",
+      "accession": "0001193125-26-456672",
+      "currency": "KRW",
+      "note": "profit attributable to parent shareholders, before about KRW 200B a year of hybrid-securities distributions"
+    },
+    "fy1_eps": {
+      "value": 18660.7,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance earningsTrend FY2026 (one analyst) (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "KRW"
+    },
+    "fy2_eps": {
+      "value": 20375.57,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance earningsTrend FY2027 (one analyst) (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "KRW"
+    },
+    "street_target_mean": {
+      "value": 168.02,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance financialData, one analyst (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "USD"
+    },
+    "beta": {
+      "value": 0.66,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance defaultKeyStatistics (sources/yahoo-quotesummary-kb-2026-11-12.json)"
+    },
+    "ttm_eps": {
+      "value": 17440.0,
+      "as_of": "2026-09-30",
+      "source": "Estimate: ttm_net_income_m less ~KRW 200B hybrid distributions, over ~353M average shares",
+      "currency": "KRW"
+    },
+    "book_value_per_share": {
+      "value": 163843.0,
+      "as_of": "2026-09-30",
+      "source": "Estimate: June 30 common equity (parent equity 60,890,838 less hybrids 4,206,721, sources/d135448d6k.htm) rolled forward for Q3 profit 1,758,877, Q2 dividend, buybacks and hybrid coupon; OCI assumed zero; ~348.1M shares",
+      "accession": "0001193125-26-350220",
+      "currency": "KRW",
+      "note": "Q3 balance sheet not yet filed; about +/- 3%"
+    },
+    "tangible_book_value_per_share": {
+      "value": 159220.0,
+      "as_of": "2026-09-30",
+      "source": "book_value_per_share less intangible assets of KRW 1,609,427M at Dec 31, 2025 (sources/20f-2025-R2-financial-position.htm)",
+      "accession": "0001193125-26-183398",
+      "currency": "KRW"
+    },
+    "dividend_per_share": {
+      "value": 5070.0,
+      "as_of": "2026-10-29",
+      "source": "Trailing four declared dividends: KRW 1,605 (FY2025 final) + 1,143 + 1,155 + 1,167 (sources/d70789d6k.htm, d257559d6k.htm, d166660d6k.htm, d183019d6k.htm)",
+      "currency": "KRW"
+    },
+    "tax_rate_pct": {
+      "value": 27.5,
+      "as_of": "2025-12-31",
+      "source": "FY2025 20-F: deferred taxes realized after 2026 measured at 27.5% after the end-2025 tax law amendment",
+      "accession": "0001193125-26-183398"
+    },
+    "cost_of_equity_pct": {
+      "value": 11.0,
+      "as_of": "2026-11-12",
+      "source": "Assumption used for the justified P/B check (won cost of equity); not sourced from a market rate"
+    },
+    "week52_low": {
+      "value": 81.36,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "USD"
+    },
+    "week52_high": {
+      "value": 133.29,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "USD"
+    },
+    "street_target_low": {
+      "value": 168.02,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "USD"
+    },
+    "street_target_high": {
+      "value": 168.02,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)",
+      "currency": "USD"
+    },
+    "street_analysts": {
+      "value": 1,
+      "as_of": "2026-11-12",
+      "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)"
+    }
+  },
+  "notes": [
+    "Unit convention: KRW values are in KRW (per-share) or KRW millions (_m) as each value's currency says; USD values are per ADS. One ADS represents one common share.",
+    "USD/KRW 1,341.91 on 2026-11-11 (Yahoo KRW=X, sources/yahoo-chart-krw-daily-1y-2026-11-13.json); every scenario converts KRW at this rate.",
+    "FY2025 (20-F 0001193125-26-183398): net income to parent KRW 5,833,162M; basic EPS KRW 15,410; net interest income 13,073,093M; net fee income 4,098,287M; provision for credit losses 2,362,878M; parent equity 59,048,211M incl. hybrid securities 4,359,388M; total assets 797,923,033M; loans 491,978,044M; deposits 462,397,026M.",
+    "Capital: CET1 13.82%, Tier 1 15.21%, total 16.20% at Dec 31, 2025 (20-F); total BIS ratio 15.91% at Jun 30, 2026 (6-K 0001193125-26-350220). Policy: return capital above a 13% year-end CET1 ratio (phase 1) and above 13.5% second-half CET1 (phase 2) (sources/d96168d6k.htm).",
+    "2026 net income to parent: Q1 1,892,401M; Q2 1,992,189M; Q3 1,758,877M after the 6-K/A (original 1,907,460M); nine months 5,643,467M vs 5,121,733M in 9M 2025.",
+    "2026 buybacks: KRW 600B at avg KRW 153,847 (Feb-Apr), 600B at avg 167,522 (Apr-Jul), 698,152M of a 700B trust by Oct 23 (Jul-Dec); total ~KRW 1.90T, all for cancellation.",
+    "SEC XBRL facts for KB stop at FY2024 except the share count; FY2025 and 2026 values come from the 20-F viewer pages and 6-K filings saved under sources/. Bank cash-flow and revenue lines drafted by capital.new were removed.",
+    "September 30 book roll-forward: trust purchases to September 30 of about KRW 524B are a pro-rata estimate by Korean trading days of the KRW 698,152M bought July 23 to October 23 (sources/d176648d6k.htm); the quarter-end figure is not disclosed. The full KRW 174B difference moves BVPS by about 0.3%.",
+    "Scenario starting point (estimate): end-2026 common equity of about KRW 57.2T = September 30 estimate 57.04T + assumed Q4 profit 0.80T - Q3 dividend 0.405T (KRW 1,167 x ~347.5M shares, sources/d183019d6k.htm) - remaining trust purchases 0.176T - Q4 hybrid coupon ~0.05T; on 347.146M shares outstanding (354,687,734 issued less 7,541,623 treasury, sources/d176648d6k.htm) that is KRW 164,795 per share."
+  ]
+}

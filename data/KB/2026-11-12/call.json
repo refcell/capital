@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "ticker": "KB",
+  "exchange": "NYSE",
+  "company": "KB Financial Group Inc.",
+  "sector": "Financials — Korean bank holding company",
+  "date": "2026-11-12",
+  "origin": "run",
+  "prior_call": null,
+  "research_status": "initial",
+  "research_status_text": "Initial, post-Q3 2026 (preliminary results 2026-10-29, amended 2026-11-12)",
+  "stance": "watch",
+  "bias": "positive",
+  "stance_text": "Watch, positive bias. The re-rating from 0.4x to 0.9x book is mostly done; from here the return comes from compounding at an 11% ROE and buying back stock near book, about 10% a year, below the 15% hurdle.",
+  "rating_override_reason": null,
+  "primary_lens": "pb_roe",
+  "lens_text": "End-2029 common book value per share x exit P/B, plus 2027-2029 dividends, undiscounted, converted at a constant KRW 1,341.91 per USD (one ADS = one common share)",
+  "price": {
+    "value": 114.75,
+    "currency": "USD",
+    "date": "2026-11-11"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 91.88,
+      "weight": 0.25,
+      "basis": "ROE 8.5%, payout 25% dividends + 20% buybacks at 0.80/0.70/0.60x book; end-2029 BVPS KRW 203,686 x 0.55 P/B + KRW 11,265 dividends; FY2029 EPS KRW 16,071 (7.0x)"
+    },
+    "base": {
+      "value": 160.94,
+      "weight": 0.5,
+      "basis": "ROE 11.0%, payout 27% dividends + 28% buybacks at ~0.94x book; end-2029 BVPS KRW 210,523 x 0.95 P/B + KRW 15,972 dividends; FY2029 EPS KRW 21,350 (9.4x)"
+    },
+    "bull": {
+      "value": 205.18,
+      "weight": 0.25,
+      "basis": "ROE 12.5%, payout 28% dividends + 32% buybacks at 1.00/1.10/1.15x book; end-2029 BVPS KRW 213,650 x 1.20 P/B + KRW 18,950 dividends; FY2029 EPS KRW 24,550 (10.4x)"
+    }
+  },
+  "fair_value": {
+    "value": 154.74,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 book value x exit P/B plus 2027-2029 dividends, undiscounted",
+  "street": {
+    "target_mean": 168.02,
+    "target_median": 168.02,
+    "target_low": 168.02,
+    "target_high": 168.02,
+    "analysts": 1,
+    "rating_text": "Buy (one analyst)",
+    "as_of": "2026-11-12",
+    "source": "Yahoo Finance quoteSummary (sources/yahoo-quotesummary-kb-2026-11-12.json)"
+  },
+  "deviation_from_street": {
+    "pct": -7.9,
+    "reason": "Only one visible analyst. The $168 one-year target needs about 1.25x end-2027 book; this call holds the multiple near today's 0.95x because ROE (about 11%) is roughly equal to an 11% cost of equity, and weights a 25% bear case at 0.55x book. The call is a three-year undiscounted value, the target a one-year value."
+  },
+  "thesis": "KB sustains an ROE near 11% and keeps returning about 55% of profit, mostly through cancelled buybacks bought near book, so book value per share compounds about 8-9% a year; at an unchanged ~0.95x book the stock earns about 12% a year, and about 10.5% after weighting a credit-and-multiple bear case.",
+  "consensus_view": "The market has accepted the Korean value-up story: the ADS has doubled since end-2024 to 0.94x estimated book, and the one visible target ($168.02) assumes a further re-rating above book within a year.",
+  "variant_view": "The re-rating is mostly priced. ROE has moved about two points in a decade while the multiple more than doubled, and 2026 profit growth rests on a 51% jump in first-half fee income while net interest income grew under 2%; at ~11% ROE against an ~11% cost of equity, about 0.95x book is fair, so the return comes from compounding, not a further re-rating.",
+  "why_opportunity": [
+    "analytical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "EGM electing Jae Keun Lee as chairman and CEO",
+      "timing": "November 20, 2026",
+      "date": "2026-11-20",
+      "kind": "hard",
+      "what_it_proves": "Leadership continuity and first statements on capital allocation",
+      "value_impact": "Any signal of large M&A over buybacks raises the bear weight"
+    },
+    {
+      "event": "FY2026 results and 2027 shareholder-return plan",
+      "timing": "Around February 5, 2027 (FY2025 results were released February 5, 2026)",
+      "date": "2027-02-05",
+      "kind": "hard",
+      "what_it_proves": "Year-end CET1, Q4 profit and the size of the first 2027 buyback",
+      "value_impact": "2027 returns above KRW 2T with CET1 above 13.5% support moving bull weight to 30%; a first buyback under KRW 500B moves weight to bear"
+    },
+    {
+      "event": "Final FSS and KFTC decisions; KFTC LTV collusion case",
+      "timing": "2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether regulatory charges keep recurring at this scale",
+      "value_impact": "A further charge above KRW 500B moves weight to bear"
+    },
+    {
+      "event": "Korean policy on bank levies and relief programmes",
+      "timing": "Ongoing",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the government taxes bank profits",
+      "value_impact": "A new levy is a direct ROE hit of up to a point"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "The credit cycle turned: real-estate project finance and SME loans soured, provisions reached KRW 3.5T in 2027 and ROE fell to 8%.",
+      "signal": "A quarterly provision above KRW 900B, or the SME NPL ratio above 0.4% in the FY2026 20-F"
+    },
+    {
+      "reason": "The government took the excess through a levy on bank interest income or a compulsory relief fund, and the FSC discouraged buybacks.",
+      "signal": "A draft bill or FSC guidance on bank windfall contributions"
+    },
+    {
+      "reason": "Fines kept coming: the LTV collusion case ended in a large fine and the FSS sanctioned more product sales.",
+      "signal": "KFTC decision on the LTV case above KRW 500B for KB, or another 6-K/A amending results for fines"
+    },
+    {
+      "reason": "The new CEO used the CET1 surplus for a large acquisition and buybacks stopped for a year.",
+      "signal": "Any acquisition announcement above KRW 2T in 2027"
+    },
+    {
+      "reason": "The won fell to 1,550 per dollar and the ADS lost 13% on currency alone.",
+      "signal": "USD/KRW above 1,500 for a month"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "First 2027 buyback resolution below KRW 500 billion, or a cut to the quarterly dividend below KRW 1,167",
+      "check_by": "2027-04-30",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Group CET1 ratio below 13.0% at any 2027 quarter end",
+      "check_by": "2027-11-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Full-year 2027 provision for credit losses above KRW 3.5 trillion",
+      "check_by": "2028-02-28",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "egm-lee-elected",
+      "claim": "Jae Keun Lee is elected executive director at KB's November 20, 2026 EGM, as reported in a 6-K.",
+      "probability": 0.95,
+      "resolve_by": "2026-11-30"
+    },
+    {
+      "id": "fy26-ni-6-2t",
+      "claim": "FY2026 profit attributable to shareholders of the parent, in KB's preliminary FY2026 results 6-K, is at least KRW 6.2 trillion.",
+      "probability": 0.75,
+      "resolve_by": "2027-02-28"
+    },
+    {
+      "id": "ye26-cet1-13-5",
+      "claim": "KB's group CET1 ratio at December 31, 2026, as reported in its FY2026 results or 20-F, is at least 13.5%.",
+      "probability": 0.55,
+      "resolve_by": "2027-04-30"
+    },
+    {
+      "id": "q1-27-div-1167",
+      "claim": "KB's quarterly cash dividend for Q1 2027 is at least KRW 1,167 per share.",
+      "probability": 0.85,
+      "resolve_by": "2027-05-15"
+    },
+    {
+      "id": "buybacks-2027-2t",
+      "claim": "Treasury-share acquisition resolutions and trust agreements announced by KB in calendar 2027 total at least KRW 2.0 trillion.",
+      "probability": 0.35,
+      "resolve_by": "2027-12-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: 2027 buybacks of at least KRW 2.5 trillion and full-year ROE above 12% with net interest income growing faster than 4%",
+    "More bullish: the same fundamentals at a price near $100, where the weighted return reaches 15% a year",
+    "More bearish: a quarterly provision above KRW 900 billion, or CET1 below 13% at any quarter end",
+    "More bearish: an acquisition above KRW 2 trillion instead of buybacks, or a cut to the quarterly dividend"
+  ],
+  "base_rate": {
+    "reference_class": "KB's own year-end P/B, 2016-2025 (ADS price x December USD/KRW over 20-F book value per share)",
+    "source": "data/prices/monthly/KB.csv, data/sec/facts/KB.csv, sources/yahoo-chart-krw-monthly-10y-2026-11-13.json",
+    "metric": "price_to_book",
+    "base_case_percentile": 100
+  },
+  "update": null,
+  "next_review": "2027-02-06",
+  "next_review_trigger": "FY2026 results and 2027 shareholder-return plan, expected around February 5, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/KB.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/KB/2026-11-12.xlsx",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/KB.md",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "KB closed at $114.75 on November 11, 2026",
+    "scenarios.bear.value": "| Bear | $91.88 | 25% |",
+    "scenarios.base.value": "| Base | $160.94 | 50% |",
+    "scenarios.bull.value": "| Bull | $205.18 | 25% |",
+    "fair_value.value": "| Probability-weighted | $154.74 | 100% |",
+    "street.target_mean": "a $168.02 target"
+  },
+  "notes": [
+    "Price is the November 11, 2026 committed close; KB closed at $113.39 on November 12 (Yahoo).",
+    "All KRW values convert at USD/KRW 1,341.91 (2026-11-11 close). One ADS represents one common share.",
+    "September 30, 2026 book value is an estimate rolled forward from the June 30 balance sheet; the Q3 business report was not yet filed.",
+    "Web search was unavailable during this run; no Korean broker consensus, NIM, Q3 CET1 or Korean peer multiples were captured."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-13",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: The base exit of 0.95x book depends on an 11% cost of equity that inputs.json calls an unsourced assumption, and it sits above every year-end P/B in the call's own 2016-2025 reference class (0.37x-0.81x). So the 'nothing dramatic happens' case quietly assumes the re-rating holds at a decade high, and the 25/50/25 weights are defended only as 'symmetric'.",
+      "variant_view: 'What the market believes' rests on one Yahoo analyst ($168.02) with no Korean consensus captured, the variant is essentially 'fairly valued', and none of the five claims tests its specific disagreement (2026 growth is cyclical fee income and ROE does not exceed 11%).",
+      "calibration: buybacks-2027-2t is set at 55%, but the call's own model gives 2027 buybacks of KRW 1.76T in the base case and KRW 0.97T in the bear case, so only the 25% bull case (KRW 2.29T) clears KRW 2T. Also, base_rate.base_case_percentile is left null when the base exit P/B is effectively at the 100th percentile of the stated reference class."
+    ],
+    "grade": "B",
+    "counter_case": "The base case is not a 'nothing dramatic happens' outcome. It holds KB at 0.95x book for three years, above every year-end multiple in the call's own 2016-2025 history (max 0.81x), on an 11% ROE the report concedes KB has never sustained for a full year, and it converts at KRW 1,341.91, a won stronger than 91% of the past year's closes (one-year median about 1,465). Putting only the base multiple back to the decade high of 0.81x and FX at the one-year median cuts the weighted value from $154.74 to about $132, roughly 4.7% a year. That is for a bank with three regulatory charges in eighteen months whose 2026 growth rests on a 51% brokerage-fee surge. On that reading the positive bias is unearned: this is a neutral Watch, and the $102 'Own' price is as likely to come from a de-rating as from an opportunity.",
+    "response": "Fixed: kill criterion, provision threshold (KRW 900B everywhere), LTV and acquisition signals now match between call.json and the report; end-2024 P/B corrected to 0.59x and the 0.55x bear anchor described as slightly below it; base_case_percentile set to 100 and the report now says the 0.95x base multiple is above every 2016-2025 year end; buybacks-2027-2t cut from 0.55 to 0.35 to match the model's KRW 1.76T base-case 2027 buyback, and the claim now names trust agreements; the policy is described as an aim subject to change for inorganic growth; ROE basis clarified (11.4% on beginning equity in FY2026); SME NPL path and Street rating text corrected; monthly prices pinned in the manifest; September 30 trust purchases and the end-2026 starting book documented in inputs.json; workbook regenerated. Not changed: scenario values, weights and stance. The counter-case's $132 rests on both the decade-high multiple and the one-year-median won; I keep the 0.95x base because ROE near 11% against an 11% cost of equity justifies about 1.0x, and the 25% bear weight already prices a de-rating to 0.55x. The FY2029 EPS divides by beginning-of-year shares (9.4x vs 9.2x on average shares); left as is because the exit is set on book, not earnings."
+  }
+}

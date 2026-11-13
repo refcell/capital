@@ -58,6 +58,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [IREN](IREN.md) | Finance Services | — | 32.6–102.5x | 19.3x | 2.8–14.4x | — | — | SIC 61xx, 1 names: 39.6x, 30.8x |
 | [ITUB](ITUB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [JOBY](JOBY.md) | Aircraft | — | — | 32.2x | 62.1–214.2x | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
+| [KB](KB.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [KNF](KNF.md) | Mining & Quarrying of  Nonmetallic Minerals (No Fuels) | 24.9x | 25.1–29.5x | 1.4x | 1.7–2.0x | 17.4x | 17.6–20.4x | — |
 | [KNTK](KNTK.md) | Natural Gas Transmission | 7.3x | 7.9–305.8x | 3.9x | 4.1–10.2x | 32.2x | 32.8–47.5x | SIC 49xx, 2 names: 3.8x, 16.2x |
 | [LOPE](LOPE.md) | Services-Educational Services | 85.8x | 16.8–23.4x | 2.5x | 3.8–5.0x | 9.3x | 14.1–17.4x | — |
