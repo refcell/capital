@@ -556,7 +556,7 @@
   },
   "facts/TMDX": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001756262.json",
-    "fetched_at": "2026-11-11T03:40:36+00:00",
+    "fetched_at": "2026-11-16T04:22:30+00:00",
     "sha256": "0d8a4b373e5c8fb47c073fc23a86576ada8c24fb5e54213bcd5387e917b7d5f4"
   },
   "facts/TMUS": {
@@ -1171,8 +1171,8 @@
   },
   "submissions/TMDX": {
     "url": "https://data.sec.gov/submissions/CIK0001756262.json",
-    "fetched_at": "2026-11-11T03:40:36+00:00",
-    "sha256": "9c72f5d6eb023a512324af8d250db04aa0e02536b4f659c832f07464aab8e16a"
+    "fetched_at": "2026-11-16T04:22:30+00:00",
+    "sha256": "5a65639f531f263662115b13ae8174eace8160a62446236756bad2981fa23678"
   },
   "submissions/TMUS": {
     "url": "https://data.sec.gov/submissions/CIK0001283699.json",

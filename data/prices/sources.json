@@ -512,7 +512,7 @@
   "SPY": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-    "last_capture": "2026-11-13T03:04:33+00:00"
+    "last_capture": "2026-11-16T04:22:28+00:00"
   },
   "SSB": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -562,7 +562,7 @@
   "TMDX": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/TMDX",
-    "last_capture": "2026-11-11T02:23:22+00:00"
+    "last_capture": "2026-11-16T04:22:29+00:00"
   },
   "TMUS": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
