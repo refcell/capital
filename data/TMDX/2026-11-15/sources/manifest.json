@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/TMDX.csv",
+      "commit": "1647474ec28c",
+      "sha256": "2d34f61322c1675de855b02af0f4b7d896fd52988014c500d9a71c52a2b16e33",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/TMDX.csv",
+      "commit": "1647474ec28c",
+      "sha256": "3624398c76f51a7bf641f62dea79e4b91ff170cdd2850863eec819bbf3ddd480",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "1647474ec28c",
+      "sha256": "1dfa3813e1d89abbf3e6799780f3ca35feb1cd638195b032117704b4657f68c1",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "ex99-1-q3-2026-htm",
+      "kind": "file",
+      "path": "ex99-1-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449729/tmdx-ex99_1.htm",
+      "fetched_at": "2026-11-16T04:26:40+00:00",
+      "sha256": "78a13ff56c015b6cbf4f26284358ce8892a4ceec3b79146d04dd982a4cb73c65",
+      "description": "Q3 2026 earnings release (8-K Exhibit 99.1, accession 0001193125-26-449729, filed 2026-11-05)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/tmdx-20260930.htm",
+      "fetched_at": "2026-11-16T04:26:40+00:00",
+      "sha256": "6c8b62b09b6f6c6fd7ca260c4cd4c36cc3ef7fe408fb0709688c8fa3b76ab4c6",
+      "description": "Form 10-Q for the quarter ended 2026-09-30 (accession 0001193125-26-449827, filed 2026-11-05)"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-15-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-15.html.gz",
+      "url": "https://stockanalysis.com/stocks/tmdx/forecast/",
+      "fetched_at": "2026-11-16T04:26:40+00:00",
+      "sha256": "bea25b78be74911bc64d437828879d65c13471dc1ab6a6bfe025a3834b644b26",
+      "description": "StockAnalysis forecast page (S&P Global consensus, last updated 2026-11-09; 13 analysts, mean target $104.55)"
+    }
+  ]
+}

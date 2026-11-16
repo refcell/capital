@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "ticker": "TMDX",
+  "date": "2026-11-15",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 91.38,
+      "as_of": "2026-11-13",
+      "source": "data/prices/TMDX.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 727.65,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_gross_profit_m": {
+      "value": 426.43,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_operating_income_m": {
+      "value": 86.447,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_net_income_m": {
+      "value": 144.462,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_eps": {
+      "value": 3.67,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_ocf_m": {
+      "value": 112.359,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "ttm_capex_m": {
+      "value": 67.663,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "cash_m": {
+      "value": 492.962,
+      "as_of": "2026-09-30",
+      "source": "TMDX 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz), balance sheet",
+      "accession": "0001193125-26-449827",
+      "note": "Excludes $18.4M of restricted cash, mostly the $17.9M letter of credit on the headquarters lease; the scaffold took a stale 2024-09-30 figure ($330.1M)"
+    },
+    "total_debt_m": {
+      "value": 889.59,
+      "as_of": "2026-09-30",
+      "source": "TMDX 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz), Notes 7, 8 and 11",
+      "accession": "0001193125-26-449827",
+      "note": "Principal and committed payments, not carrying values: $460.0M 1.50% convertible notes due 2028-06-01 (carrying $455.0M), $55.0M CIBC term loan due July 2027 (carrying $54.8M), and the $374.59M headquarters purchase-option payment the company assumes in 2027 (finance lease liability $351.5M). The scaffold took a stale 2023 figure ($58.8M)"
+    },
+    "shares_outstanding_m": {
+      "value": 34.7339,
+      "as_of": "2026-11-02",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "diluted_shares_m": {
+      "value": 35.94,
+      "as_of": "2026-09-30",
+      "source": "TMDX 10-Q for 2026-09-30 (sources/10q-q3-2026.htm.gz), Note 10 (Q3 diluted 40,833,175 less 4,893,848 if-converted note shares)",
+      "accession": "0001193125-26-449827",
+      "note": "Q3 diluted weighted shares (40.83M) less the 4.89M if-converted note shares, because the model deducts the $460M note principal as a cash obligation; Basic weighted 34.69M plus 1.25M treasury-method award shares; the capped call (strike $94.00, cap $141.88) offsets note dilution up to the cap"
+    },
+    "ttm_fcf_m": {
+      "value": 44.696,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001193125-26-449827"
+    },
+    "market_cap_m": {
+      "value": 3173.98,
+      "as_of": "2026-11-13",
+      "source": "price x shares_outstanding_m"
+    },
+    "net_debt_m": {
+      "value": 396.63,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m - cash_m"
+    },
+    "enterprise_value_m": {
+      "value": 3680.8,
+      "as_of": "2026-11-13",
+      "source": "price x diluted_shares_ex_convert_m + net_debt_m"
+    },
+    "street_target_mean": {
+      "value": 104.55,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz"
+    },
+    "guide_revenue_low_m": {
+      "value": 764.0,
+      "as_of": "2026-11-05",
+      "source": "TMDX Q3 2026 release (sources/ex99-1-q3-2026.htm.gz)",
+      "accession": "0001193125-26-449729",
+      "note": "FY2026, including about $14M from PAD Aviation; $750M-$760M excluding it (prior $737M-$757M)"
+    },
+    "guide_revenue_high_m": {
+      "value": 774.0,
+      "as_of": "2026-11-05",
+      "source": "TMDX Q3 2026 release (sources/ex99-1-q3-2026.htm.gz)",
+      "accession": "0001193125-26-449729"
+    },
+    "fy1_revenue_m": {
+      "value": 767.14,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz",
+      "note": "FY2026"
+    },
+    "fy2_revenue_m": {
+      "value": 901.36,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz",
+      "note": "FY2027"
+    },
+    "fy1_eps": {
+      "value": 1.67,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz",
+      "note": "FY2026, non-GAAP adjusted"
+    },
+    "fy2_eps": {
+      "value": 2.49,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz",
+      "note": "FY2027, non-GAAP adjusted"
+    },
+    "street_target_low": {
+      "value": 70.0,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz"
+    },
+    "street_target_high": {
+      "value": 125.0,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz"
+    },
+    "street_analysts": {
+      "value": 13,
+      "as_of": "2026-11-09",
+      "source": "StockAnalysis forecast (S&P Global, last updated 2026-11-09), sources/stockanalysis-forecast-2026-11-15.html.gz"
+    }
+  },
+  "notes": [
+    "Q3 2026 (release and 10-Q): revenue $203.0M (+41.1%; organic +34.6% excluding $9.4M of PAD Aviation charter revenue); product gross margin 79.2% ((113.419-23.570)/113.419); service gross margin 32.2% ((89.586-60.778)/89.586); operating income $28.1M (13.9%); FCF $27.6M (year-to-date OCF $77.8M less H1 $41.8M, capex $52.1M less H1 $43.7M).",
+    "ttm_net_income_m ($144.5M) and ttm_eps ($3.67) include Q4 2025, when the company released most of its valuation allowance (FY2025 tax benefit $82.8M). Nine-month 2026 net income was $39.1M ($1.08 diluted); adjusted $1.26.",
+    "ttm_fcf_m ($44.7M) is depressed by Q1 2026 capex of $36.7M, mostly the two Somerville parcels; Q2 and Q3 2026 FCF were $10.2M and $27.6M.",
+    "Q3 2026 U.S. transplant revenue by organ: liver $150.2M (+39%), heart $33.3M (+22%), lung $2.0M (-47%); outside the U.S. $6.6M (+82%).",
+    "Obligations falling due by mid-2028 ($889.6M) exceed September 30 cash ($493.0M); the call assumes they are refinanced at no net change in net debt."
+  ]
+}
