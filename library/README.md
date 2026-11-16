@@ -2,7 +2,7 @@
 
 # Coverage library
 
-111 companies, 143 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-11.
+111 companies, 144 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-13.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -122,7 +122,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [THG](THG.md) | The Hanover Insurance Group, Inc. | Financial Services | active | 2026-06-29 | 1 | Watch | Watch | $214.54 | $315.00 | +13.7% | +17.1% | +15.7% |
 | [TIGR](TIGR.md) | UP Fintech Holding Limited | Online brokerage | active | 2026-05-27 | 1 | Watch | Watch | $5.01 | $6.00 | +6.2% | -21.2% | -21.9% |
 | [TLN](TLN.md) | Talen Energy Corporation | Utilities | active | 2026-09-22 | 1 | Watch (positive) | Watch | $299.97 | $434.90 | +13.2% | +21.1% | +23.7% |
-| [TMDX](TMDX.md) | TransMedics Group, Inc. | Medical technology | active | 2026-05-24 | 2 | Watch | Watch | $68.94 | $75.00 | +2.8% | +36.1% | +34.6% |
+| [TMDX](TMDX.md) | TransMedics Group, Inc. | Medical technology | active | 2026-11-15 | 3 | Watch | Watch | $91.38 | $117.98 | +8.9% | — | — |
 | [TMUS](TMUS.md) | T-Mobile US, Inc. | Communication Services | active | 2026-09-19 | 1 | Watch | Watch | $168.18 | $209.57 | +7.6% | +0.5% | +2.1% |
 | [TRMD](TRMD.md) | TORM plc | Energy | active | 2026-11-04 | 1 | Watch | Avoid | $41.73 | $35.45 | -5.3% | -19.8% | -17.6% |
 | [TU](TU.md) | TELUS Corporation | Communication Services | active | 2026-07-02 | 1 | Watch (positive) | Watch | $10.19 | $10.89 | +2.2% | -12.6% | -13.5% |

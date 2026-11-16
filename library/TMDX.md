@@ -2,42 +2,92 @@
 
 # TransMedics Group, Inc. (NASDAQ: TMDX)
 
-Sector: Medical technology / organ transplant logistics and perfusion · Calls: 2 · Latest: 2026-05-24
+Sector: Medical technology / organ transplant logistics and perfusion · Calls: 3 · Latest: 2026-11-15
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch / balanced |
-| Rule rating | Watch (+2.8% a year expected over 3 years) |
-| Price at call | $68.94 on 2026-05-22 |
-| Bear / base / bull | $15.00 / $75.00 / $195.00 |
-| Weights | — / — / — |
-| Fair value | $75.00 (base) |
-| Street mean target | $117.89 |
-| Valuation lens | Revenue durability, normalized FCF, and obligation-adjusted EV |
-| Revenue CAGR vs base rates | bear +8.0% = 57th pct / base +15.0% = 79th pct / bull +22.0% = 89th pct of 5-year growth for $325M–$700M companies ([base rates](BASE_RATES.md)) |
-| Since the call | +36.1% vs SPY +1.5% through 2026-11-09; mark $93.80 is base to bull |
+| Stance (as published) | Watch — unchanged, neutral bias; fair value raised from $75 to $117.98. Q3 restored the unit economics May doubted (product gross margin 79.2%, service 32.2%, two quarters of positive FCF), but at $91.38 the stock carries most of that, about $36 of the base's rise comes from a richer exit multiple, and $890 million of obligations plus about $206 million of headquarters buildout fall due against $493 million of cash |
+| Rule rating | Watch (+8.9% a year expected over 3 years) |
+| Price at call | $91.38 on 2026-11-13 |
+| Bear / base / bull | $33.74 / $124.28 / $228.60 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $117.98 (weighted) |
+| Street mean target | $104.55 |
+| Valuation lens | End-2029 value: 2029 GAAP operating income times an exit EV/EBIT, plus end-2029 net cash after $889.6M of obligations due by mid-2028 (convertible principal, CIBC loan, headquarters purchase option), about $206M of remaining headquarters buildout capex, FCF from Q4 2026 and after-tax interest, over diluted shares (convertible shares above the $141.88 capped-call cap added); three-year value, undiscounted |
+| Revenue CAGR vs base rates | bear +8.0% = 61th pct / base +15.0% = 83th pct / bull +23.0% = 92th pct of 5-year growth for $700M–$1.5B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-24 — Q4 2026 results, 10-K and FY2027 guidance, expected around February 23, 2027 after the close |
 
-## Fundamentals known on 2026-05-24
+**Thesis.** TransMedics' Q2 and Q3 answered the May question of whether the OCS/NOP model can earn: product gross margin was 79.2% and service gross margin 32.2% in Q3 (77.5% and 26.5% in Q1), revenue grew 41% (35% organic), FCF was positive in both quarters, and FY2026 guidance rose to $764-774M. GAAP operating margin fell to 13.9% because R&D nearly doubled for ENHANCE Heart, DENOVO Lung, OCS Kidney and Next-Generation OCS, which is spending, not weaker unit economics. At $91.38, after a 28% jump on the release, the stock carries a base of 15% growth and a 19% operating margin by 2029 at 22x EV/EBIT, below its own history and peers but richer than May's 20x FCF. $890M of obligations due by mid-2028 and about $206M of headquarters buildout against $493M of cash keep the bear real. Weighted $117.98, 8.9% a year: Watch.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TMDX 2026-05-24`). Later restatements are not visible here by design.
+**Variant view.** No variant view on price; our three-year value discounts back to about the Street's 12-month mean, and the margin point below is in the release and was priced by the 28% move. The analytical correction to our own May call is that falling operating margin was R&D, which nearly doubled to $29.2M a quarter, while both gross margins rose year on year. If the trials run their course, margin recovers without any change in unit economics. Checkable: FY2027 GAAP operating margin of at least 13% (0.55).
+
+**Catalysts.**
+
+- Q4 2026 results, 10-K and FY2027 guidance (About February 23, 2027 after the close (last year February 24, 2026))
+- ENHANCE Heart Part B and DENOVO Lung enrollment (IDEs approved October 2026, CHOPS as control arm) (2027)
+- Headquarters purchase option ($374.6M if exercised by December 31, 2027), CIBC loan maturity (July 2027) and the $200-240M headquarters buildout through 2030 (2027)
+- 1.50% convertible notes ($460M) due June 1, 2028; capped call exercises from April 3, 2028 (2028)
+- OCS Kidney first-in-human experience; NOP launch in Italy, the Netherlands and Belgium (Second half of 2027)
+- CMS final rule CMS-3409-F on OPO Conditions for Coverage (released October 30, 2026) and the HRSA OPTN transition (UNOS extension runs to December 29, 2026) (2026-2027)
+
+**Pre-mortem** (written at decision time).
+
+- Liver, 81% of Q3 U.S. transplant revenue, matures or loses share to OrganOx (Terumo) normothermic liver perfusion and Paragonix (Getinge) cold transport, while heart grows high single digits and lung keeps shrinking, so growth falls toward 8% by 2028 before the trials add indications. — watch: U.S. liver growth below 20% a quarter; competitor center wins; service revenue per case; lung revenue below $2M a quarter
+- Spending on four trials, kidney, Europe and the new headquarters keeps operating expenses growing as fast as revenue, and operating margin stays near 12% through 2029. — watch: Quarterly operating expenses growing faster than revenue; FY2027 operating margin below 12%
+- The $890M of 2027-28 obligations and about $206M of headquarters buildout are funded on poor terms or with equity at a low price, after a weak quarter, diluting every scenario. — watch: Financing announcements in 2027; whether the headquarters option is exercised for cash; buildout capex against the $200-240M estimate
+- CMS's OPO rule, HRSA's OPTN changes or payer pushback change how organs are recovered or how NOP services are paid for, cutting volume or price. — watch: Content of CMS-3409-F; OPO and transplant-center commentary; service revenue per case
+- The Watch call is wrong on the upside: ENHANCE and DENOVO enroll fast, Europe and kidney add growth early, and revenue compounds above 23% while margins recover. — watch: Revenue growth above 25% through 2027; operating margin above 16% in 2027
+
+**Kill criteria.**
+
+- Trailing-four-quarter organic revenue growth (excluding PAD Aviation) below 10% in any quarter reported through Q3 2027 (base about 13-15%, bear 8%) (check by 2027-11-15) — open
+- Reported service gross margin (including PAD Aviation charter revenue, $9.4M of Q3's $89.6M) below 26%, the Q1 2026 trough, in any quarter of 2027 (check by 2028-03-15) — open
+- FY2027 GAAP operating margin below 11% (base 13.5%, bear 10.5%) (check by 2028-03-15) — open
+
+**Probability claims.**
+
+- 85%: TransMedics reports FY2026 total revenue of at least $764M (the low end of the November 5 guidance; Q4 at least $197.1M). (resolves by 2027-03-15)
+- 50%: TransMedics' first FY2027 total revenue guidance has a midpoint of at least $880M. (resolves by 2027-03-15)
+- 55%: Reported Q4 2026 service gross margin (service revenue, including PAD Aviation charter revenue, less cost of service revenue, over service revenue) is at least 30%. (resolves by 2027-03-15)
+- 55%: FY2027 GAAP operating margin is at least 13% (bear path 10.5%, base 13.5%, bull 15%). (resolves by 2028-03-15)
+- 75%: TransMedics announces a new debt, convertible or equity financing of at least $250M by December 31, 2027. (resolves by 2028-01-31)
+
+**What would change the view.**
+
+- Toward Own: a FY2027 revenue guide at or above $900M with service gross margin above 30%
+- Toward Own: a price at or below about $78 at these weights (15% a year)
+- Toward Own: 2027 operating margin above 15% while R&D keeps funding the trials
+- Toward Avoid: trailing organic growth below 10%, or service margin back below 26%
+- Toward Avoid: an equity raise to fund the 2027-28 obligations at a price below $70
+- Toward the bear: CMS-3409-F or OPTN changes restrict how OPOs or centers use outsourced procurement, or OrganOx wins U.S. liver share
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 2, risk 4, calibration 4). Counter-case: The revised call now leans too far toward caution, so the stronger case is Own. Its bear, 8% growth at 15x carrying 30% weight, describes a company whose organic growth was 35% in Q3, whose guidance has risen twice, and whose Street estimate is 17.5% for 2027 alone. The base's 22x sits below TransMedics' own 10th-percentile EV/EBIT (24.9x) and the peer median (34.6x), for a business the call says will still grow 12-15% after 2029. On the call's own sensitivity, 26x gives about $129 (12.3% a year) and 30x about $140 (15.2%, Own). The call also deducts all the headquarters buildout capex but credits nothing for owning the building in place of leasing it.
+
+**Response.** Accepted from round 2: the Q4 2026 buildout is now deducted (values $33.74 / $124.28 / $228.60, fair value $117.98, 8.9% a year), the breakeven multiple is stated as about 16x, the equity-raise stress is at $25 ($31.84), the $36 and 11% figures are consistent, the margin-ramp caveat is added, and the funding-cost gap (about $1-2 a share) is noted but not modeled. On the counter-case: we keep 22x and 30/50/20. A bull-leaning multiple of 26-30x would assume the trials and Europe succeed, which is what the bull case already carries at 20% weight. The bear's 30% reflects liver at 81% of U.S. revenue with OrganOx competing, lung shrinking, and about $1.1B of obligations and buildout against $493M of cash, not today's growth rate. Owning the building is not a separate credit: its use is already in operating income and EV, and the model treats the $374.6M purchase as debt refinanced at 3.5%, about what the lease's imputed interest costs. The call stays Watch with a neutral bias; Own needs about $78 or proof that 2027 margin can rise while the trials run.
+
+**Data notes.** The May call was a backfill with no horizon or weights; its base valued 2030 FCF at 20x. This update states end-2029 values, undiscounted, on 2029 GAAP operating income. The base's 22x EV/EBIT equals 27.9x its 2029 FCF ($175.7M, about equal to NOPAT of $169.1M). At May's 20x FCF the base would be $87.84 and the weighted value $99.76 (3.0% a year), so about $36 of the base's rise from $75 to $124.28 comes from the multiple and about $13 from margins, horizon and the FCF that offsets obligations. 22x is kept because it is below TransMedics' own 10th-percentile EV/EBIT (24.9x) and the SIC 384x peer median (34.6x) for a company still growing 12-15% after 2029; it is a judgment, and the sensitivity below shows the cost of being wrong. Obligations ($889.6M, principal and committed payments): $460.0M 1.50% convertible notes due June 1, 2028 (conversion $94.00, capped call to $141.88 on 4.89M shares); $55.0M CIBC term loan, monthly amortization from July 2026, due July 2027; $374.59M headquarters purchase-option payment, assumed in 2027 (finance lease liability $351.5M). Restricted cash ($18.4M) is excluded. Headquarters buildout capex ($200-240M through 2030, $13.8M incurred) is deducted outside the case FCF margins at the $206M midpoint remainder: $10M in Q4 2026, $60M in 2027, $60M in 2028 and $50M in 2029 ($180M by end-2029) and $26M in 2030, which falls after the valuation date and is left out of the values. Net cash changes by FCF, after-tax interest at 3.5% and the buildout; Q4 2026 FCF is $15M / $25M / $30M. Shares start at 35.94M (Q3 diluted 40.83M less 4.89M if-converted note shares) and grow 2.4% / 1.8% / 1.35% a year from awards (SBC $31.2M in nine months; $71.7M unrecognized). The bull's end-2029 value above $141.88 adds 4.89M x (P - 141.88) / P shares. GAAP EPS now carries tax: the valuation allowance was released in Q4 2025 (FY2025 tax benefit $82.8M), so TTM EPS of $3.67 overstates the run-rate; Q3 2026 tax was $7.0M on $24.1M of pre-tax income. Projection net income taxes operating income plus net interest at 24%. Sensitivities at 30/50/20: base exit 18x gives $106.25 (5.2% a year), 20x $112.11 (7.1%), 26x $129.38 (12.3%), 30x $139.78 (15.2%, Own); base margin 17% in 2029 gives $111.19; base growth 12% gives $112.76; weights 35/45/20 give $113.46 (7.5%), 40/45/15 $103.71 (4.3%), 25/50/25 $127.73 (11.8%). The base EV/EBIT that returns today's price is about 16x. A $250M bear equity raise at $25 (10M shares, 2% fees) would cut the bear to $31.84. Base rates ($700M-$1.5B starting revenue): 8% is the 61st percentile of five-year revenue CAGRs, 15% the 83rd, 23% the 92nd. The base asks TransMedics to stay in the top fifth for three more years; it grew 37% in 2025 and about 27% in 2026, and the Street expects 17.5% in 2027 alone. The base's 2027 operating margin of 13.5% needs operating expenses to grow about 11% (from about $360M in 2026 to about $400M) while ENHANCE Part B, DENOVO, kidney first-in-human use and three European NOP launches start; Q3 opex was $90.5M, +48% year on year. A slower ramp in 2027 that still reaches 19% in 2029 leaves the value unchanged only because the model sets FCF margins separately; in the business, lower 2027-28 operating income would also mean less FCF. Funding cost: the model charges or credits one 3.5% rate on net cash. If the $889.6M is refinanced at about 6.5% while cash earns 3.5%, after-tax interest from 2027 to 2029 is roughly $50M worse in the base, about $1-2 a share; it is not in the values. Service gross margin now includes PAD Aviation's charter flying ($9.4M of Q3 service revenue, margin not disclosed); the claim and kill criterion use the reported total. CMS-3409-F (OPO Conditions for Coverage, released October 30, 2026) appears in the Q3 release's risk list; web access was unavailable during this run, so its content was not read and it is not in the values. Competitor facts (OrganOx under Terumo, Paragonix under Getinge) come from the May initiation, not new sources. Web search and page reads failed for lack of credits during this run; Street data comes from the StockAnalysis forecast page captured with curl on 2026-11-15 (S&P Global data last updated November 9; 13 ratings, 11 price targets). Review round 1 (agent:reviewing-research, grade C): figures and math reproduced, but the $200-240M headquarters buildout was missing; the base's 2027 margin step to 15% conflicted with the trial and Europe start-ups; the exit-multiple defence ('FCF held down by growth capex') contradicted the model and the multiple change supplied about $36 of the base's rise; PAD charter revenue sits in service margin; competition was absent from the pre-mortem; the organic-growth kill line sat close to the base path; the financing claim was low; the net-cash note misdescribed the script; the Street had 11 targets, not 13. Fixed: buildout deducted at the $206M midpoint (values fell to $33.74 / $124.28 / $228.60, fair value $123.35 to $117.98), 2027 margins lowered to 10.5% / 13.5% / 15%, after-tax interest credited to net cash, multiple attribution stated, bias moved from positive to neutral, PAD caveat added, competition pre-mortem added, kill line moved to trailing-four-quarter organic growth below 10%, financing claim to 0.75, margin claim to at least 13% at 0.55, target count corrected. Review round 2 (grade B): round-1 fixes held. Open: the Q4 2026 buildout ($10M) was defined but not deducted; the breakeven multiple was misstated (about 16x, not 17x); the bear equity-raise test at $40 was accretive rather than a stress; $36/$37 and 11%/12% inconsistencies; the 'value unchanged' line needed a caveat; funding cost at one 3.5% rate. Fixed: Q4 buildout deducted (values $33.74 / $124.28 / $228.60, fair value $117.98, 8.9% a year), breakeven stated as about 16x, raise test moved to $25 ($31.84), wording made consistent, caveat added, funding-cost note added.
+
+## Fundamentals known on 2026-11-15
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit TMDX 2026-11-15`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 635.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Gross profit (TTM) | 375.7M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Operating income (TTM) | 94.4M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Net income (TTM) | 171.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Diluted EPS (TTM) | 4.37 USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Operating cash flow (TTM) | 220.2M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Capex (TTM) | 68.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Free cash flow (TTM) | 151.4M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Stock comp (TTM) | 37.9M USD | 2026-03-31 | ttm ytd | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
+| Revenue (TTM) | 727.6M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Gross profit (TTM) | 426.4M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Operating income (TTM) | 86.4M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Net income (TTM) | 144.5M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Diluted EPS (TTM) | 3.67 USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Operating cash flow (TTM) | 112.4M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Capex (TTM) | 67.7M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Free cash flow (TTM) | 44.7M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Stock comp (TTM) | 40.5M USD | 2026-09-30 | ttm ytd | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
 | Cash | 330.1M USD | 2024-09-30 | instant | [0000950170-24-118260](https://www.sec.gov/Archives/edgar/data/1756262/000095017024118260/) |
 | Long-term debt | 58.8M USD | 2023-03-31 | instant | [0000950170-23-017909](https://www.sec.gov/Archives/edgar/data/1756262/000095017023017909/) |
-| Equity | 494.0M USD | 2026-03-31 | instant | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
-| Shares outstanding | 34.6M | 2026-04-30 | instant | [0001193125-26-206453](https://www.sec.gov/Archives/edgar/data/1756262/000119312526206453/) |
+| Equity | 550.7M USD | 2026-09-30 | instant | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
+| Shares outstanding | 34.7M | 2026-11-02 | instant | [0001193125-26-449827](https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/) |
 
 ## Earnings calendar
 
@@ -47,7 +97,8 @@ Last release: 2026-11-05 (post-market 8-K Item 2.02, [0001193125-26-449729](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-05-24 | $68.94 | Watch | Watch | $15.00 | $75.00 | $195.00 | $75.00 | +36.1% | +34.6% | base to bull | [report](https://github.com/refcell/capital/blob/a31e071/research/TMDX.md) |
-| 2026-05-11 | $67.84 | unstated | Avoid | $4.00 | $67.00 | $203.00 | $67.00 | +38.3% | +35.7% | base to bull | [report](https://github.com/refcell/capital/blob/83bcdf3/research/TMDX.md) |
+| 2026-11-15 | $91.38 | Watch | Watch | $33.74 | $124.28 | $228.60 | $117.98 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/TMDX/2026-11-15.md) · [projection](https://github.com/refcell/capital/blob/main/projections/TMDX.md) · [model](https://github.com/refcell/capital/blob/main/models/TMDX/2026-11-15.xlsx) · [script](https://github.com/refcell/capital/blob/main/models/_build_TMDX.py) |
+| 2026-05-24 | $68.94 | Watch | Watch | $15.00 | $75.00 | $195.00 | $75.00 | +32.6% | +30.9% | base to bull | [report](https://github.com/refcell/capital/blob/a31e071/research/TMDX.md) |
+| 2026-05-11 | $67.84 | unstated | Avoid | $4.00 | $67.00 | $203.00 | $67.00 | +34.7% | +31.9% | base to bull | [report](https://github.com/refcell/capital/blob/83bcdf3/research/TMDX.md) |
 
 Data: `data/TMDX/`. Prices: `data/prices/TMDX.csv`.
