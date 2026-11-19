@@ -134,6 +134,11 @@
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM",
     "last_capture": "2026-11-11T02:22:50+00:00"
   },
+  "CRS": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRS",
+    "last_capture": "2026-11-19T03:03:55+00:00"
+  },
   "CVE": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVE",
@@ -512,7 +517,7 @@
   "SPY": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-    "last_capture": "2026-11-16T04:22:28+00:00"
+    "last_capture": "2026-11-19T03:03:55+00:00"
   },
   "SSB": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
