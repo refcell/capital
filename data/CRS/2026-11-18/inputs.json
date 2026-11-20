@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "ticker": "CRS",
+  "date": "2026-11-18",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 269.68,
+      "as_of": "2026-11-17",
+      "source": "data/prices/CRS.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 3188.7,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "ttm_gross_profit_m": {
+      "value": 995.4,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:GrossProfit (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "ttm_operating_income_m": {
+      "value": 745.1,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "ttm_net_income_m": {
+      "value": 570.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045",
+      "note": "FY2026 $529.8M + Q1 FY2027 $162.5M - Q1 FY2026 $122.5M"
+    },
+    "ttm_eps": {
+      "value": 11.34,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "ttm_ocf_m": {
+      "value": 618.6,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "cash_m": {
+      "value": 159.5,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "total_debt_m": {
+      "value": 700.0,
+      "as_of": "2026-09-30",
+      "source": "5.625% senior notes due 2034, $700.0M principal (8-K 2025-11-20); carrying value $691.0M in the Q1 FY2027 10-Q",
+      "accession": "0000017843-26-000045",
+      "note": "Face value used; no maturities until 2034; $499.1M undrawn revolver"
+    },
+    "shares_outstanding_m": {
+      "value": 49.5407,
+      "as_of": "2026-10-16",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "diluted_shares_m": {
+      "value": 50.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-10-22",
+      "accession": "0000017843-26-000045"
+    },
+    "market_cap_m": {
+      "value": 13360.14,
+      "as_of": "2026-11-17",
+      "source": "price x shares_outstanding_m"
+    },
+    "ttm_capex_m": {
+      "value": 277.8,
+      "as_of": "2026-09-30",
+      "source": "FY2026 10-K cash flow ($242.7M) + Q1 FY2027 ($77.7M) - Q1 FY2026 ($42.6M), purchases of property, plant, equipment and software",
+      "accession": "0000017843-26-000045"
+    },
+    "ttm_fcf_m": {
+      "value": 340.8,
+      "as_of": "2026-09-30",
+      "source": "TTM operating cash flow $618.6M less TTM capex $277.8M (company FCF also adds small disposal proceeds)",
+      "accession": "0000017843-26-000045"
+    },
+    "net_debt_m": {
+      "value": 649.9,
+      "as_of": "2026-09-30",
+      "source": "$700.0M notes - $159.5M cash + $109.4M pension ($85.6M) and postretirement ($23.8M) liabilities, Q1 FY2027 10-Q balance sheet",
+      "accession": "0000017843-26-000045",
+      "note": "Benefit liabilities treated as debt-like; excluding them net debt is $540.5M"
+    },
+    "enterprise_value_m": {
+      "value": 14010.0,
+      "as_of": "2026-11-17",
+      "source": "market cap $13,360.1M + net debt including benefit liabilities $649.9M"
+    },
+    "ttm_ebitda_m": {
+      "value": 897.4,
+      "as_of": "2026-09-30",
+      "source": "TTM operating income $745.1M + TTM D&A ~$152.3M (FY2026 $147.1M, Q1 run-rate per FY2027 guide of ~$150M)",
+      "note": "D&A approximate for the Q1 swap"
+    },
+    "dividend_per_share": {
+      "value": 0.8,
+      "as_of": "2026-09-30",
+      "source": "Quarterly dividend $0.20, unchanged since at least FY2022 (FY2026 dividends paid $40.3M)",
+      "accession": "0000017843-26-000034"
+    },
+    "tax_rate_pct": {
+      "value": 21.0,
+      "as_of": "2026-07-30",
+      "source": "FY2027 guidance assumption 20-22% effective tax rate (Q4 FY2026 presentation)",
+      "accession": "0000017843-26-000028"
+    },
+    "fy1_revenue_m": {
+      "value": 3436.6,
+      "as_of": "2026-10-26",
+      "source": "StockAnalysis (S&P Global) FY2027 revenue consensus, sources/stockanalysis-forecast-2026-11-18.html.gz",
+      "note": "7 analysts"
+    },
+    "fy2_revenue_m": {
+      "value": 3786.0,
+      "as_of": "2026-10-26",
+      "source": "StockAnalysis (S&P Global) FY2028 revenue consensus, sources/stockanalysis-forecast-2026-11-18.html.gz"
+    },
+    "fy1_eps": {
+      "value": 13.44,
+      "as_of": "2026-10-26",
+      "source": "StockAnalysis (S&P Global) FY2027 adjusted EPS consensus, sources/stockanalysis-forecast-2026-11-18.html.gz",
+      "note": "Non-GAAP adjusted; the page gives no GAAP EPS, only FY2027 net income of $674.70M"
+    },
+    "fy2_eps": {
+      "value": 15.98,
+      "as_of": "2026-10-26",
+      "source": "StockAnalysis (S&P Global) FY2028 adjusted EPS consensus, sources/stockanalysis-forecast-2026-11-18.html.gz",
+      "note": "Non-GAAP adjusted"
+    },
+    "street_target_mean": {
+      "value": 438.0,
+      "as_of": "2026-11-18",
+      "source": "StockAnalysis (S&P Global), 8 analysts, consensus Buy, sources/stockanalysis-forecast-2026-11-18.html.gz"
+    },
+    "street_target_low": {
+      "value": 315.0,
+      "as_of": "2026-11-18",
+      "source": "StockAnalysis (S&P Global), sources/stockanalysis-forecast-2026-11-18.html.gz"
+    },
+    "street_target_high": {
+      "value": 520.0,
+      "as_of": "2026-11-18",
+      "source": "StockAnalysis (S&P Global), sources/stockanalysis-forecast-2026-11-18.html.gz"
+    },
+    "street_analysts": {
+      "value": 8,
+      "as_of": "2026-11-18",
+      "source": "StockAnalysis (S&P Global), sources/stockanalysis-forecast-2026-11-18.html.gz"
+    },
+    "week52_high": {
+      "value": 625.99,
+      "as_of": "2026-07-06",
+      "source": "Intraday 52-week high reported in sources/news-excerpts-2026-11-18.txt (MarketCatalyst); highest committed daily close is $619.25 on 2026-07-06",
+      "note": "Date approximate (\"early July\")"
+    },
+    "week52_low": {
+      "value": 269.68,
+      "as_of": "2026-11-17",
+      "source": "Committed close 2026-11-17 (data/prices/CRS.csv); the daily series starts 2026-01-15, and the 2026-11-05 close of $278.88 was reported as the lowest close in a year (ApexTrader), so $269.68 is the lowest close in at least a year"
+    }
+  },
+  "notes": [
+    "Fiscal year ends June 30. FY2027 runs July 2026 to June 2027.",
+    "FY2027 guidance (Q4 FY2026 release 2026-07-30, reaffirmed 2026-10-22): operating income $850-880M, adjusted free cash flow $400-430M, capex $355-375M, D&A ~$150M, interest expense $21-25M net of capitalized interest, tax rate 20-22%, required pension contributions $25M. Q2 FY2027 operating income guide $192-197M (Q1 FY2027 release, accession 0000017843-26-000049).",
+    "FY2029 operating income target $1.2-1.3B (set 2026-07-30, reaffirmed 2026-10-22); management says FY2029 is not the peak. Brownfield capacity expansion in Athens, Alabama is on schedule and on budget, expected online early FY2028.",
+    "Q1 FY2027 repurchases: 241,924 shares for $133.9M (about $553 a share); $985.0M remains on the $1.0B program authorized August 2026. FY2026: 545,000 shares for $179.1M (about $329).",
+    "StockAnalysis estimates were last updated 2026-10-26, four days after the Q1 FY2027 report; FY2029 consensus and later years are behind the Pro paywall.",
+    "The price is the 2026-11-17 committed close; the StockAnalysis page implies a 2026-11-18 close of about $272.04 ($438 target = +61.01%), which is not yet in the committed series."
+  ],
+  "fiscal_years": {
+    "fy1": "FY2027 (June 2027)",
+    "fy2": "FY2028 (June 2028)"
+  }
+}

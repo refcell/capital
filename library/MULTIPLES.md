@@ -32,6 +32,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [CNC](CNC.md) | Hospital & Medical Service Plans | 23.8x | 16.1–26.3x | 0.1x | 0.2–0.4x | 26.4x | 11.3–21.4x | SIC 63xx, 2 names: 0.9x, 35.6x |
 | [CNM](CNM.md) | Wholesale-Durable Goods, NEC | 19.1x | 19.6–26.2x | 1.5x | 1.3–1.8x | 15.2x | 12.5–17.4x | — |
 | [CRM](CRM.md) | Services-Prepackaged Software | 18.1x | 47.3–194.2x | 4.6x | 6.2–9.1x | 23.3x | 38.5–336.2x | SIC 7372, 10 names: 5.4x, 61.2x |
+| [CRS](CRS.md) | Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens) | 23.7x | 15.0–51.7x | 4.4x | 1.2–2.0x | 18.6x | 15.6–29.8x | — |
 | [CVE](CVE.md) | Crude Petroleum & Natural Gas | — | — | — | — | — | — | SIC 13xx, 1 names: 1.2x, 8.4x |
 | [CVS](CVS.md) | Retail-Drug Stores and Proprietary Stores | 10.4x | 11.9–22.6x | 0.4x | 0.4–0.6x | 10.8x | 10.6–18.4x | SIC 59xx, 1 names: 2.4x, 19.6x |
 | [CXW](CXW.md) | Real Estate Investment Trusts | 23.7x | 9.4–16.5x | 1.1x | 1.3–1.7x | 25.4x | 15.8–25.0x | SIC 6798, 3 names: 3.9x, 35.0x |

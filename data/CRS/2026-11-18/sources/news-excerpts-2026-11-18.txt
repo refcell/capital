@@ -1,0 +1,29 @@
+Secondary news excerpts captured 2026-11-18 via web search. Used only for the stock-price path,
+broker actions and call commentary; all financial figures in the call come from SEC filings.
+
+1. MarketCatalyst, "Why Carpenter Technology Fell Over 50% From Its Peak" (2026-11-03)
+   https://marketcatalyst.ai/posts/why-carpenter-technology-fell-over-50-from-its-peak-revenue-misses-a-ceo-loss
+   - 52-week high $625.99 in early July 2026; $290.37 close on Oct 22, 2026, down 19.9% that day.
+   - Q1 FY27 revenue $798.2M vs $830.85M expected; EPS $3.25 vs $3.04. Q4 FY26 revenue $851.0M vs $862.03M expected; adj EPS $3.23 vs $3.07.
+   - On the call, management said the quarter came in at about 98-99% of its own guidance (maintenance downtime, fewer operating days);
+     defense bookings fell sequentially and year over year, attributed to funding timing; engine and distribution bookings rose.
+   - Consensus FY2027 EPS cited as $13.64.
+
+2. Tickeron, "Carpenter Technology (CRS) Falls -26% After Earnings Report and Softer Outlook" (2026-11-05)
+   https://tickeron.com/blogs/carpenter-technology-crs-falls-26-after-earnings-report-and-softer-outlook-29600
+   - KeyBanc downgraded CRS to Sector Weight from Overweight on 2026-10-26 (softer Q2 outlook, production disruptions, defense funding timing, sentiment).
+   - Several law firms announced securities-fraud investigations after the drop.
+
+3. Trefis, "What Would A Short Seller Say About Carpenter Technology?" (2026-11-16)
+   https://www.trefis.com/stock/crs/articles/625264/what-would-a-short-seller-say-about-carpenter-technology/2026-11-16
+   - CRS lost 46.2% in the three months to 2026-11-13; traded at 4.6x sales on 2026-11-13 vs 9.8x at end-June 2026.
+   - Commercial aerospace supply-chain bookings +25% year over year in Q1 FY27 (management, Oct 22 call).
+
+4. Quiver Quantitative, "Carpenter Technology Slides as Investors Continue to Digest Softer Near-Term Outlook" (2026-11-13)
+   https://www.quiverquant.com/news/Carpenter+Technology+Slides+as+Investors+Continue+to+Digest+Softer+Near-Term+Outlook
+   - Several firms cut price targets in October 2026.
+
+5. ApexTrader, "Carpenter falls 4.5% with the market as revenue concerns linger" (2026-11-05)
+   https://apextrader.ai/en/stocks/CRS/eod
+   - CRS closed 2026-11-05 at $278.88, its lowest close in a year; aerospace and defense were 65% of FY2026 sales.
+   - Next earnings report expected 2027-01-28.

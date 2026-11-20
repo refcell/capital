@@ -40,7 +40,7 @@ From committed SEC XBRL facts filed on or before the call date (`python3 -m capi
 
 ## Earnings calendar
 
-Last release: 2026-08-10 (post-market 8-K Item 2.02, [0001104659-26-093421](https://www.sec.gov/Archives/edgar/data/868857/000110465926093421/)). Next release, estimated from the same quarter last year: 2026-11-17.
+Last release: 2026-08-10 (post-market 8-K Item 2.02, [0001104659-26-093421](https://www.sec.gov/Archives/edgar/data/868857/000110465926093421/)). Next release, estimated from the same quarter last year: 2027-02-08.
 
 ## Call history
 

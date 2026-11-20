@@ -2,7 +2,7 @@
 
 # Coverage library
 
-111 companies, 144 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-13.
+112 companies, 145 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-17.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -13,7 +13,7 @@ The rule rating is derived from each call's fair value versus its price, annuali
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
 | Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 1 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 76 | 106 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 77 | 107 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 17 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -47,6 +47,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [CNC](CNC.md) | Centene Corporation | Healthcare | active | 2026-11-07 | 1 | Watch | Avoid | $69.74 | $69.22 | -0.2% | +0.6% | -1.3% |
 | [CNM](CNM.md) | Core & Main, Inc. | Industrials — Industrial Distribution | active | 2026-11-11 | 2 | Watch | Watch | $47.44 | $54.91 | +5.0% | — | — |
 | [CRM](CRM.md) | Salesforce, Inc. | Enterprise software | active | 2026-05-25 | 1 | Watch (positive) | Watch | $180.07 | $270.00 | +14.5% | +19.1% | +18.0% |
+| [CRS](CRS.md) | Carpenter Technology Corporation | Materials — Specialty alloys (aerospace and defense, medical, energy) | active | 2026-11-18 | 1 | Watch (positive) | Watch | $269.68 | $388.95 | +13.0% | — | — |
 | [CVE](CVE.md) | Cenovus Energy Inc. | Energy | active | 2026-09-15 | 1 | Watch | Watch | $33.27 | $35.83 | +2.5% | -16.4% | -15.2% |
 | [CVS](CVS.md) | CVS Health Corporation | Healthcare | active | 2026-06-19 | 1 | Pass | Avoid | $98.32 | $60.07 | -15.1% | -8.3% | -8.9% |
 | [CXW](CXW.md) | CoreCivic, Inc. | Real Estate — Privately Operated Correctional & Detention Facilities | active | 2026-06-23 | 1 | Avoid (negative) | Watch | $29.73 | $33.00 | +3.5% | +6.3% | +3.8% |

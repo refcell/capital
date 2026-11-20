@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "ticker": "CRS",
+  "exchange": "NYSE",
+  "company": "Carpenter Technology Corporation",
+  "sector": "Materials — Specialty alloys (aerospace and defense, medical, energy)",
+  "date": "2026-11-18",
+  "origin": "run",
+  "prior_call": null,
+  "research_status": "initial",
+  "research_status_text": "Initial, after Q1 FY2027 results (2026-10-22) and a 56% fall from the July 2026 high",
+  "stance": "watch",
+  "bias": "positive",
+  "stance_text": "Watch, positive bias. The earnings path to about $1.1B of FY2029 operating income looks intact after the de-rating, but at about 17x operating income on peak-cycle margins the weighted value implies 13.0% a year on the 3-year rating horizon (15.0% a year on the actual 2.6 years to June 2029, exactly the Own line); it stays Watch because a deep bear that halves operating income carries no weight. On the 3-year rule it clears 15% near $256.",
+  "rating_override_reason": null,
+  "primary_lens": "other",
+  "lens_text": "Value at June 30, 2029 (end of FY2029): FY2029 GAAP operating income times an exit EV/EBIT, plus June 2029 net cash (September 30, 2026 cash less the $700M notes and $109.4M of pension and postretirement liabilities, plus FCF from Q2 FY2027 less dividends, with after-tax interest), over diluted shares, plus dividends paid; undiscounted, treated as a three-year value",
+  "price": {
+    "value": 269.68,
+    "currency": "USD",
+    "date": "2026-11-17"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 187.98,
+      "weight": 0.3,
+      "revenue_cagr": 0.008,
+      "basis": "Aerospace supply chain destocks and pricing normalizes: FY2027 operating income $800M (below the $850-880M guide), then $760M and $720M in FY2029 on revenue of $3.20B (22.5% margin); brownfield capacity sits underused; FCF $388M/$544M/$564M; FY2029 EBIT $720M x 12x = $8.64B, near Carpenter's own 10th-percentile EV/EBIT (11.2x); June 2029 net cash $761M; 50.6M shares; plus $2.20 of dividends"
+    },
+    "base": {
+      "value": 404.56,
+      "weight": 0.45,
+      "revenue_cagr": 0.095,
+      "basis": "FY2027 operating income $860M (inside the guide), FY2028 $1.0B as the Athens brownfield expansion starts contributing, FY2029 $1.13B (6% below the $1.2-1.3B target's low end) on revenue of $4.10B (27.6% margin); FCF $403M/$663M/$820M as capex falls from $365M to $200M; FY2029 EBIT x 17x = $19.21B, a turn above today's 16x EV/EBIT on guided FY2027 operating income; June 2029 net cash $1,150M; 50.6M shares; plus $2.20 of dividends"
+    },
+    "bull": {
+      "value": 602.05,
+      "weight": 0.25,
+      "revenue_cagr": 0.121,
+      "basis": "New LTAs reprice higher and the brownfield ramps fast: FY2027 $880M (top of the guide), FY2028 $1.08B, FY2029 $1.32B (above the target) on revenue of $4.40B (30% margin); FCF $397M/$707M/$945M; FY2029 EBIT x 22x = $29.04B, Carpenter's own median EV/EBIT (22.5x) and below ATI (26.7x) and Howmet (30.3x) at October 31; June 2029 net cash $1,314M; 50.6M shares; plus $2.20 of dividends"
+    }
+  },
+  "fair_value": {
+    "value": 388.95,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "Value at June 30, 2029 (FY2029 year end), undiscounted, plus dividends. The rating rule annualizes over 3 years (13.0% a year); the value date is 2.62 years after the 2026-11-17 price, over which the same value implies 15.0% a year, at the Own threshold",
+  "street": {
+    "target_mean": 438.0,
+    "target_median": 450.0,
+    "target_low": 315.0,
+    "target_high": 520.0,
+    "analysts": 8,
+    "rating_text": "Buy (5 Strong Buy, 1 Buy, 2 Hold in October 2026; KeyBanc downgraded to Sector Weight on 2026-10-26)",
+    "as_of": "2026-11-18",
+    "source": "StockAnalysis (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-18.html.gz"
+  },
+  "deviation_from_street": {
+    "pct": -11.2,
+    "reason": "Two reasons. Horizon: Street targets are 12-month prices; this is a mid-2029 value, and discounting it back two years at the call's own 13% a year gives about $305, close to the $315 low target. Assumptions: the base takes FY2029 operating income of $1.13B, below management's $1.2-1.3B target that most targets accept, and holds the exit at 17x EV/EBIT, below Carpenter's own median (22.5x) and peers (ATI 26.7x, Howmet 30.3x), because FY2029 margins would be the highest in the company's history and specialty-metals earnings have been cyclical."
+  },
+  "thesis": "Carpenter grows operating income from $702M in FY2026 to about $1.13B in FY2029 on pricing, mix and the Athens brownfield capacity, and converts it to $1.9B of FCF over the period; at a mid-cycle 17x EV/EBIT that is worth about $405 in mid-2029, and about $389 after weighting a 30% chance of an aerospace destock.",
+  "consensus_view": "After falling 56% from its July close high ($619.25) to $269.68, the stock trades at about 16x FY2027 guided operating income and about 20x FY2027 consensus EPS ($13.44). The price treats the Q1 FY2027 revenue miss, the flat Q2 guide, the pause in defense orders and the July death of CEO Brian Malloy as signs the aerospace pricing cycle has peaked. The Street ($438 mean target, 8 analysts, nearly all Buy) still underwrites management's FY2029 target.",
+  "variant_view": "Both reads are off. The earnings engine held through a maintenance quarter: SAO adjusted margin was 37.7% against a 37.8% record, structural and distribution aerospace bookings rose 49% year over year, and management says pricing is still rising on LTA and spot business. So the de-rating overstates the damage. But the FY2029 target needs record margins, a fast brownfield ramp and no aerospace hiccup, and earnings at peak margins deserve a mid-cycle multiple. On $1.13B of FY2029 operating income at 17x, the stock is worth about $405, roughly 14.5% a year: good, not cheap enough for a cyclical at a record margin.",
+  "why_opportunity": [
+    "behavioral",
+    "technical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q2 FY2027 results",
+      "timing": "Around January 28, 2027 (estimated from the prior-year release)",
+      "date": "2027-01-28",
+      "kind": "hard",
+      "what_it_proves": "Whether Q2 operating income lands in the $192-197M guide, whether bookings keep rising and defense orders return, and whether the steep second-half ramp the full-year guide needs (about $230-245M a quarter) is on track",
+      "value_impact": "Q2 at or above $197M with the FY2027 guide held supports the base and lifts bull weight to 30%; below $185M or a guide cut moves 10 points of weight to the bear (about -$22 a share)"
+    },
+    {
+      "event": "Q3 FY2027 results",
+      "timing": "Around April 28, 2027",
+      "date": "2027-04-28",
+      "kind": "hard",
+      "what_it_proves": "Second-half run-rate against the $850-880M full-year guide; brownfield commissioning status",
+      "value_impact": "Q3 operating income above $225M keeps the base FY2027 of $860M"
+    },
+    {
+      "event": "FY2027 results and FY2028 outlook",
+      "timing": "Around July 29, 2027",
+      "date": "2027-07-29",
+      "kind": "hard",
+      "what_it_proves": "FY2027 operating income and FCF against guidance, the first FY2028 outlook (base $1.0B) and whether the FY2029 target is held",
+      "value_impact": "An FY2028 guide at or above $1.0B holds the base; below $925M moves weight to the bear"
+    },
+    {
+      "event": "Latrobe collective bargaining agreement expires (450 production employees)",
+      "timing": "July 31, 2027",
+      "date": "2027-07-31",
+      "kind": "hard",
+      "what_it_proves": "Labor cost and continuity at a key SAO mill",
+      "value_impact": "A strike would cost a quarter of Latrobe output; small in value unless prolonged"
+    },
+    {
+      "event": "Athens, Alabama brownfield expansion comes online and qualifies",
+      "timing": "Early FY2028 (July-December 2027)",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether new capacity adds volume in FY2028-29 as the base assumes",
+      "value_impact": "A slip past June 2028 takes about $60-80M off FY2029 operating income, about -$20 to -$27 a share at 17x"
+    },
+    {
+      "event": "New long-term agreements with engine and structural customers",
+      "timing": "FY2027-FY2028",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether pricing keeps rising (management: 'negotiating multiple LTAs with significant pricing upside')",
+      "value_impact": "Disclosed higher pricing supports the bull; flat renewals support the bear"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "The aerospace supply chain destocked in 2027: Boeing and engine programs missed rate targets, distributors cut orders, and spot pricing on non-LTA business stopped rising. FY2028 operating income fell below FY2027 and the stock was valued as a cyclical at the top.",
+      "signal": "Two straight quarters of lower sequential aerospace bookings, or management dropping 'accelerating demand' language; distribution sub-market bookings down year over year"
+    },
+    {
+      "reason": "New premium-melt capacity from ATI, Haynes (Acerinox) and imports arrived as Carpenter's brownfield came online, and LTA renewals were priced flat. SAO margins fell from 38% to about 30%.",
+      "signal": "SAO adjusted operating margin below 35% in any quarter, or LTA renewals described as flat"
+    },
+    {
+      "reason": "Execution slipped after the CEO's death: the brownfield ran late and over budget, a planned outage became an unplanned one at Reading, and senior turnover continued. FY2027 missed guidance and the FY2029 target was withdrawn.",
+      "signal": "Q2 or Q3 FY2027 operating income below the quarterly guide, FY2027 capex above $375M, or another senior officer departure"
+    },
+    {
+      "reason": "Management kept buying back stock with borrowed money while FCF was weak (Q1 FY2027 repurchases were at about $553 a share) and entered a downturn with a drawn revolver.",
+      "signal": "Revolver borrowings above $200M at a quarter end while repurchases continue"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2027 operating income below $800M in the FY2027 results release",
+      "check_by": "2027-08-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "FY2029 operating income target withdrawn, or its low end cut below $1.1B",
+      "check_by": "2027-08-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "SAO adjusted operating margin (excluding surcharge) below 33% for two consecutive quarters",
+      "check_by": "2027-11-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Athens brownfield expansion not shipping qualified material by June 30, 2028",
+      "check_by": "2028-08-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "q2-fy27-oi-192",
+      "claim": "Carpenter's operating income for Q2 FY2027 (quarter ending December 31, 2026), as reported in its earnings release, is at least $192.0 million.",
+      "probability": 0.8,
+      "resolve_by": "2027-02-15"
+    },
+    {
+      "id": "fy27-oi-850",
+      "claim": "Carpenter's FY2027 operating income (year ending June 30, 2027), as reported in its FY2027 earnings release, is at least $850.0 million.",
+      "probability": 0.6,
+      "resolve_by": "2027-08-31"
+    },
+    {
+      "id": "fy27-fcf-400",
+      "claim": "Carpenter's FY2027 free cash flow (or adjusted free cash flow) as reported in its FY2027 earnings release is at least $400.0 million.",
+      "probability": 0.5,
+      "resolve_by": "2027-08-31"
+    },
+    {
+      "id": "fy29-target-held",
+      "claim": "In its FY2027 earnings release or call materials, Carpenter states an FY2029 operating income target whose low end is at least $1.2 billion.",
+      "probability": 0.7,
+      "resolve_by": "2027-08-31"
+    },
+    {
+      "id": "fy27-buybacks-400",
+      "claim": "Carpenter's FY2027 cash flow statement shows purchases of common stock of at least $400 million.",
+      "probability": 0.45,
+      "resolve_by": "2027-08-31"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: Q2 FY2027 operating income at or above $197M with sequential bookings growth and new LTAs disclosed at higher prices",
+    "More bullish: the same facts at a price near $256, where the weighted value implies 15% a year on the 3-year rule, or evidence that rules out a halving of operating income before FY2029",
+    "More bearish: Q2 FY2027 operating income below $185M, an FY2027 guide cut, or SAO adjusted margin below 35%",
+    "More bearish: a brownfield delay past June 2028 or FY2027 capex above $375M"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $3B-$6B starting revenue, 5-year revenue CAGR, 2009-2025 (scenario rates are FY2026-FY2029 three-year CAGRs and include surcharge revenue)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 76
+  },
+  "update": null,
+  "next_review": "2027-01-29",
+  "next_review_trigger": "Q2 FY2027 results, expected around January 28, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/CRS.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/CRS/2026-11-18.xlsx",
+      "commit": null
+    },
+    "build_script": {
+      "path": "models/_build_CRS.py",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/CRS.md",
+      "commit": null
+    }
+  },
+  "evidence": {
+    "price.value": "Carpenter Technology closed at $269.68 on 2026-11-17",
+    "scenarios.bear.value": "| Bear | $187.98 | 30% |",
+    "scenarios.base.value": "| Base | $404.56 | 45% |",
+    "scenarios.bull.value": "| Bull | $602.05 | 25% |",
+    "fair_value.value": "| Probability-weighted | $388.95 | 100% |",
+    "street.target_mean": "$438 mean target"
+  },
+  "notes": [
+    "Price is the 2026-11-17 committed close. The StockAnalysis page implies a 2026-11-18 close of about $272.04, not yet in the committed series.",
+    "FCF after dividends accrues as cash in the model rather than buying back stock at an assumed price. Buybacks below the case value would add to per-share value in the base and bull; buybacks above it (as in Q1 FY2027 at about $553) subtract.",
+    "Sensitivity: each 1x of exit EV/EBIT is worth about $22 a share in the base ($1,130M / 50.6M shares); each $50M of FY2029 operating income is worth about $17 at 17x. A deep bear (FY2029 operating income $520M, about the FY2025 level, at 10x) would be about $120.",
+    "Exit multiples were tested with python3 -m capital.multiples: Carpenter's own EV/EBIT p10 11.2x, p25 15.6x, median 22.5x, p75 29.8x (94 months); at October 31, 2026 ATI was 26.7x and Howmet 30.3x. The SIC group has no other covered names, so ATI and HWM were captured as named peers.",
+    "Revenue includes raw-material surcharge (FY2026 $596.7M of $3,124.2M), which moves with nickel and cobalt prices; operating income is the cleaner driver."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-20",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: the value is struck at June 30, 2029, about 2.6 years from the price date, but the return is computed over 3 years; on the actual horizon the weighted $388.95 implies about 15.0% a year, so 'slightly understates' hides a stance sitting on the Own/Watch line; separately, the 30% bear weight is justified by operating income falling by half in 3 of 15 years, yet the bear case has FY2029 operating income of $720M, above FY2026's record $702M, so the weight and the scenario describe different events.",
+      "variant_view: the base tracks consensus for FY2027 (consensus operating income $870.02M vs base $860M) and sits near the FY2028 consensus EPS of $15.98 (base $15.36 GAAP); the only real disagreement is FY2029 operating income 6% below the low end of management's target, and the claim that the Street underwrites that target can't be checked because FY2029 consensus is paywalled.",
+      "calibration: the 76th-percentile revenue CAGR includes surcharge and is not the binding assumption; the base needs operating income to grow about 17% a year to a record 27.6% margin at 45% weight, the bear still assumes 22.5% margins (more than double the FY2012-FY2019 average of about 8%), and the $120 deep bear, the shape of every prior downturn here (operating income -78% from FY2013 to FY2016, negative in FY2021), gets no weight."
+    ],
+    "grade": "B",
+    "counter_case": "Carpenter is a cyclical at the top: the call's own bear still has FY2029 operating income above FY2026's record and margins more than double the FY2012-FY2019 average, so every weighted scenario assumes the best earnings in the company's 137 years persist, while the last two downturns took operating income down 78% and then below zero. The near-term evidence is already turning: SAO missed its own Q1 segment guide ($216.3M against $218-222M), the Q2 consolidated guide ($192-197M) is below the Q1 guide ($195-200M), defense orders fell, the CEO died, eight Street targets were cut 25-30%, and management spent $133.9M buying stock at about $553 while free cash flow was negative. Weight the $120 deep bear at even 15% and the value falls toward $360, under 10% a year, which is a Watch with a negative bias, not a positive one.",
+    "response": "Fixed: the horizon is now stated both ways (13.0% a year on the 3-year rule, 15.0% on the actual 2.62 years to June 2029); the bear weight is now justified by the modeled event (a pricing stall as the industry adds capacity) and the deep bear is named as unweighted, with its effect (15% weight taken pro rata gives about $349, about 9% a year on the rule); the Street rating counts, median target ($450), Q1 guide (operating income $196.4M was inside the $195-200M guide; only SAO missed its segment guide), October 22 close ($292.26, -20.6%), target-cut dates, trailing EV/EBIT (18.8x), FY2026 Q4 revenue miss and the EPS note were corrected. Partly accepted: the counter-case is the reason the stance is Watch and not Own even though the weighted value meets the hurdle on the actual horizon. Not accepted: a negative bias. Q1 operating income rose 28% with SAO margin within 0.1 point of its record, the full-year and FY2029 targets were reaffirmed, commercial aerospace bookings rose 49% year over year, and the balance sheet has no maturity before 2034, so the evidence for a halving within three years is the industry's history, not current data. The kill criteria (Q2 operating income below $185M, SAO margin below 35%, two quarters of falling aerospace bookings) are where that history would first show."
+  }
+}

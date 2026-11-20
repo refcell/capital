@@ -22,7 +22,7 @@ Caveats: SEC `frames` values are the latest filed, so these are restated figures
 
 Each latest call's scenario revenue CAGR, placed in the distribution for its starting revenue (TTM revenue as filed on the call date). Percentile = share of history at or below the forecast.
 
-Across 55 calls, the median base case sits at the 69th percentile; 24 of 55 base cases are above the 75th percentile and 18 of 55 bull cases are above the 90th.
+Across 56 calls, the median base case sits at the 69th percentile; 25 of 56 base cases are above the 75th percentile and 18 of 56 bull cases are above the 90th.
 
 | Call | Starting revenue | Bucket | Bear CAGR (pct) | Base CAGR (pct) | Bull CAGR (pct) |
 |---|---:|---|---:|---:|---:|
@@ -40,6 +40,7 @@ Across 55 calls, the median base case sits at the 69th percentile; 24 of 55 base
 | [CNC/2026-11-07](CNC.md) | $203.90B | Over $50B | +0.0% (27) | +2.0% (39) | +3.5% (47) |
 | [CNM/2026-11-11](CNM.md) | $7.70B | $6B–$12B | +1.0% (32) | +3.0% (43) | +6.0% (62) |
 | [CRM/2026-05-25](CRM.md) | $41.52B | $25B–$50B | +5.0% (63) | +8.0% (82) | +11.0% (90) |
+| [CRS/2026-11-18](CRS.md) | $3.19B | $3B–$6B | +0.8% (28) | +9.5% (76) | +12.1% (85) |
 | [CXW/2026-06-23](CXW.md) | $2.34B | $1.5B–$3B | +4.0% (45) | +6.0% (57) | +10.0% (75) |
 | [DCBO/2026-05-29](DCBO.md) | $0.24B | $50M–$325M | +6.0% (44) | +10.0% (55) | +14.0% (66) |
 | [DLO/2026-05-24](DLO.md) | $1.09B | $700M–$1.5B | +14.0% (81) | +19.0% (89) | +24.0% (93) |

@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/CRS.csv",
+      "commit": "ae7270e971f8",
+      "sha256": "040dd6901ecb173b8422154c02638ef9ef95c6f4968bb5e4cd24c42c8c7a7814",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/CRS.csv",
+      "commit": "ae7270e971f8",
+      "sha256": "6727e6130209ddd8d074694a8b1c87cfdef25410d6944a2c222ce677d625a1e1",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "ae7270e971f8",
+      "sha256": "1515c8610b08ea7022ef81c8a63f4da39e581278a370c326d8873c3bc4393f56",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "a1stqtrfy2027results-htm",
+      "kind": "file",
+      "path": "a1stqtrfy2027results.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000049/a1stqtrfy2027results.htm",
+      "fetched_at": "2026-11-19T03:07:12+00:00",
+      "sha256": "9c5d40efe51fcede0450a7b5cee13377f3bf8ccc7ac41a5d0588c150b6efa2c0",
+      "description": "Q1 FY2027 earnings release (8-K Exhibit 99.1, accession 0000017843-26-000049, filed 2026-10-22)"
+    },
+    {
+      "id": "a1q27earningspresentatio",
+      "kind": "file",
+      "path": "a1q27earningspresentatio.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000047/a1q27earningspresentatio.htm",
+      "fetched_at": "2026-11-19T03:07:13+00:00",
+      "sha256": "cad12d17af92fc595ba86a91d2cd82dd899316ab6108e891995e5b413c6d77f6",
+      "description": "Q1 FY2027 earnings presentation (8-K Exhibit 99.1, accession 0000017843-26-000047, filed 2026-10-22)"
+    },
+    {
+      "id": "crs-20260930-10q-htm",
+      "kind": "file",
+      "path": "crs-20260930-10q.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000045/crs-20260930.htm",
+      "fetched_at": "2026-11-19T03:07:15+00:00",
+      "sha256": "3eb287cb10a795d14e91d94e1512d78c68e873e8426f8196dff034f04bc6c7db",
+      "description": "Form 10-Q for the quarter ended 2026-09-30 (accession 0000017843-26-000045, filed 2026-10-22)"
+    },
+    {
+      "id": "a4thqtr2026resultspressrel-htm",
+      "kind": "file",
+      "path": "a4thqtr2026resultspressrel.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000030/a4thqtr2026resultspressrel.htm",
+      "fetched_at": "2026-11-19T03:09:07+00:00",
+      "sha256": "75bcf1298d3d7fa2d52ef888e9c0c9aaefdd0c8c2f3111da0b4bc0ff47755ca8",
+      "description": "Q4 and FY2026 earnings release with FY2027 outlook and FY2029 target (8-K Exhibit 99.1, accession 0000017843-26-000030, filed 2026-07-30)"
+    },
+    {
+      "id": "a4q26earningspresentatio",
+      "kind": "file",
+      "path": "a4q26earningspresentatio.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000028/a4q26earningspresentatio.htm",
+      "fetched_at": "2026-11-19T03:09:08+00:00",
+      "sha256": "b7bf5bec1af74df7e743f4383735f2c1e75ec891f2a467a14596e99ebc948372",
+      "description": "Q4 FY2026 earnings presentation incl. FY2027 guidance assumptions (8-K Exhibit 99.1, accession 0000017843-26-000028, filed 2026-07-30)"
+    },
+    {
+      "id": "d115412dex991",
+      "kind": "file",
+      "path": "d115412dex991.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312526320951/d115412dex991.htm",
+      "fetched_at": "2026-11-19T03:09:05+00:00",
+      "sha256": "739912791f972ad972800e94bed8a830771929bab74ae53f748e4cd5ec70635d",
+      "description": "Press release: death of CEO Brian Malloy, Tony Thene returns as CEO (8-K, accession 0001193125-26-320951, filed 2026-07-28)"
+    },
+    {
+      "id": "d109893dex991",
+      "kind": "file",
+      "path": "d109893dex991.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312526054998/d109893dex991.htm",
+      "fetched_at": "2026-11-19T03:09:05+00:00",
+      "sha256": "8504065c4fe408659036658e5a338aae8832b22deea9ee7a182b07af49737b61",
+      "description": "Press release: CEO transition plan, Malloy to succeed Thene July 1, 2026 (8-K, accession 0001193125-26-054998, filed 2026-02-17)"
+    },
+    {
+      "id": "bodappointmentannouncement",
+      "kind": "file",
+      "path": "bodappointmentannouncement.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000036/bodappointmentannouncement.htm",
+      "fetched_at": "2026-11-19T03:09:05+00:00",
+      "sha256": "fb0e4d766db16db82a035df78c4ded7226be73c61690e7085b360b448ef5dbb0",
+      "description": "Press release: Ken Giacobbe joins the board; two directors leave (8-K, accession 0000017843-26-000036, filed 2026-08-12)"
+    },
+    {
+      "id": "crs-20260825-8k",
+      "kind": "file",
+      "path": "crs-20260825-8k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000038/crs-20260825.htm",
+      "fetched_at": "2026-11-19T03:07:15+00:00",
+      "sha256": "ad093c8746e659c3fc2f6f1e512209b006f57121cfb859eba21b08d43e1c0374",
+      "description": "8-K Item 7.01: CEO Tony Thene sold 109,283 shares, retains 466,697 (accession 0000017843-26-000038, filed 2026-08-25)"
+    },
+    {
+      "id": "gctransitionoct2026final",
+      "kind": "file",
+      "path": "gctransitionoct2026final.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000040/gctransitionoct2026final.htm",
+      "fetched_at": "2026-11-19T03:07:14+00:00",
+      "sha256": "1a47c7b439952583ded81b8fbeee8c7ae2759530a2a036ea4a15c64cbfb6a085",
+      "description": "Press release: General Counsel succession (8-K, accession 0000017843-26-000040, filed 2026-10-15)"
+    },
+    {
+      "id": "crs-20261110-8k",
+      "kind": "file",
+      "path": "crs-20261110-8k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000052/crs-20261110.htm",
+      "fetched_at": "2026-11-19T03:07:14+00:00",
+      "sha256": "a4ca23d3a5ed88f32739d3917b1df70d7e61844f5bbbea06a1055129cf8744a9",
+      "description": "8-K Item 5.02: Marshall Akins appointed COO (accession 0000017843-26-000052, filed 2026-11-16)"
+    },
+    {
+      "id": "crs-cooccotransitionxfinal",
+      "kind": "file",
+      "path": "crs-cooccotransitionxfinal.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000052/crs-cooccotransitionxfinal.htm",
+      "fetched_at": "2026-11-19T03:07:13+00:00",
+      "sha256": "ded137d855e5ea76b60756614b90e7d65be0d2c2ec6d085bf2e2617a66c9c688",
+      "description": "Press release: COO, CCO and IR appointments (8-K Exhibit 99.1, accession 0000017843-26-000052, filed 2026-11-16)"
+    },
+    {
+      "id": "tm2531768d1-ex99-1",
+      "kind": "file",
+      "path": "tm2531768d1_ex99-1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex99-1.htm",
+      "fetched_at": "2026-11-19T03:09:06+00:00",
+      "sha256": "1cc097175ed0263ee5bf75b479b6b0df65c07d62a7f275dd2d9e560c73a138d5",
+      "description": "Press release: closing of $700.0M 5.625% senior notes due 2034 (8-K, accession 0001104659-25-114628, filed 2025-11-20)"
+    },
+    {
+      "id": "tm2530700d1-ex99-1",
+      "kind": "file",
+      "path": "tm2530700d1_ex99-1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925109178/tm2530700d1_ex99-1.htm",
+      "fetched_at": "2026-11-19T03:09:07+00:00",
+      "sha256": "c72fe70ecd900ee96fc6fd0ac3f1253e4b4ccf4ee06a75875188c487097a0f56",
+      "description": "Press release: pricing of $700.0M 5.625% senior notes due 2034 (8-K, accession 0001104659-25-109178, filed 2025-11-10)"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-18-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-18.html.gz",
+      "url": "https://stockanalysis.com/stocks/crs/forecast/",
+      "fetched_at": "2026-11-19T03:15:45+00:00",
+      "sha256": "2095b7eef0301612fc9f925af1633feefc3a959a29b9b6f9f6afcf3490494ed8",
+      "description": "StockAnalysis forecast page (S&P Global consensus, TipRanks analyst actions), estimates last updated 2026-10-26, captured 2026-11-18"
+    },
+    {
+      "id": "crs-20260630-10k-htm",
+      "kind": "file",
+      "path": "crs-20260630-10k.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-20260630.htm",
+      "fetched_at": "2026-11-19T03:16:22+00:00",
+      "sha256": "ba17f5ae1a1492ccf4b8d7088b1fd1e81bd11bd5860259fa65d069be0624e8d6",
+      "description": "Form 10-K for the fiscal year ended 2026-06-30 (accession 0000017843-26-000034, filed 2026-08-12)"
+    },
+    {
+      "id": "news-excerpts-2026-11-18",
+      "kind": "file",
+      "path": "news-excerpts-2026-11-18.txt",
+      "url": "https://marketcatalyst.ai/posts/why-carpenter-technology-fell-over-50-from-its-peak-revenue-misses-a-ceo-loss",
+      "fetched_at": "2026-11-19T03:18:16+00:00",
+      "sha256": "aa33ba38b7f4aa871460bdf00e75ffbd722fe7a16f1805b6b26ae1ed96e53dd2",
+      "description": "Secondary news excerpts on the 2026 drawdown, KeyBanc downgrade and call commentary (five articles, URLs inside)"
+    }
+  ]
+}
