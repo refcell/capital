@@ -534,6 +534,11 @@
     "fetched_at": "2026-11-11T06:33:50+00:00",
     "sha256": "14ac618c94752969675ecde92710ba7719400038cdae6cc3d2e33ac966b31bf3"
   },
+  "facts/STLA": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001605484.json",
+    "fetched_at": "2026-11-21T03:02:06+00:00",
+    "sha256": "8dabd091e93bd48f3d1fa59548d7bed5dbd478e564d5b00518e56ca44a5a0ab0"
+  },
   "facts/STZ": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000016918.json",
     "fetched_at": "2026-11-11T03:40:33+00:00",
@@ -1163,6 +1168,11 @@
     "url": "https://data.sec.gov/submissions/CIK0001796022.json",
     "fetched_at": "2026-11-11T06:33:49+00:00",
     "sha256": "ffbb3369a2febafd32ceaa92a236c1fa76d324d864ceeefbf22db3b88f590ae4"
+  },
+  "submissions/STLA": {
+    "url": "https://data.sec.gov/submissions/CIK0001605484.json",
+    "fetched_at": "2026-11-21T03:02:06+00:00",
+    "sha256": "4225a71a6e797a9ab4d749a9d48d4d838b9ade81b86924483a72cf2d87201efb"
   },
   "submissions/STZ": {
     "url": "https://data.sec.gov/submissions/CIK0000016918.json",

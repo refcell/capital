@@ -517,7 +517,7 @@
   "SPY": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY",
-    "last_capture": "2026-11-19T03:03:55+00:00"
+    "last_capture": "2026-11-21T03:02:05+00:00"
   },
   "SSB": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
@@ -528,6 +528,11 @@
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/STEP",
     "last_capture": "2026-11-11T06:33:48+00:00"
+  },
+  "STLA": {
+    "source": "Yahoo Finance chart API v8 (close, adjclose)",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STLA",
+    "last_capture": "2026-11-21T03:02:05+00:00"
   },
   "STZ": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
