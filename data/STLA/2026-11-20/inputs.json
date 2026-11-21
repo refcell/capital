@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "ticker": "STLA",
+  "date": "2026-11-20",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 3.54,
+      "as_of": "2026-11-19",
+      "source": "data/prices/STLA.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 161266.0,
+      "as_of": "2026-09-30",
+      "source": "TTM: 153,508 - 111,467 + 119,225; FY2025 20-F (0001605484-26-000021) less 9M 2025 plus 9M 2026 (SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28)",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "ttm_operating_income_m": {
+      "value": -16784.0,
+      "as_of": "2026-09-30",
+      "source": "TTM IFRS operating income: -26,254 - (-8,411) + 1,059; FY2025 20-F (0001605484-26-000021) less 9M 2025 plus 9M 2026 (SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28)",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "ttm_net_income_m": {
+      "value": -15327.0,
+      "as_of": "2026-09-30",
+      "source": "TTM net profit: -22,332 - (-6,788) + 217; FY2025 20-F (0001605484-26-000021) less 9M 2025 plus 9M 2026 (SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28)",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "ttm_eps": {
+      "value": -5.38,
+      "as_of": "2026-09-30",
+      "source": "TTM diluted EPS: -7.75 - (-2.35) + 0.02; FY2025 20-F (0001605484-26-000021) less 9M 2025 plus 9M 2026 (SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28)",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "ttm_ocf_m": {
+      "value": -4629.0,
+      "as_of": "2026-09-30",
+      "source": "TTM cash flows from operating activities (incl. financial services): -4,650 - (-6,838) + (-6,817); FY2025 20-F (0001605484-26-000021) less 9M 2025 plus 9M 2026 (SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28)",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "cash_m": {
+      "value": 29046.0,
+      "as_of": "2026-09-30",
+      "source": "SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "total_debt_m": {
+      "value": 55999.0,
+      "as_of": "2026-09-30",
+      "source": "SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28; includes financial services debt",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "shares_outstanding_m": {
+      "value": 2897.4832,
+      "as_of": "2025-12-31",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-02-26",
+      "accession": "0001605484-26-000021"
+    },
+    "diluted_shares_m": {
+      "value": 2902.097,
+      "as_of": "2026-09-30",
+      "source": "Weighted average shares Q3 2026 (basic = diluted on the loss), SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28",
+      "accession": "0001605484-26-000090"
+    },
+    "market_cap_m": {
+      "value": 10273.4,
+      "as_of": "2026-11-19",
+      "source": "price x diluted_shares_m (2,902.1M); EUR 9,363M at EUR/USD 1.0972"
+    },
+    "street_target_mean": {
+      "value": 6.39,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz"
+    },
+    "street_target_low": {
+      "value": 3.92,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz"
+    },
+    "street_target_high": {
+      "value": 10.0,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz"
+    },
+    "net_debt_m": {
+      "value": -5400.0,
+      "as_of": "2026-09-30",
+      "source": "Industrial net financial position (net cash EUR 5,400M, includes EUR 4,927M hybrid perpetual notes proceeds), SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "enterprise_value_m": {
+      "value": 13890.0,
+      "as_of": "2026-11-19",
+      "source": "Market cap EUR 9,363M + hybrid perpetual notes 4,927 + employee benefit liabilities 5,003 - industrial net cash 5,400 (Q3 2026 interim report, 0001605484-26-000092)",
+      "currency": "EUR"
+    },
+    "book_value_per_share": {
+      "value": 19.42,
+      "as_of": "2026-09-30",
+      "source": "Equity attributable to owners of the parent EUR 61,291M less hybrid perpetual notes EUR 4,927M, over 2,902.1M shares (Q3 2026 interim report, 0001605484-26-000092)",
+      "currency": "EUR"
+    },
+    "dividend_per_share": {
+      "value": 0.0,
+      "as_of": "2026-09-30",
+      "source": "No ordinary dividend paid in 2026 (EUR 0.68 in 2025), SEC 6-K exhibit 99.1, Q3 2026 press release, filed 2026-10-28",
+      "accession": "0001605484-26-000090",
+      "currency": "EUR"
+    },
+    "fy1_revenue_m": {
+      "value": 161090.0,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz",
+      "currency": "EUR"
+    },
+    "fy2_revenue_m": {
+      "value": 164460.0,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz (headline \"Revenue Next Year\")",
+      "currency": "EUR"
+    },
+    "fy1_eps": {
+      "value": 0.5,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz; non-GAAP adjusted, 23 analysts",
+      "currency": "EUR"
+    },
+    "fy2_eps": {
+      "value": 0.9,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz; non-GAAP adjusted",
+      "currency": "EUR"
+    },
+    "street_analysts": {
+      "value": 8,
+      "as_of": "2026-11-20",
+      "source": "StockAnalysis forecast page (S&P Global, TipRanks), sources/stockanalysis-forecast-2026-11-20.html.gz (price targets)"
+    },
+    "week52_high": {
+      "value": 10.89,
+      "as_of": "2025-12-31",
+      "source": "data/prices/monthly/STLA.csv, 2025-12 month-end close, the highest close in the 52 weeks to 2026-11-19 (the daily series data/prices/STLA.csv starts 2026-01-15, so intramonth highs before then are not captured)"
+    },
+    "week52_low": {
+      "value": 3.54,
+      "as_of": "2026-11-18",
+      "source": "data/prices/STLA.csv, lowest close in the committed series"
+    }
+  },
+  "notes": [
+    "Financials are IFRS in euros; the price is the NYSE close in dollars. Values convert at the 2026-11-19 EUR/USD close (1.0972) and hold it constant.",
+    "Industrial net cash (non-GAAP) excludes financial services and includes the hybrid perpetual notes proceeds, which are equity under IFRS but rank ahead of common shares.",
+    "EUR/USD close 1.0972 on 2026-11-19 (sources/yahoo-eurusd-2026-11-20.json); price in euros EUR 3.23.",
+    "Q3 2026 (Q3 2026 press release, 0001605484-26-000090): revenue EUR 37,611M; AOI EUR 256M (0.7%); net loss EUR 453M; IFCF -EUR 4,009M. 9M 2026: revenue EUR 119,225M; AOI EUR 1,989M (1.7%; 9M 2025 EUR 630M); net profit EUR 217M; adjusted diluted EPS EUR 0.31; IFCF -EUR 4,930M (9M 2025 -EUR 7,309M). Q2 2026 (0001605484-26-000062): revenue EUR 43,482M, AOI EUR 773M, IFCF +EUR 1,000M.",
+    "Balance sheet at 2026-09-30 (Q3 2026 interim report, 0001605484-26-000092): industrial net financial position EUR 5,400M (EUR 6,694M at 2025-12-31); industrial available liquidity EUR 42,652M (26% of TTM revenue), of which undrawn committed lines EUR 13,859M (EUR 18,287M at 2025-12-31); hybrid perpetual notes EUR 4,927M net (EUR 2.2B 6.250%, EUR 1.8B 6.875%, GBP 865M 8.250%, issued March 2026); employee benefit liabilities EUR 5,003M; equity attributable to owners of the parent EUR 61,291M.",
+    "FY2025 (Investor Day 2026): AOI margin -0.5%, IFCF -EUR 4.5B, revenue EUR 154B. FaSTLAne 2030 targets: 2028 revenue EUR 175B, AOI margin 5%, IFCF EUR 3B; 2030 EUR 190B, 7%, EUR 6B; VCP EUR 6B run-rate savings by 2028; investment about 7% of revenue; dividend payout 25-30% when industrial liquidity exceeds 25% of revenue (sources/news-excerpts-2026-11-20.txt).",
+    "FY2026 guidance (reaffirmed 2026-10-28): revenue up mid-single digits, low-single-digit AOI margin, IFCF improved year over year including about EUR 1.6B of payments for H2 2025 charges, positive IFCF in 2027; net tariff cost about EUR 1.0B; capex and R&D about 6.5% of revenue.",
+    "Consensus 2027 AOI margin 2.3% (Visible Alpha, via Milano Finanza 2026-11-18); Oddo BHF 2027: AOI margin 1.6%, IFCF -EUR 2.2B, EUR 2.2B gross cost inflation. Street targets: mean $6.39, median $6.08, low $3.92, high $10 (8 analysts, StockAnalysis 2026-11-20).",
+    "Ratings: Moody's Baa3 stable, S&P BBB- negative (Milano Finanza 2026-11-18). Disclosed net shorts 9.1% of capital (Consob via MarketScreener 2026-11-18).",
+    "STLA closed at $3.34 on 2026-11-20 (StockAnalysis), after the committed 2026-11-19 close."
+  ],
+  "fiscal_years": {
+    "fy1": "FY2026",
+    "fy2": "FY2027"
+  }
+}

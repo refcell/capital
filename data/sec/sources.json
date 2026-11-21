@@ -194,6 +194,11 @@
     "fetched_at": "2026-11-11T03:39:54+00:00",
     "sha256": "7d0c6ffc44924c0eb922205853d3e44408f1f12ba2c6eba35eb5645b68b7d33d"
   },
+  "facts/F": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000037996.json",
+    "fetched_at": "2026-11-21T03:04:13+00:00",
+    "sha256": "a572be781d554ea39f47c7b478d31b137f91b87d769f044ce2cb922ac7d36189"
+  },
   "facts/FCFS": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000840489.json",
     "fetched_at": "2026-11-11T03:39:54+00:00",
@@ -223,6 +228,11 @@
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001834489.json",
     "fetched_at": "2026-11-11T03:39:57+00:00",
     "sha256": "4de1910f0370bd28751a891cdca2c844ebb8daaeecb29d50de8d010f362263e4"
+  },
+  "facts/GM": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001467858.json",
+    "fetched_at": "2026-11-21T03:04:13+00:00",
+    "sha256": "e62161d8f058c3b37c42fd90f779e6bf9945a54c71e384e3e6a3ddab68fc6c49"
   },
   "facts/GNW": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001276520.json",
@@ -829,6 +839,11 @@
     "fetched_at": "2026-11-11T03:39:53+00:00",
     "sha256": "dedbfd43a915c26626040c4fd30a7857f24c8dec6524778e91d9ce0d0a376b5c"
   },
+  "submissions/F": {
+    "url": "https://data.sec.gov/submissions/CIK0000037996.json",
+    "fetched_at": "2026-11-21T03:04:13+00:00",
+    "sha256": "12e9488c4c7032cf888fc5c3c988aba3ff469af32a1e37f302bc4595a8d1f759"
+  },
   "submissions/FCFS": {
     "url": "https://data.sec.gov/submissions/CIK0000840489.json",
     "fetched_at": "2026-11-11T03:39:54+00:00",
@@ -858,6 +873,11 @@
     "url": "https://data.sec.gov/submissions/CIK0001834489.json",
     "fetched_at": "2026-11-11T03:39:57+00:00",
     "sha256": "c012aba2ebfa2fb347d9e9c72aabaf7ed9ebcdeb73f21bfadca914d02559b9bc"
+  },
+  "submissions/GM": {
+    "url": "https://data.sec.gov/submissions/CIK0001467858.json",
+    "fetched_at": "2026-11-21T03:04:13+00:00",
+    "sha256": "207ac99ee30ff59346443d15c4371191b80261f932e7dc75b41124d3c6d3e1b0"
   },
   "submissions/GNW": {
     "url": "https://data.sec.gov/submissions/CIK0001276520.json",

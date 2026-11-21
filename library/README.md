@@ -2,7 +2,7 @@
 
 # Coverage library
 
-112 companies, 145 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-17.
+113 companies, 146 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-19.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,7 +12,7 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 1 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 16 | 2 |
 | Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 77 | 107 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 17 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
@@ -118,6 +118,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [SPXC](SPXC.md) | SPX Technologies, Inc. | Industrials | active | 2026-09-18 | 1 | Watch (positive) | Watch | $179.70 | $238.52 | +9.9% | -16.5% | -15.0% |
 | [SSB](SSB.md) | SouthState Bank Corporation | Financial Services | active | 2026-08-10 | 1 | Watch | Watch | $108.56 | $140.00 | +8.8% | -2.0% | +0.8% |
 | [STEP](STEP.md) | StepStone Group Inc. | Financials | active | 2026-11-11 | 2 | Watch | Watch | $49.18 | $56.89 | +5.0% | — | — |
+| [STLA](STLA.md) | Stellantis N.V. | Consumer discretionary — Automobiles (Jeep, Ram, Peugeot, Fiat and 10 other brands; North America, Europe, South America, Middle East & Africa) | active | 2026-11-20 | 1 | Own | Own | $3.54 | $6.30 | +21.2% | — | — |
 | [STZ](STZ.md) | Constellation Brands, Inc. | Consumer Staples | active | 2026-09-12 | 1 | Watch | Watch | $122.45 | $167.20 | +10.9% | +19.8% | +21.4% |
 | [TEAM](TEAM.md) | Atlassian Corporation | Software | active | 2026-11-11 | 2 | Watch | Watch | $148.60 | $179.64 | +6.5% | — | — |
 | [THG](THG.md) | The Hanover Insurance Group, Inc. | Financial Services | active | 2026-06-29 | 1 | Watch | Watch | $214.54 | $315.00 | +13.7% | +17.1% | +15.7% |

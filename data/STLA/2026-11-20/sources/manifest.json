@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/STLA.csv",
+      "commit": "a9c5a3c387dc",
+      "sha256": "c7c614357e5f58c2ca54361e836c709a9c108eaae701502bac2e68eb8c588646",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/STLA.csv",
+      "commit": "a9c5a3c387dc",
+      "sha256": "0cd1f75057db6d32411426f449f5f124d4dc0913d2e131862aab0a73dd8681e4",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "a9c5a3c387dc",
+      "sha256": "ed4d99427c315b1255ee02c8c96bcc43300f8641f55fdb0f6feb7938905be902",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "stellantisnvq32026pressrel-htm",
+      "kind": "file",
+      "path": "stellantisnvq32026pressrel.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000090/stellantisnvq32026pressrel.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "1aed083b7606766d835841adcb749a5dab4ca9b4b632d6b5645914a937b5d261",
+      "description": "Q3 2026 results press release (6-K, 2026-10-28): AOI, IFCF, industrial net financial position, liquidity, guidance"
+    },
+    {
+      "id": "stellantisnvq32026interimr-htm",
+      "kind": "file",
+      "path": "stellantisnvq32026interimr.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000092/stellantisnvq32026interimr.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "c8cc50f826cdeef0cc1d2b135b463202ff15902a7a35e44d9de7faaba4b230e1",
+      "description": "Q3 2026 interim report (6-K, 2026-10-28): balance sheet, hybrid perpetual notes, employee benefits, cash flow"
+    },
+    {
+      "id": "stellantisnv20260930supple",
+      "kind": "file",
+      "path": "stellantisnv20260930supple.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000094/stellantisnv20260930supple.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "c459760c845789289a4512549b05a453baaf3a95a738dda005cddd53a821836e",
+      "description": "Q3 2026 supplemental income statement by activity (6-K exhibit 99.1, 2026-10-28)"
+    },
+    {
+      "id": "stellantisnvh12026pressrel-htm",
+      "kind": "file",
+      "path": "stellantisnvh12026pressrel.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000062/stellantisnvh12026pressrel.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "4be1ce33d2e1ab4117e0dcefc884097515ae016ab9a7b4dc1a2b63739ec2554d",
+      "description": "Q2 2026 results press release (6-K, 2026-07-30)"
+    },
+    {
+      "id": "d71756d6k",
+      "kind": "file",
+      "path": "d71756d6k.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000119312526393046/d71756d6k.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "8250e51b5bf4dc2e23d37c96a5fe90b02b2c0168dee73fe4d9beadbeebdc7251",
+      "description": "6-K 2026-09-16: 6.750% notes due 2031 and 7.400% notes due 2036 issued by Stellantis Finance US"
+    },
+    {
+      "id": "a99111042026-stla",
+      "kind": "file",
+      "path": "a99111042026_stla.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000096/a99111042026_stla.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "fd3d5e46194c1cfbf76f31faaabfa3ae407d524888086d68d2487119caf0f03a",
+      "description": "6-K 2026-11-04: Pablo Di Si appointed COO North America; finance leadership changes"
+    },
+    {
+      "id": "a99111092026-stla",
+      "kind": "file",
+      "path": "a99111092026_stla.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000099/a99111092026_stla.htm",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "a8f3e8a3080249825e9a2e29c48388218682cd15d3eefbb6c145d9a9b806798f",
+      "description": "6-K 2026-11-09: sale of Brampton Assembly Plant to Roshel"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-20-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-20.html.gz",
+      "url": "https://stockanalysis.com/stocks/stla/forecast/",
+      "fetched_at": "2026-11-21T03:08:12+00:00",
+      "sha256": "76e5b1be0019a488d4f5862410f14c4f1dfaf6892b228aebe01fc50bcc2299ed",
+      "description": "StockAnalysis forecast page 2026-11-20: S&P Global consensus, price targets, ratings"
+    },
+    {
+      "id": "yahoo-eurusd-2026-11-20",
+      "kind": "file",
+      "path": "yahoo-eurusd-2026-11-20.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X?range=1mo&interval=1d",
+      "fetched_at": "2026-11-21T03:05:03+00:00",
+      "sha256": "b8863860c2ed488d476c6ca024cf9011748f8ea25cb66a17f22ef29ad71f3c1b",
+      "description": "EUR/USD daily closes to 2026-11-20 (Yahoo Finance chart API)"
+    },
+    {
+      "id": "news-excerpts-2026-11-20",
+      "kind": "file",
+      "path": "news-excerpts-2026-11-20.txt",
+      "url": "https://www.stellantis.com/en/investors",
+      "fetched_at": "2026-11-21T03:27:39+00:00",
+      "sha256": "77b44aa0080df0f1799b4613e1dab00e4dd34f2f951813bf678232bc47baec74",
+      "description": "Investor Day 2026 targets, Q3 2026 presentation excerpts and November 2026 press coverage (Reuters, Milano Finanza, MarketScreener, Detroit News, OraFinanza), quoted"
+    }
+  ]
+}

@@ -103,6 +103,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [SPXC](SPXC.md) | Metalworkg Machinery & Equipment | 25.5x | 18.0–44.2x | 2.9x | 1.0–3.0x | 17.7x | 18.7–28.6x | SIC 35xx, 2 names: 4.5x, 34.5x |
 | [SSB](SSB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [STEP](STEP.md) | Investment Advice | — | 11.5–56.3x | 1.8x | 1.7–4.3x | — | — | SIC 62xx, 5 names: 8.4x, 31.1x |
+| [STLA](STLA.md) | Motor Vehicles & Passenger Car Bodies | — | — | — | — | — | — | SIC 37xx, 4 names: 17.8x, 315.1x |
 | [STZ](STZ.md) | Beverages | — | — | — | — | — | — | SIC 208x, 3 names: 3.1x, 28.8x |
 | [TEAM](TEAM.md) | Services-Prepackaged Software | 429.9x | — | 5.5x | 11.0–28.2x | 128.7x | — | SIC 7372, 10 names: 5.1x, 44.5x |
 | [THG](THG.md) | Fire, Marine & Casualty Insurance | 11.8x | 11.5–21.1x | 1.3x | 0.9–1.1x | 8.6x | 9.9–13.4x | SIC 63xx, 2 names: 0.3x, 41.5x |
