@@ -2,7 +2,7 @@
 
 # Coverage library
 
-113 companies, 146 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-19.
+113 companies, 147 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-20.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -12,8 +12,8 @@ The rule rating is derived from each call's fair value versus its price, annuali
 
 | Rating | Definition | Latest calls (rule) | Latest calls (published stance) |
 |---|---|---:|---:|
-| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 16 | 2 |
-| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 77 | 107 |
+| Own | Expected annualized return of at least 15% over 3 years; maps to Buy. | 15 | 2 |
+| Watch | Expected annualized return from 0% to 15% over 3 years; maps to Hold. | 78 | 107 |
 | Avoid | Expected annualized return below 0% over 3 years; maps to Sell. | 17 | 3 |
 | Other | Pass, needs more work, unstated, or no fair value | 3 | 1 |
 
@@ -82,7 +82,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [MELI](MELI.md) | MercadoLibre, Inc. | Latin American e-commerce | active | 2026-05-24 | 2 | Watch | Watch | $1,664 | $1,900 | +4.5% | -10.5% | -11.5% |
 | [MFG](MFG.md) | Mizuho Financial Group, Inc. | Financials | active | 2026-06-22 | 1 | Watch | Watch | $10.15 | $14.48 | +12.6% | -2.2% | -3.2% |
 | [MIDD](MIDD.md) | The Middleby Corporation | Industrials | active | 2026-11-11 | 2 | Watch | Watch | $138.27 | $165.04 | +6.1% | — | — |
-| [NBIS](NBIS.md) | Nebius Group N.V. | Communication Services per provider classification; in practice AI cloud infrastructure ("neocloud"): GPU clusters, managed inference and developer tooling, plus non-core autonomous-driving (Avride), edtech (TripleTen) and minority stakes in ClickHouse and Toloka | active | 2026-10-27 | 1 | Watch (positive) | Own | $153.27 | $288.98 | +23.5% | -7.7% | -6.1% |
+| [NBIS](NBIS.md) | Nebius Group N.V. | Communication Services per provider classification; in practice AI cloud infrastructure ("neocloud"): GPU clusters, managed inference and developer tooling, plus non-core autonomous-driving (Avride), edtech (TripleTen) and minority stakes in ClickHouse and Toloka | active | 2026-11-21 | 2 | Watch | Watch | $81.31 | $109.41 | +10.4% | — | — |
 | [NDSN](NDSN.md) | Nordson Corporation | Industrials | active | 2026-08-13 | 1 | Watch | Avoid | $309.99 | $277.00 | -3.7% | +5.2% | +8.5% |
 | [NKE](NKE.md) | NIKE, Inc. | Consumer discretionary | active | 2026-06-01 | 1 | Watch | Avoid | $45.92 | $41.50 | -3.3% | -14.9% | -14.3% |
 | [NOW](NOW.md) | ServiceNow, Inc. | Enterprise software | active | 2026-05-24 | 2 | Watch (positive) | Own | $102.13 | $185.00 | +21.9% | +0.6% | -0.8% |

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/NBIS.csv",
+      "commit": "7b5134a72890",
+      "sha256": "7646f7151681db37d2f8dbb691f716e56dfef2e5de9eeadaff9434f8aab5fb87",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/NBIS.csv",
+      "commit": "7b5134a72890",
+      "sha256": "8f34804bd6818de0ede486e48791e9ee3db611714529b697c94c1da18b1de472",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "7b5134a72890",
+      "sha256": "c0e8db9df853e5b7c701608ead5f5a9cc1ea42ee8a8b051e5a917a76390b75ea",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "6k-q3-2026-release-ex99-1-htm",
+      "kind": "file",
+      "path": "6k-q3-2026-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+      "fetched_at": "2026-11-21T18:43:24+00:00",
+      "sha256": "3735e399f8ba3294365187ad61fbf6e95b834ff668dcc0b25c93d4f851383418",
+      "description": "Q3 2026 earnings release with condensed financials and non-GAAP reconciliations (6-K Exhibit 99.1, accession 0001104659-26-126008, filed 2026-11-12)"
+    },
+    {
+      "id": "6k-q3-2026-letter-ex99-2-htm",
+      "kind": "file",
+      "path": "6k-q3-2026-letter-ex99-2.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+      "fetched_at": "2026-11-21T18:43:24+00:00",
+      "sha256": "33955178b6e719b2759c9def8751e2cd7352c2478b8b4b46e6eb8c5261ff6b9b",
+      "description": "Q3 2026 shareholder letter: ARR, RPO, deal pricing, prepayments, 2026 guidance update, 2027 outlook (6-K Exhibit 99.2, accession 0001104659-26-126008, filed 2026-11-12)"
+    },
+    {
+      "id": "6k-q3-2026-ex99d1-htm",
+      "kind": "file",
+      "path": "6k-q3-2026-ex99d1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "fetched_at": "2026-11-21T18:43:25+00:00",
+      "sha256": "3d0c68a4cee6065893f378344c96b00b7c62eda9a947c0a7c819313305335cce",
+      "description": "Operating and financial review for Q3 2026, including liquidity and contractual obligations (6-K Exhibit 99.1, accession 0001104659-26-126238, filed 2026-11-12)"
+    },
+    {
+      "id": "6k-q3-2026-ex99d2-htm",
+      "kind": "file",
+      "path": "6k-q3-2026-ex99d2.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+      "fetched_at": "2026-11-21T18:43:26+00:00",
+      "sha256": "9a3cb85540cec14e6a7ece8149c341a7dd6c2dd28c96703d8f8821dab873af58",
+      "description": "Unaudited condensed consolidated financial statements and notes for Q3 2026: strategic-partnership revenue, VIE notes receivable, RPO, convertible notes, pre-funded warrants, Citi facility (6-K Exhibit 99.2, accession 0001104659-26-126238, filed 2026-11-12)"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-21-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-21.html.gz",
+      "url": "https://stockanalysis.com/stocks/nbis/forecast/",
+      "fetched_at": "2026-11-21T18:44:18+00:00",
+      "sha256": "f5308731343465857fb6e6e8d38b462f210c4235568172206804cc447cfa7ff4",
+      "description": "StockAnalysis forecast page (S&P Global Market Intelligence, last updated 2026-11-16; TipRanks analyst actions), captured 2026-11-21"
+    },
+    {
+      "id": "reuters-2026-11-12-q3-html",
+      "kind": "file",
+      "path": "reuters-2026-11-12-q3.html.gz",
+      "url": "https://www.reuters.com/5f374b32b07b/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/",
+      "fetched_at": "2026-11-21T18:44:52+00:00",
+      "sha256": "91a2f44ad9b7038659468f939b80fb2a555f130ca59c37b3fb8e0ef5e8096988",
+      "description": "Reuters, 2026-11-12: Q3 revenue vs 07.5M estimate, 2026 guide trimmed, capex raised, CEO and CFO remarks on delays"
+    },
+    {
+      "id": "cnbc-2026-11-12-q3-html",
+      "kind": "file",
+      "path": "cnbc-2026-11-12-q3.html.gz",
+      "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
+      "fetched_at": "2026-11-21T18:44:53+00:00",
+      "sha256": "7c378629fc25caa56f45168a80dd1c5a6be934b3bd306048a0ec68132b6bf29f",
+      "description": "CNBC, 2026-11-12: LSEG consensus for Q3 and FY2026/FY2027 revenue, FactSet FY2027 capex expectation, stock -16%"
+    },
+    {
+      "id": "cnbc-2026-11-18-nvidia-html",
+      "kind": "file",
+      "path": "cnbc-2026-11-18-nvidia.html.gz",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "fetched_at": "2026-11-21T18:44:54+00:00",
+      "sha256": "1a119ab7d5faaa77d5a0fa91ca1a1cf84fee9fdfb36d73a59e71a699de981836",
+      "description": "CNBC, 2026-11-18: Nvidia Q3 report after CEO departure and neocloud trading"
+    },
+    {
+      "id": "fool-2026-11-18-neoclouds-html",
+      "kind": "file",
+      "path": "fool-2026-11-18-neoclouds.html.gz",
+      "url": "https://www.fool.com/investing/2026/11/18/iren-coreweave-and-nebius-stock-prices-have-plunged-more-than-60-here-s-what-it-means-for-ai-investors/",
+      "fetched_at": "2026-11-21T18:44:53+00:00",
+      "sha256": "c17970e2b0cc95d01fc25663810c9f5b725d90a8feec78e38d2e440921c8db68",
+      "description": "Motley Fool, 2026-11-18: neocloud drawdowns from highs, CoreWeave interest burden, IREN delays"
+    },
+    {
+      "id": "invezz-2026-11-20-html",
+      "kind": "file",
+      "path": "invezz-2026-11-20.html.gz",
+      "url": "https://invezz.com/news/2026/11/20/why-coreweave-and-nebius-stocks-are-falling-on-friday/",
+      "fetched_at": "2026-11-21T18:44:53+00:00",
+      "sha256": "157c070cdbda3ce8a240a216930a9935873107b6c99e23ad27d5e67019d1393a",
+      "description": "Invezz, 2026-11-20: Friday neocloud selloff after the Anthropic IPO fade, Nvidia scrutiny, Burry post"
+    },
+    {
+      "id": "247wallst-2026-11-20-html",
+      "kind": "file",
+      "path": "247wallst-2026-11-20.html.gz",
+      "url": "https://247wallst.com/investing/2026/11/20/michael-burry-says-he-tried-to-warn-you-about-nebius-the-stock-just-crashed-16-and-is-72-below-its-record/",
+      "fetched_at": "2026-11-21T18:44:53+00:00",
+      "sha256": "e71f764a011067466f545e8112e1dce6e820fb6c69f18c2b4c1e746095696ef5",
+      "description": "24/7 Wall St., 2026-11-20: NBIS closes 1.31, -16%, -47% in seven sessions since Q3, 72% below the June 18 record close"
+    },
+    {
+      "id": "20f-2025-htm",
+      "kind": "file",
+      "path": "20f-2025.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "fetched_at": "2026-11-21T18:49:10+00:00",
+      "sha256": "62e8f597907f4c71bc7d04e3219f362f2e8f04bd8d725d5148d5a3dce18ad4a5",
+      "description": "Form 20-F for FY2025 (accession 0001104659-26-052948, filed 2026-04-30), used for the June 2025 and September 2025 convertible note conversion terms"
+    }
+  ]
+}

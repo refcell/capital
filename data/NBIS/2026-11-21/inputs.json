@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "ticker": "NBIS",
+  "date": "2026-11-21",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 81.31,
+      "as_of": "2026-11-20",
+      "source": "data/prices/NBIS.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 2189.8,
+      "as_of": "2026-09-30",
+      "source": "FY2025 revenue $529.8M (20-F XBRL us-gaap:Revenues) less nine months 2025 $302.1M plus nine months 2026 $1,962.1M (NBIS 6-K Exhibit 99.1, Q3 2026 release (sources/6k-q3-2026-release-ex99-1.htm.gz))",
+      "accession": "0001104659-26-126008",
+      "note": "Q3 2026 revenue $980.8M (LSEG consensus $907.5M, CNBC), of which $325.1M point-in-time strategic-partnership revenue (6-K Ex. 99.2 Note 15; $409.1M over nine months); AI cloud revenue $973.8M. Nine-month 2026 adjusted EBITDA $831.5M; Q3 2026 group adjusted EBITDA $465.8M (47.5%); AI cloud $518.2M (53.2%) including partnership revenue. Q3 net loss from continuing operations $37.5M; Q3 capex $7,300.4M"
+    },
+    "ttm_ocf_m": {
+      "value": 5048.3,
+      "as_of": "2026-09-30",
+      "source": "FY2025 operating cash flow $384.8M (20-F XBRL) less nine months 2025 $-432.4M plus nine months 2026 $4,231.1M (NBIS 6-K Exhibit 99.1, Q3 2026 release (sources/6k-q3-2026-release-ex99-1.htm.gz))",
+      "accession": "0001104659-26-126008",
+      "note": "Includes $7,829.0M of deferred-revenue inflow in nine months 2026, offset by a $3,333.9M rise in receivables"
+    },
+    "ttm_capex_m": {
+      "value": 17486.7,
+      "as_of": "2026-09-30",
+      "source": "FY2025 capex $4,066.0M (20-F XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment) less nine months 2025 $2,010.0M plus nine months 2026 $15,430.7M (NBIS 6-K Exhibit 99.1, Q3 2026 release (sources/6k-q3-2026-release-ex99-1.htm.gz))",
+      "accession": "0001104659-26-126008"
+    },
+    "ttm_fcf_m": {
+      "value": -12438.4,
+      "as_of": "2026-09-30",
+      "source": "ttm_ocf_m less ttm_capex_m",
+      "accession": "0001104659-26-126008"
+    },
+    "cash_m": {
+      "value": 7425.6,
+      "as_of": "2026-09-30",
+      "source": "NBIS 6-K Exhibit 99.2, Q3 2026 financial statements (sources/6k-q3-2026-ex99d2.htm.gz), balance sheet",
+      "accession": "0001104659-26-126238",
+      "note": "Unrestricted cash and cash equivalents; $1,215.5M of restricted cash secures financings and is excluded. The scaffold took the 2025-12-31 20-F figure"
+    },
+    "total_debt_m": {
+      "value": 16478.0,
+      "as_of": "2026-09-30",
+      "source": "NBIS 6-K Exhibit 99.2, Q3 2026 financial statements (sources/6k-q3-2026-ex99d2.htm.gz), Note 12 (principal amount outstanding)",
+      "accession": "0001104659-26-126238",
+      "note": "Eight convertible note series at their accreted maturity amounts ($15,726.2M) plus the $751.8M MUFG term loan; carrying value $14,162.8M. Excludes the $3.5B Citi facility signed 2026-10-22 and $1.77B of non-current operating lease liabilities"
+    },
+    "shares_outstanding_m": {
+      "value": 292.902405,
+      "as_of": "2026-09-30",
+      "source": "NBIS 6-K Exhibit 99.1, Q3 2026 release (sources/6k-q3-2026-release-ex99-1.htm.gz)",
+      "accession": "0001104659-26-126008",
+      "note": "259,597,352 Class A and 33,305,053 Class B; excludes 29,138,539 treasury shares"
+    },
+    "diluted_shares_m": {
+      "value": 319.462,
+      "as_of": "2026-09-30",
+      "source": "NBIS 6-K Exhibit 99.2, Q3 2026 financial statements (sources/6k-q3-2026-ex99d2.htm.gz)",
+      "accession": "0001104659-26-126238",
+      "note": "Shares outstanding plus pre-funded warrants plus 5,493,478 unvested RSUs; convertible notes (about 68.2M shares at conversion prices $51.45-$324.65) are added only when a case's value exceeds the conversion price times the series' accretion ratio; pre-funded warrant shares 21,065,936 (NVIDIA, March 2026, $2,000M)"
+    },
+    "market_cap_m": {
+      "value": 23815.9,
+      "as_of": "2026-11-20",
+      "source": "price x shares outstanding",
+      "note": "Including NVIDIA's 21.07M pre-funded warrant shares: $25,528.8M"
+    },
+    "net_debt_m": {
+      "value": 9052.4,
+      "as_of": "2026-09-30",
+      "source": "total_debt_m less cash_m",
+      "note": "Excludes $9,409.2M of deferred revenue (customer prepayments; current $1,445.5M, non-current $7,963.7M) and adds back nothing for $1,603.9M of non-marketable equity stakes (ClickHouse, Toloka) at book. RPO $38.7B at September 30 (40% within 24 months)"
+    },
+    "enterprise_value_m": {
+      "value": 32868.3,
+      "as_of": "2026-11-20",
+      "source": "market_cap_m plus net_debt_m; excludes deferred revenue",
+      "note": "Including pre-funded warrant shares: $34,581.2M"
+    },
+    "guide_revenue_low_m": {
+      "value": 3000.0,
+      "as_of": "2026-11-12",
+      "source": "NBIS 6-K Exhibit 99.2, Q3 2026 shareholder letter (sources/6k-q3-2026-letter-ex99-2.htm.gz)",
+      "accession": "0001104659-26-126008",
+      "note": "FY2026 revenue now at the low end of $3.0-3.4B; adjusted EBITDA margin about 40%; capex about $27B"
+    },
+    "fy1_revenue_m": {
+      "value": 3160.0,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)"
+    },
+    "fy2_revenue_m": {
+      "value": 12360.0,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)",
+      "note": "S&P Global FY2027 consensus; LSEG had $11.98B before the outlook (CNBC, 2026-11-12)"
+    },
+    "fy1_eps": {
+      "value": -1.12,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)",
+      "note": "Non-GAAP"
+    },
+    "fy2_eps": {
+      "value": -3.04,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)",
+      "note": "Non-GAAP"
+    },
+    "street_target_mean": {
+      "value": 231.6,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)"
+    },
+    "street_target_low": {
+      "value": 84.0,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)"
+    },
+    "street_target_high": {
+      "value": 380.0,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)"
+    },
+    "street_analysts": {
+      "value": 22,
+      "as_of": "2026-11-16",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-21.html.gz)"
+    },
+    "guide_revenue_high_m": {
+      "value": 3400.0,
+      "as_of": "2026-11-12",
+      "source": "NBIS 6-K Exhibit 99.2, Q3 2026 shareholder letter (sources/6k-q3-2026-letter-ex99-2.htm.gz)",
+      "accession": "0001104659-26-126008",
+      "note": "FY2026 range kept at $3.0-3.4B but revenue now expected at the low end. FY2027 initial outlook: revenue $12-13B, capex $40-45B (FactSet consensus $28.77B per CNBC), pre-tax breakeven in Q4 2027, $17-20B of prepayments"
+    }
+  },
+  "notes": []
+}

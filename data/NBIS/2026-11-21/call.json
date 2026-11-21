@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "ticker": "NBIS",
+  "exchange": "NASDAQ",
+  "company": "Nebius Group N.V.",
+  "sector": "Communication Services per provider classification; in practice AI cloud infrastructure (\"neocloud\"): GPU clusters, managed inference and developer tooling, plus non-core autonomous-driving (Avride), edtech (TripleTen) and minority stakes in ClickHouse and Toloka",
+  "date": "2026-11-21",
+  "origin": "run",
+  "prior_call": "NBIS/2026-10-27",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026, reported 2026-11-12), after a 47% fall in seven sessions during the November AI and neocloud selloff",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged, bias now neutral; fair value lowered from $288.98 (FY2031) to $109.41 (end-2029), 10.4% a year from $81.31 (Own at about $72). Contract terms improved, but a third of Q3 revenue was one-off partnership revenue, receivables quintupled, delivery slipped two months, 2027 capex is $40-45B at about $40M per MW, and the bear, at 35% weight, leaves the equity worth nothing",
+  "rating_override_reason": null,
+  "primary_lens": "ev_ebitda",
+  "lens_text": "End-2029 value: 2030 adjusted EBITDA (megawatts billing x revenue per MW x margin) times an exit EV/EBITDA (5.0x / 6.0x / 7.5x), less end-2029 net debt rolled forward from September 30 with unrestricted cash (capex at $40-42M per MW added, half paid a year ahead and the 2030 capacity fully paid by end-2029; cash coupons on the convertibles plus 7.0-9.0% on the rest of the average balance; VIE advances; receivables to 45 days; deferred-revenue inflows; equity raised; convertibles that convert above conversion price x accretion), less 75% of end-2029 deferred revenue, plus $1.60B of equity stakes at book, over end-2029 shares with 1.5% a year of stock-comp dilution; equity floored at zero; three-year value, undiscounted",
+  "price": {
+    "value": 81.31,
+    "currency": "USD",
+    "date": "2026-11-20"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 0.0,
+      "weight": 0.35,
+      "revenue_cagr": 0.771,
+      "basis": "Pricing resets toward $10.5-11.5M per MW and the build stops near 1.55 GW by end-2029 (0.6 GW added in 2027 against the >1 GW plan); 2027 revenue $9.0B against the $12-13B outlook; 2030 revenue $16.8B at 42% ($7.06B EBITDA) x 5.0x = $35.3B EV, below $42.0B of end-2029 net debt after $53.6B of capex from Q4 2026 ($42M per MW added), 9% interest on non-convertible debt and $8B of equity sold near $35; 562.6M shares; equity floored at zero"
+    },
+    "base": {
+      "value": 93.84,
+      "weight": 0.5,
+      "revenue_cagr": 1.265,
+      "basis": "0.75 / 0.8 / 0.7 GW added in 2027-29 (below the >1 GW a year plan) to 2.6 GW billing, 0.5 GW more in 2030; blended revenue per MW $17.0M falling to $14.5M as hyperscaler capacity and repriced older GPUs mix in; 2027 revenue $12.3B (low end of the outlook); 2030 revenue $41.3B at 50% ($20.66B EBITDA) x 6.0x = $124.0B; end-2029 net debt $67.6B after $96.6B of capex from Q4 2026 at $40M per MW plus the $10B balance of the 2030 capacity, convertible coupons plus 7.5% on the rest of the average balance, receivables at 45 days, $8B of equity at about $90 and conversion of the June 2025 notes (3.5M shares); 75% of $24B deferred revenue deducted; $1.6B stakes; 426.4M shares"
+    },
+    "bull": {
+      "value": 416.59,
+      "weight": 0.15,
+      "revenue_cagr": 1.555,
+      "basis": "About 1 GW a year delivered at near-today's pricing ($18.5M falling to $17.5M per MW) to 3.3 GW billing by end-2029; 2030 revenue $64.4B at 56% ($36.06B EBITDA) x 7.5x = $270.5B; end-2029 net debt $66.6B after $125.6B of capex at $40M per MW plus $16B for the rest of the 2030 capacity, convertible coupons plus 7% on the rest, every convertible series converting (68.2M shares) and $6B of equity at about $180; 75% of $32B deferred revenue deducted; 435.6M shares"
+    }
+  },
+  "fair_value": {
+    "value": 109.41,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value, undiscounted; no dividend",
+  "street": {
+    "target_mean": 231.6,
+    "target_median": 234.0,
+    "target_low": 84.0,
+    "target_high": 380.0,
+    "analysts": 22,
+    "rating_text": "Buy (22 analysts: 13 Strong Buy, 3 Buy, 5 Hold, 1 Strong Sell)",
+    "as_of": "2026-11-16",
+    "source": "StockAnalysis forecast page (S&P Global Market Intelligence), sources/stockanalysis-forecast-2026-11-21.html.gz"
+  },
+  "deviation_from_street": {
+    "pct": -52.8,
+    "reason": "The bear and the cost of the build: we give 35% weight to a case in which enterprise value at 5.0x 2030 EBITDA is below end-2029 net debt and the equity is worth nothing, charge about $40M of capex per MW added (including all of the 2030 capacity the forward EBITDA counts), and deduct 75% of customer prepayments, on which Nebius itself accretes interest, as debt-like. Street targets are 12-month prices and our value is at end-2029, so the horizon gap runs the other way; the base alone ($93.84) is 59% below the mean."
+  },
+  "thesis": "Q3 confirmed demand and improved deal terms (ACV above $25M per MW, payback 1y7m, prepayments above 100% of associated capex, $12B of new contract value, Databricks, Datadog and Snowflake signed), but a third of revenue ($325.1M) was one-off asset-light partnership revenue, receivables jumped to $4.04B (75% one customer), third-party capacity slipped into H1 2027, and 2027 capex of $40-45B came in about $14B above Street models. The stock fell 47% in seven sessions with the whole neocloud group, to $81.31. On end-2029 values of $0 / $93.84 / $416.59 at 35/50/15 the weighted value is $109.41, 10.4% a year: Watch. The base is 6.0x 2030 EBITDA but about 67x EBIT, because five-year GPU depreciation consumes most of the EBITDA of a fleet still growing fast, so the equity is a levered claim on 2028-2030 GPU pricing, on capex per MW, and on funding $6-11B a year outside prepayments. Own at about $72.",
+  "consensus_view": "Twenty-two analysts (S&P Global, November 16) rate the stock Buy on balance with a $231.60 mean target ($84-$380), cut from $281 in October; Citi ($215), Truist ($245), Bank of America ($265) and Northland ($380) kept Buy, D.A. Davidson cut to $125 at Hold. Consensus revenue is $3.16B for FY2026 and $12.36B for FY2027, with non-GAAP EPS of -$1.12 and -$3.04. The market disagrees with the Street: the stock is down 72% from its June 18 record and 47% since the Q3 report, trading with CoreWeave and IREN on fears that debt-funded AI capacity outruns demand, after Nvidia's CEO departure and a failed lift from Anthropic's IPO.",
+  "variant_view": "No variant view on price: at $81.31 the weighted value is 10.4% a year, and we share the market's fear of the bear at 35% weight. Our disagreement is with the Street, whose $231.60 mean target is 2.1x our value. On our build, base 2030 EBIT is about $1.8B on $124B of EV (about 67x) and pre-tax income is still negative, because five-year GPU depreciation consumes most of the EBITDA of a fleet bought at about $40M per MW; owner earnings do not support Street-style EBITDA multiples until the build slows. Checkable: Q4 2026 revenue excluding strategic-partnership revenue below $900M (0.55), which would show Q3's beat was the one-off and the Q4 guide leans on more of it.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Q4 2026 results and full FY2027 guidance (revenue, pre-tax earnings, capacity)",
+      "timing": "About February 11, 2027 (last year February 12, 2026)",
+      "date": "2027-02-11",
+      "kind": "hard",
+      "what_it_proves": "FY2026 revenue against the $3.0B low end, the recurring revenue run-rate without partnership revenue, RPO after the $12B of signings since July, the February ARR target, the 2027 funding plan",
+      "value_impact": "FY2026 revenue at least $3.0B with RPO at or above $45B holds the base; a FY2027 outlook below $11B moves weight to the bear"
+    },
+    {
+      "event": "Remaining New Jersey (Microsoft) tranches and colocation sites moved to H1 2027; first owned-site capacity (Missouri, Lappeenranta, Mäntsälä 2, Alabama)",
+      "timing": "H1 2027",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the slip is two months or a pattern",
+      "value_impact": "A further slip pushes the base toward the bear's 0.6 GW in 2027"
+    },
+    {
+      "event": "Term-out or repayment of the $3.5B 364-day Citi facility (SOFR + 2.75% rising to 3.50%)",
+      "timing": "Before about October 21, 2027",
+      "date": "2027-10-21",
+      "kind": "hard",
+      "what_it_proves": "The cost and availability of long-term secured capital in a tighter credit market",
+      "value_impact": "Secured debt above SOFR + 5% or equity below $50 fires a kill criterion"
+    },
+    {
+      "event": "Further strategic-partnership (asset-light) revenue and VIE advances (up to $662.2M more intended)",
+      "timing": "Quarterly",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether partnership revenue recurs and what it costs; how much of Nebius's balance sheet funds partners' construction",
+      "value_impact": "Not in the base revenue per MW; disclosure of its margin would make the recurring AI cloud margin readable"
+    },
+    {
+      "event": "ClickHouse or Toloka liquidity event",
+      "timing": "Open",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Value of stakes carried at $1.60B book",
+      "value_impact": "Upside to the $1.60B credited in every case"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "GPU rental pricing resets in 2028 as Nvidia supply catches up and Rubin reprices Blackwell; renewals of 2025-2026 capacity come in near $10M per MW, and the EBITDA on a $90B+ fleet cannot service the debt.",
+      "signal": "Disclosed ACV per MW below $20M on new deals; renewal pricing commentary; spot and auction prices below reserve"
+    },
+    {
+      "reason": "Delivery keeps slipping: third-party sites and power hookups run late again, 2027 revenue lands near $9-10B while capex and lease costs are committed, and the gap is filled with equity at low prices.",
+      "signal": "FY2027 outlook cut below $11B; New Jersey not complete by 2Q27; quarterly AI cloud costs growing faster than recurring revenue"
+    },
+    {
+      "reason": "Funding closes: the Citi bridge is refinanced at punitive spreads or not at all, prepayments fall short of $17-20B, and Nebius sells equity below $50 to keep building.",
+      "signal": "Prepayments in 2027 below $15B; equity issuance below $50; secured debt above SOFR + 5%; covenant waivers"
+    },
+    {
+      "reason": "The Q3 beat was the high-water mark: asset-light partnership revenue does not recur, and the recurring AI cloud margin turns out to be near 30%, not 50%, because lease and site costs for idle capacity run ahead of billing.",
+      "signal": "Q4 revenue excluding partnerships below $900M; adjusted EBITDA margin below 35% in any 2027 quarter"
+    },
+    {
+      "reason": "A concentrated customer base (Microsoft, Meta, venture-funded labs) delays or cuts commitments as AI funding tightens after the November selloff.",
+      "signal": "RPO falling quarter on quarter; disclosed contract reductions or terminations; receivables rising faster than revenue"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: the selloff was indiscriminate, Nebius delivers the 2027 build on its owned sites at today's pricing, prepayments fund the capex as guided, and the stock re-rates toward the Street's $200+ while we wait for $80.",
+      "signal": "Q4 revenue excluding partnerships above $1.0B; RPO above $50B; Citi facility termed out at or below SOFR + 3%"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "FY2027 revenue outlook cut below $11B at or before the Q1 2027 report (initial outlook $12-13B; bear 2027 $9.0B)",
+      "check_by": "2027-06-15",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Shares outstanding plus pre-funded warrant shares above 370M at any quarter-end through Q3 2027 (313.97M at September 30, 2026)",
+      "check_by": "2027-11-30",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "RPO falls quarter on quarter, or a customer termination or reduction affecting more than $1B of contract value is disclosed, through Q3 2027",
+      "check_by": "2027-11-30",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Equity sold below $50 a share, or new secured debt priced above SOFR + 5%, before December 31, 2027",
+      "check_by": "2028-01-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Group adjusted EBITDA margin below 30% in any 2027 quarter, or below 35% in two consecutive 2027 quarters (FY2026 guide about 40%; base 2027 38%, bear 30%)",
+      "check_by": "2028-03-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "fy26-revenue-3000",
+      "claim": "Nebius reports FY2026 revenue of at least $3,000M (nine months $1,962.1M, so Q4 at least $1,037.9M).",
+      "probability": 0.7,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "rpo-45b-q4-26",
+      "claim": "Nebius reports remaining performance obligations of at least $45.0B at December 31, 2026 ($38.7B at September 30).",
+      "probability": 0.5,
+      "resolve_by": "2027-05-15"
+    },
+    {
+      "id": "q4-26-recurring-900",
+      "claim": "Q4 2026 revenue excluding strategic-partnership revenue is at least $900M (Q4 revenue less FY2026 strategic-partnership revenue plus the $409.1M recognized in the first nine months), as disclosed in the FY2026 20-F or Q4 release.",
+      "probability": 0.45,
+      "resolve_by": "2027-05-31"
+    },
+    {
+      "id": "fy27-revenue-12b",
+      "claim": "Nebius reports FY2027 revenue of at least $12.0B (the low end of the November 2026 outlook).",
+      "probability": 0.6,
+      "resolve_by": "2028-03-31"
+    },
+    {
+      "id": "no-equity-below-50-2027",
+      "claim": "Nebius sells no Class A shares (ATM, follow-on or private placement, excluding note conversions and employee awards) at a price below $50 between November 21, 2026 and December 31, 2027.",
+      "probability": 0.65,
+      "resolve_by": "2028-04-30"
+    },
+    {
+      "id": "nbis-above-81-end-27",
+      "claim": "NBIS closes 2027 (last trading day) above $81.31, the price of this call.",
+      "probability": 0.55,
+      "resolve_by": "2028-01-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $72 at these weights (15% a year)",
+    "Toward Own: Q4 revenue excluding partnerships at or above $1.0B and RPO at or above $50B, which would justify a 20% bull (30/50/20 gives $130.24, 17.0% a year)",
+    "Toward Own: evidence that all-in capex per MW added is nearer $35M than $40M (fair value $131.01, 17.2%), for example a disclosed cost per MW on owned sites",
+    "Toward Avoid: a FY2027 revenue outlook below $11B, equity sold below $50, RPO falling quarter on quarter, or adjusted EBITDA margin below 30% in a 2027 quarter",
+    "Toward Avoid: new-deal ACV per MW below $20M, or capex per MW added above $45M (fair value $87.73, 2.6%)"
+  ],
+  "base_rate": {
+    "reference_class": "US XBRL filers with $1.5B-$3B starting revenue, 5-year revenue CAGR, 2009-2025 (scenario rates are three-year CAGRs from FY2026's $3.0B; bear, base and bull all above the 99th percentile)",
+    "source": "library/BASE_RATES.md",
+    "metric": "revenue_cagr",
+    "base_case_percentile": 99
+  },
+  "update": {
+    "event": "Q3 2026 results (6-K, 2026-11-12) and the November 2026 neocloud selloff",
+    "event_date": "2026-11-12",
+    "expected": "October initiation (backfill, Watch / positive bias, price $153.27): FY2031 EV/EBITDA at 6.5x / 8.5x / 9.5x, bear/base/bull $68.51 / $318.94 / $544.76 at 30/50/20, fair value $288.98 undiscounted ($161.95 discounted at 12.28%). It called Q3 the first checkpoint: ARR tracking toward at least $7B in December, a plan to replace the Citi bridge, equity issuance below the Q2 ATM price of $223.60; Q3 revenue at or above $950M bullish, below $850M bearish. No claims or kill criteria",
+    "actual": "Q3 revenue $980.8M (+571%, LSEG $907.5M), of which $325.1M one-off strategic-partnership revenue, so $655.7M otherwise; group adjusted EBITDA $465.8M (47.5%), AI cloud $518.2M (53.2%) including partnerships; capex $7.30B; ARR $6.4B (metric retired); RPO $38.7B (+3% QoQ); deferred revenue $9.41B. FY2026 revenue cut to the low end of $3.0-3.4B and capex raised to about $27B as third-party capacity moved to H1 2027; >$7B ARR now in February. FY2027 outlook $12-13B revenue, $40-45B capex (FactSet $28.77B), pre-tax breakeven in Q4 2027, $17-20B prepayments. ACV above $25M per MW, payback 1y7m, prepayments above 100% of capex on Q3 deals. $5.75B of convertibles issued in August; ATM at about $229. Stock -16.8% on the release, -47.4% from $154.69 to $81.31 in seven sessions amid the neocloud selloff; SPY -9.9% since the October call",
+    "thesis_pillars": [
+      {
+        "pillar": "Demand for Nebius capacity is durable",
+        "status": "intact",
+        "note": "$12B of contract value since July 1, ACV above $25M per MW, first enterprise platforms; RPO only +3% QoQ"
+      },
+      {
+        "pillar": "Deal economics are excellent",
+        "status": "intact",
+        "note": "Payback 1y7m and prepayments above 100% of capex on Q3 deals; recurring margin unreadable because of $325.1M of partnership revenue"
+      },
+      {
+        "pillar": "Nebius delivers capacity on time",
+        "status": "weakened",
+        "note": "2026 revenue to the low end, ARR target two months later, New Jersey's remaining Microsoft tranches to 2Q27"
+      },
+      {
+        "pillar": "The build is funded without crushing the equity",
+        "status": "weakened",
+        "note": "2027 capex $40-45B, 15-25% outside prepayments and investment-grade financing; $5.75B of new converts; a 364-day bridge"
+      },
+      {
+        "pillar": "The price leaves room for a good base case",
+        "status": "strengthened",
+        "note": "Stock -47%; the base case is priced at about 5.7x 2030 EBITDA, against 6.0x in our base"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-02-12",
+  "next_review_trigger": "Q4 2026 results and FY2027 guidance, expected around February 11, 2027",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/NBIS/2026-11-21.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/NBIS/2026-11-21.xlsx",
+      "commit": null
+    },
+    "build_script": {
+      "path": "models/_build_NBIS_2026-11-21.py",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/NBIS.md",
+      "commit": null
+    }
+  },
+  "evidence": {},
+  "notes": [
+    "The October call was a backfill whose values were FY2031 EV/EBITDA values; this update states end-2029 values, undiscounted, on 2030 adjusted EBITDA, as the November IREN update does. Discounted at the initiation's 12.28% for three years, $109.41 at end-2029 is about $77 today, 52% below October's discounted $161.95. The value fell a little further than the price.",
+    "Net debt starts at September 30 debt principal of $16,478.0M (convertible notes at their accreted maturity amounts plus the $751.8M MUFG term loan) less $7,425.6M of unrestricted cash; $1,215.5M of restricted cash is excluded. Q4 2026 adds about $11.6B of capex (FY2026 about $27B less $15.43B in nine months), $0.9B of VIE note advances and a quarter's interest (convertible cash coupons of about $263M a year, plus the case rate on the rest of net debt; the notes' accretion is already in the $16,478.0M), less Q4 adjusted EBITDA of about $374M (36% on about $1.04B of Q4 revenue). The $3.5B Citi facility and lease liabilities are not added: drawn proceeds fund capex already counted, and site leases sit inside cost of revenue and EBITDA.",
+    "Capex is MW added times $40M (bear $42M) all-in, half paid in the year before the MW bills, and the rest of the 2030 additions is charged by end-2029 (base $10B, bull $16B), so the forward EBITDA is fully paid for. The $40M follows from the guide: $40-45B of 2027 capex 'sized for more than 1 GW', including owned-site shells, power and pre-build. The letter's payback of 1y7m 'on a revenue basis' at ACV above $25M per MW implies roughly $20-22M of GPU and fit-out capex per MW on Q3 deals, excluding the shell; at $35M per MW the fair value is $131.01 (17.2%), at $45M $87.73 (2.6%). The base's 2027 capex of $31B is below the guide because it adds 0.75 GW, not more than 1 GW.",
+    "Receivables were $4,039.9M at September 30 (from $720.3M at December 31), 75% from one customer (Customer D); Q3 operating cash flow was -$273.0M although deferred revenue rose $3.43B, which suggests invoiced prepayments not yet collected. The model collects them and holds receivables at 45 days of revenue by end-2029. The adjustment is applied at end-2029, outside the interest roll-forward; collecting earlier would add less than $1 a share.",
+    "Deferred revenue ($9.41B at September 30) rises in a straight line to $14B / $24B / $32B at end-2029 and counts as a cash inflow; 75% of the end-2029 balance is deducted from equity value because Nebius treats the prepayments as carrying a significant financing component and accretes interest on them ($121.1M in nine months 2026). Deducting 50% or 100% moves the fair value to $119.20 or $99.60. The end-2029 balances are assumptions, not derived from the $17-20B of 2027 prepayments guided less a recognition schedule, which Nebius does not give.",
+    "A convertible series converts when the case's end-2029 value is above its conversion price times its accretion ratio: June 2025 notes $51.45 (about $178.7M original, accreting to $214.4M), September 2025 notes $138.75 (115%, break-even about $159.56), March 2026 notes $183.22 and $180.31 (120%), August 2026 notes $313.46 (110%) and $324.65 (125%). Shares start at 319.46M (292.90M outstanding, 21.07M NVIDIA pre-funded warrants, 5.49M unvested RSUs) and grow 1.5% a year from stock compensation ($196.5M in nine months 2026).",
+    "Cross-check on depreciation (five-year GPU life on 65% of gross PP&E, 20 years on the rest): base 2030 D&A about $18.8B, EBIT about $1.8B (EV/EBIT about 67x at 6.0x EBITDA), pre-tax about -$2.3B. Exit EV per average MW billing in 2030 is about $43.5M in the base, roughly replacement cost. The bull's EV/EBIT is about 22x; the bear's EBIT is negative. Management's Q4 2027 pre-tax breakeven needs better pricing, lower capex per MW or slower growth than the base.",
+    "Sensitivities at 35/50/15 (all printed by the script): base exit 5.5x $97.29 (6.2% a year), 7.0x $133.64 (18.0%); every case at 10% on non-convertible debt $105.75 (9.2%); capex $35M per MW $131.01 (17.2%), $45M $87.73 (2.6%); base revenue per MW -$1M $97.08, -$2M $84.67; base 2030 margin 46% gives a base of $70.58; $15B of base equity at $50 gives a base of $75.03; weights 30/50/20 $130.24 (17.0%), 40/45/15 $104.72, 40/50/10 $88.58 (2.9%). The base exit multiple that returns $81.31 is about 5.7x. The bull carries $62.49 of the $109.41; without it (bear and base reweighted) the value is $55.20. Own needs a price at or below about $71.94. The weights: the bull keeps 15%, not 10%, because Q3 deal terms (ACV above $25M per MW, prepayments above 100% of capex) are bull-case terms today; it rises to 20% only if Q4 shows recurring revenue at or above $1.0B and RPO at or above $50B.",
+    "Recurring Q3 margin: if the $325.1M of partnership revenue carried no cost, AI cloud adjusted EBITDA on the other $648.7M of AI cloud revenue was $193.1M (29.8%); if it carried half its revenue in cost, 54.8%. The 6-K does not disclose its cost.",
+    "Starting capacity (300 / 350 / 380 MW billing at end-2026) and revenue per MW are fitted to the FY2026 guide and the $12-13B FY2027 outlook; Nebius discloses no active-MW figure in the text of the letter, and its capacity charts (images) were not read.",
+    "Base rates: all three revenue paths (77%, 127%, 156% a year from $3.0B) are above the 99th percentile for companies starting at $1.5-3B; Nebius is building a business, not growing one. capital.multiples gives no usable check: 20-F annual facts only, and SIC 7370 peers are software companies.",
+    "Nebius reports quarters on 6-K, which data/calendar/earnings.csv (8-K Item 2.02) does not record, so library/CALENDAR.md did not flag this update as due.",
+    "Review round 1 (agent:reviewing-research, grade C): the first draft rated Own at $150.20 (22.7% a year). It charged no capex for 2030 additions that the forward EBITDA counted, treated $4.04B of receivables and $1.22B of restricted cash as cash, charged 6.0-7.5% on opening balances, had no stock-comp dilution, ignored accretion in the conversion test, deducted 50% of prepayments without reason, set claims that contradicted the weights, and never tested the 6.0x exit against cash returns. Fixed: capex at $40-42M per MW with half a year's lead, unrestricted cash, receivables to 45 days, average balances at 7.0-9.0%, 1.5% a year of dilution, conversion against accreted principal, 75% of prepayments deducted, claims realigned, a margin kill criterion, EV/EBIT and per-MW cross-checks. Fair value $121.82, Watch.",
+    "Review round 2 (grade B): half of the 2030 capacity was still unpaid at end-2029; the case rate was charged on convertibles already carried at their accreted amounts; the margin kill line (35% in any quarter) sat inside the base path; $40M per MW was unsourced; the 46% margin sensitivity did not reproduce; stale text in the projection and inputs. Fixed: the rest of the 2030 capacity charged by end-2029, convertibles charged their cash coupons, kill line at 30% (or 35% for two quarters), capex per MW derived from the guide with $35M / $45M sensitivities, all sensitivities printed by the script, text corrected. Fair value $109.41 (10.4% a year), bias moved to neutral."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-21",
+    "scores": {
+      "evidence": 4,
+      "valuation": 3,
+      "variant_view": 3,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "valuation: The capex fix was half done: 2030 EBITDA counts every MW added in 2030, but only half of 2030's additions were charged before end-2029 ($10B base, $16B bull uncharged). Separately, the 7.0-9.0% rate was applied to convertibles already carried at their accreted maturity amounts ($15.73B, about 1.8% cash coupon), double-counting accretion. The two errors push in opposite directions, so the Own threshold was not reliable.",
+      "variant_view: The call says plainly it has no variant view on price; its only disagreement is with the Street's multiple, and the single checkable item (Q4 revenue excluding partnerships below $900M at 0.55) is close to a coin flip.",
+      "calibration: All three revenue paths are above the 99th percentile, the 35/50/15 weights are argued only in words, and the bull carries over half the value (bear and base alone are below the price). Claims are now consistent with the weights."
+    ],
+    "grade": "B",
+    "counter_case": "The case for Own: the model is conservative where it counts. Management's own figures (ACV above $25M per MW, 1 year 7 months payback on a revenue basis covering opex and capex) imply capex of roughly $20-22M per MW on Q3 deals, against the $40M the model charges; at $35M the value clears the Own line. With prepayments now covering more than 100% of the associated capex, the 35% bear that wipes out the equity is a credit scenario the funding mix is designed to avoid. On that reading $81.31 is a mispricing, and Watch-and-wait is a distinction without a difference.",
+    "response": "Accepted from round 2: the rest of the 2030 capacity is now charged by end-2029 and the convertibles carry their cash coupons (about $263M a year) with the case rate only on the rest of net debt; together they lower the fair value to $109.41 (10.4% a year), and Own now needs about $72. The margin kill criterion moved to below 30% in any 2027 quarter or below 35% in two consecutive quarters; the $40M per MW is derived from the $40-45B 2027 guide for more than 1 GW, with $35M ($131.01, 17.2%) and $45M ($87.73, 2.6%) printed; every sensitivity is now printed by the script; the stale projection and inputs text is fixed; the deferred-revenue path is labelled an assumption; the bull's 15% is tied to Q3 deal terms with a 20% trigger. On the counter-case we keep Watch: the payback figure covers GPUs and fit-out on one quarter's deals, not the owned-site shells, power and pre-build the 2027 guide pays for, and prepayments above 100% apply to Q3's new deals, not to the $6-11B a year of 2027 capex Nebius says falls outside prepayments and investment-grade financing, which is what a 364-day bridge and a tighter credit market put at risk. The bias moves to neutral; capex evidence near $35M per MW, a price near $72, or Q4 recurring revenue of $1.0B with RPO of $50B would move the call to Own."
+  }
+}
