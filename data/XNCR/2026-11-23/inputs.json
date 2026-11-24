@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "ticker": "XNCR",
+  "date": "2026-11-23",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 33.26,
+      "as_of": "2026-11-20",
+      "source": "data/prices/XNCR.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 200.494,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_operating_income_m": {
+      "value": -145.694,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_net_income_m": {
+      "value": -117.862,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_eps": {
+      "value": -1.56,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_ocf_m": {
+      "value": -172.355,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_capex_m": {
+      "value": 4.092,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "cash_m": {
+      "value": 555.69,
+      "source": "Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz)",
+      "accession": "0001326732-26-000062",
+      "as_of": "2026-09-30",
+      "note": "Cash and cash equivalents $59.6M plus marketable debt securities $318.5M current and $177.6M long-term; the release reports the total as $555,690 thousand"
+    },
+    "total_debt_m": {
+      "value": 71.927,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:LongTermDebtNoncurrent (instant), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "shares_outstanding_m": {
+      "value": 75.0397,
+      "as_of": "2026-10-30",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "diluted_shares_m": {
+      "value": 78.353,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "ttm_fcf_m": {
+      "value": -176.447,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-04",
+      "accession": "0001326732-26-000063"
+    },
+    "market_cap_m": {
+      "value": 2495.82,
+      "as_of": "2026-11-20",
+      "source": "price x shares_outstanding_m"
+    },
+    "street_target_mean": {
+      "value": 43.83,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "average price target of $43.83 (14 analysts)"
+    },
+    "street_target_low": {
+      "value": 26.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "lowest is $26"
+    },
+    "street_target_high": {
+      "value": 70.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "highest is $70"
+    },
+    "fy1_revenue_m": {
+      "value": 198.65,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "Revenue This Year 198.65M"
+    },
+    "fy2_revenue_m": {
+      "value": 115.79,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "Revenue Next Year 115.79M"
+    },
+    "fy1_eps": {
+      "value": -2.3,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "EPS This Year -2.30 (non-GAAP adjusted)"
+    },
+    "fy2_eps": {
+      "value": -3.79,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "as_of": "2026-11-19",
+      "note": "EPS Next Year -3.79 (non-GAAP adjusted)"
+    },
+    "street_analysts": {
+      "value": 14,
+      "as_of": "2026-11-19",
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)",
+      "note": "14 analysts polled by S&P Global: 9 Strong Buy, 3 Buy, 2 Hold"
+    },
+    "week52_low": {
+      "value": 10.38,
+      "as_of": "2026-10-28",
+      "source": "research/XNCR.md (October initiation)",
+      "note": "52-week low cited in the initiation"
+    }
+  },
+  "notes": [
+    "total_debt_m (from capital.new) is the non-current part of the OMERS royalty-sale liability (LongTermDebtNoncurrent); Xencor has no borrowed debt. The full liability is in the royalty_sale_liability_m note.",
+    "shares_outstanding_m is the 2026-10-30 cover count; the model starts from diluted_shares_m (78.353M, Q3 weighted average including in-the-money options).",
+    "Values the schema has no field for, used by models/_build_XNCR_2026-11-23.py:",
+    "ye2026_cash_guide_low_m = 480.0 (2026-11-04; Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz); accession 0001326732-26-000062): expects to end 2026 with between $480 million and $500 million in cash, cash equivalents and marketable debt securities",
+    "ye2026_cash_guide_high_m = 500.0 (2026-11-04; Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz); accession 0001326732-26-000062): runway into 2029 (prior guide $420-440 million, through 2028)",
+    "alexion_final_installment_m = 52.5 (2026-11-04; Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz); accession 0001326732-26-000062): entitled to receive a final payment of $52.5 million in the third quarter of 2027",
+    "q3_revenue_m = 116.52 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): Alexion $83,540; Astellas $25,000; Incyte $5,480; Zenas $2,500 (thousands)",
+    "q3_alexion_settlement_revenue_m = 77.4 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): The remaining $77.4 million of settlement consideration ... was recognized as royalty revenue during the three months ended September 30, 2026",
+    "q3_rd_m = 84.297 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): Research and development 84,297 (thousands), vs 54,367 a year earlier",
+    "q3_ga_m = 9.359 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): General and administrative 9,359, including a non-recurring recovery of legal expenses",
+    "royalty_sale_liability_m = 95.06 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): Liabilities related to the sales of future royalties: Ending balance $ 95,060 (effective interest rate 17.0%; serviced by ex-U.S. Ultomiris royalties, with Xencor funding shortfalls under the Alexion settlement)",
+    "lease_liabilities_m = 65.167 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): Lease liabilities 4,325 current + 60,842 non-current",
+    "street_target_median = 43.5 (2026-11-19; StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-23.html.gz)): Median $43.5",
+    "price_2026_11_23 = 35.17 (2026-11-23; StockAnalysis quote header (sources/stockanalysis-forecast-2026-11-23.html.gz)): 35.17 +1.91 (5.74%) Nov 23, 2026, 4:00 PM EST; not yet in data/prices/XNCR.csv, so the call uses the 2026-11-20 close",
+    "marketable_equity_securities_m = 26.97 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001326732-26-000063): Zenas BioPharma, Inc. $ 26,970 (about 1.0 million shares)"
+  ]
+}

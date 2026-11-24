@@ -40,7 +40,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [DLO](DLO.md) | Services-Business Services, NEC | 22.1x | 21.4–50.7x | 3.3x | 3.3–11.4x | 16.4x | 15.3–37.3x | SIC 7389, 6 names: 1.8x, 20.4x |
 | [DNLI](DNLI.md) | Biological Products, (No Diagnostic Substances) | — | 106.2–146.7x | 128.3x | 9.1–45.1x | — | 93.0–131.9x | SIC 283x, 4 names: 4.8x, 41.9x |
 | [DRH](DRH.md) | Real Estate Investment Trusts | 18.5x | 18.6–26.6x | 3.5x | 2.6–3.6x | — | 8.7–23.7x | SIC 6798, 3 names: 3.9x, 35.0x |
-| [ELF](ELF.md) | Perfumes, Cosmetics & Other Toilet Preparations | 82.8x | 54.1–102.0x | 3.9x | 3.0–5.2x | 43.8x | 30.6–65.1x | SIC 28xx, 5 names: 9.7x, 41.9x |
+| [ELF](ELF.md) | Perfumes, Cosmetics & Other Toilet Preparations | 82.8x | 54.1–102.0x | 3.9x | 3.0–5.2x | 43.8x | 30.6–65.1x | SIC 28xx, 5 names: 8.7x, 41.9x |
 | [ESQ](ESQ.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [ETOR](ETOR.md) | Security Brokers, Dealers & Flotation Companies | 10.3x | — | 0.1x | — | — | — | SIC 62xx, 5 names: 8.4x, 38.3x |
 | [FCFS](FCFS.md) | Retail-Miscellaneous Retail | 19.6x | 20.4–27.3x | 2.4x | 2.0–2.5x | — | — | SIC 59xx, 1 names: 0.4x, 10.4x |
@@ -55,7 +55,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [HOOD](HOOD.md) | Security Brokers, Dealers & Flotation Companies | 38.3x | 38.3–64.6x | 14.3x | 2.0–16.0x | — | — | SIC 62xx, 5 names: 4.3x, 23.9x |
 | [ICE](ICE.md) | Security & Commodity Brokers, Dealers, Exchanges & Services | 23.9x | 22.5–31.6x | 8.4x | 7.8–9.4x | 20.7x | 19.7–25.4x | SIC 62xx, 5 names: 4.3x, 38.3x |
 | [INTR](INTR.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
-| [IONS](IONS.md) | Pharmaceutical Preparations | — | 25.1–252.3x | 4.8x | 5.6–10.7x | — | 46.4–183.6x | SIC 2834, 3 names: 8.9x, 41.9x |
+| [IONS](IONS.md) | Pharmaceutical Preparations | — | 25.1–252.3x | 4.8x | 5.6–10.7x | — | 46.4–183.6x | SIC 2834, 3 names: 8.0x, 41.9x |
 | [IREN](IREN.md) | Finance Services | — | 32.6–102.5x | 19.3x | 2.8–14.4x | — | — | SIC 61xx, 1 names: 39.6x, 30.8x |
 | [ITUB](ITUB.md) | State Commercial Banks | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
 | [JOBY](JOBY.md) | Aircraft | — | — | 32.2x | 62.1–214.2x | — | — | SIC 37xx, 3 names: 3.4x, 315.1x |
@@ -80,7 +80,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [ORKA](ORKA.md) | Pharmaceutical Preparations | — | — | — | — | — | — | SIC 2834, 4 names: 4.8x, 41.9x |
 | [PAY](PAY.md) | Services-Business Services, NEC | 47.2x | 70.6–238.3x | 2.9x | 2.5–3.9x | 34.7x | 58.8–171.5x | SIC 7389, 6 names: 1.8x, 16.5x |
 | [PEGA](PEGA.md) | Services-Computer Processing & Data Preparation | 18.0x | 44.7–109.6x | 2.8x | 3.2–6.0x | 28.0x | 32.5–81.6x | SIC 737x, 14 names: 5.2x, 44.5x |
-| [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 9.7x, — |
+| [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 8.7x, — |
 | [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | SIC 7011, 3 names: 2.4x, 16.2x |
 | [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.3x | SIC 20xx, 5 names: 2.8x, 26.4x |
@@ -90,7 +90,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [PYPL](PYPL.md) | Services-Business Services, NEC | 10.9x | 17.3–53.8x | 1.5x | 2.3–7.3x | 9.1x | 13.6–49.2x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [QS](QS.md) | Miscellaneous Electrical Machinery, Equipment & Supplies | — | — | — | — | — | — | SIC 36xx, 2 names: 16.6x, 275.2x |
 | [QURE](QURE.md) | Pharmaceutical Preparations | — | — | — | 21.2–149.9x | — | — | SIC 2834, 4 names: 4.8x, 41.9x |
-| [RGEN](RGEN.md) | Biological Products, (No Diagnostic Substances) | — | 69.2–107.8x | — | 10.9–14.4x | — | 70.4–117.2x | SIC 283x, 5 names: 9.7x, 41.9x |
+| [RGEN](RGEN.md) | Biological Products, (No Diagnostic Substances) | — | 69.2–107.8x | — | 10.9–14.4x | — | 70.4–117.2x | SIC 283x, 5 names: 8.7x, 41.9x |
 | [RHP](RHP.md) | Real Estate Investment Trusts | 35.0x | 16.6–24.1x | 3.9x | 3.2–4.6x | 19.7x | 15.3–25.3x | SIC 6798, 3 names: 3.5x, 23.7x |
 | [RTO](RTO.md) | Services-Management Services | — | — | — | — | — | — | SIC 87xx, 1 names: 0.6x, 31.5x |
 | [SAN](SAN.md) | Commercial Banks, NEC | — | — | — | — | — | — | SIC 602x, 3 names: 3.6x, 18.3x |
@@ -119,5 +119,5 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [VKTX](VKTX.md) | Pharmaceutical Preparations | — | — | — | — | — | — | SIC 2834, 3 names: 4.8x, 41.9x |
 | [WU](WU.md) | Services-Business Services, NEC | 6.5x | 5.6–9.5x | 0.9x | 1.2–1.6x | 6.2x | 6.4–10.1x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [WYNN](WYNN.md) | Hotels & Motels | 23.6x | 17.7–40.7x | 2.5x | 2.8–4.4x | 17.5x | 17.9–31.8x | SIC 7011, 3 names: 2.4x, 14.1x |
-| [XNCR](XNCR.md) | Pharmaceutical Preparations | — | 39.1–67.3x | 14.5x | 7.4–15.9x | — | 31.1–61.8x | SIC 2834, 3 names: 4.1x, 41.9x |
+| [XNCR](XNCR.md) | Pharmaceutical Preparations | — | 39.1–67.3x | 12.5x | 7.4–15.9x | — | 31.1–61.8x | SIC 2834, 3 names: 4.1x, 41.9x |
 | [ZETA](ZETA.md) | Services-Prepackaged Software | 233.6x | — | 5.3x | 2.3–3.5x | 148.4x | — | SIC 7372, 10 names: 5.2x, 44.5x |

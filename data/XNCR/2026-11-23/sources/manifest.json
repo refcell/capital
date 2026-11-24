@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/XNCR.csv",
+      "commit": "6c6402ad417a",
+      "sha256": "b1d13a5f1de6419040fb4c09c89d6a5aee5e2ade9d07251b50022390762a90c8",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/XNCR.csv",
+      "commit": "6c6402ad417a",
+      "sha256": "a621b70f9abb0aedc4c842aaad63de05308144eedf8b3ed349114ed9acb6a672",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "6c6402ad417a",
+      "sha256": "c0e8db9df853e5b7c701608ead5f5a9cc1ea42ee8a8b051e5a917a76390b75ea",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-q3-2026-release-ex99-1-htm",
+      "kind": "file",
+      "path": "8k-q3-2026-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326732/000132673226000062/xncr-20261104xexx991.htm",
+      "fetched_at": "2026-11-24T03:01:57+00:00",
+      "sha256": "68ec76df6b91dabac16cd05d6ace0dc0c964bb3cc6ac9121d0068a3286c098fc",
+      "description": "Q3 2026 earnings release: pipeline update, YE2026 cash guidance $480-500M, runway into 2029, condensed financials (8-K Exhibit 99.1, accession 0001326732-26-000062, filed 2026-11-04)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326732/000132673226000063/xncr-20260930.htm",
+      "fetched_at": "2026-11-24T03:01:57+00:00",
+      "sha256": "4e9890280766dda161c6184edc92e83a14651807a17927ebdfe7107750be6b3a",
+      "description": "Q3 2026 Form 10-Q: balance sheet, revenue by partner, Alexion settlement accounting, OMERS royalty liabilities, R&D by program, liquidity (accession 0001326732-26-000063, filed 2026-11-04)"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-23-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-23.html.gz",
+      "url": "https://stockanalysis.com/stocks/xncr/forecast/",
+      "fetched_at": "2026-11-24T03:02:46+00:00",
+      "sha256": "7c9957f4afd9881be91433983dd302f2975d3f9a29da4881e3ed0bbb256127e7",
+      "description": "StockAnalysis forecast page (S&P Global Market Intelligence, TipRanks; last updated 2026-11-19): 14 analysts, mean target $43.83, FY2026/FY2027 revenue and EPS consensus, recent target changes; shows 2026-11-23 close $35.17"
+    },
+    {
+      "id": "insider-2026-11-19-jpm-target-html",
+      "kind": "file",
+      "path": "insider-2026-11-19-jpm-target.html.gz",
+      "url": "https://markets.businessinsider.com/news/stocks/xencor-price-target-raised-to-37-from-21-at-jpmorgan-1036784764",
+      "fetched_at": "2026-11-24T03:04:18+00:00",
+      "sha256": "b6e4cacf79f6e651dc0f87b50810b13920522c6719040b5dcb46c2898f9c641e",
+      "description": "J.P. Morgan raises Xencor target to $37 from $21, keeps Neutral, after renal oncologist checks on XmAb819 (TipRanks via Markets Insider, 2026-11-19)"
+    },
+    {
+      "id": "xencor-2026-11-09-acr-plamotamab",
+      "kind": "file",
+      "path": "xencor-2026-11-09-acr-plamotamab.md",
+      "url": "https://investors.xencor.com/news-releases/news-release-details/xencor-presents-initial-plamotamab-data-rheumatoid-arthritis-acr",
+      "fetched_at": "2026-11-24T03:04:49+00:00",
+      "sha256": "4c87eec200824d2fd27c9eaa18c1537f794c62a320f00dc6a80568734d56b585",
+      "description": "Xencor release 2026-11-09: initial plamotamab (CD20 x CD3) rheumatoid arthritis Phase 1b data at ACR and XmAb657 healthy-volunteer update (page text)"
+    },
+    {
+      "id": "truist-2026-11-04-q3",
+      "kind": "file",
+      "path": "truist-2026-11-04-q3.pdf",
+      "url": "https://truist.bluematrix.com/docs/pdf/ca9cffcc-ce9b-4fc2-8293-332d899147ec.pdf",
+      "fetched_at": "2026-11-24T03:14:05+00:00",
+      "sha256": "b19df5135f8726b28e2e7466f057ade77c04fe081df670f87c2d5c5e1f92c9e7",
+      "description": "Truist Securities, XNCR 3Q26 earnings recap, 2026-11-04 (Buy, $40 target): Q3 revenue $116.5M vs Truist $64.0M and consensus $63.0M; milestones table"
+    }
+  ]
+}

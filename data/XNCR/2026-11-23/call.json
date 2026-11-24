@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "ticker": "XNCR",
+  "exchange": "NASDAQ",
+  "company": "Xencor, Inc.",
+  "sector": "Healthcare / Biotechnology / Engineered antibodies",
+  "date": "2026-11-23",
+  "origin": "run",
+  "prior_call": "XNCR/2026-10-29",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings update (Q3 2026, reported 2026-11-04), with the November 9 ACR plamotamab and XmAb657 data",
+  "stance": "watch",
+  "bias": "negative",
+  "stance_text": "Watch — unchanged, bias now negative; fair value lowered from $34.71 today to $34.66 at end-2029 (about $24.67 today at 12%), 1.4% a year from $33.26; Own at about $22.80, Avoid above about $34.70. Q3 brought non-dilutive cash (Alexion settlement, Astellas milestone, Zenas stock sales) and a runway into 2029, but no new XmAb819 efficacy data; the stock rose 11% while SPY fell 11%, and the call now funds a Phase 3 and the autoimmune programs through 2029 with $600M of equity",
+  "rating_override_reason": null,
+  "primary_lens": "sotp",
+  "lens_text": "End-2029 sum of parts: net cash rolled forward from the midpoint of the year-end 2026 guide ($480-500M) through 2027-2029 burn (operating expenses less stock comp and D&A, less cash revenue, plus OMERS shortfall funding, less the final Alexion installment), plus equity raised, less leases; plus XmAb819 at end-2029 (peak sales x probability of approval x October's NPV-to-peak multiple rolled forward three years at 12%), XmAb942, other pipeline and platform, and the partnered royalty and milestone portfolio, less capitalized overhead; over end-2029 shares with 2% a year of stock-comp dilution plus new shares sold; three-year value, undiscounted",
+  "price": {
+    "value": 33.26,
+    "currency": "USD",
+    "date": "2026-11-20"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 1.7,
+      "weight": 0.3,
+      "basis": "The 1H27 update shows the 400 µg/kg confirmed ORR settling below about 25% or a tolerability problem; FDA declines an accelerated path; XENITH-UC misses. Programs are cut (2027-29 burn $560M including $22M of OMERS shortfall funding) and $150M is raised at $30 and $10. XmAb819 $800M peak x 10% x 2.8x = $224M; XmAb942 nil; other $50M; royalties and milestones $150M; overhead -$250M (both October's values); end-2029 net cash -$19M after leases and the $44M OMERS residual; 91.5M shares"
+    },
+    "base": {
+      "value": 34.61,
+      "weight": 0.5,
+      "basis": "Confirmed ORR settles between about 25% and 45% in the full cohort; the Phase 3 against tivozanib starts around YE2027 (a start up to mid-2028 still counts as the base) and is enrolled by end-2029. 2027-29 burn $865M (opex $400M rising to $470M; FY2027 revenue $90M of royalties and milestones, below the $115.79M consensus) and $600M raised at $32. XmAb819 $2.0B peak x 45% x 3.5x = $3.15B; XmAb942 $200M (about a 45% chance of a win); other $150M; royalties and milestones $200M; overhead -$300M (October's values); end-2029 net cash $127M after leases and the $44M OMERS residual; 101.9M shares"
+    },
+    "bull": {
+      "value": 84.25,
+      "weight": 0.2,
+      "basis": "Confirmed ORR at or above 45% in 25+ patients, FDA agrees an accelerated path, approval in refractory ccRCC around end-2029 and earlier-line studies under way; XENITH-UC wins. 2027-29 burn $930M and $800M raised, $400M at $45 in 2027 and $400M at $55 in 2028. XmAb819 $3.0B peak (as in October) x 65% x 3.5x = $6.83B; XmAb942 $900M; other $350M; royalties $280M; overhead -$250M (October's values); end-2029 net cash $262M after leases and the $44M OMERS residual; 99.3M shares"
+    }
+  },
+  "fair_value": {
+    "value": 34.66,
+    "method": "weighted"
+  },
+  "horizon_years": 3,
+  "horizon_text": "End-2029 value, undiscounted; no dividend",
+  "street": {
+    "target_mean": 43.83,
+    "target_median": 43.5,
+    "target_low": 26.0,
+    "target_high": 70.0,
+    "analysts": 14,
+    "rating_text": "Buy (14 analysts: 9 Strong Buy, 3 Buy, 2 Hold)",
+    "as_of": "2026-11-19",
+    "source": "StockAnalysis forecast page (S&P Global Market Intelligence), sources/stockanalysis-forecast-2026-11-23.html.gz"
+  },
+  "deviation_from_street": {
+    "pct": -20.9,
+    "reason": "Our end-2029 value ($34.66) is 21% below the $43.83 mean of 12 price targets, and on a like-for-like horizon the gap is wider: discounted at 12% it is about $24.67 today. The difference is weights, dilution and probability: the Street's mean needs bull-like weights (20/55/25 with the bull at a $3.5B peak and 75% gives $46.38), while we fund a Phase 3 and three autoimmune programs through 2029 with $600M of equity at $32 in the base and hold the weighted probability of XmAb819 approval at 38.5%, close to October's, because no new efficacy data have come out since ESMO."
+  },
+  "thesis": "Q3 confirmed the funding story, not the drug story. Revenue of $116.5M was $77.4M of Alexion settlement consideration and a $25.0M Astellas Phase 3 milestone; royalties excluding the settlement were about $10M. With $66.9M from selling two-thirds of the Zenas stake, cash and debt securities held at $555.7M, the year-end guide rose to $480-500M and the runway moved into 2029. XmAb819 is unchanged since ESMO: a 45.5% confirmed ORR in 11 patients at the 400 µg/kg RP3D, FDA talks and fuller data in 1H27, a Phase 3 against tivozanib by YE2027. On end-2029 values of $1.70 / $34.61 / $84.25 at 30/50/20 the weighted value is $34.66, 1.4% a year from $33.26: Watch with a negative bias, close to the Avoid line. The cases split on the 1H27 cohort update, and until it comes the price already pays for most of the base: a 45% chance of approval at $2B of peak sales, a 3.35x NPV-to-peak multiple and a $600M raise. Own at about $22.80.",
+  "consensus_view": "Fourteen analysts (S&P Global, November 19) rate the stock Buy; the mean of 12 price targets is $43.83 ($26-$70), up from $40.25 at the October call; J.P. Morgan raised its target to $37 from $21 at Neutral after renal oncologist checks, and RBC ($43), Wedbush ($45), Canaccord ($40) and Leerink ($41) kept Buy after Q3. Consensus revenue is $198.65M for FY2026 and $115.79M for FY2027, with non-GAAP EPS of -$2.30 and -$3.79. The stock rose 14% on November 4 ahead of the after-close Q3 report and to $39.97 after the ACR data, then gave most of it back to $33.26 by November 20.",
+  "variant_view": "The Street's $43.83 mean of 12 price targets, a 12-month price, sits above our end-2029 value of $34.66 (about $24.67 today at 12%). We do not think the price assumes the October data are confirmed: our base, a 25-45% confirmed rate, is worth $34.61 at end-2029, just above $33.26. The disagreement is with the Street's weights. Its mean needs the bull to be about as likely as the base (20/55/25 with the bull at a $3.5B peak and 75% gives $46.38), while five responses in 11 patients and the usual fade of later solid-tumor T-cell engager cohorts put us at 30/50/20, with only a 0.20 chance the full cohort holds 45%. Checkable (claim x819-orr-25-1h27, 0.65 the other way): if the 1H27 update shows a confirmed ORR below 25%, or no update covering 20 or more patients by July 31, 2027, we expect XNCR below $20 by the end of 2027.",
+  "why_opportunity": [
+    "behavioral"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "January corporate update and preliminary year-end 2026 cash (8-K Item 2.02 on January 8 last year)",
+      "timing": "About January 7-12, 2027",
+      "date": "2027-01-08",
+      "kind": "hard",
+      "what_it_proves": "Year-end cash against the $480-500M guide; 2027 milestones and any update on the XENITH-UC blinded interim",
+      "value_impact": "Cash below $480M means burn above the base path"
+    },
+    {
+      "event": "Q4 and FY2026 results, 10-K and 2027 operating plan",
+      "timing": "About February 24, 2027 (last year February 25, 2026)",
+      "date": "2027-02-24",
+      "kind": "hard",
+      "what_it_proves": "2027 opex and burn, runway, the size of the Phase 3",
+      "value_impact": "2027 burn above $260M moves the base toward a larger raise"
+    },
+    {
+      "event": "FDA engagement on a potential accelerated approval pathway for XmAb819; full 400 µg/kg IV cohort and subcutaneous dose-escalation data",
+      "timing": "1H27",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether the response rate holds beyond 11 patients and whether a single-arm filing is possible",
+      "value_impact": "Confirmed ORR at or above 25% in 20+ patients holds the base, at or above 45% supports the bull; below 25%, or no 20-patient update by July 31, 2027, fires a kill criterion"
+    },
+    {
+      "event": "XmAb412 (TL1A x IL23p19) healthy-volunteer data",
+      "timing": "1H27",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Half-life and dosing interval for the bispecific",
+      "value_impact": "Inside other pipeline ($150M base)"
+    },
+    {
+      "event": "Final $52.5M Alexion settlement installment",
+      "timing": "Q3 2027",
+      "date": "2027-09-30",
+      "kind": "hard",
+      "what_it_proves": "Cash receipt already in the base burn",
+      "value_impact": "None if paid"
+    },
+    {
+      "event": "XENITH-UC (XmAb942) primary endpoint, 12-week clinical remission",
+      "timing": "2H27",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Whether Xencor's TL1A antibody competes with Merck's and Roche/Sanofi's",
+      "value_impact": "$200M in the base ($1.96 a share); zero in the bear, $900M in the bull"
+    },
+    {
+      "event": "Randomized Phase 3 of XmAb819 against tivozanib starts",
+      "timing": "By YE2027, subject to FDA feedback",
+      "date": "2027-12-31",
+      "kind": "hard",
+      "what_it_proves": "The registrational path and its cost",
+      "value_impact": "A slip past mid-2028 fires a kill criterion"
+    },
+    {
+      "event": "Partner milestones: obexelimab FDA decision (Zenas), xaluritamig Phase 3 (Amgen), ASP2138 (Astellas)",
+      "timing": "2027-2029",
+      "date": null,
+      "kind": "soft",
+      "what_it_proves": "Royalty and milestone portfolio value ($200-400M across cases)",
+      "value_impact": "Non-dilutive cash inside the royalty and milestone portfolio ($150M / $200M / $280M); $207.5M (Astellas) and $447.5M (Zenas) of milestones remain"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "The 45.5% confirmed ORR was a small-cohort high-water mark: with 25-30 patients and longer follow-up the confirmed rate settles near 25%, PFS is ordinary against tivozanib, and the accelerated path closes.",
+      "signal": "1H27 cohort update with confirmed ORR below 25%, or responses reported only as unconfirmed; a smaller n than the enrolled cohort"
+    },
+    {
+      "reason": "Tolerability and logistics limit XmAb819 to academic centers: weekly IV priming, CRS management and step-up dosing cap uptake, and peak sales land near $600M, not $2B.",
+      "signal": "Related discontinuations above 10% (5.9% at ESMO) or Grade 3+ CRS in the larger cohort; subcutaneous data that do not shorten monitoring"
+    },
+    {
+      "reason": "Burn outruns the plan: a Phase 3, TL1A work, three autoimmune T-cell engagers and earlier-line ccRCC studies take 2027-29 burn above $1B, and Xencor raises equity after a weak readout at a low price.",
+      "signal": "2027 opex guide above $430M; year-end 2027 cash below $300M before a raise; equity sold below $25"
+    },
+    {
+      "reason": "XENITH-UC misses or lands below the TL1A leaders, removing the second leg and the bull's $900M, while the market had paid for both.",
+      "signal": "Blinded interim commentary on enrollment slipping; competitor TL1A Phase 3 data setting a high bar in 2027"
+    },
+    {
+      "reason": "The Watch call is wrong on the upside: the full cohort confirms ORR above 45% with durable PFS, FDA agrees to accelerated approval, and a pharma buys Xencor or licenses XmAb819 at a large premium while we wait for about $22.80.",
+      "signal": "1H27 data with confirmed ORR at or above 45% in 25+ patients and median PFS not reached; FDA alignment announced"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Updated 400 µg/kg IV cohort data show a confirmed ORR below 25%, or related treatment discontinuations above 10%, or no confirmed-ORR update covering at least 20 efficacy-evaluable patients is published by July 31, 2027",
+      "check_by": "2027-07-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Xencor sells common stock (follow-on, registered direct or ATM) at a price below $22 before December 31, 2027",
+      "check_by": "2028-01-31",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "The XmAb819 Phase 3 has not started (first patient dosed announced) by June 30, 2028, or FDA feedback rules out both an accelerated path and the tivozanib-comparator design",
+      "check_by": "2028-07-31",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "ye26-cash-480",
+      "claim": "Xencor reports cash, cash equivalents and marketable debt securities of at least $480M at December 31, 2026 (guide $480-500M).",
+      "probability": 0.85,
+      "resolve_by": "2027-03-31"
+    },
+    {
+      "id": "x819-orr-25-1h27",
+      "claim": "Xencor's next update of the XmAb819 400 µg/kg IV ccRCC cohort, published by July 31, 2027, reports a confirmed ORR of at least 25% in at least 20 efficacy-evaluable patients.",
+      "probability": 0.65,
+      "resolve_by": "2027-07-31"
+    },
+    {
+      "id": "x819-orr-45-1h27",
+      "claim": "The same update reports a confirmed ORR of at least 45% in at least 20 efficacy-evaluable patients.",
+      "probability": 0.2,
+      "resolve_by": "2027-07-31"
+    },
+    {
+      "id": "x819-ph3-start-2027",
+      "claim": "Xencor announces that the first patient has been dosed in a randomized Phase 3 study of XmAb819 in ccRCC on or before December 31, 2027.",
+      "probability": 0.45,
+      "resolve_by": "2028-03-31"
+    },
+    {
+      "id": "xenith-uc-primary-2027",
+      "claim": "Xencor announces by December 31, 2027 that XENITH-UC met its primary endpoint (week-12 clinical remission, statistically significant versus placebo) for at least one XmAb942 dose.",
+      "probability": 0.45,
+      "resolve_by": "2028-03-31"
+    },
+    {
+      "id": "equity-raise-2027",
+      "claim": "Xencor sells at least $200M of common stock (follow-on, registered direct or ATM; excluding employee awards) between November 23, 2026 and December 31, 2027.",
+      "probability": 0.7,
+      "resolve_by": "2028-03-31"
+    },
+    {
+      "id": "xncr-above-33-end-27",
+      "claim": "XNCR closes 2027 (last trading day) above $33.26, the price of this call.",
+      "probability": 0.45,
+      "resolve_by": "2028-01-15"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "Toward Own: a price at or below about $22.80 at these weights (15% a year)",
+    "Toward Own: a 1H27 cohort update with confirmed ORR at or above 45% in 25+ patients and FDA agreement on an accelerated path; at 20/55/25 with the bull at a $3.5B peak and 75% probability the value is $46.38 (11.7% a year), still just short of Own at $33.26",
+    "Toward Avoid: a price above about $34.70 at the January review, or confirmed ORR below 25% in the update, related discontinuations above 10%, or equity sold below $22",
+    "Toward Avoid: a 35/45/20 weighting, the bear at the full 35% chance of missing 25% ($33.02, -0.2% a year), or 40/45/15 after a middling update ($28.89, -4.6% a year)"
+  ],
+  "base_rate": null,
+  "update": {
+    "event": "Q3 2026 results (8-K and 10-Q, 2026-11-04) and the ACR plamotamab and XmAb657 data (2026-11-09)",
+    "event_date": "2026-11-04",
+    "expected": "October initiation (backfill, Watch, price $29.99): sum of parts today at $8.21 / $32.66 / $65.30, 25/50/25, fair value $34.71; XmAb819 at $800M / $2.0B / $3.0B peak, 20% / 40% / 45% probability and 2.0x / 2.5x / 2.5x (weighted probability 36%), XmAb942 $50M / $300M / $900M; net cash $394.9M at June 30; YE2026 cash guide $420-440M and runway through 2028; FY2026 revenue consensus $148.84M. It named the next checkpoints as more mature PFS, a clear FDA path and a funded Phase 3. No claims or kill criteria",
+    "actual": "Q3 revenue $116.5M (Truist cons. about $63M): Alexion $83.5M, of which $77.4M was settlement consideration for post-June U.S. royalties, Astellas $25.0M Phase 3 milestone, Incyte $5.5M, Zenas $2.5M. R&D $84.3M (+55%), G&A $9.4M after a legal-expense recovery; operating income $22.9M; net income $39.4M ($0.50 diluted). Cash and debt securities $555.7M after $66.9M from selling 2.1M Zenas shares (1.0M left, $27.0M); OMERS liability $95.1M. YE2026 guide raised to $480-500M; runway into 2029. XmAb819 400 µg/kg chosen as RP3D; FDA talks and full-cohort and subcutaneous data in 1H27; Phase 3 against tivozanib by YE2027. ACR: plamotamab in 9 RA patients, >99% B-cell depletion, DL4 mean CDAI -25.0; XmAb657 86% median B-cell reduction in healthy volunteers, patients from 1Q27. Stock +14.3% on November 4 before the after-close release, -2.8% the next day (SPY -4.4%), +7.9% on the ACR data, peak $39.97 on November 11, $33.26 on November 20 (+10.9% since the call, SPY -10.7%)",
+    "thesis_pillars": [
+      {
+        "pillar": "XmAb819 is a real, registrable ccRCC drug",
+        "status": "intact",
+        "note": "No new efficacy data; RP3D chosen, Phase 3 design named, FDA meeting 1H27"
+      },
+      {
+        "pillar": "The balance sheet funds the next readouts without punitive dilution",
+        "status": "strengthened",
+        "note": "YE2026 guide +$60M, runway into 2029, Alexion final $52.5M due Q3 2027"
+      },
+      {
+        "pillar": "Royalties and milestones cushion the burn",
+        "status": "weakened",
+        "note": "U.S. Ultomiris royalties are gone; Q3 revenue was largely one-off; FY2027 consensus revenue $115.79M"
+      },
+      {
+        "pillar": "A second shot on goal (TL1A, autoimmune T-cell engagers)",
+        "status": "intact",
+        "note": "XENITH-UC on track for 2H27; plamotamab and XmAb657 early data encouraging but tiny"
+      },
+      {
+        "pillar": "The price leaves room for a good base case",
+        "status": "weakened",
+        "note": "Stock +10.9% while SPY fell 10.7%; the base case alone now earns 1.3% a year"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2027-01-09",
+  "next_review_trigger": "January 2027 corporate update with preliminary year-end cash (last year's 8-K Item 2.02 was January 8)",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/XNCR/2026-11-23.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/XNCR/2026-11-23.xlsx",
+      "commit": null
+    },
+    "build_script": {
+      "path": "models/_build_XNCR_2026-11-23.py",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/XNCR.md",
+      "commit": null
+    }
+  },
+  "evidence": {},
+  "notes": [
+    "The October call was a backfill whose values were today-values from an rNPV discounted at 12%; this update states end-2029 values, undiscounted, as the IONS and NBIS updates do. Discounted at 12% for three years, $34.66 is about $24.67 today, 29% below October's $34.71: the base now pays for a Phase 3 and the autoimmune programs through 2029, sells $600M of equity at $32 and funds OMERS shortfalls, deducts the OMERS liability left at end-2029, and the weights moved to 30/50/20 from 25/50/25.",
+    "XmAb819 at end-2029 is peak sales x probability of approval x October's NPV-to-peak multiple rolled forward three years at 12% (2.0x to 2.8x bear; 2.5x to 3.5x base and bull). Probabilities stay near October's: weighted 38.5% at end-2029 (0.30 x 10% + 0.50 x 45% + 0.20 x 65%) against 36% today in October, because no new efficacy data came out. Peaks are October's ($800M / $2.0B / $3.0B). The first draft raised the bull to $3.5B at 70% and the base to 50%, which the review rejected.",
+    "Weights follow the 1H27 cohort update: bear if the confirmed ORR settles below about 25% or tolerability fails (30%), base for about 25-45% (50%), bull at 45% or more with an accelerated path (20%). Five confirmed responses in 11 patients have a 95% interval of roughly 17% to 77%, and later cohorts in solid-tumor T-cell engagers usually come in below early ones, so the claims put 0.65 on at least 25% and 0.20 on at least 45%. Some of the 35% chance of missing 25% is a delayed or thin update, not a failed drug, which is why the bear weight is 30%.",
+    "Net cash starts at the midpoint of the YE2026 guide ($490M of cash, cash equivalents and marketable debt securities). The remaining Zenas stake ($27.0M at September 30) is left out in case the guide already counts a Q4 sale; adding it is worth $0.27 a share. Burn each year is operating expenses less stock comp and D&A ($35-45M), less cash revenue (revenue less $24M a year of ex-U.S. Ultomiris royalties paid straight to OMERS, $12M in 2029), less net interest, less the final $52.5M Alexion installment in 2027, plus $5M of capex, plus $11M a year in 2027-2028 of shortfall funding: under the settlement Xencor funds shortfalls in the up to $35M a year OMERS is owed through 2028, and ex-U.S. Ultomiris royalties ran about $6.1M a quarter in Q3. The 10-Q does not give the shortfall terms; $5.0M of restricted cash is held against them. Without the charge the value is $34.89. Leases ($55M at end-2029) are deducted, and so is what is left of the OMERS liability at end-2029, about $44M ($95.1M accreting at its 17.0% effective rate, less about $35M a year paid in 2027-2028 and $12M in 2029), as October deducted the whole liability; it costs $0.45 a share. Royalties and milestones ($150M / $200M / $280M), other pipeline ($50M / $150M / $350M) and overhead (-$250M / -$300M / -$250M) stay at October's today-values and are not rolled forward, because their 2027-2029 receipts and costs are already in the burn.",
+    "FY2027 base revenue is $90M, about $40M of royalties (ex-U.S. Ultomiris about $24M, Monjuvi about $16M) and about $50M of milestones (for example an obexelimab approval under the Zenas agreements, or xaluritamig and ASP2138 events), below the $115.79M consensus. The $52.5M Alexion installment is cash in 2027 but was revenue in 2026, so it is added separately and is not in revenue.",
+    "Shares start at 78.353M, the Q3 diluted weighted average, which counts in-the-money options because Q3 was profitable (74.76M issued at September 30 and 75.04M at October 30; Q3 basic weighted shares of 76.215M suggest some pre-funded warrants from September 2024 remain unexercised after 1.388M were exercised in Q1). Shares grow 2% a year from stock compensation ($28.2M in nine months 2026). The base raise at $32 sits near the base path's 2027-2028 prices less an offering discount.",
+    "Sensitivities (all printed by the build script): weights 25/50/25 $38.79 (5.3%), 35/45/20 $33.02 (-0.2%), 40/45/15 $28.89 (-4.6%), 20/55/25 $40.44 (6.7%); October's XmAb819 inputs rolled forward $29.45 (-4.0%); base probability 35% $31.23, 60% $39.82; base peak $1.5B $30.80, $2.5B $38.53; base multiple 3.0x $32.45; all multiples 3.0x (2.5x bear) $30.41 (-2.9%); base raise at $22 $33.33, at $40 $35.32; bull $3.5B at 75% $39.42, and with 20/55/25 $46.38 (11.7%); XmAb942 $300M in base $35.15, zero $33.68; Zenas stake added $34.94. The base NPV-to-peak multiple that returns $33.26 is 3.35x. The bull carries $16.85 of the $34.66.",
+    "Base rates: revenue CAGR is not a meaningful reference class for a clinical-stage biotech whose 2027-2029 revenue is royalties and milestones, so no base_rate block is set.",
+    "The November 23 close of $35.17 (StockAnalysis) was not yet in data/prices/XNCR.csv when the call was written; the call uses the November 20 close of $33.26, at which the rule gives Watch (1.4% a year). At $35.17 the weighted value is -0.5% a year, past the Avoid line; if the price is still above about $34.70 at the January review the call moves to Avoid.",
+    "Review round 1 (agent:reviewing-research, grade C): the first draft (25/50/25, fair value $44.73, 10.4% a year) raised XmAb819 inputs without new efficacy data (base 40% to 50%; bull $3.0B x 45% x 2.5x to $3.5B x 70% x 3.0x) and did not show the bull and bear changes; claims at 0.45-0.50 contradicted 75% weight on base plus bull; the base raise at $40 sat above its own price path; recurring Q3 revenue was misstated as about $12M; the OMERS liability was called non-recourse, which the 10-Q does not say, and the shortfall funding was ignored; the variant view compared end-2029 values with 12-month targets; the first kill criterion did not fire on a delayed or thin update. All fixed as described in review.response.",
+    "Review round 2 (agent:reviewing-research, grade C): the second draft ($37.32, 3.9% a year) had moved royalties, other pipeline and overhead above October's values without saying so (worth $2.02 a share), dropped the OMERS liability left at end-2029, priced the bull's 2027 raise at $55 against a $46 path, kept stale figures in two catalysts, the pre-mortem and change_my_mind, and kept a variant view its own base contradicted. All fixed as described in review.response; fair value is now $34.66."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-23",
+    "scores": {
+      "evidence": 3,
+      "valuation": 3,
+      "variant_view": 2,
+      "risk": 4,
+      "calibration": 3
+    },
+    "low_score_reasons": [
+      "evidence: Royalties (150/200/280 to 200/300/400), other pipeline (50/150/350 to 50/250/500) and bear overhead (-250 to -150) changed from October with no stated basis; the royalty line appears rolled forward at 12% even though its 2027-2029 receipts are already in the burn, the residual OMERS liability (about $44M at end-2029 on 17% accretion and $35/$35/$12M of payments) is no longer deducted although October deducted it, and the Amgen $225M milestone and TIVO-3 18% ORR have no saved source.",
+      "valuation: The report says 'The only uplift is October's NPV-to-peak multiples rolled forward', but the undisclosed royalty, other-pipeline and overhead changes add $2.02 a share; at October's values for those three lines the model gives $35.39 (2.1% a year), and the change table omits all three rows.",
+      "variant_view: The claim that the market is 'paying for the October dataset as if it were already confirmed' is contradicted by the call's own base: a 25-45% ORR outcome (not confirmation) is worth $37.00 at 3.5x, above $33.26, and the price needs only 3.08x; the checkable test uses a 35% threshold that sits inside the call's own base band and is not a recorded claim.",
+      "calibration: A weighted 38.5% chance of approval for a Phase 1 asset with 5 responses in 11 patients is high for oncology and is not defended against any reference class; base plus bull (70%) assume a Phase 3 around YE2027 while the Phase 3 claim is 0.45, and the scenarios imply about a 0.70 chance of selling at least $200M of stock in 2027 against the 0.60 claim."
+    ],
+    "grade": "C",
+    "counter_case": "On its own numbers this is an Avoid at the price the stock already trades at. Put the royalty, other-pipeline and overhead lines back at October's values, which the report never says it changed, and the value is $35.39, 0.2% a year from the $35.17 November 23 close; set the bear weight to the 0.35 the call itself gives to missing 25% (35/45/20) and it is $33.75, -1.4% a year. All of this still assumes a 38.5% chance of approval for a drug whose evidence is five responses in eleven patients, and the base and bull cases both need a Phase 3 around YE2027 that the call gives only a 0.45 chance. The 'negative bias' is the call admitting it is one honest adjustment away from Avoid.",
+    "response": "Accepted on every defect; fair value cut again, from $37.32 (3.9% a year) to $34.66 (1.4%). Royalties, other pipeline and overhead go back to October's today-values ($150M/$200M/$280M, $50M/$150M/$350M, -$250M/-$300M/-$250M) and are not rolled forward, because their 2027-2029 receipts and costs are in the burn; the report's change table now shows them. The OMERS liability left at end-2029 (about $44M) is deducted, -$0.45 a share. The bull raises $400M at $45 in 2027 and $400M at $55 in 2028. Catalyst values, the pre-mortem price, change_my_mind ($46.38 at 20/55/25 with the bull at $3.5B and 75%), the projection's FY2027 revenue reason, the FY2027 EPS gap (pre-raise base -$3.75 against the Street's -$3.79), the unsourced Amgen $225M, the FDA wording and the 12-target count are fixed. The equity-raise claim moves to 0.70 to match the scenarios, and the base basis says a Phase 3 start up to mid-2028 is still the base. The variant view is restated as a disagreement with the Street's weights, tested by claim x819-orr-25-1h27. On the counter-case: at 35/45/20 the revised model gives $33.02, -0.2% a year from $33.26, and at the $35.17 close the 30/50/20 value is -0.5% a year, so the call sits on the Avoid line. We keep Watch at the $33.26 reference price, where the rule gives 1.4% a year, because some of the 35% chance of missing 25% is a delayed or thin update rather than a failed drug, and a 25-35% confirmed rate against tivozanib's 18% in TIVO-3 is still a registrable drug. We record that a price still above about $34.70 at the January 9 review moves the call to Avoid. We do not cut the 38.5% weighted approval probability further: it is held to October's 36% plus three years of resolution, and the review gives no reference class that would set a different number."
+  }
+}
