@@ -622,7 +622,7 @@
   "XNCR": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/XNCR",
-    "last_capture": "2026-11-11T02:23:26+00:00"
+    "last_capture": "2026-11-24T03:01:22+00:00"
   },
   "ZETA": {
     "source": "Yahoo Finance chart API v8 (close, adjclose)",
