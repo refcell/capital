@@ -1,0 +1,571 @@
+Third Quarter
+2026 Financial
+Results
+November 4, 2026
+Western Union
+
+
+
+
+ Tom Hadley
+ Vice President
+ of Investor Relations
+
+
+
+
+                         2
+Western Union
+
+
+
+
+                                                            Forward-Looking Statements
+       This presentation contains certain statements that are forward-looking within the meaning of the Private Securities Litigation Reform Act of 1995. These statements are not guarantees of
+       future performance and involve certain risks, uncertainties, and assumptions that are difficult to predict. Actual outcomes and results may differ materially from those expressed in, or
+       implied by, our forward-looking statements. Words such as “expects,” “intends,” “targets,” “anticipates,” “believes,” “estimates,” “guides,” “provides guidance,” “provides outlook,” “projects,”
+       “designed to,” and other similar expressions or future or conditional verbs such as “may,” “will,” “should,” “would,” “could,” and “might” are intended to identify such forward-looking
+       statements. Readers of this presentation of The Western Union Company (the “Company,” “Western Union,” “we,” “our,” or “us”) should not rely solely on the forward-looking statements and
+       should consider all uncertainties and risks discussed in the Risk Factors section of our Annual Report on Form 10-K for the year ended December 31, 2025, and in our subsequent filings with
+       the Securities and Exchange Commission. The statements are only as of the date they are made, and the Company undertakes no obligation to update any forward-looking statement.
+
+       Possible events or factors that could cause results or performance to differ materially from those expressed in our forward-looking statements include the following: changes in economic
+       conditions, trade disruptions, or significantly slower growth or declines in the money transfer, payment service, and other markets in which we operate; interruptions in migration patterns,
+       slowdown in travel, or other events, such as public health emergencies, any changes arising as a result of policy changes in the United States and/or other key markets, civil unrest, war,
+       terrorism, natural disasters, or non-performance by our banks, lenders, insurers, or other financial services providers; failure to compete effectively in the money transfer and payment
+       service industry, including among other things, with respect to digital, mobile and internet-based services, card associations, and card-based payment providers, and with digital currencies,
+       including cryptocurrencies; geopolitical tensions, political conditions, armed conflicts or wars, and related actions, including trade restrictions, tariffs, and government sanctions;
+       deterioration in customer confidence in our business; failure to maintain our agent network and business relationships; our ability to adopt new technology; the development, deployment,
+       and use of AI, machine learning, and automated decision-making technologies in our operations, including risks or unintended outcomes; the failure to realize anticipated financial benefits
+       from mergers, acquisitions and divestitures; decisions to change our business mix; exposure to foreign exchange rates; changes in tax laws, or their interpretation, and unfavorable
+       resolution of tax contingencies; cybersecurity incidents involving any of our systems or those of our vendors or other third parties; cessation of or defects in various services provided to us
+       by third-party vendors; our ability to realize the anticipated benefits from restructuring-related initiatives; our ability to attract and retain qualified key employees; failure to manage credit and
+       fraud risks presented by our agents, clients, and consumers; adverse rating actions by credit rating agencies; our ability to protect our intellectual property rights, and to defend ourselves
+       against potential intellectual property infringement claims; material changes in the market value or liquidity of securities that we hold; restrictions imposed by our debt obligations; liabilities
+       or loss of business resulting from a failure by us, our agents, or their subagents to comply with laws and regulations and regulatory or judicial interpretations thereof; increased costs or loss
+       of business due to regulatory initiatives and changes in laws, regulations, and industry practices and standards; developments resulting from governmental investigations and consent
+       agreements with, or investigations or enforcement actions by, regulators and other government authorities; liabilities resulting from litigation; failure to comply with regulations and evolving
+       industry standards regarding data privacy; failure to comply with consumer protection laws; effects of unclaimed property laws or their interpretation or the enforcement thereof; failure to
+       comply with working capital requirements; changes in accounting standards, rules and interpretations; and other unanticipated events and management’s ability to identify and manage
+       these and other risks. Important factors that could cause Western Union’s or the combined company’s actual results to differ materially from the results referred to in the forward-looking
+       statements in this release include: the possibility that the conditions to the consummation of the proposed acquisition of Intermex (the “Proposed Acquisition”) will not be satisfied on the
+       terms or timeline expected, or at all; failure to obtain, or delays in obtaining, or adverse conditions related to obtaining regulatory approvals sought in connection with the Proposed
+       Acquisition; dependence on key agents and the potential effects of network disruption; the possibility that we may be unable to achieve expected benefits, synergies and operating
+       efficiencies in connection with the Proposed Acquisition; continued availability of capital and other changes in capital markets; potential litigation or regulatory actions relating to the
+       Proposed Acquisition, which could result in significant costs of defense, indemnification, and liability; the risk that disruptions from the Proposed Acquisition, such as diverting
+       management’s attention from the ongoing business operations and relationships of Western Union or Intermex, may harm our business, including current plans and operations, the market
+       price of our capital stock, or our operating results; and failure to retain key management.
+                                                                                                                                                                                                                 3
+Western Union
+
+
+
+
+ Devin
+ McGranahan
+ President & CEO
+
+
+
+
+                   4
+Western Union
+
+
+
+
+   Macro Landscape: Transaction Trends Continue to Improve
+
+
+                               North America CMT Retail Adjusted Revenue*
+                                      Quarterly Growth Trends (YoY)
+              0
+             -2
+             -4
+             -6                                                                                                   +2%
+             -8
+           -10
+                                                                                                         3Q26 Consumer Money Transfer
+           -12
+                                                                                                                 transactions
+           -14
+           -16
+           -18
+           -20
+                                                                                                                  +21%
+           -22                                                                                               3Q26 Branded Digital
+             1Q25                   2Q25                3Q25                 4Q25   1Q26   2Q26   3Q26
+                                                                                                                transactions
+
+                                                                                                                                        5
+*Note: See appendix for reconciliation of GAAP to Non-GAAP financial measures.
+Western Union
+
+
+
+
+                  Third Quarter Results
+
+
+                  $1.0 billion
+                  GAAP revenue
+
+
+
+
+                  13%                                                       18%
+                  GAAP operating margin                                     Adjusted operating margin*
+
+
+
+                  $0.25                                                     $0.42
+                  GAAP EPS                                                  Adjusted EPS*
+
+
+
+
+                                                                                                         6
+*Note: See appendix for reconciliation of GAAP to Non-GAAP financial measures.
+Western Union
+
+
+
+
+Accelerating Execution of Our Beyond Efficiency Program
+
+                Accelerate Dual                                   Repositioning regional operating center from Costa Rica to Guatemala by
+     01.        Track strategy                                    end of 2027
+
+
+                      Reduce discretionary
+                                                                  Announced Voluntary Retirement Program and Workforce Actions in Q3 of
+     02.              operations and                              2026 to reduce headcount by 650+ employees
+                      technology work by 20%
+
+                                                                  Successfully deployed AI across treasury funding, customer care, and
+     03.                     Rapidly adopt AI                     engineering functions, improving performance and reducing manual effort
+
+
+
+                                    Move to more aligned          Transition of ~800 roles from Costa Rica to operating centers in
+     04.                            operating model               Guatemala, Mexico, Lithuania, Philippines, and Manilla
+
+
+
+                                            Reduce the costs of   Enhance settlement efficiency through reduced prefunding, lower payout
+     05.                                    moving money          costs, and improved capital utilization
+
+                                                                                                                                            7
+Western Union
+
+
+
+
+   Driving Transformation While Building for Tomorrow
+
+
+                                                   o “BEYOND” Experience
+                    Q3 2026 Branded Digital                                    Q3 2026 Consumer
+                      Transactions (YoY)                                       Services Adjusted
+                                                   o Launched in
+
+                         +21%
+                                                                                 Revenue (YoY)
+
+                                                                                  +5%
+                                                    Argentina, Peru,
+                                                    Panama; Chile (friends
+                                                    and family)
+                  Digital payout transactions
+                                                                              Successfully reached
+                 increased to 50% of total         o Planned launches in     Travel Money revenue of
+                CMT transactions in YTD 3Q          Denmark, Norway,
+                 2026, up from 44% in the prior-
+                           year period
+                                                    Sweden, and Finland
+                                                    by year end
+                                                                              $150M+
+                                                                                   in Q3 2026
+
+
+
+
+   “Expanding real-time account payout capabilities is a strategic priority; enabling faster
+   delivery and broader reach across our network”
+                                                                                                       8
+Western Union
+
+
+
+
+Positioning Western Union at the Intersection of Digital and
+Traditional Money Movement
+
+                                                                   May’26
+                                                                     Launched
+                                                                      USDPTTM
+
+                Advantages                     By                                                         Advantages
+                To Users                                                                                  To Western Union
+                                              2026                                          Jun’26
+                • Stable US dollar value       Planned                                      Integrated    • Faster settlement speed
+                • Hold and spend              Launch of                                      with ByBit   • Flexible funding options
+                                              Receiver
+                • Convert to local currency    Redirect                                                   • Less banking dependence
+
+
+                                                                    Aug’26
+                                                                  Launched
+                                                  Mo              Stablecard
+                                                       nth                                         m e
+                                                             ly T r                        o l u
+                                                                    a n s a c t io n a l V
+                                                               $150 M
+                                                                          - $ 2 00 M
+                                                                                                                                       9
+Western Union
+
+
+
+
+                Digital First   Retail Enabled    We make
+                                                  financial
+                                                  services
+                                                  accessible
+                                                  to people
+                                                  everywhere
+                Beyond          Powered By Next
+                Remittances     Gen Payments
+
+
+                                                               10
+Western Union
+
+
+
+
+ Matt Cagwin
+ Chief Financial Officer
+
+
+
+
+                           11
+   Western Union
+
+
+
+     Business Trends
+                                                                                                                            Adjusted Operating Margin*
+    1200
+                                     Adjusted Revenue Growth*                                          12%
+   1199.8                                                                                              10%
+                                                                                                       8%
+   1199.6
+                                                                                                       6%
+   1199.4                                                                                              4%
+   1199.2                                                                                              2%
+    1199                                                                                               0%           20%      20%                             18%
+   1198.8
+                 (2%)                   (5%)                    (1%)                  (1%)     (1%)    -2%
+                                                                                                                                           13%       15%
+                                                                                                       -4%
+   1198.6                                                                                              -6%
+   1198.4                                                                                              -8%
+
+                3Q25
+                3Q25                   4Q25
+                                        4Q25                   1Q26
+                                                               1Q26                  2Q26
+                                                                                     2Q26     3Q26
+                                                                                              3Q26                  3Q25
+                                                                                                                    3Q25    4Q25
+                                                                                                                            4Q25          1Q26
+                                                                                                                                          1Q26       2Q26
+                                                                                                                                                     2Q26    3Q26
+                                                                                                                                                             3Q26
+ GAAP
+Revenue        $1,033                  $1,008                  $983                  $1,013   $1,009         GAAP   20%      18%           13%       13%      13%
+  ($M)
+
+
+
+
+                                  Adjusted Effective Tax Rate*                                                                       Adjusted EPS*
+
+
+
+                                                               15%                    14%                           $0.47    $0.45                           $0.42
+              12%                     12%
+                                                                                                9%                                        $0.25      $0.31
+
+
+             3Q25
+             3Q25                     4Q25
+                                      4Q25                    1Q26
+                                                              1Q26                   2Q26
+                                                                                      2Q26    3Q26
+                                                                                               3Q26                 3Q25
+                                                                                                                    3Q25    4Q25
+                                                                                                                             4Q25          1Q26
+                                                                                                                                           1Q26      2Q26
+                                                                                                                                                     2Q26    3Q26
+                                                                                                                                                              3Q26
+
+GAAP           17%                     24%                     28%                    20%       19%          GAAP   $0.43    $0.36         $0.20     $0.24   $0.25
+
+                                                                                                                                                                     12
+    *Note: See appendix for reconciliation of GAAP to Non-GAAP financial measures.
+Western Union
+
+
+
+
+Executing Against Strategic Priorities to Accelerate Consumer
+Services Growth
+
+
+      Consumer Services GAAP Revenue and Operating Margin
+
+
+                22%     17%        12%          16%          21%
+
+
+
+            $155M                                           $152M
+                                               $147M
+                       $137M      $137M
+
+
+
+
+                3Q25   4Q25        1Q26        2Q26         3Q26
+
+
+                                                                    13
+Western Union
+
+
+
+
+Consumer Money Transfer Business Trends
+
+           Key Highlight
+ • Branded Digital achieved the 12th consecutive quarter of mid-
+   single-digit or better adjusted revenue growth*
+
+Q3 2026
+                                                                                                       North America
+CMT adj. revenue growth*                                                         (2)%                  EU & CIS
+                                                                                        % of Q3 2026
+                                                                                            CMT        MEASA
+CMT transaction growth                                                           2%
+                                                                                          Revenue      LACA
+CMT cross-border                                                                                       APAC
+                                                                                 1%
+principal growth (cc)
+Branded Digital adj. revenue growth*                                             8%
+
+Branded Digital transaction growth                                               21%
+
+
+
+
+                                                                                                                       14
+*Note: See appendix for reconciliation of GAAP to Non-GAAP financial measures.
+Western Union
+
+
+
+
+             Financial Highlights
+
+                                                                        YTD Sept 30, 2026       YTD Sept 30, 2025
+
+
+               Cash flow from operations                                         $321 million      $408 million
+                                                                                                                         3Q26
+               Capital expenditures                                              $130 million      $101 million
+                                                                                                                    Leverage Ratios
+               Dividends paid                                                    $220 million      $231 million
+                                                                                                                         3.3x*
+               Share repurchases                                                 $54 million       $200 million          (Gross)
+
+
+               Cash balance                                                      $1.1 billion      $948 million
+                                                                                                                         2.0x*
+                                                                                                                          (Net)
+               Debt outstanding                                                  $2.9 billion       $2.6 billion
+
+
+
+
+                                                                                                                                      15
+*Note: See appendix for reconciliation of GAAP to Non-GAAP financial measures.
+Western Union
+
+
+
+
+                                               2026 Financial Outlook                                                                                                             2026 Financial Outlook
+                                                Including Intermex1                                                                                                                Excluding Intermex2
+
+                                         Revenue3                                                 EPS4                                                                                Revenue3                                                EPS4
+
+
+        GAAP                               0% to 1%                                                NA5                                               GAAP                            (2%) to (1%)                                             NA5
+
+
+
+        Adjusted*                          0% to 1%                                     $1.28 to $1.38                                               Adjusted*                       (2%) to (1%)                                   $1.28 to $1.38
+
+
+
+1. “2026 Outlook Including Intermex” includes an assumption that the Intermex transaction closes on November 10th, 2026.
+
+2. “2026 Outlook Excluding Intermex” assumes the Intermex transaction does not close during fiscal year 2026.
+
+3. Adjusted revenue growth excludes the impact of currency and Argentina inflation in quarters when hyperinflationary (over 50% within a quarter).
+
+4. The GAAP effective tax rate is expected to be 20% to 22% and the adjusted effective tax rate is expected to be 10% to 12%.
+
+5. The Company has not provided a quantitative reconciliation of forecasted adjusted earnings per share to forecasted GAAP earnings per share because the Company cannot, without unreasonable effort, calculate certain reconciling
+
+items with confidence due to the variability, complexity, and limited visibility of the adjusting items that would be excluded from forecasted earnings per share. These items include but are not limited to: severance and other employee
+termination costs; acquisition, separation, and integration costs; amortization and impairment of acquisition-related intangible assets; and income taxes associated with these adjustments. The variability of these items could have a             16
+significant impact on the Company’s future GAAP financial results.
+Western Union
+
+
+
+
+ Questions and
+ Answers
+
+
+
+
+                 17
+Western Union
+
+
+
+
+ Appendix
+ Third Quarter 2026
+
+
+
+
+                      18
+Western Union
+
+                        Key Statistics and Reconciliation of
+                        Non-GAAP Measures
+
+ Western Union’s management believes the non-GAAP financial measures               A non-GAAP financial measure should not be considered in isolation or as
+ within this presentation provide meaningful supplemental information              a substitute for the most comparable GAAP financial measure. A non-
+ regarding the Company’s results to assist management, investors, analysts,        GAAP financial measure reflects an additional way of viewing aspects of
+ and others in understanding the Company’s financial results and to better         the Company’s operations that, when viewed with the Company’s GAAP
+ analyze operating, profitability, and other financial performance trends in the   results and the reconciliation to the corresponding GAAP financial
+ Company’s underlying business because they provide consistency and                measure, provides a more complete understanding of the Company’s
+ comparability to prior periods or eliminate currency volatility, increasing the   business. Users of the financial statements are encouraged to review the
+ comparability of the Company's underlying results and trends.                     Company’s financial statements and publicly-filed reports in their entirety
+                                                                                   and not to rely on any single financial measure. A reconciliation of non-
+                                                                                   GAAP financial measures to the most directly comparable GAAP financial
+                                                                                   measures is included below.
+
+                                                                                   Amounts included below are in millions, unless indicated otherwise.
+
+
+
+
+                                                                                                                                                                 19
+Western Union
+
+
+
+
+                20
+Western Union
+
+
+
+
+                21
+Western Union
+
+
+
+
+                22
+Western Union
+
+
+
+
+                23
+Western Union
+
+
+
+
+                24
+Western Union
+
+
+
+
+                25
+Western Union
+
+
+
+
+                26
+Western Union
+
+
+
+
+                27
+Western Union
+
+
+
+
+                28
+Western Union
+
+
+
+
+                29
+Western Union
+
+
+
+
+                30
+Western Union
+
+
+
+
+                31
+Western Union
+
+
+
+
+                32
+Western Union
+
+
+
+
+                                                          Thank you.
+
+
+ ©2026 Western Union Holdings, Inc. All rights reserved
+

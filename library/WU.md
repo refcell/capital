@@ -2,41 +2,89 @@
 
 # The Western Union Company (NYSE: WU)
 
-Sector: Financials / consumer cross-border payments and money transfer · Calls: 1 · Latest: 2026-10-23
+Sector: Financials / consumer cross-border payments and money transfer · Calls: 2 · Latest: 2026-11-24
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Watch (+4.3% a year expected over 3 years) |
-| Price at call | $6.43 on 2026-10-22 |
-| Bear / base / bull | $4.25 / $7.15 / $12.25 |
-| Weights | 30% / 50% / 20% |
-| Fair value | $7.30 (stated) |
-| Street mean target | — |
-| Valuation lens | Forward P/E on adjusted EPS, with company-defined free cash flow, dividend coverage and leverage as cross-checks |
-| Revenue CAGR vs base rates | bear -2.5% = 17th pct / base +2.5% = 36th pct / bull +4.5% = 48th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
-| Since the call | +7.9% vs SPY -1.8% through 2026-11-10; mark $6.94 is bear to base |
+| Stance (as published) | Watch — unchanged, bias now positive; fair value $8.62 at end-2029 including dividends (11.4% a year from $6.24); Own at about $5.67, Avoid above about $8.62. Q3 beat ($0.42 adjusted EPS against $0.34), the 2026 guide rose $0.03 and the Intermex deal is gone, which frees the cash it would have needed; the Delaware suit and a dividend that free cash flow barely covers keep the bear at 35% and a 15% cut chance inside the base |
+| Rule rating | Watch (+11.4% a year expected over 3 years) |
+| Price at call | $6.24 on 2026-11-23 |
+| Bear / base / bull | $4.11 / $9.51 / $14.50 |
+| Weights | 35% / 45% / 20% |
+| Fair value | $8.62 (weighted) |
+| Street mean target | $6.73 |
+| Valuation lens | Value at December 31, 2029: FY2029 adjusted EPS (adjusted operating income less net interest, taxed at 12-13%, over diluted shares) times an exit P/E (bear 3.5x, base 5.0x, bull 6.0x), plus dividends paid from the Q4 2026 payment through Q4 2029, less any Intermex litigation payment per share; undiscounted; cross-checked against 5.0x 2029 EBITDA less end-2029 net debt |
+| Revenue CAGR vs base rates | bear -2.2% = 17th pct / base -0.3% = 23th pct / bull +1.7% = 32th pct of 5-year growth for $3B–$6B companies ([base rates](BASE_RATES.md)) |
+| Next review | 2027-02-20 — Q4 and FY2026 results with the 2027 outlook (last year's 8-K Item 2.02 was February 20, 2026); earlier if the December dividend is not declared at $0.235 or the Chancery court sets an expedited trial |
 
-## Fundamentals known on 2026-10-23
+**Thesis.** Q3 was better than feared and the balance sheet got lighter, but the business is not growing. Adjusted EPS was $0.42 against a $0.34 consensus, the adjusted operating margin recovered to 18% from 13-15% in the first half, and the 2026 guide rose to $1.28-$1.38; part of the beat was expense timing, and Q4 loses a low-margin Saudi account-payout partner that supplied about half of Branded Digital's growth. On November 10 Western Union walked away from Intermex under the outside date, so it no longer needs about $500M of cash plus Intermex's debt repayment; on November 24 Intermex sued in Delaware for specific performance. The call values the shares at end-2029 on adjusted EPS times a low multiple plus dividends: $4.11 / $9.51 / $14.50 at 35/45/20 gives $8.62, 11.4% a year from $6.24, Watch with a positive bias. On price alone the value is $6.51, below October's $7.30: the business view did not improve, the dividend is what makes the return. The bear is a dividend cut plus a $300M litigation cost. Own at about $5.67.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit WU 2026-10-23`). Later restatements are not visible here by design.
+**Variant view.** We agree with the Street on price: our weighted end-2029 value without dividends is $6.51 against its $6.73 12-month mean. We disagree on the dividend. At $6.24 and a 15.1% yield the market treats the $0.94 as about to be cut; we put a cut before the end of 2027 at about 40%. The case for the dividend improved this month: dropping Intermex removes a cash outlay of roughly $500M plus Intermex's revolver, the $800M term loan was refinanced out to 2029, and the Beyond program is ahead of its $50M run-rate target, which in our base lifts free cash flow to about 1.05x the dividend in 2028-2029. It is not safe: the Street's $166.5M 2026 free-cash-flow estimate is far below the $293M dividend. Checkable (claim div-cut-2027, 0.40): if Western Union declares a quarterly dividend below $0.235 before December 31, 2027, the variant view is wrong.
+
+**Catalysts.**
+
+- Board declares the Q4 2026 dividend (last year declared in December, paid December 31) (About mid-December 2026)
+- Q4 and FY2026 results, 2027 outlook and the Q1 2027 dividend (About February 19, 2027 (last year February 20, 2026))
+- Delaware Court of Chancery: Western Union's answer or motion to dismiss, any expedited schedule in Intermex v. Western Union (Filed 2026-11-24; first rulings likely in 1H27)
+- Beyond efficiency program reaches $200M of run-rate savings (By end-2027)
+- Refinancing of the $615M 4.750% notes due June 2029 and the $800M term loan maturing in November 2029 (2028-2029)
+
+**Pre-mortem** (written at decision time).
+
+- The dividend is cut anyway: 2026 free cash flow falls short of the $293M dividend after $190M of capex, gross leverage stays above the 2.5-3.0x target, and with $1.4B of debt maturing in 2029 the board halves the payout with the Q4 results; the stock re-prices on a lower yield rather than rerating. — watch: No December declaration at $0.235; FY2026 free cash flow (OCF less capex) below $250M; a negative outlook from S&P or Moody's
+- Delaware orders specific performance or Western Union settles expensively: the court finds it did not use reasonable best efforts with the DFPI (the complaint cites a private CEO meeting with the DFPI head, an October 13 promise to extend the outside date, and the DFPI's conditional approval the same evening Western Union terminated), and Western Union must buy Intermex at $16 or pay damages of $300-600M, adding debt while gross leverage is 3.3x. — watch: Motion to dismiss denied or an expedited trial set in 1H27; discovery reveals internal analysis that the $16 price was too high
+- Mix erosion outruns the savings: North America retail keeps falling mid-single digits, account payout keeps lowering revenue per transaction, and the Beyond savings are spent on agent signing bonuses and pricing, so the adjusted margin settles near 14% and EPS falls toward $1.00. — watch: Q4 2026 adjusted operating margin below 15%; FY2027 adjusted EPS guide below $1.25; NA region adjusted revenue still down 5% or more in 1H27
+- Digital competition and stablecoin rails compress pricing: after the Saudi exit Branded Digital growth slows to low single digits while Remitly and Wise take share, and the USDPT initiative costs money without revenue. — watch: Branded Digital adjusted revenue growth below 5% in 1H27; Branded Digital transaction growth below 10%
+- The Watch call is wrong on the upside: the dividend holds, the savings drop through, migration flows recover, EPS returns to $1.60 or more and the stock rerates to 6-7x while we wait for $5.67. — watch: FY2027 adjusted EPS guide of $1.45 or more; buybacks resumed; NA retail adjusted revenue flat or up
+
+**Kill criteria.**
+
+- Western Union declares a quarterly dividend below $0.235 a share, or suspends it, before December 31, 2027 (check by 2028-01-31) — open
+- The Delaware Court of Chancery orders Western Union to complete the Intermex merger, or Western Union agrees to pay Intermex more than $150M, before December 31, 2027 (check by 2028-01-31) — open
+- FY2027 adjusted operating margin (company definition) below 15.0%, or the FY2027 adjusted EPS guide given in February 2027 below $1.20 at the midpoint (check by 2028-03-31) — open
+
+**Probability claims.**
+
+- 85%: Western Union reports FY2026 adjusted diluted EPS of at least $1.28 (the low end of its November 4 guide). (resolves by 2027-03-31)
+- 85%: Western Union declares a quarterly dividend of at least $0.235 a share in the first quarter of 2027. (resolves by 2027-04-15)
+- 40%: Western Union declares a quarterly dividend below $0.235 a share, or suspends the dividend, at any time between November 24, 2026 and December 31, 2027. (resolves by 2028-01-31)
+- 35%: Western Union reports FY2027 adjusted diluted EPS of at least $1.40. (resolves by 2028-03-31)
+- 80%: By December 31, 2027 Western Union has neither completed the acquisition of Intermex nor been ordered by a court to complete it. (resolves by 2028-01-31)
+- 50%: WU closes 2027 (last trading day) above $6.24, the price of this call. (resolves by 2028-01-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $5.67 at these weights (15% a year)
+- Toward Own: a FY2027 adjusted EPS guide of $1.45 or more with the dividend held, or a dismissal of Intermex's suit; at 25/50/25 the value is $9.41 (14.7% a year), at the Own line
+- Toward Avoid: a dividend cut (the bear's $4.11 becomes the anchor), a court order to close Intermex, or a price above about $8.62
+- Toward Avoid: 45/40/15 after a weak 2027 guide gives $7.83 (7.9% a year); the base dividend suspended from Q2 2027 gives $7.54 (6.5% a year)
+
+**Independent review: grade B** (evidence 3, valuation 3, variant view 4, risk 3, calibration 4). Counter-case: On a like-for-like basis the business view fell: the price-only value is $6.51, against October's $7.30, so the 'raise' and the positive bias come entirely from counting $3.05 of undiscounted dividends that a 15% yield says the market doubts. The dividend is weaker than a 35% cut probability implies: the saved Street estimate puts 2026 free cash flow at $166.5M against a dividend of about $293M, the call's own base covers it only 0.94x in 2027, and gross leverage is 3.3x against a 2.5-3.0x target with $1.4B maturing in 2029, from a board that has already paused buybacks to protect leverage. A cut in an otherwise base-case world takes the base to $6.88 and fair value to $7.51 (the suspended-dividend sensitivity), only 6.3% a year with the bear and bull unchanged. A Delaware loss or a forced close at $16, which the call itself puts at 20%, would add debt at exactly that moment.
+
+**Response.** Accepted on the dividend, litigation and evidence points; fair value cut from $8.77 (12.0% a year) to $8.62 (11.4%). The base now carries a 15% chance that the dividend is halved from Q2 2027 in an otherwise base-case world, so base dividends are the weighted $2.86 and the base is $9.51; the overall chance of a cut before 2028 is 0.42 and claim div-cut-2027 moves to 0.40. The bear's cut starts in Q2 2027, after the Q1 declaration, and div-235-q1-27 moves to 0.85. The bear's Intermex cost rises to $300M to stand for a forced close or damages of similar size; the $600M case is a sensitivity ($8.28). The 2026 OCF is now the median of 2022-2025 Q4s ($135M) for about $456M, and the notes and update note set it against the Street's $166.5M FCF (OCF near $357M), naming FY2026 cash flow in February as the test. The $200M Beyond target is sourced to the initiation and the Q3 call. On the multiple: the 35% trailing adjusted-to-GAAP gap includes the one-off $0.12 Beyond charge; the recurring gap is 15-20%, putting the base's 5.0x at 5.8-6.0x GAAP, between WU's p25 and median, and the notes say so. On the counter-case: we agree the business view fell (price-only $6.51 against $7.30) and the notes and update note now say the raise is the dividends, net of litigation. We keep Watch with a positive bias because even with the base dividend suspended the weighted value returns 6.5% a year, and at 45/40/15 7.9%; the stance only reaches Avoid if the bear's weight rises well past half.
+
+**Data notes.** The October call was a backfill whose values were five-year prices before dividends ($7.30 weighted). This update states end-2029 values that include dividends, as the STLA and CNM calls do. On price alone the weighted end-2029 value is $6.51, below October's $7.30: the base's price is $6.81 against October's five-year $7.15 on nearly the same EPS ($1.36 against $1.30) at a lower multiple (5.0x against 5.5x). The rise to $8.62 is weighted dividends ($2.51) less weighted litigation ($0.41), not a better view of the business; the 'raise' action refers to the published value, not to the business. FY2026 starts at revenue of about $3,990M (9M $3,005.2M plus a Q4 of about $985M, inside the -1% to -2% ex-Intermex guide on FY2025's $4,050.7M) and adjusted EPS of $1.33, the guide midpoint (Q4 implied $0.31-$0.41 against $0.45 in 4Q25). Adjusted EPS each year is (revenue x adjusted operating margin - net interest + $3M other income) x (1 - tax) / diluted shares from 313.5M (Q3 diluted weighted average). Adjusted figures exclude Beyond program costs, severance, acquisition costs and the non-cash tax charge from the international reorganization (about $45M a year), as the guide and the Street do. Exit multiples are on adjusted EPS: 3.5x / 5.0x / 6.0x. capital.multiples gives WU's own ten-year GAAP P/E bands of 3.9x (p10), 5.6x (p25) and 7.1x (median). The trailing gap between adjusted and GAAP EPS is about 35% ($1.42 against $1.05), but $0.12 of it is the one-off Beyond charge and FY2025 carried IRS settlement items; the recurring gap (the reorganization tax charge, about $0.13-0.15, plus small acquisition and severance items) is about 15-20%. At 15% the base's 5.0x is 5.8x GAAP, at 20% it is 6.0x, between WU's p25 and median; the bull's 6.0x is 6.9-7.2x GAAP, at the median. The SIC 7389 peer median (26.0x) is growth payments names and is not used; captured remittance peers IMXI (own median 15.8x) and EEFT (25.6x) sit above WU because they grew. The current forward P/E is 4.7x on the 2026 guide and 4.6x on base 2029 EPS. Dividends count the Q4 2026 payment (ex-date expected in mid-December, after the call date) and twelve quarters of 2027-2029. A cut halves the quarterly $0.235 from Q2 2027 (the Q1 2027 dividend is declared with the Q4 results in February): $1.76 against $3.05 held. The bear cuts with certainty; the base cuts with a 15% chance (a cut in an otherwise base-case world, because base FCF covers the dividend only 0.94x in 2027 and gross leverage is above target) and carries the weighted $2.86; the bull holds. Across cases the chance of a cut before 2028 is 0.35 + 0.45 x 0.15 = 0.42, recorded as claim div-cut-2027 at 0.40. Litigation is deducted per share on today's diluted count: $0 / $50M / $300M. Free cash flow (net debt path and coverage only) = adjusted net income + $60M before one-off cash items - cash restructuring ($30M in 2027, $10M after) - capex ($170-180M). FY2025 OCF was $543.7M on $574.6M of adjusted net income after about $200M of IRS settlement payments (about +$170M before them); 2026 OCF of about $456M (9M $321.2M plus a Q4 of $135M, the median of 2022-2025 fourth quarters from SEC facts) is about $37M above 2026 adjusted net income of about $419M after about $30M of Beyond severance (+$67M before it). The Street's $166.5M 2026 FCF (StockAnalysis) implies OCF near $357M; if that is right, coverage is weaker than the base and the FY2026 cash flow in February is the test. Base coverage of the dividend is 0.94x / 1.06x / 1.05x in 2027-2029 and end-2029 net debt is $1,833M (2.2x EBITDA). Sensitivities (printed by the build script): weights 30/50/20 $8.89 (12.5%), 40/45/15 $8.10 (9.1%), 45/40/15 $7.83 (7.9%), 25/50/25 $9.41 (14.7%); base exit P/E 4.0x $8.00, 4.5x $8.31, 5.5x $8.92, 6.0x $9.23; base dividend halved from Q2 2027 with certainty $8.12 (9.2%), suspended $7.54 (6.5%), held with certainty $8.70 (11.7%); base 2028-29 margin 15% $8.25, 17.5% $8.86; base litigation $0 $8.69; bear litigation $600M $8.28 (9.9%). Cross-check at 5.0x 2029 EBITDA less net debt plus dividends less litigation: $5.59 / $10.05 / $13.66. The $200M end-2027 Beyond run-rate target dates from the program's July 2026 launch and is recorded in the October initiation (research/WU.md); the Q3 call said the company is ahead of the $50M year-end target and 'setting us up well to deliver against our 2027 Beyond Efficiency targets' (sources/news-excerpts-2026-11-24.txt). The November 24 close of $6.22 (StockAnalysis) was not yet in data/prices/WU.csv when the call was written; the call uses the November 23 close of $6.24. Peers captured for this update: IMXI, EEFT and RELY monthly prices and SEC facts (capital.multiples capture and capital.sec). Review round 1 (agent:reviewing-research, grade B): the first draft ($4.31 / $9.70 / $14.50, fair value $8.77, 12.0% a year) gave the base an intact dividend with certainty while its own FCF covered it 0.94x in 2027, set the bear's cut from Q1 2027 against a 0.80 claim that Q1 holds, sized the bear's Intermex cost at $200M against a 20% chance of a forced close, did not reconcile its 2026 OCF with the Street's $166.5M FCF, and assumed a 15% adjusted-to-GAAP gap without addressing the 35% trailing gap. All addressed as described in review.response.
+
+## Fundamentals known on 2026-11-24
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit WU 2026-11-24`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 4,036.9M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Operating income (TTM) | 642.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Net income (TTM) | 395.4M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Diluted EPS (TTM) | 1.24 USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Operating cash flow (TTM) | 609.7M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Capex (TTM) | 44.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Free cash flow (TTM) | 565.4M USD | 2026-06-30 | ttm ytd | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
+| Revenue (TTM) | 4,013.6M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Operating income (TTM) | 571.2M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Net income (TTM) | 333.8M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Diluted EPS (TTM) | 1.05 USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Operating cash flow (TTM) | 456.6M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Capex (TTM) | 44.0M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Free cash flow (TTM) | 412.6M USD | 2026-09-30 | ttm ytd | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
 | Stock comp (TTM) | 40.8M USD | 2015-06-30 | ttm ytd | [0001365135-15-000042](https://www.sec.gov/Archives/edgar/data/1365135/000136513515000042/) |
-| Cash | 919.8M USD | 2026-06-30 | instant | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
-| Long-term debt | 2,510.3M USD | 2026-06-30 | instant | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
+| Cash | 1,098.0M USD | 2026-09-30 | instant | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
+| Long-term debt | 2,501.2M USD | 2026-09-30 | instant | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
 | Equity | 113.9M USD | 2009-03-31 | instant | [0001193125-09-096522](https://www.sec.gov/Archives/edgar/data/1365135/000119312509096522/) |
-| Shares outstanding | 311.9M | 2026-07-22 | instant | [0001193125-26-326355](https://www.sec.gov/Archives/edgar/data/1365135/000119312526326355/) |
+| Shares outstanding | 312.1M | 2026-10-28 | instant | [0001193125-26-447662](https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/) |
 
 ## Earnings calendar
 
@@ -46,6 +94,7 @@ Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001193125-26-447234](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-10-23 | $6.43 | Watch | Watch | $4.25 | $7.15 | $12.25 | $7.30 | +7.9% | +9.8% | bear to base | [report](https://github.com/refcell/capital/blob/0d2a5e0/research/WU.md) · [projection](https://github.com/refcell/capital/blob/f7bc568/projections/WU.md) · [model](https://github.com/refcell/capital/blob/c666683/models/2026-10-23%20Western%20Union%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c666683/models/_build_WU.py) |
+| 2026-11-24 | $6.24 | Watch (positive) | Watch | $4.11 | $9.51 | $14.50 | $8.62 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/WU/2026-11-24.md) · [projection](https://github.com/refcell/capital/blob/main/projections/WU.md) · [model](https://github.com/refcell/capital/blob/main/models/WU/2026-11-24.xlsx) · [script](https://github.com/refcell/capital/blob/main/models/_build_WU_2026-11-24.py) |
+| 2026-10-23 | $6.43 | Watch | Watch | $4.25 | $7.15 | $12.25 | $7.30 | -3.0% | +2.5% | bear to base | [report](https://github.com/refcell/capital/blob/0d2a5e0/research/WU.md) · [projection](https://github.com/refcell/capital/blob/f7bc568/projections/WU.md) · [model](https://github.com/refcell/capital/blob/c666683/models/2026-10-23%20Western%20Union%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/c666683/models/_build_WU.py) |
 
 Data: `data/WU/`. Prices: `data/prices/WU.csv`.

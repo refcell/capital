@@ -117,7 +117,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [VALE](VALE.md) | Metal Mining | — | — | — | — | — | — | — |
 | [VECO](VECO.md) | Special Industry Machinery, NEC | — | — | — | 1.2–2.3x | — | — | SIC 35xx, 3 names: 2.9x, 32.8x |
 | [VKTX](VKTX.md) | Pharmaceutical Preparations | — | — | — | — | — | — | SIC 2834, 3 names: 4.8x, 41.9x |
-| [WU](WU.md) | Services-Business Services, NEC | 6.5x | 5.6–9.5x | 0.9x | 1.2–1.6x | 6.2x | 6.4–10.1x | SIC 7389, 6 names: 2.5x, 26.0x |
+| [WU](WU.md) | Services-Business Services, NEC | 5.9x | 5.6–9.5x | 0.8x | 1.2–1.6x | 5.9x | 6.4–10.1x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [WYNN](WYNN.md) | Hotels & Motels | 23.6x | 17.7–40.7x | 2.5x | 2.8–4.4x | 17.5x | 17.9–31.8x | SIC 7011, 3 names: 2.4x, 14.1x |
 | [XNCR](XNCR.md) | Pharmaceutical Preparations | — | 39.1–67.3x | 12.5x | 7.4–15.9x | — | 31.1–61.8x | SIC 2834, 3 names: 4.1x, 41.9x |
 | [ZETA](ZETA.md) | Services-Prepackaged Software | 233.6x | — | 5.3x | 2.3–3.5x | 148.4x | — | SIC 7372, 10 names: 5.2x, 44.5x |

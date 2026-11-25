@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/WU.csv",
+      "commit": "d65a746abbd0",
+      "sha256": "88f800fee52f2b78b002b7d62971f0aa2cab9dfc369f16ede51170839a278799",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/WU.csv",
+      "commit": "d65a746abbd0",
+      "sha256": "bf9f33888ff3dd862828e3b2133ce4256dcce385e1951509c78efcb3b17c0097",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "d65a746abbd0",
+      "sha256": "c0e8db9df853e5b7c701608ead5f5a9cc1ea42ee8a8b051e5a917a76390b75ea",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-q3-2026-release-ex99-1-htm",
+      "kind": "file",
+      "path": "8k-q3-2026-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "5621df333e11674db151ce6504a0590fb97808b69a871362b25addb8ca614c10",
+      "description": "Q3 2026 earnings release: condensed income statement, balance sheet, cash flow, segment and regional metrics, non-GAAP reconciliations, 2026 outlook including and excluding Intermex (8-K Exhibit 99.1, accession 0001193125-26-447234, filed 2026-11-04)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "32120b714ed09a016621fd254ca32a52c9277e6a5dc4e4d2811d9b5772d6f02d",
+      "description": "Q3 2026 Form 10-Q: borrowings and maturities, commercial paper, term loans, dividends and repurchases, Beyond efficiency program costs, Intermex merger status (accession 0001193125-26-447662, filed 2026-11-04)"
+    },
+    {
+      "id": "8k-2026-11-03-hsr-expiry",
+      "kind": "file",
+      "path": "8k-2026-11-03-hsr-expiry.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526444420/d179122d8k.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "218452942b5fc5139411c3271f295bf35e42213bbbf8ca390b30a4f469108e62",
+      "description": "8-K Item 8.01: second HSR waiting period for the Intermex merger expired 2026-11-02; merger still needs reinstated California DFPI approval (accession 0001193125-26-444420)"
+    },
+    {
+      "id": "8k-2026-11-12-intermex-termination",
+      "kind": "file",
+      "path": "8k-2026-11-12-intermex-termination.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526457046/d500072d8k.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "8b77075da4b3d23516041f1326d2fb1887e95ea71538a0dcf1c27ad805dc96b6",
+      "description": "8-K Items 1.02, 7.01, 8.01: Western Union terminated the Intermex merger agreement under the November 10 outside date after DFPI's final conditions; no termination fee; Intermex's counsel called the notice invalid and threatened suit (accession 0001193125-26-457046, filed 2026-11-12)"
+    },
+    {
+      "id": "8k-2026-11-12-intermex-termination-ex99-1",
+      "kind": "file",
+      "path": "8k-2026-11-12-intermex-termination-ex99-1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526457046/d500072dex991.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "348f7725ee6499dbb98d58f93f626c80a363bc4d889951af6018ca97d88c78c8",
+      "description": "Press release of 2026-11-10 announcing the Intermex termination and the DFPI approval history (8-K Exhibit 99.1, accession 0001193125-26-457046)"
+    },
+    {
+      "id": "8k-2026-11-13-term-loan",
+      "kind": "file",
+      "path": "8k-2026-11-13-term-loan.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526461028/d152329d8k.htm",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "23002aebc9b0cbd769c3416e47751828932318a2eaa2faf9100d0dfae93be7e1",
+      "description": "8-K Items 1.02, 2.03: $800M drawn on 2026-11-10 under the January 2026 delayed-draw term loan to repay the $800M 2024 term loan due December 2027 on about 2026-11-17 (accession 0001193125-26-461028, filed 2026-11-13)"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-24-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-24.html.gz",
+      "url": "https://stockanalysis.com/stocks/wu/forecast/",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "2121c68095058c94060e5f500c8efa48e4695cb2fc0a95d2268cc30795a65efa",
+      "description": "StockAnalysis forecast page (S&P Global Market Intelligence, TipRanks; last updated 2026-11-13): 18 analysts, Sell consensus, mean target $6.73 ($6.00-$8.50, median $6.50), FY2026 EPS $1.32 and revenue $4.00B, FY2027 EPS $1.46 and revenue $4.11B; recent target actions; shows 2026-11-24 close $6.22"
+    },
+    {
+      "id": "stockanalysis-statistics-2026-11-24-html",
+      "kind": "file",
+      "path": "stockanalysis-statistics-2026-11-24.html.gz",
+      "url": "https://stockanalysis.com/stocks/wu/statistics/",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "4e21d2d51695bb7f901a57814defb16587312b44a1b6b3f9188a3cdae773171d",
+      "description": "StockAnalysis statistics page (S&P Global, updated 2026-11-24): market cap $1.94B, EV $3.73B, short interest 60.21M shares (19.30% of shares out), beta 0.58, dividend $0.94 (15.11% yield)"
+    },
+    {
+      "id": "wu-3q26-presentation",
+      "kind": "file",
+      "path": "wu-3q26-presentation.txt",
+      "url": "https://s21.q4cdn.com/100551446/files/content_files/3Q26-Presentation-FINAL.pdf",
+      "fetched_at": "2026-11-25T03:08:45+00:00",
+      "sha256": "90f34607de09c8cee854ed1e295a172e08ae92696a2b1aff59a21a33daec8f09",
+      "description": "Text of the Q3 2026 earnings presentation (pdftotext; the 5 MB PDF is not kept): Beyond efficiency actions (650+ headcount reduction, Costa Rica to Guatemala move by end-2027), YTD cash flow, gross leverage 3.3x and net 2.0x, 2026 outlook"
+    },
+    {
+      "id": "drillr-q3-2026-call-summary-html",
+      "kind": "file",
+      "path": "drillr-q3-2026-call-summary.html.gz",
+      "url": "https://drillr.ai/stocks/WU/calls/2026-q3",
+      "fetched_at": "2026-11-25T03:08:30+00:00",
+      "sha256": "67983c915c55f9462cf5f342882c4656c5c847c5ecf3ade817a40f1a3deacd16",
+      "description": "drillr.ai structured summary of the Q3 2026 call: EPS $0.42 vs $0.34 consensus and revenue $1.01B vs $1.02B (earnings calendar feed); Saudi partner account-payout exit (about half of Q3 Branded Digital growth); 2026 capex about $190M; ahead of $50M run-rate savings by year-end; buybacks paused for the 2.5-3.0x leverage target"
+    },
+    {
+      "id": "news-excerpts-2026-11-24",
+      "kind": "file",
+      "path": "news-excerpts-2026-11-24.txt",
+      "url": null,
+      "fetched_at": "2026-11-25T03:09:09+00:00",
+      "sha256": "935fcbd2a4ff2b8ffd3418a1024fe3ad0d1a42788ae6e9f91c97125d4ec5f62f",
+      "description": "Web excerpts captured 2026-11-24: Intermex's Delaware Chancery suit (GlobeNewswire 2026-11-24, Payments Dive), Intermex's 2026-11-11 rejection, Longbridge weekly recap, CFO remarks on Beyond savings and the Q3 beat"
+    }
+  ]
+}

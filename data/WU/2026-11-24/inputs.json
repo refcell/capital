@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "ticker": "WU",
+  "date": "2026-11-24",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 6.24,
+      "as_of": "2026-11-23",
+      "source": "data/prices/WU.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 4013.6,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:Revenues (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_operating_income_m": {
+      "value": 571.2,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_net_income_m": {
+      "value": 333.8,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_eps": {
+      "value": 1.05,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_ocf_m": {
+      "value": 456.6,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_capex_m": {
+      "value": 44.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "cash_m": {
+      "value": 1098.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "total_debt_m": {
+      "value": 2501.2,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:LongTermDebt (instant), filed 2026-11-04",
+      "accession": "0001193125-26-447662",
+      "note": "LongTermDebt excludes the $399.0M of commercial paper; borrowings at par were $2,900.2M (see notes)"
+    },
+    "shares_outstanding_m": {
+      "value": 312.0557,
+      "as_of": "2026-10-28",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "diluted_shares_m": {
+      "value": 313.5,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "ttm_fcf_m": {
+      "value": 412.6,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447662"
+    },
+    "market_cap_m": {
+      "value": 1947.23,
+      "as_of": "2026-11-23",
+      "source": "price x shares_outstanding_m"
+    },
+    "street_target_mean": {
+      "value": 6.73,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "average price target of $6.73 (18 analysts, consensus Sell)"
+    },
+    "street_target_low": {
+      "value": 6.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "lowest is $6.00"
+    },
+    "street_target_high": {
+      "value": 8.5,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "highest is $8.50"
+    },
+    "fy1_revenue_m": {
+      "value": 4000.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "Revenue This Year 4.00B"
+    },
+    "fy2_revenue_m": {
+      "value": 4110.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "Revenue Next Year 4.11B"
+    },
+    "fy1_eps": {
+      "value": 1.32,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "EPS This Year 1.32 (non-GAAP adjusted)"
+    },
+    "fy2_eps": {
+      "value": 1.46,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-24.html.gz)",
+      "as_of": "2026-11-13",
+      "note": "EPS Next Year 1.46 (non-GAAP adjusted); page last updated 2026-11-13, three days after the Intermex termination, so it may still include Intermex"
+    }
+  },
+  "notes": [
+    "total_debt_m (from capital.new, us-gaap:LongTermDebt) leaves out commercial paper; the model uses borrowings at par of $2,900.2M, so net debt at September 30, 2026 is $1,802.2M.",
+    "Values the schema has no field for, used by models/_build_WU_2026-11-24.py:",
+    "q3_adj_eps = 0.42 (2026-09-30; Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz); accession 0001193125-26-447234): Adjusted diluted earnings per share 0.42, vs 0.47 in 3Q25; GAAP 0.25",
+    "ytd_adj_eps = 0.97 (2026-09-30; same release): YTD 3Q26 adjusted diluted EPS 0.97 (1Q 0.25, 2Q 0.31, 3Q 0.42); FY2025 1.75",
+    "q3_eps_consensus = 0.34 (2026-11-04; drillr earnings calendar feed (sources/drillr-q3-2026-call-summary.html.gz)): EPS actual vs est $0.42 / $0.34; revenue $1.01B / $1.02B",
+    "fy2026_adj_eps_guide_low = 1.28, fy2026_adj_eps_guide_high = 1.38 (2026-11-04; same release): 2026 Outlook Excluding Intermex, adjusted EPS $1.28 to $1.38, revenue (2)% to (1)%; adjusted tax rate 10-12% (prior guide $1.25-$1.35)",
+    "q3_revenue_m = 1009.3, ytd_revenue_m = 3005.2, fy2025_revenue_m = 4050.7 (same release)",
+    "ytd_adj_operating_income_m = 454.1, q3_adj_operating_margin = 0.18 (same release): Adjusted operating income 126.7 / 149.0 / 178.4 in 1Q-3Q26; FY2025 790.5",
+    "ytd_adj_net_income_m = 306.4, fy2025_adj_net_income_m = 574.6 (same release)",
+    "ytd_adj_ebitda_m = 621.8, fy2025_adj_ebitda_m = 1002.5 (same release)",
+    "beyond_program_costs_q3_m = 37.3 (same release): Beyond efficiency program one-time costs, excluded from adjusted results",
+    "ytd_ocf_m = 321.2, ytd_capex_m = 130.3, ytd_dividends_paid_m = 226.5, ytd_buybacks_m = 65.7 (same release, cash flow statement; capital expenditures include capitalized software and signing bonuses)",
+    "borrowings_par_m = 2900.2 (2026-09-30; 10-Q Q3 2026 (sources/10q-q3-2026.htm.gz); accession 0001193125-26-447662): outstanding borrowings at par value of $2,900.2 million; $399.0M commercial paper; $800M term loan; 2029 notes $615M (4.750%)",
+    "maturities_m (2026-09-30; same 10-Q): due within 1 year 36.2; 1-2 years 800.0; 2-3 years 615.0 (before the November refinancing of the $800M term loan into a facility maturing in 2029)",
+    "term_loan_refinanced_m = 800.0 (2026-11-13; 8-K (sources/8k-2026-11-13-term-loan.htm); accession 0001193125-26-461028): borrowed $800M on 2026-11-10 under the January 2026 delayed-draw facility (three-year maturity) to repay the 2024 term loan due December 2027",
+    "dividend_per_quarter = 0.235 (2026-09-30; same 10-Q): quarterly dividends of $0.235 per common share; $220.3M declared in 9M 2026",
+    "repurchases_9m_shares_m = 5.7 at $9.35 average (same 10-Q); buybacks paused since Q2 2026 to hold the 2.5-3.0x leverage target",
+    "gross_leverage = 3.3, net_leverage = 2.0 (2026-09-30; Q3 2026 presentation (sources/wu-3q26-presentation.txt))",
+    "capex_2026_guide_m = 190.0 (2026-11-04; drillr call summary (sources/drillr-q3-2026-call-summary.html.gz)): Capital expenditure is expected to be about $190 million for the year",
+    "intermex_terminated = 2026-11-12 (8-K (sources/8k-2026-11-12-intermex-termination.htm); accession 0001193125-26-457046): termination effective 12:00 a.m. ET November 12; no termination fee payable by either party",
+    "intermex_suit_filed = 2026-11-24 (sources/news-excerpts-2026-11-24.txt): Delaware Court of Chancery, specific performance at $16.00 per share and damages; merger consideration about $500 million in cash plus repayment of Intermex revolver debt (10-Q)",
+    "short_interest_pct = 19.30, beta = 0.58, market_cap_b = 1.94, ev_b = 3.73 (2026-11-24; StockAnalysis statistics (sources/stockanalysis-statistics-2026-11-24.html.gz))",
+    "price_2026_11_24 = 6.22 (2026-11-24; StockAnalysis quote header): not yet in data/prices/WU.csv, so the call uses the 2026-11-23 close of $6.24"
+  ]
+}

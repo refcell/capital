@@ -1,0 +1,31 @@
+News excerpts captured 2026-11-24 (web search excerpts; full pages not retrievable from this machine).
+
+1. Intermex press release, GlobeNewswire, 2026-11-24 08:30 ET
+https://www.globenewswire.com/news-release/2026/11/24/3409258/0/en/intermex-commences-litigation-in-delaware-court-of-chancery-to-enforce-merger-agreement-with-western-union.html
+"International Money Express, Inc. (NASDAQ: IMXI) ("Intermex") today announced that it has filed suit against The Western Union Company (NYSE: WU) ("Western Union") in the Delaware Court of Chancery (the "Court") to enforce the August 10, 2025 Merger Agreement and compel Western Union to fulfill its contractual obligations to complete its acquisition of Intermex for $16.00 per share in cash."
+"On November 10, 2026, Western Union delivered a notice purporting to terminate the Merger Agreement based on the agreement's Outside Date Termination Right. That same evening, the California Department of Financial Protection and Innovation notified Intermex and Western Union that it had issued a conditional approval of the merger."
+"Intermex believes Western Union's purported termination is invalid given that all conditions to the closing have been satisfied. ... Intermex asserts that because Western Union was in breach of its obligations under the Merger Agreement, it had no right to terminate the transaction on the purported grounds. Intermex is seeking to enforce its contractual rights under the Merger Agreement, including through specific performance and other appropriate relief."
+
+2. Intermex press release, 2026-11-11
+https://investors.intermexonline.com/news-releases/news-release-details/intermex-rejects-western-unions-purported-termination-merger
+"Intermex will vigorously pursue its remedies and reserves all rights under the Merger Agreement and otherwise, including but not limited to its rights to specific performance and to hold Western Union liable for substantial damages."
+(The page header showed IMXI at $5.53 when captured.)
+
+3. Payments Dive, "Intermex sues Western Union", 2026-11-24 (also syndicated on Yahoo Finance)
+https://www.paymentsdive.com/news/intermex-sues-western-union/875625/
+"Western Union gained at least $50 million in annual cost savings and financial improvements by studying Intermex's operations during the merger planning period, according to the lawsuit."
+"Western Union "stands by its decision to terminate the merger agreement and strongly disagrees with the claims asserted by Intermex in its lawsuit," a spokesperson said Tuesday in an email. "We believe we acted in accordance with the terms of the merger agreement and intend to vigorously defend against the lawsuit.""
+"The lawsuit filed in the Delaware Court of Chancery alleges breach of contract by Western Union for not completing the deal, and seeks to enforce the merger agreement, along with injunctive relief and damages."
+"Western Union "deliberately stalled, offering nothing and leaving it to DFPI to propose conditions on its own, knowing that every day of delay brought it closer" to the Nov. 10 date ... However, Western Union CEO Devin McGranahan "met privately with Secretary Chopra, without Intermex, in discussions that, upon information and belief, addressed whether the $16 price was too high," Intermex said in the lawsuit."
+"McGranahan also held a town hall meeting on Oct. 13 with Intermex employees and said the Nov. 10 closing date would be extended if necessary, according to the lawsuit."
+"Last year, remittances to Mexico ... fell for the first time in 11 years, declining about 4% to $62.5 billion, according to the lawsuit." "Intermex also cited a 1% excise tax on remittances the U.S. imposed on Jan. 1."
+
+4. Longbridge weekly recap, 2026-11-14
+https://longbridge.com/en/quote/WU.US/news/305539399
+"Western Union fell 2.03% this week to close at $6.74 ... Friday's news turned to payment infrastructure, as Western Union's USDPT became a Visa settlement asset through Anchorage."
+"Among the 18 institutions covering Western Union, 1 rates it overweight, 11 hold, 2 underweight and 4 sell. The consensus rating is sell, with a consensus target of $6.73077."
+
+5. Q3 2026 call, CFO Matthew Cagwin (Yahoo Finance / StockAnalysis transcript excerpts)
+https://finance.yahoo.com/quote/WU/earnings/WU-Q3-2026-earnings_call-720227.html
+"I am pleased to say that we are ahead of our plans of achieving $50 million of annualized run rate savings by the end of this year, driven by the actions executed to date. We believe that our performance is setting us up well to deliver against our 2027 Beyond Efficiency targets. These actions have resulted in almost $40 million in restructuring costs related to our Beyond Efficiency program, primarily related to severance and early retirement costs."
+"Adjusted EPS came in at $0.42 in the current quarter, which was better than expected due to the timing of expenses, accelerated benefits from our Beyond Efficiency program, and a lower tax rate."

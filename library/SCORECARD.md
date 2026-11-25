@@ -2,9 +2,9 @@
 
 # Scorecard
 
-Every dated call marked against committed prices through 2026-11-20. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
+Every dated call marked against committed prices through 2026-11-23. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 148 calls have a mark.
+125 of 149 calls have a mark.
 
 ## By published stance
 
@@ -13,7 +13,7 @@ Every dated call marked against committed prices through 2026-11-20. Returns use
 | Avoid (negative) | 1 | 140 | +6.3% | +3.8% | 1/1 |
 | Own (positive) | 1 | 164 | +70.6% | +70.6% | 1/1 |
 | Pass | 2 | 215 | -17.0% | -21.9% | 0/2 |
-| Watch | 81 | 108 | -0.7% | -0.5% | 36/81 |
+| Watch | 81 | 108 | -0.8% | -0.6% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
 | Watch (positive) | 20 | 69 | +9.2% | +9.9% | 10/20 |
 | unstated | 13 | 186 | +8.1% | +4.8% | 9/13 |
@@ -24,7 +24,7 @@ Every dated call marked against committed prices through 2026-11-20. Returns use
 |---|---:|---:|---:|---:|---:|
 | Avoid | 22 | 128 | -3.4% | -4.2% | 9/22 |
 | Own | 26 | 152 | +10.5% | +10.1% | 16/26 |
-| Watch | 71 | 99 | +3.4% | +3.7% | 35/71 |
+| Watch | 71 | 99 | +3.3% | +3.6% | 35/71 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
 ## By stated upside to fair value
@@ -32,7 +32,7 @@ Every dated call marked against committed prices through 2026-11-20. Returns use
 | Group | Calls | Median age (days) | Mean return | Mean vs SPY | Beat SPY |
 |---|---:|---:|---:|---:|---:|
 | -10% to 10% | 23 | 99 | -3.3% | -3.5% | 6/23 |
-| 10% to 30% | 26 | 110 | +0.0% | +0.4% | 14/26 |
+| 10% to 30% | 26 | 110 | -0.4% | +0.1% | 14/26 |
 | 30% to 70% | 38 | 99 | +11.7% | +11.8% | 22/38 |
 | 70%+ | 19 | 164 | +8.9% | +8.3% | 12/19 |
 | below -10% | 13 | 131 | -7.6% | -8.1% | 6/13 |
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-118 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+124 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -93,7 +93,6 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [THG/2026-06-29](THG.md) | Watch | Watch | $214.54 | $315.00 | $251.28 | +17.1% | +15.7% | bear to base |
 | [RHP/2026-06-14](RHP.md) | Watch | Watch | $122.81 | $136.00 | $141.19 | +15.0% | +13.4% | base to bull |
 | [HOOD/2026-05-24](HOOD.md) | Watch | Avoid | $73.64 | $60.00 | $83.32 | +13.1% | +11.7% | base to bull |
-| [WU/2026-10-23](WU.md) | Watch | Watch | $6.43 | $7.30 | $6.94 | +7.9% | +9.8% | bear to base |
 | [CG/2026-10-24](CG.md) | Watch (positive) | Own | $38.59 | $58.97 | $41.70 | +8.1% | +9.4% | bear to base |
 | [ESQ/2026-07-24](ESQ.md) | Watch | Avoid | $120.10 | $112.86 | $133.63 | +11.3% | +9.2% | base to bull |
 | [CNM/2026-07-21](CNM.md) | Watch | Watch | $43.37 | $47.86 | $47.44 | +9.4% | +8.9% | base to bull |
@@ -113,6 +112,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [CXW/2026-06-23](CXW.md) | Avoid (negative) | Watch | $29.73 | $33.00 | $31.59 | +6.3% | +3.8% | base to bull |
 | [SOFI/2026-05-13](SOFI.md) | unstated | Watch | $15.90 | $23.50 | $16.75 | +5.3% | +2.9% | bear to base |
 | [FOUR/2026-05-06](FOUR.md) | unstated | Own | $40.97 | $107.00 | $43.73 | +6.7% | +2.6% | bear to base |
+| [WU/2026-10-23](WU.md) | Watch | Watch | $6.43 | $7.30 | $6.24 | -3.0% | +2.5% | bear to base |
 | [TMUS/2026-09-19](TMUS.md) | Watch | Watch | $168.18 | $209.57 | $169.08 | +0.5% | +2.1% | bear to base |
 | [CENTA/2026-06-26](CENTA.md) | Watch (positive) | Watch | $39.32 | $56.55 | $41.20 | +4.8% | +1.7% | bear to base |
 | [SOLV/2026-08-27](SOLV.md) | Watch | Watch | $90.93 | $93.60 | $90.08 | -0.9% | +1.6% | base to bull |
