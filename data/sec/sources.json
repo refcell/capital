@@ -626,7 +626,7 @@
   },
   "facts/WU": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001365135.json",
-    "fetched_at": "2026-11-11T03:40:43+00:00",
+    "fetched_at": "2026-11-25T03:01:40+00:00",
     "sha256": "7ae69ab41b5a3a3697af7ffab83f62c2e8b4cfa9f0b1597fe105c0f649f393cd"
   },
   "facts/WYNN": {
@@ -1271,8 +1271,8 @@
   },
   "submissions/WU": {
     "url": "https://data.sec.gov/submissions/CIK0001365135.json",
-    "fetched_at": "2026-11-11T03:40:42+00:00",
-    "sha256": "c066e5ca9fd3c1b34b5ebd5f67b537b85196e78bdc7b8f8d494ffe44dc74bd26"
+    "fetched_at": "2026-11-25T03:01:39+00:00",
+    "sha256": "4206e3b368e77b027d808c0fe393b320c95830261e6006d4d89b17387ad2daf5"
   },
   "submissions/WYNN": {
     "url": "https://data.sec.gov/submissions/CIK0001174922.json",
