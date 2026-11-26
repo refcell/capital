@@ -2,7 +2,7 @@
 
 # Calendar
 
-As of 2026-11-23, the last committed price date.
+As of 2026-11-24, the last committed price date.
 
 ## Estimated earnings releases in the next 75 days
 
@@ -10,49 +10,49 @@ Estimated as the same release a year earlier plus 52 weeks, from SEC 8-K Item 2.
 
 | Estimated date | Ticker | Last call | Stance | Days since call |
 |---|---|---|---|---:|
-| 2026-12-01 | [BOX](BOX.md) | 2026-10-30 | Watch | 24 |
-| 2026-12-01 | [GTLB](GTLB.md) | 2026-05-24 | Watch | 183 |
-| 2026-12-02 | [CRM](CRM.md) | 2026-05-25 | Watch (positive) | 182 |
-| 2026-12-08 | [CNM](CNM.md) | 2026-11-11 | Watch | 12 |
-| 2026-12-08 | [OLLI](OLLI.md) | 2026-07-09 | Watch (negative) | 137 |
-| 2026-12-09 | [NDSN](NDSN.md) | 2026-08-13 | Watch | 102 |
-| 2026-12-10 | [AVGO](AVGO.md) | 2026-09-05 | Watch (positive) | 79 |
-| 2026-12-17 | [FDS](FDS.md) | 2026-05-26 | Watch (positive) | 181 |
-| 2026-12-17 | [NKE](NKE.md) | 2026-06-01 | Watch | 175 |
-| 2026-12-18 | [CCL](CCL.md) | 2026-09-10 | Watch (positive) | 74 |
-| 2027-01-06 | [ACI](ACI.md) | 2026-06-21 | Watch (negative) | 155 |
-| 2027-01-06 | [STZ](STZ.md) | 2026-09-12 | Watch | 72 |
-| 2027-01-07 | [PSNL](PSNL.md) | 2026-08-25 | Watch | 90 |
-| 2027-01-07 | [XNCR](XNCR.md) | 2026-11-23 | Watch (negative) | 0 |
-| 2027-01-11 | [IONS](IONS.md) | 2026-11-11 | Avoid (negative) | 12 |
-| 2027-01-13 | [C](C.md) | 2026-06-14 | Watch | 162 |
-| 2027-01-20 | [BANC](BANC.md) | 2026-07-27 | Watch | 119 |
-| 2027-01-20 | [ONB](ONB.md) | 2026-07-16 | Watch | 130 |
-| 2027-01-21 | [ESQ](ESQ.md) | 2026-07-24 | Watch | 122 |
-| 2027-01-21 | [SSB](SSB.md) | 2026-08-10 | Watch | 105 |
-| 2027-01-27 | [NOW](NOW.md) | 2026-05-24 | Watch (positive) | 183 |
-| 2027-01-28 | [CRS](CRS.md) | 2026-11-18 | Watch (positive) | 5 |
-| 2027-01-28 | [GPI](GPI.md) | 2026-07-06 | Watch (positive) | 140 |
-| 2027-01-29 | [HOOD](HOOD.md) | 2026-05-24 | Watch | 183 |
-| 2027-01-29 | [SOFI](SOFI.md) | 2026-05-24 | Watch | 183 |
-| 2027-02-01 | [JOBY](JOBY.md) | 2026-07-20 | Watch | 126 |
-| 2027-02-01 | [PLTR](PLTR.md) | 2026-06-24 | Watch | 152 |
-| 2027-02-02 | [GNW](GNW.md) | 2026-07-15 | Watch | 131 |
-| 2027-02-02 | [PFE](PFE.md) | 2026-11-03 | Watch | 20 |
-| 2027-02-02 | [PYPL](PYPL.md) | 2026-05-24 | Watch (negative) | 183 |
-| 2027-02-03 | [CENTA](CENTA.md) | 2026-06-26 | Watch (positive) | 150 |
-| 2027-02-03 | [ELF](ELF.md) | 2026-06-13 | Watch (positive) | 163 |
-| 2027-02-03 | [MAA](MAA.md) | 2026-09-24 | Watch | 60 |
-| 2027-02-03 | [THG](THG.md) | 2026-06-29 | Watch | 147 |
-| 2027-02-04 | [BE](BE.md) | 2026-07-08 | Watch | 138 |
-| 2027-02-04 | [FCFS](FCFS.md) | 2026-10-28 | Watch (positive) | 26 |
-| 2027-02-04 | [ICE](ICE.md) | 2026-06-30 | Watch | 146 |
-| 2027-02-04 | [IREN](IREN.md) | 2026-11-11 | Watch | 12 |
-| 2027-02-04 | [POST](POST.md) | 2026-07-13 | Watch | 133 |
-| 2027-02-04 | [STEP](STEP.md) | 2026-11-11 | Watch | 12 |
-| 2027-02-04 | [TEAM](TEAM.md) | 2026-11-11 | Watch | 12 |
-| 2027-02-05 | [CG](CG.md) | 2026-11-11 | Watch (negative) | 12 |
-| 2027-02-05 | [CNC](CNC.md) | 2026-11-07 | Watch | 16 |
+| 2026-12-01 | [BOX](BOX.md) | 2026-10-30 | Watch | 25 |
+| 2026-12-01 | [GTLB](GTLB.md) | 2026-05-24 | Watch | 184 |
+| 2026-12-02 | [CRM](CRM.md) | 2026-05-25 | Watch (positive) | 183 |
+| 2026-12-08 | [CNM](CNM.md) | 2026-11-11 | Watch | 13 |
+| 2026-12-08 | [OLLI](OLLI.md) | 2026-07-09 | Watch (negative) | 138 |
+| 2026-12-09 | [NDSN](NDSN.md) | 2026-08-13 | Watch | 103 |
+| 2026-12-10 | [AVGO](AVGO.md) | 2026-09-05 | Watch (positive) | 80 |
+| 2026-12-17 | [FDS](FDS.md) | 2026-05-26 | Watch (positive) | 182 |
+| 2026-12-17 | [NKE](NKE.md) | 2026-06-01 | Watch | 176 |
+| 2026-12-18 | [CCL](CCL.md) | 2026-09-10 | Watch (positive) | 75 |
+| 2027-01-06 | [ACI](ACI.md) | 2026-06-21 | Watch (negative) | 156 |
+| 2027-01-06 | [STZ](STZ.md) | 2026-09-12 | Watch | 73 |
+| 2027-01-07 | [PSNL](PSNL.md) | 2026-11-25 | Watch | -1 |
+| 2027-01-07 | [XNCR](XNCR.md) | 2026-11-23 | Watch (negative) | 1 |
+| 2027-01-11 | [IONS](IONS.md) | 2026-11-11 | Avoid (negative) | 13 |
+| 2027-01-13 | [C](C.md) | 2026-06-14 | Watch | 163 |
+| 2027-01-20 | [BANC](BANC.md) | 2026-07-27 | Watch | 120 |
+| 2027-01-20 | [ONB](ONB.md) | 2026-07-16 | Watch | 131 |
+| 2027-01-21 | [ESQ](ESQ.md) | 2026-07-24 | Watch | 123 |
+| 2027-01-21 | [SSB](SSB.md) | 2026-08-10 | Watch | 106 |
+| 2027-01-27 | [NOW](NOW.md) | 2026-05-24 | Watch (positive) | 184 |
+| 2027-01-28 | [CRS](CRS.md) | 2026-11-18 | Watch (positive) | 6 |
+| 2027-01-28 | [GPI](GPI.md) | 2026-07-06 | Watch (positive) | 141 |
+| 2027-01-29 | [HOOD](HOOD.md) | 2026-05-24 | Watch | 184 |
+| 2027-01-29 | [SOFI](SOFI.md) | 2026-05-24 | Watch | 184 |
+| 2027-02-01 | [JOBY](JOBY.md) | 2026-07-20 | Watch | 127 |
+| 2027-02-01 | [PLTR](PLTR.md) | 2026-06-24 | Watch | 153 |
+| 2027-02-02 | [GNW](GNW.md) | 2026-07-15 | Watch | 132 |
+| 2027-02-02 | [PFE](PFE.md) | 2026-11-03 | Watch | 21 |
+| 2027-02-02 | [PYPL](PYPL.md) | 2026-05-24 | Watch (negative) | 184 |
+| 2027-02-03 | [CENTA](CENTA.md) | 2026-06-26 | Watch (positive) | 151 |
+| 2027-02-03 | [ELF](ELF.md) | 2026-06-13 | Watch (positive) | 164 |
+| 2027-02-03 | [MAA](MAA.md) | 2026-09-24 | Watch | 61 |
+| 2027-02-03 | [THG](THG.md) | 2026-06-29 | Watch | 148 |
+| 2027-02-04 | [BE](BE.md) | 2026-07-08 | Watch | 139 |
+| 2027-02-04 | [FCFS](FCFS.md) | 2026-10-28 | Watch (positive) | 27 |
+| 2027-02-04 | [ICE](ICE.md) | 2026-06-30 | Watch | 147 |
+| 2027-02-04 | [IREN](IREN.md) | 2026-11-11 | Watch | 13 |
+| 2027-02-04 | [POST](POST.md) | 2026-07-13 | Watch | 134 |
+| 2027-02-04 | [STEP](STEP.md) | 2026-11-11 | Watch | 13 |
+| 2027-02-04 | [TEAM](TEAM.md) | 2026-11-11 | Watch | 13 |
+| 2027-02-05 | [CG](CG.md) | 2026-11-11 | Watch (negative) | 13 |
+| 2027-02-05 | [CNC](CNC.md) | 2026-11-07 | Watch | 17 |
 
 ## Calls overtaken by an earnings release
 
@@ -119,4 +119,3 @@ The company has reported since the latest call. These names are due an update no
 | 2026-11-04 | 1 | [APP](APP.md) | 2026-08-06 |
 | 2026-11-04 | 1 | [KNTK](KNTK.md) | 2026-09-17 |
 | 2026-11-04 | 1 | [PK](PK.md) | 2026-08-24 |
-| 2026-11-04 | 1 | [PSNL](PSNL.md) | 2026-08-25 |

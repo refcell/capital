@@ -2,9 +2,9 @@
 
 # Scorecard
 
-Every dated call marked against committed prices through 2026-11-23. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
+Every dated call marked against committed prices through 2026-11-24. Returns use the adjusted close, so dividends, splits, and spin-offs do not move them; "vs SPY" is the excess over SPY from the same start date. Most calls are months old against a 3-year rating horizon, so these are interim marks, not verdicts.
 
-125 of 149 calls have a mark.
+125 of 150 calls have a mark.
 
 ## By published stance
 
@@ -13,7 +13,7 @@ Every dated call marked against committed prices through 2026-11-23. Returns use
 | Avoid (negative) | 1 | 140 | +6.3% | +3.8% | 1/1 |
 | Own (positive) | 1 | 164 | +70.6% | +70.6% | 1/1 |
 | Pass | 2 | 215 | -17.0% | -21.9% | 0/2 |
-| Watch | 81 | 108 | -0.8% | -0.6% | 36/81 |
+| Watch | 81 | 108 | -0.9% | -0.6% | 36/81 |
 | Watch (negative) | 7 | 171 | +26.1% | +24.4% | 5/7 |
 | Watch (positive) | 20 | 69 | +9.2% | +9.9% | 10/20 |
 | unstated | 13 | 186 | +8.1% | +4.8% | 9/13 |
@@ -24,7 +24,7 @@ Every dated call marked against committed prices through 2026-11-23. Returns use
 |---|---:|---:|---:|---:|---:|
 | Avoid | 22 | 128 | -3.4% | -4.2% | 9/22 |
 | Own | 26 | 152 | +10.5% | +10.1% | 16/26 |
-| Watch | 71 | 99 | +3.3% | +3.6% | 35/71 |
+| Watch | 71 | 99 | +3.2% | +3.6% | 35/71 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
 
 ## By stated upside to fair value
@@ -33,7 +33,7 @@ Every dated call marked against committed prices through 2026-11-23. Returns use
 |---|---:|---:|---:|---:|---:|
 | -10% to 10% | 23 | 99 | -3.3% | -3.5% | 6/23 |
 | 10% to 30% | 26 | 110 | -0.4% | +0.1% | 14/26 |
-| 30% to 70% | 38 | 99 | +11.7% | +11.8% | 22/38 |
+| 30% to 70% | 38 | 99 | +11.5% | +11.7% | 22/38 |
 | 70%+ | 19 | 164 | +8.9% | +8.3% | 12/19 |
 | below -10% | 13 | 131 | -7.6% | -8.1% | 6/13 |
 | — | 6 | 175 | +2.4% | -2.0% | 2/6 |
@@ -42,7 +42,7 @@ Calibration context: published 12-month price targets are met at the horizon onl
 
 ## Probability claims
 
-124 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
+128 claims made, 0 resolved, 0 past their resolve-by date without a resolution.
 
 ## Where marks sit in the scenario range
 
@@ -138,7 +138,6 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [AEG/2026-08-03](AEG.md) | Watch | Watch | $9.46 | $10.09 | $8.87 | -6.3% | -5.5% | bear to base |
 | [SKT/2026-07-28](SKT.md) | Watch | Watch | $42.11 | $51.22 | $40.40 | -4.1% | -5.5% | — |
 | [POST/2026-07-13](POST.md) | Watch | Own | $86.70 | $142.00 | $81.83 | -5.6% | -6.0% | below bear |
-| [PSNL/2026-08-25](PSNL.md) | Watch | Watch | $17.25 | $26.00 | $15.95 | -7.5% | -6.1% | bear to base |
 | [SAN/2026-06-21](SAN.md) | Watch | Watch | $13.50 | $14.97 | $12.72 | -5.8% | -6.5% | bear to base |
 | [SFM/2026-11-05](SFM.md) | Watch | Watch | $54.40 | $55.69 | $49.58 | -8.9% | -7.0% | bear to base |
 | [ONB/2026-07-16](ONB.md) | Watch | Watch | $27.29 | $34.74 | $25.40 | -6.9% | -7.1% | bear to base |
@@ -146,6 +145,7 @@ A calibrated set of calls should see marks spread across the bands roughly in li
 | [ACHR/2026-07-22](ACHR.md) | Watch | Own | $5.18 | $11.34 | $4.71 | -9.1% | -9.7% | bear to base |
 | [UBS/2026-09-03](UBS.md) | Watch | Watch | $54.90 | $55.64 | $48.27 | -12.1% | -9.7% | bear to base |
 | [FRSH/2026-09-02](FRSH.md) | Watch | Watch | $13.46 | $14.06 | $12.01 | -10.8% | -9.8% | bear to base |
+| [PSNL/2026-08-25](PSNL.md) | Watch | Watch | $17.25 | $26.00 | $14.53 | -15.8% | -9.8% | bear to base |
 | [GNW/2026-07-15](GNW.md) | Watch | Watch | $9.74 | $12.01 | $8.69 | -10.8% | -10.4% | below bear |
 | [GPI/2026-07-06](GPI.md) | Watch (positive) | Own | $296.81 | $479.00 | $264.72 | -10.8% | -10.9% | below bear |
 | [MELI/2026-05-09](MELI.md) | unstated | Watch | $1,633 | $1,644 | $1,490 | -8.7% | -10.9% | bear to base |

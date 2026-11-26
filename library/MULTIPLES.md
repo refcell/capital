@@ -86,7 +86,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.3x | SIC 20xx, 5 names: 2.8x, 26.4x |
 | [PPC](PPC.md) | Poultry Slaughtering and Processing | 21.1x | 9.2–23.8x | 0.5x | 0.5–0.7x | 14.4x | 7.9–18.9x | SIC 20xx, 5 names: 2.8x, 26.4x |
 | [PRIM](PRIM.md) | Water, Sewer, Pipeline, Comm & Power Line Construction | 40.0x | 11.5–20.6x | 0.6x | 0.5–0.6x | 25.4x | 9.9–13.1x | — |
-| [PSNL](PSNL.md) | Services-Medical Laboratories | — | — | 19.3x | 2.8–10.4x | — | — | SIC 80xx, 3 names: 0.3x, — |
+| [PSNL](PSNL.md) | Services-Medical Laboratories | — | — | 17.4x | 2.8–10.4x | — | — | SIC 80xx, 3 names: 0.3x, — |
 | [PYPL](PYPL.md) | Services-Business Services, NEC | 10.9x | 17.3–53.8x | 1.5x | 2.3–7.3x | 9.1x | 13.6–49.2x | SIC 7389, 6 names: 2.5x, 26.0x |
 | [QS](QS.md) | Miscellaneous Electrical Machinery, Equipment & Supplies | — | — | — | — | — | — | SIC 36xx, 2 names: 16.6x, 275.2x |
 | [QURE](QURE.md) | Pharmaceutical Preparations | — | — | — | 21.2–149.9x | — | — | SIC 2834, 4 names: 4.8x, 41.9x |

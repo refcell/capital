@@ -2,44 +2,80 @@
 
 # Personalis, Inc. (Nasdaq: PSNL)
 
-Sector: Healthcare / Diagnostics & Research · Calls: 1 · Latest: 2026-08-25
+Sector: Healthcare / Diagnostics & Research · Calls: 2 · Latest: 2026-11-25
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Watch (+14.7% a year expected over 3 years) |
-| Price at call | $17.25 on 2026-08-25 |
-| Bear / base / bull | $6.38 / $18.96 / $59.80 |
-| Weights | — / — / — |
-| Fair value | $26.00 (stated) |
-| Street mean target | $15.44 |
-| Valuation lens | P/S + Cash NAV floor (DCF/FCF framework invalid — structurally negative FCF and operating losses of $88-114M/year) |
-| Revenue CAGR vs base rates | bear +12.0% = 61th pct / base +20.0% = 76th pct / bull +32.0% = 89th pct of 5-year growth for $50M–$325M companies ([base rates](BASE_RATES.md)) |
-| Since the call | -7.5% vs SPY -1.5% through 2026-11-09; mark $15.95 is bear to base |
+| Stance (as published) | Watch — unchanged label, but the stock is now a claim on Tempus merger consideration, not a standalone diagnostics business |
+| Rule rating | Watch (+0.3% a year expected over 3 years) |
+| Price at call | $14.53 on 2026-11-24 |
+| Bear / base / bull | $13.19 / $14.71 / $16.17 |
+| Weights | 27% / 50% / 23% |
+| Fair value | $14.64 (weighted) |
+| Street mean target | — |
+| Valuation lens | Merger consideration at closing: 0.3858 x $16.25 cash plus 0.6142 x ($16.25 / TEM 15-day VWAP) Tempus shares, valued at TEM's price at closing; deal break valued at standalone |
+| Next review | 2026-12-04 — Merger vote result and closing 8-K; resolve the claims and drop coverage once PSNL is delisted |
 
-**Data notes.** The report states more than one probability-weighted value: $26, $26.03; the first is used.
+**Thesis.** PSNL is a merger-arbitrage stub: each share converts into $6.27 of cash and about 0.154 Tempus shares at closing in early December, so its value moves with TEM, not with Personalis's own results.
 
-## Fundamentals known on 2026-08-25
+**Variant view.** No disagreement on the deal. The only checkable point is mechanical: the exchange ratio is set on a 15-trading-day VWAP that still holds $75-84 TEM prints from early November, so at an unchanged TEM the package is worth $14.54 (December 1 close) to $15.26 (December 4 close), up to 5% above the price; the gap implies 0-7% break odds and is smaller than TEM's daily moves and the VWAP proxy's error.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PSNL 2026-08-25`). Later restatements are not visible here by design.
+**Catalysts.**
+
+- Special meeting to adopt the merger agreement (November 30, 2026)
+- Merger closing and delisting (December 1-3, 2026 (Rule 425 employee FAQ))
+
+**Pre-mortem** (written at decision time).
+
+- Turnout falls short: the vote needs a majority of outstanding shares, and an unvoted share counts against. — watch: Use of the adjournment proposal or a postponement 8-K on or before November 30
+- TEM keeps falling into the close (it fell from $84.44 to $54.83 between November 9 and 24), cutting the stock portion; at $43.86 the package is $13.19. — watch: TEM closes on November 27, 30 and December 1
+- A closing condition (tax opinion, Nasdaq listing of the new TEM shares, a material adverse effect dispute) fails and pushes the close out by weeks, leaving holders with TEM and break risk for longer; a few days' slip helps, because each day drops a high VWAP print. — watch: No closing 8-K by December 4, 2026, or a new expected closing date beyond mid-December
+- The VWAP proxy is wrong: typical-price weighting overstates the true VWAP, so the ratio is lower than 0.2507. — watch: Final exchange ratio in the closing announcement below 0.245
+
+**Kill criteria.**
+
+- Merger agreement not adopted at the November 30 meeting or its adjournment (check by 2026-12-04) — open
+- Merger not closed by the April 20, 2027 Outside Date (check by 2027-04-20) — open
+
+**Probability claims.**
+
+- 97%: Personalis stockholders adopt the Tempus merger agreement at the special meeting held on November 30, 2026 or an adjournment of it. (resolves by 2026-12-07)
+- 93%: The Tempus acquisition of Personalis closes on or before December 11, 2026. (resolves by 2026-12-14)
+- 75%: The final Exchange Ratio is between 0.240 and 0.270 Tempus Class A shares per Personalis share receiving stock. (resolves by 2026-12-14)
+- 95%: The final Cash Consideration Fraction is between 0.380 and 0.390, with no Reorg Threshold reduction of the Cash Share Number. (resolves by 2026-12-14)
+
+**What would change the view.**
+
+- More bullish: a credible view that TEM is cheap at the close, which would be a separate TEM initiation, not a PSNL call
+- More bearish: a failed or postponed vote, or TEM below $46 on a 15-day VWAP basis, which gives Personalis a walk-away right
+
+**Independent review: grade B** (evidence 4, valuation 4, variant view 3, risk 3, calibration 4). Counter-case: The call's own numbers support a hedged arbitrage, not 'no trade'. With TEM flat, the package is worth $14.71 for a December 2 close against $14.53, and the gap gets bigger if closing slips, because old $75-84 prints roll out of the VWAP ($15.03 on December 3, $15.26 on December 4). At the stated 2% chance of a break valued at $10, the $0.18 gap implies about 4% break risk. That is twice the call's own estimate, so on its own logic PSNL is cheap once TEM is shorted against it. On the other side, $10 is too harsh for a break: TEM, the closest comparable, closed at $54.83, above its $53.59 close on the July 16 unaffected date, so a break value near the $14.68 unaffected price is as easy to defend. Neither point changes fair value by more than about $0.10, which shows how little the Watch label means here.
+
+**Response.** Accepted the break-value point: raised it from $10.00 to $12.00 (inside both Centerview standalone ranges, below the unaffected price because about $22M of cash has been burned since June 30 and a failed deal restarts the ATM); weights re-derived to 27/50/23, fair value $14.61 to $14.64. Rewrote the third pre-mortem so a few days' slip is not treated as a risk and the risk is a slip of weeks. Accepted the hedged-arbitrage point in the action paragraph: a TEM short locks roughly $0.10-0.20 a share, so the call says there is no unhedged trade rather than no trade; the variant view now states the implied break odds. Fixed the factual points: S-4 effective date conflict noted, SG&A drivers quoted as the 10-Q states them, FY2024 margin attributed to the August report, revenue split sourced to the release, the market-implied break odds stated instead of 'almost no break risk', the ratio claim's dependence on a close by about December 4 stated, and the lesson about the August run corrected (the store keeps no Item 1.01 or Rule 425 filings). Not changed: the stance, because the expected return of +0.7% to the close stays inside Watch and inside the VWAP proxy's error.
+
+**Data notes.** The August 25 call was written five weeks after the July 20 merger agreement and did not mention it; its $16.25 'Lake Street target' is the deal's per-share cash price. Its $26 fair value was never reachable. No Street snapshot was captured: analysts stopped modelling standalone value after the deal, and Personalis no longer gives guidance or holds earnings calls. horizon_years is the time to closing; the rule rating still annualizes over 3 years, which overstates nothing here because fair value is within 1% of the price.
+
+## Fundamentals known on 2026-11-25
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PSNL 2026-11-25`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 69.7M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Revenue (TTM) | 80.8M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
 | Gross profit (TTM) | 22.1M USD | 2019-12-31 | sum 4q | [0001564590-20-012826](https://www.sec.gov/Archives/edgar/data/1527753/000156459020012826/) |
-| Operating income (TTM) | -114.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Net income (TTM) | -107.2M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Diluted EPS (TTM) | -1.09 USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Operating cash flow (TTM) | -92.3M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Capex (TTM) | 8.7M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Free cash flow (TTM) | -101.0M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Stock comp (TTM) | 10.9M USD | 2026-06-30 | ttm ytd | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Cash | 94.0M USD | 2026-06-30 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Operating income (TTM) | -126.5M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Net income (TTM) | -119.3M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Diluted EPS (TTM) | -1.16 USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Operating cash flow (TTM) | -97.6M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Capex (TTM) | 10.1M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Free cash flow (TTM) | -107.7M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Stock comp (TTM) | 12.7M USD | 2026-09-30 | ttm ytd | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Cash | 98.3M USD | 2026-09-30 | instant | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
 | Long-term debt | 20.0M USD | 2019-06-30 | instant | [0001564590-19-031814](https://www.sec.gov/Archives/edgar/data/1527753/000156459019031814/) |
-| Equity | 235.2M USD | 2026-06-30 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
-| Shares outstanding | 106.8M | 2026-07-29 | instant | [0001193125-26-332817](https://www.sec.gov/Archives/edgar/data/1527753/000119312526332817/) |
+| Equity | 212.7M USD | 2026-09-30 | instant | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
+| Shares outstanding | 108.4M | 2026-10-30 | instant | [0001193125-26-447201](https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/) |
 
 ## Earnings calendar
 
@@ -49,6 +85,7 @@ Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001193125-26-447196](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-08-25 | $17.25 | Watch | Watch | $6.38 | $18.96 | $59.80 | $26.00 | -7.5% | -6.1% | bear to base | [report](https://github.com/refcell/capital/blob/8ff79eb/research/PSNL.md) · [projection](https://github.com/refcell/capital/blob/fe778eb/projections/PSNL.md) · [model](https://github.com/refcell/capital/blob/879601c/models/%5B2026-08-25%5D%20PSNL%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/879601c/models/_build_PSNL.py) |
+| 2026-11-25 | $14.53 | Watch | Watch | $13.19 | $14.71 | $16.17 | $14.64 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/PSNL/2026-11-25.md) · [projection](https://github.com/refcell/capital/blob/main/projections/PSNL.md) · [model](https://github.com/refcell/capital/blob/main/models/PSNL/2026-11-25.xlsx) · [script](https://github.com/refcell/capital/blob/main/models/_build_PSNL_2026-11-25.py) |
+| 2026-08-25 | $17.25 | Watch | Watch | $6.38 | $18.96 | $59.80 | $26.00 | -15.8% | -9.8% | bear to base | [report](https://github.com/refcell/capital/blob/8ff79eb/research/PSNL.md) · [projection](https://github.com/refcell/capital/blob/fe778eb/projections/PSNL.md) · [model](https://github.com/refcell/capital/blob/879601c/models/%5B2026-08-25%5D%20PSNL%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/879601c/models/_build_PSNL.py) |
 
 Data: `data/PSNL/`. Prices: `data/prices/PSNL.csv`.

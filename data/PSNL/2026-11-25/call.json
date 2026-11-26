@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "ticker": "PSNL",
+  "exchange": "Nasdaq",
+  "company": "Personalis, Inc.",
+  "sector": "Healthcare / Diagnostics & Research",
+  "date": "2026-11-25",
+  "origin": "run",
+  "prior_call": "PSNL/2026-08-25",
+  "research_status": "post_earnings",
+  "research_status_text": "Post-earnings and deal update (Q3 2026 results; Tempus cash election ahead of the November 30 merger vote)",
+  "stance": "watch",
+  "bias": "neutral",
+  "stance_text": "Watch — unchanged label, but the stock is now a claim on Tempus merger consideration, not a standalone diagnostics business",
+  "rating_override_reason": null,
+  "primary_lens": "other",
+  "lens_text": "Merger consideration at closing: 0.3858 x $16.25 cash plus 0.6142 x ($16.25 / TEM 15-day VWAP) Tempus shares, valued at TEM's price at closing; deal break valued at standalone",
+  "price": {
+    "value": 14.53,
+    "currency": "USD",
+    "date": "2026-11-24"
+  },
+  "scenarios": {
+    "bear": {
+      "value": 13.19,
+      "weight": 0.27,
+      "basis": "Closes 2026-12-02 with TEM 20% lower at $43.86: $6.27 cash + 0.157 TEM ($6.92); weight 25% plus 2 points for a 2% deal break at $12.00"
+    },
+    "base": {
+      "value": 14.71,
+      "weight": 0.5,
+      "basis": "Closes 2026-12-02 with TEM at its 2026-11-24 close of $54.83: $6.27 cash + 0.154 TEM ($8.44); estimated VWAP $64.81, exchange ratio 0.2507"
+    },
+    "bull": {
+      "value": 16.17,
+      "weight": 0.23,
+      "basis": "Closes 2026-12-02 with TEM 20% higher at $65.80: $6.27 cash + 0.150 TEM ($9.90)"
+    }
+  },
+  "fair_value": {
+    "value": 14.64,
+    "method": "weighted"
+  },
+  "horizon_years": 0.02,
+  "horizon_text": "Value at the merger closing, expected December 1-3, 2026 (about one week); after closing holders own cash and Tempus stock",
+  "street": null,
+  "deviation_from_street": null,
+  "thesis": "PSNL is a merger-arbitrage stub: each share converts into $6.27 of cash and about 0.154 Tempus shares at closing in early December, so its value moves with TEM, not with Personalis's own results.",
+  "consensus_view": "At $14.53 on November 24 the market priced PSNL at the package value implied by TEM's $54.83 close less about 1%, consistent with near-certain approval: HSR expired, the S-4 is effective, ISS and Glass Lewis back the deal, and Merck and Tempus (about 25%) are committed.",
+  "variant_view": "No disagreement on the deal. The only checkable point is mechanical: the exchange ratio is set on a 15-trading-day VWAP that still holds $75-84 TEM prints from early November, so at an unchanged TEM the package is worth $14.54 (December 1 close) to $15.26 (December 4 close), up to 5% above the price; the gap implies 0-7% break odds and is smaller than TEM's daily moves and the VWAP proxy's error.",
+  "why_opportunity": [
+    "technical"
+  ],
+  "edge": null,
+  "catalysts": [
+    {
+      "event": "Special meeting to adopt the merger agreement",
+      "timing": "November 30, 2026",
+      "date": "2026-11-30",
+      "kind": "hard",
+      "what_it_proves": "Whether holders of a majority of outstanding shares approve; 27.1M shares beyond Merck and Tempus are needed",
+      "value_impact": "Approval: value follows TEM; failure: deal-break value near $12"
+    },
+    {
+      "event": "Merger closing and delisting",
+      "timing": "December 1-3, 2026 (Rule 425 employee FAQ)",
+      "date": "2026-12-02",
+      "kind": "hard",
+      "what_it_proves": "Final exchange ratio and Cash Consideration Fraction",
+      "value_impact": "Fixes the TEM share count per PSNL share; coverage ends"
+    }
+  ],
+  "premortem": [
+    {
+      "reason": "Turnout falls short: the vote needs a majority of outstanding shares, and an unvoted share counts against.",
+      "signal": "Use of the adjournment proposal or a postponement 8-K on or before November 30"
+    },
+    {
+      "reason": "TEM keeps falling into the close (it fell from $84.44 to $54.83 between November 9 and 24), cutting the stock portion; at $43.86 the package is $13.19.",
+      "signal": "TEM closes on November 27, 30 and December 1"
+    },
+    {
+      "reason": "A closing condition (tax opinion, Nasdaq listing of the new TEM shares, a material adverse effect dispute) fails and pushes the close out by weeks, leaving holders with TEM and break risk for longer; a few days' slip helps, because each day drops a high VWAP print.",
+      "signal": "No closing 8-K by December 4, 2026, or a new expected closing date beyond mid-December"
+    },
+    {
+      "reason": "The VWAP proxy is wrong: typical-price weighting overstates the true VWAP, so the ratio is lower than 0.2507.",
+      "signal": "Final exchange ratio in the closing announcement below 0.245"
+    }
+  ],
+  "kill_criteria": [
+    {
+      "condition": "Merger agreement not adopted at the November 30 meeting or its adjournment",
+      "check_by": "2026-12-04",
+      "status": "open",
+      "note": null
+    },
+    {
+      "condition": "Merger not closed by the April 20, 2027 Outside Date",
+      "check_by": "2027-04-20",
+      "status": "open",
+      "note": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "vote-approves",
+      "claim": "Personalis stockholders adopt the Tempus merger agreement at the special meeting held on November 30, 2026 or an adjournment of it.",
+      "probability": 0.97,
+      "resolve_by": "2026-12-07"
+    },
+    {
+      "id": "closes-by-dec-11",
+      "claim": "The Tempus acquisition of Personalis closes on or before December 11, 2026.",
+      "probability": 0.93,
+      "resolve_by": "2026-12-14"
+    },
+    {
+      "id": "ratio-0p24-0p27",
+      "claim": "The final Exchange Ratio is between 0.240 and 0.270 Tempus Class A shares per Personalis share receiving stock.",
+      "probability": 0.75,
+      "resolve_by": "2026-12-14"
+    },
+    {
+      "id": "cash-fraction-unchanged",
+      "claim": "The final Cash Consideration Fraction is between 0.380 and 0.390, with no Reorg Threshold reduction of the Cash Share Number.",
+      "probability": 0.95,
+      "resolve_by": "2026-12-14"
+    }
+  ],
+  "resolutions": [],
+  "change_my_mind": [
+    "More bullish: a credible view that TEM is cheap at the close, which would be a separate TEM initiation, not a PSNL call",
+    "More bearish: a failed or postponed vote, or TEM below $46 on a 15-day VWAP basis, which gives Personalis a walk-away right"
+  ],
+  "base_rate": null,
+  "update": {
+    "event": "Q3 2026 results and 10-Q (2026-11-04); Tempus Parent Cash Election (8-K, 2026-11-25); merger signed 2026-07-20 and missed by the prior call",
+    "event_date": "2026-11-24",
+    "expected": "August call: standalone P/S plus cash NAV, bear $6.38 / base $18.96 / bull $59.80, stated fair value $26; Q3 gross margin was to be the test",
+    "actual": "Q3 revenue $25.6M (+77%), gross margin 25.7% vs 13.2%, operating loss $35.5M, cash and investments $190.6M; but the July 20 Tempus merger caps value at the package, now $6.27 cash plus about 0.154 TEM per share",
+    "thesis_pillars": [
+      {
+        "pillar": "Gross margin recovers as clinical volume scales",
+        "status": "strengthened",
+        "note": "Q3 gross margin 25.7% vs 13.2% a year earlier; clinical tests 13,157 vs 4,388"
+      },
+      {
+        "pillar": "Standalone upside to $19-60 through MRD adoption",
+        "status": "broken",
+        "note": "The merger signed July 20, 2026 replaces standalone value with a fixed cash-plus-TEM package"
+      },
+      {
+        "pillar": "Cash runway funds the plan",
+        "status": "intact",
+        "note": "$190.6M at September 30; ATM sales barred while the merger is pending"
+      }
+    ],
+    "action": "lower"
+  },
+  "next_review": "2026-12-04",
+  "next_review_trigger": "Merger vote result and closing 8-K; resolve the claims and drop coverage once PSNL is delisted",
+  "artifacts": {
+    "report": {
+      "path": "research/updates/PSNL/2026-11-25.md",
+      "commit": null
+    },
+    "model": {
+      "path": "models/PSNL/2026-11-25.xlsx",
+      "commit": null
+    },
+    "build_script": {
+      "path": "models/_build_PSNL_2026-11-25.py",
+      "commit": null
+    },
+    "projection": {
+      "path": "projections/PSNL.md",
+      "commit": null
+    }
+  },
+  "evidence": {},
+  "notes": [
+    "The August 25 call was written five weeks after the July 20 merger agreement and did not mention it; its $16.25 'Lake Street target' is the deal's per-share cash price. Its $26 fair value was never reachable.",
+    "No Street snapshot was captured: analysts stopped modelling standalone value after the deal, and Personalis no longer gives guidance or holds earnings calls.",
+    "horizon_years is the time to closing; the rule rating still annualizes over 3 years, which overstates nothing here because fair value is within 1% of the price."
+  ],
+  "review": {
+    "reviewer": "agent:reviewing-research",
+    "date": "2026-11-25",
+    "scores": {
+      "evidence": 4,
+      "valuation": 4,
+      "variant_view": 3,
+      "risk": 3,
+      "calibration": 4
+    },
+    "low_score_reasons": [
+      "variant_view: The call says it has no view on the deal, and its one checkable point is that the VWAP lag makes the package worth more than the price. That gap (+0.1% to +3.4% depending on the closing day) is mechanical, and the report says itself that the proxy error and TEM's daily moves can be larger.",
+      "risk: The third pre-mortem reason treats a slip past December 3 as bad, but the call's own script shows that at an unchanged TEM each day of delay raises the Exchange Ratio and the package (to $15.26 for a December 4 close and $15.47 for December 7). The real risk on the downside is a long slip or TEM falling, and the pre-mortem does not separate the two."
+    ],
+    "grade": "B",
+    "counter_case": "The call's own numbers support a hedged arbitrage, not 'no trade'. With TEM flat, the package is worth $14.71 for a December 2 close against $14.53, and the gap gets bigger if closing slips, because old $75-84 prints roll out of the VWAP ($15.03 on December 3, $15.26 on December 4). At the stated 2% chance of a break valued at $10, the $0.18 gap implies about 4% break risk. That is twice the call's own estimate, so on its own logic PSNL is cheap once TEM is shorted against it. On the other side, $10 is too harsh for a break: TEM, the closest comparable, closed at $54.83, above its $53.59 close on the July 16 unaffected date, so a break value near the $14.68 unaffected price is as easy to defend. Neither point changes fair value by more than about $0.10, which shows how little the Watch label means here.",
+    "response": "Accepted the break-value point: raised it from $10.00 to $12.00 (inside both Centerview standalone ranges, below the unaffected price because about $22M of cash has been burned since June 30 and a failed deal restarts the ATM); weights re-derived to 27/50/23, fair value $14.61 to $14.64. Rewrote the third pre-mortem so a few days' slip is not treated as a risk and the risk is a slip of weeks. Accepted the hedged-arbitrage point in the action paragraph: a TEM short locks roughly $0.10-0.20 a share, so the call says there is no unhedged trade rather than no trade; the variant view now states the implied break odds. Fixed the factual points: S-4 effective date conflict noted, SG&A drivers quoted as the 10-Q states them, FY2024 margin attributed to the August report, revenue split sourced to the release, the market-implied break odds stated instead of 'almost no break risk', the ratio claim's dependence on a close by about December 4 stated, and the lesson about the August run corrected (the store keeps no Item 1.01 or Rule 425 filings). Not changed: the stance, because the expected return of +0.7% to the close stays inside Watch and inside the VWAP proxy's error."
+  }
+}

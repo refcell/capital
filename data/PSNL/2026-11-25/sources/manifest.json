@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/PSNL.csv",
+      "commit": "0751adb9336b",
+      "sha256": "1f9044021f54f81c8102177f632fea7671e08c988435deadfbabf0f0c51591cd",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/PSNL.csv",
+      "commit": "0751adb9336b",
+      "sha256": "c4e28c339ba9102aa3eedb655b1e037d4a2e93078c58ce1282d13caa157ff062",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "0751adb9336b",
+      "sha256": "66377bd9a590d12d5c7a655c9af225f72999ad38e817828cb6d12ea88936c04d",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-q3-2026-release-ex99-1-htm",
+      "kind": "file",
+      "path": "8k-q3-2026-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526447196/psnl-ex99_1.htm",
+      "fetched_at": "2026-11-26T03:02:15+00:00",
+      "sha256": "6bfe0de080293ae7fa4496996d86afb57d4f6362b8bbc975345e27571f493e64",
+      "description": "Q3 2026 results release (8-K Ex. 99.1, accession 0001193125-26-447196, filed 2026-11-04)"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526447201/psnl-20260930.htm",
+      "fetched_at": "2026-11-26T03:02:16+00:00",
+      "sha256": "2de58c98c5c0615a9398cd984d68b6d67d026cb6c7fb2e5e6556a09bc41a83f8",
+      "description": "Q3 2026 Form 10-Q (accession 0001193125-26-447201, filed 2026-11-04), including Note 13 Pending Acquisition by Tempus"
+    },
+    {
+      "id": "8k-2026-11-25-parent-cash-election",
+      "kind": "file",
+      "path": "8k-2026-11-25-parent-cash-election.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526478697/d166557d8k.htm",
+      "fetched_at": "2026-11-26T03:12:48+00:00",
+      "sha256": "2f27b4eee76a0e99bce1948545e9d99549e3e08a714d9844a3983f4d94eedda0",
+      "description": "8-K: Tempus Parent Cash Election, Cash Share Number 36,923,077 (accession 0001193125-26-478697, filed 2026-11-25)"
+    },
+    {
+      "id": "8k-2026-11-23-proxy-advisors",
+      "kind": "file",
+      "path": "8k-2026-11-23-proxy-advisors.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526470996/d126024d8k.htm",
+      "fetched_at": "2026-11-26T03:12:48+00:00",
+      "sha256": "250ebc779f942f18dcc4018d0d58faa8d504a0ba98bd6937259282d4fd503907",
+      "description": "8-K: ISS and Glass Lewis recommend for the merger; close expected early December 2026 (accession 0001193125-26-470996)"
+    },
+    {
+      "id": "425-2026-11-24-employee-faq",
+      "kind": "file",
+      "path": "425-2026-11-24-employee-faq.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526475641/d352007d425.htm",
+      "fetched_at": "2026-11-26T03:12:48+00:00",
+      "sha256": "8041bd75a8994081373540da180fe58071a0023f3c87e23d54fda343b8cee304",
+      "description": "Rule 425 employee FAQ: close expected December 1, 2 or 3, 2026 (accession 0001193125-26-475641)"
+    },
+    {
+      "id": "defm14a-2026-10-21-htm",
+      "kind": "file",
+      "path": "defm14a-2026-10-21.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000119312526427872/d141436ddefm14a.htm",
+      "fetched_at": "2026-11-26T03:12:48+00:00",
+      "sha256": "dbc2a640600cd55c50c31ad89bb859f6b0f28c978608e0f4c661ba6a8ab67905",
+      "description": "Definitive merger proxy statement/prospectus (DEFM14A, accession 0001193125-26-427872, filed 2026-10-21)"
+    },
+    {
+      "id": "yahoo-chart-tem-1mo-2026-11-25",
+      "kind": "file",
+      "path": "yahoo-chart-TEM-1mo-2026-11-25.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=1mo&interval=1d",
+      "fetched_at": "2026-11-26T03:07:12+00:00",
+      "sha256": "1dec80059e880561cdd747dde486d221d6cf9ab0cb1386ca6c7551b17f32c1b9",
+      "description": "Yahoo Finance daily OHLCV for TEM, 2026-10-26 to 2026-11-25, used to estimate the merger VWAP"
+    }
+  ]
+}

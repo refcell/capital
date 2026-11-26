@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "ticker": "PSNL",
+  "date": "2026-11-25",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 14.53,
+      "as_of": "2026-11-24",
+      "source": "data/prices/PSNL.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 80.77,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_operating_income_m": {
+      "value": -126.536,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_net_income_m": {
+      "value": -119.328,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_eps": {
+      "value": -1.16,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_ocf_m": {
+      "value": -97.566,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_capex_m": {
+      "value": 10.124,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "cash_m": {
+      "value": 98.271,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-04",
+      "accession": "0001193125-26-447201",
+      "note": "Cash and equivalents only; with $92.331M of short-term investments the total is $190.602M (10-Q liquidity table)"
+    },
+    "shares_outstanding_m": {
+      "value": 108.4038,
+      "as_of": "2026-10-30",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "diluted_shares_m": {
+      "value": 107.2068,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "ttm_fcf_m": {
+      "value": -107.69,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-04",
+      "accession": "0001193125-26-447201"
+    },
+    "market_cap_m": {
+      "value": 1575.11,
+      "as_of": "2026-11-24",
+      "source": "price x shares_outstanding_m"
+    },
+    "total_debt_m": {
+      "value": 0.918,
+      "as_of": "2026-09-30",
+      "source": "10-Q Note 4: loans, current portion, in accrued and other current liabilities",
+      "accession": "0001193125-26-447201"
+    }
+  },
+  "notes": [
+    "Scaffolded TTM gross profit and total debt pointed at 2019 filings; gross profit is dropped (FY2025 cost of revenue is not in the SEC facts) and debt is replaced with the September 30, 2026 loan balance.",
+    "Q3 2026 (release, 0001193125-26-447196): revenue $25.596M, cost of revenue $19.026M (gross margin 25.7%), clinical revenue $4.374M on 13,157 tests, operating loss $35.518M. Nine months: revenue $63.425M, cost of revenue $51.831M.",
+    "Merger terms (10-Q Note 13, 0001193125-26-447201): $16.25 per-share cash consideration; Exchange Ratio $16.25 / Parent Stock Price above the $48.42 Floor Price, fixed at 0.3356 at or below it; Parent Stock Price is TEM's 15-trading-day VWAP ending the day before the last trading day before closing; Personalis may terminate if it is below the $46.00 Lower Floor Price; termination and reverse termination fees about $76.8M; Outside Date April 20, 2027.",
+    "Parent Cash Election (8-K, 0001193125-26-478697, filed 2026-11-25): Cash Share Number 36,923,077 over 95,701,564 eligible shares, Cash Consideration Fraction 0.385815, about $600M of cash; reduced only if stock would fall below 40% of value at the closing price (Reorg Threshold).",
+    "Unaffected price $14.68 on July 16, 2026 (DEFM14A, 0001193125-26-427872); Centerview standalone ranges $8.95-14.15 (trading comparables), $7.75-16.05 (precedents), $11.05-16.75 (DCF).",
+    "TEM closed at $54.83 on 2026-11-24 (data/prices/TEM.csv). Estimated Parent Stock Price $64.81 for a December 2 close (models/_build_PSNL_2026-11-25.py from sources/yahoo-chart-TEM-1mo-2026-11-25.json; typical-price x volume proxy, two days filled at $54.83)."
+  ]
+}
