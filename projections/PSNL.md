@@ -1,94 +1,47 @@
-# Projections: Personalis, Inc. (PSNL)
+# PSNL Projection
 
-Model workbook: `[2026-08-25] PSNL Model.xlsx` in `models/`
-Quote date: August 25, 2026
-Current price: $17.25
-Current shares outstanding: ~105.5M (implied from $1.82B MC / $17.25)
-Current revenue (TTM): $69.7M
-Primary framework: P/S + Cash NAV (P/E and FCF yield are N/A — company is structurally unprofitable)
+Date: 2026-11-25
+Company: Personalis, Inc.
+Ticker: Nasdaq: PSNL
+Model: `models/PSNL/2026-11-25.xlsx`, rendered by `python3 -m capital.workbook PSNL 2026-11-25` from `data/PSNL/2026-11-25/call.json` and `inputs.json`; the tables below are printed by `python3 models/_build_PSNL_2026-11-25.py`
+Report: `research/updates/PSNL/2026-11-25.md` (update); initiation `research/PSNL.md`
+Price: $14.53 at the November 24, 2026 close; TEM $54.83 on the same day
 
-**Analyst Estimate Anchors:**
-| Period | Revenue Consensus | EPS Consensus (GAAP) | Analysts | Source |
-|---|---|---|---|---|
-| FY2026E | $82.5M | -$1.09 | 7 | Yahoo Finance Analysis |
-| FY2027E | $110.2M | -$0.94 | 7 | Yahoo Finance Analysis |
+This is investment research support, not personalized financial advice.
 
-**Extrapolation note:** Public analyst estimates are visible only through FY2027. Revenue and margin assumptions for years 3-10 are extrapolated from the consensus trajectory, historical gross margin trends, and scenario logic documented in the model workbook. P/E ratios are shown as "N/A" because the company remains unprofitable through year 5 in all scenarios. Stock prices work backward from explicit year-10 terminal P/S anchors (Bear: 8x, Base: 15x, Bull: 25x).
+Personalis agreed on July 20, 2026 to be acquired by Tempus AI. The stockholder vote is November 30 and closing is expected on December 1, 2 or 3, 2026. After closing PSNL stops trading, so this sheet does not carry the usual 1-, 2-, 3-, 5- and 10-year tables or a terminal P/E anchor; there is no PSNL share to project. The August 25 sheet's standalone tables (base $18.96, bull $59.80) were written after the merger was signed and are withdrawn.
 
----
+## What A PSNL Share Becomes
 
-## Bear Case
+Per eligible share at closing: $6.27 of cash (Cash Consideration Fraction 0.385815 × $16.25, from Tempus's November 24 cash election) plus 0.6142 × $16.25 / VWAP Tempus Class A shares. The VWAP is TEM's 15 trading days ending the day before the last trading day before closing, estimated from daily bars as typical price weighted by volume, with missing days filled at the scenario's TEM price. Below a $48.42 VWAP the ratio is fixed at 0.3356; below $46.00 Personalis may walk away. Neither is close.
 
-*Assumptions: Revenue CAGR 12%, terminal gross margin 14%, dilution factor 1.50x, exit P/S 8x*
+| Closing date | VWAP estimate | Exchange Ratio | TEM shares per PSNL share | Package at TEM $54.83 |
+|---|---:|---:|---:|---:|
+| December 1 | $66.19 | 0.2455 | 0.151 | $14.54 |
+| December 2 | $64.81 | 0.2507 | 0.154 | $14.71 |
+| December 3 | $62.44 | 0.2603 | 0.160 | $15.03 |
+| December 4 | $60.85 | 0.2671 | 0.164 | $15.26 |
 
-| Year | Revenue ($M) | Revenue Growth | Operating Income ($M) | Net Income ($M) | FCF Yield | Stock Price | P/E | CAGR from $17.25 |
-|---|---|---|---|---|---|---|---|---|
-| 1 | 78 | +12% | -103 | -101 | N/A | $12.40 | N/A | -28% |
-| 2 | 87 | +12% | -101 | -99 | N/A | $11.10 | N/A | -36% |
-| 3 | 98 | +13% | -99 | -97 | N/A | $9.70 | N/A | -44% |
-| 5 | 126 | +12% | -108 | -106 | N/A | $7.80 | N/A | -55% |
-| 10 | 126 | 0% | -110 | -108 | N/A | $6.38 | N/A | -63% |
+## Scenarios At Closing (December 2)
 
-*Year-10 terminal anchor: 8x P/S on $126M revenue = $1.01B MC / 158.3M diluted shares = $6.38*
-*Cash/Share floor (current): $212.7M / 105.5M = $2.01 — approaching this by year 10 as cash drains from burn*
+| Case | Weight | TEM at closing | Exchange Ratio | Cash | Stock | Value per PSNL share | vs $14.53 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bear | 27% | $43.86 (−20%) | 0.2568 | $6.27 | $6.92 | $13.19 | −9.2% |
+| Base | 50% | $54.83 | 0.2507 | $6.27 | $8.44 | $14.71 | +1.3% |
+| Bull | 23% | $65.80 (+20%) | 0.2449 | $6.27 | $9.90 | $16.17 | +11.3% |
+| Fair value | | | | | | $14.64 | +0.7% |
 
----
+The weights reproduce a 98% chance of closing with TEM equally likely 20% up or down, plus a 2% deal break valued at $12.00 (below the $14.68 unaffected price, inside Centerview's standalone ranges): 0.98 × $14.70 + 0.02 × $12.00 = $14.64.
 
-## Base Case
+## Package Value By TEM Price
 
-*Assumptions: Revenue CAGR 20%, terminal gross margin 22%, dilution factor 1.30x, exit P/S 15x*
+| TEM at closing | $35 | $40 | $45 | $50 | $54.83 | $60 | $65 | $70 | $75 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Value per PSNL share | $11.90 | $12.63 | $13.35 | $14.05 | $14.71 | $15.41 | $16.06 | $16.71 | $17.34 |
+| Stock share of value | 47% | 50% | 53% | 55% | 57% | 59% | 61% | 62% | 64% |
 
-| Year | Revenue ($M) | Revenue Growth | Operating Income ($M) | Net Income ($M) | FCF Yield | Stock Price | P/E | CAGR from $17.25 |
-|---|---|---|---|---|---|---|---|---|
-| 1 | 83 | +19% | -82 | -80 | N/A | $16.90 | N/A | -2% |
-| 2 | 99 | +20% | -79 | -77 | N/A | $16.80 | N/A | -3% |
-| 3 | 119 | +20% | -76 | -74 | N/A | $17.00 | N/A | -1% |
-| 5 | 173 | +20% | -69 | -67 | N/A | $18.50 | N/A | +3% |
-| 10 | 173 | 0% | -70 | -68 | N/A | $18.96 | N/A | +10% |
+Each $1 move in TEM moves the package by about $0.14–0.15. The Reorg Threshold, which would reduce the cash portion if stock fell below 40% of value, binds only below a TEM price of about $27.
 
-*Year-10 terminal anchor: 15x P/S on $173M revenue = $2.60B MC / 137.1M diluted shares = $18.96*
-*Extrapolated beyond FY2027 consensus: Revenue plateaus at $173M as growth normalizes; operating losses persist but are manageable with cash runway*
+## After Closing
 
----
-
-## Bull Case
-
-*Assumptions: Revenue CAGR 32%, terminal gross margin 30%, dilution factor 1.15x, exit P/S 25x*
-
-| Year | Revenue ($M) | Revenue Growth | Operating Income ($M) | Net Income ($M) | FCF Yield | Stock Price | P/E | CAGR from $17.25 |
-|---|---|---|---|---|---|---|---|---|
-| 1 | 83 | +19% | -72 | -70 | N/A | $24.90 | N/A | +44% |
-| 2 | 110 | +32% | -55 | -53 | N/A | $34.70 | N/A | +101% |
-| 3 | 145 | +32% | -38 | -36 | N/A | $44.50 | N/A | +158% |
-| 5 | 290 | +32% | +14 | +12 | +0.7% | $58.00 | 483x | +236% |
-| 10 | 290 | 0% | +35 | +30 | +1.8% | $59.80 | 225x | +247% |
-
-*Year-10 terminal anchor: 25x P/S on $290M revenue = $7.26B MC / 121.4M diluted shares = $59.80*
-*Extrapolated: Revenue growth of 32% requires Tempus partnership achieving broad commercial adoption and gross margin recovery to FY2024 peak levels. Operating profitability only achieved in year 5 if gross margin reaches 30% and revenue hits $290M — both are stretch assumptions.*
-*P/E in year 10 is mechanically distorted — small net income on large MC produces extreme P/E. P/S is the more meaningful metric.*
-
----
-
-## Scenario Summary
-
-| Metric | Bear (25%) | Base (50%) | Bull (25%) | Weighted FV |
-|---|---|---|---|---|
-| Revenue CAGR | 12% | 20% | 32% | — |
-| Terminal P/S | 8x | 15x | 25x | — |
-| Dilution Factor | 1.50x | 1.30x | 1.15x | — |
-| Target Price | $6.38 | $18.96 | $59.80 | **$26.03** |
-| Upside from $17.25 | -63% | +10% | +247% | **+51%** |
-
-## Key Risk Metrics
-
-| Metric | Value | Note |
-|---|---|---|
-| Cash per share (current) | $2.01 | Absolute floor if business fails entirely |
-| Annual cash burn (TTM OCF) | -$92.3M | ~9 quarters of runway at current cash levels |
-| Gross margin (TTM) | 12.7% | Collapsed from 31.7% FY24 — primary variable |
-| Dilution history (3yr) | 113% | 45.7M → 97.6M shares — per-share destruction |
-| Analyst avg PT | $15.44 | Below current $17.25 — consensus sees limited upside |
-| FY2026 EPS consensus | -$1.09 | Worse than FY25 (-$0.91) — losses deepening |
-| Next earnings | Nov 3, 2026 | Q3 FY26 — first gross margin trajectory signal |
-
-This projection sheet is generated from the `[2026-08-25] PSNL Model.xlsx` workbook and uses the same P/S + Cash NAV framework. The company's pre-profitability status makes P/E and FCF yield metrics inapplicable through year 3 in all scenarios and through year 5 in the base/bear cases. Revenue growth after year 2 is extrapolated from the FY2027 consensus of $110.2M and does not reflect any specific analyst forecasts beyond that horizon.
+A holder's long-run outcome is $6.27 of cash plus about 0.154 TEM shares per PSNL share, so the three-, five- and ten-year path is Tempus's, which this repo has not researched. The only long-run forecast for Personalis itself is management's standalone case in the merger proxy (DEFM14A, October 21, 2026): revenue of $90M in 2026, $143M in 2027, $457M in 2029 and $1.15B in 2031, with adjusted EBITDA turning positive in 2029. It is shown for reference only. It assumes Personalis stays independent, it is not a Street estimate, and Centerview's DCF on it gave $11.05 to $16.75 a share.
