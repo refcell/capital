@@ -471,7 +471,7 @@
   },
   "facts/PSNL": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001527753.json",
-    "fetched_at": "2026-11-11T03:40:24+00:00",
+    "fetched_at": "2026-11-26T03:01:42+00:00",
     "sha256": "061393dfbb11e88ddc0aab573b2638d76e312bf14d4c4fbf1a7a9b56c32a11b0"
   },
   "facts/PYPL": {
@@ -1131,8 +1131,8 @@
   },
   "submissions/PSNL": {
     "url": "https://data.sec.gov/submissions/CIK0001527753.json",
-    "fetched_at": "2026-11-11T03:40:23+00:00",
-    "sha256": "fcf6c65f598da799c71c71a2696d763d5112af38281851bdbcfe07e20256721f"
+    "fetched_at": "2026-11-26T03:01:41+00:00",
+    "sha256": "e621158b319cef1519dcd30c91c6fa3b9034aadfeccbe6709551f93c9dcc85b9"
   },
   "submissions/PYPL": {
     "url": "https://data.sec.gov/submissions/CIK0001633917.json",
