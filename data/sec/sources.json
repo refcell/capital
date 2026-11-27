@@ -446,7 +446,7 @@
   },
   "facts/PK": {
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001617406.json",
-    "fetched_at": "2026-11-11T03:40:20+00:00",
+    "fetched_at": "2026-11-27T03:04:12+00:00",
     "sha256": "f17d3ee316402fdaa6e16797a1c8f9935072a76942cb9a45ab055c1a9de4f895"
   },
   "facts/PLTR": {
@@ -1106,8 +1106,8 @@
   },
   "submissions/PK": {
     "url": "https://data.sec.gov/submissions/CIK0001617406.json",
-    "fetched_at": "2026-11-11T03:40:20+00:00",
-    "sha256": "27d949e68291974691b38e1e8ade67e270a62ae4453b126ef10ed39f53494868"
+    "fetched_at": "2026-11-27T03:04:12+00:00",
+    "sha256": "0a62fdb0de17e1bbf01dc392b005743b88cf48a6225bfa07a94124cb5d00dda2"
   },
   "submissions/PLTR": {
     "url": "https://data.sec.gov/submissions/CIK0001321655.json",
