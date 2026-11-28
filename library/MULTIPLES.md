@@ -81,7 +81,7 @@ Point in time: each month uses the as-traded close and SEC facts filed by the mo
 | [PAY](PAY.md) | Services-Business Services, NEC | 47.2x | 70.6–238.3x | 2.9x | 2.5–3.9x | 34.7x | 58.8–171.5x | SIC 7389, 6 names: 1.8x, 16.5x |
 | [PEGA](PEGA.md) | Services-Computer Processing & Data Preparation | 18.0x | 44.7–109.6x | 2.8x | 3.2–6.0x | 28.0x | 32.5–81.6x | SIC 737x, 14 names: 5.2x, 44.5x |
 | [PFE](PFE.md) | Pharmaceutical Preparations | 41.9x | 12.5–20.2x | 3.4x | 3.0–4.5x | — | — | SIC 2834, 3 names: 8.7x, — |
-| [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.8x | 2.4–3.3x | 225.4x | 17.6–26.9x | SIC 7011, 3 names: 2.4x, 16.2x |
+| [PK](PK.md) | Hotels & Motels | — | 11.2–19.7x | 2.7x | 2.4–3.3x | 221.7x | 17.6–26.9x | SIC 7011, 3 names: 2.4x, 16.2x |
 | [PLTR](PLTR.md) | Services-Prepackaged Software | 118.7x | 213.0–431.2x | 54.5x | 14.9–69.0x | 119.4x | 228.9–632.5x | SIC 7372, 10 names: 5.1x, 44.5x |
 | [POST](POST.md) | Grain Mill Products | 14.3x | 14.7–29.1x | 1.3x | 1.6–2.1x | 13.6x | 16.5–19.3x | SIC 20xx, 5 names: 2.8x, 26.4x |
 | [PPC](PPC.md) | Poultry Slaughtering and Processing | 21.1x | 9.2–23.8x | 0.5x | 0.5–0.7x | 14.4x | 7.9–18.9x | SIC 20xx, 5 names: 2.8x, 26.4x |

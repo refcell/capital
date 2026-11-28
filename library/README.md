@@ -2,7 +2,7 @@
 
 # Coverage library
 
-113 companies, 150 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-24.
+113 companies, 151 dated calls. Every number comes from `data/`, which is captured once per research run and never re-fetched. Prices are marked through 2026-11-25.
 
 Pages: [Scorecard](SCORECARD.md) · [Calendar](CALENDAR.md) · [Base rates](BASE_RATES.md) · [Multiples](MULTIPLES.md)
 
@@ -96,7 +96,7 @@ Status comes from `data/coverage.csv`: active names get an update after every ea
 | [PAY](PAY.md) | Paymentus Holdings, Inc. | Technology — Fintech | active | 2026-06-24 | 1 | Watch | Avoid | $20.56 | $19.08 | -2.5% | +66.4% | +63.5% |
 | [PEGA](PEGA.md) | Pegasystems Inc. | Technology | active | 2026-06-19 | 1 | Watch | Own | $30.09 | $100.00 | +49.2% | +5.3% | +4.6% |
 | [PFE](PFE.md) | Pfizer Inc. | Healthcare | active | 2026-11-03 | 1 | Watch | Avoid | $30.52 | $28.56 | -2.2% | -2.4% | -1.6% |
-| [PK](PK.md) | Park Hotels & Resorts Inc. | Real estate | active | 2026-08-24 | 1 | Watch | Watch | $15.86 | $17.18 | +2.7% | +5.5% | +6.6% |
+| [PK](PK.md) | Park Hotels & Resorts Inc. | Real estate | active | 2026-11-26 | 2 | Watch | Watch | $15.89 | $19.51 | +7.1% | — | — |
 | [PLTR](PLTR.md) | Palantir Technologies Inc. | Technology | active | 2026-06-24 | 1 | Watch | Own | $113.50 | $374.00 | +48.8% | +49.1% | +46.2% |
 | [POST](POST.md) | Post Holdings, Inc. | Consumer Defensive | active | 2026-07-13 | 1 | Watch | Own | $86.70 | $142.00 | +17.9% | -5.6% | -6.0% |
 | [PPC](PPC.md) | Pilgrim's Pride Corporation | Consumer Defensive | active | 2026-08-12 | 1 | Watch | Watch | $26.86 | $38.47 | +12.7% | +5.0% | +7.7% |

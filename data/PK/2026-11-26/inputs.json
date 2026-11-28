@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "ticker": "PK",
+  "date": "2026-11-26",
+  "currency": "USD",
+  "origin": "run",
+  "values": {
+    "price": {
+      "value": 15.89,
+      "as_of": "2026-11-25",
+      "source": "data/prices/PK.csv (Yahoo Finance close)"
+    },
+    "ttm_revenue_m": {
+      "value": 2533.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_operating_income_m": {
+      "value": 31.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:OperatingIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_net_income_m": {
+      "value": -165.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetIncomeLoss (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_eps": {
+      "value": -0.84,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:EarningsPerShareDiluted (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_ocf_m": {
+      "value": 420.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:NetCashProvidedByUsedInOperatingActivities (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_capex_m": {
+      "value": 312.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:PaymentsToAcquirePropertyPlantAndEquipment (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "cash_m": {
+      "value": 295.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:CashAndCashEquivalentsAtCarryingValue (instant), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "total_debt_m": {
+      "value": 3955.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:LongTermDebt (instant), filed 2026-11-05",
+      "accession": "0001617406-26-000050",
+      "note": "Debt at par excluding $32M of unamortized financing costs; company Net Debt of $3,725M adds $105M of JV debt and subtracts $295M cash and $40M restricted cash (Q3 release)"
+    },
+    "shares_outstanding_m": {
+      "value": 202.0821,
+      "as_of": "2026-10-30",
+      "source": "SEC XBRL dei:EntityCommonStockSharesOutstanding (instant), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "diluted_shares_m": {
+      "value": 200.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding (latest period), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "ttm_fcf_m": {
+      "value": 108.0,
+      "as_of": "2026-09-30",
+      "source": "SEC XBRL operating_cash_flow - capex (ttm ytd), filed 2026-11-05",
+      "accession": "0001617406-26-000050"
+    },
+    "market_cap_m": {
+      "value": 3211.08,
+      "as_of": "2026-11-25",
+      "source": "price x shares_outstanding_m"
+    },
+    "street_target_mean": {
+      "value": 17.21,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20",
+      "note": "18 analysts, consensus Hold; average price target $17.21, median $17, low $14, high $21"
+    },
+    "street_target_low": {
+      "value": 14.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20"
+    },
+    "street_target_high": {
+      "value": 21.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20"
+    },
+    "fy1_revenue_m": {
+      "value": 2530.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20",
+      "note": "Revenue This Year 2.53B"
+    },
+    "fy2_revenue_m": {
+      "value": 2580.0,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20",
+      "note": "Revenue Next Year 2.58B"
+    },
+    "fy1_eps": {
+      "value": 0.35,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20",
+      "note": "EPS This Year 0.35 (S&P labels it non-GAAP; it matches the GAAP EPS guide of $0.31-$0.36)"
+    },
+    "fy2_eps": {
+      "value": 0.6,
+      "source": "StockAnalysis forecast page, S&P Global Market Intelligence (sources/stockanalysis-forecast-2026-11-26.html.gz)",
+      "as_of": "2026-11-20",
+      "note": "EPS Next Year 0.60"
+    },
+    "beta": {
+      "value": 1.4,
+      "source": "StockAnalysis statistics (sources/stockanalysis-statistics-2026-11-26.html.gz)",
+      "as_of": "2026-11-26",
+      "note": "Beta (5Y) 1.40"
+    }
+  },
+  "notes": [
+    "Values the schema has no field for, used by models/_build_PK_2026-11-26.py:",
+    "q3_affo_ps = 0.39 (2026-09-30; Q3 2026 earnings release, 8-K Exhibit 99.1 (sources/8k-q3-2026-release-ex99-1.htm.gz); accession 0001617406-26-000047): Diluted Adjusted FFO per share $0.39 vs $0.35 in 3Q25; 9M $1.54 vs $1.45; Nareit FFO per share $0.31 (9M $1.36)",
+    "q3_affo_consensus = 0.34, whisper = 0.40 (2026-11-05; Earnings Whispers review (sources/earningswhispers-2026-11-05-q3-review.html.gz))",
+    "q3_comparable_revpar = 201.02 (+8.4%), core 213.66 (+8.1%); Q3 Adjusted EBITDA 135 (+4.0%); Comparable Hotel Adjusted EBITDA margin 25.7% (+50bp); preliminary October Comparable RevPAR up nearly 11% (same release)",
+    "fy2026_guide (2026-11-04; same release): Comparable RevPAR $205-$206 (+5.5% to +6.0%), Adjusted EBITDA $635-$645M (Aug: $617-$637M; Feb: $580-$610M), Adjusted FFO per share $2.00-$2.05 (Aug: $1.90-$2.00; Feb: $1.73-$1.89), GAAP EPS $0.31-$0.36 (Aug: $0.35-$0.45); interest expense $222M, interest income $7M, D&A $266M; 201M diluted shares; hotel opex +4.5% to +5.0%",
+    "fy2025_affo_ps = 1.97, fy2024_affo_ps = 2.06, fy2025_adj_ebitda_m = 609 (FY2025 release (sources/8k-q4-2025-release-ex99-1.htm.gz); accession 0001617406-26-000003)",
+    "net_debt_m = 3725 (2026-09-30; same Q3 release): debt at par $3,955M + $105M JV share - $295M cash - $40M restricted cash; liquidity about $1.3B incl. $1B undrawn revolver; weighted average maturity 3.1 years with extensions; fixed 5.67%, variable 6.12%, total 5.87%",
+    "debt_schedule (2026-09-30; same release): Denver mortgage $49M (callable), Santa Barbara mortgage $150M (Dec 2026, refinancing with $205M), Ontario mortgage $30M (May 2027), 2024 term loan $200M (May 2027), 2028 notes $725M 5.88% (Oct 2028), 2029 notes $750M 4.88% (May 2029), Bonnet Creek mortgage $700M SOFR+2.25% (Apr 2029, ext 2031), 2025 delayed-draw term loan $800M SOFR+2.20% (Jan 2030, ext 2031), 2030 notes $550M 7.00% (Feb 2030)",
+    "ytd_ocf_m = 315, ytd_capex_m = 204, ytd_dividends_paid_m = 150, ytd_disposition_proceeds_m = 38, ytd_buybacks_m = 0 (2026-09-30; 10-Q (sources/10q-q3-2026.htm.gz); accession 0001617406-26-000050); $275M left on the $300M buyback authorization ending February 2027",
+    "dividend_per_quarter = 0.25 (10-Q and release): Q4 2026 dividend declared 2026-10-29, payable 2027-01-15 to holders of record 2026-12-31",
+    "call_2026_11_05 (sources/stockanalysis-q3-2026-call-transcript.html.gz): about $1.5B refinanced roughly 200bp higher, \"a $30 million type of headwind annually\" (about $13M in 2026); 2027 capex \"$175 million-$185 million\"; Royal Palm hotel EBITDA about $3M in 2026, at least $14M in 2027, about $28M stabilized by 2028; Hawaii renovations to recapture about $60M+ over the next couple of years (Ali’i Tower done early 2027); 2027 core group revenue pace up nearly 6%, rates up nearly 4%; no significant maturities until Q4 2028; $205M Santa Barbara refinancing to close by year-end",
+    "non_core (Q3 release): 6 hotels sold or disposed in 2026 ($8M of 2025 EBITDA); 5 remaining targeted for sale ($37M of 2025 EBITDA); 3 Safehold ground-lease hotels ($16M) tied up in litigation",
+    "short_interest_pct = 12.39, dividend_yield = 6.29%, ev_b = 7.02 (2026-11-26; StockAnalysis statistics)",
+    "price moves: 2026-08-24 $15.86 (prior call) to 2026-11-25 $15.89 (+0.2%; SPY $763.47 to $716.70, -6.1%); 2026-11-04 $16.96 before the after-close report, 2026-11-05 $15.55 (-8.3%; SPY -4.4%) (data/prices)"
+  ]
+}

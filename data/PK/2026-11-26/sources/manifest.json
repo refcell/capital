@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "prices",
+      "kind": "repo",
+      "path": "data/prices/PK.csv",
+      "commit": "49776f398568",
+      "sha256": "8a8eb918584ab46bf4296c8013c72cfe8487ae09d83a2a3033259aaed33f037d",
+      "description": "Daily closes captured by capital.prices"
+    },
+    {
+      "id": "sec-facts",
+      "kind": "repo",
+      "path": "data/sec/facts/PK.csv",
+      "commit": "49776f398568",
+      "sha256": "268107151c5ddf87eb2d0e8e5c1b7e8502a41e482c333362f7ec04966eea8391",
+      "description": "Point-in-time SEC XBRL facts captured by capital.sec"
+    },
+    {
+      "id": "calendar",
+      "kind": "repo",
+      "path": "data/calendar/earnings.csv",
+      "commit": "49776f398568",
+      "sha256": "66377bd9a590d12d5c7a655c9af225f72999ad38e817828cb6d12ea88936c04d",
+      "description": "SEC 8-K Item 2.02 releases and periodic filings"
+    },
+    {
+      "id": "8k-q3-2026-release-ex99-1-htm",
+      "kind": "file",
+      "path": "8k-q3-2026-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1617406/000161740626000047/earningsreleaseex991-live.htm",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "b1075d59376b8d1f92a4f5e3b16387df3dab8c22ddcb1e05514443e90b921f94",
+      "description": "Q3 2026 earnings release (8-K Ex. 99.1, accession 0001617406-26-000047, filed 2026-11-04): RevPAR, Adjusted EBITDA, Adjusted FFO, debt table, raised FY2026 outlook"
+    },
+    {
+      "id": "10q-q3-2026-htm",
+      "kind": "file",
+      "path": "10q-q3-2026.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/pk-20260930.htm",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "c3d902aab14c9a34b8e14502bea1d090a6ae427125bb274dd693fa70322ef413",
+      "description": "Form 10-Q for the quarter ended 2026-09-30 (accession 0001617406-26-000050, filed 2026-11-05): cash flow statement, dividends, buyback authorization, REIT status"
+    },
+    {
+      "id": "8k-q4-2025-release-ex99-1-htm",
+      "kind": "file",
+      "path": "8k-q4-2025-release-ex99-1.htm.gz",
+      "url": "https://www.sec.gov/Archives/edgar/data/1617406/000161740626000003/earningsreleaseex991-live.htm",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "e19bdbeca2e73357e5eb6ae2b596c399b6ee9dcd4d6421c680238cec6cad36b8",
+      "description": "Q4 and FY2025 earnings release (8-K Ex. 99.1, accession 0001617406-26-000003, filed 2026-02-19): FY2025 Adjusted FFO per share $1.97, FY2024 $2.06, original FY2026 outlook $1.73-$1.89"
+    },
+    {
+      "id": "8k-2026-09-30-hhv-loan-repaid",
+      "kind": "file",
+      "path": "8k-2026-09-30-hhv-loan-repaid.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1617406/000161740626000045/pk-20260930.htm",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "f9037875f470494bc3d654db9a34082224e2c8503ebd50803f778f7f29c25127",
+      "description": "8-K Item 1.02 (accession 0001617406-26-000045, filed 2026-09-30): $1.275B Hilton Hawaiian Village CMBS repaid with the $700M Bonnet Creek mortgage and a $600M delayed-draw term loan draw"
+    },
+    {
+      "id": "8k-2026-09-10-retention-awards",
+      "kind": "file",
+      "path": "8k-2026-09-10-retention-awards.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1617406/000119312526387894/d109624d8k.htm",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "3ace9ee39d3815d7f09adc4bb930841471e6da2e502f25fb1cc6964572657120",
+      "description": "8-K Item 5.02 (accession 0001193125-26-387894, filed 2026-09-10): one-time four-year cliff-vesting retention restricted stock to the CEO, CFO/COO and two EVPs"
+    },
+    {
+      "id": "stockanalysis-forecast-2026-11-26-html",
+      "kind": "file",
+      "path": "stockanalysis-forecast-2026-11-26.html.gz",
+      "url": "https://stockanalysis.com/stocks/pk/forecast/",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "e5e61cc10efd6e5b8dfe107a2b6e6da8a07fddf7daa16ecdddfe6689c3cf6ae3",
+      "description": "StockAnalysis forecast page (S&P Global Market Intelligence, updated 2026-11-20): 18 analysts, Hold, mean target $17.21, FY2026 FFO/share estimate"
+    },
+    {
+      "id": "stockanalysis-statistics-2026-11-26-html",
+      "kind": "file",
+      "path": "stockanalysis-statistics-2026-11-26.html.gz",
+      "url": "https://stockanalysis.com/stocks/pk/statistics/",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "aee7e047f8579c9b6615a2ee6ab3bdbc68751da1253ef6f32d9e8294c71408b4",
+      "description": "StockAnalysis statistics page: market cap, EV, beta 1.40, short interest 12.39% of shares, dividend yield"
+    },
+    {
+      "id": "stockanalysis-q3-2026-call-transcript-html",
+      "kind": "file",
+      "path": "stockanalysis-q3-2026-call-transcript.html.gz",
+      "url": "https://stockanalysis.com/stocks/pk/transcripts/727868-q3-2026/",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "6b05c7a54354dd469a4bcbafc2806803e25e39186a02bc396e892fc12e2896e8",
+      "description": "Q3 2026 earnings call transcript (2026-11-05): $30M annual interest headwind, 2027 capex $175-185M, Royal Palm EBITDA $3M/$14M/$28M path, Hawaii recapture, Santa Barbara $205M refinancing"
+    },
+    {
+      "id": "earningswhispers-2026-11-05-q3-review-html",
+      "kind": "file",
+      "path": "earningswhispers-2026-11-05-q3-review.html.gz",
+      "url": "https://finviz.com/news/417490/park-hotels-tops-consensus-but-misses-the-whisper-as-revpar-acceleration-outruns-profit-conversion",
+      "fetched_at": "2026-11-27T03:08:48+00:00",
+      "sha256": "a52ab833b2663999aa44943ee84c4c9c22c144d4873af396c18ca4a549ad6e86",
+      "description": "Earnings Whispers review (2026-11-05): Adjusted FFO $0.39 vs $0.34 consensus and $0.40 whisper; property soft spots"
+    }
+  ]
+}

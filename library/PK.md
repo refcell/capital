@@ -2,40 +2,88 @@
 
 # Park Hotels & Resorts Inc. (NYSE: PK)
 
-Sector: Real estate / lodging operator / hospitality · Calls: 1 · Latest: 2026-08-24
+Sector: Real estate / lodging operator / hospitality · Calls: 2 · Latest: 2026-11-26
 
 ## Current view
 
 | | |
 |---|---|
-| Stance (as published) | Watch |
-| Rule rating | Watch (+2.7% a year expected over 3 years) |
-| Price at call | $15.86 on 2026-08-24 |
-| Bear / base / bull | $12.29 / $16.39 / $23.64 |
-| Weights | — / — / — |
-| Fair value | $17.18 (stated) |
-| Street mean target | — |
-| Valuation lens | P/FFO (owner-earnings proxy), EV/EBITDA, forward P/E on consensus |
-| Since the call | +5.5% vs SPY -1.2% through 2026-11-09; mark $16.73 is base to bull |
+| Stance (as published) | Watch — unchanged, bias neutral; fair value $19.51 at end-2029 including dividends (7.1% a year from $15.89); Own at about $12.83, Avoid above about $19.51. Q3 beat ($0.39 Adjusted FFO against $0.34) and the 2026 guide rose to $2.00-$2.05, but the 2026 refinancing adds about $30M a year of interest ($13M of it already in the 2026 guide) and the 2028-2029 notes reprice higher, which together take about half of the Royal Palm and Hawaii growth; net debt falls only to about 4.8x EBITDA by 2029 from 5.8x |
+| Rule rating | Watch (+7.1% a year expected over 3 years) |
+| Price at call | $15.89 on 2026-11-25 |
+| Bear / base / bull | $12.53 / $20.39 / $27.77 |
+| Weights | 30% / 50% / 20% |
+| Fair value | $19.51 (weighted) |
+| Street mean target | $17.21 |
+| Valuation lens | Value at December 31, 2029: FY2029 Adjusted FFO per diluted share (company definition; Adjusted EBITDA less net interest less about $18M of taxes, noncontrolling interests and JV items, calibrated to the 2026 guide) times an exit P/FFO (bear 5.5x, base 7.5x, bull 9.0x), plus the twelve $0.25 quarterly dividends paid January 2027 through October 2029 (the bear's weighted by a 50% chance of a cut to $0.18 from October 2027); undiscounted; cross-checked against 9.0x / 10.5x / 12.0x 2029 Adjusted EBITDA less end-2029 net debt (the P/FFO values imply 8.8x / 9.6x / 10.4x) |
+| Next review | 2027-02-19 — Q4 and FY2026 results with the FY2027 outlook (last year's 8-K Item 2.02 was February 19, 2026); earlier if the Santa Barbara refinancing prices above 7% or the Q1 2027 dividend is not $0.25 |
 
-## Fundamentals known on 2026-08-24
+**Thesis.** Park is a Hilton-heavy lodging REIT (29 hotels, about 21,000 rooms) whose 2026 operations came in better than feared: Q3 Adjusted FFO was $0.39 against a $0.34 consensus, Comparable RevPAR rose 8.4%, October was up nearly 11%, and the 2026 guide rose to $2.00-$2.05 from $1.73-$1.89 in February. The next two years have identifiable growth: the Royal Palm ramps from about $3M of hotel EBITDA to $14M in 2027 and $28M stabilized, and Hawaii should recapture about $60M after $350M of renovations. But interest rises too: $17M of the September refinancing's $30M a year is still ahead of the 2026 base, and the 2028 and 2029 notes ($1.475B at 5.88% and 4.88%) reprice higher, so base net interest goes from $215M to $243M by 2029 against $55M of Royal Palm and Hawaii EBITDA. Per-share Adjusted FFO grows about 4.6% a year in the base, not double digits, and net debt only reaches about 4.8x EBITDA. Valued at end-2029 on Adjusted FFO times 5.5x / 7.5x / 9.0x plus dividends, $12.53 / $20.39 / $27.77 at 30/50/20 gives $19.51, 7.1% a year from $15.89: Watch, bias neutral. Own at about $12.83.
 
-From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PK 2026-08-24`). Later restatements are not visible here by design.
+**Variant view.** We do not have a strong variant view; on price alone the call is about 4% below the Street's mean. The one difference is what carries 2027-2029. The Street's debate is RevPAR; we think margin conversion and interest decide the per-share result. Q3 showed the conversion problem (Total RevPAR +5.6% against RevPAR +8.4%, hotel expenses +5%, 50bp of margin), so the base grows organic Adjusted EBITDA only 2% a year even with group pace +6%. And interest takes about half of the embedded growth: base net interest rises $28M from 2026 to 2029 ($17M left of the 2026 refinancing plus the 2028-2029 notes repricing near 6.5%), about $0.14 a share, against $55M (about $0.27) of Royal Palm and Hawaii EBITDA. Checkable: if Park reports FY2027 Adjusted FFO of $2.20 or more a share (claim fy27-affo-220 at 0.22, against $2.10 in our base), conversion and interest are better than we think and the base is too low; below $1.95 is the bear's path and a kill criterion.
+
+**Catalysts.**
+
+- Close of the $205M Hilton Santa Barbara Beachfront Resort refinancing, repaying the $150M 4.17% mortgage due December 2026 (Expected mid-to-late November 2026 (release: mid-November; call: by month-end); no closing filing saved as of November 26, so it may already have closed; the Q4 release confirms terms)
+- Q4 and FY2026 results, FY2027 outlook and the Q1 2027 dividend (About February 18, 2027 (last year February 19, 2026))
+- Ali'i Tower reopening at the Hilton Hawaiian Village Waikiki Beach Resort (Early 2027)
+- Royal Palm South Beach ramp toward $28M of stabilized hotel EBITDA (2027-2028)
+- Refinancing of the $725M 5.88% notes due October 2028 and $750M 4.88% notes due May 2029 (2028-2029)
+
+**Pre-mortem** (written at decision time).
+
+- A lodging slowdown in 2027: corporate group and business transient fall after a 2026 lifted by the World Cup and government-related demand in Washington, Comparable RevPAR declines and hotel expenses keep growing 4.5-5%, so Adjusted EBITDA falls below 2026 while interest rises $17M; Adjusted FFO per share drops toward $1.80 and the stock re-prices near 5.5x. — watch: FY2027 Adjusted EBITDA guide below $630M; 2027 group pace falling below +2% on the Q4 call; Q1 2027 Comparable RevPAR negative
+- Refinancing costs more than modeled: SOFR stays high and spreads widen, the 2028 and 2029 notes refinance near 8%, and $1.7B of floating debt reprices up; net interest reaches $250M+ and the board cuts the dividend to hold leverage. — watch: New notes priced above 7.5%; a negative outlook from S&P or Moody's; Net Debt above $3.85B at a 2027 quarter end
+- Hawaii disappoints: storms and the Ali'i Tower displacement run longer, Japanese and West Coast leisure weakens, and Hilton Hawaiian Village does not recover toward its 2023 EBITDA, removing $30M+ from the base by 2029. — watch: Hilton Hawaiian Village hotel Adjusted EBITDA below the comparable 2025 quarter in 1H27; Ali'i Tower reopening slipping past mid-2027
+- Portfolio clean-up stalls: the five remaining Non-Core hotels ($34-37M of EBITDA; about $20M of it Lake Buena Vista) do not sell, the Safehold ground-lease litigation drags on or ends badly for the three leased hotels, and more impairments follow the $318M of 2025. — watch: No Non-Core sale announced in 1H27; new impairment charges above $25M in a quarter
+- The Watch call is wrong on the upside: supply stays near zero, Royal Palm and Hawaii beat plan, leverage falls toward 4x and the stock rerates to 9-10x Adjusted FFO like HST while we wait for $12.83. — watch: FY2027 Adjusted FFO of $2.20 or more; buybacks resumed under a renewed authorization; net debt below $3.6B by end-2027
+
+**Kill criteria.**
+
+- Park's first FY2027 outlook (February 2027 release) gives an Adjusted FFO per diluted share midpoint below $1.80, or Park reports FY2027 Adjusted FFO per diluted share below $1.95 (check by 2028-03-31) — open
+- Park declares a quarterly dividend below $0.25 a share, or suspends it, before December 31, 2027 (check by 2028-01-31) — open
+- Company-defined Net Debt above $3.85B at any quarter end in 2027 (the bear ends 2027 near $3.73B before any Non-Core sale proceeds; the model has no quarterly path) (check by 2028-03-31) — open
+
+**Probability claims.**
+
+- 85%: Park reports FY2026 Adjusted FFO per diluted share of at least $2.00 (the low end of its November 4 guide). (resolves by 2027-03-31)
+- 45%: Park's first FY2027 outlook (expected with Q4 2026 results) gives an Adjusted FFO per diluted share midpoint of at least $2.00. (resolves by 2027-03-31)
+- 15%: Park declares a quarterly dividend below $0.25 a share, or suspends it, at any time between November 26, 2026 and December 31, 2027. (resolves by 2028-01-31)
+- 65%: Park's company-defined Net Debt at December 31, 2027 is $3.70B or less. (resolves by 2028-03-31)
+- 22%: Park reports FY2027 Adjusted FFO per diluted share of at least $2.20. (resolves by 2028-03-31)
+- 55%: PK closes 2027 (last trading day) above $15.89, the price of this call. (resolves by 2028-01-15)
+
+**What would change the view.**
+
+- Toward Own: a price at or below about $12.83 at these weights (15% a year)
+- Toward Own: FY2027 Adjusted FFO tracking $2.20 or more with net debt falling, which would move weight to the bull; at 25/50/25 the value is $20.27 (8.5% a year), so the stance needs both better results and a lower price
+- Toward Avoid: a price above about $19.51, a dividend cut, a first FY2027 guide midpoint below $1.80 or FY2027 Adjusted FFO below $1.95
+- Toward Avoid: 50/40/10 after a weak 2027 gives $17.20 (2.7% a year)
+
+**Independent review: grade B** (evidence 4, valuation 3, variant view 3, risk 4, calibration 3). Counter-case: The 7.1% a year depends on things a skeptic would not grant. On price alone the weighted end-2029 value is $16.63, about 1.5% a year, so the call is mostly dividends, and the 2026 dividend is not covered ($407M Adjusted FFO less $270-280M of capex against about $200M paid). The base needs PK to hold 7.5x Adjusted FFO after a year in which the stock rose 59% and the whole lodging group rerated, against PK's own year-end readings of 6.8x and 5.3x; at 6.5x the base is $18.07, and growth in a post-World Cup, post-250th-anniversary 2027 is more likely to disappoint than the 30% bear weight implies. With hotel expenses rising 5% against 8% RevPAR and interest taking half the embedded growth, the stronger case is that Park is a fully valued, highly levered income stock and the call should lean Avoid, not neutral.
+
+**Response.** Two rounds. Round 1 graded C (evidence 3, valuation 3, variant view 2, risk 3, calibration 3): the committed build script did not reproduce the call (bear interest and dividend-cut odds differed), the variant view set the full $30M interest headwind against Royal Palm although $13M is already in the 2026 guide, the bear's $252M did not match its 7.5-8% refinancing story, the dividend-reset precedent was wrong (2024 included specials), claims and the net-debt kill could not separate the cases, and base 2029 interest left out the 2028 notes. Fixed: one script now produces every number; bear interest $236M / $240M / $264M at about 7.75% with a 50% cut chance; base 2029 interest $243M including the 2028 notes at about 6.5%; base exit 7.5x instead of 7.0x because the old logic cut the multiple while leverage fell a turn; shares start at the guide's 201M; the $18M is labeled calibrated; opening net debt derived; variant arithmetic redone; claims reset and the guide kill moved to a $1.80 midpoint because first guides run conservative; peer note corrected for the 2026 rerating. After round 2: the bull's refinancing moves to about 6.0%, the bottom of the CFO's 'six to low sixes' (2029 interest $225M, bull $27.77, fair value $19.51); bear interest steps are explained; the net-debt path is labeled year-end only with no Non-Core proceeds, and net-debt-end27-370 rises to 0.65 for that reason; fy27-guide-200 rises to 0.45 with its single-observation basis stated. Not changed: the 30/50/20 weights and the 7.5x base. On the counter-case: the price-only value ($16.60, about 1.5% a year) is stated in the call and the deviation reason, and the stance is Watch, not Own, for that reason; S&P's 2022-2025 P/FFO series (5.7-7.5x) is on a different FFO basis, and at a 6.5x base the fair value is $18.35 (4.9% a year), still Watch. An Avoid lean would need the price above $19.51 or the FY2027 Adjusted FFO falling toward $1.95, which are in the change-my-mind list.
+
+**Data notes.** The August call was a backfill whose P/FFO used operating income plus D&A ($2.88 a share) and whose text misstated Park's structure (a C-corporation with 93 hotels across 37 states, a CEO named Scott S. Jones). Park is a REIT spun off from Hilton on January 3, 2017, with 29 hotels and about 21,000 rooms, led by Thomas J. Baltimore, Jr. (10-Q, Q3 release, retention-award 8-K). This update uses the company's Adjusted FFO ($2.00-$2.05 guide) and states an end-2029 value including dividends, as the WU and CNM calls do. On price alone the weighted end-2029 value is $16.60, below August's $17.18; the 'raise' refers to the published value, which now counts about $2.91 of weighted dividends. Adjusted FFO each year = Adjusted EBITDA - net interest (interest expense less interest income) - $18M. The $18M is calibrated, not a check: it is solved from the FY2026 guide midpoints ($640M - $215M - $18M = $407M, the midpoint of $402-$412M, or $2.025 on the guide's 201M diluted shares). It also stands in for distributions to noncontrolling interests ($10M in 9M 2026). Adjusted FFO adds back share-based compensation (about $20M a year), severance and other items; it is before capital expenditure. Shares: the model starts from the 201M diluted shares in the FY2026 Adjusted FFO guide (Q3 Adjusted FFO count 202M; inputs.json diluted_shares_m of 200.0 is the GAAP diluted count, which excludes anti-dilutive awards; 202.08M outstanding on October 30 is used for market cap) and grows 0.5% a year from stock awards. Exit multiples on Adjusted FFO: 5.5x / 7.5x / 9.0x. PK's own year-end multiples were 6.8x at end-2024 ($14.07 on $2.06) and 5.3x at end-2025 ($10.46 on $1.97); today it is 7.85x on the 2026 guide midpoint and 10.8x EV/2026 Adjusted EBITDA. The whole lodging group rerated in 2026 (end-2025 to October 2026 closes in data/multiples: PK $10.46 to $16.60, +59%; HST $17.73 to $25.30, +43%; SHO $8.94 to $12.79, +43%; PEB $11.32 to $21.54, +90%), so today's multiple is not PK-specific. On FY2025 SEC facts, HST is (765 + 795) / 694.1 = $2.25 of net income plus D&A a share, 7.9x at end-2025 and 11.2x in October 2026, with EV about equal to market cap; SHO's FY2025 net income to common of $8.2M plus $134.5M of D&A is about $0.73 a share, 17.4x at $12.79, distorted by near-zero net income. Net income plus D&A is not Adjusted FFO, so these bound rather than set the multiples. The SIC 7011 peers (LVS, MGM, WYNN) are casino operators and not used. The base at 7.5x holds near today because leverage falls from 5.8x to 4.8x EBITDA, and stays below it because $1.7B floats and 4.8x is still well above HST; the bull's 9.0x is still below HST. The P/FFO values imply 8.8x / 9.6x / 10.4x end-2029 EV/EBITDA, inside the 9.0x / 10.5x / 12.0x cross-check. Embedded growth against interest: Royal Palm hotel EBITDA about $3M in 2026, at least $14M in 2027, about $28M stabilized by 2028 (call); Hawaii renovations to recapture about $60M+ over the next couple of years (call). Base takes $25M and $30M of these by 2029 ($55M, about $0.27 a share on 204M shares), bear $18M and $15M, bull $28M and $60M. Of the $30M refinancing headwind, about $13M is already in the 2026 guide (release), so $17M is new in 2027; with the 2028-2029 notes repricing near 6.5%, base net interest rises $28M from 2026 to 2029 (about $0.14 a share; no corporate tax shield at the REIT level). Remaining Non-Core sales (five hotels; $37M of 2025 EBITDA in the release, about $34M on the call, about $20M of it Lake Buena Vista) are modeled as neutral to Adjusted FFO: at the 16x the program has averaged, proceeds retire debt costing about 6%, saving about what the hotels earned. Net debt path: starts end-2026 at $3,730M (September 30 Net Debt $3,725M; Q4 Adjusted FFO of about $98M less about $70M of remaining 2026 capex and the $50M October dividend adds about $20M, offset by about $19M from The Wade sale), then Adjusted FFO less capex ($175-185M) less dividends; year-end only, and with no Non-Core sale proceeds (each sale lowers net debt: at 16x, the four smaller hotels' $14M of EBITDA is about $224M). End-2027 / 2028 / 2029: bear $3.73B / $3.71B / $3.70B, base $3.69B / $3.61B / $3.52B, bull $3.66B / $3.52B / $3.35B. The company's Net Debt includes $105M of JV debt. Sensitivities (printed by the build script): weights 40/45/15 $18.35 (4.9%), 50/40/10 $17.20 (2.7%), 25/50/25 $20.27 (8.5%); base exit P/FFO 6.5x $18.35, 7.0x $18.93, 7.85x $19.92, 8.5x $20.67; base with no Hawaii recapture $18.96; base with 0% organic growth $18.79; base net interest +$20M a year $19.14; base dividend cut to $0.18 from October 2027 $19.19. The base exit multiple that returns today's price with dividends is 5.56x. Cross-check at 9.0x / 10.5x / 12.0x 2029 Adjusted EBITDA less net debt plus dividends: $13.11 / $23.51 / $33.89. Claim div-cut-2027 at 0.15: the bear (30%) cuts with 50% probability from the October 2027 payment, declared about July 2027, inside the claim window; base and bull hold the dividend. Claims fy27-guide-200 at 0.45 and fy27-affo-220 at 0.22: Park's one recent first annual guide ran well below the eventual result (February 2026 midpoint $1.81 against $2.025 by November, set against a 0-2% RevPAR outlook), so the base's $2.10 for 2027 is somewhat more likely guided below $2.00 than above it, though 2027 starts with core group pace up 6%. Claim net-debt-end27-370 at 0.65: every case ends 2027 between $3.66B and $3.73B before Non-Core proceeds, and any sale moves it lower. Peers captured for this update: HST, PEB and SHO monthly prices and SEC facts (capital.multiples capture and capital.sec).
+
+## Fundamentals known on 2026-11-26
+
+From committed SEC XBRL facts filed on or before the call date (`python3 -m capital.pit PK 2026-11-26`). Later restatements are not visible here by design.
 
 | Metric | Value | Period end | Basis | Filing |
 |---|---:|---|---|---|
-| Revenue (TTM) | 2,541.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Operating income (TTM) | 52.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Net income (TTM) | -163.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Diluted EPS (TTM) | -0.83 USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Operating cash flow (TTM) | 404.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Capex (TTM) | 323.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Free cash flow (TTM) | 81.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Stock comp (TTM) | 20.0M USD | 2026-06-30 | ttm ytd | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Cash | 264.0M USD | 2026-06-30 | instant | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Long-term debt | 3,932.0M USD | 2026-06-30 | instant | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Equity | 3,090.0M USD | 2026-06-30 | instant | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
-| Shares outstanding | 201.3M | 2026-07-31 | instant | [0001617406-26-000042](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000042/) |
+| Revenue (TTM) | 2,533.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Operating income (TTM) | 31.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Net income (TTM) | -165.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Diluted EPS (TTM) | -0.84 USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Operating cash flow (TTM) | 420.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Capex (TTM) | 312.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Free cash flow (TTM) | 108.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Stock comp (TTM) | 20.0M USD | 2026-09-30 | ttm ytd | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Cash | 295.0M USD | 2026-09-30 | instant | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Long-term debt | 3,955.0M USD | 2026-09-30 | instant | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Equity | 3,024.0M USD | 2026-09-30 | instant | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
+| Shares outstanding | 202.1M | 2026-10-30 | instant | [0001617406-26-000050](https://www.sec.gov/Archives/edgar/data/1617406/000161740626000050/) |
 
 ## Earnings calendar
 
@@ -45,6 +93,7 @@ Last release: 2026-11-04 (post-market 8-K Item 2.02, [0001617406-26-000047](http
 
 | Date | Price | Stance | Rule | Bear | Base | Bull | Fair value | Since call | vs SPY | Mark band | Files |
 |---|---:|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| 2026-08-24 | $15.86 | Watch | Watch | $12.29 | $16.39 | $23.64 | $17.18 | +5.5% | +6.6% | base to bull | [report](https://github.com/refcell/capital/blob/32337b9/research/PK.md) · [model](https://github.com/refcell/capital/blob/54a59f9/models/%5B2026-08-24%5D%20Park%20Hotels%20%26%20Resorts%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/54a59f9/models/_build_PK.py) |
+| 2026-11-26 | $15.89 | Watch | Watch | $12.53 | $20.39 | $27.77 | $19.51 | — | — | — | [report](https://github.com/refcell/capital/blob/main/research/updates/PK/2026-11-26.md) · [projection](https://github.com/refcell/capital/blob/main/projections/PK.md) · [model](https://github.com/refcell/capital/blob/main/models/PK/2026-11-26.xlsx) · [script](https://github.com/refcell/capital/blob/main/models/_build_PK_2026-11-26.py) |
+| 2026-08-24 | $15.86 | Watch | Watch | $12.29 | $16.39 | $23.64 | $17.18 | +1.8% | +7.7% | bear to base | [report](https://github.com/refcell/capital/blob/32337b9/research/PK.md) · [model](https://github.com/refcell/capital/blob/54a59f9/models/%5B2026-08-24%5D%20Park%20Hotels%20%26%20Resorts%20Model.xlsx) · [script](https://github.com/refcell/capital/blob/54a59f9/models/_build_PK.py) |
 
 Data: `data/PK/`. Prices: `data/prices/PK.csv`.
